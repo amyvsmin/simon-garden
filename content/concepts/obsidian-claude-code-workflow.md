@@ -26,6 +26,7 @@ notion-page-id: 354f85da-554f-8100-8cff-fe5533b688ca
 # 應用場景
 
 - Simon 工作場景：SimonVault（Google Cybersecurity 課程筆記、CCNA、SSCP 等證照系列）+ Claude Code course-notes skill 自動寫筆記；CLAUDE.md 已建在 ~/projects/Simon-Agent 與全域 ~/.claude/CLAUDE.md 兩層
+- 課程／業配開發者場景（Josie）：Obsidian + Claudian plugin + 50+ 過去專案筆記當 reference + 封裝成 `project planner` skill；流程「cluster → template reference → AskUser 訪談」拒絕 AI 腦補無關任務（如對方公司內部公文流程）
 - 一般場景：研究者、創作者、技術職、自學者，特別適合需要長期累積且重隱私的人
 
 # 相關概念
@@ -47,3 +48,4 @@ notion-page-id: 354f85da-554f-8100-8cff-fe5533b688ca
 
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
 - [[2026-05-05-obsidian-cli-claude-code-daily-loop]]
+- [[2026-05-11-josie-claude-code-obsidian-project-planner]]

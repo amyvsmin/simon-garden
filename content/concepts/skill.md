@@ -20,6 +20,8 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - **來源**：Anthropic 官方（superpowers、example-skills）+ 社群外掛 + 自製
 - **與 Plugin 的關係**：Plugin 是一組 Skills 的打包，安裝 Plugin 會帶入多個 Skills
 - **Skill Creator**：用自然語言讓 Claude 自動產出新 Skill
+- **prompt-to-skill 封裝模式（Josie）**：對話得到滿意結果後直接請 Claude「把這段流程寫成 skill」、不是寫成 prompt；下次同類任務觸發 skill 自動跑同流程；自滾動 pipeline 的閉環
+- **AskUser 內建工具**：skill description 只要說「請與我確認」、Claude 自動觸發 AskUser、不需要在 skill 裡明寫 ask tool；參見 [[interview-driven-prompting]]
 
 # 應用場景
 
@@ -30,6 +32,8 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 
 - [[claude-code]]：Skill 運行的宿主環境
 - [[subagents]]：Subagent 是持久化分身，Skill 是可召喚的流程；兩者在「重用」這個問題上互補
+- [[interview-driven-prompting]]：skill 可內嵌訪談式互動防腦補
+- [[template-reference-pattern]]：skill 可結合既有 template reference 提高產出品質
 
 # 尚未解決的疑問
 
@@ -40,3 +44,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
+- [[2026-05-11-josie-claude-code-obsidian-project-planner]]
