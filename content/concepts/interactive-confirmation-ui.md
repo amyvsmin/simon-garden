@@ -3,8 +3,9 @@ title: "互動式確認介面（AI 決策時刻）"
 slug: interactive-confirmation-ui
 aliases: [互動式確認 UI, interactive confirmation, AI decision UI, 關鍵決策互動介面]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-10
+last-validated: 2026-05-10
 ---
 
 # 互動式確認介面（AI 決策時刻）
