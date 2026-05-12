@@ -18,6 +18,9 @@ notion-page-id: 351f85da-554f-81b5-a0f8-f6d5fbf4a665
 - 每次 session 自動載入，不必重述
 - 各家 AI 工具有自己的命名（Claude Code 用 CLAUDE.md、Cursor 用 .cursorrules、Gemini 用 GEMINI.md、開源 agent 多用 AGENTS.md）
 - 通常不版控敏感資料；分層設計（全域 / 專案）能控制可見範圍
+- **跟 [[skill]] 的分工（雷蒙範式）**：CLAUDE.md = 「入職手冊」放通用偏好（語言、風格、禁區、資料夾結構）、Skill = 「SOP」放特定任務完整流程（步驟、格式、範例、例外處理）
+- **更新頻率**：CLAUDE.md 偶爾改、Skill 每次做錯就改；長流程強塞 CLAUDE.md 會讓它又長又亂
+- **載入機制差異**：CLAUDE.md 每次對話都自動載入（佔常駐 token）、Skill 相關時才載入（progressive disclosure）
 
 # 應用場景
 
@@ -36,3 +39,4 @@ notion-page-id: 351f85da-554f-81b5-a0f8-f6d5fbf4a665
 # 來源（自動維護）
 
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
+- [[2026-05-12-raymond-claude-code-skill]]

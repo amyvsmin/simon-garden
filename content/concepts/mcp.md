@@ -20,6 +20,9 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 - **安全邊界**：權限控制由 MCP client（如 Claude Code）管理，每次工具呼叫可要求使用者授權
 - **生態系**：Anthropic 推動的開放標準，社群與官方皆有 server 實作
 - **傳輸模式**：stdio（本地）、SSE / HTTP（遠端）
+- **跟 API 的取捨（雷蒙觀點）**：MCP 是有人幫你包好的 API 子集、功能權限常少於原生 API；Notion 官方 MCP 跟 Notion API 比缺很多、WordPress 也是；功能要全開時最終還是回到 [[api]] 自己寫
+- **裝太多會吃 context window**：每個 MCP server 在 Claude session 載入時都佔 token、無腦多裝會榨乾 AI 記憶空間
+- **判斷法**：要新工具能力時直接問 AI「這個工具在 MCP 跟 API 上、功能跟使用上的差異？」、AI 評估後給比較表
 
 # 應用場景
 
@@ -30,6 +33,8 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 
 - [[claude-code]]：MCP 的主要宿主平台，CC 啟動時載入已註冊的 MCP server
 - [[skill]]：Skill 本身不是 MCP，但 Skill 的執行經常呼叫 MCP 工具
+- [[api]]：MCP 是 API 的包裝層、不是替代品
+- [[cli]]：CLI 也常是 API 的包裝、跟 MCP 互為替代選項
 
 # 尚未解決的疑問
 
@@ -41,3 +46,4 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
+- [[2026-05-12-raymond-ai-controls-software]]

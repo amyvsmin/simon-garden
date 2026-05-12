@@ -22,6 +22,11 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - **Skill Creator**：用自然語言讓 Claude 自動產出新 Skill
 - **prompt-to-skill 封裝模式（Josie）**：對話得到滿意結果後直接請 Claude「把這段流程寫成 skill」、不是寫成 prompt；下次同類任務觸發 skill 自動跑同流程；自滾動 pipeline 的閉環
 - **AskUser 內建工具**：skill description 只要說「請與我確認」、Claude 自動觸發 AskUser、不需要在 skill 裡明寫 ask tool；參見 [[interview-driven-prompting]]
+- **跟 [[instructions-file]] 的分工（雷蒙範式）**：CLAUDE.md 是「入職手冊」放通用偏好、Skill 是「SOP」放特定任務完整流程；CLAUDE.md 每次對話自動載入、Skill 按需載入；不該把整本 SOP 塞進簡介
+- **「連續三次重複交代 = 寫 Skill」判準**：在不同對話三次跟 AI 講同一件事就應該寫成 Skill
+- **進化路徑**：每次都要講 → SKILL.md → 加 references/ 子資料夾 → 加 scripts/ → 加版本號與 changelog → 打包成 Plugin；大部分人到第三步就夠
+- **GPTs/Gems 範式翻轉**：GPTs 時代要「先想找誰、再開哪個對話框」；Skill 時代靠 description 自動匹配、AI 主動抓對應流程進來、「工具來找人」取代「人去找工具」
+- **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝
 
 # 應用場景
 
@@ -45,3 +50,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-11-josie-claude-code-obsidian-project-planner]]
+- [[2026-05-12-raymond-claude-code-skill]]
