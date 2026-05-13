@@ -22,6 +22,8 @@ notion-page-id: 354f85da-554f-8100-8cff-fe5533b688ca
 - **MCP 串接**：透過 MCP 連 Notion、Gmail、Calendar 等外部工具，讓 vault 不只是封閉檔案系統
 - **Skills 跟著版本走**：把 skills 放在 vault 內，能跟著筆記一起 git 化
 - **本地化優勢**：隱私、可控、不依賴雲端服務、AI 越用越貼合自己
+- **跨專案連線（Dustin 觀點 2026-05-13）**：[[wikilink-cross-folder]] 突破樹狀資料夾結構限制、讓 AI 讀某檔案時自動跳到關聯檔案讀全貌；解決多專案間「上下文視窗滿了」「跨專案資訊斷裂」兩大痛點
+- **漸進長出（Dustin 觀點 2026-05-13）**：[[progressive-vault-growth]] 知識庫從 projects + pillars 起步、隨使用慢慢長出 decisions／daily logs／weekly review／personal／insights／bookmarks；不要一夜建好
 
 # 應用場景
 
@@ -38,6 +40,8 @@ notion-page-id: 354f85da-554f-8100-8cff-fe5533b688ca
 - [[mcp]]：本工作流串接外部服務的協議層
 - [[obsidian-cli-plugin]]：另一條讓 Claude Code 直接控制 Obsidian 的橋接路徑
 - [[kaigong-shougong-loop]]：本工作流之上的每日 AI 開工收工 loop
+- [[wikilink-cross-folder]]：跨資料夾連線、突破樹狀結構限制（Dustin 觀點）
+- [[progressive-vault-growth]]：漸進長出心法（Dustin 觀點）
 
 # 尚未解決的疑問
 
@@ -49,3 +53,4 @@ notion-page-id: 354f85da-554f-8100-8cff-fe5533b688ca
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
 - [[2026-05-05-obsidian-cli-claude-code-daily-loop]]
 - [[2026-05-11-josie-claude-code-obsidian-project-planner]]
+- [[2026-05-13-dustin-obsidian-cross-project-vault]]

@@ -72,6 +72,6 @@ sudo groupdel simon                      # 清 useradd 自動建的同名 group
 
 # 來源
 
-- Course 4 Module 3 Section 3 Leaf 9 Add and delete users
-- Course 4 Module 3 Section 3 Leaf 10 Responsible use of sudo
-- Course 4 Module 3 Section 3 Leaf 13 Exemplar add and manage users
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-3-authenticate-and-authorize-users/9-add-and-delete-users|Course 4 Module 3 Section 3 Leaf 9 Add and delete users]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-3-authenticate-and-authorize-users/10-responsible-use-of-sudo|Course 4 Module 3 Section 3 Leaf 10 Responsible use of sudo]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-3-authenticate-and-authorize-users/13-exemplar-add-and-manage-users-with-linux-commands|Course 4 Module 3 Section 3 Leaf 13 Exemplar add and manage users]]

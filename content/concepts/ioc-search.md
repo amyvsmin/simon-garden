@@ -54,5 +54,5 @@ sudo find / -mmin -30 -type f
 
 # 來源
 
-- Course 4 Module 3 Section 2 Leaf 1 Find what you need with Linux
-- Course 4 Module 3 Section 2 Leaf 2 Filter content in Linux
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-2-manage-file-content-in-bash/1-find-what-you-need-with-linux|Course 4 Module 3 Section 2 Leaf 1 Find what you need with Linux]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-2-manage-file-content-in-bash/2-filter-content-in-linux|Course 4 Module 3 Section 2 Leaf 2 Filter content in Linux]]

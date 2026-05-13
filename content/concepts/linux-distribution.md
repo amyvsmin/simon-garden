@@ -35,5 +35,5 @@ query-count: 0
 
 # 來源
 
-- Course 4 Module 2 Section 2 Linux distributions
-- Course 4 Module 2 Section 2 More Linux distributions
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-2-the-linux-operating-system/section-2-linux-distributions/1-linux-distributions|Course 4 Module 2 Section 2 Linux distributions]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-2-the-linux-operating-system/section-2-linux-distributions/3-more-linux-distributions|Course 4 Module 2 Section 2 More Linux distributions]]

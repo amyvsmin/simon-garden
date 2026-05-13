@@ -79,5 +79,5 @@ which ls
 
 # 來源
 
-- Course 4 Module 3 Section 4 Leaf 3 Man pages within the shell
-- Course 4 Module 3 Section 4 Leaf 4 Linux resources
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-4-get-help-in-linux/3-man-pages-within-the-shell|Course 4 Module 3 Section 4 Leaf 3 Man pages within the shell]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-4-get-help-in-linux/4-linux-resources|Course 4 Module 3 Section 4 Leaf 4 Linux resources]]

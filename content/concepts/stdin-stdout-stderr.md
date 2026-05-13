@@ -33,4 +33,4 @@ Linux 每個 process 預設有的三個 I/O 通道：stdin（標準輸入、fd 0
 # 來源
 
 - Course 4 Module 2 Section 3 The shell
-- Course 4 Module 3 Section 2 Leaf 1 Find what you need with Linux
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-2-manage-file-content-in-bash/1-find-what-you-need-with-linux|Course 4 Module 3 Section 2 Leaf 1 Find what you need with Linux]]

@@ -31,5 +31,5 @@ query-count: 0
 
 # 來源
 
-- Course 4 Module 3 Section 2 Leaf 6 Create and modify directories and files
-- Course 4 Module 3 Section 2 Leaf 7 Identify Key Linux commands
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-2-manage-file-content-in-bash/6-create-and-modify-directories-and-files|Course 4 Module 3 Section 2 Leaf 6 Create and modify directories and files]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-2-manage-file-content-in-bash/7-identify-key-linux-commands|Course 4 Module 3 Section 2 Leaf 7 Identify Key Linux commands]]

@@ -80,4 +80,4 @@ chmod 777 /home                    # 任何 user 可改任何 user 的檔
 
 # 來源
 
-- Course 4 Module 3 Section 3 Leaf 1 File permissions and ownership
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-3-authenticate-and-authorize-users/1-file-permissions-and-ownership|Course 4 Module 3 Section 3 Leaf 1 File permissions and ownership]]

@@ -64,4 +64,4 @@ ls -la /tmp | awk '{print $3, $9}'
 
 # 來源
 
-- Course 4 Module 3 Section 1 Leaf 4 Navigate Linux and read file content
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-1-navigate-the-linux-file-system/4-navigate-linux-and-read-file-content|Course 4 Module 3 Section 1 Leaf 4 Navigate Linux and read file content]]

@@ -37,5 +37,5 @@ query-count: 0
 
 # 來源
 
-- Course 4 Module 3 Section 1 Leaf 3 Core commands for navigation
-- Course 4 Module 3 Section 1 Leaf 4 Navigate Linux and read file content
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-1-navigate-the-linux-file-system/3-core-commands-for-navigation-and-reading-files|Course 4 Module 3 Section 1 Leaf 3 Core commands for navigation]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-1-navigate-the-linux-file-system/4-navigate-linux-and-read-file-content|Course 4 Module 3 Section 1 Leaf 4 Navigate Linux and read file content]]

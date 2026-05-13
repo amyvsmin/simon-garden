@@ -32,5 +32,4 @@ query-count: 0
 
 # 來源
 
-- Course 4 Module 3 Section 1 Leaf 1 File permissions and ownership
-- Course 4 Module 3 Section 2 Leaf 2 Filter content in Linux
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-2-manage-file-content-in-bash/2-filter-content-in-linux|Course 4 Module 3 Section 2 Leaf 2 Filter content in Linux]]

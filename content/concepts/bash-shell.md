@@ -32,5 +32,5 @@ Bourne Again Shell、多數 Linux distro 預設的 [[linux-shell]]。是 Bourne 
 
 # 來源
 
-- Course 4 Module 3 Section 1 Leaf 2 Linux commands via the Bash shell
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-1-navigate-the-linux-file-system/2-linux-commands-via-the-bash-shell|Course 4 Module 3 Section 1 Leaf 2 Linux commands via the Bash shell]]
 - Course 4 Module 2 Section 3 The shell
