@@ -71,8 +71,10 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               },
             })
 
-            if (data.title != null && data.title.toString() !== "") {
-              data.title = data.title.toString()
+            // Simon 客製：vault concept frontmatter 慣例用 `name:`，把它當 title alias
+            const titleValue = coalesceAliases(data, ["title", "name"])
+            if (titleValue != null && titleValue.toString() !== "") {
+              data.title = titleValue.toString()
             } else {
               data.title = file.stem ?? i18n(cfg.configuration.locale).propertyDefaults.title
             }
