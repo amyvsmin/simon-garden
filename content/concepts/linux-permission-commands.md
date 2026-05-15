@@ -8,11 +8,11 @@ last-queried: ""
 query-count: 0
 ---
 
-# 定義
+## 定義
 
 操作 [[file-permissions]] 的命令工具集——`ls -l` 看權限、`chmod` 改權限、`chown` 改 owner。是 [[principle-of-least-privilege]] 在 Linux 的具體落實工具。
 
-# 核心命令
+## 核心命令
 
 ## ls 看權限
 
@@ -58,14 +58,14 @@ $ ls -la
 | `sudo chown USER:GROUP FILE` | 同時改 |
 | `sudo chown -R apache:apache /var/www/` | 遞迴 |
 
-# 關鍵面向
+## 關鍵面向
 
 - **chmod 三 operator**：`+` 加 / `-` 減 / `=` 覆蓋（清舊的）
 - **`chmod 777` 是災難**：world-writable + executable = webshell 落地點
 - **`chmod -R` 慎用**：遞迴影響整棵樹、改錯難救
 - **chown 冒號語法**：`USER:GROUP` 同改、`:GROUP` 只改 group
 
-# 應用場景
+## 應用場景
 
 - **Simon 工作場景**：
   - SSH key `chmod 600 ~/.ssh/id_rsa`（OpenSSH 強制）
@@ -73,14 +73,14 @@ $ ls -la
   - 設定檔備份後 `chmod -w` 唯讀防誤改
 - **IR / forensics**：找 world-writable 檔、找 SUID 後門、修復被改 ownership
 
-# 相關概念
+## 相關概念
 
 - [[file-permissions]]：權限本身的概念
 - [[principle-of-least-privilege]]：權限設計指導原則
 - [[world-writable-file]]：常見 misconfig
 - [[linux-user-mgmt-commands]]：user/group 是權限的對象
 
-# 來源
+## 來源
 
 - [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-3-authenticate-and-authorize-users/1-file-permissions-and-ownership|Course 4 Module 3 Section 3 Leaf 1 File permissions and ownership]]
 - [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-3-linux-commands-in-the-bash-shell/section-3-authenticate-and-authorize-users/2-change-permissions|Course 4 Module 3 Section 3 Leaf 2 Change permissions]]

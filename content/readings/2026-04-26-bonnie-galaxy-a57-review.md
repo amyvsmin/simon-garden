@@ -9,11 +9,11 @@ inbox-id: 34df85da-554f-81a6-b716-d4b50cac22fe
 notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
 ---
 
-# 摘要
+## 摘要
 
 邦尼幫你呂子評測 Samsung Galaxy A57。三大升級：(1) 受惠 Exynos 1680 ISP 升級的相機（夜間錄影降噪、AI 分區最佳化）；(2) 機身輕薄到 179g、6.9mm + IP68 防護升級；(3) 三星 Awesome Intelligence 進一步下放 AI 語音轉文字、通話智慧助理。eSIM 終於支援、5000mAh + 45W 快充、續航約 13.5 小時。隱藏亮點是螢幕：sRGB / P3 雙色域 99% 覆蓋、Delta E < 2 頂級色準。
 
-# 核心概念
+## 核心概念
 
 本影片釋出三個可跨品牌跨類型的可讀取概念：
 
@@ -21,7 +21,7 @@ notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
 - [[smartphone-screen-methodology]]：本影片展示了詳盡的 sRGB / P3 + Delta E + 峰值亮度評測流程
 - [[vc-bypass-charging]]：A57 繼續下放這兩個原本旗艦 / 電競手機專有的功能
 
-# 對 Simon 的應用
+## 對 Simon 的應用
 
 這支影片跟 Simon 直接工作（內部 IT、資安、ISO 27001）並不相關，是純粹個人購機參考的資訊。但這次收錄本身是 KW v0.4 Gemini 備援驗證的主要目的：證明無字幕影片能被完整轉成逐字稿 + 萃取出可重複使用的概念。
 
@@ -31,7 +31,7 @@ notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
 - 手機螢幕評測方法論——公司採購會議室投影、機房監控螢幕、個人選購 4K 螢幕都能用
 - VC + 旁路充電——個人設備長期使用的電池保護設定參考
 
-# 原文要點
+## 原文要點
 
 ## A57 三大升級
 
@@ -53,7 +53,7 @@ notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
 - 旁路充電（插電玩遊戲時避免電池負擔）
 - 連續 6 年安全更新 + 6 個 Android 大版本更新（Android 16 → 22）
 
-# 原始連結
+## 原始連結
 
 - YouTube：https://www.youtube.com/watch?v=vW-yQGijRUA
 - 作者：邦尼幫你（呂子）

@@ -9,11 +9,11 @@ inbox-id: 350f85da-554f-81db-b79c-e3b2db1b0baf
 notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
 ---
 
-# 摘要
+## 摘要
 
 德國電信 Deutsche Telekom 紅隊團隊揭露 Linux 套件管理工具 PackageKit 的高風險權限提升漏洞 Pack2TheRoot，編號 CVE-2026-41651、CVSS 8.8 分。非特權攻擊者可在無需密碼的情況下安裝或移除系統套件，進而取得 root 權限。受影響範圍包含 Ubuntu Desktop 18.04 至 26.04、Ubuntu Server 22.04 至 24.04、Debian Trixie 13.4、Rocky Linux 10.1、Fedora 43 工作站與伺服器版。漏洞最早可追溯至 14 年前的 0.8.1 版，PackageKit 開發團隊已於 1.3.5 版完成修補。研究人員特別指出，此漏洞是借助 Anthropic Claude Opus 模型輔助分析後成功發現，反映 AI 模型在原始碼審查與漏洞挖掘的實戰價值正持續提升。
 
-# 核心概念
+## 核心概念
 
 - [[pack2theroot]]：Linux PackageKit 的本機權限提升漏洞，免密碼即可裝套件變 root
 - [[packagekit]]：抽象化各發行版套件管理器的 D-Bus 中介服務，影響範圍橫跨主流 Linux
@@ -22,7 +22,7 @@ notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
 - [[cvss]]：漏洞嚴重性量化標準，本漏洞 8.8 分屬高風險
 - [[ai-vuln-discovery]]：借助 Claude Opus 等大型語言模型協助找漏洞，挖出潛伏 14 年的瑕疵
 
-# 對 Simon 的應用
+## 對 Simon 的應用
 
 - **資產盤點與修補（ISO 27001）**：列出公司內 Linux 主機（若有）的 PackageKit 版本，檢查是否需升級到 1.3.5；可作為 A.12.6.1 技術性弱點管理流程的演練案例
 - **資安 KPI 月簡報**：可引用本漏洞作為「2026 年 4 月關注漏洞」的範例，搭配 CVSS 8.8 與 14 年潛伏期，凸顯供應鏈深層風險
@@ -30,7 +30,7 @@ notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
 - **Claude Code 自架環境**：本案是 Claude Opus 在資安領域的成功實戰，可激發 Simon 用 Claude Code 對自己工作環境做小型程式碼審查的點子
 - **CISSP / SSCP 準備**：把 Pack2TheRoot 當作 Domain 3 / Domain 7 的記憶錨點，串接權限提升、漏洞管理、紅隊三個必考主題
 
-# 原文要點
+## 原文要點
 
 - 漏洞名稱 Pack2TheRoot，CVE-2026-41651，CVSS 8.8 分高風險，屬本機權限提升
 - 漏洞存在於 PackageKit 套件管理工具，可讓非特權攻擊者免密碼安裝或移除系統套件
@@ -39,7 +39,7 @@ notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
 - 修補版本：PackageKit 1.3.5
 - 揭露單位：德國電信 Deutsche Telekom 紅隊團隊；研究過程借助 Anthropic Claude Opus 模型輔助分析
 
-# 原始連結
+## 原始連結
 
 - 原文：https://www.ithome.com.tw/news/175353
 - 媒體：iThome

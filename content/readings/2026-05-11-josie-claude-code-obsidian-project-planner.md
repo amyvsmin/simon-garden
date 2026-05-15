@@ -9,7 +9,7 @@ projects: []
 created: 2026-05-11
 ---
 
-# Josie：Claude Code × Obsidian 專案管理五階段
+## Josie：Claude Code × Obsidian 專案管理五階段
 
 ## 摘要
 

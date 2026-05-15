@@ -8,11 +8,11 @@ concepts: [reverse-skill-design, sentinel-test, pure-receive-immediate-write, di
 notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
 ---
 
-# 摘要
+## 摘要
 
 2026-04-24 完整設計記錄：Simon 把日記流程從 ChatGPT GPTs「AI 生產力日記助手」搬到 Claude Code `/journal` skill。核心反轉是動機優先序：從「資料主控」改成「簡化流程 > 資料主控」。決策骨幹為 Notion 當日記 sink、Obsidian vault 當 WIKI 知識、Heptabase 退訂；入口採目錄即觸發（C9）、純接收 + 即時落地（A3 + C7）；輸出結構三段本文 + 8 位導師池挑 3。Phase 1–5 Notion 回寫測試全綠，發現 MCP 不支援封存、rich text 可行但 Simon 選純文字方向 A、冪等需 fetch-then-replace、API 會回暫時 502 須重試。下一步實作 skill 本體、自試實測、週復盤機制設計。
 
-# 核心概念
+## 核心概念
 
 - [[reverse-skill-design]]：撈 5 篇 2026-04-19 ~ 04-23 GPTs 產出的日記，逐題反推出 B-1 ~ B-3 輸出格式、A1 ~ A10 行為、C1 ~ C12 控制流
 - [[sentinel-test]]：在 production DB 用 1900-01-01 + `[TEST-PHASE-N]` 前綴跑 Phase 1 ~ 5，取代建獨立測試 DB
@@ -20,14 +20,14 @@ notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
 - [[directory-as-trigger]]：C9 進 /Simon-Journal = 自動接收模式；C10 目錄分工避免 meta 污染
 - [[simplicity-over-control]]：2026-04-24 反轉動機的主判準，同時適用於 Notion vs Obsidian 分工、Heptabase 退訂、rich text 放棄
 
-# 對 Simon 的應用
+## 對 Simon 的應用
 
 - **每天的日記流程**：打開 Claude Code 進入 /Simon-Journal 目錄即可直接寫，不需要再貼回 Notion；跨裝置（手機、電腦、網頁）體感一致
 - **設計方法論可重用**：Q5 反推、Sentinel、目錄即觸發、純接收 + 即時落地四個方法未來設計其他 skill 都能拿來用
 - **系統分工穩固**：Notion = 日記 + 任務 + 復盤，vault = WIKI 知識，Heptabase 退訂（每年省 3,455 元）
 - **Claude Code 能力邊界**：清楚知道 MCP 不支援封存、rich text 可寫入、需自行做 fetch-then-replace 冪等、API 會回 502 要重試，未來設計任何 Notion skill 都能繞過這些坑
 
-# 原文要點
+## 原文要點
 
 ## 歷史脈絡
 
@@ -74,7 +74,7 @@ notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
 
 修正：C6 改寫顯式「不要用 notion-search」+ 「唯一正確方法用 query view + client-side date filter」+ 把本次自試當反面案例寫進 spec。
 
-# 原始連結
+## 原始連結
 
 無原文 URL（原創設計記錄）。
 

@@ -9,11 +9,11 @@ query-count: 0
 notion-page-id: 349f85da-554f-8184-b4c9-e39540364c8c
 ---
 
-# 定義
+## 定義
 
 Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化為可重用的指令包，核心精神是「試一次、存起來、用很多次」。
 
-# 關鍵面向
+## 關鍵面向
 
 - **組成**：description（觸發條件說明）、主體 prompt（含指示與範例）、附屬腳本或資源檔
 - **觸發**：使用者意圖匹配 description 時自動載入到對話中
@@ -28,24 +28,24 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - **GPTs/Gems 範式翻轉**：GPTs 時代要「先想找誰、再開哪個對話框」；Skill 時代靠 description 自動匹配、AI 主動抓對應流程進來、「工具來找人」取代「人去找工具」
 - **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝
 
-# 應用場景
+## 應用場景
 
 - Simon 工作場景：已安裝 superpowers 系列（TDD、plan、debug 等）、example-skills（pptx、pdf、xlsx、brand-guidelines 等）
 - 一般場景：重複性工作流（會議紀錄、報表、簡報生成）、品牌或風格規範固化、專業領域知識注入
 
-# 相關概念
+## 相關概念
 
 - [[claude-code]]：Skill 運行的宿主環境
 - [[subagents]]：Subagent 是持久化分身，Skill 是可召喚的流程；兩者在「重用」這個問題上互補
 - [[interview-driven-prompting]]：skill 可內嵌訪談式互動防腦補
 - [[template-reference-pattern]]：skill 可結合既有 template reference 提高產出品質
 
-# 尚未解決的疑問
+## 尚未解決的疑問
 
 - Skill 版本管理與團隊共用機制
 - Skill 與 Subagent 的邊界：什麼時候該寫 Skill、什麼時候該做 Subagent
 
-# 來源（自動維護）
+## 來源（自動維護）
 
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
