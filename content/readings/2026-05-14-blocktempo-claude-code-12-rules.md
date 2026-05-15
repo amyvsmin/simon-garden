@@ -44,6 +44,26 @@ Andrej Karpathy 2026 年 1 月在 X 抱怨 Claude 寫程式三類典型問題（
 - **失敗實驗**：堆 Reddit 規則（重複）、示例代替規則（占上下文）、「小心點」（無法檢驗、遵守 30%）、「像資深工程師」（沒效）— 都不行
 - **使用建議**：把 Karpathy 4 條 + Mnilax 8 條當基礎，再加專案專屬規則；保留實際對應犯過錯的規則、刪不適用的
 
+## 落地動作與效益（2026-05-15 套用 4 條規則）
+
+| 規則 | 落地檔 | 動作 | 預期效益 |
+|---|---|---|---|
+| 11 一致性 | vault `2-knowledge/{readings,concepts}/` 112 個 md | 內文章節 `^# ` → `## `，全部升 H2 | article-title 是真正唯一 H1、HTML 語意層級正確、Reading Garden 顯示乾淨 |
+| 11 一致性 | `~/.claude/skills/knowledge-wiki/references/templates.md` | concept 跟 reading 範本砍掉 `# {title}` H1 | 未來新 reading／concept 不再生 case 3（內文 H1 跟 article-title 重複）|
+| 11 一致性 | `~/.claude/skills/knowledge-wiki/references/lint-flow.md` | 加 `DupTitle` 健檢規則 | 萬一未來再生 case 3，健檢會抓到 |
+| 12 大聲失敗 | `~/.claude/skills/knowledge-wiki/references/ingest-flow.md` Step 7 | 寫 Notion 🌲 前 `test -s <reading>` 驗證 | 避免 silent success：Notion 已標完成但 reading 沒寫成功 |
+| 10 檢查點 | `~/.claude/skills/knowledge-wiki/references/batch-rules.md` | 每篇寫 changelog → 報 `N/M` → 才推下一篇 | 批次中途出錯可定位、不靜默推進到下一篇 |
+| 6 task 預算 | 同上 | 單篇 ingest 逼近 10K token 先 wrap 寫摘要 | 不硬撐燒爛 reading 品質 |
+| 6 session 預算 | 同上 | 批次累計逼近 200K token 主動提醒 Simon 切對話 | 不靜默讓 AI 在長 context 下鈍化 |
+| 連帶 | `~/.claude/skills/knowledge-wiki/references/ingest-flow.md` Step 9 + 10 | 加「優化芙莉蓮」自檢 + 落地回寫 reading | 之後每篇 reading 都會自動跑這個流程、不必 Simon 主動提 |
+
+未落地的 12 條規則中其他 8 條：
+- **規則 1–4（Karpathy 原版）**：早上的全域／專案 CLAUDE.md 精神上已吻合，不必新增
+- **規則 5 Claude 該／不該做的分工**：抽象、case by case，難寫成 reusable rule
+- **規則 7 矛盾模式不混**：同上、case by case
+- **規則 8 改檔前先讀檔**：Read tool 強制已落地
+- **規則 9 測試編碼為什麼**：對 vault 寫作類任務難套（無單元測試）
+
 ## 原始連結
 
 - https://www.blocktempo.com/claude-code-12-rules-error-rate-3-percent-karpathy-agent/
