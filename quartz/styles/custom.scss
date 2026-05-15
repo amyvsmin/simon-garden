@@ -140,3 +140,10 @@ body {
     margin: 0.15rem 0;
   }
 }
+
+// Mobile：預設收起整個 explorer 內容（避免穿出版面、孤字殘留）
+@media (max-width: 800px) {
+  .explorer.collapsed > .explorer-content {
+    display: none;
+  }
+}
