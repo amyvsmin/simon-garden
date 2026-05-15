@@ -1,3 +1,142 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================
+// HackMD 風格客製 — 2026-05-15
+// 目標：CJK 站穩、留白寬鬆、閱讀導向
+// ============================================
+
+// --- 暖白底 + 中性深灰文字（覆蓋 Quartz 預設冷色票）---
+:root {
+  --light: #fdfaf6;        // 暖白底（原 #faf8f8）
+  --lightgray: #ecebe7;    // 邊線、淡分隔（原 #e5e5e5）
+  --dark: #24292e;         // 內文深灰（原 #2b2b2b）
+  --darkgray: #57606a;     // 次級文字
+  --secondary: #4183c4;    // 連結藍（HackMD 風，原 #284b63 太深）
+  --tertiary: #6a737d;
+}
+
+// --- 全域字型 + 行距 ---
+body {
+  font-family:
+    "Noto Sans TC",
+    "PingFang TC",
+    "Microsoft JhengHei",
+    "Heiti TC",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--dark);
+  letter-spacing: 0.01em;
+}
+
+// --- 內文區強化 ---
+.page article {
+  // 內容寬度收窄到 720px（HackMD 風）
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+
+  p {
+    line-height: 1.85;
+    margin: 1.1em 0;
+  }
+
+  // 標題層級 — HackMD 風底線
+  & > h1,
+  & > h2 {
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 0.4rem;
+    margin-top: 2.6rem;
+    font-weight: 600;
+  }
+
+  & > h1 {
+    font-size: 1.85rem;
+  }
+
+  & > h2 {
+    font-size: 1.45rem;
+  }
+
+  & > h3 {
+    margin-top: 2rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  // 引用區塊 — 暖色左邊條
+  blockquote {
+    border-left: 4px solid var(--secondary);
+    background: rgba(65, 131, 196, 0.05);
+    padding: 0.6rem 1rem;
+    margin: 1.2rem 0;
+    color: var(--darkgray);
+  }
+
+  // 行內 code — 淡灰底
+  code:not(pre code) {
+    background: rgba(175, 184, 193, 0.2);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+
+  // wikilink / 一般 link — 不要底線、hover 才出現
+  a {
+    text-decoration: none;
+    background-image: none;
+    border-bottom: 1px dotted transparent;
+    transition: border-color 0.15s ease;
+
+    &:hover {
+      border-bottom-color: var(--secondary);
+    }
+  }
+
+  // 清單留白
+  ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.6rem;
+
+    li {
+      margin: 0.35rem 0;
+    }
+  }
+}
+
+// --- 文章標題（最上方）---
+.article-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+// --- 右側 TOC sticky 浮動目錄樣式 ---
+.toc {
+  font-size: 0.88rem;
+
+  & .toc-title {
+    font-weight: 600;
+    color: var(--darkgray);
+    margin-bottom: 0.6rem;
+  }
+
+  & ul {
+    line-height: 1.6;
+  }
+}
+
+// --- 左側 Explorer 字體微調（避免太大壓內文）---
+.explorer {
+  font-size: 0.82rem;
+  line-height: 1.5;
+
+  & button.folder-button {
+    font-weight: 500;
+  }
+
+  & li {
+    margin: 0.15rem 0;
+  }
+}
