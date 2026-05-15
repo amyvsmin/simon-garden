@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# 主鍵（Primary Key）
-
 ## 定義
 資料表中的欄位（或欄位組合）、每列值唯一、不可空（NOT NULL）、每張 table 只能有一個；用來唯一識別每一列、是 SQL JOIN 的關聯依據。
 

@@ -8,8 +8,6 @@ created: 2026-05-06
 query-count: 0
 ---
 
-# Shadow AI
-
 ## 定義
 
 員工在未經組織批准、無 governance 機制的狀況下、使用 AI 工具（ChatGPT、Gemini、Cursor、Copilot 等）處理日常工作所形成的不可見資料外洩風險。Shadow IT 概念在 AI 時代的延伸。

@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# 異常偵測（Anomaly Detection）
-
 ## 定義
 找出資料中跟正常 baseline 不符的事件／模式、判定為潛在資安事件；資安分析師查 log 的核心心法、跟「白名單反推」「紅旗思維」相通；Course 6「Sound the Alarm」detection 章節主場、本課程在 SQL filter 應用層先預習。
 

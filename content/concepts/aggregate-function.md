@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# 聚合函數（Aggregate Function）
-
 ## 定義
 對多筆資料做計算、回傳單一結果（不是回傳原始資料）的 SQL 函數；本課程教三個常用—`COUNT`／`AVG`／`SUM`；是月度資安 KPI 報表跟 incident detection baseline 比較的核心工具。
 

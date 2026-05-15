@@ -8,8 +8,6 @@ created: 2026-05-05
 query-count: 0
 ---
 
-# 開工／收工每日 AI 工作流
-
 ## 定義
 
 用「開工」「收工」兩個固定觸發詞當每日工作的入口跟出口，讓 AI 助手（如 Claude Code）讀取 SessionHandoff 跟相關記憶檔，自動產出今日任務清單與一日總結，把跨對話框、跨 session、跨 compact 的工作上下文收斂到單一交接檔。

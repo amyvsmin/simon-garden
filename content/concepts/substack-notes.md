@@ -8,8 +8,6 @@ created: 2026-05-07
 query-count: 0
 ---
 
-# Substack Notes（短貼文）
-
 ## 定義
 
 Substack 站內的短貼文功能，形式類似 X／Threads，篇幅短、即時性高，是 Substack **最主要的站內自然曝光機制**——新讀者主要透過 Notes 探索頁面發現創作者、進而訂閱長文。

@@ -8,8 +8,6 @@ created: 2026-05-13
 query-count: 0
 ---
 
-# Claude /rewind 回溯機制
-
 ## 定義
 
 Claude Code 的新斜線命令、快捷鍵連按兩次 Esc、跳回任何先前訊息並從該點重新開始對話；後續訊息全部從 context 移除、像時光倒流；用來取代「多輪修正」式的 messy 對話。

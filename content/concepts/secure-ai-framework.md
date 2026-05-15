@@ -8,8 +8,6 @@ created: 2026-05-05
 query-count: 0
 ---
 
-# Secure AI Framework（SAIF）
-
 ## 定義
 
 Google 推出的 AI 全生命週期治理框架，涵蓋從資料、訓練、模型、佈署到應用層的安全與治理控制點，目標是讓企業「大膽且負責任」地導入 AI。

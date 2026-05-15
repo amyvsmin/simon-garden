@@ -8,8 +8,6 @@ created: 2026-05-06
 query-count: 0
 ---
 
-# Agentic Kill Chain
-
 ## 定義
 
 由 AI agent 串連完成的攻擊全流程：偵察 → 弱點識別 → 利用 → 橫向移動 → 維持存取 → 撤退。Cisco 副總裁 CYBERSEC 2026 Day 2 強調與人類攻擊鏈的決定性差異是 24／7 不間斷、自動決策、可在失敗時 self-adjust 重試。

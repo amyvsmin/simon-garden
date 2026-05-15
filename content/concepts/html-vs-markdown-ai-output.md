@@ -7,8 +7,6 @@ confidence: 待驗證
 created: 2026-05-10
 ---
 
-# HTML 取代 Markdown 作 AI 輸出格式
-
 ## 定義
 
 Anthropic Claude Code 工程師 Thariq Shihipar 2026-05 提出的論點：在 AI 工具足夠強大的今天、Markdown 從「最佳輸出格式」變成限制；HTML 因為可互動、可動態渲染、能承載決策介面，是更適合 AI 時代的人機協作格式。論點不是宣判 Markdown 死刑、而是指出在「需要人類確認的關鍵決策時刻」靜態文字牆是設計失誤。

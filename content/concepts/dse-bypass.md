@@ -8,8 +8,6 @@ created: 2026-05-05
 query-count: 0
 ---
 
-# Windows DSE 繞過（反射式驅動載入）
-
 ## 定義
 
 繞過 Windows DSE（Driver Signature Enforcement，強制驅動數位簽章）機制的攻擊技術。原本 DSE 要求所有載入的核心模式驅動必須帶有效簽章，但攻擊者透過已簽章的反射式載入器在記憶體中直接載入未簽章的驅動 binary，避開檔案系統層的簽章驗證。

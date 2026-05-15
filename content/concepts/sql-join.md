@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# SQL Join（多表合併）
-
 ## 定義
 把兩張或多張 table 用共同欄位（通常是 primary key/foreign key 配對）串起來、在一條 query 取跨表資訊；是 incident response 多表還原事件全貌、ISO 27001 資產對帳、漏洞影響範圍查詢的核心操作。
 

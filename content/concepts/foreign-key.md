@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# 外鍵（Foreign Key）
-
 ## 定義
 資料表中的欄位、其值對應到另一張表的 [[primary-key]]；用來建立兩表的關聯關係；可重複、可空（NULL 表示無關聯）、每張 table 可有多個。
 

@@ -7,8 +7,6 @@ confidence: 已驗證
 created: 2026-05-10
 ---
 
-# Claude 省 Token 四大守則
-
 ## 定義
 
 針對 Claude 訂閱戶長對話場景的 token 控制四原則：資料降噪（轉 Markdown 再丟）、停止錯誤堆疊（用 Edit 改源頭不要罵 AI）、對話水位管理（15 句來回就壓縮）、模型適配（日常用 Sonnet 不要全程 Opus）。背後邏輯是 token 不只是錢、更是 AI 的智商空間。

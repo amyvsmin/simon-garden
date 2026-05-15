@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# 關聯式資料庫
-
 ## 定義
 以資料表（table）為儲存單位、表內有欄（column）跟列（row）、表跟表透過共同鍵值（primary key／foreign key）產生關聯的結構化資料庫；是 SQL 的操作對象、企業資安資料（audit log、資產清單、員工表、權限表）多半住在這。
 

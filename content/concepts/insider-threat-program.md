@@ -8,8 +8,6 @@ created: 2026-05-06
 query-count: 0
 ---
 
-# Insider Threat Program
-
 ## 定義
 
 組織針對內部威脅的制度化防禦框架。美國總統 Executive Order 要求關鍵基礎設施組織必建置；美國中大型企業近年也在原 incident response 之外另設獨立 insider threat mitigation team、降低約 50% 事件量。

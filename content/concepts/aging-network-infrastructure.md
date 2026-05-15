@@ -8,8 +8,6 @@ created: 2026-05-06
 query-count: 0
 ---
 
-# 老化網路基礎設施
-
 ## 定義
 
 組織內已過 End of Life（EoL）／End of Support（EoS）的網路設備（防火牆、路由器、交換器、VPN 閘道、印表機伺服器等）所累積的結構性攻擊面。Cisco 副總裁 CYBERSEC 2026 Day 2 點出全球網路設備將近一半已 EoL／EoS、30% 硬體軟體超過 10 年。

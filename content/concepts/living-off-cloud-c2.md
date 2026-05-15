@@ -8,8 +8,6 @@ created: 2026-05-05
 query-count: 0
 ---
 
-# 濫用合法雲端服務作 C2／資料外洩
-
 ## 定義
 
 攻擊者把合法雲端服務（Cisco Webex、OneDrive、Dropbox、Google Drive 等）跟企業內建機制（DFS/DFSR、SysVol、Microsoft Teams、Slack）當作 C2 通道與資料外洩管道，藉此把惡意流量隱藏在企業正常使用的雲端流量中、繞過傳統 IP/Domain reputation 偵測。

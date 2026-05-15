@@ -8,8 +8,6 @@ created: 2026-05-06
 query-count: 0
 ---
 
-# 後量子密碼學
-
 ## 定義
 
 以量子電腦也算不出來的數學基礎（lattice、code-based、hash-based、multivariate）取代傳統 RSA／ECC 的下一代加密技術。NIST 在 2024 年正式標準化第一批演算法（Kyber、Dilithium、Falcon、SPHINCS+）；全球大企業在做密碼遷移（Cryptographic Migration）。

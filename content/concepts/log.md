@@ -8,8 +8,6 @@ created: 2026-05-09
 query-count: 0
 ---
 
-# Log（系統日誌）
-
 ## 定義
 組織系統內事件的紀錄檔、記錄誰在何時做了什麼；資安分析師日常 80% 工作的對象、incident response 還原事件全貌的核心資料來源；跟 [[log-traceability]] 的 vault 內部 audit log 不同、本概念指企業 IT 系統的 system log。
 

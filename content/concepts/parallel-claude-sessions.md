@@ -7,8 +7,6 @@ confidence: 待驗證
 created: 2026-05-10
 ---
 
-# 平行 Claude Code 視窗工作流
-
 ## 定義
 
 Boris Cherny 描述的高強度 Claude Code 工作模式：同時開 5 個 CC session、每個搭配獨立的 git worktree（不是 branch、是完整獨立工作目錄）、視窗彼此不干擾。搭配系統通知、CC 任一視窗需要人工決策時立刻收到提醒、切過去確認、再回原工作。Boris 自述一天可送 20-30 個 PR、5 小時任務壓縮到 1-2 小時。

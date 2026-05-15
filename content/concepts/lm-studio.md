@@ -8,8 +8,6 @@ created: 2026-05-13
 query-count: 0
 ---
 
-# LM Studio
-
 ## 定義
 
 對初學者友善的本機 LLM 圖形介面工具，提供模型搜尋／下載／管理／聊天／MCP 整合／程式碼助手後端等完整工作流；對比 Ollama 走 CLI 路線，LM Studio 走 GUI 路線、降低本機 AI 入門門檻。

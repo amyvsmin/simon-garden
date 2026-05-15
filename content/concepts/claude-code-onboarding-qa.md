@@ -7,8 +7,6 @@ confidence: 已驗證
 created: 2026-05-10
 ---
 
-# Claude Code Onboarding Q&A 模式
-
 ## 定義
 
 Boris Cherny（Claude Code 創始者）建議的入門心法：第一次進新 codebase 時、不要直接叫 CC 改程式碼、先讓它做 Q&A。問函式怎麼被呼叫、為什麼有 15 個參數、模組架構怎麼設計、commit 歷史脈絡，CC 會主動深入挖掘程式碼庫整理來龍去脈、新人 onboarding 時間從幾週縮短到幾天。

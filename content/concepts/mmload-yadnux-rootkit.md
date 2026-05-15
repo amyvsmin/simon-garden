@@ -8,8 +8,6 @@ created: 2026-05-05
 query-count: 0
 ---
 
-# MMLOAD/Yadnux 多階段反射式 rootkit
-
 ## 定義
 
 Earth Kurma APT 自 2024-04 起部署的多階段、反射式載入後門。整套組件含未簽章驅動程式（mmFilter.zlib、NsdiProxy.zlib）、反射式載入器（Google.sys、Boot.sys）與多個使用者模式注入 DLL；功能涵蓋繞過 Windows DSE、隱藏檔案／登錄、保護指定進程、移除反監控 hook、注入 shellcode、竊取 RDP 憑證。

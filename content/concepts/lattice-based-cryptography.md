@@ -8,8 +8,6 @@ created: 2026-05-07
 query-count: 0
 ---
 
-# 晶格密碼學
-
 ## 定義
 
 以高維晶格（lattice）的數學難題為安全基礎的後量子密碼學分支。核心難題是 LWE（Learning With Errors）：給定矩陣 A 與向量 b = A·s + e，已知 A 與 b 求 s 與 e 是計算上不可行的。錯誤項 e 讓量子電腦也無法把它化約為「找週期」問題、避開 Shor 演算法。NIST PQC 三大主力 ML-KEM（Kyber）、ML-DSA（Dilithium）、FALCON 都建立於晶格之上。

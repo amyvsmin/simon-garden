@@ -8,8 +8,6 @@ created: 2026-05-13
 query-count: 0
 ---
 
-# NotebookLM 當 RAG 引擎
-
 ## 定義
 
 把 Google NotebookLM 當作 Claude Code 的外掛檢索增強生成（RAG）引擎，用來補 Claude Code 在影片內容處理、深度 RAG、圖表生成上的短板；同時避免消耗 Claude 訂閱 token（NotebookLM 走 Gemini 免費 tier）。

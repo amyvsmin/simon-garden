@@ -7,8 +7,6 @@ confidence: 已驗證
 created: 2026-05-10
 ---
 
-# Claude 額度面板三層結構
-
 ## 定義
 
 Claude 桌面／網頁版額度顯示拆三層：Current Session（當前會話的單次記憶佔用）、Weekly Limits（整個帳號跨會話的週期總血條）、Extra Usage（用完總額後切換到按量計費的額外用量）。三層彼此獨立、混淆任一層都會誤判實際耗用。

@@ -8,8 +8,6 @@ created: 2026-05-14
 query-count: 0
 ---
 
-# Claude Code /goal 指令
-
 ## 定義
 
 Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一個完成條件，Claude 跑完一輪後由背景小模型（預設 Haiku）讀整段對話判斷條件是否達成、未達成就再起一輪、達成就自動清掉 goal、整段 session 不用手動敲確認。

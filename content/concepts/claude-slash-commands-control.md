@@ -7,8 +7,6 @@ confidence: 已驗證
 created: 2026-05-10
 ---
 
-# Claude 斜槓指令快捷控制
-
 ## 定義
 
 Claude 桌面／網頁版／Claude Code 內建斜線命令在對話進行中介入 AI 行為：原 4 個（`/compact`／`/clear`／`/context`／`/btw`）+ Anthropic 2026-04 加 `/rewind` 跟 `/usage` 共 6 個。不需要重置整個會話就能精準微調 context 狀態、對抗 [[context-rot]]。

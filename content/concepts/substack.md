@@ -8,8 +8,6 @@ created: 2026-05-07
 query-count: 0
 ---
 
-# Substack
-
 ## 定義
 
 訂閱制電子報結合個人出版頁面的內容平台，2017 年由前 Kik 工程師 Chris Best、Hamish McKenzie、Jairaj Sethi 創立。創作者寫一篇文章會同時寄到所有訂閱者的 email 信箱、且永久保存在個人頁面、可被 Google 搜尋索引。

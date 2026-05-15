@@ -8,8 +8,6 @@ created: 2026-05-13
 query-count: 0
 ---
 
-# 上下文腐爛（Context Rot）
-
 ## 定義
 
 長對話下大語言模型效能持續下降的現象、由 Anthropic Thariq Shihipar 2026-04 正式命名；原因是 context 越長、注意力分散到越多 token、舊的無關內容變成干擾、模型開始忘記前面講過的事或亂答。

@@ -8,8 +8,6 @@ created: 2026-05-05
 query-count: 0
 ---
 
-# Obsidian CLI plugin
-
 ## 定義
 
 Obsidian 的命令列界面 plugin，讓任何 CLI 型 AI agent（特別是 Claude Code）能直接呼叫 Obsidian 的指令、搜尋、開啟特定筆記、操作 vault 內容，不必透過檔案系統 read/write 或自架 MCP server。
