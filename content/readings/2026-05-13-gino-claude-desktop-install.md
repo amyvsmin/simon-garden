@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-13
 ---
 
-# Gino Claude desktop 安裝教學（極簡 30 秒版）
-
 ## 摘要
 
 YouTuber Gino 30 秒級別的 Windows 平台 Claude desktop app 安裝教學：先去 Git 官網下載 Windows 版本一路按確定安裝 → 再到 Claude 官網下載 Windows 版本安裝 → 安裝完成首次登入要先連線帳號。內容對 Claude Code 重度用戶（Simon）無新資訊，僅作為「跟風內容多到誇張」的時代註記。不抽 concept。

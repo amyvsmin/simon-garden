@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-06
 ---
 
-# Palo Alto Nicole Quinn — Harvest Now Decrypt Later 與後量子密碼遷移｜CYBERSEC 2026 Day 2
-
 ## 摘要
 
 Palo Alto Networks 亞太政策與政府關係副總裁 Nicole Quinn 在 CYBERSEC 2026 Day 2 主題演講，從政策視角點出三個攻擊側已在發酵的長期風險。Harvest Now Decrypt Later：國家級攻擊者已在大量收集加密敏感資料、等量子電腦成熟解密；對應解方是後量子密碼學（NIST 2024 標準化）+ 企業密碼遷移計畫。Shadow AI：員工自帶 ChatGPT／Cursor／Copilot 進企業形成不可見資料外流。建議三層治理：跨國對齊全球標準、政府不過度限縮、公私部門情資共享。

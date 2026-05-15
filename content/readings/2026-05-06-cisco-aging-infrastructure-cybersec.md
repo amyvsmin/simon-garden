@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-06
 ---
 
-# Cisco 副總裁 — 老化網路基礎設施與 Agentic Kill Chain｜CYBERSEC 2026 Day 2
-
 ## 摘要
 
 Cisco 副總裁兼資安長在 CYBERSEC 2026 Day 2 點出網路基礎設施的結構性危機：全球網路設備將近一半已 EoL／EoS、30% 硬體與軟體超過十年、攻擊轉向網路邊緣與核心設備。AI 把漏洞武器化時間從 2018 的兩年壓到 2026 的小時級、加上 agentic kill chain（AI agent 24/7 自動偵察、決策、自我調整）讓防守端反應視窗極限壓縮。Cisco 推 Project Broccoli 自我加固、用 10 兆參數 Methos 模型做漏洞發現與 PoC 自動化、推 TACACS+ over TLS 等加密化升級。Call to action：升級老化基礎設施、回歸基本 hygiene、信任夥伴。

@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-13
 ---
 
-# Thariq Shihipar：Claude Code 會話管理與 1M 上下文（官方部落格）
-
 ## 摘要
 
 Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M 上下文時代的會話管理心法。核心觀念是「每一轉都是分岔點」——五個選項（繼續／回溯／清除／壓縮／子代理）對應不同情境。重點概念：context rot（上下文腐爛）指長對話模型效能下降；`/rewind`（Esc Esc）回溯到任何先前訊息重新開始；`/compact <提示>` 主動壓縮帶提示比被動觸發更精準；`/clear` 由使用者撰寫摘要，最精確但成本最高；subagents 適合產出大量中間結果但只要結論的任務（codebase 搜尋／驗證／文件）；`/usage` 監控會話水位。心智測驗「我需要工具輸出本身、還是只需要結論」決定要不要走 subagent。

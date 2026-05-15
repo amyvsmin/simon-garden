@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-14
 ---
 
-# Claude Code /goal 完整教學（YAHA学堂 4 分鐘速講）
-
 ## 摘要
 
 YAHA学堂 2026-05-14 發布的 4 分鐘速講，介紹 Claude Code 2.1.139 剛上線的 `/goal` 指令：使用者寫一個完成條件，Claude 跑完一輪後背景的 Haiku 評估器讀整段對話判斷是否達成、未達成自動再跑、達成自動清掉。講者用 lint 七個錯誤的 demo 示範一鍵自動修，並提出「條件寫成有證據的形式」的三條規則（可量終點／證明指令／不能動的東西）。逐字稿跟官方文件比對主要概念對得上、但兩處要打折扣：「token 不會多扣錢」實際上是「typically negligible」不是免費、「headless 是不外傳秘技」實際上官方文件直接寫在 Run non-interactively 段。

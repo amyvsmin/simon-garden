@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-13
 ---
 
-# Dustin Obsidian × Claude Code 跨專案知識庫：wikilink 突破樹狀結構、漸進長出 vault
-
 ## 摘要
 
 Dustin 示範用 Obsidian 當跨專案知識庫主軸，解決 Claude Code 在多專案間的「上下文視窗滿了」「跨專案連線斷裂」兩大痛點。核心是 wikilink 突破傳統樹狀資料夾結構——讓不同子目錄下的文件能跨層連線、AI 讀到某檔案時自動跳到關聯檔案讀全貌；不依賴向量資料庫、純語意連線。實作建議是 Plan Mode 起跑（請 AI 調查現有專案 + 上網找用法 + 問你問題）、安裝官方 Obsidian skill 讓 Claude 用 CLI 操作 vault；最重要的觀念是知識庫不是一夜建好的，從 projects + pillars 兩個資料夾起步、隨著使用逐步長出 decisions／日誌／週報／personal／insight／書籤等等。

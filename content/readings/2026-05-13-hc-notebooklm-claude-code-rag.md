@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-13
 ---
 
-# HC：NotebookLM × Claude Code — 把 RAG 跟圖表卸載給 Gemini、省 Claude token
-
 ## 摘要
 
 HC 示範用林探開發的 `notebooklm-py` CLI 工具，把 Claude Code 跟 Google NotebookLM 串起來，解決 Claude Code 兩個短板：影片內容處理（用 yt-dlp + 抽字幕）、深度 RAG 跟圖表生成（NotebookLM 強項）。關鍵是 token 卸載——把 web scraping、影片分析、心智圖、資訊圖表這些重度任務外包給免費的 Gemini／NotebookLM，不消耗 Claude Code 訂閱 token。實作流程：`pip install notebooklm-py` → 裝 skills agent setup → Claude Code 內 `/notebooklm login` 跟 `/yt-search` 兩個 skill 上線。yt-search skill 用 skills-creator 自動產生，搜尋條件支援觀看次／訂閱者比率算「爆款」、預設返回 20 部影片。

@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-10
 ---
 
-# Claude Code 創始者 Boris Cherny 親授 5 個高效習慣
-
 ## 摘要
 
 Inside 報導 Anthropic Claude Code 工程主管 Boris Cherny 親自示範的 5 個高效習慣：(1) 進新 codebase 先 Q&A 不要直接改程式 (2) 大改動前先讓 AI 規劃 (3) 給 AI 驗證方式進入自我修正循環 (4) 用 CLAUDE.md 建立專案記憶 (5) 平行 5 視窗 + git worktree 一天送 30 PR。核心心法是把 AI 當工程夥伴、用 vibe coding 的協作姿態取代「下指令」式使用、CC 是設計成適應你的工作流而不是強迫你改變習慣。

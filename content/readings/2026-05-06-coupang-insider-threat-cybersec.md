@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-06
 ---
 
-# 酷澎陳浩維 — Insider Threat 與 AI 漏洞挖掘失衡｜CYBERSEC 2026 Day 2
-
 ## 摘要
 
 酷澎台灣暨日本資安長陳浩維在 CYBERSEC 2026 Day 2 主題演講，揭露 2025 年酷澎韓國資料外洩根因為前員工 insider threat、影響台灣顧客 20 萬人。引用 Ponemon 2026 報告：全球年均單一企業 insider 損失 195 萬美元、比 2022 年增 20%；27% 屬惡意內部人員；73% 組織擔心 AI 導致資料外洩、僅 18% 有 AI 治理機制。並推介 CSA《AI Vulnerability Storm》報告：AI 加速漏洞挖掘讓攻防失衡擴大、防守端反應視窗從週縮到小時級。

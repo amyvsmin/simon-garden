@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-10
 ---
 
-# Claude 額度管理 + 省 Token 教學（Notebook LM 配音）
-
 ## 摘要
 
 YouTube 短影片（Notebook LM 配音）以「大師級實戰指南」包裝、四模組系統化講 Claude 訂閱戶的 token 控制：(1) 解密額度面板區分 Current Session／Weekly Limits／Extra Usage；(2) 四大省 token 守則（資料降噪、停錯誤堆疊、水位管理、模型適配）；(3) 斜槓指令 /compact /clear /context /btw；(4) 標準化 SOP 工作流。核心洞察是 token 不只是錢、更是 AI 智商空間，省 token 的真正動機是維持 AI 表現。

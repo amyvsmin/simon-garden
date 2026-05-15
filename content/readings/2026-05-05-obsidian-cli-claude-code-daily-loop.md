@@ -8,8 +8,6 @@ concepts: [obsidian-cli-plugin, kaigong-shougong-loop, obsidian-claude-code-work
 created: 2026-05-05
 ---
 
-# Obsidian CLI plugin × Claude Code 三檔結構 + 開工收工每日工作流
-
 ## 摘要
 
 Obsidian 近期推出的 CLI（命令列界面）plugin 讓 Claude Code 能直接讀寫 Obsidian vault，把過去散落在多個 Claude Code 對話框、且每次 compact 之後就遺失上下文的工作狀態收斂到單一 vault。作者示範用三個核心檔（CLAUDE.md 規則／SessionHandoff.md 跨對話交接／Index.md 決策日誌）+ 每日「開工／收工」兩個自然語言指令，讓 AI 自動建立週任務追蹤表、依完成情況打勾、把延後任務重新規劃到後續日期。整個流程不需要客製腳本，只靠 vault 同一資料夾被 Claude Code 跟 Obsidian 共讀，加上 Obsidian Settings → 進階 → 命令列界面開啟註冊就能跑，是「降低阻力、AI 隨時間變聰明」典型實作。

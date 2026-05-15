@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-10
 ---
 
-# HTML 才是 AI 時代的原生語言？Anthropic 工程師：我已停止寫 Markdown
-
 ## 摘要
 
 Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點：Markdown 在 AI 時代正在變成一種限制、HTML 是更適合的人機協作格式。三層論點為表達力夠、實際被讀機率高、製作有趣提升投入感。文章核心戳的痛點是 Claude Code CLI 用戶長期默契的痛點：AI 給長計畫文件、要改其中一處必須打字描述、認知負擔極大。Token 悖論回應「HTML 太耗 token」的反對：長對話下單次多花換精準決策反而省。

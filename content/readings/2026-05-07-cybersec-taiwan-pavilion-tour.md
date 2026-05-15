@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-07
 ---
 
-# 2026 臺灣資安館導覽座談 — 晶片供應鏈安全、PQC、SEMI E187、CRA/SBOM、營運韌性｜CYBERSEC 2026 Day 3
-
 ## 摘要
 
 CYBERSEC 2026 Day 3 臺灣資安館「自主研發特展」第 92 頁涵蓋 11 個展位、串聯設計／製造／上線／運維的信任基石。PQC 主題三家：JMEM TEK PUF-PQC 量子安全晶片（金鑰不入記憶體）、ITRI 後量子密碼晶片矽智財平台（ML-KEM／ML-DSA／SLH-DSA、ARM／RISC-V FPGA、過 FIPS 140-3 CAVP）、ITRI×PQC-CIA 把 PQC 跟 FIDO 整合成機敏文件電子簽核環境。產線安全：全景軟體 Ciot+HI-LO SYSTEMS（河洛半導體）把安全燒錄整合進產線、串聯晶片預燒錄+金鑰管理+雲端憑證對接+裝置身分配置。SEMI E187 半導體設備資安：ITRI 量測中心+資策會+TCA 推認驗證、CyberOTLab+ORing 推 SEMI-E187 紅藍隊（ICS-Cracker、ORAI、OPS）。CRA 合規：ITRI 推 SBOM 軟體安全合規檢測平台（整合 SAST／SBOM／DAST + AI 檢核、離線可施作）。其他：Zyxel 勤晁科技 Medical Trust Architecture（FIDO+量子加密+Data Diode）、資策會+SyncKey Tech 興啟科技 1:1 數位孿生攻防演練、Genie 威睿科技電信級流量分析、Woodpecker 啄木科技 XVR 整合式 SOC + 全地端 AI 助手。

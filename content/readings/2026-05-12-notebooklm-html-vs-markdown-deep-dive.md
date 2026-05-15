@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-12
 ---
 
-# HTML 取代 Markdown 在 AI 時代（NotebookLM 配音深入解析）
-
 ## 摘要
 
 延伸 Anthropic Thariq Shihipar 2026-05 主張的 NotebookLM 配音解讀版，把「我已停止寫 Markdown」拆成 5 段重點：Markdown 失靈、HTML 補回的四個能力、脈絡吸收才是核心、五個具體用例、權衡與反建議。對比 [[2026-05-09-thariq-html-replaces-markdown-ai]] 原文，這版補了「用完即丟客製介面」第五用例（30 條待辦變可拖曳看板）跟結尾「不要寫超長 prompt 模板」反建議。AI 寫 HTML 的關鍵不是 HTML 語法、是 AI 對使用者真實工作脈絡的吸收能力——讀檔案系統、Slack、Linear、Git，再生成高度客製化的功能性網頁。

@@ -8,8 +8,6 @@ concepts: [agentic-secops, cve-weaponization-time, secure-ai-framework, wiz-plat
 created: 2026-05-05
 ---
 
-# Google Cloud Agentic SecOps：AI 驅動的全方位資安轉型（CYBERSEC 2026 William Tam）
-
 ## 摘要
 
 Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBERSEC 2026 演講，臨時把原訂題目改成過去一個月 AI 找漏洞能力大爆發後的緊急應對。重點訊息：CVE 從公開到出現實際武器化攻擊的平均時間從 24 小時壓縮到 8 秒，企業必須以「短期縮小攻擊面、中期 Agentic SecOps 自動化、長期自我修復系統」三階段框架因應。Google 自家工具鏈包括 Mythos（Anthropic × Vertex AI 私測，已找出數千個高嚴重性漏洞）、Big Sleep（DeepMind AI bug hunter，已揭露 SQLite CVE-2025-6965）、CodeMender（自動修補，6 個月對上游提交 72 項修復）。框架層提出 SAIF（Secure AI Framework）、Assured Open Source Software（AOSS）、Security Command Center 的 AI Protection、Cloud Model Armor、跟 Mandiant 顧問服務。Demo 重頭戲是收購自 Wiz 的多代理（Green/Blue/Rule/Red Agent）跨雲風險平台，從發現 → 調查 → 修補建議 → 指派 repository owner 全閉環，已逼近 self-healing 雛形。

@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-12
 ---
 
-# 白話文教學：AI 怎麼幫你動手做事？API、CLI、MCP、瀏覽器控制的選擇邏輯
-
 ## 摘要
 
 雷蒙把 AI 操控軟體的五種方式（API／CLI／MCP／GUI／Browser Use）放在同一張對照表、給出明確優先順序：能用 [[api]] 就不用 [[mcp]]、能用 MCP 就不用 [[browser-use]]、Browser Use 是真的沒其他路才走的最後手段。重點不是「哪個技術比較炫」、是讓 AI 用它擅長的方式工作（結構化資料層）、不要逼它模仿人類點按鈕。文末附 19 個工具生態系實例（雷小蒙 AI 分身），證明 API/CLI/MCP 三條主力就能組起整套自動化、Browser Use 只占少數補位。

@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-12
 ---
 
-# Claude Code 的 CLAUDE.md 和 SKILL 教學，打造可重複使用的 AI 自動化工作流
-
 ## 摘要
 
 雷蒙用一句話把 [[instructions-file]] 跟 [[skill]] 的分工講清楚：CLAUDE.md 是「記住你是誰」的入職手冊、Skill 是「記住怎麼做事」的 SOP。每次對話都載入的通用偏好放 CLAUDE.md、按需載入的特定任務流程放 Skill。文章再給判斷準則「連續三次在不同對話跟 AI 講同一件事 = 該寫成 Skill」、進化路徑（SKILL.md → references/ → scripts/ → 版本 → Plugin）、安全紅旗（陌生 Skill 先丟 AI 評估別無腦裝）、跟 GPTs/Gems 範式翻轉（從「人找工具」變「工具找人」）。

@@ -9,8 +9,6 @@ projects: []
 created: 2026-05-12
 ---
 
-# Gemma 4 + LM Studio：把本機 AI 完整建到電腦／手機，含 MCP 跟 VS Code 串接
-
 ## 摘要
 
 Google Gemma 4 開源模型四版本（E2B 手機平板／E4B 一般筆電／26B、31B 高階推理）+ LM Studio 圖形介面工具的完整本機 AI 入門。教學從硬體檢測（Can I Run AI Locally 網站偵測 GPU／VRAM）、模型挑選（參數量／推理能力／視覺／工具標籤）、Context Length 跟 System Prompt 設定，一路到三個進階整合：手機端 Google AI Edge Gallery 影像／音訊分析、Brave Search MCP 接入網頁搜尋、檔案管理 MCP 整理本機檔案、VS Code Continue 擴充寫程式（便利貼瀏覽器擴充功能 demo）。整個工作流不用網路不用訂閱費、資料完全留在本機。
