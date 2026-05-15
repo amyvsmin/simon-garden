@@ -23,8 +23,9 @@ Josie 分享她從 2023 年起在 Obsidian 累積 50+ 專案筆記、現在用 C
 - [[skill]]：當對話得到滿意結果後、直接請 Claude 把這段流程封裝成 skill（不是 prompt）；之後同類專案直接觸發 skill 自動跑
 - [[obsidian-claude-code-workflow]]：整套流程是「Obsidian vault（資料層）+ Claude Code（處理層）+ Claudian plugin（橋接）+ skill（封裝）」的具體實作
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **Knowledge Wiki γ 已踏在這條路上**：你的 vault 1b 結構 + course-notes skill + KW γ 收錄 skill 跟 Josie 路徑同源；可以參考她「完成案例後抽 template」的習慣、把每次跑完的 reading 流程當素材回去訓練 skill
 - **AskUser 訪談式互動值得學**：你的 weekly-review／monthly-review skill 已含訪談元素、可考慮在 KW γ 收錄遇到模糊輸入（例如 URL 連到的不是文章而是 GitHub repo）時主動問你；substack-publish skill 在「標題、subtitle」這一層也適合走訪談
 - **既有 readings 當 reference**：你已累積 30+ readings + 56 concepts；未來實驗讓我（福利員）寫新 reading 時先 reference 既有結構、確保穩定度

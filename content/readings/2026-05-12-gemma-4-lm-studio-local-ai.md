@@ -21,8 +21,9 @@ Google Gemma 4 開源模型四版本（E2B 手機平板／E4B 一般筆電／26B
 - [[cli]]：MCP 設定需要 Node.js／設定檔修改、CLI 跟本機 AI 串接門檻
 - [[skill]]：影片沒用這個詞、但跟 system prompt 設定本質相通（教 AI 怎麼用工具）
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 1. 半導體公司內網敏感資料不能丟雲端 AI 的場景，可以提一個「本機 Gemma 4 + LM Studio」POC
 2. 資安考量：離線分析含敏感欄位的 log，避免 Shadow AI 風險
 3. 手機 Google AI Edge Gallery 出國旅行用：拍照翻譯／錄音轉文字、不需網路

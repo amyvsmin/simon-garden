@@ -19,8 +19,9 @@ Andrej Karpathy 2026 年 1 月在 X 抱怨 Claude 寫程式三類典型問題（
 - [[loud-failure]]：規則 12「明確暴露不確定性、不要包裝靜默失敗」— Migration 跳過 30 筆要說、跳過任何測試要說、邊界情況沒驗證要說
 - [[claude-md-200-line-limit]]：CLAUDE.md 超過 200 行遵守率掉到 30%、規則被噪音淹沒、與 [[claude-md-reflexive-law]] 配套
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - 你 `~/.claude/CLAUDE.md` 約 130 行、`~/projects/Simon-Agent/CLAUDE.md` 約 95 行，都在 200 行內。但全域 CLAUDE.md 還在長，要警覺；KW γ skill 的 SKILL.md 也快滿，可以套「>=180 行就拆 references/」原則
 - **規則 12 大聲失敗** 跟 sync-garden.sh 失敗處理（寫 `~/.claude/state/garden-sync-fail.txt` + SessionStart hook 提醒）的設計同精神。但 KW γ ingest-flow Step 7 寫 inbox 狀態 🌱 → 🌲 之前沒有「驗證 reading 真的寫成功」這一步，理論上有 silent success 風險、值得補
 - **規則 10 多步驟檢查點** 適用 KW γ 批次消化：每處理完一篇要寫 changelog + 顯式總結「已完成 N/M」，不要默默推進；這次批次 2 篇可以驗證

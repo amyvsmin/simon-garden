@@ -19,8 +19,9 @@ Inside 報導 Anthropic Claude Code 工程主管 Boris Cherny 親自示範的 5 
 - [[claude-code-iteration-loop]]：給 AI 驗證方式（測試／截圖／模擬器）讓它進入自我修正循環、人類從 review 升級為驗收
 - [[parallel-claude-sessions]]：5 視窗 × git worktree + 系統通知、Boris 一天送 20-30 PR、5 小時任務壓縮到 1-2 小時
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - Q&A 模式對 Simon 接公司舊 codebase 直接適用：BIGFIX POC、Omnissa MDM 導入時先讓 CC 跑 Q&A 理解現況
 - iteration loop 對 KW γ migration、course-notes 寫入 等批次任務有用：明確設定驗證指令（jq 驗證 changelog、grep 驗證 vault path）
 - 平行 5 視窗對 Simon 目前還早：先把單視窗 plan-mode + skill 流程穩定才談平行；目標可從「同時 2 視窗」開始

@@ -18,8 +18,9 @@ created: 2026-05-12
 - [[skill]]：Claude Skill = SOP / 工作說明書、教 AI 在特定領域怎麼做事
 - [[instructions-file]]：CLAUDE.md = 入職手冊、放通用偏好；跟 Skill 互補
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **驗證自己 KW γ + journal + course-notes 等 Skill 的設計符合雷蒙範式**：每個 Skill 都聚焦單一任務、CLAUDE.md 只放通用偏好（語言／回答長度／繁中規則）、敏感資料另外分專案 CLAUDE.md。整體分層跟雷蒙建議一致、不必重構。
 - **「三次重複交代 = 寫 Skill」判準可以反向掃描**：未來感覺「又在跟 AI 重複講」時就直接觸發新 Skill 設計。最近一次符合的場景是 substack-publish skill（連續三次發 Substack 都要交代 cover/H2/italic 檢查）、已經做成 skill。
 - **進化路徑提醒第三步是上限**：大部分人到 references/ 就夠、不要過早追求 Plugin 化。Simon 目前 KW γ 已經有 references/、course-notes 跟 weekly-review 還停在單 SKILL.md、符合「不過度設計」原則。

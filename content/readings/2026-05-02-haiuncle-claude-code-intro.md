@@ -23,8 +23,9 @@ notion-page-id: 354f85da-554f-8182-b31e-d1ebb929a3a7
 - [[plan-mode]]：複雜任務先規劃再動手的安全模式
 - [[vibe-coding]]：用自然語言描述需求讓 AI 全程實作
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **驗證現行 Claude Code 架構**：Simon 現行架構（全域 + 專案雙層 CLAUDE.md、Hooks 有 user-memory-inject 跟 knowledge-wiki-lint-catchup、MCP 掛 Notion / Gmail / Calendar、superpowers 跟 example-skills）跟海大叔整理的進階用法高度重疊，可驗證 self-trained 的架構選擇跟主流一致
 - **Plan Mode 是未學到的招**：Simon-Agent 寫 skill、Knowledge Wiki 改 schema、n8n flow 變更這類高風險任務應加進 Plan Mode 公認「規劃 → 複核 → 動手」哨
 - **/init 跟 /compact 是可以加上手的指令**：/init 可在新複製專案裡一鍵生 CLAUDE.md；/compact 跨長 session 寫作離長後

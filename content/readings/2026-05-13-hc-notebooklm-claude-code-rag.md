@@ -20,8 +20,9 @@ HC 示範用林探開發的 `notebooklm-py` CLI 工具，把 Claude Code 跟 Goo
 - [[mcp]]：對照 MCP 機制、但 notebooklm 走 CLI tool + skill 而非 MCP
 - [[claude-code]]：Claude Code 短板補強案例
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 1. Simon 的 Knowledge Wiki YT 收錄流程目前用 `~/.claude/scripts/yt-transcript.py` + `yt-gemini-transcribe.py`、可參考 HC 套件結構升級 v0.5
 2. 「token 卸載」概念對 Claude Max 月費 3,300 跟 weekly limit 的成本意識——把不需要 Claude 推理的任務外包出去
 3. Plaud 逐字稿 → Claude Code 分析的現有流程可加 NotebookLM 圖表輸出當收尾

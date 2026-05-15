@@ -21,8 +21,9 @@ created: 2026-05-05
 - [[red-team]]：研究 APT 工具鏈本身就是紅隊／威脅情報的重要輸入
 - [[supply-chain-risk]]：APT 大量複用工具家族顯示工具來源可能存在共同 provider 線索
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 Simon 是公司內部 IT 工程師、負責資安／伺服器／機房／ISO 27001 推進。這場演講有四個直接可帶回的偵測重點：
 
 1. **Tomcat／Web 服務落地檢測**：Earth Kurma 透過 CMS／Tomcat 漏洞落地後執行 cmsequip\*.exe／dp.exe／DB.exe 並 sc create Service。建議掃描 Web root 目錄是否有非預期的 .exe 落地檔、檢查近期 sc create 與 schtasks（特別是 SYSTEM 帳號每日觸發）。

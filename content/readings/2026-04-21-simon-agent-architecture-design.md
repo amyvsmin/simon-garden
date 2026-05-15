@@ -16,8 +16,9 @@ notion-page-id: 349f85da-554f-81f6-a5c8-ef9d98ddd31c
 
 本綜覽頁不萃取概念，純記錄架構決策過程。
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 ## 討論起點
 
 Simon 以為個人偏好記在全域 CLAUDE.md，實際檢查後發現**全部都在專案級** `~/projects/Simon-Agent/CLAUDE.md`，其他目錄的 Claude Code session 讀不到。由此展開一連串重新整理個人配置的討論。

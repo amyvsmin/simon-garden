@@ -19,8 +19,9 @@ Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點
 - [[interactive-confirmation-ui]]：關鍵決策時刻用互動 UI 取代文字牆的設計範式
 - [[context-resend-token-paradox]]：每次發訊息重送整個 context 的反直覺數學
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - 跟剛建的 Action 卡「把 Obsidian 閱讀頁改成 HTML 網頁模式呈現」直接對應；本文是該方向的理論依據
 - 但要注意 Simon 的 vault 跟 Thariq 的場景不同：Thariq 講「給 AI 的計畫文件」、Simon 想做的是「給人讀的 reading」；前者強調互動式決策、後者強調閱讀體驗
 - 可考慮的混合方案：vault 仍存 Markdown 為事實（git friendly、AI friendly），渲染層用 Quartz／Obsidian Publish 或自架轉成 HTML 給人讀

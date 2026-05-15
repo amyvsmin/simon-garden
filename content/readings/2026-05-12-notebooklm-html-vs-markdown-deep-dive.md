@@ -20,8 +20,9 @@ created: 2026-05-12
 - [[context-resend-token-paradox]]：HTML 雖耗更多 token 跟產出慢 2–4 倍，但決策品質提升通常划算
 - [[interactive-confirmation-ui]]：HTML 雙向互動跟 AI 決策介面的直接落地
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 1. 下次跟 Claude Code 講「幫我把這份報告做成 HTML 看版」而不是要 Markdown 條列
 2. 30 條 Knowledge Wiki 待辦的盤點，可以丟一句「給我可拖曳 HTML 看板」由 AI 生介面、整理完再匯回 Notion
 3. 對既有「習慣寫長 prompt 模板」傾向的反建議——保持簡單，告訴 AI 想解決什麼、不要寫死格式

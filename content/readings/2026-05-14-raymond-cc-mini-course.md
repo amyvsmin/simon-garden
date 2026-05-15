@@ -18,8 +18,9 @@ notion-page-id: 341f85da-554f-8011-8ab3-ea2e08598c72
 - [[rules-over-code]]：跟 AI 協作時寫規則時間 > 寫程式碼時間、回報更高（雷蒙 3-4 日本記帳 15 條稅制規則 vs Next.js 全棧）
 - [[cli-api-mcp-priority]]：AI 操控軟體優先順序 CLI → API → MCP → Browser Use、底層協定優先（雷蒙 2-3 + Simon 補 CLI 細化）
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 **最大實質改動：daily 3-things 閉環**（3-3 衍生、5/13 完成）
 
 - morning skill 撈 Calendar + Action DB + Calendar 待辦類組成候選 → 我挑卡 → 寫今日任務關聯（relation）

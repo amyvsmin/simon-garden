@@ -22,8 +22,9 @@ created: 2026-05-07
 - [[crypto-agility]]：過渡期混合密碼（傳統+PQC）、未來標準修訂時可換不重做、CNSA 2.0 給的就是 agility 框架
 - [[cbom]]：Cryptographic Bill of Materials、盤點所有用 RSA/ECC 的系統與相依函式庫、是 PQC 遷移的 Day 1 工作
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 公司 IT 角度可以直接做的三件事：
 
 1. **CBOM 盤點**：列出所有用 RSA/ECC 的系統與函式庫版本（OpenSSL、Bouncy Castle、HSM、晶片卡韌體），標註資料保留年限。這是 ISO 27001 資產盤點的擴充章節，可順便交差。

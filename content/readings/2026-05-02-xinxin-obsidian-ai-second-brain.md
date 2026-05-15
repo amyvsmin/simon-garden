@@ -22,8 +22,9 @@ notion-page-id: 354f85da-554f-81a1-936c-f20f74e92c94
 - [[daily-notes]]：AI 每天結束時把工作內容寫進當日的 daily notes 檔，下次 session 只讀最近幾天即可恢復脈絡
 - [[claude-code]]：實作載具
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **重新審視 SimonVault 結構**：現有 vault 以證照課程分路（Google-Cybersecurity、CCNA、SSCP），可加一層 `context/` 放個人資訊與表達風格、14 個課程資料夾分別加 instructions.md
 - **CLAUDE.md 雙層化**：現有 `~/.claude/CLAUDE.md`（全域） + `~/projects/Simon-Agent/CLAUDE.md`（專案）是兩層，可擴展到各 vault 課程資料夾一層狀態說明 instructions
 - **加 daily notes 機制**：現行是 Simon-Journal 手寫日記；可加一條 Claude Code 自動寫「今天 AI 做了什麼」到 daily notes，供下次 session 讀

@@ -16,8 +16,9 @@ notion-page-id: 34df85da-554f-8111-b25f-cc25d6bcecc7
 
 本綜覽頁不萃取概念，純記錄系統設計過程。
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 把日記寫作入口從 Claude Code（Simon-Journal 目錄）擴充到 LINE bot。設計階段完成、實作未開工。
 
 ## 動機

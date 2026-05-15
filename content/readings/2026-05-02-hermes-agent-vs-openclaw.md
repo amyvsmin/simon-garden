@@ -19,8 +19,9 @@ Blocktempo 報導 Nous Research 推出的「越用越聰明」自我進化 AI ag
 - [[agent-architecture-comparison]]：Claude Code（Anthropic 官方、需訂閱）、Hermes Agent（開源、去中心化）、OpenClaw（高 GitHub 漲但需證）、Cline / Continue / Aider 等其他選項
 - [[claude-code]]：架構跟 Hermes 高度相似的 Anthropic 官方終端型 AI 助手
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **造個人 AI 助手架構的「難民適應」備選**：Hermes 架構（MEMORY.md + USER.md + Markdown skill + 40+ 內建工具）跟 Simon 現行 Claude Code（CLAUDE.md + auto-memory + Skill + MCP）高度重疊。Anthropic 訂閱變貴 / 隱私關切時，Hermes 可當選項
 - **警訊雷表加進選型原則**：不要只看 GitHub Stars / 下載量，要看安全公告 / 隱私狀況 / 長期路徑 / 社群信譽。OpenClaw 138 CVE 反面教材，Claude Code 反而高品質
 - **不要遇到一鍵遷移這類能力幾秒就上鉤**：讓計算 Anthropic 官方的整體價值，包含安全、品質、生態系，再決定是否切換

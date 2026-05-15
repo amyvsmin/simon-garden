@@ -21,8 +21,9 @@ Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBE
 - [[ai-vuln-discovery]]：本演講補上 Google 端的 Mythos／Big Sleep／CodeMender 三個具體工具
 - [[supply-chain-risk]]：演講中強調 AOSS（經 Google 驗證的 OSS 供給）作為供應鏈完整性的關鍵控制
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 Simon 是公司內部 IT 工程師、負責資安／伺服器／專案導入，這場演講有三個直接可帶回工作的訊息：
 
 1. **CVE 武器化時間 8 秒**：Veeam 備份調整、SQL MFA、ISO 27001 推進的時程不能再用「漏洞先收著、季底再修」的舊節奏。建議盤點高風險系統（特別是對外暴露的 Tomcat／IIS／Web 服務）的修補 SLA，把高風險 CVE 的補丁從「月」壓到「天」。

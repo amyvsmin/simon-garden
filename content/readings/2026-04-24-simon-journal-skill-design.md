@@ -20,8 +20,9 @@ notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
 - [[directory-as-trigger]]：C9 進 /Simon-Journal = 自動接收模式；C10 目錄分工避免 meta 污染
 - [[simplicity-over-control]]：2026-04-24 反轉動機的主判準，同時適用於 Notion vs Obsidian 分工、Heptabase 退訂、rich text 放棄
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **每天的日記流程**：打開 Claude Code 進入 /Simon-Journal 目錄即可直接寫，不需要再貼回 Notion；跨裝置（手機、電腦、網頁）體感一致
 - **設計方法論可重用**：Q5 反推、Sentinel、目錄即觸發、純接收 + 即時落地四個方法未來設計其他 skill 都能拿來用
 - **系統分工穩固**：Notion = 日記 + 任務 + 復盤，vault = WIKI 知識，Heptabase 退訂（每年省 3,455 元）

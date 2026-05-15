@@ -21,8 +21,9 @@ created: 2026-05-15
 - [[claude-slash-commands-control]]：/compact /context /cost /model 四個（跟 token-saving-rules 重疊）
 - [[claude-rewind]]：雙 ESC 或 /rewind 回滾、限制只能回 Claude Code 編輯過的檔、不能回 Bash 動作、30 天保留
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **沒新東西**：所有重點都已在既有 reading／concept 涵蓋
 - **唯一可能加分點**：影片提到「memory.md 自動記憶」這個機制，但 Simon 已有 auto-memory（`~/.claude/projects/-home-simon-projects-Simon-Agent/memory/MEMORY.md`）落地，不必再學
 - **重疊參照**：[[2026-04-21-madebypan-claude-guide]]、[[2026-05-02-haiuncle-claude-code-intro]]、[[2026-05-09-boris-cherny-claude-code-5-habits]]、[[2026-05-12-raymond-claude-code-skill]]

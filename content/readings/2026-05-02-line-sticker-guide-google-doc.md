@@ -17,8 +17,9 @@ notion-page-id: 354f85da-554f-81aa-ac1d-cf68d5ca2381
 
 - [[line-sticker-workflow]]：用 AI 一鍵生 4×4 master image + 自動裁切去背 + LINE Creator app 上架的三步流程
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **快速產生小型市場測試 MVP**：加班、打卡、這個…1 分鐘實驗個人品牌
 - **驗證 AI 生圖門檻論**：設計能力不是門檻，內容點子與 prompt 表達能力才是；Simon 個人能力 Map 可以加一條「AI 生圖 + prompt engineering」的軸
 

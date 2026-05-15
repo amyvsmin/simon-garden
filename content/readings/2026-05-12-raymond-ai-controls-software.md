@@ -20,8 +20,9 @@ created: 2026-05-12
 - [[mcp]]：包好的 API 子集、AI 直接拿來用、但功能權限常少於原生 API
 - [[browser-use]]：模擬人類操作的最後手段、最慢最不穩、含 Playwright/Puppeteer 跟 agent-browser（控 Electron App）
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **公司 IT 端的工具選擇紀律**：未來導入新工具時、把「有沒有開放 API」當必要條件之一；沒 API 的工具基本不考慮、避免自動化卡死。雷蒙這句「沒開放 API 的工具基本都是不考慮的」直接給了採購篩選硬條件。
 - **KW γ 流程驗證自己沒走錯路**：目前 Notion 寫入走 MCP（包好的）、firecrawl_scrape 抓網頁是 Browser Use 的精簡版、yt-transcript.py 走 YouTube API、yt-gemini-transcribe.py 走 Gemini API。優先序符合雷蒙建議、唯一可優化點是評估 Notion API 直接呼叫是否能解掉某些 MCP 缺的能力（例如 batch insert）。
 - **Playwright MCP 遠端 headless 限制要記住**：未來規劃需要互動的 browser 流程前先確認、避免遠端開 CC 時看不到視窗（已有 user-memory 標記）。

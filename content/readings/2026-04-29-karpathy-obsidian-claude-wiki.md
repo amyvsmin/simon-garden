@@ -21,8 +21,9 @@ Paula 拆解 Andrej Karpathy 在 X 上分享的個人知識庫做法：用 Obsid
 - [[log-traceability]]：Log 檔把 AI 每個動作存證，可追溯也避免重做
 - [[instructions-file]]：claude.md 當 AI 常駐合約，省下每次重新解釋專案的成本
 
-## 對 Simon 的應用
+## 對 Simon 的應用（當下想法）
 
+> 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 - **校對 Knowledge Wiki 設計**：Simon 的 Notion KW（資訊收集箱／概念庫／閱讀頁／變更日誌）跟 Karpathy 的（Raw／Wiki Concepts／Wiki Sources／Log）是同構結構，可確認自己流程沒漏掉哪個角色，例如「Index 頁」這層 Simon 目前散在 Notion 三 DB 各自的 view，沒有單一目錄頁，未來可考慮加一份「主索引閱讀頁」統一導引
 - **Obsidian vault 補位**：Simon 4/22 才剛把 Obsidian vault 搬到 Windows 原生路徑，可在同 vault 試做 Raw／Wiki 雙資料夾 + claude.md 的副本實驗，不影響 Notion 主流程，純做小規模對照
 - **指令檔分層**：Simon 已有全域 + 專案 CLAUDE.md 兩層，可比對 Karpathy 的單層 claude.md 看自己的分層是否過度
