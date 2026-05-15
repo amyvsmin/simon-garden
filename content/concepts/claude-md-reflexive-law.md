@@ -9,8 +9,6 @@ last-queried: ""
 query-count: 0
 ---
 
-# CLAUDE.md 反射律
-
 ## 定義
 
 AI 助手出現行為偏差時、不去研究 LLM 內部機制或 Claude Code harness（CC 主機端）內部運作、而是把規則寫進 CLAUDE.md／rules／user-memory 讓它知道。出處：雷蒙迷你課 2-1「讓 AI 記住你的偏好」commit `ef79968` 的 TIP 段、回應學員 issue #5 提出的 meta-rule。

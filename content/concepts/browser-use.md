@@ -9,8 +9,6 @@ last-queried: ""
 query-count: 0
 ---
 
-# Browser Use（瀏覽器自動化）
-
 ## 定義
 
 讓 AI 模擬人類打開瀏覽器、點按鈕、填表單、截圖的操控方式。技術上常用 Playwright／Puppeteer 框架；延伸版 agent-browser 可控 Electron 架構桌面 App（Slack／Discord／VS Code／Obsidian）靠 Chrome DevTools Protocol（CDP）暴露的偵錯埠口（如 `--remote-debugging-port=9222`）。

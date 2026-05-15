@@ -9,8 +9,6 @@ last-queried: ""
 query-count: 0
 ---
 
-# CLI → API → MCP → Browser Use 優先順序
-
 ## 定義
 
 AI 操控軟體時的工具優先順序——CLI > API > MCP > Browser Use、底層協定優先、瀏覽器自動化是最後手段。出處：雷蒙迷你課 2-3「把工具授權給 AI、組合出你的每日工作流」+ 部落格長文 `how-ai-controls-software-api-cli-mcp-browser-use`。Simon 加上 CLI 在前的分層細化、寫進 user-memory `feedback_tool_awareness`。
