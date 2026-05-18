@@ -7,6 +7,7 @@ inbox-id: "35cf85da-554f-811e-adf0-c8117d9e98ee"
 concepts: [html-vs-markdown-ai-output, interactive-confirmation-ui, context-resend-token-paradox]
 projects: []
 created: 2026-05-10
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -22,10 +23,10 @@ Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- 跟剛建的 Action 卡「把 Obsidian 閱讀頁改成 HTML 網頁模式呈現」直接對應；本文是該方向的理論依據
-- 但要注意 Simon 的 vault 跟 Thariq 的場景不同：Thariq 講「給 AI 的計畫文件」、Simon 想做的是「給人讀的 reading」；前者強調互動式決策、後者強調閱讀體驗
-- 可考慮的混合方案：vault 仍存 Markdown 為事實（git friendly、AI friendly），渲染層用 Quartz／Obsidian Publish 或自架轉成 HTML 給人讀
-- Inside 三篇連續文章（41070 TVBS／41251 HTML／41252 Boris Cherny）都圍繞 Claude Code、可能是該編輯（Mia）正在跑 Claude Code 系列
+- ✅ 跟剛建的 Action 卡「把 Obsidian 閱讀頁改成 HTML 網頁模式呈現」直接對應；本文是該方向的理論依據
+- ✅ 但要注意 Simon 的 vault 跟 Thariq 的場景不同：Thariq 講「給 AI 的計畫文件」、Simon 想做的是「給人讀的 reading」；前者強調互動式決策、後者強調閱讀體驗
+- ✅ 可考慮的混合方案：vault 仍存 Markdown 為事實（git friendly、AI friendly），渲染層用 Quartz／Obsidian Publish 或自架轉成 HTML 給人讀
+- ❌ Inside 三篇連續文章（41070 TVBS／41251 HTML／41252 Boris Cherny）都圍繞 Claude Code、可能是該編輯（Mia）正在跑 Claude Code 系列 — 觀察性質、未追蹤
 
 ## 原文要點
 

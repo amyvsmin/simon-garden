@@ -25,6 +25,7 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - **跟 [[instructions-file]] 的分工（雷蒙範式）**：CLAUDE.md 是「入職手冊」放通用偏好、Skill 是「SOP」放特定任務完整流程；CLAUDE.md 每次對話自動載入、Skill 按需載入；不該把整本 SOP 塞進簡介
 - **「連續三次重複交代 = 寫 Skill」判準**：在不同對話三次跟 AI 講同一件事就應該寫成 Skill
 - **進化路徑**：每次都要講 → SKILL.md → 加 references/ 子資料夾 → 加 scripts/ → 加版本號與 changelog → 打包成 Plugin；大部分人到第三步就夠
+- **模板 + Reference 雙要素（李佳達師父班）**：光有 prompt 模板不夠、要附範例和參考文獻才精準產出；技能包安裝後可持續優化、每次改版建議輸出安裝檔留底備份、方便回退版本
 - **GPTs/Gems 範式翻轉**：GPTs 時代要「先想找誰、再開哪個對話框」；Skill 時代靠 description 自動匹配、AI 主動抓對應流程進來、「工具來找人」取代「人去找工具」
 - **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝
 
@@ -51,3 +52,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-11-josie-claude-code-obsidian-project-planner]]
 - [[2026-05-12-raymond-claude-code-skill]]
+- [[2026-05-18-li-jiada-skill-pack-install-demo]]

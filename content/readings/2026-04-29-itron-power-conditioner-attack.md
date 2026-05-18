@@ -7,6 +7,7 @@ tags: [cybersecurity, ot, firmware, critical-infrastructure]
 concepts: [power-conditioner, firmware-attack-surface, critical-infrastructure, supply-chain-risk, secure-boot]
 inbox-id: 351f85da-554f-8188-973a-f0cf6e70a728
 notion-page-id: 351f85da-554f-8142-8448-df618c34875d
+reviewed: 2026-05-17
 ---
 
 ## 摘要
@@ -24,12 +25,12 @@ notion-page-id: 351f85da-554f-8142-8448-df618c34875d
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- **ISO 27001 資產盤點**：把機房 PDU、UPS、電源調節器列入資產清冊，並標記「韌體版本／簽章狀態」欄位；後續可作為控制 A.8.9（組態管理）佐證
-- **CISSP 學習素材**：本文可作為領域 1 風險管理（CIP 案例）、領域 3 安全架構（安全開機、密碼簽署）、領域 4 網路安全（網路分割）的綜合案例題材
-- **Omnissa MDM POC**：把「端點韌體完整性與安全開機策略」加入 POC 評估清單，檢查 MDM 是否能回報筆電 Secure Boot 狀態與韌體版本
-- **BIGFIX POC 評估面向**：若 POC 進到實作階段，可加一個維度「是否能盤點韌體與電源相關元件版本」
-- **資安 KPI 月簡報素材**：「機房電源／OT 攻擊面」屬於可寫入趨勢章節的新議題，幫主管 Sam 補一筆對外資安事件的脈絡
-- **Google Cybersecurity 學習聯動**：學完課程 3（Connect and Protect）的網路分割概念後，本案是真實情境的延伸閱讀
+- ❌ **ISO 27001 資產盤點**：把機房 PDU、UPS、電源調節器列入資產清冊，並標記「韌體版本／簽章狀態」欄位；後續可作為控制 A.8.9（組態管理）佐證 — ISO 條款沒要求、加了用處不大
+- ✅ **CISSP 學習素材**：本文可作為領域 1 風險管理（CIP 案例）、領域 3 安全架構（安全開機、密碼簽署）、領域 4 網路安全（網路分割）的綜合案例題材
+- ❌ **Omnissa MDM POC**：把「端點韌體完整性與安全開機策略」加入 POC 評估清單，檢查 MDM 是否能回報筆電 Secure Boot 狀態與韌體版本 — POC 主軸是抹除／定位、不擴範圍
+- ❌ **BIGFIX POC 評估面向**：若 POC 進到實作階段，可加一個維度「是否能盤點韌體與電源相關元件版本」 — POC 還沒跑、實作階段不會加韌體維度
+- ❌ **資安 KPI 月簡報素材**：「機房電源／OT 攻擊面」屬於可寫入趨勢章節的新議題，幫主管 Sam 補一筆對外資安事件的脈絡 — 月簡報固定主軸、不擴到其他議題
+- ✅ **Google Cybersecurity 學習聯動**：學完課程 3（Connect and Protect）的網路分割概念後，本案是真實情境的延伸閱讀
 
 ## 原文要點
 

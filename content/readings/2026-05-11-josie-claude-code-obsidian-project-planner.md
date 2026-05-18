@@ -7,6 +7,7 @@ inbox-id: "35df85da-554f-8183-a1c1-c73d36276b4a"
 concepts: [ai-task-clustering, interview-driven-prompting, template-reference-pattern, skill, obsidian-claude-code-workflow]
 projects: []
 created: 2026-05-11
+reviewed: 2026-05-18
 ---
 
 ## Josie：Claude Code × Obsidian 專案管理五階段
@@ -26,10 +27,10 @@ Josie 分享她從 2023 年起在 Obsidian 累積 50+ 專案筆記、現在用 C
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- **Knowledge Wiki γ 已踏在這條路上**：你的 vault 1b 結構 + course-notes skill + KW γ 收錄 skill 跟 Josie 路徑同源；可以參考她「完成案例後抽 template」的習慣、把每次跑完的 reading 流程當素材回去訓練 skill
-- **AskUser 訪談式互動值得學**：你的 weekly-review／monthly-review skill 已含訪談元素、可考慮在 KW γ 收錄遇到模糊輸入（例如 URL 連到的不是文章而是 GitHub repo）時主動問你；substack-publish skill 在「標題、subtitle」這一層也適合走訪談
-- **既有 readings 當 reference**：你已累積 30+ readings + 56 concepts；未來實驗讓我（福利員）寫新 reading 時先 reference 既有結構、確保穩定度
-- **「對話成功 → 封裝成 skill」是 ROI 最高的閉環**：下次發現自己對我下同樣 prompt 三次以上、直接喊「把這個變 skill」就會自動觸發 skill-creator；不必每次都從零想新 skill
+- ✅ **Knowledge Wiki γ 已踏在這條路上**：你的 vault 1b 結構 + course-notes skill + KW γ 收錄 skill 跟 Josie 路徑同源；可以參考她「完成案例後抽 template」的習慣、把每次跑完的 reading 流程當素材回去訓練 skill
+- ✅ **AskUser 訪談式互動值得學**：你的 weekly-review／monthly-review skill 已含訪談元素、可考慮在 KW γ 收錄遇到模糊輸入（例如 URL 連到的不是文章而是 GitHub repo）時主動問你；substack-publish skill 在「標題、subtitle」這一層也適合走訪談
+- ⏳ **既有 readings 當 reference**：你已累積 30+ readings + 56 concepts；未來實驗讓我（福利員）寫新 reading 時先 reference 既有結構、確保穩定度
+- ✅ **「對話成功 → 封裝成 skill」是 ROI 最高的閉環**：下次發現自己對我下同樣 prompt 三次以上、直接喊「把這個變 skill」就會自動觸發 skill-creator；不必每次都從零想新 skill
 
 ## 原文要點
 

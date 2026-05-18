@@ -7,6 +7,7 @@ inbox-id: "35ff85da-554f-8129-b6fc-f11e9cbbe4cb"
 concepts: [notebooklm-as-rag, skill, mcp, claude-code]
 projects: []
 created: 2026-05-13
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -23,10 +24,10 @@ HC 示範用林探開發的 `notebooklm-py` CLI 工具，把 Claude Code 跟 Goo
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-1. Simon 的 Knowledge Wiki YT 收錄流程目前用 `~/.claude/scripts/yt-transcript.py` + `yt-gemini-transcribe.py`、可參考 HC 套件結構升級 v0.5
-2. 「token 卸載」概念對 Claude Max 月費 3,300 跟 weekly limit 的成本意識——把不需要 Claude 推理的任務外包出去
-3. Plaud 逐字稿 → Claude Code 分析的現有流程可加 NotebookLM 圖表輸出當收尾
-4. skills-creator 用法值得 dogfood——之前手寫 KW skill、未來新 skill 可試 skills-creator 加速
+1. ⏳ Simon 的 Knowledge Wiki YT 收錄流程目前用 `~/.claude/scripts/yt-transcript.py` + `yt-gemini-transcribe.py`、可參考 HC 套件結構升級 v0.5
+2. ⏳ 「token 卸載」概念對 Claude Max 月費 3,300 跟 weekly limit 的成本意識——把不需要 Claude 推理的任務外包出去
+3. ⏳ Plaud 逐字稿 → Claude Code 分析的現有流程可加 NotebookLM 圖表輸出當收尾
+4. ⏳ skills-creator 用法值得 dogfood——之前手寫 KW skill、未來新 skill 可試 skills-creator 加速
 
 ## 原文要點
 

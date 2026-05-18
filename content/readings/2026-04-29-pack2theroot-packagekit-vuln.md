@@ -7,6 +7,7 @@ tags: [cybersecurity, vulnerability, linux, ai-security]
 concepts: [pack2theroot, packagekit, privilege-escalation, red-team, cvss, ai-vuln-discovery]
 inbox-id: 350f85da-554f-81db-b79c-e3b2db1b0baf
 notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
+reviewed: 2026-05-17
 ---
 
 ## 摘要
@@ -25,11 +26,11 @@ notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- **資產盤點與修補（ISO 27001）**：列出公司內 Linux 主機（若有）的 PackageKit 版本，檢查是否需升級到 1.3.5；可作為 A.12.6.1 技術性弱點管理流程的演練案例
-- **資安 KPI 月簡報**：可引用本漏洞作為「2026 年 4 月關注漏洞」的範例，搭配 CVSS 8.8 與 14 年潛伏期，凸顯供應鏈深層風險
-- **Google Cybersecurity 學習**：Course 3 涉及網路與系統安全，可把 Pack2TheRoot 當成「權限提升 + 套件管理服務」的真實案例對應課堂概念
-- **Claude Code 自架環境**：本案是 Claude Opus 在資安領域的成功實戰，可激發 Simon 用 Claude Code 對自己工作環境做小型程式碼審查的點子
-- **CISSP / SSCP 準備**：把 Pack2TheRoot 當作 Domain 3 / Domain 7 的記憶錨點，串接權限提升、漏洞管理、紅隊三個必考主題
+- ❌ **資產盤點與修補（ISO 27001）**：列出公司內 Linux 主機（若有）的 PackageKit 版本，檢查是否需升級到 1.3.5；可作為 A.12.6.1 技術性弱點管理流程的演練案例 — Linux 主機不多、無需演練
+- ❌ **資安 KPI 月簡報**：可引用本漏洞作為「2026 年 4 月關注漏洞」的範例，搭配 CVSS 8.8 與 14 年潛伏期，凸顯供應鏈深層風險 — 月簡報無關注漏洞章節、不主動擴
+- ✅ **Google Cybersecurity 學習**：Course 3 涉及網路與系統安全，可把 Pack2TheRoot 當成「權限提升 + 套件管理服務」的真實案例對應課堂概念
+- ⏳ **Claude Code 自架環境**：本案是 Claude Opus 在資安領域的成功實戰，可激發 Simon 用 Claude Code 對自己工作環境做小型程式碼審查的點子
+- ✅ **CISSP / SSCP 準備**：把 Pack2TheRoot 當作 Domain 3 / Domain 7 的記憶錨點，串接權限提升、漏洞管理、紅隊三個必考主題
 
 ## 原文要點
 

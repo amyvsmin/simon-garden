@@ -7,6 +7,7 @@ tags: [smartphone, review, samsung, ai]
 concepts: [ai-tier-trickledown, smartphone-screen-methodology, vc-bypass-charging]
 inbox-id: 34df85da-554f-81a6-b716-d4b50cac22fe
 notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
+reviewed: 2026-05-16
 ---
 
 ## 摘要
@@ -28,9 +29,9 @@ notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
 
 表面上三個概念雖然來自手機評測，但可跨領域使用：
 
-- AI 功能分層下放策略——看訂閱服務 / 軟體 / 雲端 feature roadmap 時可用的 mental model
-- 手機螢幕評測方法論——公司採購會議室投影、機房監控螢幕、個人選購 4K 螢幕都能用
-- VC + 旁路充電——個人設備長期使用的電池保護設定參考
+- ✅ AI 功能分層下放策略——看訂閱服務 / 軟體 / 雲端 feature roadmap 時可用的 mental model
+- ❌ 手機螢幕評測方法論——公司採購會議室投影、機房監控螢幕、個人選購 4K 螢幕都能用 — 採購不在 Simon 職責範圍
+- ❌ VC + 旁路充電——個人設備長期使用的電池保護設定參考 — 目前不需要電池保護設定
 
 ## 原文要點
 

@@ -7,6 +7,7 @@ inbox-id: ""
 concepts: [insider-threat, insider-threat-program, ai-vuln-discovery, cve-weaponization-time]
 projects: []
 created: 2026-05-06
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -24,6 +25,8 @@ created: 2026-05-06
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 公司 ISO 27001 推進中、insider threat 治理是還沒寫進制度的盲點。陳浩維 5 要點可直接拿來盤公司：crown jewel 盤點對應 ISO 資產盤點接近尾聲的階段、跨部門整合對應資安／法務／HR、通報 SOP 跟 Veeam 備份調整一起做、UEBA／DLP 偵測技術盤點、全員資安文化要靠教育。AI 治理 18% 落差也是公司現況、員工已用 ChatGPT／Gemini 但無可見性、下一步是補 shadow AI 盤點。
+
+❌ 全段 — 公司資安大會行動方案目前用不到
 
 ## 原文要點
 

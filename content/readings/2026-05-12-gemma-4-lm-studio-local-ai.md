@@ -7,6 +7,7 @@ inbox-id: "35ef85da-554f-81b4-8096-e21a6a184fc7"
 concepts: [local-llm, lm-studio, mcp, cli, skill]
 projects: []
 created: 2026-05-12
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -24,10 +25,10 @@ Google Gemma 4 開源模型四版本（E2B 手機平板／E4B 一般筆電／26B
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-1. 半導體公司內網敏感資料不能丟雲端 AI 的場景，可以提一個「本機 Gemma 4 + LM Studio」POC
-2. 資安考量：離線分析含敏感欄位的 log，避免 Shadow AI 風險
-3. 手機 Google AI Edge Gallery 出國旅行用：拍照翻譯／錄音轉文字、不需網路
-4. 對既有「能用 API 就不用 MCP」決策的補充——本機 LLM 場景反而 MCP 是必要選項
+1. ❌ 半導體公司內網敏感資料不能丟雲端 AI 的場景，可以提一個「本機 Gemma 4 + LM Studio」POC — 公司不會跑本機 LLM POC
+2. ❌ 資安考量：離線分析含敏感欄位的 log，避免 Shadow AI 風險 — 公司不會跑本機 LLM POC
+3. ⏳ 手機 Google AI Edge Gallery 出國旅行用：拍照翻譯／錄音轉文字、不需網路
+4. ❌ 對既有「能用 API 就不用 MCP」決策的補充——本機 LLM 場景反而 MCP 是必要選項 — 未架本機 LLM
 
 ## 原文要點
 

@@ -7,6 +7,7 @@ inbox-id: "35ef85da-554f-81c1-a798-f9ad2495c851"
 concepts: [html-vs-markdown-ai-output, disposable-ui-html, context-resend-token-paradox, interactive-confirmation-ui]
 projects: []
 created: 2026-05-12
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -23,9 +24,9 @@ created: 2026-05-12
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-1. 下次跟 Claude Code 講「幫我把這份報告做成 HTML 看版」而不是要 Markdown 條列
-2. 30 條 Knowledge Wiki 待辦的盤點，可以丟一句「給我可拖曳 HTML 看板」由 AI 生介面、整理完再匯回 Notion
-3. 對既有「習慣寫長 prompt 模板」傾向的反建議——保持簡單，告訴 AI 想解決什麼、不要寫死格式
+1. ⏳ 下次跟 Claude Code 講「幫我把這份報告做成 HTML 看版」而不是要 Markdown 條列
+2. ❌ 30 條 Knowledge Wiki 待辦的盤點，可以丟一句「給我可拖曳 HTML 看板」由 AI 生介面、整理完再匯回 Notion — KW migration 已用其他方式結案
+3. ✅ 對既有「習慣寫長 prompt 模板」傾向的反建議——保持簡單，告訴 AI 想解決什麼、不要寫死格式
 
 ## 原文要點
 

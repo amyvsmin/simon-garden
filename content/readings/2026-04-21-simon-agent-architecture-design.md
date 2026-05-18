@@ -6,6 +6,7 @@ url: ""
 tags: [claude-code, architecture, memory, hooks]
 concepts: []
 notion-page-id: 349f85da-554f-81f6-a5c8-ef9d98ddd31c
+reviewed: 2026-05-18
 ---
 
 ## 摘要

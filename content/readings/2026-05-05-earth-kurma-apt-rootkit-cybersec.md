@@ -6,6 +6,7 @@ url: "https://web.plaud.ai/s/pub_f76ac29d-9c00-4230-bdb3-2a4233d0548a::FitTcPGVv
 inbox-id: "357f85da554f81499c9ff8a33ca2db94"
 concepts: [earth-kurma, mmload-yadnux-rootkit, dse-bypass, living-off-cloud-c2, red-team, supply-chain-risk]
 created: 2026-05-05
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -26,10 +27,10 @@ created: 2026-05-05
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 Simon 是公司內部 IT 工程師、負責資安／伺服器／機房／ISO 27001 推進。這場演講有四個直接可帶回的偵測重點：
 
-1. **Tomcat／Web 服務落地檢測**：Earth Kurma 透過 CMS／Tomcat 漏洞落地後執行 cmsequip\*.exe／dp.exe／DB.exe 並 sc create Service。建議掃描 Web root 目錄是否有非預期的 .exe 落地檔、檢查近期 sc create 與 schtasks（特別是 SYSTEM 帳號每日觸發）。
-2. **Webex／OneDrive／Dropbox 出站連線異常**：Cisco Webex 連線正常應由 Cisco 官方 client 發起；如果偵測到 Microsoft 簽章 binary（特別 rundll32.exe）連到 Webex／Dropbox／OneDrive，幾乎可確定異常。建議 Proxy/EDR 加規則。
-3. **DFS/DFSR 與 SysVol 監控**：Earth Kurma 透過 DFSR 把資料丟到 SysVol 自動同步到所有 DC，再從對外 DC 上傳 Dropbox。SysVol 應該只放 GPO，出現非預期壓縮檔／執行檔需告警。
-4. **Group Policy 阻擋未簽章驅動**：Windows DSE 是預設防線，但反射式載入會繞過。建議用 GPO 強制阻擋未受信任驅動安裝、定期審核已載入驅動的數位簽章來源。
+1. ❌ **Tomcat／Web 服務落地檢測**：Earth Kurma 透過 CMS／Tomcat 漏洞落地後執行 cmsequip\*.exe／dp.exe／DB.exe 並 sc create Service。建議掃描 Web root 目錄是否有非預期的 .exe 落地檔、檢查近期 sc create 與 schtasks（特別是 SYSTEM 帳號每日觸發）。 — 公司無 Tomcat／Web 服務
+2. ⏳ **Webex／OneDrive／Dropbox 出站連線異常**：Cisco Webex 連線正常應由 Cisco 官方 client 發起；如果偵測到 Microsoft 簽章 binary（特別 rundll32.exe）連到 Webex／Dropbox／OneDrive，幾乎可確定異常。建議 Proxy/EDR 加規則。
+3. ⏳ **DFS/DFSR 與 SysVol 監控**：Earth Kurma 透過 DFSR 把資料丟到 SysVol 自動同步到所有 DC，再從對外 DC 上傳 Dropbox。SysVol 應該只放 GPO，出現非預期壓縮檔／執行檔需告警。
+4. ⏳ **Group Policy 阻擋未簽章驅動**：Windows DSE 是預設防線，但反射式載入會繞過。建議用 GPO 強制阻擋未受信任驅動安裝、定期審核已載入驅動的數位簽章來源。
 
 ISO 27001 推進過程中，這份案例可作為「資安事件偵測能力」章節的具體威脅情境參考。
 

@@ -6,6 +6,7 @@ url: https://lifehacker.tw/courses/24hr-claude-code-tutorial
 tags: [claude-code, ai-agent, course-review, lifehacker, raymond]
 concepts: [claude-md-reflexive-law, rules-over-code, cli-api-mcp-priority]
 notion-page-id: 341f85da-554f-8011-8ab3-ea2e08598c72
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -23,15 +24,15 @@ notion-page-id: 341f85da-554f-8011-8ab3-ea2e08598c72
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 **最大實質改動：daily 3-things 閉環**（3-3 衍生、5/13 完成）
 
-- morning skill 撈 Calendar + Action DB + Calendar 待辦類組成候選 → 我挑卡 → 寫今日任務關聯（relation）
-- journal skill 晚上讀關聯追問未完成原因寫卡片「問題」屬性（property）
-- 今天（5/14）就在自試、Calendar 待辦類判定規則當天就補進 morning skill Step 3b
+- ✅ morning skill 撈 Calendar + Action DB + Calendar 待辦類組成候選 → 我挑卡 → 寫今日任務關聯（relation）
+- ✅ journal skill 晚上讀關聯追問未完成原因寫卡片「問題」屬性（property）
+- ✅ 今天（5/14）就在自試、Calendar 待辦類判定規則當天就補進 morning skill Step 3b
 
 **其他衍生改動**
 
-- session split pilot（1-3 衍生、5/10 起）：user-memory → SimonVault `0-context/` 軟連結（symlink）、跨 24 條 memory；5/16 評估三條路（批量遷移／調觸發／回退 pilot）
-- memory 系統強化：寫 `feedback_consolidate_before_create`（2-1 衍生）+ `feedback_session_split_proactive`（1-3）、升級 `feedback_tool_awareness`（2-3）
-- PreCompact 掘勾（hook）計畫文件寫成規格（2-2 衍生）、留新對話實作
+- ✅ session split pilot（1-3 衍生、5/10 起）：user-memory → SimonVault `0-context/` 軟連結（symlink）、跨 24 條 memory；5/16 評估三條路（批量遷移／調觸發／回退 pilot）
+- ✅ memory 系統強化：寫 `feedback_consolidate_before_create`（2-1 衍生）+ `feedback_session_split_proactive`（1-3）、升級 `feedback_tool_awareness`（2-3）
+- ✅ PreCompact 掘勾（hook）計畫文件寫成規格（2-2 衍生）、留新對話實作
 
 ## 比雷蒙範例走得更深的地方
 

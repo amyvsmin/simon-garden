@@ -7,6 +7,7 @@ tags: [line-sticker, ai-image, side-project]
 concepts: [line-sticker-workflow]
 inbox-id: 353f85da-554f-81b1-8d35-fcddcbc175a4
 notion-page-id: 354f85da-554f-81f9-9f64-caeb20c43f68
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -20,8 +21,8 @@ notion-page-id: 354f85da-554f-81f9-9f64-caeb20c43f68
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- **實作 demo 補充文字說明**：跟懶人包 Google Doc 互為補充，要實驗時先看這部影片看實際操作、再參考 Google Doc 的 prompt 範本
-- **順便驗證「內容 + AI 生圖」裡「內容」才是門檻**：看起來設計主門檻只剩 1 分鐘——重點變成「你要讓貼圖表達什麼」
+- ❌ **實作 demo 補充文字說明**：跟懶人包 Google Doc 互為補充，要實驗時先看這部影片看實際操作、再參考 Google Doc 的 prompt 範本 — 沒去看影片實作、只存著
+- ❌ **順便驗證「內容 + AI 生圖」裡「內容」才是門檻**：看起來設計主門檻只剩 1 分鐘——重點變成「你要讓貼圖表達什麼」 — 沒實作、論點停在假設
 
 ## 原文要點
 

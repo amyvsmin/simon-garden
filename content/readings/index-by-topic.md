@@ -33,6 +33,16 @@ date: 2026-05-11
 
 Claude Code 入門、使用習慣、教學、新功能。
 
+- [[2026-05-14-raymond-cc-mini-course|雷蒙 24 小時 Claude Code 迷你課｜四週讀完心得]]
+- [[2026-05-14-blocktempo-claude-code-12-rules|Claude Code 12 條規則：把錯誤率從 41% 降到 3%（Mnilax 補完 Karpathy 4 條）]]
+- [[2026-05-14-yaha-claude-code-goal|Claude Code /goal 完整教學（YAHA学堂 4 分鐘速講）]]
+- [[2026-05-14-yt-claude-code-basics-intro|[低價值] Claude Code 基礎觀念入門（中文教學影片）]]
+- [[2026-05-13-thariq-claude-code-session-management-1m-context|Thariq Shihipar：Claude Code 會話管理與 1M 上下文（官方部落格）]]
+- [[2026-05-13-hc-notebooklm-claude-code-rag|HC：NotebookLM × Claude Code — 把 RAG 跟圖表卸載給 Gemini、省 Claude token]] *（也在組 5）*
+- [[2026-05-13-gino-claude-desktop-install|Gino Claude desktop 安裝教學（極簡 30 秒版）]]
+- [[2026-05-13-dustin-obsidian-cross-project-vault|Dustin Obsidian × Claude Code 跨專案知識庫：wikilink 突破樹狀結構、漸進長出 vault]] *（也在組 5）*
+- [[2026-05-12-raymond-claude-code-skill|Claude Code 的 CLAUDE.md 和 SKILL 教學，打造可重複使用的 AI 自動化工作流]]
+- [[2026-05-11-josie-claude-code-obsidian-project-planner|Josie：Claude Code × Obsidian 專案管理五階段（cluster／template reference／AskUser 訪談／封裝 skill／自滾動 pipeline）]] *（也在組 5）*
 - [[2026-05-09-boris-cherny-claude-code-5-habits|Claude Code 創始者 Boris Cherny 親授 5 個高效習慣]]
 - [[2026-05-09-claude-token-limits-tutorial|Claude 額度管理 + 省 Token 教學（Notebook LM 配音）]]
 - [[2026-05-05-obsidian-cli-claude-code-daily-loop|Obsidian CLI plugin × Claude Code 三檔結構 + 開工收工每日工作流]] *（也在組 5）*
@@ -45,6 +55,9 @@ Claude Code 入門、使用習慣、教學、新功能。
 
 Agent 設計、AI 工程趨勢、AI 開發工具。
 
+- [[2026-05-12-gemma-4-lm-studio-local-ai|Gemma 4 + LM Studio：把本機 AI 完整建到電腦／手機，含 MCP 跟 VS Code 串接]]
+- [[2026-05-12-notebooklm-html-vs-markdown-deep-dive|HTML 取代 Markdown 在 AI 時代（NotebookLM 配音深入解析）]]
+- [[2026-05-12-raymond-ai-controls-software|白話文教學：AI 怎麼幫你動手做事？API、CLI、MCP、瀏覽器控制的選擇邏輯]]
 - [[2026-05-09-thariq-html-replaces-markdown-ai|HTML 才是 AI 時代的原生語言？Anthropic 工程師：我已停止寫 Markdown]]
 - [[2026-05-02-hermes-agent-vs-openclaw|Hermes Agent vs OpenClaw（Blocktempo）]]
 - [[2026-04-29-claude-design-anthropic-tour|Claude Design — Anthropic 對話式設計工具導覽]]
@@ -53,6 +66,9 @@ Agent 設計、AI 工程趨勢、AI 開發工具。
 
 Obsidian + Claude Code 的 KW 方法論。
 
+- [[2026-05-13-hc-notebooklm-claude-code-rag|HC：NotebookLM × Claude Code — 把 RAG 跟圖表卸載給 Gemini、省 Claude token]] *（也在組 3）*
+- [[2026-05-13-dustin-obsidian-cross-project-vault|Dustin Obsidian × Claude Code 跨專案知識庫：wikilink 突破樹狀結構、漸進長出 vault]] *（也在組 3）*
+- [[2026-05-11-josie-claude-code-obsidian-project-planner|Josie：Claude Code × Obsidian 專案管理五階段（cluster／template reference／AskUser 訪談／封裝 skill／自滾動 pipeline）]] *（也在組 3）*
 - [[2026-05-05-obsidian-cli-claude-code-daily-loop|Obsidian CLI plugin × Claude Code 三檔結構 + 開工收工每日工作流]] *（也在組 3）*
 - [[2026-05-02-xinxin-obsidian-ai-second-brain|Obsidian + AI 第二大腦工作流（心心）]] *（也在組 3）*
 - [[2026-04-29-karpathy-obsidian-claude-wiki|Andrej Karpathy 的 Obsidian + Claude Code 個人 Wiki 做法]] *（也在組 3）*

@@ -6,6 +6,7 @@ url: ""
 tags: [claude-code, skill, journal, notion]
 concepts: [reverse-skill-design, sentinel-test, pure-receive-immediate-write, directory-as-trigger, simplicity-over-control]
 notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
+reviewed: 2026-05-16
 ---
 
 ## 摘要
@@ -23,10 +24,10 @@ notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- **每天的日記流程**：打開 Claude Code 進入 /Simon-Journal 目錄即可直接寫，不需要再貼回 Notion；跨裝置（手機、電腦、網頁）體感一致
-- **設計方法論可重用**：Q5 反推、Sentinel、目錄即觸發、純接收 + 即時落地四個方法未來設計其他 skill 都能拿來用
-- **系統分工穩固**：Notion = 日記 + 任務 + 復盤，vault = WIKI 知識，Heptabase 退訂（每年省 3,455 元）
-- **Claude Code 能力邊界**：清楚知道 MCP 不支援封存、rich text 可寫入、需自行做 fetch-then-replace 冪等、API 會回 502 要重試，未來設計任何 Notion skill 都能繞過這些坑
+- ✅ **每天的日記流程**：打開 Claude Code 進入 /Simon-Journal 目錄即可直接寫，不需要再貼回 Notion；跨裝置（手機、電腦、網頁）體感一致
+- ✅ **設計方法論可重用**：Q5 反推、Sentinel、目錄即觸發、純接收 + 即時落地四個方法未來設計其他 skill 都能拿來用
+- ✅ **系統分工穩固**：Notion = 日記 + 任務 + 復盤，vault = WIKI 知識，Heptabase 退訂（每年省 3,455 元）
+- ✅ **Claude Code 能力邊界**：清楚知道 MCP 不支援封存、rich text 可寫入、需自行做 fetch-then-replace 冪等、API 會回 502 要重試，未來設計任何 Notion skill 都能繞過這些坑
 
 ## 原文要點
 

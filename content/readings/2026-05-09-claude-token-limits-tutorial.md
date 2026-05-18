@@ -7,6 +7,7 @@ inbox-id: "35bf85da-554f-81ce-8969-c43c5d784cf6"
 concepts: [claude-usage-dashboard, token-saving-rules, claude-slash-commands-control, markdown-vs-pdf-token-cost]
 projects: []
 created: 2026-05-10
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -23,9 +24,9 @@ YouTube 短影片（Notebook LM 配音）以「大師級實戰指南」包裝、
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
-- Simon-Agent 自架 CC 雖然走 plan-mode + skill 為主、但對話水位管理跟模型適配仍適用；CC 的 /compact /clear 跟 web 同名語意相同
-- 公司 IT 文件處理（CISSP 教材、ISO 27001 規範、廠商規格 PDF）改先轉 Markdown 再丟、預期 token 用量下降一個量級
-- 跟 Simon 剛建的 Action「Obsidian Reading 改 HTML 網頁模式」呼應反向思考：vault 內部閱讀走 HTML（提升閱讀體驗）、丟給 AI 仍走 Markdown（壓 token）
+- ✅ Simon-Agent 自架 CC 雖然走 plan-mode + skill 為主、但對話水位管理跟模型適配仍適用；CC 的 /compact /clear 跟 web 同名語意相同
+- ⏳ 公司 IT 文件處理（CISSP 教材、ISO 27001 規範、廠商規格 PDF）改先轉 Markdown 再丟、預期 token 用量下降一個量級
+- ✅ 跟 Simon 剛建的 Action「Obsidian Reading 改 HTML 網頁模式」呼應反向思考：vault 內部閱讀走 HTML（提升閱讀體驗）、丟給 AI 仍走 Markdown（壓 token）
 
 ## 原文要點
 

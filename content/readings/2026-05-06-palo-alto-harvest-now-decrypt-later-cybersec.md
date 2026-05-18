@@ -7,6 +7,7 @@ inbox-id: ""
 concepts: [harvest-now-decrypt-later, post-quantum-cryptography, shadow-ai, critical-infrastructure]
 projects: []
 created: 2026-05-06
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -24,6 +25,8 @@ Palo Alto Networks 亞太政策與政府關係副總裁 Nicole Quinn 在 CYBERSE
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 公司目前無後量子密碼遷移計畫、若涉長壽命資料（員工醫療紀錄、財務歷史、商業機密）已在 risk window；下一步盤點哪些系統用 RSA／ECC 等會被量子破解的舊加密。Shadow AI 治理是 ISO 27001 可內建的章節、跟 insider threat 一起寫；先做 SaaS 流量盤點抓出實際正在用的 AI 工具清單。Nicole Quinn「This is no longer hypothetical」的時間軸視角直接可拿去主管簡報。
+
+❌ 全段 — 公司資安大會行動方案目前用不到
 
 ## 原文要點
 

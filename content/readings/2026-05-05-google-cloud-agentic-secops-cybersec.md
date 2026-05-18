@@ -6,6 +6,7 @@ url: "https://web.plaud.ai/s/pub_1d056f42-6980-4ea9-9a08-3d9952ad8e14::y4UZ9SHsD
 inbox-id: "357f85da554f81a59714d9a82da7548f"
 concepts: [agentic-secops, cve-weaponization-time, secure-ai-framework, wiz-platform, ai-vuln-discovery, supply-chain-risk]
 created: 2026-05-05
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -26,11 +27,11 @@ Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBE
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 Simon 是公司內部 IT 工程師、負責資安／伺服器／專案導入，這場演講有三個直接可帶回工作的訊息：
 
-1. **CVE 武器化時間 8 秒**：Veeam 備份調整、SQL MFA、ISO 27001 推進的時程不能再用「漏洞先收著、季底再修」的舊節奏。建議盤點高風險系統（特別是對外暴露的 Tomcat／IIS／Web 服務）的修補 SLA，把高風險 CVE 的補丁從「月」壓到「天」。
-2. **Agentic SecOps 入門路徑**：公司若有採用 Google Workspace／GCP，可評估 Gemini 在 SecOps 的 NL 查詢能力做 PoC；不一定整套上，先試「告警分流自動摘要」這一塊。
-3. **AI 部署順序**：演講提醒「應用先行、安全滯後」是常見地雷。Simon 公司若計畫導 AI 工具（不論 Microsoft Copilot 還是自架），應該把資安納入設計階段，而不是上線後補。
+1. ⏳ **CVE 武器化時間 8 秒**：Veeam 備份調整、SQL MFA、ISO 27001 推進的時程不能再用「漏洞先收著、季底再修」的舊節奏。建議盤點高風險系統（特別是對外暴露的 Tomcat／IIS／Web 服務）的修補 SLA，把高風險 CVE 的補丁從「月」壓到「天」。
+2. ❌ **Agentic SecOps 入門路徑**：公司若有採用 Google Workspace／GCP，可評估 Gemini 在 SecOps 的 NL 查詢能力做 PoC；不一定整套上，先試「告警分流自動摘要」這一塊。 — 公司 Microsoft 體系、無 GCP/Gemini
+3. ⏳ **AI 部署順序**：演講提醒「應用先行、安全滯後」是常見地雷。Simon 公司若計畫導 AI 工具（不論 Microsoft Copilot 還是自架），應該把資安納入設計階段，而不是上線後補。
 
-不直接相關但值得記的：Wiz 平台 50% 客戶不是資安部門，反映「跨團隊 DevSecOps 採用度」是平台選型的關鍵指標。
+❌ 不直接相關但值得記的：Wiz 平台 50% 客戶不是資安部門，反映「跨團隊 DevSecOps 採用度」是平台選型的關鍵指標。 — 公司無 DevSecOps／平台選型計畫
 
 ## 原文要點
 

@@ -7,6 +7,7 @@ inbox-id: "359f85da-554f-81f8-9002-eceecfe4959b"
 concepts: [post-quantum-cryptography, harvest-now-decrypt-later, mosca-theorem, lattice-based-cryptography, crypto-agility, cbom]
 projects: []
 created: 2026-05-07
+reviewed: 2026-05-18
 ---
 
 ## 摘要
@@ -27,11 +28,11 @@ created: 2026-05-07
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 公司 IT 角度可以直接做的三件事：
 
-1. **CBOM 盤點**：列出所有用 RSA/ECC 的系統與函式庫版本（OpenSSL、Bouncy Castle、HSM、晶片卡韌體），標註資料保留年限。這是 ISO 27001 資產盤點的擴充章節，可順便交差。
-2. **CNSA 2.0 時程當對齊基準**：2027-01-01 雖然是國安採購門檻、但台灣金管會 + 數位部會跟進類似時程。提前做憑證 lifecycle、HSM 升級評估、給 Sam 看的資安 KPI 月簡報加「PQC 遷移預備度」這條。
-3. **澄清向上溝通**：把 Q-Day 2029 誤傳釐清、ECC 可能更早被破的事實納入給董事會的風險敘事。Plaud 錄音可作為一手資料。
+1. ❌ **CBOM 盤點**：列出所有用 RSA/ECC 的系統與函式庫版本（OpenSSL、Bouncy Castle、HSM、晶片卡韌體），標註資料保留年限。這是 ISO 27001 資產盤點的擴充章節，可順便交差。 — 用不到
+2. ❌ **CNSA 2.0 時程當對齊基準**：2027-01-01 雖然是國安採購門檻、但台灣金管會 + 數位部會跟進類似時程。提前做憑證 lifecycle、HSM 升級評估、給 Sam 看的資安 KPI 月簡報加「PQC 遷移預備度」這條。 — 用不到
+3. ❌ **澄清向上溝通**：把 Q-Day 2029 誤傳釐清、ECC 可能更早被破的事實納入給董事會的風險敘事。Plaud 錄音可作為一手資料。 — 用不到
 
-對個人證照規劃：CISSP Domain 3 已含 PQC 概念、SSCP 出題機率提高、Google Cyber Course 3 也會碰到。陳君明這場可以當 SSCP/CISSP 戰備教材重看。
+⏳ 對個人證照規劃：CISSP Domain 3 已含 PQC 概念、SSCP 出題機率提高、Google Cyber Course 3 也會碰到。陳君明這場可以當 SSCP/CISSP 戰備教材重看。
 
 ## 原文要點
 
