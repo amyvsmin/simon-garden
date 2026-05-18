@@ -60,10 +60,15 @@ $ ls -la
 
 ## 關鍵面向
 
-- **chmod 三 operator**：`+` 加 / `-` 減 / `=` 覆蓋（清舊的）
-- **`chmod 777` 是災難**：world-writable + executable = webshell 落地點
-- **`chmod -R` 慎用**：遞迴影響整棵樹、改錯難救
-- **chown 冒號語法**：`USER:GROUP` 同改、`:GROUP` 只改 group
+- **chmod 三 operator**：`+` 加 / `-` 減 / `=` 覆蓋（清舊的）；`=` 是破壞性、誤用會直接清掉既有權限
+- **symbolic vs numeric 何時用**：symbolic（u+x）適合微調單一 bit、不影響其他；numeric（644）適合一次設定完整三組權限、適合 SOP 跟腳本
+- **大寫 X 跟小寫 x**：`chmod u+rwX,go+rX DIR` 大寫 X 只給「已是目錄或已有任何 execute bit 的檔案」、避免把所有檔都變可執行；遞迴設權必用
+- **`chmod 777` 是災難**：world-writable + executable = webshell 落地點；IR 必掃 `find / -perm -o+w -type f`
+- **`chmod -R` 慎用**：遞迴影響整棵樹、改錯難救；改前先 `chmod -R --preserve-root` 防 `/` 災難（GNU 預設已開）
+- **chown 冒號語法**：`USER:GROUP` 同改、`:GROUP` 只改 group、`USER:` 改 user + 設為該 user 預設 group
+- **chown -R 是 IR red flag**：攻擊者落腳常見手法是 `chown apache:apache` 把 webshell 偽裝成 web server 寫的；對應 [[file-permissions]] forensics
+- **特殊權限位 4xxx/2xxx/1xxx**：setuid（4）／setgid（2）／sticky bit（1）；SUID root 是提權主路、`find / -perm -4000` 必掃；sticky bit 在 /tmp 防其他 user 刪你的檔
+- **umask 預設權限**：`umask 022` = 新檔 644／新目錄 755；`umask 077` = 新檔 600 只 owner 看到、適合多用戶機跟敏感工作環境
 
 ## 應用場景
 

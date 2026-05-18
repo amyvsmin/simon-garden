@@ -38,3 +38,8 @@ AI 操控軟體時的工具優先順序——CLI > API > MCP > Browser Use、底
 ## 尚未解決的疑問
 
 - CLI 跟 API 的真實切換條件？某些任務 CLI（`gh api`）本質就在呼叫 API、邊界模糊；目前 Simon 用法是「能一行 shell 解決就 CLI、要寫腳本／處理 response 才 API」、邊界靠經驗
+
+## 來源（自動維護）
+
+- [[2026-05-12-raymond-ai-controls-software]]（雷蒙部落格長文原版 3 層）
+- [[2026-05-14-raymond-cc-mini-course]]（雷蒙課 2-3 + Simon 補 CLI 在前的 4 層細化）
