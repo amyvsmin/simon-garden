@@ -21,6 +21,7 @@ reviewed: 2026-05-18
 - [[claude-md-dual-nav]]：根目錄 CLAUDE.md 當「最高憲法」+ 子資料夾分層
 - [[claude-slash-commands-control]]：/compact /context /cost /model 四個（跟 token-saving-rules 重疊）
 - [[claude-rewind]]：雙 ESC 或 /rewind 回滾、限制只能回 Claude Code 編輯過的檔、不能回 Bash 動作、30 天保留
+![[2026-05-14-yt-claude-code-basics-intro-claude-md-dual-nav.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -22,6 +22,7 @@ CYBERSEC 2026 Day 3 臺灣資安館「自主研發特展」第 92 頁涵蓋 11 �
 - [[cyber-range-digital-twin]]：AI + 數位孿生重現國家級攻擊鏈、五段式分析、虛擬環境讓主管機關理解影響
 - [[local-soc-ai-assistant]]：地端大資料 + RTX 4090 跑的 SOC AI 助手、解決雲端 AI 的隱私合規顧慮、教學流程內嵌補強小模型能力
 - [[supply-chain-risk]]：晶片→韌體→OS→應用層全鏈條治理、SEMI E187 + CRA + IEC 62443 三規範並行
+![[2026-05-07-cybersec-taiwan-pavilion-tour-secure-boot.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -39,3 +39,4 @@ Andrej Karpathy 2025 提出、以自然語言跟 AI 描述需求並讓 AI 全程
 ## 來源（自動維護）
 
 - [[2026-05-02-haiuncle-claude-code-intro]]
+- [[2026-05-20-accuhit-claude-ai-complete-guide]]

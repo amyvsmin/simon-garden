@@ -22,6 +22,7 @@ Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M �
 - [[subagents]]：產出大量中間結果但只要結論的場景、保持主會話乾淨
 - [[claude-usage-dashboard]]：`/usage` 監控會話水位的官方說法
 - [[token-saving-rules]]：對應 4 大守則之「對話水位管理」段
+![[2026-05-13-thariq-claude-code-session-management-1m-context-claude-rewind.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

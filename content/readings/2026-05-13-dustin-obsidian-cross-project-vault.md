@@ -22,6 +22,7 @@ Dustin 示範用 Obsidian 當跨專案知識庫主軸，解決 Claude Code 在�
 - [[obsidian-cli-plugin]]：Obsidian 官方 skill 讓 Claude Code 透過 CLI 跟 vault 對話
 - [[claude-md-dual-nav]]：根目錄 CLAUDE.md 當總目錄、各資料夾 instructions.md 當局部地圖
 - [[second-brain]]：個人知識管理目標、釋放大腦做思考決策
+![[2026-05-13-dustin-obsidian-cross-project-vault-progressive-vault-growth.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

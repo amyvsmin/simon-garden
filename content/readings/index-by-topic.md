@@ -33,6 +33,7 @@ date: 2026-05-11
 
 Claude Code 入門、使用習慣、教學、新功能。
 
+- [[2026-05-22-yaha-claude-code-setup-plugin|YAHA：Anthropic 官方 claude-code-setup plugin — 掃專案幫你推薦該裝什麼]]
 - [[2026-05-14-raymond-cc-mini-course|雷蒙 24 小時 Claude Code 迷你課｜四週讀完心得]]
 - [[2026-05-14-blocktempo-claude-code-12-rules|Claude Code 12 條規則：把錯誤率從 41% 降到 3%（Mnilax 補完 Karpathy 4 條）]]
 - [[2026-05-14-yaha-claude-code-goal|Claude Code /goal 完整教學（YAHA学堂 4 分鐘速講）]]

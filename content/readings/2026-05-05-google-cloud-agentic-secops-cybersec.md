@@ -22,6 +22,8 @@ Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBE
 - [[ai-vuln-discovery]]：本演講補上 Google 端的 Mythos／Big Sleep／CodeMender 三個具體工具
 - [[supply-chain-risk]]：演講中強調 AOSS（經 Google 驗證的 OSS 供給）作為供應鏈完整性的關鍵控制
 
+![[2026-05-05-google-cloud-agentic-secops-cybersec-agentic-secops-v4.png|275]]
+
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。

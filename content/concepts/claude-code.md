@@ -42,3 +42,4 @@ Anthropic 推出的終端型 AI 助手，運行於本地 shell，具備完整「
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
 - [[2026-05-02-hermes-agent-vs-openclaw]]
+- [[2026-05-22-yaha-claude-code-setup-plugin]]
