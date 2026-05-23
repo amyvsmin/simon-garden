@@ -55,3 +55,20 @@ Google 在 I/O 2026 推出 [[docs-live]]、把 Gemini 語音模型整合進 Goog
 ## 原始連結
 
 - https://www.inside.com.tw/article/41333-google-io-2026-docs-live
+
+## 落地動作與效益
+
+### A 類芙莉蓮優化
+
+**有優化**：無
+
+**不優化**：
+
+- ❌ **整篇無可套到 Claude Code／skill／rules／CLAUDE.md／user-memory 的優化點**
+  - 原因：Docs Live 是 Google 端封閉產品、跟本地 Claude Code 工作流無交集；屬於「該追蹤但不該動規則」類 reading
+
+### B 類 Simon 個人動作（後續維護狀態）
+
+- ❌ **2026 夏天上線時試一次 Docs Live**：Simon 2026-05-23 評估後決定不做；公司資料隱私不便餵 Google、個人寫作場景靠 vault + Claude Code 已順、無實際痛點
+- ❌ **公司資料隱私確認**：B 類 #1 ✗ 後連帶不需要
+- ❌ **跟 [[gemini-spark]] 一起評估**：併 reading 2 落地紀錄處理、不重複

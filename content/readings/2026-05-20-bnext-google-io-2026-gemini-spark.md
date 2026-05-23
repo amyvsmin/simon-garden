@@ -79,3 +79,48 @@ Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作
 ## 原始連結
 
 - https://www.bnext.com.tw/article/90991/google-gemini-spark-3-5-flash-ai-agent-strategy
+
+## 落地動作與效益
+
+### A 類芙莉蓮優化
+
+**有優化**：無
+
+**不優化**（2026-05-23 跨篇彙整評估 10 個候選、Simon 全 ✗）：
+
+- ❌ **Information Agent 24/7 監看主題 → 套 `vault-auto-retrieval.md`**
+  - 原因：(1) 跟 [[feedback_review_active_participation]]「復盤要親身參與」原則衝突、如果變 cron 自動掃會成被動知識消化 (2) 等 Google Information Agent 台灣上線、Simon 直接訂閱用 Google 端、自架重工不划算 (3) 現規則「強類型 keyword 上網驗證」已覆蓋 80% 場景
+  - 結論：若要做也是「等 Info Agent 台灣上線後做訂閱→收件箱橋接」、不是現在自架掃網
+- ❌ **Spark「高風險動作前需確認」→ PreToolUse 二次確認 hook**
+  - 原因：跟 5/22 YAHA reading 同一評估、`settings.json` 既有 22 條 deny rules 直接擋住比二次確認更安全
+- ❌ **「達上限自動切較小模型」→ Opus 達上限自動降 Sonnet/Haiku**
+  - 原因：Max 5x 3,300/月額度夠、Claude Code 本身已有 weekly limit 降級邏輯（[[claude-usage-dashboard]] 覆蓋）
+- ❌ **Spark「Tasks／Skills／Schedules」三模組對應**
+  - 原因：跟既有 Claude Skill + /loop + /schedule 一一對應、無新 insight
+- ❌ **Generative UI / 即時組 mini app**
+  - 原因：既有 [[disposable-ui-html]] + [[interactive-confirmation-ui]] + Thariq HTML 主張已覆蓋
+- ❌ **Spark ghostwriter「讀 50 封郵件學個人風格」→ 餵芙莉蓮 Simon 過往語料**
+  - 原因：既有 [[template-reference-pattern]]（Josie 5/11 reading）已覆蓋、且 Simon vault 內 substack/journal 已是天然語料、不必額外封裝
+- ❌ **「Spark 預設關閉、需手動啟用」安全預設值**
+  - 原因：Simon 既有 `bypassPermissions`（除 deny）是相反方向選擇、偏好高自動化、不適用
+- ❌ **Omni Flash 三類一致性（角色／物理／場景）**
+  - 原因：影片生成領域、跟 Claude Code 工作流無關
+- ❌ **AI Overviews 多模態輸入（檔案／影片／Chrome 分頁）**
+  - 原因：Claude Code 已支援檔案／圖片附加、Chrome 分頁不適用 CLI 場景
+- ❌ **算力計費 + pay-as-you-go 加買邏輯**
+  - 原因：訂閱結構議題、非工作流規則
+
+### B 類 Simon 個人動作（後續維護狀態）
+
+2026-05-23 評估後全 ✗：
+
+- ❌ 訂閱方案重新評估（Google AI Pro/Ultra vs Claude Max 5x）
+- ❌ 追台灣可用性（Spark / Info Agent / Omni 每月確認）
+- ❌ 查 Antigravity harness 是否已開放
+- ❌ Gemini Daily Brief 美國限定試（VPN）
+- ❌ Omni Flash 做 Substack cover / Simon 自介系列影片
+- ❌ 建 Information Agent 監看資安主題（等台灣上線）
+- ❌ 2026 夏天試 Docs Live（從 reading 1 帶過來）
+- ❌ 公司資料隱私確認（從 reading 1 帶過來）
+
+統一原因：當前手上 Claude Code + Notion + Obsidian + Substack 工作流已順、無實際痛點驅動切換或補位 Google 生態；台灣可用性還未明、靜觀其變、不主動追
