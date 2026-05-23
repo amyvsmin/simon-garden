@@ -89,7 +89,7 @@ Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作
 **不優化**（2026-05-23 跨篇彙整評估 10 個候選、Simon 全 ✗）：
 
 - ❌ **Information Agent 24/7 監看主題 → 套 `vault-auto-retrieval.md`**
-  - 原因：(1) 跟 [[feedback_review_active_participation]]「復盤要親身參與」原則衝突、如果變 cron 自動掃會成被動知識消化 (2) 等 Google Information Agent 台灣上線、Simon 直接訂閱用 Google 端、自架重工不划算 (3) 現規則「強類型 keyword 上網驗證」已覆蓋 80% 場景
+  - 原因：(1) 跟 user-memory `feedback_review_active_participation`「復盤要親身參與」原則衝突、如果變 cron 自動掃會成被動知識消化 (2) 等 Google Information Agent 台灣上線、Simon 直接訂閱用 Google 端、自架重工不划算 (3) 現規則「強類型 keyword 上網驗證」已覆蓋 80% 場景
   - 結論：若要做也是「等 Info Agent 台灣上線後做訂閱→收件箱橋接」、不是現在自架掃網
 - ❌ **Spark「高風險動作前需確認」→ PreToolUse 二次確認 hook**
   - 原因：跟 5/22 YAHA reading 同一評估、`settings.json` 既有 22 條 deny rules 直接擋住比二次確認更安全
