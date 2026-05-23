@@ -19,6 +19,7 @@ AI 從「回答問題的搜尋引擎」進化為「能完成任務、執行細�
 - **執行型的核心能力**：tool use（工具呼叫）、multi-step reasoning（多步驟推理）、長時間 autonomous run（自主執行）
 - **邊界條件**：高風險動作（刪除資料、財務操作）仍需人類確認；irreversible action 應加 confirmation gate
 - **市場意義**：從 LLM 到 agentic AI 的商業落地轉折點；以前 AI 幫你「想」，現在 AI 幫你「做」
+- **Google I/O 2026 落地**（2026-05-19）：Google 一次推 [[gemini-spark]]（Workspace 跨 app 代理人）+ [[docs-live]]（Docs 語音編輯）+ [[information-agent]]（搜尋層 24/7 監看）+ [[gemini-omni]]（多模態生成）+ [[compute-based-pricing]]（算力計費）；同步把「執行型 AI」推進主流；底層靠 [[gemini-flash]] 速度 4 倍撐起代理人即時感
 
 ## 應用場景
 
@@ -40,3 +41,4 @@ AI 從「回答問題的搜尋引擎」進化為「能完成任務、執行細�
 ## 來源（自動維護）
 
 - [[2026-05-20-accuhit-claude-ai-complete-guide]]
+- [[2026-05-20-bnext-google-io-2026-gemini-spark]]

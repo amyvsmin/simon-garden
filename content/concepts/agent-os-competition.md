@@ -20,6 +20,8 @@ Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人�
 - **文件設計升級**：要針對「代理人可讀性」優化、不只人類可讀；對應 [[html-vs-markdown-ai-output]] 角度但更系統化
 - **跟 [[claude-code-vs-api-split]] 的關係**：claude-code-vs-api-split 看 Claude 內部三形態分工、agent-os-competition 看跨廠商桌面入口競爭、兩者互補不同層
 - **Every 創辦人丹希普案例**：從 Claude Code 轉 Codex Desktop、主因是 app 層體驗（速度、子代理、推送）勝出、非模型差
+- **Google I/O 2026 反擊**（2026-05-19）：Google 同步推 [[gemini-spark]]（跨 Workspace 代理人入口）+ [[gemini-flash]]（速度比其他前沿快 4 倍）+ [[information-agent]]（搜尋層代理人）+ [[compute-based-pricing]]（從次數計費轉算力計費）；4 路同時推進、訊號明確：Google 把 Gemini 從聊天升級為代理人、搶奪 Workspace 既有用戶不流失到 Claude／Codex
+- **競賽特徵更新**：模型層差距收斂、底層算力（[[gemini-flash]] 速度 4 倍）+ 計費結構（算力計費）+ 生態深度（Gmail／Calendar／Drive／YouTube 原生）成新戰場三要素；單純 app 體驗已不夠
 
 ## 應用場景
 
@@ -41,3 +43,4 @@ Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人�
 ## 來源（自動維護）
 
 - [[2026-05-16-bnext-agent-os-codex-vs-claude]]
+- [[2026-05-20-bnext-google-io-2026-gemini-spark]]
