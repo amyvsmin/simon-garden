@@ -6,6 +6,7 @@ url: "https://www.kucoin.com/news/flash/anthropic-engineer-shares-claude-code-ca
 inbox-id: "369f85da-554f-8135-bf79-d1580d609109"
 concepts: [prompt-cache, token-saving-rules, context-rot]
 projects: []
+impact: high
 created: 2026-05-24
 ---
 
@@ -149,8 +150,8 @@ Anthropic 工程師 Thariq 公開分享 prompt caching 策略，實測每週省�
 - ❌ 不優化「同一 session 不切模型」：Claude Code 在 `/model` 切換時已有內建確認對話框警告，feedback memory 再寫一條是重複既有機制
 
 **B 類 Simon 個人動作**：
-- ⏳ 找 Claude Code 快取命中率面板（文章提到一個 GitHub repo 可部署 localhost）
-- ⏳ 檢查自己使用習慣：是否常暫離超過 1 小時後繼續同一 session
+- ❌ 找 Claude Code 快取命中率面板：Simon 是 Max 5x 固定月費、目前沒有額度燒太快的痛點，裝了也只是多一個偶爾看的數字，等哪天真的異常再回來找
+- ❌ 暫離超過 1 小時後的 session 處理：討論後發現時機對不上——我能偵測到暫離是在 Simon 回來送訊息時，但那時快取重建已經發生了，此時建議切 session 反而多付一次重建成本。既有 session-split 規則已涵蓋，Simon 自己心裡知道就好
 
 ## 原始連結
 

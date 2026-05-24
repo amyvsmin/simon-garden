@@ -6,6 +6,7 @@ url: "https://youtu.be/22bjps4LMmU"
 inbox-id: "35ff85da-554f-8129-b6fc-f11e9cbbe4cb"
 concepts: [notebooklm-as-rag, skill, mcp, claude-code]
 projects: []
+impact: medium
 created: 2026-05-13
 reviewed: 2026-05-18
 ---

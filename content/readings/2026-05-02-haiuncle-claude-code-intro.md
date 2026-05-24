@@ -7,6 +7,7 @@ tags: [claude-code, tutorial, youtube]
 concepts: [claude-code, skill, hooks, subagents, mcp, plan-mode, vibe-coding]
 inbox-id: 352f85da-554f-81bc-bb5f-f9ff7055d461
 notion-page-id: 354f85da-554f-8182-b31e-d1ebb929a3a7
+impact: medium
 reviewed: 2026-05-17
 ---
 

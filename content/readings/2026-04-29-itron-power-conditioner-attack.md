@@ -7,6 +7,7 @@ tags: [cybersecurity, ot, firmware, critical-infrastructure]
 concepts: [power-conditioner, firmware-attack-surface, critical-infrastructure, supply-chain-risk, secure-boot]
 inbox-id: 351f85da-554f-8188-973a-f0cf6e70a728
 notion-page-id: 351f85da-554f-8142-8448-df618c34875d
+impact: high
 reviewed: 2026-05-17
 ---
 

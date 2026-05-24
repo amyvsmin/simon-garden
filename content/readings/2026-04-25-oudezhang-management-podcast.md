@@ -7,6 +7,7 @@ tags: [management, culture, podcast, career]
 concepts: [permeation-management, cultural-nesting, win-vs-prevail]
 inbox-id: 34df85da-554f-8186-8f1c-deb8b3445b6c
 notion-page-id: 34df85da-554f-81fa-a710-f4a7e7a7f597
+impact: medium
 reviewed: 2026-05-16
 ---
 

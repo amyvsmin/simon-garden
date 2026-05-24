@@ -6,6 +6,7 @@ url: "https://claude.com/blog/using-claude-code-session-management-and-1m-contex
 inbox-id: "35ff85da-554f-814e-9e76-cb4919c289d9"
 concepts: [context-rot, claude-rewind, claude-slash-commands-control, subagents, claude-usage-dashboard, token-saving-rules]
 projects: []
+impact: high
 created: 2026-05-13
 reviewed: 2026-05-18
 ---

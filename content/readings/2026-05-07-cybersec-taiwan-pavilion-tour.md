@@ -6,6 +6,7 @@ url: "https://web.plaud.ai/s/pub_025767c5-0550-46ca-b477-4f8bf3526e16::Hc1qVGFuL
 inbox-id: "359f85da-554f-8165-8242-d5365902d6e5"
 concepts: [secure-boot, semi-e187, eu-cra, cyber-range-digital-twin, local-soc-ai-assistant, supply-chain-risk]
 projects: []
+impact: low
 created: 2026-05-07
 reviewed: 2026-05-18
 ---

@@ -6,6 +6,7 @@ url: "https://www.youtube.com/watch?v=KVBKK5ov6RE"
 inbox-id: "360f85da-554f-8108989dcbf10d53ed2f"
 concepts: [claude-code, skill, claude-md-dual-nav, claude-slash-commands-control, claude-rewind]
 projects: []
+impact: low
 created: 2026-05-15
 reviewed: 2026-05-18
 ---

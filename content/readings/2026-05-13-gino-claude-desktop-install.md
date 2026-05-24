@@ -6,6 +6,7 @@ url: "https://youtu.be/_6qnha91nuU"
 inbox-id: "35ff85da-554f-8197-98ba-f0b082750f63"
 concepts: []
 projects: []
+impact: low
 created: 2026-05-13
 reviewed: 2026-05-18
 ---

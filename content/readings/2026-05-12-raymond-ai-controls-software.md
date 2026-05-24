@@ -6,6 +6,7 @@ url: "https://raymondhouch.com/lifehacker/digital-workflow/how-ai-controls-softw
 inbox-id: "35ef85da-554f-818c-9580-df5726889a22"
 concepts: [api, cli, mcp, browser-use]
 projects: []
+impact: high
 created: 2026-05-12
 reviewed: 2026-05-18
 ---

@@ -7,6 +7,7 @@ tags: [claude-code, ai-tools, guide]
 concepts: [claude-code, mcp, skill, hooks, subagents]
 inbox-id: 349f85da-554f-8151-95e9-d94445b7b4bd
 notion-page-id: 349f85da-554f-8117-a1b0-f6981d036324
+impact: medium
 reviewed: 2026-05-15
 ---
 

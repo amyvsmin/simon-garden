@@ -6,6 +6,7 @@ url: "https://www.bnext.com.tw/article/90991/google-gemini-spark-3-5-flash-ai-ag
 inbox-id: "366f85da-554f-8182-a5c9-f0fd511b8bac"
 concepts: [gemini-spark, gemini-flash, gemini-omni, information-agent, compute-based-pricing, agent-os-competition, ai-task-execution]
 projects: []
+impact: medium
 created: 2026-05-20
 ---
 

@@ -6,6 +6,7 @@ url: "https://worldviewsacademy.circle.so/c/shifuclass/sections/1004867/lessons/
 inbox-id: "364f85da-554f-8142-a012-dded2304ad1f"
 concepts: [problem-prd, skill, doc-to-md, tool-agnostic-thinking]
 projects: []
+impact: medium
 created: 2026-05-18
 ---
 

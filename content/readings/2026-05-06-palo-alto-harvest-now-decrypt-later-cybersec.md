@@ -6,6 +6,7 @@ url: ""
 inbox-id: ""
 concepts: [harvest-now-decrypt-later, post-quantum-cryptography, shadow-ai, critical-infrastructure]
 projects: []
+impact: medium
 created: 2026-05-06
 reviewed: 2026-05-18
 ---

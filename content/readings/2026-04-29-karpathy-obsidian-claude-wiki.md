@@ -7,6 +7,7 @@ tags: [obsidian, claude-code, knowledge-management, karpathy]
 concepts: [index-based-knowledge-base, raw-wiki-split, graph-emergence, log-traceability, instructions-file]
 inbox-id: 34df85da-554f-8140-9281-c79f81f78b79
 notion-page-id: 351f85da-554f-81c3-a982-e63749882c27
+impact: medium
 reviewed: 2026-05-17
 ---
 

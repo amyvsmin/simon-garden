@@ -6,6 +6,7 @@ url: ""
 inbox-id: ""
 concepts: [aging-network-infrastructure, agentic-kill-chain, supply-chain-risk, cve-weaponization-time]
 projects: []
+impact: low
 created: 2026-05-06
 reviewed: 2026-05-18
 ---

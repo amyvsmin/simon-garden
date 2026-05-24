@@ -6,6 +6,7 @@ url: "https://www.shoppingdesign.com.tw/post/view/13441"
 inbox-id: "363f85da-554f-8113-9180-ec8e49c7fbd4"
 concepts: []
 projects: []
+impact: low
 created: 2026-05-18
 ---
 

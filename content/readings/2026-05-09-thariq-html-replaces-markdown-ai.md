@@ -6,6 +6,7 @@ url: "https://www.inside.com.tw/article/41251-from-md-to-html"
 inbox-id: "35cf85da-554f-811e-adf0-c8117d9e98ee"
 concepts: [html-vs-markdown-ai-output, interactive-confirmation-ui, context-resend-token-paradox]
 projects: []
+impact: medium
 created: 2026-05-10
 reviewed: 2026-05-18
 ---

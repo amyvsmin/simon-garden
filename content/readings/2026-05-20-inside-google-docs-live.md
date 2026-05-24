@@ -6,6 +6,7 @@ url: "https://www.inside.com.tw/article/41333-google-io-2026-docs-live"
 inbox-id: "366f85da-554f-81d6-b885-cee169bf89f2"
 concepts: [docs-live]
 projects: []
+impact: low
 created: 2026-05-20
 ---
 

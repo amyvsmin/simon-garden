@@ -6,6 +6,7 @@ url: "https://web.plaud.ai/s/pub_4139299e-4aa1-4b01-89fa-4173c0570544::GXycTyRMP
 inbox-id: "359f85da-554f-814e-bb89-eb6ed51572b4"
 concepts: [security-awareness-design, social-engineering-playbook, phishing-drill-improved, storytelling-modular-framework]
 projects: []
+impact: high
 created: 2026-05-07
 reviewed: 2026-05-18
 ---

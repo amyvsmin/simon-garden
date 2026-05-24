@@ -6,6 +6,7 @@ url: "https://youtu.be/50-MQWAzk-U"
 inbox-id: "35bf85da-554f-81ce-8969-c43c5d784cf6"
 concepts: [claude-usage-dashboard, token-saving-rules, claude-slash-commands-control, markdown-vs-pdf-token-cost]
 projects: []
+impact: high
 created: 2026-05-10
 reviewed: 2026-05-18
 ---

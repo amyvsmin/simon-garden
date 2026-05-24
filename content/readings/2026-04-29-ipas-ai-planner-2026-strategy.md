@@ -7,6 +7,7 @@ tags: [ipas, ai, certification, exam-strategy]
 concepts: [consultant-mindset, reflection-matrix, decision-triangle, prompt-framework-weakness, technology-leap-deployment]
 inbox-id: 350f85da-554f-81ff-9061-ff3358fb1c44
 notion-page-id: 351f85da-554f-8181-b277-c3270db83e5b
+impact: high
 reviewed: 2026-05-17
 ---
 

@@ -7,6 +7,7 @@ tags: [claude-design, design, ai-tools]
 concepts: [design-system, sketch-prompt, hi-fi-prototype, design-handoff, iterative-tweaks]
 inbox-id: 34ef85da-554f-8189-ba91-c3afd2c7eb9d
 notion-page-id: 351f85da-554f-81a7-8a21-d32aea7bf02a
+impact: low
 reviewed: 2026-05-16
 ---
 

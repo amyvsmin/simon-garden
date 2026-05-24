@@ -6,6 +6,7 @@ url: ""
 tags: [claude-code, skill, journal, notion]
 concepts: [reverse-skill-design, sentinel-test, pure-receive-immediate-write, directory-as-trigger, simplicity-over-control]
 notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
+impact: high
 reviewed: 2026-05-16
 ---
 

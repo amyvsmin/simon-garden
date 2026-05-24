@@ -7,6 +7,7 @@ tags: [line-sticker, ai-image, side-project]
 concepts: [line-sticker-workflow]
 inbox-id: 353f85da-554f-81be-8c56-fa2491941c61
 notion-page-id: 354f85da-554f-81aa-ac1d-cf68d5ca2381
+impact: low
 reviewed: 2026-05-18
 ---
 

@@ -6,6 +6,7 @@ url: "https://www.bnext.com.tw/article/90960/ai-agent-desktop-operating-system-c
 inbox-id: "362f85da-554f-815d-b235-cdb2a34c9266"
 concepts: [agent-os-competition, agent-error-amplification]
 projects: []
+impact: medium
 created: 2026-05-18
 ---
 

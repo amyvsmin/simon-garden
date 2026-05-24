@@ -6,6 +6,7 @@ url: ""
 inbox-id: ""
 concepts: [insider-threat, insider-threat-program, ai-vuln-discovery, cve-weaponization-time]
 projects: []
+impact: medium
 created: 2026-05-06
 reviewed: 2026-05-18
 ---

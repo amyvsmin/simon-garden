@@ -6,6 +6,7 @@ url: "https://www.youtube.com/watch?v=TE9vSqBI_Sg"
 inbox-id: "360f85da-554f-81c8-b566-d81f78803054"
 concepts: [claude-code-goal-command, hooks]
 projects: []
+impact: high
 created: 2026-05-14
 reviewed: 2026-05-18
 ---

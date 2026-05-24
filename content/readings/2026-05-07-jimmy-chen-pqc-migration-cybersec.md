@@ -6,6 +6,7 @@ url: "https://web.plaud.ai/s/pub_2bdd7e6d-c245-4e8d-beb5-ab6581f75cc8::rksjzRRCJ
 inbox-id: "359f85da-554f-81f8-9002-eceecfe4959b"
 concepts: [post-quantum-cryptography, harvest-now-decrypt-later, mosca-theorem, lattice-based-cryptography, crypto-agility, cbom]
 projects: []
+impact: medium
 created: 2026-05-07
 reviewed: 2026-05-18
 ---

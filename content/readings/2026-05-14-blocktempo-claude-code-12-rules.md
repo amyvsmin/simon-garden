@@ -6,6 +6,7 @@ url: "https://www.blocktempo.com/claude-code-12-rules-error-rate-3-percent-karpa
 inbox-id: "361f85da-554f-81bab696e52800f6f07d"
 concepts: [claude-md-12-rules, loud-failure, claude-md-200-line-limit]
 projects: []
+impact: high
 created: 2026-05-15
 reviewed: 2026-05-18
 ---

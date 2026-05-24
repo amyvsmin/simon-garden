@@ -6,6 +6,7 @@ url: https://lifehacker.tw/courses/24hr-claude-code-tutorial
 tags: [claude-code, ai-agent, course-review, lifehacker, raymond]
 concepts: [claude-md-reflexive-law, rules-over-code, cli-api-mcp-priority]
 notion-page-id: 341f85da-554f-8011-8ab3-ea2e08598c72
+impact: high
 reviewed: 2026-05-18
 ---
 

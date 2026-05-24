@@ -6,6 +6,7 @@ url: "https://raymondhouch.com/lifehacker/digital-workflow/claude-code-skill/"
 inbox-id: "35ef85da-554f-8158-959c-ce8b356f1c4a"
 concepts: [skill, instructions-file]
 projects: []
+impact: high
 created: 2026-05-12
 reviewed: 2026-05-18
 ---

@@ -7,6 +7,7 @@ tags: [cybersecurity, vulnerability, linux, ai-security]
 concepts: [pack2theroot, packagekit, privilege-escalation, red-team, cvss, ai-vuln-discovery]
 inbox-id: 350f85da-554f-81db-b79c-e3b2db1b0baf
 notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
+impact: high
 reviewed: 2026-05-17
 ---
 

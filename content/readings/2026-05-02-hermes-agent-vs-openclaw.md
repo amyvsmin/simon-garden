@@ -7,6 +7,7 @@ tags: [ai-agent, hermes, openclaw, claude-code]
 concepts: [self-evolving-ai-agent, agent-architecture-comparison, claude-code]
 inbox-id: 352f85da-554f-8141-8cde-c5a3579eedb8
 notion-page-id: 354f85da-554f-8179-9a22-df3c8b67ba0c
+impact: medium
 reviewed: 2026-05-17
 ---
 

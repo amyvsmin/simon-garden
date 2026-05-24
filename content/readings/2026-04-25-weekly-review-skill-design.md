@@ -6,6 +6,7 @@ url: ""
 tags: [claude-code, skill, weekly-review, notion]
 concepts: []
 notion-page-id: 34df85da-554f-8158-802a-f4000390f450
+impact: high
 reviewed: 2026-05-18
 ---
 

@@ -7,6 +7,7 @@ tags: [obsidian, claude-code, second-brain, knowledge-management]
 concepts: [second-brain, obsidian-claude-code-workflow, claude-md-dual-nav, progressive-disclosure, daily-notes, claude-code]
 inbox-id: 353f85da-554f-81d0-abdf-fa5ada5a1c6a
 notion-page-id: 354f85da-554f-81a1-936c-f20f74e92c94
+impact: medium
 reviewed: 2026-05-18
 ---
 

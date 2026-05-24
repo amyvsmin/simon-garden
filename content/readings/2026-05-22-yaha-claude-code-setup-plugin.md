@@ -6,6 +6,7 @@ url: "https://www.youtube.com/watch?v=vzZPNH4pNEE"
 inbox-id: "368f85da-554f-81a9-8a87-dd22abd7052a"
 concepts: [claude-code-setup-plugin, claude-code-plugin-scope]
 projects: []
+impact: high
 created: 2026-05-22
 ---
 

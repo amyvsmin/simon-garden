@@ -6,6 +6,7 @@ url: "https://www.inside.com.tw/article/41252-claude-code-pair-programming"
 inbox-id: "35cf85da-554f-816e-bcd5-f549902ef99d"
 concepts: [claude-code-onboarding-qa, claude-code-iteration-loop, parallel-claude-sessions]
 projects: []
+impact: high
 created: 2026-05-10
 reviewed: 2026-05-18
 ---

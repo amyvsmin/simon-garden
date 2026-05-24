@@ -5,6 +5,7 @@ type: 來源分析
 url: "https://youtu.be/4r4Zy55Avpc?si=oEj_NyFSpKQmFPda"
 inbox-id: "354f85da554f818da314f604aaedec1b"
 concepts: [obsidian-cli-plugin, kaigong-shougong-loop, obsidian-claude-code-workflow, claude-md-dual-nav, second-brain]
+impact: medium
 created: 2026-05-05
 reviewed: 2026-05-18
 ---

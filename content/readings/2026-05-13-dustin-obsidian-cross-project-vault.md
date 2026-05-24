@@ -6,6 +6,7 @@ url: "https://youtu.be/EhMKfG1dvnI"
 inbox-id: "35ff85da-554f-8163-912a-c5e8f13fce34"
 concepts: [obsidian-claude-code-workflow, obsidian-cli-plugin, wikilink-cross-folder, progressive-vault-growth, claude-md-dual-nav, second-brain]
 projects: []
+impact: high
 created: 2026-05-13
 reviewed: 2026-05-18
 ---

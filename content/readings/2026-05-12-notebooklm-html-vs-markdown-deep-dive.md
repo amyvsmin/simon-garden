@@ -6,6 +6,7 @@ url: "https://youtu.be/TFC7d63EpK4"
 inbox-id: "35ef85da-554f-81c1-a798-f9ad2495c851"
 concepts: [html-vs-markdown-ai-output, disposable-ui-html, context-resend-token-paradox, interactive-confirmation-ui]
 projects: []
+impact: medium
 created: 2026-05-12
 reviewed: 2026-05-18
 ---

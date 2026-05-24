@@ -6,6 +6,7 @@ url: "https://www.youtube.com/watch?v=dl6DLAOTNtc"
 inbox-id: "35df85da-554f-8183-a1c1-c73d36276b4a"
 concepts: [ai-task-clustering, interview-driven-prompting, template-reference-pattern, skill, obsidian-claude-code-workflow]
 projects: []
+impact: high
 created: 2026-05-11
 reviewed: 2026-05-18
 ---

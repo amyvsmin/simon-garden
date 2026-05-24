@@ -6,6 +6,7 @@ url: "https://youtu.be/r5M0W66xcGc"
 inbox-id: "35ef85da-554f-81b4-8096-e21a6a184fc7"
 concepts: [local-llm, lm-studio, mcp, cli, skill]
 projects: []
+impact: low
 created: 2026-05-12
 reviewed: 2026-05-18
 ---

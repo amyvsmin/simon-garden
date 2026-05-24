@@ -6,6 +6,7 @@ url: "https://drive.google.com/file/d/1Rqz96MYKjJJoCLqltfAWbBBXUPOnCNOe/view?pli
 inbox-id: "359f85da-554f-812c-af15-f67cefacdd81"
 concepts: [substack, owned-audience, content-asset, substack-notes, substack-resurfacing, sustainable-writing-cadence]
 projects: []
+impact: high
 created: 2026-05-07
 reviewed: 2026-05-18
 ---

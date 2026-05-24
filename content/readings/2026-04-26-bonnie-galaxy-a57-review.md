@@ -7,6 +7,7 @@ tags: [smartphone, review, samsung, ai]
 concepts: [ai-tier-trickledown, smartphone-screen-methodology, vc-bypass-charging]
 inbox-id: 34df85da-554f-81a6-b716-d4b50cac22fe
 notion-page-id: 34ef85da-554f-8124-b531-cdfdf4e90218
+impact: low
 reviewed: 2026-05-16
 ---
 

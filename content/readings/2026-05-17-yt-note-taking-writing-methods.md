@@ -6,6 +6,7 @@ url: "https://youtu.be/C0KCnQ3F3QA"
 inbox-id: "363f85da-554f-8155-bfc1-cb33d2b835cb"
 concepts: [note-as-writing, bottom-up-writing]
 projects: []
+impact: medium
 created: 2026-05-18
 ---
 
