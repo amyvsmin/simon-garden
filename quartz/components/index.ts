@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import ReadingHeader from "./ReadingHeader"
 import ConceptHeader from "./ConceptHeader"
+import EnhancedTOC from "./EnhancedTOC"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   ReadingHeader,
   ConceptHeader,
+  EnhancedTOC,
 }
