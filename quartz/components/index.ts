@@ -26,6 +26,7 @@ import ConditionalRender from "./ConditionalRender"
 import ReadingHeader from "./ReadingHeader"
 import ConceptHeader from "./ConceptHeader"
 import EnhancedTOC from "./EnhancedTOC"
+import EnhancedBacklinks from "./EnhancedBacklinks"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   ReadingHeader,
   ConceptHeader,
   EnhancedTOC,
+  EnhancedBacklinks,
 }

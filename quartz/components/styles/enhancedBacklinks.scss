@@ -1,0 +1,28 @@
+.enhanced-backlinks {
+  margin-top: 48px; padding-top: 24px; border-top: 2px solid var(--lightgray);
+
+  h3 {
+    font-size: 14px; font-weight: 600; color: var(--gray);
+    text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px;
+  }
+  .backlink-cards { display: grid; gap: 12px; }
+  .backlink-card {
+    display: flex; gap: 12px; padding: 12px 16px;
+    background: var(--light); border: 1px solid var(--lightgray);
+    border-radius: 8px; text-decoration: none; color: inherit;
+    transition: box-shadow 0.15s;
+    &:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+  }
+  .backlink-icon {
+    width: 36px; height: 36px; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+    &.concept { background: #ede9fe; }
+    &.reading { background: #dbeafe; }
+    &.other { background: var(--lightgray); }
+  }
+  .backlink-info {
+    .title { font-size: 14px; font-weight: 500; color: var(--dark); }
+    .excerpt { font-size: 12px; color: var(--gray); margin-top: 2px; }
+  }
+}
