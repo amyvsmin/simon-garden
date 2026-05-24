@@ -9,6 +9,9 @@ projects: []
 impact: medium
 created: 2026-05-06
 reviewed: 2026-05-18
+tldr: "酷澎台灣暨日本資安長陳浩維在 CYBERSEC 2026 Day 2 主題演講，揭露 2025 年酷澎韓國資料外洩根因為前員工 insider threat、影響台灣顧客 20 萬人。引用 Ponemon 2026 報告：全球年均單一企業 insider 損失 195 萬美元、比 2022 年增 20%；27% 屬惡意內部人員；73% 組織擔心 AI 導致資料外洩、僅 18% 有 AI 治理機制。"
+stage: growing
+icon: "🛡️"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ reviewed: 2026-05-18
 - [[insider-threat-program]]：crown jewel 盤點、跨部門整合、通報 SOP、技術偵測、資安文化五要點
 - [[ai-vuln-discovery]]：AI 加速漏洞挖掘讓攻防失衡擴大、需重新評估資源配置與多層次縱深防禦
 - [[cve-weaponization-time]]：CSA 報告呼應「漏洞 release 後反應視窗從週縮到小時」
+![[2026-05-06-coupang-insider-threat-cybersec-insider-threat.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

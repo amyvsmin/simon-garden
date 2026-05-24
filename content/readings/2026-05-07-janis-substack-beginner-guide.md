@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-07
 reviewed: 2026-05-18
+tldr: "Janis Zeng 把自己 Substack 從 0 訂閱到 2070 訂閱、過程花 10 個月（前 3 個月寫沒人看、找對方法後 6 個月內到 2070）的方法整理成 5 部分指南：為什麼選 Substack、兩個核心功能（長文 + Notes）、找寫作主題的 4 切入點、可持續寫作節奏、站內自然曝光 3 戰術。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -23,6 +26,7 @@ Janis Zeng 把自己 Substack 從 0 訂閱到 2070 訂閱、過程花 10 個月�
 - [[substack-notes]]：站內最主要曝光機制；3 類型（解決方案／觀點／旅程）；長文發布後寫 Note 引導點擊
 - [[substack-resurfacing]]：每篇文章至少 3 次曝光（發布日 Note 推 / 一週後 Restack / 任何時候精選引言）；同篇可 Restack 兩次
 - [[sustainable-writing-cadence]]：複利要 6 個月、雙標準（最低每週 1 篇 + 2 Notes / 理想每週 2 篇 + 5 Notes）、固定流程取代等靈感、允許休息
+![[2026-05-07-janis-substack-beginner-guide-substack.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -9,6 +9,9 @@ inbox-id: 350f85da-554f-81ff-9061-ff3358fb1c44
 notion-page-id: 351f85da-554f-8181-b277-c3270db83e5b
 impact: high
 reviewed: 2026-05-17
+tldr: "iPAS AI 應用規劃師 115 年命題核心從「What 名詞解釋」全面升級為「When 何時用、How to fix 怎麼補救」的情境決策題型，考官要的是顧問思維而非學生背誦。影片提出三大應考策略：反射矩陣（資料樣態直覺對應演算法）、決策三角（效能／成本／速度三軸取捨）、提示工程框架死穴（CoT／ToT／ReAct 各自弱點）。並預測下波加分題集中於向量資料庫、多模態、RAGAS 評估指標。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -22,6 +25,7 @@ iPAS AI 應用規劃師 115 年命題核心從「What 名詞解釋」全面升�
 - [[decision-triangle]]：效能、成本、速度三軸之間的工程權衡
 - [[prompt-framework-weakness]]：記住 CoT／ToT／ReAct 各自的致命弱點才知道何時避開
 - [[technology-leap-deployment]]：向量資料庫、多模態、進階評估指標是下波預測加分區
+![[2026-04-29-ipas-ai-planner-2026-strategy-consultant-mindset.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

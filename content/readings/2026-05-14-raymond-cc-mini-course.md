@@ -8,11 +8,15 @@ concepts: [claude-md-reflexive-law, rules-over-code, cli-api-mcp-priority]
 notion-page-id: 341f85da-554f-8011-8ab3-ea2e08598c72
 impact: high
 reviewed: 2026-05-18
+tldr: "雷蒙（侯智薰）「24 小時開始活用 Claude Code（AI Agent）」迷你課四週讀完。共精讀 9 篇章節（1-3 ~ 2-4 基礎篇 + 3-1 ~ 3-5 應用篇）+ 掃讀 1 篇（0 學習方法）；1-1 安裝、1-2 git 入門因 IT 工程師背景刻意略過。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
 
 雷蒙（侯智薰）「24 小時開始活用 Claude Code（AI Agent）」迷你課四週讀完。共精讀 9 篇章節（1-3 ~ 2-4 基礎篇 + 3-1 ~ 3-5 應用篇）+ 掃讀 1 篇（0 學習方法）；1-1 安裝、1-2 git 入門因 IT 工程師背景刻意略過。三個最深的觀念衝擊抽成 [[claude-md-reflexive-law]]、[[rules-over-code]]、[[cli-api-mcp-priority]] 三個 concept；最大實際產出是 daily 3-things 閉環（morning + journal skill 改造、5/13 完成）。
+![[2026-05-14-raymond-cc-mini-course-claude-md-reflexive-law.png|275]]
 
 ## 核心概念
 

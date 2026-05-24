@@ -9,6 +9,9 @@ inbox-id: 349f85da-554f-8151-95e9-d94445b7b4bd
 notion-page-id: 349f85da-554f-8117-a1b0-f6981d036324
 impact: medium
 reviewed: 2026-05-15
+tldr: "MadebyPan 的 Claude 生態系入門指南。核心觀點：Claude 三大產品線 App / Cowork / Code 自主性遞增；日常用 Sonnet、高品質用 Opus。擴展機制分 MCP（連工具）、Skill（存流程）、Hooks（確定性觸發）、Subagents（多分身）四層。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -22,6 +25,7 @@ MadebyPan 的 Claude 生態系入門指南。核心觀點：Claude 三大產品�
 - [[skill]]：技能打包機制，「試一次、存起來、用很多次」
 - [[hooks]]：CC 事件觸發機制，100% 確定性、不依賴 AI 判斷
 - [[subagents]]：多代理協作，並行派工 + Context 隔離
+![[2026-04-21-madebypan-claude-guide-claude-code.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

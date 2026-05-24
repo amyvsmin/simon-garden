@@ -9,6 +9,9 @@ inbox-id: 351f85da-554f-8188-973a-f0cf6e70a728
 notion-page-id: 351f85da-554f-8142-8448-df618c34875d
 impact: high
 reviewed: 2026-05-17
+tldr: "美國公用事業科技商 Itron 於 2026-04-13 揭露部分內部系統遭未授權存取，已封鎖入侵並引入外部顧問調查，未擴及客戶端。同時資安研究人員示警直流電源調節器正成為新興攻擊面，因其運作於作業系統層之下，傳統防毒與 EDR 工具無法監控，攻擊者可建立後門悄悄藏匿、影響效能、觸發關機甚至實體損壞硬體。意法半導體可程式化電源設備累積數十筆 CVE，凸顯韌體繼承軟體供應鏈風險。"
+stage: growing
+icon: "🛡️"
 ---
 
 ## 摘要
@@ -22,6 +25,7 @@ reviewed: 2026-05-17
 - [[critical-infrastructure]]：電網水網等公共服務系統，風險已從 IT 下沉到 OT 與電力層
 - [[supply-chain-risk]]：韌體繼承軟體供應鏈風險，CVE 揭露速度令人擔憂
 - [[secure-boot]]：配合密碼簽署，是抵禦韌體層植入的核心控制
+![[2026-04-29-itron-power-conditioner-attack-power-conditioner.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

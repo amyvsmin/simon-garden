@@ -9,6 +9,9 @@ inbox-id: 34df85da-554f-8140-9281-c79f81f78b79
 notion-page-id: 351f85da-554f-81c3-a982-e63749882c27
 impact: medium
 reviewed: 2026-05-17
+tldr: "Paula 拆解 Andrej Karpathy 在 X 上分享的個人知識庫做法：用 Obsidian 當載體，靠 Claude Code 自動讀文章、產 Wiki 頁、寫索引、留日誌。架構只有兩個資料夾——Raw 收原料、Wiki 放 AI 整理產出，加上一份 Index 當全庫目錄、一份 Log 留稽核軌跡、一份 claude.md 當 AI 常駐指令。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -22,6 +25,7 @@ Paula 拆解 Andrej Karpathy 在 X 上分享的個人知識庫做法：用 Obsid
 - [[graph-emergence]]：跨文章共用概念由 AI 自動建立連結，文章越多圖越密
 - [[log-traceability]]：Log 檔把 AI 每個動作存證，可追溯也避免重做
 - [[instructions-file]]：claude.md 當 AI 常駐合約，省下每次重新解釋專案的成本
+![[2026-04-29-karpathy-obsidian-claude-wiki-index-based-knowledge-base.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

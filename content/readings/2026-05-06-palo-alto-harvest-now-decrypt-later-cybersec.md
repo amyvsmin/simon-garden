@@ -9,6 +9,9 @@ projects: []
 impact: medium
 created: 2026-05-06
 reviewed: 2026-05-18
+tldr: "Palo Alto Networks 亞太政策與政府關係副總裁 Nicole Quinn 在 CYBERSEC 2026 Day 2 主題演講，從政策視角點出三個攻擊側已在發酵的長期風險。Harvest Now Decrypt Later：國家級攻擊者已在大量收集加密敏感資料、等量子電腦成熟解密；對應解方是後量子密碼學（NIST 2024 標準化）+ 企業密碼遷移計畫。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ Palo Alto Networks 亞太政策與政府關係副總裁 Nicole Quinn 在 CYBERSE
 - [[post-quantum-cryptography]]：抗量子數學基礎、NIST 2024 完成第一批標準化、企業需做密碼遷移
 - [[shadow-ai]]：員工未經批准用 AI 工具、形成資料外洩盲點、73% 擔心但 18% 有治理
 - [[critical-infrastructure]]：HNDL 主要攻擊目標、台灣地緣政治壓力大
+![[2026-05-06-palo-alto-harvest-now-decrypt-later-cybersec-harvest-now-decrypt-later.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

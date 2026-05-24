@@ -8,6 +8,9 @@ concepts: []
 notion-page-id: 349f85da-554f-81f6-a5c8-ef9d98ddd31c
 impact: high
 reviewed: 2026-05-18
+tldr: "2026-04-21 長對話確定兩個架構決策：(1) CLAUDE.md 依敏感度分層，通用內容搬全域、財務/健康/關係留專案級；(2) auto-memory 跨專案可見用 SessionStart hook 注入 user-memory，不走 symlink。知識點：CLAUDE."
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要

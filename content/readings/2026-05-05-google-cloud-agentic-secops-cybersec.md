@@ -8,6 +8,9 @@ concepts: [agentic-secops, cve-weaponization-time, secure-ai-framework, wiz-plat
 impact: medium
 created: 2026-05-05
 reviewed: 2026-05-18
+tldr: "Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBERSEC 2026 演講，臨時把原訂題目改成過去一個月 AI 找漏洞能力大爆發後的緊急應對。重點訊息：CVE 從公開到出現實際武器化攻擊的平均時間從 24 小時壓縮到 8 秒，企業必須以「短期縮小攻擊面、中期 Agentic SecOps 自動化、長期自我修復系統」三階段框架因應。"
+stage: growing
+icon: "🛡️"
 ---
 
 ## 摘要

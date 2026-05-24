@@ -8,6 +8,9 @@ concepts: [earth-kurma, mmload-yadnux-rootkit, dse-bypass, living-off-cloud-c2, 
 impact: medium
 created: 2026-05-05
 reviewed: 2026-05-18
+tldr: "趨勢科技 TrendAI 資深威脅研究員 Nick Dai 與 Sunny W Lu 在 CYBERSEC 2026 拆解東南亞 APT「Earth Kurma／EarthMaker」自 2020 年 11 月起的工具鏈與內網潛伏手法，鎖定菲律賓、越南、汶萊、馬來西亞、泰國、印尼的政府單位與電信商。"
+stage: growing
+icon: "🛡️"
 ---
 
 ## 摘要
@@ -22,6 +25,7 @@ reviewed: 2026-05-18
 - [[living-off-cloud-c2]]：濫用 OneDrive／Dropbox／Cisco Webex／DFS 等合法雲端與企業服務作為 C2 與資料外洩通道；Webex 會議室分 keep/message/file/shell 四個用途
 - [[red-team]]：研究 APT 工具鏈本身就是紅隊／威脅情報的重要輸入
 - [[supply-chain-risk]]：APT 大量複用工具家族顯示工具來源可能存在共同 provider 線索
+![[2026-05-05-earth-kurma-apt-rootkit-cybersec-earth-kurma.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

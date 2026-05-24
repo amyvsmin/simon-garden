@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-15
 reviewed: 2026-05-18
+tldr: "Andrej Karpathy 2026 年 1 月在 X 抱怨 Claude 寫程式三類典型問題（暗中假設、過度複雜化、無關破壞）。Forrest Chang 把抱怨歸納成 4 條 CLAUDE.md 規則放 GitHub，兩週內 60,000 star，至今 120,000 star。"
+stage: evergreen
+icon: "⚡"
 ---
 
 ## 摘要
@@ -20,6 +23,7 @@ Andrej Karpathy 2026 年 1 月在 X 抱怨 Claude 寫程式三類典型問題（
 - [[claude-md-12-rules]]：Karpathy 4 條（思考、簡單、外科手術、目標導向）+ Mnilax 補 8 條（Claude 不該做什麼／token 預算／矛盾模式不混／改檔前先讀／測試編碼為什麼／多步驟檢查點／一致性／大聲失敗），整套 12 條的契約式 CLAUDE.md 結構
 - [[loud-failure]]：規則 12「明確暴露不確定性、不要包裝靜默失敗」— Migration 跳過 30 筆要說、跳過任何測試要說、邊界情況沒驗證要說
 - [[claude-md-200-line-limit]]：CLAUDE.md 超過 200 行遵守率掉到 30%、規則被噪音淹沒、與 [[claude-md-reflexive-law]] 配套
+![[2026-05-14-blocktempo-claude-code-12-rules-claude-md-12-rules.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

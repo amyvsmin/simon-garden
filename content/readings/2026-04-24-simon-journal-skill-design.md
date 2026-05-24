@@ -8,6 +8,9 @@ concepts: [reverse-skill-design, sentinel-test, pure-receive-immediate-write, di
 notion-page-id: 34cf85da-554f-815a-bc80-cd9d56b62ef4
 impact: high
 reviewed: 2026-05-16
+tldr: "2026-04-24 完整設計記錄：Simon 把日記流程從 ChatGPT GPTs「AI 生產力日記助手」搬到 Claude Code `/journal` skill。核心反轉是動機優先序：從「資料主控」改成「簡化流程 > 資料主控」。"
+stage: growing
+icon: "📊"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ reviewed: 2026-05-16
 - [[pure-receive-immediate-write]]：A3 不追問、C7 即時 append、C12 互動逃脫「這句回答不會寫進日記」
 - [[directory-as-trigger]]：C9 進 /Simon-Journal = 自動接收模式；C10 目錄分工避免 meta 污染
 - [[simplicity-over-control]]：2026-04-24 反轉動機的主判準，同時適用於 Notion vs Obsidian 分工、Heptabase 退訂、rich text 放棄
+![[2026-04-24-simon-journal-skill-design-reverse-skill-design.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

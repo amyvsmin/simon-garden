@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-11
 reviewed: 2026-05-18
+tldr: "Josie 分享她從 2023 年起在 Obsidian 累積 50+ 專案筆記、現在用 Claude Code（Claudian plugin）讓 AI 接手部分管理工作的演進路徑。核心發現：AI 不該直接幫你拆任務、會大量腦補不必要事項；正確做法是先讓 AI 做 cluster 分組、再用既有 template 當 reference、最後透過 AskUser 訪談式互動鎖定真正需要的任務。"
+stage: growing
+icon: "⚡"
 ---
 
 ## Josie：Claude Code × Obsidian 專案管理五階段
@@ -24,6 +27,7 @@ Josie 分享她從 2023 年起在 Obsidian 累積 50+ 專案筆記、現在用 C
 - [[interview-driven-prompting]]：用 AskUser 機制讓 AI 在拆解前先反問釐清題、防止 AI 把對方公司內部流程（如中華電信公文）誤加進我的任務清單
 - [[skill]]：當對話得到滿意結果後、直接請 Claude 把這段流程封裝成 skill（不是 prompt）；之後同類專案直接觸發 skill 自動跑
 - [[obsidian-claude-code-workflow]]：整套流程是「Obsidian vault（資料層）+ Claude Code（處理層）+ Claudian plugin（橋接）+ skill（封裝）」的具體實作
+![[2026-05-11-josie-claude-code-obsidian-project-planner-ai-task-clustering.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

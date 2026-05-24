@@ -9,6 +9,9 @@ projects: []
 impact: medium
 created: 2026-05-07
 reviewed: 2026-05-18
+tldr: "台大數學系兼任助理教授陳君明在 CYBERSEC 2026 PQC Forum 開場演說，把 PQC 遷移從「未來議題」拉到「現在排程」。對稱式密碼受 Grover 演算法影響有限（金鑰長度加倍即恢復安全度），但公鑰密碼受 Shor 演算法直擊：RSA 質因數分解與 ECDLP 都可化約為「找週期」問題，被量子電腦高效破解。"
+stage: growing
+icon: "🛡️"
 ---
 
 ## 摘要
@@ -23,6 +26,7 @@ reviewed: 2026-05-18
 - [[lattice-based-cryptography]]：LWE/Module-LWE 基礎、Rq=Zq[x]/(x^256+1)、b=As+e、錯誤項擋住量子週期尋找
 - [[crypto-agility]]：過渡期混合密碼（傳統+PQC）、未來標準修訂時可換不重做、CNSA 2.0 給的就是 agility 框架
 - [[cbom]]：Cryptographic Bill of Materials、盤點所有用 RSA/ECC 的系統與相依函式庫、是 PQC 遷移的 Day 1 工作
+![[2026-05-07-jimmy-chen-pqc-migration-cybersec-post-quantum-cryptography.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -8,6 +8,9 @@ concepts: [gemini-spark, gemini-flash, gemini-omni, information-agent, compute-b
 projects: []
 impact: medium
 created: 2026-05-20
+tldr: "Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作業系統競賽：gemini-spark 把 Gemini 從聊天機器人升級為跨 Workspace（Gmail/Calendar/Drive 等 8 個原生服務）代理人、底層跑 gemini-flash；3."
+stage: evergreen
+icon: "⚡"
 ---
 
 ## 為什麼讀

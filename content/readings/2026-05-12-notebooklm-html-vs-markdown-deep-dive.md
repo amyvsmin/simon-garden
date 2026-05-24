@@ -9,6 +9,9 @@ projects: []
 impact: medium
 created: 2026-05-12
 reviewed: 2026-05-18
+tldr: "延伸 Anthropic Thariq Shihipar 2026-05 主張的 NotebookLM 配音解讀版，把「我已停止寫 Markdown」拆成 5 段重點：Markdown 失靈、HTML 補回的四個能力、脈絡吸收才是核心、五個具體用例、權衡與反建議。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ reviewed: 2026-05-18
 - [[disposable-ui-html]]：第五個用例「用完即丟」最驚豔，把 30 條待辦變成可拖曳看板再匯回文字
 - [[context-resend-token-paradox]]：HTML 雖耗更多 token 跟產出慢 2–4 倍，但決策品質提升通常划算
 - [[interactive-confirmation-ui]]：HTML 雙向互動跟 AI 決策介面的直接落地
+![[2026-05-12-notebooklm-html-vs-markdown-deep-dive-html-vs-markdown-ai-output.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

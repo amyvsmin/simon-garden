@@ -8,6 +8,9 @@ concepts: []
 notion-page-id: 34df85da-554f-8111-b25f-cc25d6bcecc7
 impact: high
 reviewed: 2026-05-18
+tldr: "解決日記助手 20 秒延遲 + 跨裝置 + 電腦關機顧慮。版本 B：LINE 入口純搬運 + Claude Code 總結，月費 0 元。同日晚順利擴充 KW 收件入口（第二個 LINE channel + 第二個 Notion integration，最小權限），模式一致。"
+stage: growing
+icon: "📊"
 ---
 
 ## 摘要

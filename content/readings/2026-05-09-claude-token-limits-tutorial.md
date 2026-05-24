@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-10
 reviewed: 2026-05-18
+tldr: "YouTube 短影片（Notebook LM 配音）以「大師級實戰指南」包裝、四模組系統化講 Claude 訂閱戶的 token 控制：(1) 解密額度面板區分 Current Session／Weekly Limits／Extra Usage；(2) 四大省 token 守則（資料降噪、停錯誤堆疊、水位管理、模型適配）；(3) 斜槓指令 /compact /clear /context /btw；(4) 標準化 SOP 工作流。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ YouTube 短影片（Notebook LM 配音）以「大師級實戰指南」包裝、
 - [[token-saving-rules]]：資料降噪、停錯誤堆疊、對話水位管理、模型適配四守則
 - [[claude-slash-commands-control]]：/compact /clear /context /btw 四個 slash command 在不重置會話的前提下精準介入
 - [[markdown-vs-pdf-token-cost]]：15 頁文件 PDF 4 萬 vs Markdown 2000、20 倍差距
+![[2026-05-09-claude-token-limits-tutorial-claude-usage-dashboard.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

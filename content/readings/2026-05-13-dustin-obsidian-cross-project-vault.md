@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-13
 reviewed: 2026-05-18
+tldr: "Dustin 示範用 Obsidian 當跨專案知識庫主軸，解決 Claude Code 在多專案間的「上下文視窗滿了」「跨專案連線斷裂」兩大痛點。核心是 wikilink 突破傳統樹狀資料夾結構——讓不同子目錄下的文件能跨層連線、AI 讀到某檔案時自動跳到關聯檔案讀全貌；不依賴向量資料庫、純語意連線。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要

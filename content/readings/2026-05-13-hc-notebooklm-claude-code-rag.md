@@ -9,6 +9,9 @@ projects: []
 impact: medium
 created: 2026-05-13
 reviewed: 2026-05-18
+tldr: "HC 示範用林探開發的 `notebooklm-py` CLI 工具，把 Claude Code 跟 Google NotebookLM 串起來，解決 Claude Code 兩個短板：影片內容處理（用 yt-dlp + 抽字幕）、深度 RAG 跟圖表生成（NotebookLM 強項）。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ HC 示範用林探開發的 `notebooklm-py` CLI 工具，把 Claude Code 跟 Goo
 - [[skill]]：用 skills-creator 半自動產生新 skill（影片中 yt-search skill）、含 yt-dlp 整合
 - [[mcp]]：對照 MCP 機制、但 notebooklm 走 CLI tool + skill 而非 MCP
 - [[claude-code]]：Claude Code 短板補強案例
+![[2026-05-13-hc-notebooklm-claude-code-rag-notebooklm-as-rag.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -8,6 +8,9 @@ concepts: [agent-os-competition, agent-error-amplification]
 projects: []
 impact: medium
 created: 2026-05-18
+tldr: "bnext 5/15 李先泰報導 Every 創辦人 Dan Shipper 從 Anthropic Claude Code 轉 OpenAI Codex Desktop 的決策邏輯。GPT-5.5 跟 Anthropic 性能打平後、模型不再是決勝點、應用層（速度、子代理、自動化推送）成主戰場。"
+stage: evergreen
+icon: "⚡"
 ---
 
 ## 摘要
@@ -18,6 +21,7 @@ bnext 5/15 李先泰報導 Every 創辦人 Dan Shipper 從 Anthropic Claude Code
 
 - [[agent-os-competition]]：Anthropic／OpenAI／xAI／Google 桌面代理人入口競賽、模型差距收斂應用層成主戰場
 - [[agent-error-amplification]]：3% 源頭誤差在代理人多步鏈中複合放大、上游驗證比下游補救成本低
+![[2026-05-16-bnext-agent-os-codex-vs-claude-agent-os-competition.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

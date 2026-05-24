@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-13
 reviewed: 2026-05-18
+tldr: "Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M 上下文時代的會話管理心法。核心觀念是「每一轉都是分岔點」——五個選項（繼續／回溯／清除／壓縮／子代理）對應不同情境。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要

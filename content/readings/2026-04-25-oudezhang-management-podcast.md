@@ -9,6 +9,9 @@ inbox-id: 34df85da-554f-8186-8f1c-deb8b3445b6c
 notion-page-id: 34df85da-554f-81fa-a710-f4a7e7a7f597
 impact: medium
 reviewed: 2026-05-16
+tldr: "「郝聲音」podcast 訪談「鐵軍文化奠基人」歐德張，介紹其與知識衛星合作課程《全布局的滲透式管理》。核心訊息三條：(1) 管理不是命令式而是文化滲透的層層傳導；(2) 文化是嵌套結構，從宏觀地區文化到微觀小團隊文化各有差異與雙向反饋；(3) 生命大局觀不只「勝出」，更要「贏得」——透過詩歌書寫賦予存在意義。對 Simon 朝「超級個體」職涯方向走有啟發。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -20,6 +23,7 @@ reviewed: 2026-05-16
 - [[permeation-management]]：管理動作要全局視野（宏觀 → 微觀）+ 滲透式（不命令式）+ 雙向流動
 - [[cultural-nesting]]：宏觀文化 → 企業文化 → 亞文化 → 微觀文化，各層雙向反饋（不只單向套娃）
 - [[win-vs-prevail]]：勝出是 zero-sum 競爭、贏得是 positive-sum 累積；詩歌書寫賦予存在感
+![[2026-04-25-oudezhang-management-podcast-permeation-management.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

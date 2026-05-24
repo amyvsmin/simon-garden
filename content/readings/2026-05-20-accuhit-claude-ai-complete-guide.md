@@ -8,6 +8,9 @@ concepts: [claude-three-modes, ai-task-execution, marketing-automation-workflow,
 projects: []
 impact: medium
 created: 2026-05-20
+tldr: "這篇文章把 Claude 的使用框架整理成 Chat（諮詢）、Cowork（自動化協作）、Code（程式開發）三模式，針對行銷人員受眾提供落地場景。核心主張是 AI 已從「問答工具」進化成「任務執行助理」：claude-three-modes 中的 Cowork 模式讓使用者在背景讓 AI 自動執行跨平台任務、不需手動操作。"
+stage: evergreen
+icon: "⚡"
 ---
 
 ## 為什麼讀

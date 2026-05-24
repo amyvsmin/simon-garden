@@ -9,6 +9,9 @@ inbox-id: 352f85da-554f-8141-8cde-c5a3579eedb8
 notion-page-id: 354f85da-554f-8179-9a22-df3c8b67ba0c
 impact: medium
 reviewed: 2026-05-17
+tldr: "Blocktempo 報導 Nous Research 推出的「越用越聰明」自我進化 AI agent Hermes，內建學習閉環、自動建技能、跨會話記憶。Hermes 模型在 HuggingFace 累計 3,300 萬次下載。對比「33 天超越 React 頂」的 OpenClaw、被爆出 138 個 CVE（平均一天 2."
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -20,6 +23,7 @@ Blocktempo 報導 Nous Research 推出的「越用越聰明」自我進化 AI ag
 - [[self-evolving-ai-agent]]：Nous Research 開發、越用越聰明、內建學習閉環
 - [[agent-architecture-comparison]]：Claude Code（Anthropic 官方、需訂閱）、Hermes Agent（開源、去中心化）、OpenClaw（高 GitHub 漲但需證）、Cline / Continue / Aider 等其他選項
 - [[claude-code]]：架構跟 Hermes 高度相似的 Anthropic 官方終端型 AI 助手
+![[2026-05-02-hermes-agent-vs-openclaw-self-evolving-ai-agent.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

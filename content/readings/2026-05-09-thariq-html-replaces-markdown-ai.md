@@ -9,6 +9,9 @@ projects: []
 impact: medium
 created: 2026-05-10
 reviewed: 2026-05-18
+tldr: "Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點：Markdown 在 AI 時代正在變成一種限制、HTML 是更適合的人機協作格式。三層論點為表達力夠、實際被讀機率高、製作有趣提升投入感。文章核心戳的痛點是 Claude Code CLI 用戶長期默契的痛點：AI 給長計畫文件、要改其中一處必須打字描述、認知負擔極大。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -20,6 +23,7 @@ Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點
 - [[html-vs-markdown-ai-output]]：HTML 取代 Markdown 作 AI 輸出格式的三層論點
 - [[interactive-confirmation-ui]]：關鍵決策時刻用互動 UI 取代文字牆的設計範式
 - [[context-resend-token-paradox]]：每次發訊息重送整個 context 的反直覺數學
+![[2026-05-09-thariq-html-replaces-markdown-ai-html-vs-markdown-ai-output.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

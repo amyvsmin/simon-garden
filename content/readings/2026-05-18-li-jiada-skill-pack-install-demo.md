@@ -8,6 +8,9 @@ concepts: [problem-prd, skill, doc-to-md, tool-agnostic-thinking]
 projects: []
 impact: medium
 created: 2026-05-18
+tldr: "李佳達師父班「AI 超級大腦」系列第 11 堂直播（1:39:17）、聚焦「先學思考、再選工具」的核心心法。把「問對問題」拆成「目標→限制→障礙」三層產出問題規格書（PRD）、再用規格書指導 AI 開發解決方案、效果遠超直接叫 AI 想答案。技能包不只是提示詞模板、要附範例跟參考文獻（Reference）才精準。"
+stage: evergreen
+icon: "📊"
 ---
 
 ## 摘要
@@ -20,6 +23,7 @@ created: 2026-05-18
 - [[skill]]：技能包 = 模板 + Reference 雙要素、光有 prompt 不夠
 - [[doc-to-md]]：PDF 轉 MD 走本機程式、不受 LLM 上下文限制、不花 Token、幻覺最少
 - [[tool-agnostic-thinking]]：不綁定特定 AI 工具、先靠思考力提升、再依問題選最佳工具
+![[2026-05-18-li-jiada-skill-pack-install-demo-problem-prd.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

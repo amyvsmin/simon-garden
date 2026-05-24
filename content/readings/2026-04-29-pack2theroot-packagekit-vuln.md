@@ -9,6 +9,9 @@ inbox-id: 350f85da-554f-81db-b79c-e3b2db1b0baf
 notion-page-id: 351f85da-554f-81fe-ba91-f46082be35ba
 impact: high
 reviewed: 2026-05-17
+tldr: "德國電信 Deutsche Telekom 紅隊團隊揭露 Linux 套件管理工具 PackageKit 的高風險權限提升漏洞 Pack2TheRoot，編號 CVE-2026-41651、CVSS 8.8 分。非特權攻擊者可在無需密碼的情況下安裝或移除系統套件，進而取得 root 權限。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -23,6 +26,7 @@ reviewed: 2026-05-17
 - [[red-team]]：企業內部攻擊模擬團隊，本案由 Deutsche Telekom 紅隊團隊主動揭露
 - [[cvss]]：漏洞嚴重性量化標準，本漏洞 8.8 分屬高風險
 - [[ai-vuln-discovery]]：借助 Claude Opus 等大型語言模型協助找漏洞，挖出潛伏 14 年的瑕疵
+![[2026-04-29-pack2theroot-packagekit-vuln-pack2theroot.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

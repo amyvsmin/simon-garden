@@ -8,6 +8,9 @@ concepts: [obsidian-cli-plugin, kaigong-shougong-loop, obsidian-claude-code-work
 impact: medium
 created: 2026-05-05
 reviewed: 2026-05-18
+tldr: "Obsidian 近期推出的 CLI（命令列界面）plugin 讓 Claude Code 能直接讀寫 Obsidian vault，把過去散落在多個 Claude Code 對話框、且每次 compact 之後就遺失上下文的工作狀態收斂到單一 vault。作者示範用三個核心檔（CLAUDE.md 規則／SessionHandoff."
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ Obsidian 近期推出的 CLI（命令列界面）plugin 讓 Claude Code 能直�
 - [[obsidian-claude-code-workflow]]：本作者跟心心那篇是同題不同切法，補上 CLI plugin、SessionHandoff 三檔結構、跨對話框同步等實作細節
 - [[claude-md-dual-nav]]：CLAUDE.md 仍然當總目錄／規則層
 - [[second-brain]]：仍然是上層心法
+![[2026-05-05-obsidian-cli-claude-code-daily-loop-obsidian-cli-plugin.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -8,6 +8,9 @@ concepts: []
 notion-page-id: 34df85da-554f-8158-802a-f4000390f450
 impact: high
 reviewed: 2026-05-18
+tldr: "把週復盤從 Notion AI 搬到 Claude Code weekly-review skill。撈三週復盤確認 W16 結構為標準，加 ACG+D 戰略視角，採 Notion automation 建頁 + skill 填內容架構，主動觸發。明天 04/26 第一次正式跑 W17。"
+stage: growing
+icon: "📊"
 ---
 
 ## 摘要

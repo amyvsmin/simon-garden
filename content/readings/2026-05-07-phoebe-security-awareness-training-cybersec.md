@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-07
 reviewed: 2026-05-18
+tldr: "七維思執行長飛飛（林子婷）十年資安意識訓練經驗的總結：完訓率 95–100% 卻換不到行為改變、釣魚演練點選率持續居高、根因是訓練缺乏情緒與故事——大腦只記心跳加速的瞬間跟有情節的故事、條列式注意事項記不住。她拆出兩個核心問題：**效果問題**（員工聽完就忘、回去還是會點）跟**規模化問題**（只有少數人會寫情境、年年從零開始）。"
+stage: growing
+icon: "🛡️"
 ---
 
 ## 摘要
@@ -21,6 +24,7 @@ reviewed: 2026-05-18
 - [[social-engineering-playbook]]：四大攻擊套路（權威冒充 / 緊急施壓 / 利益誘惑 / 好奇陷阱）；每種套路三段式公式
 - [[phishing-drill-improved]]：通報率取代點選率為核心指標；演練前/中/後三階段設計；引導式覆盤代替責備
 - [[storytelling-modular-framework]]：角色卡 × 手法卡 × 場景卡三維組合、5 分鐘產情境、解規模化問題
+![[2026-05-07-phoebe-security-awareness-training-cybersec-security-awareness-design.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

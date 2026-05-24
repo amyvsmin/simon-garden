@@ -9,6 +9,9 @@ inbox-id: 353f85da-554f-81d0-abdf-fa5ada5a1c6a
 notion-page-id: 354f85da-554f-81a1-936c-f20f74e92c94
 impact: medium
 reviewed: 2026-05-18
+tldr: "心心介紹從 Milanote 遷到 Obsidian + Claude Code 打造個人 AI 第二大腦的完整工作流。vault 結構以 context/ 放個人資訊、每個資料夾放 instructions.md 給 AI 局部地圖、根目錄 CLAUDE."
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -23,6 +26,7 @@ reviewed: 2026-05-18
 - [[progressive-disclosure]]：AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案的 token 控制心法
 - [[daily-notes]]：AI 每天結束時把工作內容寫進當日的 daily notes 檔，下次 session 只讀最近幾天即可恢復脈絡
 - [[claude-code]]：實作載具
+![[2026-05-02-xinxin-obsidian-ai-second-brain-second-brain.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

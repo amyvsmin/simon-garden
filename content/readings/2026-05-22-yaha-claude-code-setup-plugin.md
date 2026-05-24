@@ -8,6 +8,9 @@ concepts: [claude-code-setup-plugin, claude-code-plugin-scope]
 projects: []
 impact: high
 created: 2026-05-22
+tldr: "YAHA学堂 2026-05-22 發布的 6 分 16 秒教學，介紹 Anthropic 官方新推的 claude-code-setup-plugin。一行指令裝完、選 scope（User／Project／Local 三層、見 claude-code-plugin-scope）、reload 後就能用人話觸發。底層是一支 skill、寫死掃描流程：讀 `package."
+stage: evergreen
+icon: "⚡"
 ---
 
 ## 為什麼讀

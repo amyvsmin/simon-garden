@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-14
 reviewed: 2026-05-18
+tldr: "YAHA学堂 2026-05-14 發布的 4 分鐘速講，介紹 Claude Code 2.1.139 剛上線的 `/goal` 指令：使用者寫一個完成條件，Claude 跑完一輪後背景的 Haiku 評估器讀整段對話判斷是否達成、未達成自動再跑、達成自動清掉。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -19,6 +22,7 @@ YAHA学堂 2026-05-14 發布的 4 分鐘速講，介紹 Claude Code 2.1.139 剛�
 
 - [[claude-code-goal-command]]：本支影片主題、Claude Code 2.1.139 新指令、寫條件 + Haiku 評估到達成為止
 - [[hooks]]：`/goal` 底層是 session-scoped prompt-based Stop hook 的包裝；本支補完了 Stop hook 兩種模式（command vs prompt-based）的差異
+![[2026-05-14-yaha-claude-code-goal-claude-code-goal-command.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

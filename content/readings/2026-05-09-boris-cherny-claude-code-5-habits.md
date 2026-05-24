@@ -9,6 +9,9 @@ projects: []
 impact: high
 created: 2026-05-10
 reviewed: 2026-05-18
+tldr: "Inside 報導 Anthropic Claude Code 工程主管 Boris Cherny 親自示範的 5 個高效習慣：(1) 進新 codebase 先 Q&A 不要直接改程式 (2) 大改動前先讓 AI 規劃 (3) 給 AI 驗證方式進入自我修正循環 (4) 用 CLAUDE.md 建立專案記憶 (5) 平行 5 視窗 + git worktree 一天送 30 PR。"
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -20,6 +23,7 @@ Inside 報導 Anthropic Claude Code 工程主管 Boris Cherny 親自示範的 5 
 - [[claude-code-onboarding-qa]]：第一次進新 codebase 先讓 CC 做 Q&A、Anthropic 內部 onboarding 時間從幾週縮到幾天
 - [[claude-code-iteration-loop]]：給 AI 驗證方式（測試／截圖／模擬器）讓它進入自我修正循環、人類從 review 升級為驗收
 - [[parallel-claude-sessions]]：5 視窗 × git worktree + 系統通知、Boris 一天送 20-30 PR、5 小時任務壓縮到 1-2 小時
+![[2026-05-09-boris-cherny-claude-code-5-habits-claude-code-onboarding-qa.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 

@@ -9,6 +9,9 @@ inbox-id: 352f85da-554f-81bc-bb5f-f9ff7055d461
 notion-page-id: 354f85da-554f-8182-b31e-d1ebb929a3a7
 impact: medium
 reviewed: 2026-05-17
+tldr: "海大叔整理的 Claude Code 從 install 到進階用法完整教學：跨平台安裝（Windows 需 Git + PowerShell、Mac 用 Terminal）、VS Code 整合 + Plan Mode、三個模型 Haiku / Sonnet / Opus 用 /model 切換、CLAUDE."
+stage: growing
+icon: "⚡"
 ---
 
 ## 摘要
@@ -24,6 +27,7 @@ reviewed: 2026-05-17
 - [[mcp]]：連接 Notion / Gmail / Calendar 等外部工具
 - [[plan-mode]]：複雜任務先規劃再動手的安全模式
 - [[vibe-coding]]：用自然語言描述需求讓 AI 全程實作
+![[2026-05-02-haiuncle-claude-code-intro-claude-code.png|275]]
 
 ## 對 Simon 的應用（當下想法）
 
