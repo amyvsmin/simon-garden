@@ -1,7 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -9,46 +8,88 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+const isReading = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug?.startsWith("readings/") === true && p.fileData.slug !== "readings/index"
+
+const isConcept = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug?.startsWith("concepts/") === true && p.fileData.slug !== "concepts/index"
+
+const isReadingOrConcept = (p: { fileData: { slug?: string } }) =>
+  isReading(p) || isConcept(p)
+
+const isIndex = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug === "index"
+
+const isDefault = (p: { fileData: { slug?: string } }) =>
+  !isReading(p) && !isConcept(p) && !isIndex(p)
+
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      component: Component.ReadingHeader(),
+      condition: isReading,
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-    Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.ConceptHeader(),
+      condition: isConcept,
+    }),
+    Component.ConditionalRender({
+      component: Component.DashboardHome(),
+      condition: isIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: isDefault,
+    }),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: isDefault,
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: isDefault,
+    }),
+    Component.ConditionalRender({
+      component: Component.EnhancedTOC(),
+      condition: isReadingOrConcept,
+    }),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      folderDefaultState: "collapsed",
-    }),
+    Component.Explorer({ folderDefaultState: "collapsed" }),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.EnhancedTOC()),
+      condition: isReadingOrConcept,
+    }),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+      condition: isDefault,
+    }),
+    Component.ConditionalRender({
+      component: Component.EnhancedBacklinks(),
+      condition: isReadingOrConcept,
+    }),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: isDefault,
+    }),
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -56,16 +97,11 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({
-      folderDefaultState: "collapsed",
-    }),
+    Component.Explorer({ folderDefaultState: "collapsed" }),
   ],
   right: [],
 }
