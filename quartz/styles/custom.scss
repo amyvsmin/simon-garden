@@ -147,3 +147,54 @@ body {
     display: none;
   }
 }
+
+// ============================================
+// Dark mode overrides for redesigned components
+// ============================================
+:root[saved-theme="dark"] {
+  .reading-header, .concept-header {
+    .meta-table {
+      .meta-label { background: rgba(255,255,255,0.05); }
+    }
+    .tldr-card {
+      background: linear-gradient(135deg, rgba(109,40,217,0.1), rgba(79,70,229,0.1));
+      border-color: rgba(109,40,217,0.2);
+    }
+    .growth-badge, .confidence-badge {
+      &.seedling, &.unverified { background: rgba(254,249,195,0.15); }
+      &.growing { background: rgba(232,245,233,0.15); }
+      &.evergreen, &.verified { background: rgba(209,250,229,0.15); }
+    }
+    .impact-badge {
+      &.high { background: rgba(254,226,226,0.15); }
+      &.medium { background: rgba(254,243,199,0.15); }
+    }
+  }
+
+  .enhanced-toc .toc-card {
+    background: var(--light);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  }
+
+  .enhanced-backlinks .backlink-card {
+    background: var(--light);
+    &:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+  }
+
+  .dashboard-home {
+    .stat-card { background: var(--light); }
+    .article-card { background: var(--light); }
+    .concept-tag {
+      &.large { background: rgba(109,40,217,0.15); }
+      &.medium { background: rgba(109,40,217,0.1); }
+    }
+  }
+}
+
+// Concept inline link style (global)
+article a.internal[href*="/concepts/"] {
+  color: #6d28d9;
+  border-bottom: 1px dashed #c4b5fd;
+  background-image: none;
+  &:hover { background: rgba(109,40,217,0.08); border-bottom-style: solid; }
+}
