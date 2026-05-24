@@ -27,6 +27,7 @@ import ReadingHeader from "./ReadingHeader"
 import ConceptHeader from "./ConceptHeader"
 import EnhancedTOC from "./EnhancedTOC"
 import EnhancedBacklinks from "./EnhancedBacklinks"
+import SectionDivider from "./SectionDivider"
 
 export {
   ArticleTitle,
@@ -58,4 +59,5 @@ export {
   ConceptHeader,
   EnhancedTOC,
   EnhancedBacklinks,
+  SectionDivider,
 }
