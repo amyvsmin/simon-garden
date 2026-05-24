@@ -68,7 +68,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({ folderDefaultState: "collapsed" }),
+    Component.ConditionalRender({
+      component: Component.Explorer({ folderDefaultState: "collapsed" }),
+      condition: (p) => !isIndex(p),
+    }),
   ],
   right: [
     Component.ConditionalRender({
