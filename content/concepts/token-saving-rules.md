@@ -30,6 +30,7 @@ created: 2026-05-10
 - [[claude-slash-commands-control]]：/compact /clear 是執行守則三的具體工具
 - [[markdown-vs-pdf-token-cost]]：守則一的量化基礎
 - [[progressive-disclosure]]：跟守則四相關，按需讀取也是一種模型適配
+- [[prompt-cache]]：快取命中讓重複上下文只收 10% 費用，是省 token 的第五個面向（前四條省用量、這條省單價）
 
 ## 尚未解決的疑問
 
@@ -38,3 +39,4 @@ created: 2026-05-10
 ## 來源（自動維護）
 
 - [[2026-05-09-claude-token-limits-tutorial]]
+- [[2026-05-24-anthropic-claude-code-cache-tips]]
