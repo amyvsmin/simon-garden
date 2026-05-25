@@ -29,6 +29,8 @@ import EnhancedTOC from "./EnhancedTOC"
 import EnhancedBacklinks from "./EnhancedBacklinks"
 import SectionDivider from "./SectionDivider"
 import DashboardHome from "./DashboardHome"
+import ReadingList from "./ReadingList"
+import ConceptList from "./ConceptList"
 
 export {
   ArticleTitle,
@@ -62,4 +64,6 @@ export {
   EnhancedBacklinks,
   SectionDivider,
   DashboardHome,
+  ReadingList,
+  ConceptList,
 }

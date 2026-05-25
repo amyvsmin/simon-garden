@@ -209,6 +209,74 @@ body[data-slug="index"] {
   }
 }
 
+// ============================================
+// Folder listing pages — full-width, hide default article body
+// ============================================
+body[data-slug="readings/index"],
+body[data-slug="concepts/index"] {
+  #quartz-body .sidebar.left,
+  #quartz-body .sidebar.right { display: none; }
+
+  #quartz-body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer";
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  #quartz-body > .center > .popover-hint,
+  #quartz-body > .center > article,
+  #quartz-body > .center > hr {
+    display: none;
+  }
+}
+
+// ============================================
+// Dark mode — list pages
+// ============================================
+:root[saved-theme="dark"] {
+  .reading-list, .concept-list {
+    .filter-bar {
+      background: rgba(255,255,255,0.03);
+      border-color: rgba(255,255,255,0.08);
+
+      .filter-select {
+        background: var(--light);
+        color: var(--dark);
+        border-color: rgba(255,255,255,0.1);
+      }
+    }
+
+    .reading-card, .concept-card {
+      background: var(--light);
+      border-color: rgba(255,255,255,0.08);
+
+      &:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.2); }
+
+      .card-title-text { color: var(--dark); }
+      .card-meta, .card-tldr { color: var(--darkgray); }
+
+      .stage-badge {
+        &.seedling { background: rgba(254,249,195,0.15); }
+        &.growing { background: rgba(232,245,233,0.15); }
+        &.evergreen { background: rgba(209,250,229,0.15); }
+      }
+
+      .card-pill { background: rgba(109,40,217,0.15); }
+      .alias-pill { background: rgba(255,255,255,0.06); }
+    }
+
+    .page-btn {
+      background: var(--light);
+      color: var(--dark);
+      border-color: rgba(255,255,255,0.1);
+    }
+  }
+}
+
 // Concept inline link style (global)
 article a.internal[href*="/concepts/"] {
   color: #6d28d9;

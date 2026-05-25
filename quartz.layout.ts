@@ -24,8 +24,17 @@ const isReadingOrConcept = (p: { fileData: { slug?: string } }) =>
 const isIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "index"
 
+const isFolderIndex = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug === "readings/index" || p.fileData.slug === "concepts/index"
+
+const isReadingIndex = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug === "readings/index"
+
+const isConceptIndex = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug === "concepts/index"
+
 const isDefault = (p: { fileData: { slug?: string } }) =>
-  !isReading(p) && !isConcept(p) && !isIndex(p)
+  !isReading(p) && !isConcept(p) && !isIndex(p) && !isFolderIndex(p)
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -40,6 +49,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.DashboardHome(),
       condition: isIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.ReadingList(),
+      condition: isReadingIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.ConceptList(),
+      condition: isConceptIndex,
     }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
@@ -94,7 +111,28 @@ export const defaultContentPageLayout: PageLayout = {
 }
 
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    Component.ConditionalRender({
+      component: Component.ReadingList(),
+      condition: isReadingIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.ConceptList(),
+      condition: isConceptIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (p) => !isFolderIndex(p),
+    }),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (p) => !isFolderIndex(p),
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (p) => !isFolderIndex(p),
+    }),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
