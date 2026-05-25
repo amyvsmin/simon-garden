@@ -277,6 +277,44 @@ body[data-slug="concepts/index"] {
   }
 }
 
+// ============================================
+// beforeBody TOC — desktop only show in right sidebar, hide in content area
+// ============================================
+@media (min-width: 800px) {
+  .page-header .enhanced-toc { display: none; }
+}
+
+// ============================================
+// Reading/Concept pages — hide left sidebar, 2-column layout
+// ============================================
+body[data-slug^="readings/"],
+body[data-slug^="concepts/"] {
+  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]) {
+    #quartz-body .sidebar.left { display: none; }
+
+    @media (min-width: 1200px) {
+      #quartz-body {
+        grid-template-columns: auto 380px;
+        grid-template-areas:
+          "grid-header grid-sidebar-right"
+          "grid-center grid-sidebar-right"
+          "grid-footer grid-sidebar-right";
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 1200px) {
+      #quartz-body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "grid-header"
+          "grid-center"
+          "grid-sidebar-right"
+          "grid-footer";
+      }
+    }
+  }
+}
+
 // Concept inline link style (global)
 article a.internal[href*="/concepts/"] {
   color: #6d28d9;
