@@ -207,6 +207,10 @@ body[data-slug="index"] {
     max-width: 900px;
     margin: 0 auto;
   }
+
+  #quartz-body > .center > hr,
+  #quartz-body > .center > .page-footer { display: none; }
+  footer { display: none; }
 }
 
 // ============================================
