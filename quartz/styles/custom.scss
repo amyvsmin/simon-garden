@@ -317,6 +317,8 @@ body[data-slug^="topics/"] {
           "grid-header grid-sidebar-right"
           "grid-center grid-sidebar-right"
           "grid-footer grid-sidebar-right";
+        max-width: 1280px;
+        margin: 0 auto;
       }
     }
 
