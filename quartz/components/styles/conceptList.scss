@@ -2,6 +2,15 @@
   max-width: 800px;
   margin: 0 auto;
 
+  .list-breadcrumb {
+    font-size: 0.85rem;
+    color: #57606a;
+    margin-bottom: 1rem;
+
+    a { color: #6d28d9; text-decoration: none; background-image: none; &:hover { text-decoration: underline; } }
+    .separator { margin: 0 0.4rem; color: #ccc; }
+  }
+
   .list-header {
     display: flex;
     align-items: baseline;

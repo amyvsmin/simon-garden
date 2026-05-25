@@ -49,6 +49,11 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
 
   return (
     <div class="reading-list">
+      <nav class="list-breadcrumb">
+        <a href={resolveRelative(fileData.slug!, "index" as any)} class="internal">Home</a>
+        <span class="separator">›</span>
+        <span>所有文章</span>
+      </nav>
       <header class="list-header">
         <h1 class="list-title">📖 所有文章</h1>
         <span class="list-count" data-total={readings.length}>
