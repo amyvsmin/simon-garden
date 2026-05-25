@@ -39,6 +39,10 @@ const isDefault = (p: { fileData: { slug?: string } }) =>
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (p) => isReading(p) || isConcept(p),
+    }),
+    Component.ConditionalRender({
       component: Component.ReadingHeader(),
       condition: isReading,
     }),
