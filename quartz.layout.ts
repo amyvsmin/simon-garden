@@ -3,7 +3,7 @@ import * as Component from "./quartz/components"
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.SiteNav()],
   afterBody: [],
   footer: Component.Footer({
     links: {
@@ -18,14 +18,19 @@ const isReading = (p: { fileData: { slug?: string } }) =>
 const isConcept = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug?.startsWith("concepts/") === true && p.fileData.slug !== "concepts/index"
 
-const isReadingOrConcept = (p: { fileData: { slug?: string } }) =>
-  isReading(p) || isConcept(p)
+const isTopic = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug?.startsWith("topics/") === true && p.fileData.slug !== "topics/index"
+
+const isDetailPage = (p: { fileData: { slug?: string } }) =>
+  isReading(p) || isConcept(p) || isTopic(p)
 
 const isIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "index"
 
 const isFolderIndex = (p: { fileData: { slug?: string } }) =>
-  p.fileData.slug === "readings/index" || p.fileData.slug === "concepts/index"
+  p.fileData.slug === "readings/index" ||
+  p.fileData.slug === "concepts/index" ||
+  p.fileData.slug === "topics/index"
 
 const isReadingIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "readings/index"
@@ -33,14 +38,17 @@ const isReadingIndex = (p: { fileData: { slug?: string } }) =>
 const isConceptIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "concepts/index"
 
+const isTopicIndex = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug === "topics/index"
+
 const isDefault = (p: { fileData: { slug?: string } }) =>
-  !isReading(p) && !isConcept(p) && !isIndex(p) && !isFolderIndex(p)
+  !isReading(p) && !isConcept(p) && !isTopic(p) && !isIndex(p) && !isFolderIndex(p)
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (p) => isReading(p) || isConcept(p),
+      condition: isDetailPage,
     }),
     Component.ConditionalRender({
       component: Component.ReadingHeader(),
@@ -49,6 +57,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.ConceptHeader(),
       condition: isConcept,
+    }),
+    Component.ConditionalRender({
+      component: Component.TopicHeader(),
+      condition: isTopic,
     }),
     Component.ConditionalRender({
       component: Component.DashboardHome(),
@@ -61,6 +73,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.ConceptList(),
       condition: isConceptIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.TopicList(),
+      condition: isTopicIndex,
     }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
@@ -76,7 +92,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.EnhancedTOC(),
-      condition: isReadingOrConcept,
+      condition: isDetailPage,
     }),
   ],
   left: [
@@ -84,7 +100,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
@@ -97,7 +112,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.EnhancedTOC()),
-      condition: isReadingOrConcept,
+      condition: isDetailPage,
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
@@ -105,7 +120,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.EnhancedBacklinks(),
-      condition: isReadingOrConcept,
+      condition: isDetailPage,
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
@@ -125,6 +140,10 @@ export const defaultListPageLayout: PageLayout = {
       condition: isConceptIndex,
     }),
     Component.ConditionalRender({
+      component: Component.TopicList(),
+      condition: isTopicIndex,
+    }),
+    Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: (p) => !isFolderIndex(p),
     }),
@@ -141,10 +160,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
-      components: [
-        { Component: Component.Search(), grow: true },
-        { Component: Component.Darkmode() },
-      ],
+      components: [{ Component: Component.Darkmode() }],
     }),
     Component.Explorer({ folderDefaultState: "collapsed" }),
   ],

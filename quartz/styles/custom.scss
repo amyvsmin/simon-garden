@@ -217,7 +217,8 @@ body[data-slug="index"] {
 // Folder listing pages — full-width, hide default article body
 // ============================================
 body[data-slug="readings/index"],
-body[data-slug="concepts/index"] {
+body[data-slug="concepts/index"],
+body[data-slug="topics/index"] {
   #quartz-body .sidebar.left,
   #quartz-body .sidebar.right { display: none; }
 
@@ -301,11 +302,12 @@ body[data-slug="concepts/index"] {
 }
 
 // ============================================
-// Reading/Concept pages — hide left sidebar, 2-column layout
+// Reading/Concept/Topic pages — hide left sidebar, 2-column layout
 // ============================================
 body[data-slug^="readings/"],
-body[data-slug^="concepts/"] {
-  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]) {
+body[data-slug^="concepts/"],
+body[data-slug^="topics/"] {
+  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]):not([data-slug="topics/index"]) {
     #quartz-body .sidebar.left { display: none; }
 
     @media (min-width: 1200px) {

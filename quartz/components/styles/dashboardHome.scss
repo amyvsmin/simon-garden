@@ -6,7 +6,7 @@
   .site-subtitle { font-size: 0.9rem; color: var(--gray); margin: 0; }
 
   .stats-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 40px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 40px;
   }
   .stat-card {
     background: var(--light); border: 1px solid var(--lightgray);
@@ -19,8 +19,13 @@
   .stat-number.purple { color: #6d28d9; }
   .stat-number.blue { color: #1d4ed8; }
   .stat-number.emerald { color: #059669; }
+  .stat-number.amber { color: #d97706; }
   .stat-label { font-size: 13px; color: var(--gray); margin-top: 4px; }
   .stat-sublabel { font-size: 11px; color: var(--lightgray); margin-top: 2px; }
+  .stat-card-link {
+    text-decoration: none; color: inherit; cursor: pointer;
+    &:hover { box-shadow: 0 2px 12px rgba(109,40,217,0.1); border-color: #c4b5fd; }
+  }
 
   .section-header {
     display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;
