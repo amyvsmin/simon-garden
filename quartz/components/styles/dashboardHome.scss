@@ -1,7 +1,7 @@
 .dashboard-home {
   max-width: 900px; margin: 0 auto;
 
-  .site-header { text-align: center; margin-bottom: 40px; }
+  .site-header { display: block; text-align: center; margin-bottom: 40px; }
   .site-title { font-size: 1.5rem; font-weight: 700; color: var(--dark); margin: 0 0 8px; letter-spacing: 0.02em; }
   .site-subtitle { font-size: 0.9rem; color: var(--gray); margin: 0; }
 
