@@ -5,10 +5,10 @@
   .list-breadcrumb {
     font-size: 0.85rem;
     color: #57606a;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 
     a { color: #6d28d9; text-decoration: none; background-image: none; &:hover { text-decoration: underline; } }
-    .separator { margin: 0 0.4rem; color: #ccc; }
+    .separator { margin: 0 0.3rem; color: #ccc; }
   }
 
   .list-header {

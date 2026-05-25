@@ -278,6 +278,18 @@ body[data-slug="concepts/index"] {
 }
 
 // ============================================
+// Unified breadcrumb style — Quartz default + list pages
+// ============================================
+.breadcrumb-container {
+  font-size: 0.85rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  gap: 0.3rem;
+
+  a { color: #6d28d9; text-decoration: none; background-image: none; &:hover { text-decoration: underline; } }
+}
+
+// ============================================
 // beforeBody TOC — desktop only show in right sidebar, hide in content area
 // ============================================
 @media (min-width: 800px) {
