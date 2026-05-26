@@ -1,0 +1,271 @@
+.weekly-intel-list {
+  max-width: 100%;
+  margin: 0 auto;
+
+  .list-breadcrumb {
+    font-size: 0.85rem;
+    color: #57606a;
+    margin-bottom: 0.5rem;
+
+    a {
+      color: #6d28d9;
+      text-decoration: none;
+      background-image: none;
+      &:hover { text-decoration: underline; }
+    }
+    .separator { margin: 0 0.3rem; color: #ccc; }
+  }
+
+  .list-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+
+    .list-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .list-count {
+      font-size: 0.95rem;
+      color: #888;
+    }
+  }
+
+  .list-description {
+    font-size: 0.9rem;
+    color: #57606a;
+    margin: 0 0 2rem;
+    line-height: 1.6;
+  }
+
+  .intel-timeline {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .intel-card {
+    display: block;
+    padding: 1.4rem 1.6rem;
+    background: #fff;
+    border: 1px solid #e8e7e4;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+
+    &:hover {
+      border-color: #c4b5fd;
+      box-shadow: 0 4px 16px rgba(109, 40, 217, 0.08);
+      transform: translateY(-1px);
+    }
+  }
+
+  .intel-card.latest {
+    border-left: 4px solid #6d28d9;
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.6rem;
+    }
+
+    .card-top-left {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-icon { font-size: 1.3rem; }
+
+    .issue-badge {
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      background: #6d28d9;
+      color: #fff;
+    }
+
+    .card-date {
+      font-size: 0.85rem;
+      color: #57606a;
+    }
+
+    .impact-badge {
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      font-size: 0.72rem;
+      font-weight: 500;
+
+      &.high { background: #dc2626; color: #fff; }
+      &.medium { background: #d97706; color: #fff; }
+      &.low { background: #16a34a; color: #fff; }
+    }
+
+    .card-top-right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-cover-range {
+      font-size: 0.82rem;
+      color: #6b7280;
+      margin-bottom: 0.8rem;
+    }
+
+    .card-tldr {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #374151;
+      margin-bottom: 0.8rem;
+    }
+
+    .card-highlights {
+      margin-bottom: 0.8rem;
+
+      .highlight-item {
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+        font-size: 0.88rem;
+        line-height: 1.5;
+        color: #4b5563;
+        margin-bottom: 0.3rem;
+
+        &:last-child { margin-bottom: 0; }
+
+        .highlight-dot {
+          color: #dc2626;
+          font-weight: bold;
+          flex-shrink: 0;
+        }
+      }
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+
+      .tag-pill {
+        font-size: 0.72rem;
+        padding: 0.12rem 0.55rem;
+        background: #f5f3ff;
+        color: #6d28d9;
+        border-radius: 14px;
+      }
+    }
+  }
+
+  .intel-card.history {
+    padding: 1rem 1.4rem;
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .card-icon { font-size: 1.1rem; }
+
+    .issue-badge {
+      padding: 0.12rem 0.4rem;
+      border-radius: 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: #6d28d9;
+      color: #fff;
+    }
+
+    .card-date {
+      font-size: 0.82rem;
+      color: #57606a;
+    }
+
+    .card-cover-range {
+      font-size: 0.78rem;
+      color: #9ca3af;
+    }
+
+    .card-tldr {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #4b5563;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+
+      .tag-pill {
+        font-size: 0.68rem;
+        padding: 0.1rem 0.45rem;
+        background: #f5f3ff;
+        color: #6d28d9;
+        border-radius: 14px;
+      }
+    }
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #888;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .weekly-intel-list {
+    .intel-card.latest {
+      padding: 1rem;
+
+      .card-top { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
+      .card-top-right { margin-top: 0.3rem; }
+    }
+
+    .intel-card.history {
+      padding: 0.8rem 1rem;
+    }
+  }
+}
+
+:root[saved-theme="dark"] {
+  .weekly-intel-list {
+    .list-description { color: var(--darkgray); }
+
+    .intel-card {
+      background: var(--light);
+      border-color: rgba(255, 255, 255, 0.08);
+
+      &:hover { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); }
+
+      &.latest {
+        border-left-color: #8b5cf6;
+
+        .card-tldr, .card-highlights .highlight-item { color: var(--dark); }
+        .card-cover-range { color: var(--darkgray); }
+      }
+
+      &.history {
+        .card-tldr { color: var(--dark); }
+        .card-cover-range { color: var(--darkgray); }
+      }
+
+      .tag-pill { background: rgba(109, 40, 217, 0.15); }
+
+      .impact-badge {
+        &.high, &.medium { opacity: 0.85; }
+      }
+    }
+  }
+}
