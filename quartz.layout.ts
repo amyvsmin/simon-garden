@@ -21,8 +21,11 @@ const isConcept = (p: { fileData: { slug?: string } }) =>
 const isTopic = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug?.startsWith("topics/") === true && p.fileData.slug !== "topics/index"
 
+const isWeeklyIntel = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug?.startsWith("weekly-intel/") === true && p.fileData.slug !== "weekly-intel/index"
+
 const isDetailPage = (p: { fileData: { slug?: string } }) =>
-  isReading(p) || isConcept(p) || isTopic(p)
+  isReading(p) || isConcept(p) || isTopic(p) || isWeeklyIntel(p)
 
 const isIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "index"
@@ -30,7 +33,8 @@ const isIndex = (p: { fileData: { slug?: string } }) =>
 const isFolderIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "readings/index" ||
   p.fileData.slug === "concepts/index" ||
-  p.fileData.slug === "topics/index"
+  p.fileData.slug === "topics/index" ||
+  p.fileData.slug === "weekly-intel/index"
 
 const isReadingIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "readings/index"
@@ -41,8 +45,11 @@ const isConceptIndex = (p: { fileData: { slug?: string } }) =>
 const isTopicIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "topics/index"
 
+const isWeeklyIntelIndex = (p: { fileData: { slug?: string } }) =>
+  p.fileData.slug === "weekly-intel/index"
+
 const isDefault = (p: { fileData: { slug?: string } }) =>
-  !isReading(p) && !isConcept(p) && !isTopic(p) && !isIndex(p) && !isFolderIndex(p)
+  !isReading(p) && !isConcept(p) && !isTopic(p) && !isWeeklyIntel(p) && !isIndex(p) && !isFolderIndex(p)
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -63,6 +70,10 @@ export const defaultContentPageLayout: PageLayout = {
       condition: isTopic,
     }),
     Component.ConditionalRender({
+      component: Component.WeeklyIntelHeader(),
+      condition: isWeeklyIntel,
+    }),
+    Component.ConditionalRender({
       component: Component.DashboardHome(),
       condition: isIndex,
     }),
@@ -77,6 +88,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.TopicList(),
       condition: isTopicIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.WeeklyIntelList(),
+      condition: isWeeklyIntelIndex,
     }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
@@ -142,6 +157,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.TopicList(),
       condition: isTopicIndex,
+    }),
+    Component.ConditionalRender({
+      component: Component.WeeklyIntelList(),
+      condition: isWeeklyIntelIndex,
     }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),

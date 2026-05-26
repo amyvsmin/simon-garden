@@ -34,6 +34,8 @@ import ConceptList from "./ConceptList"
 import SiteNav from "./SiteNav"
 import TopicList from "./TopicList"
 import TopicHeader from "./TopicHeader"
+import WeeklyIntelHeader from "./WeeklyIntelHeader"
+import WeeklyIntelList from "./WeeklyIntelList"
 
 export {
   ArticleTitle,
@@ -72,4 +74,6 @@ export {
   SiteNav,
   TopicList,
   TopicHeader,
+  WeeklyIntelHeader,
+  WeeklyIntelList,
 }
