@@ -219,7 +219,8 @@ body[data-slug="index"] {
 // ============================================
 body[data-slug="readings/index"],
 body[data-slug="concepts/index"],
-body[data-slug="topics/index"] {
+body[data-slug="topics/index"],
+body[data-slug="weekly-intel/index"] {
   #quartz-body .sidebar.left,
   #quartz-body .sidebar.right { display: none; }
 
@@ -308,8 +309,9 @@ body[data-slug="topics/index"] {
 // ============================================
 body[data-slug^="readings/"],
 body[data-slug^="concepts/"],
-body[data-slug^="topics/"] {
-  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]):not([data-slug="topics/index"]) {
+body[data-slug^="topics/"],
+body[data-slug^="weekly-intel/"] {
+  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]):not([data-slug="topics/index"]):not([data-slug="weekly-intel/index"]) {
     #quartz-body .sidebar.left { display: none; }
 
     @media (min-width: 1200px) {
