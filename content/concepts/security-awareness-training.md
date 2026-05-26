@@ -3,7 +3,7 @@ title: "資安意識訓練（Security Awareness Training）"
 slug: security-awareness-training
 aliases: [security awareness training, 資安意識訓練, 資安教育訓練, 資安訓練, security training, 安全意識培訓]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

@@ -20,8 +20,8 @@ YAHA学堂 2026-05-14 發布的 4 分鐘速講，介紹 Claude Code 2.1.139 剛�
 
 ## 核心概念
 
-- [[claude-code-goal-command]]：本支影片主題、Claude Code 2.1.139 新指令、寫條件 + Haiku 評估到達成為止
-- [[hooks]]：`/goal` 底層是 session-scoped prompt-based Stop hook 的包裝；本支補完了 Stop hook 兩種模式（command vs prompt-based）的差異
+- [[claude-code-goal-command]]：Claude Code 2.1.139 新上線的 `/goal` 指令。使用者寫一個明確的完成條件（例如「npm test 全部通過且退出碼為 0」），Claude 跑完一輪後，背景會用一個輕量的 Haiku 評估器讀整段對話，判斷條件是否達成——未達成就自動再跑一輪，達成了就自動結束。跟 `/loop`（看時間）不同，`/goal` 看的是結果。影片特別強調條件要寫成「有證據的形式」，避免感覺型條件（如「重構完成」）讓 Haiku 被 Claude 的自我宣稱騙過放行。三條寫法規則：可量化終點、指定用什麼指令證明、講清楚哪些東西不能動。
+- [[hooks]]：`/goal` 的底層實作其實是一個 session 範圍的 prompt-based Stop hook。這支影片順帶補完了 Stop hook 的兩種模式差異：command 模式跑一個外部指令、用退出碼決定要不要停；prompt-based 模式則是把一段文字條件交給 Haiku 判讀整段對話內容來決定。`/goal` 走的是後者。
 ![[2026-05-14-yaha-claude-code-goal-claude-code-goal-command.png|275]]
 
 ## 對 Simon 的應用（當下想法）
@@ -31,7 +31,7 @@ YAHA学堂 2026-05-14 發布的 4 分鐘速講，介紹 Claude Code 2.1.139 剛�
 - ⏳ **vault migration 收尾類**：寫「直到 wikilink 全部解析到實檔 + changelog N 筆全 success + 25 turn 停手」、適合 Phase 7 端到端驗證
 - ⏳ **LINE bot／Reading Garden 部署循環**：寫「直到 wrangler deploy 退出 0 + curl health 回 200」、這是官方範例 1:1 對得上的用法
 - ✅ **不適合**：週月季復盤（要 Simon 親身參與、復盤 skill 不上 cron）、寫 Substack／日記、Coursera 課程筆記、公司 IT 對人協作
-- ✅ **計費注意**：互動式 session 跑沒事、headless `claude -p "/goal ..."` 走 2026-06-15 上路的每月 $100 Agent SDK 額度桶（見 user-memory `project_claude_max5x_agent_sdk_credit.md`）
+- ✅ **計費注意**：互動式 session 跑沒事、headless `claude -p "/goal ..."` 走 2026-06-15 上路的每月 $100 Agent SDK 額度桶
 
 ## 原文要點
 

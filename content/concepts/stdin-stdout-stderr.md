@@ -3,9 +3,10 @@ name: 標準輸入輸出
 aliases: [stdin, stdout, stderr, standard input, standard output, standard error, 標準輸入, 標準輸出, 標準錯誤, file descriptor]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

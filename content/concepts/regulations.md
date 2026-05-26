@@ -1,9 +1,9 @@
 ---
 title: "法規（Regulations）"
 slug: regulations
-aliases: [Regulations, 法規, 法律規範, 規章, regulatory compliance, 法遵]
+aliases: [Regulations, 法規, 法律規範, 規章]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

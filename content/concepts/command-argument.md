@@ -3,9 +3,10 @@ name: 命令參數
 aliases: [argument, command argument, 參數, 命令補充資訊]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

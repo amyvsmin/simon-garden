@@ -20,9 +20,9 @@ Andrej Karpathy 2026 年 1 月在 X 抱怨 Claude 寫程式三類典型問題（
 
 ## 核心概念
 
-- [[claude-md-12-rules]]：Karpathy 4 條（思考、簡單、外科手術、目標導向）+ Mnilax 補 8 條（Claude 不該做什麼／token 預算／矛盾模式不混／改檔前先讀／測試編碼為什麼／多步驟檢查點／一致性／大聲失敗），整套 12 條的契約式 CLAUDE.md 結構
-- [[loud-failure]]：規則 12「明確暴露不確定性、不要包裝靜默失敗」— Migration 跳過 30 筆要說、跳過任何測試要說、邊界情況沒驗證要說
-- [[claude-md-200-line-limit]]：CLAUDE.md 超過 200 行遵守率掉到 30%、規則被噪音淹沒、與 [[claude-md-reflexive-law]] 配套
+- [[claude-md-12-rules]]：一套完整的 CLAUDE.md 規則體系，由兩部分組成。前 4 條來自 Karpathy 的原始抱怨歸納：(1) 編碼前先思考、暴露假設 (2) 簡單優先、不加想像功能 (3) 外科手術式修改、不順手碰相鄰代碼 (4) 以目標為導向、定義成功標準後迭代。後 8 條由 Mnilax 用 30 個 codebase 測了 6 週補上，覆蓋 Karpathy 沒處理到的失敗模式：Claude 該做什麼不該做什麼的分工、單任務 token 預算（4K）和單會話預算（30K）、遇到矛盾的程式碼模式只選一個不要平均、改檔前先讀相關檔案、測試要編碼「為什麼這個行為重要」而不只是「做了什麼」、多步驟任務每步都要檢查點總結、一致性優先於個人偏好、以及大聲失敗。實測結果：0 規則時錯誤率 41%、Karpathy 4 條降到 14%、全 12 條降到 3%。
+- [[loud-failure]]：規則 12 的核心精神是「不確定就大聲說出來，絕對不要靜默失敗」。具體要求包括：Migration 跳過了 30 筆資料要明確說出來、跳過任何一個測試要說、邊界情況沒有驗證也要說。寧可讓使用者看到一堆警告，也不要讓問題藏在表面成功的結果底下。
+- [[claude-md-200-line-limit]]：Mnilax 的實測數據顯示，CLAUDE.md 超過 200 行後遵守率會從 76% 驟降到 30%，因為規則被噪音淹沒、模型無法有效區分重要規則。這跟 [[claude-md-reflexive-law]]（反射律）配套——規則要少而精、超過上限就該拆分或刪減。
 ![[2026-05-14-blocktempo-claude-code-12-rules-claude-md-12-rules.png|275]]
 
 ## 對 Simon 的應用（當下想法）
@@ -56,13 +56,13 @@ Andrej Karpathy 2026 年 1 月在 X 抱怨 Claude 寫程式三類典型問題（
 | 規則 | 落地檔 | 動作 | 預期效益 |
 |---|---|---|---|
 | 11 一致性 | vault `2-knowledge/{readings,concepts}/` 112 個 md | 內文章節 `^# ` → `## `，全部升 H2 | article-title 是真正唯一 H1、HTML 語意層級正確、Reading Garden 顯示乾淨 |
-| 11 一致性 | `~/.claude/skills/knowledge-wiki/references/templates.md` | concept 跟 reading 範本砍掉 `# {title}` H1 | 未來新 reading／concept 不再生 case 3（內文 H1 跟 article-title 重複）|
-| 11 一致性 | `~/.claude/skills/knowledge-wiki/references/lint-flow.md` | 加 `DupTitle` 健檢規則 | 萬一未來再生 case 3，健檢會抓到 |
-| 12 大聲失敗 | `~/.claude/skills/knowledge-wiki/references/ingest-flow.md` Step 7 | 寫 Notion 🌲 前 `test -s <reading>` 驗證 | 避免 silent success：Notion 已標完成但 reading 沒寫成功 |
-| 10 檢查點 | `~/.claude/skills/knowledge-wiki/references/batch-rules.md` | 每篇寫 changelog → 報 `N/M` → 才推下一篇 | 批次中途出錯可定位、不靜默推進到下一篇 |
+| 11 一致性 | `0-context/skills/knowledge-wiki/references/templates.md` | concept 跟 reading 範本砍掉 `# {title}` H1 | 未來新 reading／concept 不再生 case 3（內文 H1 跟 article-title 重複）|
+| 11 一致性 | `0-context/skills/knowledge-wiki/references/lint-flow.md` | 加 `DupTitle` 健檢規則 | 萬一未來再生 case 3，健檢會抓到 |
+| 12 大聲失敗 | `0-context/skills/knowledge-wiki/references/ingest-flow.md` Step 7 | 寫 Notion 🌲 前 `test -s <reading>` 驗證 | 避免 silent success：Notion 已標完成但 reading 沒寫成功 |
+| 10 檢查點 | `0-context/skills/knowledge-wiki/references/batch-rules.md` | 每篇寫 changelog → 報 `N/M` → 才推下一篇 | 批次中途出錯可定位、不靜默推進到下一篇 |
 | 6 task 預算 | 同上 | 單篇 ingest 逼近 10K token 先 wrap 寫摘要 | 不硬撐燒爛 reading 品質 |
 | 6 session 預算 | 同上 | 批次累計逼近 200K token 主動提醒 Simon 切對話 | 不靜默讓 AI 在長 context 下鈍化 |
-| 連帶 | `~/.claude/skills/knowledge-wiki/references/ingest-flow.md` Step 9 + 10 | 加「優化芙莉蓮」自檢 + 落地回寫 reading | 之後每篇 reading 都會自動跑這個流程、不必 Simon 主動提 |
+| 連帶 | `0-context/skills/knowledge-wiki/references/ingest-flow.md` Step 9 + 10 | 加「優化芙莉蓮」自檢 + 落地回寫 reading | 之後每篇 reading 都會自動跑這個流程、不必 Simon 主動提 |
 
 未落地的 12 條規則中其他 8 條：
 - **規則 1–4（Karpathy 原版）**：早上的全域／專案 CLAUDE.md 精神上已吻合，不必新增

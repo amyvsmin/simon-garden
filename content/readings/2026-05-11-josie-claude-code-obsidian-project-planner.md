@@ -22,11 +22,11 @@ Josie 分享她從 2023 年起在 Obsidian 累積 50+ 專案筆記、現在用 C
 
 ## 核心概念
 
-- [[ai-task-clustering]]：給 AI 一堆零碎任務、只請它分組、不請它拆解或腦補；引入 AI 管理任務時阻力最低的第一步
-- [[template-reference-pattern]]：把過去 50+ 專案筆記當 AI 的「個人案例語料」、AI 用使用者自己的脈絡而非網路通用 best practice 推理、徹底避免腦補
-- [[interview-driven-prompting]]：用 AskUser 機制讓 AI 在拆解前先反問釐清題、防止 AI 把對方公司內部流程（如中華電信公文）誤加進我的任務清單
-- [[skill]]：當對話得到滿意結果後、直接請 Claude 把這段流程封裝成 skill（不是 prompt）；之後同類專案直接觸發 skill 自動跑
-- [[obsidian-claude-code-workflow]]：整套流程是「Obsidian vault（資料層）+ Claude Code（處理層）+ Claudian plugin（橋接）+ skill（封裝）」的具體實作
+- [[ai-task-clustering]]：讓 AI 管理任務的第一步不是叫它幫你拆解任務，而是只請它「分組」。你把一堆零碎待辦丟給 AI，只說「幫我分組，不要動我的內容」。AI 在這種受限任務裡最穩定，因為分組只需要理解語意相似度，不需要猜你想怎麼做，腦補空間最小。直接叫 AI 拆任務反而容易產出一堆你根本不需要的事項。
+- [[template-reference-pattern]]：把你過去做過的專案筆記當成 AI 的「個人案例語料庫」。Josie 有 50+ 份 Obsidian 專案筆記，讓 AI 拿這些當 reference 來推理新專案該做什麼。好處是 AI 會用「你自己過去的做法」來推薦，而不是從網路上抄一套通用做法硬套。例如 AI 會說「你過去類似的公開課專案都有追蹤請款流程，這次要不要也加？」，而不是腦補出你根本不需要的步驟。
+- [[interview-driven-prompting]]：在 AI 拆解任務之前，先讓它反問你釐清問題，而不是直接產出答案。Josie 用 Claude 的 AskUser 機制，AI 會先問「中華電信內部公文是否需要追蹤？」這類釐清題，確認清楚了再動手。這能防止 AI 把別人的流程（例如公部門的特殊公文格式）誤加進你的任務清單裡。
+- [[skill]]：當你跟 AI 的某段對話得到滿意結果後，直接請 Claude 把整段流程封裝成一個 skill（不是存成 prompt 模板）。下次遇到同類專案，觸發 skill 就能自動跑同樣的流程。Josie 自己封裝了一個叫 `project planner` 的 skill，之後每接到新的講座專案就直接觸發它。
+- [[obsidian-claude-code-workflow]]：整套流程的技術架構是四層疊加：Obsidian vault 當資料層存所有專案筆記、Claude Code 當處理層做分析跟拆解、Claudian plugin 負責橋接兩者、skill 負責封裝可重複的工作流程。
 ![[2026-05-11-josie-claude-code-obsidian-project-planner-ai-task-clustering.png|275]]
 
 ## 對 Simon 的應用（當下想法）

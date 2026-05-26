@@ -20,9 +20,9 @@ Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點
 
 ## 核心概念
 
-- [[html-vs-markdown-ai-output]]：HTML 取代 Markdown 作 AI 輸出格式的三層論點
-- [[interactive-confirmation-ui]]：關鍵決策時刻用互動 UI 取代文字牆的設計範式
-- [[context-resend-token-paradox]]：每次發訊息重送整個 context 的反直覺數學
+- [[html-vs-markdown-ai-output]]：Anthropic 工程師 Thariq 主張 AI 的輸出格式應該從 Markdown 換成 HTML。三層理由：（1）HTML 表達力遠超 Markdown，能做表格、互動元件、SVG 圖表、動畫，Markdown 只有標題跟條列；（2）AI 產出的文件如果只是一堆 Markdown 純文字，實務上沒人會認真讀完，但做成有排版的 HTML 網頁，閱讀率明顯提升；（3）製作過程本身有趣，提升使用者投入感。不過 Markdown 在版本控制、跨平台相容性上仍不可取代，兩者不是誰消滅誰的關係。
+- [[interactive-confirmation-ui]]：當 AI 產出一份長計畫文件，使用者想改其中某一處時，用打字描述「第三段第二點改成 XX」的認知負擔非常大。如果改用 HTML 互動介面——每個決策點放一個按鈕或勾選框，使用者直接點選確認或修改——認知負擔會大幅降低。這是 CLI 文字介面的長期痛點，HTML 互動 UI 提供了一條出路。
+- [[context-resend-token-paradox]]：直覺上會覺得「HTML 比 Markdown 多好幾倍 token，太浪費了」，但實際上每次你發一則新訊息，Claude 都會把整個對話歷史重新送一遍。一段長對話累積下來，重送的 token 量遠超單次輸出多用的那幾千 token。如果一次多花一點 token 就能讓使用者精準做出決策、避免來回修改三四輪，總 token 反而是省的。
 ![[2026-05-09-thariq-html-replaces-markdown-ai-html-vs-markdown-ai-output.png|275]]
 
 ## 對 Simon 的應用（當下想法）

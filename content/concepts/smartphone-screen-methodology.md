@@ -3,10 +3,11 @@ name: 手機螢幕專業評測方法論
 aliases: [screen testing, display benchmark, Delta E 測試, sRGB P3 評測, color accuracy]
 category: 其他
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34ef85da-554f-8182-a8f3-ccfefdaa6098
+created: 2026-05-05
 ---
 
 ## 定義

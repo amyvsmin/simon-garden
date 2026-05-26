@@ -3,7 +3,7 @@ title: "程序（Procedure）"
 slug: procedure
 aliases: [Procedure, 程序, 操作程序, SOP, Standard Operating Procedure, 標準作業程序, 操作指引]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

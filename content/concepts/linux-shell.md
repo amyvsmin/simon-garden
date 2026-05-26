@@ -1,11 +1,12 @@
 ---
 name: Linux Shell
-aliases: [linux shell, shell, shell 殼層, 命令列介面]
+aliases: [shell, shell 殼層]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

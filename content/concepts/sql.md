@@ -34,6 +34,6 @@ query-count: 0
 - GROUP BY + HAVING、Window function、CTE 等進階主題本課程沒教、需要自學
 
 ## 來源
-- [[1-welcome|Course 4 Module 4 Section 1 Leaf 1: Welcome to module 4]]
-- [[3-query-databases-with-sql|Course 4 Module 4 Section 1 Leaf 3: Query databases with SQL]]
-- [[1-basic-queries|Course 4 Module 4 Section 2 Leaf 1: Basic queries]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/1-welcome|Course 4 Module 4 Section 1 Leaf 1: Welcome to module 4]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/3-query-databases-with-sql|Course 4 Module 4 Section 1 Leaf 3: Query databases with SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-2-sql-queries/1-basic-queries|Course 4 Module 4 Section 2 Leaf 1: Basic queries]]

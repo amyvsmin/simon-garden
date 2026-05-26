@@ -3,10 +3,11 @@ name: 訂閱不共吃 API（Max ≠ Claude API）
 aliases: [Claude 訂閱, API 計費, Max 訂閱, Anthropic 計費結構]
 category: AI
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-8102-8ae3-c426a160ac11
+created: 2026-05-05
 ---
 
 ## 定義

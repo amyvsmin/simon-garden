@@ -3,7 +3,7 @@ title: "DevSecOps"
 slug: devsecops
 aliases: [DevSecOps, 安全左移, shift left security, 開發安全營運, 安全開發營運]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

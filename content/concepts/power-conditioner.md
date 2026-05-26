@@ -3,10 +3,11 @@ name: 電源調節器
 aliases: [power conditioner, 電壓穩壓器, 電源管理]
 category: 網管
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8151-9476-f89899f4460b
+created: 2026-05-05
 ---
 
 ## 定義

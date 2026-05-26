@@ -37,5 +37,5 @@ query-count: 0
 - False positive 處理流程、tuning baseline 閾值、Course 6 預期會教
 
 ## 來源
-- [[5-optional-exemplar-perform-a-sql-query|Course 4 Module 4 Section 2 Leaf 5: Optional Exemplar Perform a SQL query]]
-- [[10-exemplar-filter-with-and-or-and-not|Course 4 Module 4 Section 3 Leaf 10: Exemplar Filter with AND OR NOT]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-2-sql-queries/5-optional-exemplar-perform-a-sql-query|Course 4 Module 4 Section 2 Leaf 5: Optional Exemplar Perform a SQL query]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-3-more-sql-filters/10-exemplar-filter-with-and-or-and-not|Course 4 Module 4 Section 3 Leaf 10: Exemplar Filter with AND OR NOT]]

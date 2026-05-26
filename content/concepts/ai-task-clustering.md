@@ -3,7 +3,7 @@ name: AI 任務分組（Cluster）
 aliases: [AI 任務 cluster, AI task clustering, 任務分組, task clustering, 任務聚類, cluster grouping]
 category: 生產力
 status: active
-confidence: unverified
+confidence: 待驗證
 created: 2026-05-11
 last-queried: ""
 query-count: 0

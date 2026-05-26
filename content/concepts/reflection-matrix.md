@@ -3,10 +3,11 @@ name: 反射矩陣
 aliases: [演算法選擇, 模型選擇, Pattern Matching]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8166-9bcd-e955fec71b96
+created: 2026-05-05
 ---
 
 ## 定義

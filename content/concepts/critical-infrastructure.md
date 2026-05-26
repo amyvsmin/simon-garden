@@ -3,10 +3,11 @@ name: 關鍵基礎設施
 aliases: [critical infrastructure, CIP, 關鍵資訊基礎設施]
 category: 資安
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8193-839f-c6a8571b8425
+created: 2026-05-05
 ---
 
 ## 定義

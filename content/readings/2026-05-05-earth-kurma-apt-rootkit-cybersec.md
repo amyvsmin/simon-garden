@@ -19,12 +19,12 @@ icon: "🛡️"
 
 ## 核心概念
 
-- [[earth-kurma]]：東南亞 APT 組織，活動可追溯至 2020-11；與 APTcat、Lazarus、Tunnel Snake、Sharp Dragon 似有關聯
-- [[mmload-yadnux-rootkit]]：MMLOAD/Yadnux 多階段反射式 rootkit；mmFilter Hook MiniFilter Pre Operation Callback 隱藏檔案、NsdiProxy 移除 ObRegisterCallbacks、RegProtect 隱藏特定登錄機碼、RdpThief 竊取 RDP 憑證
-- [[dse-bypass]]：透過反射式驅動載入器（Google.sys／Boot.sys）在記憶體載入未簽章 .zlib 驅動繞過 Windows Driver Signature Enforcement
-- [[living-off-cloud-c2]]：濫用 OneDrive／Dropbox／Cisco Webex／DFS 等合法雲端與企業服務作為 C2 與資料外洩通道；Webex 會議室分 keep/message/file/shell 四個用途
-- [[red-team]]：研究 APT 工具鏈本身就是紅隊／威脅情報的重要輸入
-- [[supply-chain-risk]]：APT 大量複用工具家族顯示工具來源可能存在共同 provider 線索
+- [[earth-kurma]]：一個自 2020 年 11 月起活躍的東南亞 APT（進階持續性威脅）組織，主要攻擊菲律賓、越南、汶萊、馬來西亞、泰國、印尼的政府單位與電信商。趨勢科技研究員在 CYBERSEC 2026 完整拆解了他們從入侵、橫向移動、持久化到資料竊取的全攻擊鏈，並發現其工具與 Lazarus、Tunnel Snake、Sharp Dragon 等已知 APT 有關聯跡象。
+- [[mmload-yadnux-rootkit]]：Earth Kurma 使用的多階段反射式 rootkit，設計非常精密。它會在記憶體中載入未簽章驅動程式，然後做四件事來隱藏自己：用 mmFilter 攔截 Windows 的檔案系統回呼來隱藏惡意檔案、用 NsdiProxy 移除系統的物件監控回呼讓防毒軟體看不到它、用 RegProtect 隱藏特定的 Windows 登錄機碼（registry key）、以及注入 RdpThief 模組到遠端桌面程式（mstsc.exe）來偷 RDP 登入憑證。
+- [[dse-bypass]]：Windows 預設會阻擋未經微軟數位簽章的驅動程式載入（這個機制叫 Driver Signature Enforcement）。Earth Kurma 用偽裝成合法名稱的載入器（Google.sys、Boot.sys）在記憶體中直接反射式載入壓縮過的 .zlib 驅動，繞過了這道防線，讓未簽章的惡意驅動可以在核心層執行。
+- [[living-off-cloud-c2]]：攻擊者不自己架設指揮控制伺服器（C2），而是濫用企業本來就在用的合法雲端服務來傳遞指令和偷資料，這樣防火牆和 proxy 很難分辨正常流量跟惡意流量。Earth Kurma 的做法特別有創意——他們在 Cisco Webex 上建立四個會議室，分別用來做心跳確認（keep）、傳遞指令（message）、傳檔案（file）、和執行遠端命令（shell），另外也用 OneDrive、Dropbox 和 Windows DFS 複寫功能來搬運竊取的資料。
+- [[red-team]]：研究真實 APT 組織的工具鏈和攻擊手法，本身就是紅隊演練和威脅情報工作的核心輸入——知道攻擊者怎麼做，才能設計對應的偵測規則和防禦措施。
+- [[supply-chain-risk]]：Earth Kurma 大量複用不同 APT 組織的後門工具家族（如 S.Manager、Sharp Penta），這暗示 APT 組織之間可能存在共同的工具供應者，供應鏈安全風險因此被放大。
 ![[2026-05-05-earth-kurma-apt-rootkit-cybersec-earth-kurma.png|275]]
 
 ## 對 Simon 的應用（當下想法）

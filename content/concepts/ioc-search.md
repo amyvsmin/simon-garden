@@ -3,9 +3,10 @@ name: IOC 字串搜尋
 aliases: [ioc search, indicator of compromise search, IOC sweep, 入侵指標搜尋]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

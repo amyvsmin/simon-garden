@@ -3,7 +3,7 @@ title: "雜湊函數（Hash Function）"
 slug: hash-function
 aliases: [Hash Function, 雜湊函數, 雜湊, hash, 散列函數, 哈希函數, hashing]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

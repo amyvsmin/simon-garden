@@ -3,7 +3,7 @@ title: "駭客（Hacker）"
 slug: hacker
 aliases: [Hacker, 駭客, 白帽駭客, 黑帽駭客, 灰帽駭客, white hat, black hat, grey hat, ethical hacker]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

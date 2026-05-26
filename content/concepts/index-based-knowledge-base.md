@@ -3,10 +3,11 @@ name: 索引式知識庫
 aliases: [Index-based KB, 目錄式知識庫, 無向量知識庫]
 category: 自動化
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8134-abda-c9433ac58d2b
+created: 2026-05-05
 ---
 
 ## 定義

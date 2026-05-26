@@ -3,7 +3,7 @@ title: "對稱加密（Symmetric Encryption）"
 slug: symmetric-encryption
 aliases: [Symmetric Encryption, 對稱加密, 對稱式加密, symmetric key, 對稱金鑰, secret key encryption]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

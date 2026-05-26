@@ -37,6 +37,6 @@ SQL 用來表示「值缺失／未知」的特殊標記、跟 `0`、空字串 `'
 - 三值邏輯（TRUE／FALSE／NULL）如何跟 boolean 混算、進階 SQL 主題
 
 ## 來源
-- [[2-introduction-to-databases|Course 4 Module 4 Section 1 Leaf 2: Introduction to databases]]
-- [[1-join-tables-in-sql|Course 4 Module 4 Section 4 Leaf 1: Join tables in SQL]]
-- [[2-types-of-joins|Course 4 Module 4 Section 4 Leaf 2: Types of joins]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/2-introduction-to-databases|Course 4 Module 4 Section 1 Leaf 2: Introduction to databases]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/1-join-tables-in-sql|Course 4 Module 4 Section 4 Leaf 1: Join tables in SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/2-types-of-joins|Course 4 Module 4 Section 4 Leaf 2: Types of joins]]

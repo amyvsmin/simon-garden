@@ -3,9 +3,10 @@ name: Linux 架構
 aliases: [linux architecture, Linux 五層架構, application-os-hardware-flow, OS 分層]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

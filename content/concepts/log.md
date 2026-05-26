@@ -1,7 +1,7 @@
 ---
 title: "Log（系統日誌）"
 slug: log
-aliases: [log, 日誌, 系統日誌, security log, audit log, event log, syslog, 紀錄, 事件紀錄]
+aliases: [log, 日誌, 系統日誌, security log, event log, syslog, 紀錄, 事件紀錄]
 category: 資安
 confidence: 已驗證
 created: 2026-05-09
@@ -38,5 +38,5 @@ query-count: 0
 - Log 解析的 regex 跟 grok pattern 設計、實務經驗養成
 
 ## 來源
-- [[3-query-databases-with-sql|Course 4 Module 4 Section 1 Leaf 3: Query databases with SQL]]
-- [[5-optional-exemplar-perform-a-sql-query|Course 4 Module 4 Section 2 Leaf 5: Optional Exemplar]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/3-query-databases-with-sql|Course 4 Module 4 Section 1 Leaf 3: Query databases with SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-2-sql-queries/5-optional-exemplar-perform-a-sql-query|Course 4 Module 4 Section 2 Leaf 5: Optional Exemplar]]

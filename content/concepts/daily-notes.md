@@ -3,10 +3,11 @@ name: Daily notes（AI 工作日誌）
 aliases: [daily notes, AI 工作日誌, 每日筆記]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-8129-a78c-da9a447283ef
+created: 2026-05-05
 ---
 
 ## 定義

@@ -3,9 +3,10 @@ name: 檔案系統階層標準
 aliases: [Filesystem Hierarchy Standard, FHS, filesystem-hierarchy-standard, Linux 目錄結構, 檔案系統樹]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

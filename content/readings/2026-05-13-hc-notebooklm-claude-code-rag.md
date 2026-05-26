@@ -20,10 +20,10 @@ HC 示範用林探開發的 `notebooklm-py` CLI 工具，把 Claude Code 跟 Goo
 
 ## 核心概念
 
-- [[notebooklm-as-rag]]：NotebookLM 當 Claude Code 的外掛 RAG／圖表／podcast 製作引擎
-- [[skill]]：用 skills-creator 半自動產生新 skill（影片中 yt-search skill）、含 yt-dlp 整合
-- [[mcp]]：對照 MCP 機制、但 notebooklm 走 CLI tool + skill 而非 MCP
-- [[claude-code]]：Claude Code 短板補強案例
+- [[notebooklm-as-rag]]：把 Google NotebookLM 當成 Claude Code 的外掛引擎，專門處理 Claude 不擅長的任務：大量文件的深度檢索（RAG）、心智圖跟資訊圖表的生成、podcast 風格的音檔製作。關鍵好處是「token 卸載」——這些重度任務由免費的 Gemini/NotebookLM 處理，不消耗 Claude Code 訂閱的每週 token 額度。實作上用林探開發的 `notebooklm-py` CLI 工具串接。
+- [[skill]]：HC 在影片中用 Anthropic 的 skills-creator 工具半自動產生了一個 yt-search skill，能搜尋 YouTube 影片並用觀看次數跟訂閱者數的比率判斷哪些是「爆款」。這示範了 skill 不一定要手寫——用 skills-creator 描述你想要的功能，它會自動生成 SKILL.md 跟相關腳本。
+- [[mcp]]：值得注意的是 NotebookLM 的整合方式不是走 MCP 協定，而是走 CLI 工具加上 skill 封裝。這提供了一個對照：不是所有外部工具整合都需要 MCP，有時候 CLI + skill 的組合更簡單直接。
+- [[claude-code]]：這是一個 Claude Code 短板補強的實際案例。Claude Code 本身不擅長處理影片內容（需要靠 yt-dlp 抽字幕）、也不擅長生成圖表跟視覺化內容。與其等 Claude 補足這些能力，不如把任務外包給擅長的工具（NotebookLM），Claude Code 負責串接跟調度。
 ![[2026-05-13-hc-notebooklm-claude-code-rag-notebooklm-as-rag.png|275]]
 
 ## 對 Simon 的應用（當下想法）

@@ -3,10 +3,11 @@ name: 簡化流程 > 資料主控
 aliases: [simplicity over ownership, 流程 > 主控, 2026-04-24 決策動機]
 category: 生產力
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34cf85da-554f-8171-a1ef-c0cf8fba891b
+created: 2026-05-05
 ---
 
 ## 定義

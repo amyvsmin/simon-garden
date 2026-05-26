@@ -20,9 +20,9 @@ Inside 報導 Anthropic Claude Code 工程主管 Boris Cherny 親自示範的 5 
 
 ## 核心概念
 
-- [[claude-code-onboarding-qa]]：第一次進新 codebase 先讓 CC 做 Q&A、Anthropic 內部 onboarding 時間從幾週縮到幾天
-- [[claude-code-iteration-loop]]：給 AI 驗證方式（測試／截圖／模擬器）讓它進入自我修正循環、人類從 review 升級為驗收
-- [[parallel-claude-sessions]]：5 視窗 × git worktree + 系統通知、Boris 一天送 20-30 PR、5 小時任務壓縮到 1-2 小時
+- [[claude-code-onboarding-qa]]：進入一個不熟悉的 codebase 時，不要一開始就讓 AI 動手改程式碼，而是先讓它當顧問做 Q&A——問它「這個 repo 的架構是什麼？」「這段程式碼為什麼這樣寫？」。Boris 說 Anthropic 內部新工程師的 onboarding 因此從幾週縮短到幾天，因為 AI 能快速閱讀整個 codebase 並回答脈絡性問題，省去大量翻文件跟問同事的時間。
+- [[claude-code-iteration-loop]]：讓 AI 寫完程式碼之後能自己驗證對不對、自己修正錯誤，而不是每次都等人類來看。做法是給 AI 明確的驗證方式：跑測試、截螢幕畫面、啟動模擬器看結果。AI 拿到驗證回饋後會自動進入「寫 → 測 → 改 → 再測」的循環，人類的角色就從逐行 review 升級為最終驗收。
+- [[parallel-claude-sessions]]：同時開多個 Claude Code 視窗，每個視窗用 git worktree 隔離在獨立的工作目錄，互不干擾地平行推進不同任務。Boris 自己同時開 5 個視窗，搭配系統通知在任務完成時提醒他切過去看結果，一天可以送出 20–30 個 PR，原本需要 5 小時的工作壓縮到 1–2 小時。
 ![[2026-05-09-boris-cherny-claude-code-5-habits-claude-code-onboarding-qa.png|275]]
 
 ## 對 Simon 的應用（當下想法）

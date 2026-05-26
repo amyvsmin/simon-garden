@@ -3,10 +3,11 @@ name: VC 均溫板 + 旁路充電（中階機效能策略）
 aliases: [VC 均溫板, vapor chamber, 旁路充電, bypass charging, 中階機散熱, 電池保護]
 category: 其他
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34ef85da-554f-8195-bdbd-cd57f030aaa0
+created: 2026-05-05
 ---
 
 ## 定義

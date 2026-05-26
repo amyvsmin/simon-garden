@@ -3,7 +3,7 @@ title: "注入攻擊（Injection）"
 slug: injection
 aliases: [Injection, 注入攻擊, SQL Injection, SQL 注入, 注入漏洞, code injection, 程式碼注入, XSS, Cross-Site Scripting]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

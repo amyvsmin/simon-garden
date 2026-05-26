@@ -3,10 +3,11 @@ name: Skill
 aliases: [Claude Skill, 技能包]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 349f85da-554f-8184-b4c9-e39540364c8c
+created: 2026-05-05
 ---
 
 ## 定義

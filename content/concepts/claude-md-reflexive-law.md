@@ -1,6 +1,6 @@
 ---
 name: CLAUDE.md 反射律
-aliases: [CLAUDE.md 反射律, claude-md reflexive law, 行為偏差改規則, 不鑽 CC 內部機制, rule-driven debugging]
+aliases: [claude-md reflexive law, 行為偏差改規則, 不鑽 CC 內部機制, rule-driven debugging]
 category: AI
 status: active
 confidence: 已驗證
@@ -11,13 +11,13 @@ query-count: 0
 
 ## 定義
 
-AI 助手出現行為偏差時、不去研究 LLM 內部機制或 Claude Code harness（CC 主機端）內部運作、而是把規則寫進 CLAUDE.md／rules／user-memory 讓它知道。出處：雷蒙迷你課 2-1「讓 AI 記住你的偏好」commit `ef79968` 的 TIP 段、回應學員 issue #5 提出的 meta-rule。
+當 AI 執行同一個需求卻出現跟上次不一樣的結果時，不去研究 LLM 內部機制或 Claude Code 內部運作，而是把正確做法寫成規則（CLAUDE.md／rules／user-memory）讓它下次照做。出處：雷蒙迷你課 2-1「讓 AI 記住你的偏好」。
 
 ## 關鍵面向
 
-- **第一反射改規則、不查內部**：AI 不照預期做事時、直覺反應應該是「補一條規則告訴它正確的做法」、不是「研究 CC 為什麼這樣做」
-- **CLAUDE.md 是 AI 的個人說明書**：規則寫越清楚、行為越穩定；模糊／矛盾的規則才會引發內部機制鑽研
-- **跟 grep-before-create 哲學同源**：寫新規則前先看現有規則能不能強化、避免線性膨脹；對應 [[skill]] 系統「先擴寫既有、再考慮新建」（user-memory `feedback_consolidate_before_create`）
+- **第一反射改規則、不查內部**：AI 不照預期做事時，直覺反應應該是「補一條規則告訴它正確的做法」，不是去研究 Claude Code 為什麼會這樣。例如 Claude 每次寫 vault 都跑出簡體字，解法是在 CLAUDE.md 加自檢清單，不是去翻 tokenizer 偏好
+- **CLAUDE.md 是 AI 的個人說明書**：規則寫越清楚，行為越穩定；出問題時優先檢查規則有沒有寫清楚，而不是懷疑 AI 本身壞了
+- **先查再建、不重複造輪子**：寫新規則之前先翻一下現有的規則，看能不能直接強化既有那條，而不是每次都新增。這跟 skill 系統的原則一樣——先擴寫既有的、再考慮新建
 - **規則層級分流**：常駐用 CLAUDE.md、行為驅動觸發用 rules/ paths-conditional、跨對話偏好用 user-memory、不混用
 
 ## 應用場景
@@ -39,4 +39,4 @@ AI 助手出現行為偏差時、不去研究 LLM 內部機制或 Claude Code ha
 
 ## 來源（自動維護）
 
-- [[2026-05-14-raymond-cc-mini-course]]（雷蒙課 2-1 commit ef79968 TIP 段）
+- [[2026-05-14-raymond-cc-mini-course]]（雷蒙課 2-1「讓 AI 記住你的偏好」）

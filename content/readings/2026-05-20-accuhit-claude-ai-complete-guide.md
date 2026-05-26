@@ -67,12 +67,12 @@ AccuHit 行銷技術部落格 2026-04 發布的 Claude 完整介紹文，從行�
 
 1. **「審核層不可省略」原則補充到 ingest-flow.md** — **不優化**
    - 規則出處：AccuHit Threads 機器人在 AI 出稿與發布之間保留編輯 review 介面、理由是「品牌聲音一致性無法由 AI 自行判斷」
-   - 候選位置：`~/.claude/skills/knowledge-wiki/references/ingest-flow.md` Step 9 說明開頭
-   - **不優化原因（既有覆蓋）**：Step 9 規則本身「列完跟 Simon 討論、他同意才實作」白紙黑字已夠強、加 meta-reasoning 對 Claude 實際行為影響低、屬 doc 補強。`~/.claude/user-memory/feedback_validate_then_upgrade.md` + Simon 強烈 review preference 已 cover。
+   - 候選位置：`0-context/skills/knowledge-wiki/references/ingest-flow.md` Step 9 說明開頭
+   - **不優化原因（既有覆蓋）**：Step 9 規則本身「列完跟 Simon 討論、他同意才實作」白紙黑字已夠強、加 meta-reasoning 對 Claude 實際行為影響低、屬 doc 補強。`0-context/personal/feedback-validate-then-upgrade.md` + Simon 強烈 review preference 已 cover。
 
 2. **三模式選擇邏輯補充至 user-memory 或 CLAUDE.md** — **不優化**
    - 規則出處：AccuHit Chat/Cowork/Code 三模式適用情境框架
-   - 候選位置：`~/.claude/user-memory/` 新增條目或全域 CLAUDE.md 第 3 節
+   - 候選位置：`0-context/personal/` 新增條目或全域 CLAUDE.md 第 3 節
    - **不優化原因（適用面太窄）**：Claude 在 Claude Code terminal 跑、Chat/Cowork 不適用、規則對 AI 行為無影響。偏 Simon 自己工具選擇備忘、不是給 Claude 看的 instructions、放 CLAUDE.md 占空間又對 AI 無作用。真要記放 Notion / Obsidian 個人提醒類筆記比較對位。
 
 ### B 類 Simon 個人動作

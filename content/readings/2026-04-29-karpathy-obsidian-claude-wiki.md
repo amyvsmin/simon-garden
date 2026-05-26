@@ -20,11 +20,11 @@ Paula 拆解 Andrej Karpathy 在 X 上分享的個人知識庫做法：用 Obsid
 
 ## 核心概念
 
-- [[index-based-knowledge-base]]：一份 Index 取代向量搜尋，AI 靠目錄找頁面
-- [[raw-wiki-split]]：Raw 與 Wiki 兩資料夾把原始素材跟 AI 產出明確切開
-- [[graph-emergence]]：跨文章共用概念由 AI 自動建立連結，文章越多圖越密
-- [[log-traceability]]：Log 檔把 AI 每個動作存證，可追溯也避免重做
-- [[instructions-file]]：claude.md 當 AI 常駐合約，省下每次重新解釋專案的成本
+- [[index-based-knowledge-base]]：Karpathy 不用向量資料庫或 embedding 做語意搜尋，而是維護一份純文字的 Index 檔案當作整個知識庫的目錄。AI 要找資料時就讀這份 Index，靠標題和摘要判斷該打開哪個檔案。這種做法在約 100 篇文章的規模下完全夠用，而且比建 RAG 系統簡單得多。
+- [[raw-wiki-split]]：整個知識庫只有兩個資料夾——Raw 放原始素材（收進來的文章原文），Wiki 放 AI 整理過的產出（概念頁、人物頁、來源頁）。這樣切開的好處是原始資料永遠不會被 AI 改動，而 AI 的產出也有明確的位置可以追蹤和修正。
+- [[graph-emergence]]：當 AI 處理越來越多文章時，會自動發現跨文章的共用概念並建立 wikilink 連結。例如兩篇不同文章都提到「注意力機制」，AI 就會把它們連到同一個概念頁。文章收得越多，知識圖譜就越密，這個結構是自然長出來的，不需要人工規劃。
+- [[log-traceability]]：每次 AI 對知識庫做任何操作（新增頁面、更新索引、建立連結），都會在 Log 檔裡留下一筆紀錄。這樣做有兩個好處：一是出問題時可以回溯是哪一步出錯，二是 AI 下次執行前會先檢查 Log，避免重複處理已經收錄過的文章。
+- [[instructions-file]]：在知識庫根目錄放一份 claude.md，寫清楚 AI 操作這個知識庫時該遵守的所有規則（檔案命名規範、分類邏輯、寫入格式等）。這份檔案等於是 AI 的常駐合約，每次啟動都會自動讀取，不需要每次對話都重新解釋「你要怎麼幫我整理資料」。
 ![[2026-04-29-karpathy-obsidian-claude-wiki-index-based-knowledge-base.png|275]]
 
 ## 對 Simon 的應用（當下想法）

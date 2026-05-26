@@ -3,10 +3,11 @@ name: 提示工程框架死穴
 aliases: [Prompt Engineering, CoT, ToT, ReAct]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-818c-ad2b-cb70d2c5f486
+created: 2026-05-05
 ---
 
 ## 定義

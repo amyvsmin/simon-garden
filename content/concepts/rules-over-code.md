@@ -1,6 +1,6 @@
 ---
 name: 規則比程式碼重要
-aliases: [規則比程式碼重要, rules over code, 規則表 > code, 規則優先, prompt rules over code, 規則先於實作]
+aliases: [rules over code, 規則表 > code, 規則優先, prompt rules over code, 規則先於實作]
 category: AI
 status: active
 confidence: 已驗證

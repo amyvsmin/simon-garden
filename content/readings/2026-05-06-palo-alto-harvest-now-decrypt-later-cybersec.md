@@ -20,10 +20,10 @@ Palo Alto Networks 亞太政策與政府關係副總裁 Nicole Quinn 在 CYBERSE
 
 ## 核心概念
 
-- [[harvest-now-decrypt-later]]：今天偷加密資料、十年後量子破解、針對 10 年以上長期重要資料
-- [[post-quantum-cryptography]]：抗量子數學基礎、NIST 2024 完成第一批標準化、企業需做密碼遷移
-- [[shadow-ai]]：員工未經批准用 AI 工具、形成資料外洩盲點、73% 擔心但 18% 有治理
-- [[critical-infrastructure]]：HNDL 主要攻擊目標、台灣地緣政治壓力大
+- [[harvest-now-decrypt-later]]：一種長線攻擊策略——國家級攻擊者（以及組織犯罪集團）現在就大量攔截、收集加密的敏感資料，雖然目前還解不開，但等到量子電腦成熟後就能一次全部破解。這種攻擊特別針對壽命超過 10 年的高價值資料，例如政府機密、醫療紀錄、商業智財。Nicole Quinn 在演講中強調「This is no longer hypothetical」，攻擊者已經在執行了。
+- [[post-quantum-cryptography]]：能抵抗量子電腦攻擊的新一代密碼學演算法。NIST 在 2024 年完成了第一批標準化（ML-KEM、ML-DSA、SLH-DSA），企業現在就需要開始規劃從傳統的 RSA／ECC 密碼遷移到這些新標準。遷移過程很漫長，慢一年就多暴露一年的風險。
+- [[shadow-ai]]：員工未經公司批准就自行使用 ChatGPT、Cursor、Copilot 等 AI 工具處理工作資料，形成企業看不見的資料外洩通道。Ponemon 報告顯示 73% 的組織擔心 AI 導致資料外洩，但只有 18% 建立了 AI 治理機制——落差非常大。
+- [[critical-infrastructure]]：關鍵基礎設施（電力、通訊、金融、醫療等）是 Harvest Now Decrypt Later 的主要攻擊目標，因為這些領域的資料壽命長、影響範圍廣。Nicole Quinn 特別點出台灣因為地緣政治壓力，面臨的風險比多數國家更高。
 ![[2026-05-06-palo-alto-harvest-now-decrypt-later-cybersec-harvest-now-decrypt-later.png|275]]
 
 ## 對 Simon 的應用（當下想法）

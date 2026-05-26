@@ -3,10 +3,11 @@ name: 設計系統
 aliases: [Design System, 品牌資產, 視覺規範]
 category: 生產力
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8129-afb4-f5b0519a8d40
+created: 2026-05-05
 ---
 
 ## 定義

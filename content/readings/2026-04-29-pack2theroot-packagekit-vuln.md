@@ -20,12 +20,12 @@ icon: "⚡"
 
 ## 核心概念
 
-- [[pack2theroot]]：Linux PackageKit 的本機權限提升漏洞，免密碼即可裝套件變 root
-- [[packagekit]]：抽象化各發行版套件管理器的 D-Bus 中介服務，影響範圍橫跨主流 Linux
-- [[privilege-escalation]]：攻擊者從一般使用者升級為 root 的關鍵戰術，CISSP 與紅隊演練必考
-- [[red-team]]：企業內部攻擊模擬團隊，本案由 Deutsche Telekom 紅隊團隊主動揭露
-- [[cvss]]：漏洞嚴重性量化標準，本漏洞 8.8 分屬高風險
-- [[ai-vuln-discovery]]：借助 Claude Opus 等大型語言模型協助找漏洞，挖出潛伏 14 年的瑕疵
+- [[pack2theroot]]：CVE-2026-41651，Linux 套件管理工具 PackageKit 的高風險本機權限提升漏洞。非特權使用者可以在不需要輸入密碼的情況下安裝或移除系統套件，藉此取得 root 權限。這個漏洞最早可追溯到 14 年前的 PackageKit 0.8.1 版，直到德國電信紅隊團隊借助 Claude Opus 輔助分析才被發現。
+- [[packagekit]]：PackageKit 是一個透過 D-Bus 介面抽象化各 Linux 發行版套件管理器的中介服務。它的設計目的是讓應用程式（例如圖形化的軟體中心）不需要知道底層用的是 apt、dnf 還是 zypper，統一透過 PackageKit 就能管理套件。正因為它橫跨 Ubuntu、Debian、Fedora、Rocky Linux 等主流發行版，一旦出現漏洞影響範圍極廣。
+- [[privilege-escalation]]：權限提升，指攻擊者從一般使用者權限升級為系統管理員（root）的攻擊戰術。這是資安攻防中最關鍵的步驟之一——攻擊者通常先用釣魚或其他手段取得低權限的進入點，接著靠權限提升漏洞拿下整台機器的控制權。CISSP 與紅隊演練的必考主題。
+- [[red-team]]：企業內部的攻擊模擬團隊，專門用攻擊者的視角找出自家系統的漏洞。本案的發現者是德國電信 Deutsche Telekom 的紅隊團隊，他們主動揭露漏洞並通報修補，屬於負責任揭露的典型流程。
+- [[cvss]]：Common Vulnerability Scoring System，漏洞嚴重性的量化評分標準，滿分 10 分。本漏洞拿到 8.8 分屬於高風險等級，代表利用門檻低且影響嚴重。CVSS 分數是企業決定修補優先順序的重要參考依據。
+- [[ai-vuln-discovery]]：本案的一大亮點是研究人員借助 Anthropic Claude Opus 模型輔助原始碼分析，才成功挖出這個潛伏 14 年的漏洞。這反映 AI 大型語言模型在資安領域的實戰價值正在提升——它能在龐大的程式碼庫中找到人類審查容易忽略的邏輯瑕疵。
 ![[2026-04-29-pack2theroot-packagekit-vuln-pack2theroot.png|275]]
 
 ## 對 Simon 的應用（當下想法）

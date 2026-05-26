@@ -1,9 +1,9 @@
 ---
 title: "攻擊面（Attack Surface）"
 slug: attack-surface
-aliases: [Attack Surface, 攻擊面, 攻擊表面, 攻擊向量, attack vector, 進入點, entry point]
+aliases: [Attack Surface, 攻擊面, 攻擊表面, 進入點, entry point]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

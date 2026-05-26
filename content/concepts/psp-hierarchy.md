@@ -3,7 +3,7 @@ title: "政策標準程序層級（Policy-Standard-Procedure Hierarchy）"
 slug: psp-hierarchy
 aliases: [Policy-Standard-Procedure Hierarchy, 政策標準程序層級, PSP, 治理文件架構, policy hierarchy, 政策層級]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

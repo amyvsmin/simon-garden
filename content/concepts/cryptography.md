@@ -1,9 +1,9 @@
 ---
 title: "密碼學（Cryptography）"
 slug: cryptography
-aliases: [Cryptography, 密碼學, 加密技術, 加密學, encryption, 加密]
+aliases: [Cryptography, 密碼學, 加密技術, 加密學]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

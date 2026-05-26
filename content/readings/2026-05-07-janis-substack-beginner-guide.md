@@ -42,7 +42,7 @@ Janis Zeng 把自己 Substack 從 0 訂閱到 2070 訂閱、過程花 10 個月�
 
 **長期（3–6 個月）**：
 1. ⏳ 撐過第一個月「沒人看」的低谷期、按 6 個月複利轉折點預期
-2. ⏳ 累積 ≥ 6 篇後評估升級到 cookie API 自動發布（見 `~/.claude/user-memory/reference_substack_markdown_paste.md` 方案 C）
+2. ⏳ 累積 ≥ 6 篇後評估升級到 cookie API 自動發布（方案 C）
 3. ⏳ 訂閱數穩定後再考慮 Medium / LinkedIn 跨平台、依然以 Substack 為主漏斗
 
 **注意點**：不分散到 IG／Threads／FB 多平台、作者 90% 訂閱來自 Substack 站內；先在這把根扎深。

@@ -27,7 +27,7 @@ AI 操作完成後、如果有任何沒驗證／跳過／不確定的部分，**
 
 - **sync-garden.sh STATE 旗標機制**：失敗寫 `~/.claude/state/garden-sync-fail.txt` + SessionStart hook 提醒，是 loud failure 的落地
 - **KW γ ingest-flow Step 7** 寫 inbox 🌱 → 🌲 之前該補「verify reading 真寫成功」這一步，避免 silent success
-- **vault wikilink 校驗**：建 reading 寫 `[[concept-slug]]` 後，下次健檢若該 concept 不存在要顯式報、不要看起來像「正常已建好」
+- **vault wikilink 校驗**：建 reading 寫 `concept-slug` wikilink 後，下次健檢若該 concept 不存在要顯式報、不要看起來像「正常已建好」
 - **公司 IT 維運**：Veeam 備份「成功」要看是否所有 VM 都進、SCCM patch 「100% 推送」要看 client check-in 數
 - **金錢操作**：銀行 API「轉帳完成」沒回 confirmation 要警報，不要默認成功
 

@@ -20,10 +20,10 @@ icon: "🛡️"
 
 ## 核心概念
 
-- [[insider-threat]]：跨員工／前員工／約聘／供應商皆可能、技術防禦靠 UEBA + DLP + 跨部門整合
-- [[insider-threat-program]]：crown jewel 盤點、跨部門整合、通報 SOP、技術偵測、資安文化五要點
-- [[ai-vuln-discovery]]：AI 加速漏洞挖掘讓攻防失衡擴大、需重新評估資源配置與多層次縱深防禦
-- [[cve-weaponization-time]]：CSA 報告呼應「漏洞 release 後反應視窗從週縮到小時」
+- [[insider-threat]]：來自組織內部的安全威脅，不只是現任員工，也包含前員工、約聘人員、供應商等任何曾經或正在擁有系統存取權限的人。酷澎 2025 年在韓國發生的資料外洩事件就是典型案例——根因是一位離職員工，影響了台灣 20 萬顧客的個資。Ponemon 2026 報告指出，全球企業因 insider threat 造成的年均損失達 195 萬美元，其中 27% 屬於惡意內部人員。技術上主要靠 UEBA（使用者行為分析）和 DLP（資料外洩防護）來偵測，但更關鍵的是跨部門（資安、法務、HR）的協調整合。
+- [[insider-threat-program]]：陳浩維在演講中提出建置內部威脅計畫的五個要點：第一，做 crown jewel 盤點，先搞清楚公司最重要的資產在哪裡；第二，跨部門整合，讓資安、法務、HR 建立共同的處理機制；第三，制定通報 SOP，確保發現異常時有明確的回報流程；第四，佈署技術偵測工具（UEBA、DLP）；第五，建立全員資安文化，讓每個人都有基本的警覺意識。美國中大型企業已經在設置獨立的 insider threat mitigation team，實測可減少約 50% 的事件量。
+- [[ai-vuln-discovery]]：AI 加速漏洞挖掘的能力，正在讓攻防之間的不對稱持續擴大——攻擊者用 AI 找漏洞的速度遠快於防守方修補的速度。CSA（Cloud Security Alliance）發布的《AI Vulnerability Storm》報告建議企業必須重新評估資安資源配置，加強網路分段、MFA、縱深防禦，甚至增加資安人力。
+- [[cve-weaponization-time]]：CSA 同一份報告呼應了「漏洞從公開到被武器化的反應視窗已經從過去的數週壓縮到小時級」這個趨勢，意味著傳統的「每季修補」節奏已經無法因應。
 ![[2026-05-06-coupang-insider-threat-cybersec-insider-threat.png|275]]
 
 ## 對 Simon 的應用（當下想法）

@@ -20,12 +20,12 @@ Dustin 示範用 Obsidian 當跨專案知識庫主軸，解決 Claude Code 在�
 
 ## 核心概念
 
-- [[wikilink-cross-folder]]：wikilink 跨資料夾連線、讓 AI 讀某檔案時自動跳到關聯檔案、不再被樹狀結構困住
-- [[progressive-vault-growth]]：知識庫從 projects + pillars 兩個起步、隨使用慢慢長出其他資料夾、不要一開始就追求完整
-- [[obsidian-claude-code-workflow]]：vault 當資料層、Claude Code 當讀寫處理層的工作流；本篇補了「跨專案連線」觀點
-- [[obsidian-cli-plugin]]：Obsidian 官方 skill 讓 Claude Code 透過 CLI 跟 vault 對話
-- [[claude-md-dual-nav]]：根目錄 CLAUDE.md 當總目錄、各資料夾 instructions.md 當局部地圖
-- [[second-brain]]：個人知識管理目標、釋放大腦做思考決策
+- [[wikilink-cross-folder]]：Obsidian 的 wikilink（`檔名`）不受資料夾層級限制——A 資料夾的檔案可以直接連到 B 資料夾的檔案。對 AI 來說這很關鍵：它讀到某個檔案時，看到 wikilink 就能自動跳過去讀關聯檔案，等於順著語意連線把分散在不同目錄的知識串起來，不再被樹狀結構困住。傳統資料夾結構下，AI 只能讀到當前目錄的內容，跨目錄的脈絡全靠人手動交代。
+- [[progressive-vault-growth]]：知識庫不要一開始就追求完整的結構設計。Dustin 建議從 projects（專案）跟 pillars（核心支柱）兩個資料夾起步就好，隨著實際使用需求再慢慢長出 decisions、日誌、週報、insights 等資料夾。重點是讓結構「長出來」而不是「設計出來」，因為一開始就蓋大結構反而造成維護負擔。
+- [[obsidian-claude-code-workflow]]：用 Obsidian vault 當資料層存所有知識筆記、Claude Code 當處理層負責讀寫分析的工作流架構。本篇補充了「跨專案連線」的觀點——多個不同專案的資訊放在同一個 vault 裡，靠 wikilink 互通，Claude Code 開任何一個專案目錄都能順著連線讀到全局脈絡。
+- [[obsidian-cli-plugin]]：Obsidian 官方提供的 Claude Code skill，讓 Claude Code 能透過命令列介面直接操作 vault——建檔、搜尋、讀寫筆記，不需要打開 Obsidian 圖形介面。
+- [[claude-md-dual-nav]]：用兩層 CLAUDE.md 幫 AI 導航知識庫的做法。根目錄放一份 CLAUDE.md 當「總目錄」，告訴 AI 整個 vault 的結構跟各區域的用途；各子資料夾再放 instructions.md 當「局部地圖」，說明該區域的細部規則。AI 進入任何資料夾都能先讀局部地圖、再回溯總目錄，快速理解脈絡。
+- [[second-brain]]：個人知識管理的目標是建立一個外部化的「第二大腦」，讓大腦從記憶跟整理的負擔中解放出來，專注在思考跟決策上。
 ![[2026-05-13-dustin-obsidian-cross-project-vault-progressive-vault-growth.png|275]]
 
 ## 對 Simon 的應用（當下想法）

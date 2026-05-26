@@ -20,12 +20,12 @@ icon: "🛡️"
 
 ## 核心概念
 
-- [[post-quantum-cryptography]]：FIPS 203/204/205 已定案、206/207 即將出爐、CNSA 2.0 時程明確、ECC 比 RSA 早被破
-- [[harvest-now-decrypt-later]]：HNDL 是 Mosca 不等式的根本驅力、x（資料壽命）+ y（遷移期）≤ z（量子臨界）
-- [[mosca-theorem]]：x + y ≤ z 框架、決定哪些系統要先遷移、憑證有效期 2 年 vs 8 年的協調難題
-- [[lattice-based-cryptography]]：LWE/Module-LWE 基礎、Rq=Zq[x]/(x^256+1)、b=As+e、錯誤項擋住量子週期尋找
-- [[crypto-agility]]：過渡期混合密碼（傳統+PQC）、未來標準修訂時可換不重做、CNSA 2.0 給的就是 agility 框架
-- [[cbom]]：Cryptographic Bill of Materials、盤點所有用 RSA/ECC 的系統與相依函式庫、是 PQC 遷移的 Day 1 工作
+- [[post-quantum-cryptography]]：能抵抗量子電腦攻擊的新一代密碼學標準。NIST 在 2024 年 8 月已經定案三個標準：FIPS 203（ML-KEM/Kyber，用於金鑰交換）、FIPS 204（ML-DSA/Dilithium，用於數位簽章）、FIPS 205（SLH-DSA/SPHINCS+，基於雜湊的簽章）。另外兩個標準 FIPS 206（FALCON）和 FIPS 207（HQC）預計 2026 年出草案、2027 年定案。陳君明強調一個常見誤解的澄清：ECC-256 可能比 RSA-2048 更早被量子電腦破解，因為 ECC 的位元數更短；另外，Google 所說的「2029」是他們自己完成 PQC 遷移的內部目標，不是量子電腦破解 RSA 的預測日期。
+- [[harvest-now-decrypt-later]]：Harvest Now Decrypt Later（先偷再解）是推動 PQC 遷移急迫性的根本原因，直接對應到 Mosca 不等式——如果資料需要保密 x 年、遷移需要 y 年、量子電腦在 z 年後成熟，那麼只要 x + y > z，你的資料就已經暴露在風險中了。
+- [[mosca-theorem]]：陳君明用 Mosca 不等式（x + y ≤ z）作為判斷「哪些系統該先遷移」的框架。x 是資料需要保密的年限，y 是完成密碼遷移所需的時間，z 是量子電腦能破解現有密碼的預估時間點。實務上一個棘手的問題是憑證有效期的協調——有些憑證只簽 2 年、有些簽 8 年，交叉依賴讓遷移排程變得複雜。
+- [[lattice-based-cryptography]]：目前 PQC 主流標準（ML-KEM、ML-DSA）背後的數學基礎，叫做晶格密碼學。核心原理是 LWE（Learning with Errors）問題：給定一組方程式 b = As + e，其中 e 是刻意加入的小誤差，要從 b 反推出秘密向量 s 極其困難。這個「錯誤項」正是量子電腦的 Shor 演算法無法用「找週期」技巧破解的關鍵——因為加了雜訊後就沒有乾淨的週期可找。
+- [[crypto-agility]]：在遷移過渡期採用「混合密碼」策略，同時使用傳統加密（RSA/ECC）和 PQC 演算法，確保即使其中一邊被破解另一邊仍有效。更重要的是，crypto agility 讓系統在未來標準修訂時可以替換演算法而不需要整個重做。NSA 的 CNSA 2.0 時程本質上就是在推動這個彈性框架：2027-01-01 新採購須合規、2030-12-31 不支援設備分階段汰除、2033-12-31 強制使用。
+- [[cbom]]：Cryptographic Bill of Materials（密碼物料清單），就是把組織裡所有使用 RSA／ECC 等傳統加密的系統、函式庫版本、相依套件全部盤點出來。陳君明把這列為 PQC 遷移的 Day 1 工作——你必須先知道「哪裡用了什麼加密」，才能排出遷移優先序。實務上最大的困難是「依賴性義大利麵」：一個系統可能間接依賴多層 library，每層都有自己的加密實作。
 ![[2026-05-07-jimmy-chen-pqc-migration-cybersec-post-quantum-cryptography.png|275]]
 
 ## 對 Simon 的應用（當下想法）

@@ -3,7 +3,7 @@ title: "不可否認性（Non-Repudiation）"
 slug: non-repudiation
 aliases: [non-repudiation, 不可否認性, 不可抵賴性, 不可否認, non repudiation]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

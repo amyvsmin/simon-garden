@@ -3,9 +3,10 @@ name: Linux 過濾命令
 aliases: [linux filter commands, grep, pipe, find, grep-command, pipe-operator, find-command, command-chaining, command-pipeline, wildcard-asterisk, mtime-option, ioc-search 工具集]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

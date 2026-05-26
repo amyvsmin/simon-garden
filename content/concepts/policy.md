@@ -3,7 +3,7 @@ title: "政策（Policy）"
 slug: policy
 aliases: [Policy, 政策, 安全政策, security policy, 資安政策, 資訊安全政策]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

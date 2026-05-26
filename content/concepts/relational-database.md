@@ -33,4 +33,4 @@ query-count: 0
 - Database normalization（1NF～3NF／BCNF）等資料庫設計理論本課程沒教
 
 ## 來源
-- [[2-introduction-to-databases|Course 4 Module 4 Section 1 Leaf 2: Introduction to databases]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/2-introduction-to-databases|Course 4 Module 4 Section 1 Leaf 2: Introduction to databases]]

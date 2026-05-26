@@ -3,7 +3,7 @@ title: "進階持續性威脅（Advanced Persistent Threat / APT）"
 slug: apt
 aliases: [APT, Advanced Persistent Threat, 進階持續性威脅, 高級持續性威脅, 國家級攻擊]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

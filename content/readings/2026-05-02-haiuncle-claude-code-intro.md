@@ -20,13 +20,13 @@ icon: "⚡"
 
 ## 核心概念
 
-- [[claude-code]]：Anthropic 推出的終端型 AI 助手
-- [[skill]]：技能打包機制
-- [[hooks]]：CC 事件觸發機制
-- [[subagents]]：並行任務分派、永久型 agent
-- [[mcp]]：連接 Notion / Gmail / Calendar 等外部工具
-- [[plan-mode]]：複雜任務先規劃再動手的安全模式
-- [[vibe-coding]]：用自然語言描述需求讓 AI 全程實作
+- [[claude-code]]：Anthropic 推出的終端型 AI 助手，直接在命令列裡跟你對話、讀寫檔案、執行程式。海大叔示範了跨平台安裝（Windows 需先裝 Git + PowerShell、Mac 用 Terminal）、VS Code 整合，以及三個模型 Haiku／Sonnet／Opus 之間用 `/model` 即時切換。
+- [[skill]]：把一套可重用的工作流程打包成一個「技能」，之後用自然語言就能觸發。海大叔展示直接用 GitHub URL 安裝別人寫好的 skill（例如 pptx 簡報產生器、Skill Creator），裝完馬上就能用。
+- [[hooks]]：在 Claude Code 的特定事件（例如對話開始、檔案儲存、session 結束）上掛一段自動執行的腳本，跟 Git hook 概念類似。重點是 hooks 100% 會執行，不像 AI 指令可能被忽略。
+- [[subagents]]：讓 Claude Code 同時派出多個子代理並行處理不同任務。海大叔用 `/Agents` 建立永久型 agent 做示範，適合把大任務拆成互不相依的小塊分頭做。
+- [[mcp]]：Model Context Protocol 的縮寫，讓 Claude Code 透過統一協定連接外部工具，像是 Notion、Gmail、Google Calendar 等。設定好之後 AI 就能直接讀寫這些服務的資料。
+- [[plan-mode]]：在 VS Code 裡切到 Plan Mode 後，Claude Code 會先產出完整的執行計畫讓你審核，確認才動手。海大叔強調搭配 Opus 模型做複雜專案時，「先規劃、再動手」能大幅降低改錯方向的風險。
+- [[vibe-coding]]：用自然語言描述你要什麼，讓 AI 全程負責寫程式碼。海大叔用開發一個 Chrome extension 當範例，從頭到尾沒手動寫一行 code。
 ![[2026-05-02-haiuncle-claude-code-intro-claude-code.png|275]]
 
 ## 對 Simon 的應用（當下想法）

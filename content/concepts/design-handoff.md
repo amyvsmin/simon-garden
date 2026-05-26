@@ -3,10 +3,11 @@ name: 設計交棒
 aliases: [Design Handoff, Design-to-Deploy, Netlify Connector]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81be-a26c-f4a94681901e
+created: 2026-05-05
 ---
 
 ## 定義

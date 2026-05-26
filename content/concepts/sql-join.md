@@ -38,7 +38,7 @@ query-count: 0
 - Self-join、Cross join、Lateral join 等進階 join 類型沒教
 
 ## 來源
-- [[1-join-tables-in-sql|Course 4 Module 4 Section 4 Leaf 1: Join tables in SQL]]
-- [[2-types-of-joins|Course 4 Module 4 Section 4 Leaf 2: Types of joins]]
-- [[3-compare-types-of-joins|Course 4 Module 4 Section 4 Leaf 3: Compare types of joins]]
-- [[6-exemplar-complete-a-join|Course 4 Module 4 Section 4 Leaf 6: Exemplar Complete a join]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/1-join-tables-in-sql|Course 4 Module 4 Section 4 Leaf 1: Join tables in SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/2-types-of-joins|Course 4 Module 4 Section 4 Leaf 2: Types of joins]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/3-compare-types-of-joins|Course 4 Module 4 Section 4 Leaf 3: Compare types of joins]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/6-exemplar-complete-a-join|Course 4 Module 4 Section 4 Leaf 6: Exemplar Complete a join]]

@@ -20,11 +20,11 @@ MadebyPan 的 Claude 生態系入門指南。核心觀點：Claude 三大產品�
 
 ## 核心概念
 
-- [[claude-code]]：三大產品線中自主性最高的一端，本地 terminal 運行
-- [[mcp]]：AI 與外部工具的標準化協議
-- [[skill]]：技能打包機制，「試一次、存起來、用很多次」
-- [[hooks]]：CC 事件觸發機制，100% 確定性、不依賴 AI 判斷
-- [[subagents]]：多代理協作，並行派工 + Context 隔離
+- [[claude-code]]：Claude 三大產品線（App、Cowork、Code）中自主性最高的形態。跟 App 版在網頁上一問一答不同，Claude Code 是在你電腦的終端機裡跑的，它可以直接讀寫檔案、執行指令、操作本機工具，像是一個住在你電腦裡的工程師，不只回答問題，還能直接動手做事。
+- [[mcp]]：Model Context Protocol，讓 AI 連接外部工具的標準化協議。有了 MCP，Claude Code 就能透過統一介面去操作 Notion、Google Calendar、檔案系統等各種服務，不需要為每個工具寫專屬的串接程式。類似 USB 讓各種裝置用同一個插頭連電腦。
+- [[skill]]：Claude Code 的技能打包機制，核心概念是「試一次、存起來、用很多次」。當你跟 Claude 合作完成一件事（例如寫週報、整理筆記），可以把整個流程存成一個 skill，之後只要一句觸發詞就能重複執行，不用每次從頭教。
+- [[hooks]]：Claude Code 的事件觸發機制，特點是 100% 確定性、完全不依賴 AI 判斷。例如「每次對話開始時自動載入個人偏好」「每次寫入檔案前先檢查格式」，這些動作由腳本執行，不會因為 AI 理解偏差而漏掉。
+- [[subagents]]：Claude Code 的多代理協作機制。主 agent 可以把任務拆給多個 subagent 並行處理，每個 subagent 有自己獨立的上下文，互不干擾。適合需要同時做多件獨立事情的場景，例如同時研究三個不同主題再彙整結果。
 ![[2026-04-21-madebypan-claude-guide-claude-code.png|275]]
 
 ## 對 Simon 的應用（當下想法）

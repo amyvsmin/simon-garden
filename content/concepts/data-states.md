@@ -3,7 +3,7 @@ title: "資料三態（Data States）"
 slug: data-states
 aliases: [Data States, 資料三態, 資料狀態, data in use, data in transit, data at rest, 使用中資料, 傳輸中資料, 靜態資料]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

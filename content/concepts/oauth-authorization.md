@@ -3,7 +3,7 @@ title: "OAuth 授權（OAuth Authorization）"
 slug: oauth-authorization
 aliases: [OAuth, OAuth 2.0, OAuth Authorization, OAuth 授權, 開放授權, OAuth 授權框架]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

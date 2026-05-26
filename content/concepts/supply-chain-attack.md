@@ -3,7 +3,7 @@ title: "供應鏈攻擊（Supply Chain Attack）"
 slug: supply-chain-attack
 aliases: [Supply Chain Attack, 供應鏈攻擊, 軟體供應鏈攻擊, third-party attack, 第三方攻擊, software supply chain]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

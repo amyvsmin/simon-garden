@@ -20,10 +20,10 @@ icon: "⚡"
 
 ## 核心概念
 
-- [[html-vs-markdown-ai-output]]：本篇補了「五個 HTML 用例」跟「不要寫超長 prompt 模板」反建議
-- [[disposable-ui-html]]：第五個用例「用完即丟」最驚豔，把 30 條待辦變成可拖曳看板再匯回文字
-- [[context-resend-token-paradox]]：HTML 雖耗更多 token 跟產出慢 2–4 倍，但決策品質提升通常划算
-- [[interactive-confirmation-ui]]：HTML 雙向互動跟 AI 決策介面的直接落地
+- [[html-vs-markdown-ai-output]]：這篇是 Thariq 原文（見 [[2026-05-09-thariq-html-replaces-markdown-ai]]）的 NotebookLM 配音延伸版，補充了五個 HTML 具體用例（探索企劃、程式碼審閱、設計原型、研究學習報告、用完即丟客製介面），以及一個重要的反建議：不要因為 AI 會生 HTML 就寫出超長的 prompt 模板試圖控制格式，保持簡單、告訴 AI 想解決什麼就好。
+- [[disposable-ui-html]]：五個用例中最讓人意外的是「用完即丟客製介面」——你有 30 條待辦事項散落在純文字裡，叫 AI 幫你生成一個可拖曳的看板網頁，直接在看板上拖拉排序、標記完成，整理完再匯回文字格式。這個網頁不需要部署、不需要維護，用完就丟。
+- [[context-resend-token-paradox]]：HTML 輸出確實比 Markdown 多耗 token，產出速度也慢 2–4 倍。但回到 token 的重送數學：每次來回對話都重送整段歷史，如果 HTML 能讓你一次看懂、一次確認，省下的來回輪次所節省的 token 通常遠超 HTML 本身多用的量。
+- [[interactive-confirmation-ui]]：HTML 的雙向互動能力直接應用在 AI 決策介面上。例如 AI 產出一份計畫，每個步驟旁邊放勾選框跟修改按鈕，使用者直接在介面上操作，而不是在文字聊天裡描述「請把第三步改成 XX」。
 ![[2026-05-12-notebooklm-html-vs-markdown-deep-dive-html-vs-markdown-ai-output.png|275]]
 
 ## 對 Simon 的應用（當下想法）

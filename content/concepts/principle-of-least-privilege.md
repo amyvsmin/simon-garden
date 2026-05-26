@@ -3,9 +3,10 @@ name: 最小權限原則
 aliases: [principle of least privilege, PoLP, least privilege, 最小特權, need-to-know]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

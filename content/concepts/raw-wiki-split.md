@@ -3,10 +3,11 @@ name: 原料分流
 aliases: [收件匣模式, Raw/Wiki 分流, 資訊收集箱模式]
 category: 生產力
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81fc-bc8e-c03c6e11431a
+created: 2026-05-05
 ---
 
 ## 定義

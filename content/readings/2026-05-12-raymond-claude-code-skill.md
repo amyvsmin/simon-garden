@@ -21,8 +21,8 @@ icon: "⚡"
 
 ## 核心概念
 
-- [[skill]]：Claude Skill = SOP / 工作說明書、教 AI 在特定領域怎麼做事
-- [[instructions-file]]：CLAUDE.md = 入職手冊、放通用偏好；跟 Skill 互補
+- [[skill]]：Claude 的 Skill 就是一份寫給 AI 的 SOP（標準作業流程），教它在特定任務裡該怎麼做事。跟 prompt 模板的差別在於 skill 是持久存在的——寫一次就能反覆觸發，而且可以帶參考資料跟腳本。雷蒙給了一個簡單的判斷準則：如果你在不同對話裡跟 AI 講了同一件事三次以上，那就該把它寫成 skill。他自己寫了 25 個 skill，涵蓋寫作風格、個人 API 設定、工作流程等，最大價值在於「個人知識封裝」。進化路徑是 SKILL.md → 加 references/ 資料夾放參考資料 → 加 scripts/ 放自動化腳本 → 版本管理 → 打包成 Plugin（大部分人到第三步就夠）。
+- [[instructions-file]]：CLAUDE.md 是 Claude Code 的「入職手冊」，放的是每次對話都會載入的通用偏好——你是誰、你喜歡什麼格式、有什麼禁止事項。雷蒙用一句話講清楚跟 skill 的分工：CLAUDE.md 是「記住你是誰」，Skill 是「記住怎麼做事」。不要把整本 SOP 塞進 CLAUDE.md（那是 skill 的工作），也不要把個人偏好寫進 skill（那是 CLAUDE.md 的工作）。
 
 ## 對 Simon 的應用（當下想法）
 

@@ -35,5 +35,5 @@ query-count: 0
 - 跨資料庫 FK（federation）實作機制、進階主題
 
 ## 來源
-- [[2-introduction-to-databases|Course 4 Module 4 Section 1 Leaf 2: Introduction to databases]]
-- [[1-join-tables-in-sql|Course 4 Module 4 Section 4 Leaf 1: Join tables in SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/2-introduction-to-databases|Course 4 Module 4 Section 1 Leaf 2: Introduction to databases]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/1-join-tables-in-sql|Course 4 Module 4 Section 4 Leaf 1: Join tables in SQL]]

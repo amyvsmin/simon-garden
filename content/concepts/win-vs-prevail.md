@@ -3,10 +3,11 @@ name: 「贏得」vs「勝出」生命觀
 aliases: [贏 vs 勝, win vs gain, 詩歌生命觀, 大局觀]
 category: 其他
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-8152-afe4-f79d32358c61
+created: 2026-05-05
 ---
 
 ## 定義

@@ -37,7 +37,7 @@ Claude Code 的新斜線命令、快捷鍵連按兩次 Esc、跳回任何先前�
 ## 尚未解決的疑問
 
 - rewind 是 2026-04 後新功能、Simon 還沒實際用過、需要 dogfood 一次驗證體感
-- Esc Esc 在 Tabby 終端機跟 Right Alt 啟動鍵會不會衝突？對應 reference_typeless_tabby_paste.md 已知坑
+- Esc Esc 在 Tabby 終端機跟 Right Alt 啟動鍵會不會衝突？Tabby 已知有快捷鍵攔截問題（例如 typeless paste 需要額外設定），連按 Esc 可能被 Tabby 先吃掉
 
 ## 來源（自動維護）
 

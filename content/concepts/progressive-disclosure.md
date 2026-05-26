@@ -3,10 +3,11 @@ name: 漸進式披露 / 按需讀取
 aliases: [progressive disclosure, lazy loading, on-demand reading, 按需載入]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-81f4-b309-cc77a0abce92
+created: 2026-05-05
 ---
 
 ## 定義

@@ -3,7 +3,7 @@ title: "資料治理（Data Governance）"
 slug: data-governance
 aliases: [data governance, 資料治理, 資料管理, 資料管治, data management governance]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

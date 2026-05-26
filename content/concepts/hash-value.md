@@ -1,9 +1,9 @@
 ---
 title: "雜湊值（Hash Value）"
 slug: hash-value
-aliases: [Hash Value, 雜湊值, hash, digest, 摘要, message digest, 雜湊摘要, 散列值]
+aliases: [Hash Value, 雜湊值, digest, 摘要, message digest, 雜湊摘要, 散列值]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

@@ -3,7 +3,7 @@ title: "滲透測試（Penetration Testing）"
 slug: penetration-testing
 aliases: [Penetration Testing, 滲透測試, pen test, pentest, 滲透測試演練, ethical hacking, 白帽測試]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

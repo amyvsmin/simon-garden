@@ -3,10 +3,11 @@ name: 模組分工拒絕重複勞動
 aliases: [單一責任原則, 模組邊界, 脫褲子放屁]
 category: 生產力
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-81df-9f1d-c3da4600224e
+created: 2026-05-05
 ---
 
 ## 定義

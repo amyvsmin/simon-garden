@@ -3,10 +3,11 @@ name: Agent 架構對比（Hermes vs OpenClaw）
 aliases: [agent framework comparison, Hermes vs OpenClaw, 個人 AI 架構選型]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-8133-ae62-c8edf7db3229
+created: 2026-05-05
 ---
 
 ## 定義

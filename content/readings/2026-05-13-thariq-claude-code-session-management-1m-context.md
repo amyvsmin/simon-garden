@@ -20,12 +20,12 @@ Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M �
 
 ## 核心概念
 
-- [[context-rot]]：上下文腐爛、長對話模型效能下降、注意力分散
-- [[claude-rewind]]：Esc Esc 回溯機制、取代「再修正」式對話、新思路重新提示
-- [[claude-slash-commands-control]]：本篇補 `/rewind` 跟「主動壓縮帶提示」用法
-- [[subagents]]：產出大量中間結果但只要結論的場景、保持主會話乾淨
-- [[claude-usage-dashboard]]：`/usage` 監控會話水位的官方說法
-- [[token-saving-rules]]：對應 4 大守則之「對話水位管理」段
+- [[context-rot]]：當一場 Claude Code 對話累積太多輪之後，模型的回答品質會開始下降，Thariq 把這個現象叫做「上下文腐爛」。原因是對話越長，模型的注意力越分散，重要指令被淹沒在大量歷史訊息裡。他建議對話跑到 context window 約 70% 時就該主動處理（壓縮或拆新對話），而不是等系統被動觸發。
+- [[claude-rewind]]：Claude Code 的回溯機制，快速按兩次 Esc 就能跳回對話中任何一個先前訊息，從那個點重新開始。後續的訊息會從 context 中移除。這個做法取代了傳統「再寫一輪修正指令」的方式——與其在錯誤路徑上疊補丁，不如退回分岔點用新思路重新提示。
+- [[claude-slash-commands-control]]：本篇補充了兩個重要用法：`/rewind` 的回溯操作，以及「主動壓縮帶提示」——用 `/compact <提示>` 手動觸發壓縮時附加引導語（例如「保留 vault 寫入結果、丟掉調試細節」），讓模型知道哪些資訊該留、哪些該丟，比系統自動壓縮更精準。
+- [[subagents]]：適合用在「過程會產出大量中間結果、但你只需要最終結論」的任務。Thariq 的心智測驗是問自己：「我需要工具輸出本身嗎，還是只需要結論？」如果只要結論，就丟給 subagent 跑，中間的搜尋結果、驗證日誌不會灌進主對話，主會話保持乾淨。典型場景包括 codebase 搜尋、批次驗證、文件生成。
+- [[claude-usage-dashboard]]：`/usage` 斜線命令可以查看當前對話的 context 消耗量和會話大小，是 Anthropic 官方建議的水位監控方式。
+- [[token-saving-rules]]：這篇對應省 token 四大守則裡的「對話水位管理」——知道什麼時候該壓縮、什麼時候該拆新對話、什麼時候該丟 subagent，是控制 token 消耗的核心紀律。
 ![[2026-05-13-thariq-claude-code-session-management-1m-context-claude-rewind.png|275]]
 
 ## 對 Simon 的應用（當下想法）

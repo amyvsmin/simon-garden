@@ -3,7 +3,7 @@ title: "加密與解密（Encryption & Decryption）"
 slug: encryption-decryption
 aliases: [encryption, decryption, 加密, 解密, 加密與解密, encryption and decryption, 密文, 明文, ciphertext, plaintext]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

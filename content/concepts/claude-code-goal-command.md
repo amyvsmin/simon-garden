@@ -26,7 +26,7 @@ Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一
 
 - Simon 工作場景：
   - **KW γ 批次消化**：寫「直到 Notion 資訊收集箱 unprocessed 數量 = 0 且 changelog.jsonl 最新 N 筆全 success」、解 inbox 累積 10+ 篇要敲很多 enter 的問題
-  - **vault migration 收尾**：寫「直到 vault grep `[[` 全部 reading 都能解析到實檔、且 changelog.jsonl 最新 N 筆全 success、或 25 turn 停手」、適合 Phase 7 端到端驗證類批次任務
+  - **vault migration 收尾**：寫「直到 vault grep wikilink 全部 reading 都能解析到實檔、且 changelog.jsonl 最新 N 筆全 success、或 25 turn 停手」、適合 Phase 7 端到端驗證類批次任務
   - **LINE bot／Reading Garden 部署循環**：寫「直到 `wrangler deploy` 退出 0 且 `curl` health endpoint 回 200、不能改 wrangler.toml production env」、這是官方範例最 1:1 對得上的用法
 - 一般場景：module migration 到測試全綠、設計文件實作到所有 acceptance criteria 通過、大檔拆模組到每檔 size 在預算內、queue 清空類批次處理
 

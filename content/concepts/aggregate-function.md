@@ -36,4 +36,4 @@ query-count: 0
 - Window function（每列同時看「整體 + 自身位置」）、SQL 進階主題
 
 ## 來源
-- [[9-continuous-learning-in-sql|Course 4 Module 4 Section 4 Leaf 9: Continuous learning in SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-4-sql-joins/9-continuous-learning-in-sql|Course 4 Module 4 Section 4 Leaf 9: Continuous learning in SQL]]

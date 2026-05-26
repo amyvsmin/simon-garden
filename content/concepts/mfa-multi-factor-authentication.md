@@ -3,7 +3,7 @@ title: "多因子認證（Multi-Factor Authentication / MFA）"
 slug: mfa-multi-factor-authentication
 aliases: [MFA, multi-factor authentication, 多因子認證, 多因子驗證, 雙因子認證, 2FA, two-factor authentication, 多重驗證]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

@@ -3,10 +3,11 @@ name: 技術超前部署
 aliases: [向量資料庫, Embedding, 多模態, RAG, RAGAS]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81c4-9456-e54c5dad4d11
+created: 2026-05-05
 ---
 
 ## 定義

@@ -19,12 +19,12 @@ Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBE
 
 ## 核心概念
 
-- [[agentic-secops]]：AI 驅動的 SOC 閉環（偵測→分揀→調查→回應→偵測工程）取代人工密集流程，Gemini 在 Google Security Operations 讓查詢撰寫提速 76%
-- [[cve-weaponization-time]]：漏洞武器化時間從 24 小時壓縮到平均 8 秒，重塑漏洞管理優先序與修補節奏
-- [[secure-ai-framework]]：Google 推出的 AI 全生命週期治理框架（資料→訓練→模型→佈署→應用），含 prompt 安全、jailbreak 對策、proprioception
-- [[wiz-platform]]：Google 收購的多代理跨雲安全平台，Green/Blue/Rule/Red Agent 分工、Security Graph 解析 breach radius、與 DevOps/CI/CD/IDE 深度整合
-- [[ai-vuln-discovery]]：本演講補上 Google 端的 Mythos／Big Sleep／CodeMender 三個具體工具
-- [[supply-chain-risk]]：演講中強調 AOSS（經 Google 驗證的 OSS 供給）作為供應鏈完整性的關鍵控制
+- [[agentic-secops]]：用 AI 代理來驅動資安維運中心（SOC）的完整閉環——從偵測告警、自動分揀優先序、調查根因、產生回應建議、到改進偵測規則，取代過去大量依賴人力的流程。Google 在自家 Security Operations 平台裡用 Gemini 做到讓分析師寫查詢語法的速度提升 76%。講者把企業因應 AI 時代資安的策略分成三階段：短期縮小攻擊面、中期用 Agentic SecOps 自動化、長期走向能自我修復的 AI 系統。
+- [[cve-weaponization-time]]：漏洞從被公開揭露（CVE 發布）到出現真實攻擊武器的平均時間，已經從過去的 24 小時壓縮到 8 秒。這個數字徹底改寫了企業修補漏洞的節奏——過去「先收著、季底再修」的做法已經行不通，高風險 CVE 必須在天級甚至小時級內處理。
+- [[secure-ai-framework]]：Google 提出的 SAIF（Secure AI Framework），涵蓋 AI 從資料收集、模型訓練、部署到應用的全生命週期治理。具體措施包含 prompt 安全防護、防止 jailbreak 的對策、以及讓模型具備自我感知能力（proprioception）來偵測自己是否被操縱。
+- [[wiz-platform]]：Google 收購的跨雲資安平台，用多個 AI 代理協作——Green Agent 負責發現風險、Blue Agent 調查影響範圍、Rule Agent 比對合規規則、Red Agent 模擬攻擊驗證。平台用 Security Graph 分析一個漏洞被利用後可能波及的爆炸半徑，並能把修補建議直接推回開發者的 GitHub repo，接近「發現→調查→修補」全自動閉環。
+- [[ai-vuln-discovery]]：AI 用來主動挖掘軟體漏洞的能力正在爆發。Google 在這場演講揭露了三個工具：Mythos（與 Anthropic 合作、用 Vertex AI 跑的私測工具，已找出數千個高嚴重性漏洞）、Big Sleep（DeepMind 的 AI bug hunter，已揭露 SQLite 的 CVE-2025-6965）、CodeMender（自動修補工具，6 個月內對上游開源專案提交了 72 項修復）。
+- [[supply-chain-risk]]：演講特別強調開源軟體供應鏈的風險。Google 推出 AOSS（Assured Open Source Software），提供經過 Google 安全團隊驗證過的開源套件，確保企業引用的 dependency 沒有已知漏洞或惡意程式碼。
 
 ![[2026-05-05-google-cloud-agentic-secops-cybersec-agentic-secops-v4.png|275]]
 

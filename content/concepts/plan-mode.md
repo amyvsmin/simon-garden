@@ -3,10 +3,11 @@ name: Plan Mode（規劃模式）
 aliases: [Plan Mode, 規劃模式, plan first]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-817e-9f20-e33bd543dca4
+created: 2026-05-05
 ---
 
 ## 定義

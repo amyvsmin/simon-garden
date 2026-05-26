@@ -3,9 +3,10 @@ name: 任意可寫檔
 aliases: [world writable file, world-writable, chmod 777 災難, 任意可寫]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

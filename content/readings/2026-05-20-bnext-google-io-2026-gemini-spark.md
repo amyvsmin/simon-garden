@@ -25,13 +25,13 @@ Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作
 
 ## 核心概念
 
-- [[gemini-spark]]：Google 跨服務代理人入口、Tasks/Skills/Schedules 三模組、預設整合 8 個 Workspace 服務、典型應用包括每週掃信、ghostwriter 學風格、檢查信用卡費用
-- [[gemini-flash]]：輕量高速模型；3.5 Flash 即日開放、輸出速度比其他前沿快 4 倍；Spark/Antigravity/Enterprise 底層
-- [[gemini-omni]]：多模態生成；Omni Flash 接續 Nano Banana 影像延伸到影片；含 Avatars+SynthID
-- [[information-agent]]：搜尋層代理人；24/7 監看主題+Generative UI 即時組 mini app；搜尋從 pull 轉 push
-- [[compute-based-pricing]]：新計費邏輯；從次數上限轉算力計費+pay-as-you-go 加買
-- [[agent-os-competition]]：代理人作業系統競賽 Google 端的完整反擊（Spark+Flash+搜尋+計費四路同推）
-- [[ai-task-execution]]：執行型 AI 範式在 Google 生態的落地集大成
+- [[gemini-spark]]：Google 在 I/O 2026 推出的跨服務代理人入口，把 Gemini 從聊天機器人升級為能跨 Gmail、Calendar、Drive、Docs 等 8 個 Workspace 服務行動的代理人。內部分三個模組：Tasks（執行單次任務）、Skills（客製化反覆動作）、Schedules（時間或條件觸發自動執行）。典型應用場景包括：每週一早上 9 點自動掃信箱整理重點待辦、讀 50 封過往郵件學你的寫作風格當 ghostwriter、檢查信用卡帳單裡的隱藏費用。目前限美國 AI Ultra 用戶 Beta 測試，台灣尚不可用。
+- [[gemini-flash]]：Google 的輕量高速模型系列。3.5 Flash 在 I/O 2026 即日全球開放，輸出 token 速度比其他前沿模型快 4 倍，定位是代理人時代的預設工作馬——Spark、Antigravity（Google 的程式碼代理產品）、Enterprise 底層都跑 Flash。3.5 Pro 已在 Google 內部使用，預計下月推出。
+- [[gemini-omni]]：Google 的多模態生成能力，Omni Flash 可以接收圖片、文字、影片、音訊的組合輸入，輸出影片並支援自然語言對話式編輯。具備角色、物理、場景三類一致性。Avatars 功能可以用使用者自己的聲音生成影片，並自動加上 SynthID 浮水印防偽。
+- [[information-agent]]：Google 搜尋升級為代理人型態，從傳統的「你問它答」（pull）轉向「它主動通知你」（push）。可以設定 24/7 監看特定主題，有新進展時自動推送通知。搭配 Generative UI，搜尋結果不再只是連結清單，而是依問題即時生成互動元件、視覺化圖表或 mini app。
+- [[compute-based-pricing]]：Google 訂閱方案的計費邏輯重大轉變，從原本的「每日提示次數上限」改成「依運算量計費」——費用依據問題複雜度、使用的功能、對話長度綜合計算，每 5 小時刷新到週上限，達上限自動降模型。Pro 和 Ultra 用戶還可以購買 pay-as-you-go 點數加買額度。
+- [[agent-os-competition]]：這篇呈現的是代理人作業系統競賽中 Google 端的完整反擊。Google 在 I/O 2026 一口氣推出 Spark（代理人入口）+ Flash（高速模型底層）+ 搜尋代理人 + 算力計費四路產品，跟 Anthropic 和 OpenAI 同時搶桌面代理人的控制權。
+- [[ai-task-execution]]：AI 從「回答問題」進化到「直接執行任務」的範式轉移，這篇是這個趨勢在 Google 生態的集大成展現——Spark 能幫你掃信、排會議、整理報告，不只告訴你怎麼做，而是直接做完。
 
 ## 對 Simon 的應用（當下想法）
 
@@ -93,7 +93,7 @@ Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作
 **不優化**（2026-05-23 跨篇彙整評估 10 個候選、Simon 全 ✗）：
 
 - ❌ **Information Agent 24/7 監看主題 → 套 `vault-auto-retrieval.md`**
-  - 原因：(1) 跟 user-memory `feedback_review_active_participation`「復盤要親身參與」原則衝突、如果變 cron 自動掃會成被動知識消化 (2) 等 Google Information Agent 台灣上線、Simon 直接訂閱用 Google 端、自架重工不划算 (3) 現規則「強類型 keyword 上網驗證」已覆蓋 80% 場景
+  - 原因：(1) 跟「復盤要親身參與」原則衝突、如果變 cron 自動掃會成被動知識消化 (2) 等 Google Information Agent 台灣上線、Simon 直接訂閱用 Google 端、自架重工不划算 (3) 現規則「強類型 keyword 上網驗證」已覆蓋 80% 場景
   - 結論：若要做也是「等 Info Agent 台灣上線後做訂閱→收件箱橋接」、不是現在自架掃網
 - ❌ **Spark「高風險動作前需確認」→ PreToolUse 二次確認 hook**
   - 原因：跟 5/22 YAHA reading 同一評估、`settings.json` 既有 22 條 deny rules 直接擋住比二次確認更安全

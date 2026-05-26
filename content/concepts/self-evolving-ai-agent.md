@@ -3,10 +3,11 @@ name: 自我進化 AI agent（Hermes Agent / Nous Research）
 aliases: [Hermes Agent, Nous Research, self-evolving agent, 自我進化 agent]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-81a4-87cd-fbb3411416a5
+created: 2026-05-05
 ---
 
 ## 定義

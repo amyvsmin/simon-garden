@@ -3,10 +3,11 @@ name: 「我」(Claude Code) vs Claude API 分工
 aliases: [三個 Claude 形態, 設計師員工分工, Claude runtime 比較]
 category: AI
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-810d-a2f7-c23878f28f60
+created: 2026-05-05
 ---
 
 ## 定義

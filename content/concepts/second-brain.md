@@ -3,10 +3,11 @@ name: 第二大腦（Second Brain）
 aliases: [Second Brain, PKM, 個人知識庫, 外腦]
 category: 生產力
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-811f-8bba-e94f58116982
+created: 2026-05-05
 ---
 
 ## 定義

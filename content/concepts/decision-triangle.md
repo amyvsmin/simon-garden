@@ -3,10 +3,11 @@ name: 決策三角
 aliases: [Trade-off, 技術折衷, 工程取捨]
 category: 生產力
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8158-bd9b-f9883656ce8b
+created: 2026-05-05
 ---
 
 ## 定義

@@ -3,9 +3,10 @@ name: Linux 讀檔命令
 aliases: [linux read file commands, cat, head, tail, less, cat-command, head-command, tail-command, less-command, tail-f]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

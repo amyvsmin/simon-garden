@@ -3,10 +3,11 @@ name: 草圖提示
 aliases: [Sketch Prompt, 視覺提示詞, Multi-modal Prompt]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81a5-a184-c726a2074955
+created: 2026-05-05
 ---
 
 ## 定義

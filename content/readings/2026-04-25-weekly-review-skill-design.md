@@ -79,7 +79,7 @@ Simon 明確：「復盤這種東西本來就要親身參與才是」。判斷�
 
 Reference：
 - vault：~/vaults/SimonVault/Projects/Weekly-Review/README.md
-- SKILL：~/.claude/skills/weekly-review/SKILL.md
+- SKILL：0-context/skills/weekly-review/SKILL.md
 - 舜子的週復盤庫 Notion DB：304f85da-554f-81b4-986b-e01e3dd7ee8c
 - W16 復盤（標準格式來源）：347f85da-554f-80ed-83b0-ccd5931ee007
 - 北極星與年度目標：304f85da-554f-81f6-a69e-ecf13508eafd

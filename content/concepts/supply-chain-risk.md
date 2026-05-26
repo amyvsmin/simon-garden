@@ -3,10 +3,11 @@ name: 供應鏈風險
 aliases: [supply chain risk, SBOM, 第三方風險]
 category: 資安
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81e7-88bb-c7cfb1ae7b08
+created: 2026-05-05
 ---
 
 ## 定義

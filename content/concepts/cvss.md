@@ -3,10 +3,11 @@ name: CVSS
 aliases: [Common Vulnerability Scoring System, 漏洞評分]
 category: 資安
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81cb-b5c8-d1ff2aa02d35
+created: 2026-05-05
 ---
 
 ## 定義

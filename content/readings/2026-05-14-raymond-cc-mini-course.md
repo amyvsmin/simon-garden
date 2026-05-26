@@ -20,9 +20,9 @@ icon: "⚡"
 
 ## 核心概念
 
-- [[claude-md-reflexive-law]]：AI 行為偏差時改規則寫進 CLAUDE.md／rules／user-memory、不去研究 CC 內部機制（雷蒙 2-1 commit `ef79968` meta-rule）
-- [[rules-over-code]]：跟 AI 協作時寫規則時間 > 寫程式碼時間、回報更高（雷蒙 3-4 日本記帳 15 條稅制規則 vs Next.js 全棧）
-- [[cli-api-mcp-priority]]：AI 操控軟體優先順序 CLI → API → MCP → Browser Use、底層協定優先（雷蒙 2-3 + Simon 補 CLI 細化）
+- [[claude-md-reflexive-law]]：當 AI 執行同一個需求卻出現跟上次不一樣的結果時，第一反應是把正確做法寫成規則（CLAUDE.md／rules／user-memory），而不是去研究 Claude Code 內部為什麼會這樣。例如 morning skill 某天漏撈 Calendar 待辦類事件，直接在 SKILL.md 補判定規則就好，不需要去查 skill engine 的調度邏輯。（雷蒙 2-1）
+- [[rules-over-code]]：跟 AI 協作時，花時間把規則寫清楚的回報遠高於直接寫程式碼。雷蒙在 3-4 用日本旅行記帳做示範——他沒有自己寫任何計算邏輯，而是把 15 條日本稅制規則（免稅門檻、匯率、消費稅率等）逐條餵給 Claude，Claude 就能用這些規則自動產出完整的 Next.js 記帳應用。規則寫得越精確，AI 的輸出就越穩定。（雷蒙 3-4）
+- [[cli-api-mcp-priority]]：讓 AI 操控外部軟體時有個優先順序——CLI 優先、API 次之、MCP 再次、Browser Use 最後。越底層的協定越穩定、速度越快、出錯越少。例如要讓 Claude 查 GitHub 資料，用 `gh api` CLI 指令比透過 MCP server 更直接可靠。（雷蒙 2-3 + Simon 補充）
 
 ## 對 Simon 的應用（當下想法）
 
@@ -36,7 +36,7 @@ icon: "⚡"
 **其他衍生改動**
 
 - ✅ session split pilot（1-3 衍生、5/10 起）：user-memory → SimonVault `0-context/` 軟連結（symlink）、跨 24 條 memory；5/16 評估三條路（批量遷移／調觸發／回退 pilot）
-- ✅ memory 系統強化：寫 `feedback_consolidate_before_create`（2-1 衍生）+ `feedback_session_split_proactive`（1-3）、升級 `feedback_tool_awareness`（2-3）
+- ✅ memory 系統強化：新增「建新 memory 前先合併既有」規則（2-1 衍生）+ 「主動提議拆 session」規則（1-3）、升級「工具選擇優先序」規則（2-3）
 - ✅ PreCompact 掘勾（hook）計畫文件寫成規格（2-2 衍生）、留新對話實作
 
 ## 比雷蒙範例走得更深的地方
@@ -71,7 +71,7 @@ icon: "⚡"
 | 1-1 | 開始安裝配置你的 Claude Code | ⏭️ 略過 | IT 工程師 + CC 自架一個月 |
 | 1-2 | GitHub 與 Git 入門 | ⏭️ 略過 | 7 repo 在 push |
 | 1-3 | 怎麼跟 Claude Code 提問／協作最有效？ | 精讀（5/10） | session split pilot 衍生 |
-| 2-1 | 讓 AI 記住你的偏好 | 精讀（5/12） | [[claude-md-reflexive-law]] + `feedback_consolidate_before_create` 衍生 |
+| 2-1 | 讓 AI 記住你的偏好 | 精讀（5/12） | [[claude-md-reflexive-law]] + 「建新 memory 前先合併既有」規則衍生 |
 | 2-2 | Claude Code 完整架構速覽 | 精讀（5/12） | PreCompact 掘勾計畫衍生 |
 | 2-3 | 把工具授權給 AI、組合出你的每日工作流 | 精讀（5/12） | [[cli-api-mcp-priority]] 衍生 |
 | 2-4 | AI 分身資料夾結構：雷小蒙拆解 | 精讀（5/12） | 觀念複盤、Simon L2 已超越雷蒙 |
@@ -90,4 +90,4 @@ icon: "⚡"
 - 課程主頁：[24hr Claude Code Tutorial](https://lifehacker.tw/courses/24hr-claude-code-tutorial?affcode=ns-24hr-cc-preorder)
 - 課程 repo：`lifehacker-tw/claude-code-mini-course`（GitHub private、需用 `gh api contents` 抓 markdown）
 - 對應 Notion 任務卡：[【迷你課】24 小時開始活用 Claude Code（AI Agent）](https://www.notion.so/341f85da554f80118ab3ea2e08598c72)
-- 對應 user-memory 詳細紀錄：`~/.claude/user-memory/reference_lifehacker_minicourse_progress.md`（10 篇逐篇對照、Claude 視角）
+- 對應詳細紀錄：另有 10 篇逐篇對照的學習進度紀錄（Claude 視角）

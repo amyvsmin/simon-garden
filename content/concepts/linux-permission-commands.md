@@ -1,11 +1,12 @@
 ---
 name: Linux 權限命令
-aliases: [linux permission commands, chmod, chown, chmod-command, chown-command, chmod-symbolic-mode, chmod-equals-operator, permission-modification-syntax, change-permissions-when, permission-string, permission-rwx, file-owners-trio, ls-long-format, ls-all-flag, ls-la-combined]
+aliases: [linux permission commands, chmod, chown, chmod-command, chown-command, chmod-symbolic-mode, chmod-equals-operator, permission-modification-syntax, change-permissions-when, permission-string, permission-rwx, file-owners-trio]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

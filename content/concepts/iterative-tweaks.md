@@ -3,10 +3,11 @@ name: 迭代調整
 aliases: [Edit Mode, Comment Mode, Tweaks, 人機協作]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8160-b67b-e45ac1b02806
+created: 2026-05-05
 ---
 
 ## 定義

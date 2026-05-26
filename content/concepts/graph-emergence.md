@@ -3,10 +3,11 @@ name: 圖譜浮現
 aliases: [Knowledge Graph, 雙向連結, Backlink, 共用概念]
 category: 自動化
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8148-8a9f-c54df4437ef8
+created: 2026-05-05
 ---
 
 ## 定義

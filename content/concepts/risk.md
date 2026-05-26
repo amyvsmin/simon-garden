@@ -3,7 +3,7 @@ title: "風險（Risk）"
 slug: risk
 aliases: [Risk, 風險, 資安風險, security risk, 風險評估]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

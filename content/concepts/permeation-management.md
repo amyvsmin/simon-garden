@@ -3,10 +3,11 @@ name: 全布局滲透式管理
 aliases: [全局管理, 滲透式管理, penetration management]
 category: 職涯
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-8174-832b-fd123af3b991
+created: 2026-05-05
 ---
 
 ## 定義

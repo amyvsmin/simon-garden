@@ -3,7 +3,7 @@ title: "公鑰基礎建設（PKI）"
 slug: public-key-infrastructure
 aliases: [PKI, public key infrastructure, 公鑰基礎建設, 公鑰架構, 公開金鑰基礎建設]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

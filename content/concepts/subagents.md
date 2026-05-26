@@ -3,10 +3,11 @@ name: Subagents / Agent Teams
 aliases: [Claude subagent, custom subagents, 分身團隊, agent team]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 349f85da-554f-818c-8352-cf50edda20a7
+created: 2026-05-05
 ---
 
 ## 定義

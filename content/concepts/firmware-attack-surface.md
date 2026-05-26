@@ -3,10 +3,11 @@ name: 韌體攻擊面
 aliases: [firmware attack surface, BIOS, UEFI, 低層攻擊]
 category: 資安
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-819f-b47e-d46c4fd90aba
+created: 2026-05-05
 ---
 
 ## 定義

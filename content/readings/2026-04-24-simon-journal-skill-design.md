@@ -19,11 +19,11 @@ icon: "📊"
 
 ## 核心概念
 
-- [[reverse-skill-design]]：撈 5 篇 2026-04-19 ~ 04-23 GPTs 產出的日記，逐題反推出 B-1 ~ B-3 輸出格式、A1 ~ A10 行為、C1 ~ C12 控制流
-- [[sentinel-test]]：在 production DB 用 1900-01-01 + `[TEST-PHASE-N]` 前綴跑 Phase 1 ~ 5，取代建獨立測試 DB
-- [[pure-receive-immediate-write]]：A3 不追問、C7 即時 append、C12 互動逃脫「這句回答不會寫進日記」
-- [[directory-as-trigger]]：C9 進 /Simon-Journal = 自動接收模式；C10 目錄分工避免 meta 污染
-- [[simplicity-over-control]]：2026-04-24 反轉動機的主判準，同時適用於 Notion vs Obsidian 分工、Heptabase 退訂、rich text 放棄
+- [[reverse-skill-design]]：設計新 skill 時不從零開始寫規格，而是先撈出過去已經在用的產出（這裡是 5 篇用 ChatGPT GPTs 寫的舊日記），逐題反推出格式、行為、控制流等所有規則。好處是規則來自真實使用習慣，不是憑空想像，做出來的 skill 自然貼合需求。
+- [[sentinel-test]]：不另外建測試用的資料庫，而是直接在正式環境跑測試，但用一個明顯不可能出現在真實資料中的標記（例如日期設為 1900-01-01、標題加 `[TEST]` 前綴）來區隔測試資料。測完之後手動清掉即可。好處是省去建測試環境的工程成本，又不會污染正式資料。
+- [[pure-receive-immediate-write]]：日記助手的核心行為原則——使用者說什麼就收什麼，不追問、不確認、不等批次，每句話即時寫入 Notion。搭配一個互動逃脫機制：使用者說「這句不寫進日記」就跳過。設計邏輯是日記的價值在於降低記錄阻力，任何多餘的互動都是阻力。
+- [[directory-as-trigger]]：用「進入特定目錄」當作自動觸發 skill 的方式。Simon 進入 /Simon-Journal 目錄就自動切換成日記接收模式，不需要打指令。同時靠目錄分工避免日記跟其他工作（例如系統設定、知識庫操作）互相干擾。
+- [[simplicity-over-control]]：在「簡化流程」和「掌控資料」之間，優先選簡化。這是 Simon 在設計日記系統時的核心判準——原本想用 Obsidian 當日記主場（因為 Markdown + Git 版控），後來發現會增加流程阻力，反轉決定讓 Notion 當日記主場、Obsidian 只管知識。同樣的判準也用在退訂 Heptabase、放棄 rich text 格式等決策上。
 ![[2026-04-24-simon-journal-skill-design-reverse-skill-design.png|275]]
 
 ## 對 Simon 的應用（當下想法）

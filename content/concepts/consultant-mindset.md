@@ -3,10 +3,11 @@ name: 顧問思維
 aliases: [決策框架, 情境式考題, 顧問腦]
 category: 職涯
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8121-8cd0-ea95de56a0d8
+created: 2026-05-05
 ---
 
 ## 定義

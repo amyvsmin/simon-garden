@@ -3,10 +3,11 @@ name: AI 功能分層下放策略
 aliases: [AI 分層釋出, AI feature trickle-down, 旗艦下放策略, feature staggered release]
 category: AI
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34ef85da-554f-8146-b847-d66e7bf820e5
+created: 2026-05-05
 ---
 
 ## 定義

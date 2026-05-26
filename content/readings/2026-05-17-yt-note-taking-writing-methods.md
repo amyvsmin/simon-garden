@@ -19,8 +19,8 @@ YT 影片（風格似閱讀前哨站類分享）系統講「做筆記」+「寫�
 
 ## 核心概念
 
-- [[note-as-writing]]：做筆記 = 寫作的心法、節錄評論法 + 一問一答法兩具體技法
-- [[bottom-up-writing]]：由下而上寫作、主題從筆記浮現、萬能寫作框架三段（觀點/案例/總結）
+- [[note-as-writing]]：核心心法是「做筆記本身就是寫作」，翻轉傳統「先思考再記錄」的順序，改成「先記錄再思考」。具體有兩個技法：「節錄評論法」是讀書時把觸動你的原文連同頁數抄下來，然後在每段底下寫自己的評論和想法，複習時順便篩選不重要的標籤撕掉；「一問一答法」是讀完後問自己三個問題——為什麼想讀這本書、一句話總結這本書在講什麼、會推薦給誰——因為前面已經做過節錄評論，這三題回答起來會很順。
+- [[bottom-up-writing]]：寫文章不要從空白紙開始規劃大綱（由上而下），而是從累積的筆記中讓主題自然浮現（由下而上）。傳統方式是「選主題→列大綱→填內容」，容易卡關；新方式是先有一堆筆記，把相似的分類歸攏，主題自己就跑出來了。接著套「萬能寫作框架」三段排列就成文章：觀點（書在說什麼、你學到什麼）、案例（印象最深的故事或段落）、總結（金句或推薦給誰）。
 ![[2026-05-17-yt-note-taking-writing-methods-note-as-writing.png|275]]
 
 ## 對 Simon 的應用（當下想法）
@@ -31,7 +31,7 @@ YT 影片（風格似閱讀前哨站類分享）系統講「做筆記」+「寫�
 
 - KW γ reading 範本可考慮加「一問一答法三題」當預設提示段（為什麼想讀／一句話總結／推薦給誰）；現有「對 Simon 的應用」段已涵蓋部分、但結構化三題會讓 reading 摘要更一致
 - Substack publish skill 可加「萬能寫作框架（觀點+案例+總結）」自檢步驟、確保發稿前文章符合三段結構
-- 既有 [[reading-review]] skill 的「對 Simon 的應用」review 流程跟「一問一答法」概念對齊、可以在 skill description 補一句「對應瓦基／note-as-writing 心法」
+- 既有 reading-review skill 的「對 Simon 的應用」review 流程跟「一問一答法」概念對齊、可以在 skill description 補一句「對應瓦基／note-as-writing 心法」
 
 **B. Simon 個人動作類**（建 Notion Action 卡／動 vault／改個人工作流／看別的東西）：
 
@@ -57,7 +57,7 @@ YT 影片（風格似閱讀前哨站類分享）系統講「做筆記」+「寫�
 
 **A. 芙莉蓮優化（高 ROI 組、2026-05-18 跟 Simon 對齊後執行）**：
 
-- ✅ **A4 已做**：KW γ `~/.claude/skills/knowledge-wiki/references/templates.md` 閱讀頁範本加「## 為什麼讀」段在「## 摘要」前；對應 [[note-as-writing]] 瓦基一問一答法第一題；可選段、低價值文章可省；預期效益：未來回顧 reading 時知當時收錄動機、判斷是否仍有效
+- ✅ **A4 已做**：KW γ `0-context/skills/knowledge-wiki/references/templates.md` 閱讀頁範本加「## 為什麼讀」段在「## 摘要」前；對應 [[note-as-writing]] 瓦基一問一答法第一題；可選段、低價值文章可省；預期效益：未來回顧 reading 時知當時收錄動機、判斷是否仍有效
 
 **A 類不做**：
 - **A5** Substack publish skill 加「萬能寫作框架」自檢 — 中 ROI 組、待 Simon 下一篇 Substack 試走萬能框架後再決定是否寫進 skill；先 manual 試

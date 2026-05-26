@@ -1,11 +1,12 @@
 ---
 name: Bash
-aliases: [bash, Bash shell, Bourne Again Shell, 預設 shell]
+aliases: [Bash shell, Bourne Again Shell, 預設 shell]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

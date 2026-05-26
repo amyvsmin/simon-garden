@@ -3,10 +3,11 @@ name: 指令檔
 aliases: [CLAUDE.md, AI Instruction File, AGENTS.md, GEMINI.md]
 category: AI
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-81b5-a0f8-f6d5fbf4a665
+created: 2026-05-05
 ---
 
 ## 定義

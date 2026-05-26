@@ -3,10 +3,11 @@ name: LINE 貼圖製作流程
 aliases: [LINE 貼圖, LINE Sticker 製作, LINE 創作者流程]
 category: 生產力
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 354f85da-554f-8117-9f6f-cfef1be6519d
+created: 2026-05-05
 ---
 
 ## 定義

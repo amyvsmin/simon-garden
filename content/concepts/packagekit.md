@@ -1,12 +1,13 @@
 ---
 name: PackageKit
-aliases: [Linux 套件管理服務, D-Bus, apt, dnf]
+aliases: [Linux 套件管理服務, D-Bus]
 category: 網管
 status: active
-confidence: unverified
+confidence: 待驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 351f85da-554f-8188-a7fb-ee5cf40ee0dd
+created: 2026-05-05
 ---
 
 ## 定義

@@ -19,8 +19,8 @@ bnext 5/15 李先泰報導 Every 創辦人 Dan Shipper 從 Anthropic Claude Code
 
 ## 核心概念
 
-- [[agent-os-competition]]：Anthropic／OpenAI／xAI／Google 桌面代理人入口競賽、模型差距收斂應用層成主戰場
-- [[agent-error-amplification]]：3% 源頭誤差在代理人多步鏈中複合放大、上游驗證比下游補救成本低
+- [[agent-os-competition]]：Anthropic、OpenAI、xAI、Google 正在搶「桌面代理人入口」的位置，這場競賽的本質跟當年 iOS vs Android 搶手機入口類似。關鍵轉折是 GPT-5.5 跟 Anthropic 性能打平之後，模型本身不再是決勝點，勝負移到了應用層——速度快不快、子代理好不好用、自動化推送做不做得到。Every 創辦人 Dan Shipper 從 Claude Code 轉去 Codex Desktop 就是這個邏輯：不是 Claude 模型不好，而是 Codex 的 app 體驗在速度和子代理上更順。Shipper 預測這場競賽 1-2 年內定勝負。
+- [[agent-error-amplification]]：當 AI 代理人串成多步驟決策鏈時，源頭的小誤差會在每一步複合放大。文章舉的例子是 3% 的源頭錯誤率，經過多步代理人處理後，營運邏輯的整體偏差遠超 3%。結論是：在上游做資料驗證的成本遠低於在下游補救的成本。
 ![[2026-05-16-bnext-agent-os-codex-vs-claude-agent-os-competition.png|275]]
 
 ## 對 Simon 的應用（當下想法）

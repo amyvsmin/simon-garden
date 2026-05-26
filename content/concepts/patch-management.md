@@ -40,4 +40,4 @@ query-count: 0
 - Virtual patching（IPS 規則暫擋）vs 真實 patch 的決策、進階主題
 
 ## 來源
-- [[3-query-databases-with-sql|Course 4 Module 4 Section 1 Leaf 3: Query databases with SQL]]
+- [[1-learning/coursera/google-cybersecurity/course-4-tools-of-the-trade/module-4-databases-and-sql/section-1-introduction-to-sql-and-databases/3-query-databases-with-sql|Course 4 Module 4 Section 1 Leaf 3: Query databases with SQL]]

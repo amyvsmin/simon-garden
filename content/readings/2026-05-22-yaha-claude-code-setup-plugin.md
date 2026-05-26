@@ -25,8 +25,8 @@ YAHA学堂 2026-05-22 發布的 6 分 16 秒教學，介紹 Anthropic 官方新�
 
 ## 核心概念
 
-- [[claude-code-setup-plugin]]：本支影片主題、Anthropic 官方 plugin、掃專案產推薦報告
-- [[claude-code-plugin-scope]]：安裝時 User／Project／Local 三層選擇、對應「個人習慣／團隊統一／自己亂試」
+- [[claude-code-setup-plugin]]：Anthropic 官方推出的一支 plugin，一行指令裝完後，它會自動掃描你的專案（讀 `package.json`、看 imports、ls 目錄結構、讀 CLAUDE.md），然後產出一份結構化的推薦報告，告訴你這個專案適合裝哪些 MCP server、哪些 Hooks、哪些 Skills、哪些 Subagents。每條推薦都附「為什麼適合這個專案」的客製理由，取代過去盲抄別人 dotfiles 的做法。支援三種觸發口吻：通掃（跑全五段報告）、單類別深挖（例如「我該用哪些 hook」）、新手 onboarding（手把手帶）。
+- [[claude-code-plugin-scope]]：安裝 plugin 時要選擇作用範圍，分三層：User（個人帳號跨專案，適合放個人習慣性工具）、Project（會 commit 進 repo，適合團隊統一的設定）、Local（不 commit，適合自己實驗亂試的東西）。選錯 scope 會導致設定跑到不該出現的地方，例如個人偏好被 commit 進團隊 repo。
 
 ## 對 Simon 的應用（當下想法）
 
@@ -77,11 +77,11 @@ YAHA学堂 2026-05-22 發布的 6 分 16 秒教學，介紹 Anthropic 官方新�
 **有優化**：
 
 - ✅ **新增 `UserPromptSubmit` hook：自動注入 `git status`**
-  - 落地檔：`~/.claude/hooks/git-status-inject.sh`（新建）+ `~/.claude/settings.json` `hooks.UserPromptSubmit` 一條
+  - 落地檔：`0-context/hooks/git-status-inject.sh`（新建）+ `~/.claude/settings.json` `hooks.UserPromptSubmit` 一條
   - 行為：每次 prompt 送出前、若 cwd 在 git repo 內、注入 branch + ahead/behind + 變更檔案 short status（top 30 行）；非 git repo 安靜退出
   - 安全：timeout 5s、失敗 silent、不阻塞使用者
   - 預期效益：CC 開對話即知 working tree 狀態、不必每次自己跑 `git status` 浪費 turn；Simon 在 vault／Simon-Agent 多目錄跳的工作流尤其受惠
-  - 驗證：在 Simon-Agent repo 跑 `bash ~/.claude/hooks/git-status-inject.sh`、回傳 14 變更檔正常
+  - 驗證：在 Simon-Agent repo 跑 `bash 0-context/hooks/git-status-inject.sh`、回傳 14 變更檔正常
 
 **不優化**：
 

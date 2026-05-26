@@ -3,10 +3,11 @@ name: Notion 雙向 relation 自動關聯設計
 aliases: [two-way relation, Notion relation 同步, 雙向同步]
 category: 自動化
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-81f4-9f6e-d9c28999a8b2
+created: 2026-05-05
 ---
 
 ## 定義

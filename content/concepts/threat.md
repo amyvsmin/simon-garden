@@ -1,9 +1,9 @@
 ---
 title: "威脅（Threat）"
 slug: threat
-aliases: [Threat, 威脅, 資安威脅, security threat, threat actor, 威脅行為者]
+aliases: [Threat, 威脅, 資安威脅, security threat]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

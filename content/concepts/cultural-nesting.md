@@ -3,10 +3,11 @@ name: 文化嵌套關係
 aliases: [文化套娃, 文化分層, cultural nesting, 嵌套文化]
 category: 職涯
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34df85da-554f-8195-833f-fe0e04a11b57
+created: 2026-05-05
 ---
 
 ## 定義

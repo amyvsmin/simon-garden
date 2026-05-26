@@ -3,7 +3,7 @@ title: "NIST SP 800-53（安全與隱私控制措施）"
 slug: nist-sp-800-53
 aliases: [NIST SP 800-53, 安全與隱私控制措施, Security and Privacy Controls, NIST 800-53, NIST 控制措施目錄]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

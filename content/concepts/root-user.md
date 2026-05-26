@@ -3,9 +3,10 @@ name: 超級使用者
 aliases: [root user, superuser, root, UID 0, 最高權限帳號]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

@@ -21,10 +21,10 @@ icon: "⚡"
 
 ## 核心概念
 
-- [[api]]：程式直接呼叫程式的結構化接口、AI 操控軟體優先序第一名
-- [[cli]]：API 的人性化版本、語法用單字、比 GUI 穩、比 Browser Use 快、比 API 更適合 AI
-- [[mcp]]：包好的 API 子集、AI 直接拿來用、但功能權限常少於原生 API
-- [[browser-use]]：模擬人類操作的最後手段、最慢最不穩、含 Playwright/Puppeteer 跟 agent-browser（控 Electron App）
+- [[api]]：程式直接呼叫另一個程式的結構化接口，AI 拿到的是乾淨的結構化資料，不需要解讀畫面。雷蒙把它排在 AI 操控軟體的優先序第一名：能用 API 就不用其他方式。例如抓自己的 Notion 資料，用 API 三秒就拿到完整結構化內容，不需要讓 AI 去打開 Notion 網頁慢慢爬。
+- [[cli]]：可以理解為 API 的人性化版本——把 API 的功能包成用單字就能下的命令列指令。比 GUI 圖形介面穩定（不會因為按鈕位置改了就壞掉），比 Browser Use 快很多，而且語法對 AI 來說很好理解。雷蒙自己的工具生態系裡大量用 CLI 串接。
+- [[mcp]]：把某個服務的 API 子集包成 AI 可以直接調用的工具包。好處是 AI 不用自己學怎麼組 API 請求，拿來就能用；壞處是 MCP 通常只暴露原生 API 的一部分功能，權限跟彈性都比較受限。雷蒙的建議是能直接用 API 就用 API，MCP 是在 API 不方便時的第二選擇。
+- [[browser-use]]：讓 AI 模擬人類操作瀏覽器——點按鈕、填表單、截圖判斷畫面。這是所有方式裡最慢、最不穩定的，因為 AI 要靠「看畫面」來判斷下一步，任何 UI 改動都可能讓流程壞掉。只有在目標服務完全沒有 API、CLI、MCP 可用時才走這條路（例如抓別人的 Facebook 貼文，Facebook 不開放抓別人內容的 API）。技術上包含 Playwright/Puppeteer 跟 agent-browser（用 CDP 偵錯協定控制 Electron App）。
 
 ## 對 Simon 的應用（當下想法）
 

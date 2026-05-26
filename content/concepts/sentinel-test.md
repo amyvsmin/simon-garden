@@ -3,10 +3,11 @@ name: Sentinel 測試法
 aliases: [sentinel testing, production-DB testing, 1900-01-01 錨點]
 category: 自動化
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
 notion-page-id: 34cf85da-554f-81a0-96c9-d4ab064fb337
+created: 2026-05-05
 ---
 
 ## 定義

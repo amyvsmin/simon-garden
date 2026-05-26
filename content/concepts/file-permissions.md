@@ -3,9 +3,10 @@ name: 檔案權限
 aliases: [file permissions, permissions, 權限, rwx, ugo, 10-character permission string]
 category: 資安
 status: active
-confidence: verified
+confidence: 已驗證
 last-queried: ""
 query-count: 0
+created: 2026-05-10
 ---
 
 ## 定義

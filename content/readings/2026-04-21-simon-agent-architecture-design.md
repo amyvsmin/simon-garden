@@ -90,6 +90,6 @@ Simon 以為個人偏好記在全域 CLAUDE.md，實際檢查後發現**全部�
 - `~/.claude/CLAUDE.md`：全域規則、身分、Claude 指令、Knowledge Wiki
 - `~/projects/Simon-Agent/CLAUDE.md`：Simon 敏感資料：財務、健康、關係、公司專案
 - `~/.claude/projects/-home-simon-projects-Simon-Agent/memory/`：Simon-Agent auto-memory
-- `~/.claude/user-memory/`：跨專案通用 memory
-- `~/.claude/hooks/user-memory-inject.sh`：SessionStart hook 注入 user-memory
+- `0-context/personal/`：跨專案通用 memory
+- `0-context/hooks/user-memory-inject.sh`：SessionStart hook 注入 user-memory
 - `~/.claude/settings.json`：Hook 註冊中心

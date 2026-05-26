@@ -3,7 +3,7 @@ title: "攻擊者思維（Attacker Mindset）"
 slug: attacker-mindset
 aliases: [Attacker Mindset, 攻擊者思維, 攻擊者視角, adversarial thinking, 對手思維]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---

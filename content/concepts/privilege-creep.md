@@ -3,7 +3,7 @@ title: "權限蔓延（Privilege Creep）"
 slug: privilege-creep
 aliases: [privilege creep, 權限蔓延, 權限膨脹, 權限累積, permission creep, access creep, 累積權限]
 category: 資安
-confidence: 未驗證
+confidence: 待驗證
 created: 2026-05-25
 query-count: 0
 ---
