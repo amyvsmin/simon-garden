@@ -43,6 +43,10 @@ const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzCompo
     (f) => f.slug?.startsWith("topics/") && f.slug !== "topics/index",
   )
 
+  const weeklyIntel = allFiles.filter(
+    (f) => f.slug?.startsWith("weekly-intel/") && f.slug !== "weekly-intel/index",
+  )
+
   let totalReadings = readings.length
   try {
     const metaPath = join(process.cwd(), "content", "_meta.json")
@@ -92,6 +96,12 @@ const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzCompo
           <div class="stat-number amber">{topics.length}</div>
           <div class="stat-label">主題</div>
           <div class="stat-sublabel">跨概念整合</div>
+        </a>
+        <a href={resolveRelative(fileData.slug!, "weekly-intel/" as any)} class="stat-card stat-card-link internal">
+          <div class="stat-icon">🛡️</div>
+          <div class="stat-number red">{weeklyIntel.length}</div>
+          <div class="stat-label">週報</div>
+          <div class="stat-sublabel">資安情報</div>
         </a>
       </div>
 

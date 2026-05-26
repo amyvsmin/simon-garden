@@ -12,6 +12,7 @@ const SiteNav: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
     if (section === "readings" && slug.startsWith("readings/")) return " active"
     if (section === "concepts" && slug.startsWith("concepts/")) return " active"
     if (section === "topics" && slug.startsWith("topics/")) return " active"
+    if (section === "weekly-intel" && slug.startsWith("weekly-intel/")) return " active"
     return ""
   }
 
@@ -43,6 +44,12 @@ const SiteNav: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
             class={`nav-link internal${activeClass("topics")}`}
           >
             主題
+          </a>
+          <a
+            href={resolveRelative(fileData.slug!, "weekly-intel/" as any)}
+            class={`nav-link internal${activeClass("weekly-intel")}`}
+          >
+            週報
           </a>
         </div>
         <div class="search">
