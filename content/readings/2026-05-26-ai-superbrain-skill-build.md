@@ -32,7 +32,7 @@ tldr: "一天內完成「資安 AI 超級大腦」全部 6 個步驟：10 篇事
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 
 - ✅ **incident-response skill 已部署**：在 `~/projects/Simon-Agent/.claude/skills/incident-response/` 上線。下次遇到資安事件時，對 Claude Code 說「出事了」或「有資安事件」即可觸發 6 階段引導式記錄。
-- ✅ **資安週報已排程**：每週一 08:00 自動搜尋 Reddit r/cybersecurity + r/netsec + r/blueteamsec + SANS ISC，整理成繁體中文 MD 存到 Obsidian `2-knowledge/weekly-intel/`，同時寄 Email 摘要。
+- ✅ **資安週報已排程（v2 已升級）**：每週一 08:00 自動搜尋 8 個來源（Reddit 3 版 + SANS ISC + The Hacker News + BleepingComputer + CISA Alerts + iThome），整理成繁體中文 MD 存到 Obsidian `2-knowledge/weekly-intel/`，同時寄 Email 摘要。v2 改進：來源從 4 → 8 個、frontmatter 加入 issue/cover_range/highlights/tldr/concepts/impact、內文從「按來源分段」改為「按主題分段」（漏洞→攻擊→防禦→台灣→影響評估）、加入 WebFetch 抓重點文章全文。
 - ✅ **老闆提問預測庫**：從 10 件真實事件提取 38 個老闆問題，按 7 大主題加權（營運衝擊 21%、根因追究 21%、再發防止 16%、責任歸屬 13%、成本 11%、通報義務 8%、資料外洩範圍 8%）。加上 16 個驗證有效的溝通類比和 6 種框架性溝通策略。
 - ✅ **三平台 Deep Research 方法論驗證**：李佳達的「先研究再設計」方法論確實有效。三平台產出互補性非常好（ChatGPT = 案例導向、Perplexity = 學術導向、Gemini = 工具評估導向），如果只用一個平台會漏掉大量視角。
 
@@ -41,9 +41,9 @@ tldr: "一天內完成「資安 AI 超級大腦」全部 6 個步驟：10 篇事
 | 動作                         | 狀態    | 效益                                                                          |
 | -------------------------- | ----- | --------------------------------------------------------------------------- |
 | incident-response skill 上線 | ✅ 已部署 | 事件記錄從「事後花 2 小時回想整理」變成「事件中即時 15 分鐘累積」                                        |
-| 資安週報 /schedule             | ✅ 已排程 | 每週自動追蹤國際資安社群動態，不用手動刷 Reddit                                                 |
+| 資安週報 /schedule（v2 升級）      | ✅ 已排程 | 8 個來源（Reddit 3 版 + SANS ISC + THN + BleepingComputer + CISA + iThome），每週自動追蹤國際 + 台灣資安動態 |
 | 知識庫素材建立                    | ✅ 完成  | 20 份 MD 檔（10 事件 + 3 研究 + 7 參考文件），可餵入 ChatGPT Custom GPT 或繼續在 Claude Code 使用 |
-| Reading Garden 資安週報專區      | 🔲 待做 | 下個 session 做，讓週報同步顯示在網站上                                                    |
+| Reading Garden 資安週報專區      | ✅ 已部署 | 2026-05-26 部署上線：WeeklyIntelList 時間軸列表頁 + WeeklyIntelHeader 內頁 + SiteNav「週報」連結 + 首頁第 5 張統計卡，sync-garden.sh 自動同步 |
 
 ## 建構過程（6 步驟詳細紀錄）
 
@@ -61,11 +61,11 @@ tldr: "一天內完成「資安 AI 超級大腦」全部 6 個步驟：10 篇事
 
 三份報告的交叉比較：
 
-| 平台 | 行數 | 定位 | 獨特貢獻 |
-|---|---|---|---|
-| ChatGPT | 211 | 實務案例 | 案件 JSON schema、10 個事件攻擊鏈表、三層知識庫架構、匿名航運公司「成功防禦」正例 |
-| Perplexity | 659 | 學術文獻 | 同行評審論文引用、ATT&CK coverage 量化（SIEM 平均僅覆蓋 21%）、Security Ishikawa 魚骨圖、IRCopilot 幻覺控制架構 |
-| Gemini | 179 | 工具評估 | 5 平台 AI SOC 深度比較（含計價模式）、OWASP API Top 10、TeamPCP 供應鏈攻擊（SLSA Build Level 3 被擊潰）、PromptLock 多形態勒索軟體 |
+| 平台         | 行數  | 定位   | 獨特貢獻                                                                                              |
+| ---------- | --- | ---- | ------------------------------------------------------------------------------------------------- |
+| ChatGPT    | 211 | 實務案例 | 案件 JSON schema、10 個事件攻擊鏈表、三層知識庫架構、匿名航運公司「成功防禦」正例                                                  |
+| Perplexity | 659 | 學術文獻 | 同行評審論文引用、ATT&CK coverage 量化（SIEM 平均僅覆蓋 21%）、Security Ishikawa 魚骨圖、IRCopilot 幻覺控制架構                |
+| Gemini     | 179 | 工具評估 | 5 平台 AI SOC 深度比較（含計價模式）、OWASP API Top 10、TeamPCP 供應鏈攻擊（SLSA Build Level 3 被擊潰）、PromptLock 多形態勒索軟體 |
 
 三份報告共識區：身分是最大攻擊面（MFA 缺失為頭號控制失效）、NIST CSF 2.0 Govern 提升到董事會問責、AI SOC 是「高效副駕」不是自動駕駛、Shadow AI 比模型漏洞更急迫。
 

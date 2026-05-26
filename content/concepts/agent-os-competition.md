@@ -20,6 +20,9 @@ Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人�
 - **文件設計升級**：要針對「代理人可讀性」優化、不只人類可讀；對應 [[html-vs-markdown-ai-output]] 角度但更系統化
 - **跟 [[claude-code-vs-api-split]] 的關係**：claude-code-vs-api-split 看 Claude 內部三形態分工、agent-os-competition 看跨廠商桌面入口競爭、兩者互補不同層
 - **Every 創辦人丹希普案例**：從 Claude Code 轉 Codex Desktop、主因是 app 層體驗（速度、子代理、推送）勝出、非模型差
+- **Codex 2026 五入口全景**（脈報 2026-05-25）：Codex 已從「更聰明的 autocomplete」變成完整 agentic 開發平台，五個入口（CLI、IDE 擴充、Desktop app、Cloud、In-app browser + Computer Use）對應不同人機黏合度；Cloud 走 async 背景並行 PR、Desktop 走 Goal mode 長期目標、CLI 走 scripted 雜事
+- **工作節奏轉換**：unit of work 從 turn（一次對話）變成 task（一個交付），output 從 chat response 變成 PR；開發者角色從「寫程式的人」轉為「review 永遠不睡的初階工程師團隊的人」
+- **跨工具組合比全押更實用**：Avid（12 個月 Claude Code 老用戶轉 Codex）強調不必二選一、可讓 Codex Cloud 並行寫 PR、Claude Code 當 reviewer（[[cross-provider-verification]]）；對已養成 Claude Code 習慣的人，新增 reviewer 角色比重建工作流容易
 - **Google I/O 2026 反擊**（2026-05-19）：Google 同步推 [[gemini-spark]]（跨 Workspace 代理人入口）+ [[gemini-flash]]（速度比其他前沿快 4 倍）+ [[information-agent]]（搜尋層代理人）+ [[compute-based-pricing]]（從次數計費轉算力計費）；4 路同時推進、訊號明確：Google 把 Gemini 從聊天升級為代理人、搶奪 Workspace 既有用戶不流失到 Claude／Codex
 - **競賽特徵更新**：模型層差距收斂、底層算力（[[gemini-flash]] 速度 4 倍）+ 計費結構（算力計費）+ 生態深度（Gmail／Calendar／Drive／YouTube 原生）成新戰場三要素；單純 app 體驗已不夠
 
@@ -44,3 +47,4 @@ Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人�
 
 - [[2026-05-16-bnext-agent-os-codex-vs-claude]]
 - [[2026-05-20-bnext-google-io-2026-gemini-spark]]
+- [[2026-05-26-heymaibao-claude-code-to-codex-30-days]]

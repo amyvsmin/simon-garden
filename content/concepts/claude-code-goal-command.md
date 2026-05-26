@@ -21,6 +21,9 @@ Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一
 - **上限與行為**：條件最多 4000 字、可加「or stop after 20 turns」做硬煞車、`/goal` 無參數查狀態、`/goal clear`（或 stop/off/reset/none/cancel）手動停、`--resume` 後條件保留但 turn／timer／token 基準重置
 - **計費**：互動式 session 跑只計入 Max 5x 訂閱；headless `claude -p "/goal ..."` 走 2026-06-15 起每月 $100 [[claude-max5x-agent-sdk-credit|Agent SDK 額度桶]]；每輪 Haiku 評估會多計一筆但 token 量典型可忽略
 - **環境限制**：要 workspace 已 accept trust dialog、`disableAllHooks` 或 `allowManagedHooksOnly` 任一啟用就不能跑（屬於 hooks 系統）
+- **跨公司同步趨勢**（2026-05）：Claude Code、OpenAI Codex、Hermes Agent 幾乎同時推出名稱一樣的 `/goal` 功能，背後要解決的都是同一個問題——[[context-anxiety]]（上下文焦慮），模型執行長任務做到一半會因為感知 context 快滿而提前收工
+- **好的 goal prompt 五要素**：① Outcome（完成狀態）② Verification（怎麼證明完成）③ Constraints（哪些不能動）④ Iteration policy（每輪之間要記錄什麼）⑤ Error handling（什麼時候該停下來回報而不是硬撐）。缺任何一項，模型要嘛草草收工、要嘛無腦跑到天荒地老
+- **跟 [[ai-evaluation-rubric]] 的關係**：goal 提供迭代的動力（沒完成就繼續跑），rubric 提供判斷的標準（什麼叫做完成）；對程式碼任務，verification 可以是「測試全綠」；對品質型任務（設計、寫作），verification 必須是一份結構化 rubric
 
 ## 應用場景
 
@@ -50,3 +53,4 @@ Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一
 ## 來源（自動維護）
 
 - [[2026-05-14-yaha-claude-code-goal]]
+- [[2026-05-26-yt-goal-evaluation-rubric-long-tasks]]

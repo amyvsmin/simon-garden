@@ -18,6 +18,7 @@ created: 2026-05-05
 
 - 每次 session 自動載入，不必重述
 - 各家 AI 工具有自己的命名（Claude Code 用 CLAUDE.md、Cursor 用 .cursorrules、Gemini 用 GEMINI.md、開源 agent 多用 AGENTS.md）
+- **AGENTS.md 是開放標準**：Codex、Cursor、Gemini CLI、Windsurf、GitHub Copilot 都讀同一份 AGENTS.md；寫一次整條 toolchain 共用，是目前唯一不被廠商鎖定的 AI 指令檔格式。讀取順序：`~/.codex/AGENTS.md`（跨專案）+ `<project>/AGENTS.md`（專案內），`AGENTS.override.md` 在每層優先；合計上限 32 KiB、建議 500 字內
 - 通常不版控敏感資料；分層設計（全域 / 專案）能控制可見範圍
 - **跟 [[skill]] 的分工（雷蒙範式）**：CLAUDE.md = 「入職手冊」放通用偏好（語言、風格、禁區、資料夾結構）、Skill = 「SOP」放特定任務完整流程（步驟、格式、範例、例外處理）
 - **更新頻率**：CLAUDE.md 偶爾改、Skill 每次做錯就改；長流程強塞 CLAUDE.md 會讓它又長又亂
@@ -35,9 +36,10 @@ created: 2026-05-05
 
 ## 尚未解決的疑問
 
-- 多 AI 工具並用時要不要建多份指令檔（CLAUDE.md / AGENTS.md / GEMINI.md）
+- 多 AI 工具並用時要不要建多份指令檔（CLAUDE.md / AGENTS.md / GEMINI.md）——AGENTS.md 的 open standard 地位讓這個問題有了部分答案：至少 AGENTS.md 可共用
 
 ## 來源（自動維護）
 
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
 - [[2026-05-12-raymond-claude-code-skill]]
+- [[2026-05-26-heymaibao-claude-code-to-codex-30-days]]
