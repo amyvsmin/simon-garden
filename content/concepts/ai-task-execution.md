@@ -12,6 +12,8 @@ query-count: 0
 
 AI 從「回答問題的搜尋引擎」進化為「能完成任務、執行細節的個人助理」的範式轉移。標誌性改變：AI 不再只輸出文字建議，而是直接操作工具、呼叫 API、修改檔案、跑排程——使用者描述目標，AI 自主拆解並執行步驟。2025–2026 年以 Claude Cowork / Operator 功能為代表進入主流意識。
 
+<p align="center"><img src="assets/covers/ai-task-execution-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **舊範式（問答型）**：使用者輸入問題 → AI 輸出文字 → 使用者自行執行；AI 只是「更聰明的 Google」

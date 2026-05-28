@@ -18,6 +18,8 @@ created: 2026-05-22
 
 Anthropic 2026-05 官方推出的 Claude Code plugin，內含一個會掃描當前專案結構（`package.json`、imports、目錄樹、`CLAUDE.md`）並產出客製化繁中安裝報告的 [[skill]]；報告分 MCP／Skills／Hooks／Subagents 四段加 CP 值 top 5，每條都附「為什麼適合這個專案」的理由，取代 dotfiles 盲抄。
 
+<p align="center"><img src="assets/covers/claude-code-setup-plugin-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **觸發方式三種**：通掃（「幫我看這個專案該裝什麼」）、單類別深挖（「該裝哪些 hook」「該裝哪些 MCP」）、新手 onboarding（「幫我從頭設定 Claude Code」）；都觸發同一支 skill、口吻跟深度不同

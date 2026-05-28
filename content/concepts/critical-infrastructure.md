@@ -14,6 +14,8 @@ created: 2026-05-05
 
 電網、水資源、天然氣、電信、金融、運輸等一旦中斷將危及公共安全與經濟運作的系統；台灣 NCCST、美國 CISA 皆有對應分類，近年已從純 IT 風險擴展到 OT／韌體層。
 
+<p align="center"><img src="assets/covers/critical-infrastructure-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 跨產業、跨國家定義一致

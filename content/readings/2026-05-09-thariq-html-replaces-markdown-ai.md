@@ -18,6 +18,8 @@ icon: "⚡"
 
 Inside 報導 Anthropic Claude Code 工程師 Thariq Shihipar 在 X 上的論點：Markdown 在 AI 時代正在變成一種限制、HTML 是更適合的人機協作格式。三層論點為表達力夠、實際被讀機率高、製作有趣提升投入感。文章核心戳的痛點是 Claude Code CLI 用戶長期默契的痛點：AI 給長計畫文件、要改其中一處必須打字描述、認知負擔極大。Token 悖論回應「HTML 太耗 token」的反對：長對話下單次多花換精準決策反而省。
 
+<p align="center"><img src="assets/covers/2026-05-09-thariq-html-replaces-markdown-ai-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[html-vs-markdown-ai-output]]：Anthropic 工程師 Thariq 主張 AI 的輸出格式應該從 Markdown 換成 HTML。三層理由：（1）HTML 表達力遠超 Markdown，能做表格、互動元件、SVG 圖表、動畫，Markdown 只有標題跟條列；（2）AI 產出的文件如果只是一堆 Markdown 純文字，實務上沒人會認真讀完，但做成有排版的 HTML 網頁，閱讀率明顯提升；（3）製作過程本身有趣，提升使用者投入感。不過 Markdown 在版本控制、跨平台相容性上仍不可取代，兩者不是誰消滅誰的關係。

@@ -12,6 +12,8 @@ query-count: 0
 
 讓 AI 為單次任務即時生成完整可互動的 HTML 介面、解決完問題就丟、不維護不版控；目的是把 Markdown 文字牆換成「真的能直接操作的工具」。
 
+<p align="center"><img src="assets/covers/disposable-ui-html-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 觸發場景：30 條零散待辦變可拖曳看板、複雜資料變排序篩選表、決策方案變並排比較介面

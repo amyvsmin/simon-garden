@@ -11,6 +11,8 @@ created: 2026-05-10
 
 LLM 對話的反直覺數學現象：每次發訊息都會把整個對話前文一起送回給模型；長對話累積到數十萬 token 後、任何一次「因看不清楚而產生的多餘往返」都會讓那幾十萬 token 又被重送一遍。所以「單次輸出多用 token 換更精準的決策」可能反而省 token、特別是在長 context 場景。
 
+<p align="center"><img src="assets/covers/context-resend-token-paradox-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **數學機制**：對話 N 輪、context 累積 X token；第 N+1 輪要送 X 給模型；如果第 N+1 輪因不清楚要再來 3 輪澄清、就送了 3X 而不是 X

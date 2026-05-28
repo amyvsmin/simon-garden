@@ -17,6 +17,8 @@ icon: "⚡"
 
 2026-04-21 長對話確定兩個架構決策：(1) CLAUDE.md 依敏感度分層，通用內容搬全域、財務/健康/關係留專案級；(2) auto-memory 跨專案可見用 SessionStart hook 注入 user-memory，不走 symlink。知識點：CLAUDE.md 搜尋路徑、auto-memory 綁 cwd、hook 注入 context 機制、memory 分類應看運作範圍非誕生地。本頁保留決策脈絡，未來檢視架構時對照。
 
+<p align="center"><img src="assets/covers/2026-04-21-simon-agent-architecture-design-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 本綜覽頁不萃取概念，純記錄架構決策過程。

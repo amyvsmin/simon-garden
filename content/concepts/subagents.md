@@ -14,6 +14,8 @@ created: 2026-05-05
 
 Claude 的多代理協作機制。Subagent 是為特定任務訂製的持久化分身（自帶 prompt、工具集、記憶）；Agent Teams 則把多個分身並行派工並自動彙整結果。
 
+<p align="center"><img src="assets/covers/subagents-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **Subagent**：單一職能分身（如 code-reviewer、Explore、Plan、statusline-setup 等），自帶 system prompt 與允許工具集

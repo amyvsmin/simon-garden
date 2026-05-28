@@ -13,6 +13,8 @@ query-count: 0
 
 跟 AI 協作做事時、花在「寫規則給 AI 看」的時間比花在寫程式碼還多、且回報更高。出處：雷蒙迷你課 3-4 日本旅行 AI 拍照收據自動記帳案例——15 條日本稅制／折扣規則表 vs Next.js 整個前後端的時間分配。
 
+<p align="center"><img src="assets/covers/rules-over-code-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **AI 強、但你得給方向**：Gemini／Claude 圖片辨識、翻譯能力很強、但不代表「會做對」；規則越清楚、行為越穩定

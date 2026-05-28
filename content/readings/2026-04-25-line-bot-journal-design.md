@@ -17,6 +17,8 @@ icon: "📊"
 
 解決日記助手 20 秒延遲 + 跨裝置 + 電腦關機顧慮。版本 B：LINE 入口純搬運 + Claude Code 總結，月費 0 元。同日晚順利擴充 KW 收件入口（第二個 LINE channel + 第二個 Notion integration，最小權限），模式一致。三個 LINE bot 上線：日記 + KW + （未來）月費均 0。
 
+<p align="center"><img src="assets/covers/2026-04-25-line-bot-journal-design-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 本綜覽頁不萃取概念，純記錄系統設計過程。

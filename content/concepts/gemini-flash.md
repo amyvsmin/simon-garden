@@ -12,6 +12,8 @@ query-count: 0
 
 Google 在 I/O 2026 發布的輕量高速 LLM 模型家族；專攻代理人任務跟程式編寫；當前版本 3.5 Flash 是 [[gemini-spark]]、AI Mode、Antigravity、Gemini Enterprise 等代理產品的底層；輸出 token 速度比其他前沿模型快 4 倍；Google DeepMind 技術長 Koray Kavukcuoglu 形容為「前沿智慧 + 行動力」。
 
+<p align="center"><img src="assets/covers/gemini-flash-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **效能指標**（3.5 Flash 版）：Terminal-Bench 2.1 76.2%、GDPval-AA 1656 Elo、MCP Atlas 83.6%、CharXiv Reasoning 84.2%

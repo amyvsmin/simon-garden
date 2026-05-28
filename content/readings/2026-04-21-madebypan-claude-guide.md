@@ -18,6 +18,8 @@ icon: "⚡"
 
 MadebyPan 的 Claude 生態系入門指南。核心觀點：Claude 三大產品線 App / Cowork / Code 自主性遞增；日常用 Sonnet、高品質用 Opus。擴展機制分 MCP（連工具）、Skill（存流程）、Hooks（確定性觸發）、Subagents（多分身）四層。非工程師能用 Claude Code 做知識管理、寫作、簡報、設計。
 
+<p align="center"><img src="assets/covers/2026-04-21-madebypan-claude-guide-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[claude-code]]：Claude 三大產品線（App、Cowork、Code）中自主性最高的形態。跟 App 版在網頁上一問一答不同，Claude Code 是在你電腦的終端機裡跑的，它可以直接讀寫檔案、執行指令、操作本機工具，像是一個住在你電腦裡的工程師，不只回答問題，還能直接動手做事。

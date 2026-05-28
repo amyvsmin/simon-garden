@@ -14,6 +14,8 @@ created: 2026-05-05
 
 從既有產物樣本反推 skill 隱性規則的設計方法。取一組可信的過往 AI 產出當 target，逐題提問反推當時依循的行為、輸出、控制規則，再將規則顯性化成 skill-spec。
 
+<p align="center"><img src="assets/covers/reverse-skill-design-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **樣本代表性**：樣本數量不需要大，5 篇日記（2026-04-19 ~ 04-23）已足以反推出完整規則集。前提是樣本來自同一個成熟工具，風格已穩定

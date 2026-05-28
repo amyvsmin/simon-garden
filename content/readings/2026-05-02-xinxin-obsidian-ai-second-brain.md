@@ -18,6 +18,8 @@ icon: "⚡"
 
 心心介紹從 Milanote 遷到 Obsidian + Claude Code 打造個人 AI 第二大腦的完整工作流。vault 結構以 context/ 放個人資訊、每個資料夾放 instructions.md 給 AI 局部地圖、根目錄 CLAUDE.md 當入口。雙層導航 + 漸進式披露是省 token 關鍵，AI 只讀必要資料夾。搭配 daily notes 跨 session 繼承脈絡、Apple Books highlights 插件、Web Clipper、iPhone 一鍵語音、Canvas、Terminal 插件與 MCP 外接，Skills 跟著 vault 版本一起演進。理念承接 Andrej Karpathy「個人結構化知識系統」，強調本地化、私有化、隨時間變強。
 
+<p align="center"><img src="assets/covers/2026-05-02-xinxin-obsidian-ai-second-brain-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[second-brain]]：把大腦不擅長的記憶、整理、檢索外包給數位系統的個人知識管理範式

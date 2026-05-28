@@ -14,6 +14,8 @@ created: 2026-05-05
 
 企業使用的第三方硬體、軟體、韌體、服務在開發、發行、更新、維運任一環節被植入後門或繼承上游漏洞的風險；ISO 27001 A.5.19~A.5.23 供應商管理、SBOM 都用來控制此風險。
 
+<p align="center"><img src="assets/covers/supply-chain-risk-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 全鏈條都是攻擊面（從晶圓、編譯、發行、更新都可植入）

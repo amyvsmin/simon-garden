@@ -9,6 +9,7 @@ projects: []
 impact: high
 created: 2026-05-12
 reviewed: 2026-05-18
+source_images_backfilled: 2026-05-28
 tldr: "雷蒙把 AI 操控軟體的五種方式（API／CLI／MCP／GUI／Browser Use）放在同一張對照表、給出明確優先順序：能用 api 就不用 mcp、能用 MCP 就不用 browser-use、Browser Use 是真的沒其他路才走的最後手段。重點不是「哪個技術比較炫」、是讓 AI 用它擅長的方式工作（結構化資料層）、不要逼它模仿人類點按鈕。"
 stage: growing
 icon: "⚡"
@@ -17,6 +18,9 @@ icon: "⚡"
 ## 摘要
 
 雷蒙把 AI 操控軟體的五種方式（API／CLI／MCP／GUI／Browser Use）放在同一張對照表、給出明確優先順序：能用 [[api]] 就不用 [[mcp]]、能用 MCP 就不用 [[browser-use]]、Browser Use 是真的沒其他路才走的最後手段。重點不是「哪個技術比較炫」、是讓 AI 用它擅長的方式工作（結構化資料層）、不要逼它模仿人類點按鈕。文末附 19 個工具生態系實例（雷小蒙 AI 分身），證明 API/CLI/MCP 三條主力就能組起整套自動化、Browser Use 只占少數補位。
+
+<p align="center"><img src="assets/covers/2026-05-12-raymond-ai-controls-software-cover.png" alt="封面圖" width="400"></p>
+
 ![[2026-05-12-raymond-ai-controls-software-api.png|275]]
 
 ## 核心概念
@@ -42,6 +46,38 @@ icon: "⚡"
 - agent-browser（vercel-labs）控 Electron App 靠 CDP 偵錯埠口、原理是 Playwright 控 Headless Chrome 的延伸
 - 簡單決策流程：有 API → API；有 MCP → MCP；有 CLI → CLI；都沒 → Browser Use
 - 雷小蒙 19 個工具生態系：內容管理（WordPress／Ghost／Kit）、社群（FB 廣告／Threads）、通訊（Discord／Gmail／Google Calendar／iMessage）、創作（Obsidian／Eagle）、部署（Zeabur／n8n／Cloudflare）、其他（Testimonial／Figma／Home Assistant／NAS）
+
+<p align="center"><img src="assets/2026-05-12-raymond-ai-controls-software/01-b85df2cc.jpg" alt="AI 操控軟體五種方式排名資訊圖表" width="500"></p>
+
+> **圖像解讀**
+> 類型：資訊圖表
+> 內容：「AI 操控軟體的五種方式」評分排名，由高到低：API（極快極高，5 星）、CLI（快高，4.5 星）、MCP（快高，4 星）、GUI（慢高，3 星）、Browser Use（最慢最低，2 星）。底部強調：「能用 API/CLI → 就不要用 Browser Use」。視覺化呈現雷蒙文章的核心決策原則。
+> 原文出處：雷蒙三十 lifehacker.tw（2026-05-12）
+> 可檢索關鍵字：AI 操控軟體優先序、API CLI MCP 比較、Browser Use 最後手段
+
+<p align="center"><img src="assets/2026-05-12-raymond-ai-controls-software/02-4098d3e4.jpg" alt="AI 模仿人類 vs 直接對話系統對比插畫" width="500"></p>
+
+> **圖像解讀**
+> 類型：插畫對比圖
+> 內容：左側「讓 AI 模仿人類操作」：機器人坐在電腦前苦苦掙扎，耗時 75 秒，Browser Use 標記為「慢、容易壞」；右側「讓 AI 直接跟系統對話」：機器人輕鬆揮手，閃電符號代表即時，API/CLI/MCP 標記為「快、穩定」。對比說明為何應避免逼 AI 走模擬人類點按鈕的路。
+> 原文出處：雷蒙三十 lifehacker.tw（2026-05-12）
+> 可檢索關鍵字：AI 模擬人類操作成本、Browser Use 效率低、API 直連優勢
+
+<p align="center"><img src="assets/2026-05-12-raymond-ai-controls-software/03-1cbdc247.webp" alt="WordPress MCP vs REST API 比較表截圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：截圖（Claude AI 產出）
+> 內容：表格對比 WordPress MCP 與 WP REST API 的五個維度：成熟度、功能覆蓋、認證方式、使用 API 的原因、適合場景。結論：「API 是生產級工具，MCP 是 AI 便利介面」。具體說明在「API vs MCP 怎麼選」的場景中各自的適用邊界。
+> 原文出處：文章內嵌（Claude AI 生成）
+> 可檢索關鍵字：MCP vs API 選擇、WordPress MCP 限制、生產級工具
+
+<p align="center"><img src="assets/2026-05-12-raymond-ai-controls-software/04-84828bb7.webp" alt="雷小蒙 AI Agent 19 個整合工具心智圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：心智圖
+> 內容：「雷小蒙的工具生態系 — Claude Code AI Agent × 19 個整合工具」，以六大類展開：內容管理（WordPress/Ghost/Kit）、創作工具（Obsidian/Eagle）、社群媒體（Facebook 廣告/Threads）、通訊整合（Discord/Google Workspace Gmail+Calendar/iMessage）、部署與自動化（Zeabur/n8n/Cloudflare）、其他整合（Testimonial/Figma/Home Assistant/NAS）。作為 API/CLI/MCP 三條主力能涵蓋實際工作流的具體佐證。
+> 原文出處：雷蒙三十 lifehacker.tw（2026-05-12）
+> 可檢索關鍵字：雷小蒙工具生態系、AI Agent 整合清單、19 個工具
 
 ## 原始連結
 

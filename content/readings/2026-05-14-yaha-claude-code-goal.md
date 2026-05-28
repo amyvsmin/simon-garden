@@ -18,6 +18,8 @@ icon: "⚡"
 
 YAHA学堂 2026-05-14 發布的 4 分鐘速講，介紹 Claude Code 2.1.139 剛上線的 `/goal` 指令：使用者寫一個完成條件，Claude 跑完一輪後背景的 Haiku 評估器讀整段對話判斷是否達成、未達成自動再跑、達成自動清掉。講者用 lint 七個錯誤的 demo 示範一鍵自動修，並提出「條件寫成有證據的形式」的三條規則（可量終點／證明指令／不能動的東西）。逐字稿跟官方文件比對主要概念對得上、但兩處要打折扣：「token 不會多扣錢」實際上是「typically negligible」不是免費、「headless 是不外傳秘技」實際上官方文件直接寫在 Run non-interactively 段。
 
+<p align="center"><img src="assets/covers/2026-05-14-yaha-claude-code-goal-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[claude-code-goal-command]]：Claude Code 2.1.139 新上線的 `/goal` 指令。使用者寫一個明確的完成條件（例如「npm test 全部通過且退出碼為 0」），Claude 跑完一輪後，背景會用一個輕量的 Haiku 評估器讀整段對話，判斷條件是否達成——未達成就自動再跑一輪，達成了就自動結束。跟 `/loop`（看時間）不同，`/goal` 看的是結果。影片特別強調條件要寫成「有證據的形式」，避免感覺型條件（如「重構完成」）讓 Haiku 被 Claude 的自我宣稱騙過放行。三條寫法規則：可量化終點、指定用什麼指令證明、講清楚哪些東西不能動。

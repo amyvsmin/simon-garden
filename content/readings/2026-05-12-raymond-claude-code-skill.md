@@ -9,6 +9,7 @@ projects: []
 impact: high
 created: 2026-05-12
 reviewed: 2026-05-18
+source_images_backfilled: 2026-05-28
 tldr: "雷蒙用一句話把 instructions-file 跟 skill 的分工講清楚：CLAUDE.md 是「記住你是誰」的入職手冊、Skill 是「記住怎麼做事」的 SOP。每次對話都載入的通用偏好放 CLAUDE."
 stage: growing
 icon: "⚡"
@@ -17,6 +18,9 @@ icon: "⚡"
 ## 摘要
 
 雷蒙用一句話把 [[instructions-file]] 跟 [[skill]] 的分工講清楚：CLAUDE.md 是「記住你是誰」的入職手冊、Skill 是「記住怎麼做事」的 SOP。每次對話都載入的通用偏好放 CLAUDE.md、按需載入的特定任務流程放 Skill。文章再給判斷準則「連續三次在不同對話跟 AI 講同一件事 = 該寫成 Skill」、進化路徑（SKILL.md → references/ → scripts/ → 版本 → Plugin）、安全紅旗（陌生 Skill 先丟 AI 評估別無腦裝）、跟 GPTs/Gems 範式翻轉（從「人找工具」變「工具找人」）。
+
+<p align="center"><img src="assets/covers/2026-05-12-raymond-claude-code-skill-cover.png" alt="封面圖" width="400"></p>
+
 ![[2026-05-12-raymond-claude-code-skill-instructions-file.png|275]]
 
 ## 核心概念
@@ -46,6 +50,22 @@ icon: "⚡"
 - 進化路徑：SKILL.md → references/ → scripts/ → 版本與 changelog → Plugin（大部分人到第三步就夠）
 - 安全紅旗：Skill 可內含 scripts/ 跑本機程式、陌生 Skill 先丟 AI 評估再裝
 - Q&A：非工程師可寫（純 Markdown）；可請 Claude「幫我把這段對話整理成 Skill」
+
+<p align="center"><img src="assets/2026-05-12-raymond-claude-code-skill/01-dbab89eb.webp" alt="GPTs 時代 vs Skill 時代範式對比插畫" width="500"></p>
+
+> **圖像解讀**
+> 類型：插畫對比圖
+> 內容：左側「GPTs 時代：人去找工具」——迷惑的人物在多扇門之間跑來跑去，象徵要先想「找哪個機器人」才能做事；右側「Skill 時代：工具來找人」——人物安坐桌前，文件自動匯入發光圓圈，象徵 Skill 的 description 自動匹配任務、工具主動找上人。直觀體現雷蒙文章的範式翻轉核心。
+> 原文出處：雷蒙三十 lifehacker.tw（2026-05-12）
+> 可檢索關鍵字：GPTs vs Skill、工具來找人、範式翻轉
+
+<p align="center"><img src="assets/2026-05-12-raymond-claude-code-skill/02-29131722.webp" alt="別人 Skill 學習內化流程圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：流程圖
+> 內容：「別人的 Skill 怎麼用？學習，不是照搬」——四步驟：別人的 10 個檔案 → 讓 AI 分析：哪些值得學？ → 優化成自己的 4 個版本 → 屬於你的知識庫。強調 Skill 的正確使用方式是消化內化、而不是無腦複製貼上，防止引入未知的安全風險或不適合自己工作流的邏輯。
+> 原文出處：雷蒙三十 lifehacker.tw（2026-05-12）
+> 可檢索關鍵字：Skill 內化流程、安全評估、個人知識封裝
 
 ## 原始連結
 

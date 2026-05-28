@@ -12,6 +12,8 @@ query-count: 0
 
 攻擊者今天大量收集加密敏感資料、儲存等量子電腦成熟後再回頭破解的長期攻擊策略。對應目標是任何「十年後仍重要」的資料：病歷、商業機密、外交通訊、軍事情報、企業併購紀錄。國家級攻擊者與組織犯罪集團都已在進行。
 
+<p align="center"><img src="assets/covers/harvest-now-decrypt-later-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **時間軸假設**：量子電腦成熟需 5–15 年、HNDL 賭的是「資料 still 有價值」

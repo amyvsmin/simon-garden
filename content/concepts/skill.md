@@ -14,6 +14,8 @@ created: 2026-05-05
 
 Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化為可重用的指令包，核心精神是「試一次、存起來、用很多次」。
 
+<p align="center"><img src="assets/covers/skill-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **組成**：description（觸發條件說明）、主體 prompt（含指示與範例）、附屬腳本或資源檔

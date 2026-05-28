@@ -18,6 +18,8 @@ icon: "⚡"
 
 德國電信 Deutsche Telekom 紅隊團隊揭露 Linux 套件管理工具 PackageKit 的高風險權限提升漏洞 Pack2TheRoot，編號 CVE-2026-41651、CVSS 8.8 分。非特權攻擊者可在無需密碼的情況下安裝或移除系統套件，進而取得 root 權限。受影響範圍包含 Ubuntu Desktop 18.04 至 26.04、Ubuntu Server 22.04 至 24.04、Debian Trixie 13.4、Rocky Linux 10.1、Fedora 43 工作站與伺服器版。漏洞最早可追溯至 14 年前的 0.8.1 版，PackageKit 開發團隊已於 1.3.5 版完成修補。研究人員特別指出，此漏洞是借助 Anthropic Claude Opus 模型輔助分析後成功發現，反映 AI 模型在原始碼審查與漏洞挖掘的實戰價值正持續提升。
 
+<p align="center"><img src="assets/covers/2026-04-29-pack2theroot-packagekit-vuln-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[pack2theroot]]：CVE-2026-41651，Linux 套件管理工具 PackageKit 的高風險本機權限提升漏洞。非特權使用者可以在不需要輸入密碼的情況下安裝或移除系統套件，藉此取得 root 權限。這個漏洞最早可追溯到 14 年前的 PackageKit 0.8.1 版，直到德國電信紅隊團隊借助 Claude Opus 輔助分析才被發現。

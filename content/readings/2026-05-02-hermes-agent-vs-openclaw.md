@@ -18,6 +18,8 @@ icon: "⚡"
 
 Blocktempo 報導 Nous Research 推出的「越用越聰明」自我進化 AI agent Hermes，內建學習閉環、自動建技能、跨會話記憶。Hermes 模型在 HuggingFace 累計 3,300 萬次下載。對比「33 天超越 React 頂」的 OpenClaw、被爆出 138 個 CVE（平均一天 2.2 個）造成使用者大量出走，Hermes 內建一鍵遷移功能接難民、累積 69.9k Stars / 9k Forks。核心功能為 MEMORY.md + USER.md 長期記憶、Markdown skill 系統、40+ 內建工具、支援 6 種終端環境，架構跟 Claude Code 高度類似。
 
+<p align="center"><img src="assets/covers/2026-05-02-hermes-agent-vs-openclaw-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[self-evolving-ai-agent]]：Nous Research 開發的 Hermes Agent 標榜「越用越聰明」——它會把每次對話學到的東西自動寫回 MEMORY.md 和 USER.md 做長期記憶，還會把重複出現的操作自動打包成 Markdown skill。這樣下次碰到類似任務就不用重新教，形成一個「使用→學習→變強」的閉環。HuggingFace 上累計 3,300 萬次下載。

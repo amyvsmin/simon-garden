@@ -12,6 +12,8 @@ query-count: 0
 
 員工在未經組織批准、無 governance 機制的狀況下、使用 AI 工具（ChatGPT、Gemini、Cursor、Copilot 等）處理日常工作所形成的不可見資料外洩風險。Shadow IT 概念在 AI 時代的延伸。
 
+<p align="center"><img src="assets/covers/shadow-ai-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **規模迅速擴大**：1B 用戶用 AI 只花 3 年（原預測 7 年）、企業導入跟不上員工自行採用

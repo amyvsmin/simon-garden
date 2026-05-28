@@ -18,6 +18,8 @@ icon: "⚡"
 
 Paula 拆解 Andrej Karpathy 在 X 上分享的個人知識庫做法：用 Obsidian 當載體，靠 Claude Code 自動讀文章、產 Wiki 頁、寫索引、留日誌。架構只有兩個資料夾——Raw 收原料、Wiki 放 AI 整理產出，加上一份 Index 當全庫目錄、一份 Log 留稽核軌跡、一份 claude.md 當 AI 常駐指令。Karpathy 用此法管理約 100 篇文章，發現不必自建 RAG，讓 LLM 直接維護索引就夠用。Paula 實作示範收錄兩篇文章，AI 自動萃取概念、人物、來源三類頁面，產出共用節點形成知識圖。
 
+<p align="center"><img src="assets/covers/2026-04-29-karpathy-obsidian-claude-wiki-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[index-based-knowledge-base]]：Karpathy 不用向量資料庫或 embedding 做語意搜尋，而是維護一份純文字的 Index 檔案當作整個知識庫的目錄。AI 要找資料時就讀這份 Index，靠標題和摘要判斷該打開哪個檔案。這種做法在約 100 篇文章的規模下完全夠用，而且比建 RAG 系統簡單得多。

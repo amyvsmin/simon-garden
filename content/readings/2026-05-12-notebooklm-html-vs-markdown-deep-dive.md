@@ -18,6 +18,8 @@ icon: "⚡"
 
 延伸 Anthropic Thariq Shihipar 2026-05 主張的 NotebookLM 配音解讀版，把「我已停止寫 Markdown」拆成 5 段重點：Markdown 失靈、HTML 補回的四個能力、脈絡吸收才是核心、五個具體用例、權衡與反建議。對比 [[2026-05-09-thariq-html-replaces-markdown-ai]] 原文，這版補了「用完即丟客製介面」第五用例（30 條待辦變可拖曳看板）跟結尾「不要寫超長 prompt 模板」反建議。AI 寫 HTML 的關鍵不是 HTML 語法、是 AI 對使用者真實工作脈絡的吸收能力——讀檔案系統、Slack、Linear、Git，再生成高度客製化的功能性網頁。
 
+<p align="center"><img src="assets/covers/2026-05-12-notebooklm-html-vs-markdown-deep-dive-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[html-vs-markdown-ai-output]]：這篇是 Thariq 原文（見 [[2026-05-09-thariq-html-replaces-markdown-ai]]）的 NotebookLM 配音延伸版，補充了五個 HTML 具體用例（探索企劃、程式碼審閱、設計原型、研究學習報告、用完即丟客製介面），以及一個重要的反建議：不要因為 AI 會生 HTML 就寫出超長的 prompt 模板試圖控制格式，保持簡單、告訴 AI 想解決什麼就好。

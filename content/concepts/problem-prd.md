@@ -12,6 +12,8 @@ query-count: 0
 
 把「問對問題」拆成「目標→限制→障礙」三層結構、產出可餵 AI 的問題規格書（PRD）、用規格書指導 AI 設計解決方案、效果遠超直接叫 AI 想答案。
 
+<p align="center"><img src="assets/covers/problem-prd-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **三層結構**：目標（要達到什麼）→ 限制（不能改變的事、如沒 IT 人員、系統改不了）→ 障礙（可以排除的困難）

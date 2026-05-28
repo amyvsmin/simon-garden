@@ -11,6 +11,8 @@ created: 2026-05-10
 
 Claude 桌面／網頁版／Claude Code 內建斜線命令在對話進行中介入 AI 行為：原 4 個（`/compact`／`/clear`／`/context`／`/btw`）+ Anthropic 2026-04 加 `/rewind` 跟 `/usage` 共 6 個。不需要重置整個會話就能精準微調 context 狀態、對抗 [[context-rot]]。
 
+<p align="center"><img src="assets/covers/claude-slash-commands-control-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **`/compact` 精華摘要**：把長對話歷史壓縮成核心精華摘要、釋放 Current Session 空間；對話太長或 AI 變笨時用，跟人工請 AI「總結一下」效果類似但格式更穩定

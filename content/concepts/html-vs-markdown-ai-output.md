@@ -11,6 +11,8 @@ created: 2026-05-10
 
 Anthropic Claude Code 工程師 Thariq Shihipar 2026-05 提出的論點：在 AI 工具足夠強大的今天、Markdown 從「最佳輸出格式」變成限制；HTML 因為可互動、可動態渲染、能承載決策介面，是更適合 AI 時代的人機協作格式。論點不是宣判 Markdown 死刑、而是指出在「需要人類確認的關鍵決策時刻」靜態文字牆是設計失誤。
 
+<p align="center"><img src="assets/covers/html-vs-markdown-ai-output-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **三層論點**：(1) HTML 能承載 Claude 能理解的幾乎所有資訊、表達力夠；(2) HTML 文件實際被讀的機率高於 Markdown（動態勝靜態）；(3) HTML 製作有趣、提升投入感跟認知參與

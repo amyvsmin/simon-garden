@@ -14,6 +14,8 @@ created: 2026-05-05
 
 把專案規格、命名規則、AI 應做事項寫在 claude.md，每次開 Claude Code 自動讀，省掉每次重新解釋的成本，是 AI 與專案之間的常駐合約。
 
+<p align="center"><img src="assets/covers/instructions-file-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 每次 session 自動載入，不必重述

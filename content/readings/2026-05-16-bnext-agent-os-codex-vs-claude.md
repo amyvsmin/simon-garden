@@ -17,6 +17,8 @@ icon: "⚡"
 
 bnext 5/15 李先泰報導 Every 創辦人 Dan Shipper 從 Anthropic Claude Code 轉 OpenAI Codex Desktop 的決策邏輯。GPT-5.5 跟 Anthropic 性能打平後、模型不再是決勝點、應用層（速度、子代理、自動化推送）成主戰場。Shipper 主張這是「代理人管理介面」的桌面作業系統競賽、會決定未來在哪完成工作。三大趨勢：(1) 入口從瀏覽器移到桌面代理人；(2) 企業需季度評估競品避免 vendor lock-in；(3) 文件設計要為代理人可讀性優化。提到「3% 源頭誤差會在代理人決策鏈中複合放大」的系統性風險。
 
+<p align="center"><img src="assets/covers/2026-05-16-bnext-agent-os-codex-vs-claude-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[agent-os-competition]]：Anthropic、OpenAI、xAI、Google 正在搶「桌面代理人入口」的位置，這場競賽的本質跟當年 iOS vs Android 搶手機入口類似。關鍵轉折是 GPT-5.5 跟 Anthropic 性能打平之後，模型本身不再是決勝點，勝負移到了應用層——速度快不快、子代理好不好用、自動化推送做不做得到。Every 創辦人 Dan Shipper 從 Claude Code 轉去 Codex Desktop 就是這個邏輯：不是 Claude 模型不好，而是 Codex 的 app 體驗在速度和子代理上更順。Shipper 預測這場競賽 1-2 年內定勝負。

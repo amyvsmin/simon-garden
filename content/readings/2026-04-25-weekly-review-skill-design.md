@@ -17,6 +17,8 @@ icon: "📊"
 
 把週復盤從 Notion AI 搬到 Claude Code weekly-review skill。撈三週復盤確認 W16 結構為標準，加 ACG+D 戰略視角，採 Notion automation 建頁 + skill 填內容架構，主動觸發。明天 04/26 第一次正式跑 W17。
 
+<p align="center"><img src="assets/covers/2026-04-25-weekly-review-skill-design-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 本綜覽頁不萃取概念，純記錄 skill 設計過程。

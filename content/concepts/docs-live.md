@@ -12,6 +12,8 @@ query-count: 0
 
 Google 在 I/O 2026 推出的 Google 文件語音 AI 編輯功能；使用者用「白話傾吐」自然語速說話、Gemini 直接完成草稿撰寫、排版、跨服務資訊擷取與內容修飾、不必精準下指令或寫提示詞。
 
+<p align="center"><img src="assets/covers/docs-live-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **三類語音操作**：跨服務擷取（從 Drive 拉履歷、從 Gmail 拉活動時間地點）／排版與樣式控制（口頭「格式化成表格」「設為粗體」）／內容創意（口頭請 AI 想譬喻、活化生硬段落）

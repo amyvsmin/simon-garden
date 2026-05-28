@@ -13,6 +13,8 @@ query-count: 0
 
 在終端機用人類可讀的單字指令操作軟體的介面。介於 [[api]] 跟 GUI 之間：沒有畫面、但語法是英文單字而非函式呼叫，比 API 更貼近自然語言、又比 GUI 穩定。
 
+<p align="center"><img src="assets/covers/cli-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **比 GUI 穩定**：App 改版按鈕會搬家、指令格式幾乎不變

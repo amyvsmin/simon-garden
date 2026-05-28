@@ -14,6 +14,8 @@ created: 2026-05-05
 
 Claude Code 的事件觸發機制，在特定 session 事件（SessionStart / PreToolUse / PostToolUse 等）執行 shell 命令，特色是 100% 確定性執行、不依賴 AI 判斷。
 
+<p align="center"><img src="assets/covers/hooks-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **事件類型**：SessionStart、UserPromptSubmit、PreToolUse、PostToolUse、Stop、PreCompact 等

@@ -12,6 +12,8 @@ query-count: 0
 
 Google I/O 2026 推出的搜尋層代理人功能；24／7 監看特定主題、條件達成時主動通知附連結與摘要；使用者可建立、客製、管理多個代理人；搭配生成式介面（Generative UI）讓搜尋結果即時生成自訂互動元件、視覺化或 mini app；標誌 Google 搜尋從「人輸關鍵字 → Google 回連結」轉向「AI 主動分解問題 → 監控資料源 → 生成答案與介面」。
 
+<p align="center"><img src="assets/covers/information-agent-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **核心轉變**：從被動查詢（pull）到主動監看（push）；搜尋第一次有持續性記憶

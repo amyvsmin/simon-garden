@@ -8,6 +8,7 @@ concepts: [prompt-cache, token-saving-rules, context-rot]
 projects: []
 impact: high
 created: 2026-05-24
+source_images_backfilled: 2026-05-28
 tldr: "Anthropic 工程師 Thariq 實測每週省下 3 億 token。快取分三層（System → Project → Conversation），命中的 token 只收 10% 費用。"
 stage: growing
 icon: "⚡"
@@ -20,6 +21,8 @@ icon: "⚡"
 ## 摘要
 
 Anthropic 工程師 Thariq 公開分享 prompt caching 策略，實測每週省下超過 3 億 token。核心觀點是「上下文重用比減量更重要」。快取分三層（System 全域指令 → Project CLAUDE.md/memory → Conversation 對話歷史），快取命中的 token 只收正常 input 費用的 10%。TTL 在 Claude Code 訂閱制下是 1 小時、API 是 5 分鐘、subagent 固定 5 分鐘。三種行為會打破快取：切換模型、閒置超過 TTL、切 Opus plan mode。建議做法包括避免暫離超過一小時、用乾淨的 session handoff 取代 /compact、大文件放 Projects 層不要貼進對話。
+
+<p align="center"><img src="assets/covers/2026-05-24-anthropic-claude-code-cache-tips-cover.png" alt="封面圖" width="400"></p>
 
 ## 核心概念
 
@@ -72,6 +75,46 @@ Anthropic 工程師 Thariq 公開分享 prompt caching 策略，實測每週省�
 - 用乾淨的 session handoff 取代 /compact
 - 大文件放 Projects 層而非對話層
 - 用面板工具監控快取命中率
+
+<p align="center"><img src="assets/2026-05-24-anthropic-claude-code-cache-tips/01-e85b9e93.webp" alt="每日快取讀取量長條圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：數據圖表
+> 內容：「Daily cache reads」長條圖，時間軸涵蓋 2026-05-16 至 2026-05-21，Y 軸最高 1 億 token。浮示框顯示 2026-05-17 單日快取讀取量為 91,746,330 token，即文章標題「每週省 3 億 token」的具體數據來源。視覺化證明快取機制在實際使用中的規模效益。
+> 原文出處：文章截圖（Anthropic 內部儀表板，2026-05-17 實測）
+> 可檢索關鍵字：快取讀取量、3 億 token、每日快取統計
+
+<p align="center"><img src="assets/2026-05-24-anthropic-claude-code-cache-tips/02-d4f1f412.webp" alt="快取實際成本三項指標圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：資訊圖表
+> 內容：「What caching actually costs」列出三個關鍵數字：10%（快取命中 token 相比正常 input 的費用比例）、~1 小時（Claude Code 訂閱制的快取 TTL（存活時間））、5 分鐘（原始 API 與子代理的快取 TTL）。直接回答「快取省多少」與「能撐多久」兩個使用者最關心的問題。
+> 原文出處：文章截圖
+> 可檢索關鍵字：快取成本 10%、TTL 1 小時、subagent TTL 5 分鐘
+
+<p align="center"><img src="assets/2026-05-24-anthropic-claude-code-cache-tips/04-217c7c70.webp" alt="每輪對話快取前綴增長架構圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：架構圖
+> 內容：四輪對話橫向排列，每輪用區塊堆疊表示 context 組成：系統提示、專案脈絡、訊息、回覆。第 1 輪全部新建；第 2 輪系統提示與脈絡從快取讀取、只有新訊息和回覆是新計費；第 3 輪前綴快取更長；第 4 輪系統提示改動導致快取全部失效、重新計費。視覺化說明「前綴比對」機制與快取失效場景。
+> 原文出處：文章截圖
+> 可檢索關鍵字：快取前綴比對、每輪 context 重用、快取失效觸發
+
+<p align="center"><img src="assets/2026-05-24-anthropic-claude-code-cache-tips/05-72299168.webp" alt="系統提示五層快取架構圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：架構圖
+> 內容：「System Prompt Layout」垂直堆疊五層：Base System Instructions（全域快取）、工具定義（全域快取）、CLAUDE.md 與 memory（按專案快取）、Session State 包含環境設定、MCP 工具、輸出風格（按對話快取）、訊息（每輪增長）。呈現快取的三層分層架構，對應文章中「System → Project → Conversation」的說明。
+> 原文出處：文章截圖（來自 Thariq 的 X 貼文）
+> 可檢索關鍵字：系統提示分層快取、全域快取 vs 專案快取、CLAUDE.md 快取層
+
+<p align="center"><img src="assets/2026-05-24-anthropic-claude-code-cache-tips/06-5d828762.webp" alt="Token 儀表板總覽截圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：截圖（使用者儀表板）
+> 內容：Token Dashboard 總覽，最近 30 天：68 個對話、3,904 輪、74.5K input、3.2M output、317.6M 快取讀取、17.4M 快取建立、估算費用 $1,157.84。儀表板下方附按日長條圖，分工作量與快取讀取量兩條時間序列。作為「用面板監控快取命中率」建議的具體示範。
+> 原文出處：文章截圖（作者個人 Token Dashboard）
+> 可檢索關鍵字：Token Dashboard、快取命中率監控、317M 快取讀取
 
 ## 原文全文
 

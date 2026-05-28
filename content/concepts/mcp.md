@@ -14,6 +14,8 @@ created: 2026-05-05
 
 AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介面串接 Figma、Notion、Gmail、Calendar 等服務，被稱為「AI 世界的 USB-C」。
 
+<p align="center"><img src="assets/covers/mcp-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **標準化**：統一協議，各服務方各自實作 MCP server

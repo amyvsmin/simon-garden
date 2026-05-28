@@ -17,6 +17,8 @@ icon: "⚡"
 
 Obsidian 近期推出的 CLI（命令列界面）plugin 讓 Claude Code 能直接讀寫 Obsidian vault，把過去散落在多個 Claude Code 對話框、且每次 compact 之後就遺失上下文的工作狀態收斂到單一 vault。作者示範用三個核心檔（CLAUDE.md 規則／SessionHandoff.md 跨對話交接／Index.md 決策日誌）+ 每日「開工／收工」兩個自然語言指令，讓 AI 自動建立週任務追蹤表、依完成情況打勾、把延後任務重新規劃到後續日期。整個流程不需要客製腳本，只靠 vault 同一資料夾被 Claude Code 跟 Obsidian 共讀，加上 Obsidian Settings → 進階 → 命令列界面開啟註冊就能跑，是「降低阻力、AI 隨時間變聰明」典型實作。
 
+<p align="center"><img src="assets/covers/2026-05-05-obsidian-cli-claude-code-daily-loop-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[obsidian-cli-plugin]]：Obsidian CLI 是讓 Claude Code（或任何 CLI 型 AI agent）直接控制 Obsidian 的橋接介面，不再需要 MCP server 或客製整合

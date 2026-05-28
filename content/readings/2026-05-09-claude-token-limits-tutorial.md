@@ -18,6 +18,8 @@ icon: "⚡"
 
 YouTube 短影片（Notebook LM 配音）以「大師級實戰指南」包裝、四模組系統化講 Claude 訂閱戶的 token 控制：(1) 解密額度面板區分 Current Session／Weekly Limits／Extra Usage；(2) 四大省 token 守則（資料降噪、停錯誤堆疊、水位管理、模型適配）；(3) 斜槓指令 /compact /clear /context /btw；(4) 標準化 SOP 工作流。核心洞察是 token 不只是錢、更是 AI 智商空間，省 token 的真正動機是維持 AI 表現。
 
+<p align="center"><img src="assets/covers/2026-05-09-claude-token-limits-tutorial-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[claude-usage-dashboard]]：Claude 的額度面板其實有三層各自獨立的計量，搞混會誤判用量。**Current Session** 是當前對話的 token 水位（越高 AI 表現越差）；**Weekly Limits** 是訂閱帳號每週的總額度上限，用完就限速，這才是真正的「血條」；**Extra Usage** 是超出週額度後切換到按量計費模式，會直接扣錢。三者各自獨立計算，不能混為一談。

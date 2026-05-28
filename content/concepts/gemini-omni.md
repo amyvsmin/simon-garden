@@ -12,6 +12,8 @@ query-count: 0
 
 Google I/O 2026 發布的多模態生成模型；首發版本 Omni Flash；接續 Nano Banana 影像能力延伸到影片；輸入支援圖、文、影片、音訊組合；輸出影片內容並支援自然語言對話式編輯；含角色／物理／場景三類一致性；附 Avatars 用自己聲音生影片功能、附 SynthID 數位浮水印。
 
+<p align="center"><img src="assets/covers/gemini-omni-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **首發版本**：Omni Flash；接續 Nano Banana 影像能力、延伸至影片

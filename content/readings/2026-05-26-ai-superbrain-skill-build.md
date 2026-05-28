@@ -17,6 +17,8 @@ tldr: "一天內完成「資安 AI 超級大腦」全部 6 個步驟：10 篇事
 
 整個建構過程嚴格遵循李佳達老師的方法論：「不要直接讓 Claude 自己設計 skill，先用多平台 deep research 做調研，再把研究結果交給 Claude 綜合」。最終產出一個 [[claude-code]] incident-response skill，搭配每週自動執行的資安情報搜尋排程。
 
+<p align="center"><img src="assets/covers/2026-05-26-ai-superbrain-skill-build-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[incident-response]]：整個 skill 的核心就是事件回應。建構過程中從 NIST SP 800-61r3（完整下載 1,166 行）、Mandiant IR Best Practices 2025、M-Trends 2026 三份權威文件中提取 IR 框架，再結合 Simon 自身 10 件真實事件的處理經驗，設計出「6 階段引導式問答」取代傳統「事後回溯整理」的工作流。6 階段分別是：止血→初步判斷→報告準備（AI 主動生成）→老闆回饋→最終定案→結構化分析（AI 自動生成）。

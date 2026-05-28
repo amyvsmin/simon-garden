@@ -14,6 +14,8 @@ created: 2026-05-05
 
 把 Obsidian vault 當第二大腦資料層、Claude Code 當讀寫與處理層的個人知識管理組合，本地化、私有化、可隨時間演進。資料以 Markdown 檔案形式留在本機，AI 透過 CLAUDE.md 與資料夾 instructions.md 雙層導航讀寫。
 
+<p align="center"><img src="assets/covers/obsidian-claude-code-workflow-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **vault 結構設計**：context/ 放個人資訊與表達風格、每個資料夾放 instructions.md 給 AI 局部地圖、根目錄 CLAUDE.md 當總入口

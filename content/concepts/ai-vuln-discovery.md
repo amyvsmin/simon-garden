@@ -14,6 +14,8 @@ created: 2026-05-05
 
 研究人員借助大型語言模型（如 Anthropic Claude Opus）協助閱讀原始碼、推理邏輯瑕疵、產生 PoC 的新興工作流；本案 Deutsche Telekom 用 Claude Opus 發現潛伏 14 年的 PackageKit 漏洞。
 
+<p align="center"><img src="assets/covers/ai-vuln-discovery-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - LLM 補強人類在大型 codebase 的注意力極限

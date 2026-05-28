@@ -13,6 +13,8 @@ query-count: 0
 
 AI 操控軟體時的工具優先順序——CLI > API > MCP > Browser Use。核心原則：越底層、越可控的協定優先使用，瀏覽器自動化是最後手段。能用一行 shell 指令解決的事不要包成 MCP server，能用 REST API 拿到資料的不要開瀏覽器模擬點擊。出處：雷蒙迷你課 2-3「把工具授權給 AI、組合出你的每日工作流」+ 部落格長文 `how-ai-controls-software-api-cli-mcp-browser-use`。雷蒙原版只列 API > MCP > Browser Use 三層，Simon 從 IT 工程師視角補上 CLI 作為第一優先。
 
+<p align="center"><img src="assets/covers/cli-api-mcp-priority-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **CLI 第一**：能用 `gh`／`git`／`curl`／`wrangler`／`ffmpeg`／`python3` 一行解決就先用；輸出可控、不吃脈絡、可組合 pipe

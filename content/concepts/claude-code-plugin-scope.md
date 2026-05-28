@@ -18,6 +18,8 @@ created: 2026-05-22
 
 [[claude-code]] plugin 安裝時的三層作用域選項，決定 plugin 寫在哪、影響哪些對話、會不會跟著 repo 走。User／Project／Local 三選一、對應「個人習慣性工具／團隊統一工具／自己亂試」三種使用情境。
 
+<p align="center"><img src="assets/covers/claude-code-plugin-scope-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **User scope**：plugin 寫到使用者帳號底下（個人 `~/.claude/` 等位置）、所有專案共用；適合個人習慣性工具（例如自家 KW γ skill、course-notes、復盤 skill 這類跨專案 skill）；不會 commit 出去、不會影響別人

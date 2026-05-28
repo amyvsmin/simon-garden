@@ -17,6 +17,8 @@ icon: "🛡️"
 
 趨勢科技 TrendAI 資深威脅研究員 Nick Dai 與 Sunny W Lu 在 CYBERSEC 2026 拆解東南亞 APT「Earth Kurma／EarthMaker」自 2020 年 11 月起的工具鏈與內網潛伏手法，鎖定菲律賓、越南、汶萊、馬來西亞、泰國、印尼的政府單位與電信商。攻擊鏈分為初始入侵（利用網站漏洞 + Aurora Backdoor）→ 橫向移動（NBTScan／Nessus／FRPC + 自製 ICMPinger／keylogger）→ 持久化（KRK／Moriya／MMLOAD 多種 rootkit + Doppelganger 等 loader）→ 資料竊取（PowerShell + Audrey's／SimpleBoxSpike／SimpleWebExSpike）。技術重點是 MMLOAD/Yadnux 多階段反射式載入器透過 Google.sys／Boot.sys 在記憶體載入未簽章驅動繞過 Windows DSE，再由 NsdiProxy 注入 svchost、隱藏檔案／登錄、移除 ObRegisterCallbacks 反監控；以及創新濫用 Cisco Webex 會議室（建立 keep／message／file／shell 四個會議室分工）作為 C2 與資料外洩通道、加上 DFSR/SysVol 跨 DC 搬運資料。後門家族迭代清楚：door loader（2022-11）→ test state（2024-01）→ dataloader（2024-10）→ Dolby Vision（2024-11 至今）。
 
+<p align="center"><img src="assets/covers/2026-05-05-earth-kurma-apt-rootkit-cybersec-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[earth-kurma]]：一個自 2020 年 11 月起活躍的東南亞 APT（進階持續性威脅）組織，主要攻擊菲律賓、越南、汶萊、馬來西亞、泰國、印尼的政府單位與電信商。趨勢科技研究員在 CYBERSEC 2026 完整拆解了他們從入侵、橫向移動、持久化到資料竊取的全攻擊鏈，並發現其工具與 Lazarus、Tunnel Snake、Sharp Dragon 等已知 APT 有關聯跡象。

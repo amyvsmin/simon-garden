@@ -11,6 +11,8 @@ created: 2026-05-10
 
 把同樣 15 頁文件丟進 Claude，PDF 格式會消耗約 4 萬 token、轉成 Markdown 純文字只要 2000 token，相差 20 倍。差距來源：PDF 帶大量結構化標籤、版面定位資訊、字型 metadata、嵌入物件，這些對 AI 推理沒貢獻但全部要算錢。
 
+<p align="center"><img src="assets/covers/markdown-vs-pdf-token-cost-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **20 倍差距是實測量級**：原文教學以 15 頁文件為實例、4 萬 vs 2000、不是邊角案例

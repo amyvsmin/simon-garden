@@ -20,6 +20,8 @@ created: 2026-05-26
 
 HC 在直播中用 Claude Code 現場示範如何從零打造一份互動式 HTML 教學簡報。起點是 Anthropic 工程師 Thariq 提出的「HTML 取代 Markdown」論點——Markdown 是給程式讀的、HTML 是給人讀的。HC 把這個論點落地到教學場景：AI Agent 做完事要回報給人類，人類得讀懂才能做決策，而讀 Markdown 很吃力、讀 HTML 簡報省腦力。整場直播從純文字 HTML 簡報開始，逐步加底圖（gpt-image-2 生成）、用 AI 畫一張大圖放多個小圖標再裁切出來取代 emoji（比逐張生成省成本）、Firebase 即時互動（文字雲讓觀眾現場輸入）、滑桿視覺化（拖拉看 Markdown→HTML 的可讀性變化），最後把整個流程打包成 Claude Code skill。
 
+<p align="center"><img src="assets/covers/2026-05-26-yt-hc-html-presentation-ai-agent-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[html-vs-markdown-ai-output]]：HC 對 Thariq 論點的補充——重點不只是「HTML 比較好看」，而是 AI Agent 時代下人類的注意力是稀缺資源。當你同時開三個 Agent 做事，每個 Agent 回報結果你都要讀，讀 Markdown 耗腦力、讀 HTML 省腦力，省下來的腦力讓你做更好的決策。超過 100 行的文件，HTML 的可讀性遠優於 Markdown。

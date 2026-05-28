@@ -13,6 +13,8 @@ query-count: 0
 
 當 AI 執行同一個需求卻出現跟上次不一樣的結果時，不去研究 LLM 內部機制或 Claude Code 內部運作，而是把正確做法寫成規則（CLAUDE.md／rules／user-memory）讓它下次照做。出處：雷蒙迷你課 2-1「讓 AI 記住你的偏好」。
 
+<p align="center"><img src="assets/covers/claude-md-reflexive-law-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **第一反射改規則、不查內部**：AI 不照預期做事時，直覺反應應該是「補一條規則告訴它正確的做法」，不是去研究 Claude Code 為什麼會這樣。例如 Claude 每次寫 vault 都跑出簡體字，解法是在 CLAUDE.md 加自檢清單，不是去翻 tokenizer 偏好

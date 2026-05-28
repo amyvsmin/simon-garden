@@ -11,6 +11,8 @@ created: 2026-05-10
 
 Claude 桌面／網頁版額度顯示拆三層：Current Session（當前會話的單次記憶佔用）、Weekly Limits（整個帳號跨會話的週期總血條）、Extra Usage（用完總額後切換到按量計費的額外用量）。三層彼此獨立、混淆任一層都會誤判實際耗用。
 
+<p align="center"><img src="assets/covers/claude-usage-dashboard-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **Current Session 是會話內記憶水位**：百分比反映歷史對話塞了多少 context、逼近 100% 時模型處理新任務能力下降，跟整體帳號額度無關

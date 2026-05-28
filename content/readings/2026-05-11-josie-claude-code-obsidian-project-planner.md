@@ -20,6 +20,8 @@ icon: "⚡"
 
 Josie 分享她從 2023 年起在 Obsidian 累積 50+ 專案筆記、現在用 Claude Code（Claudian plugin）讓 AI 接手部分管理工作的演進路徑。核心發現：AI 不該直接幫你拆任務、會大量腦補不必要事項；正確做法是先讓 AI 做 cluster 分組、再用既有 template 當 reference、最後透過 AskUser 訪談式互動鎖定真正需要的任務。成功的對話流程封裝成 skill 可重複觸發；完成的專案再抽出 template 加入下次 reference、形成自滾動成長的 pipeline。
 
+<p align="center"><img src="assets/covers/2026-05-11-josie-claude-code-obsidian-project-planner-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[ai-task-clustering]]：讓 AI 管理任務的第一步不是叫它幫你拆解任務，而是只請它「分組」。你把一堆零碎待辦丟給 AI，只說「幫我分組，不要動我的內容」。AI 在這種受限任務裡最穩定，因為分組只需要理解語意相似度，不需要猜你想怎麼做，腦補空間最小。直接叫 AI 拆任務反而容易產出一堆你根本不需要的事項。

@@ -17,6 +17,8 @@ icon: "🛡️"
 
 Google Cloud 全球資安解決方案架構師陳偉霆（William Tam）在 CYBERSEC 2026 演講，臨時把原訂題目改成過去一個月 AI 找漏洞能力大爆發後的緊急應對。重點訊息：CVE 從公開到出現實際武器化攻擊的平均時間從 24 小時壓縮到 8 秒，企業必須以「短期縮小攻擊面、中期 Agentic SecOps 自動化、長期自我修復系統」三階段框架因應。Google 自家工具鏈包括 Mythos（Anthropic × Vertex AI 私測，已找出數千個高嚴重性漏洞）、Big Sleep（DeepMind AI bug hunter，已揭露 SQLite CVE-2025-6965）、CodeMender（自動修補，6 個月對上游提交 72 項修復）。框架層提出 SAIF（Secure AI Framework）、Assured Open Source Software（AOSS）、Security Command Center 的 AI Protection、Cloud Model Armor、跟 Mandiant 顧問服務。Demo 重頭戲是收購自 Wiz 的多代理（Green/Blue/Rule/Red Agent）跨雲風險平台，從發現 → 調查 → 修補建議 → 指派 repository owner 全閉環，已逼近 self-healing 雛形。
 
+<p align="center"><img src="assets/covers/2026-05-05-google-cloud-agentic-secops-cybersec-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[agentic-secops]]：用 AI 代理來驅動資安維運中心（SOC）的完整閉環——從偵測告警、自動分揀優先序、調查根因、產生回應建議、到改進偵測規則，取代過去大量依賴人力的流程。Google 在自家 Security Operations 平台裡用 Gemini 做到讓分析師寫查詢語法的速度提升 76%。講者把企業因應 AI 時代資安的策略分成三階段：短期縮小攻擊面、中期用 Agentic SecOps 自動化、長期走向能自我修復的 AI 系統。

@@ -22,6 +22,8 @@ Simon 的 Obsidian 知識庫有三個 Claude Code skill 負責不同來源的內
 
 2026-05-27 到 05-28，Simon 和芙莉蓮花了兩天完成 `to-md.py`：一支 Python CLI 工具，統一處理四種來源（web / youtube / pdf / transcript）的文字清洗。程式做確定性的機械活，Claude 只做需要理解力的結構化。中間踩了五個坑、兩次架構方向錯誤，最終產出 326 行腳本 + 三個 skill 修改 + 統一 venv 遷移。
 
+<p align="center"><img src="assets/covers/2026-05-28-to-md-build-log-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[deterministic-ai-boundary]]：這個專案的核心設計原則。斷行合併、OpenCC 簡繁轉換、頁首頁尾偵測這些工作，邏輯可以寫成 if-else 和正則表達式，結果是確定的。讓 LLM 做這些事不只浪費 token，還會偶爾產出不一致的結果（有時漏刪時間戳、有時多留一個空行）。把這條邊界畫清楚，程式做到哪、AI 從哪接手，是整個設計的起點

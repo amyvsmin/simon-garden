@@ -12,6 +12,8 @@ query-count: 0
 
 把已發布的舊文章重新拉回讀者 Notes 動態牆的 Substack 站內機制。核心邏輯：你一直在成長、每月新訂閱者沒看過你舊文、舊文對他們等於新內容。每篇文章可拿到至少 3 次主動曝光機會。
 
+<p align="center"><img src="assets/covers/substack-resurfacing-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **3 種曝光手法**：

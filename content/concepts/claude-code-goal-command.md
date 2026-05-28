@@ -12,6 +12,8 @@ query-count: 0
 
 Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一個完成條件，Claude 跑完一輪後由背景小模型（預設 Haiku）讀整段對話判斷條件是否達成、未達成就再起一輪、達成就自動清掉 goal、整段 session 不用手動敲確認。
 
+<p align="center"><img src="assets/covers/claude-code-goal-command-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **本質**：包裝成 session-scoped 的 [[hooks|prompt-based Stop hook]]，每輪結束自動跑評估器；不是獨立新機制

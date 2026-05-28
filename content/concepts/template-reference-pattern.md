@@ -13,6 +13,8 @@ query-count: 0
 
 請 AI 執行新任務時、餵給它使用者過去做過的同類型實際案例當 reference、強制 AI 用使用者的脈絡而不是訓練資料裡的通用 best practice 來思考。核心信念：**個人語料 > 全網通用語料**、特別是當任務跟使用者的私有流程／偏好深度相關時。
 
+<p align="center"><img src="assets/covers/template-reference-pattern-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **資料來源**：使用者過去 N 個月／N 年累積的同類型筆記、報告、產出

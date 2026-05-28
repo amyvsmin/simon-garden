@@ -12,6 +12,8 @@ query-count: 0
 
 Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人入口」的系統級競賽；不是單純工具切換、而是決定未來在哪個介面完成工作的作業系統層級競爭、類比十年前 iOS vs Android。
 
+<p align="center"><img src="assets/covers/agent-os-competition-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **入口從瀏覽器移到桌面代理人**：桌面 AI app 取代瀏覽器成為知識工作新入口；Claude for Work、Codex Desktop、ChatGPT Desktop、Grok 等都在搶這個位

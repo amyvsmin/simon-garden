@@ -18,6 +18,8 @@ icon: "⚡"
 
 海大叔整理的 Claude Code 從 install 到進階用法完整教學：跨平台安裝（Windows 需 Git + PowerShell、Mac 用 Terminal）、VS Code 整合 + Plan Mode、三個模型 Haiku / Sonnet / Opus 用 /model 切換、CLAUDE.md 作為重要備忘錄、Skills 可用 GitHub URL 安裝、Hooks 條件觸發 100% 執行、Subagents 並行任務分派、MCP 接 Notion / Gmail / Calendar、進階指令 /init / /compact / /plugins / /Account、以及 Vibe Coding 實驗。強調 Plan Mode + Opus 是複雜專案「先規劃、再動手」的關鍵組合。
 
+<p align="center"><img src="assets/covers/2026-05-02-haiuncle-claude-code-intro-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[claude-code]]：Anthropic 推出的終端型 AI 助手，直接在命令列裡跟你對話、讀寫檔案、執行程式。海大叔示範了跨平台安裝（Windows 需先裝 Git + PowerShell、Mac 用 Terminal）、VS Code 整合，以及三個模型 Haiku／Sonnet／Opus 之間用 `/model` 即時切換。

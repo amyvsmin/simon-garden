@@ -14,6 +14,8 @@ created: 2026-05-05
 
 把大腦不擅長的記憶、整理、檢索外包給數位系統的個人知識管理範式，目的是釋放大腦做思考、創作、決策。Tiago Forte 在《Building a Second Brain》中提出 CODE 流程（Capture / Organize / Distill / Express），核心是降低收錄阻力 + 結構化提取 + 隨時間累積。
 
+<p align="center"><img src="assets/covers/second-brain-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **核心精神**：捕捉 → 組織 → 提煉 → 輸出，閉環設計避免「收了就忘」

@@ -14,6 +14,8 @@ created: 2026-05-05
 
 用 vault 根目錄 CLAUDE.md 當總目錄、各資料夾 instructions.md 當局部地圖的兩層 AI 導航設計，讓 Claude Code 不必掃整個 vault 就能找到該讀什麼。第一層介紹整體架構與資料夾用途，第二層說明該資料夾的具體規則與輸入輸出格式。
 
+<p align="center"><img src="assets/covers/claude-md-dual-nav-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **第一層 CLAUDE.md**：vault 根目錄，內容為「我是誰」+「資料夾地圖」+「全域偏好」+「跨資料夾規則」

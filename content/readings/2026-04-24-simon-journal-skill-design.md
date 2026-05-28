@@ -17,6 +17,8 @@ icon: "📊"
 
 2026-04-24 完整設計記錄：Simon 把日記流程從 ChatGPT GPTs「AI 生產力日記助手」搬到 Claude Code `/journal` skill。核心反轉是動機優先序：從「資料主控」改成「簡化流程 > 資料主控」。決策骨幹為 Notion 當日記 sink、Obsidian vault 當 WIKI 知識、Heptabase 退訂；入口採目錄即觸發（C9）、純接收 + 即時落地（A3 + C7）；輸出結構三段本文 + 8 位導師池挑 3。Phase 1–5 Notion 回寫測試全綠，發現 MCP 不支援封存、rich text 可行但 Simon 選純文字方向 A、冪等需 fetch-then-replace、API 會回暫時 502 須重試。下一步實作 skill 本體、自試實測、週復盤機制設計。
 
+<p align="center"><img src="assets/covers/2026-04-24-simon-journal-skill-design-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[reverse-skill-design]]：設計新 skill 時不從零開始寫規格，而是先撈出過去已經在用的產出（這裡是 5 篇用 ChatGPT GPTs 寫的舊日記），逐題反推出格式、行為、控制流等所有規則。好處是規則來自真實使用習慣，不是憑空想像，做出來的 skill 自然貼合需求。

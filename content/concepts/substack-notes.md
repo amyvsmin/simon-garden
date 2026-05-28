@@ -12,6 +12,8 @@ query-count: 0
 
 Substack 站內的短貼文功能，形式類似 X／Threads，篇幅短、即時性高，是 Substack **最主要的站內自然曝光機制**——新讀者主要透過 Notes 探索頁面發現創作者、進而訂閱長文。
 
+<p align="center"><img src="assets/covers/substack-notes-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **跟長文的分工**：長文建立深度與讀者信任、Notes 建立曝光與發現（觸達不認識你的人）

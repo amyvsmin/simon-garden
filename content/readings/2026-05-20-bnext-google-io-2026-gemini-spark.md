@@ -21,6 +21,8 @@ icon: "⚡"
 
 Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作業系統競賽：[[gemini-spark]] 把 Gemini 從聊天機器人升級為跨 Workspace（Gmail/Calendar/Drive 等 8 個原生服務）代理人、底層跑 [[gemini-flash]]；3.5 Flash 即日全球開放、輸出 token 速度比其他前沿快 4 倍、定位代理人時代預設工作馬；Google 搜尋升級為 [[information-agent]]、可 24/7 監看主題、自動通知、配 Generative UI 即時組互動 mini app；[[gemini-omni]] Omni Flash 接續 Nano Banana 延伸影片生成、含 Avatars 用使用者聲音生影片+SynthID 浮水印。訂閱方案重整：AI Ultra 新增 $100/月、原 $250 降 $200；計費邏輯重大改變、從「次數上限」轉 [[compute-based-pricing]]（運算量計費）+ pay-as-you-go 點數加買。Spark 下週給美國 AI Ultra 用戶 Beta 測試、台灣暫不可用；3.5 Pro 下月推出；開發者 API 數週內。整體訊號明確：Google 把 Gemini 全面推向「會行動」、跟 Anthropic／OpenAI 拉開差異化主軸是 Workspace 生態深度 + Flash 速度 + 搜尋整合。
 
+<p align="center"><img src="assets/covers/2026-05-20-bnext-google-io-2026-gemini-spark-cover.png" alt="封面圖" width="400"></p>
+
 ![[2026-05-20-bnext-google-io-2026-gemini-spark-gemini-spark.png|275]]
 
 ## 核心概念

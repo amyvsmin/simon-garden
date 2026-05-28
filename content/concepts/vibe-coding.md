@@ -14,6 +14,8 @@ created: 2026-05-05
 
 Andrej Karpathy 2025 提出、以自然語言跟 AI 描述需求並讓 AI 全程實作代碼、人類只在「跳出來改 bug」時介入的軟體開發風格。關鍵是不看代碼只看需求與結果，代言人、個人創作者快速造 prototype 的主流路徑。
 
+<p align="center"><img src="assets/covers/vibe-coding-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **適用門檻**：個人專案、prototype、Chrome extension、內部 tool、hackathon，長期生產環境代碼仍需人審核

@@ -12,6 +12,8 @@ last-validated: 2026-05-10
 
 在 AI 工作流中、需要人類確認 AI 提案的關鍵決策時刻、用互動式 UI（按鈕／卡片／即時更新摘要）取代靜態文字牆的設計範式。核心主張是「強迫人類以靜態 Markdown 完成關鍵確認、本身是設計失誤」；認知負擔應該在介面層被處理掉、而不是丟給人類用文字描述。
 
+<p align="center"><img src="assets/covers/interactive-confirmation-ui-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **典型情境**：AI 提出重構計畫、5 個模組 × 2-3 個選項；Markdown 呈現要讀整段文字、腦中建對應關係、再逐一回覆偏好；HTML 卡片用按鈕選擇、即時看到組合結果

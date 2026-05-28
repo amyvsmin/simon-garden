@@ -21,6 +21,8 @@ created: 2026-05-26
 
 這支影片從「AI 為什麼做到一半就停」切入，拆解三件事：① Claude Code、Codex、Hermes Agent 同時推出 /goal 功能的背後原因是 [[context-anxiety]]（Anthropic 2025 年底研究發現 LLM 感知 context 快滿就提前收工）；② 好的 goal prompt 需要五個要素（Outcome、Verification、Constraints、Iteration policy、Error handling）；③ 對品質型任務（寫作、設計），真正的關鍵不是 prompt 也不是 context，而是 [[ai-evaluation-rubric]]——你能不能把腦中模糊的「好」拆成 AI 評審可以打分的結構化量表。影片用 Anthropic 的網頁設計研究（四維度評分 + 加重弱項權重 + Playwright 截圖打分）做案例，最後給出六步驟建 rubric 的 SOP。
 
+<p align="center"><img src="assets/covers/2026-05-26-yt-goal-evaluation-rubric-long-tasks-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[context-anxiety]]：Anthropic 研究發現 LLM 執行長任務做到一半停下來的根本原因。模型在訓練中學會「context 快滿 = 該收工」的模式，表現為突然寫漂亮的總結、說「我完成了」、或反問使用者要 A 還是 B 把球丟回來。影片作者稱之為「下班心態」——刻在 LLM 基因裡的惰性。

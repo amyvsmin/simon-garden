@@ -11,6 +11,8 @@ created: 2026-05-10
 
 針對 Claude 訂閱戶長對話場景的 token 控制四原則：資料降噪（轉 Markdown 再丟）、停止錯誤堆疊（用 Edit 改源頭不要罵 AI）、對話水位管理（15 句來回就壓縮）、模型適配（日常用 Sonnet 不要全程 Opus）。背後邏輯是 token 不只是錢、更是 AI 的智商空間。
 
+<p align="center"><img src="assets/covers/token-saving-rules-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **資料降噪**：同樣 15 頁文件，PDF 直丟燒 4 萬 token、轉 Markdown 只要 2000 token，20 倍差距；參考 [[markdown-vs-pdf-token-cost]]

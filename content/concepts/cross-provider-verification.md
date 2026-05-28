@@ -12,6 +12,8 @@ query-count: 0
 
 讓不同 AI 供應商的模型分別負責「產出」與「審查」——例如 Codex 寫程式碼、Claude Code 做 code review——藉此利用不同模型家族各自不同的盲點互相補漏的驗證策略。
 
+<p align="center"><img src="assets/covers/cross-provider-verification-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **為什麼不能讓同一模型自評**：寫程式碼的模型有 [[sycophancy]]（諂媚傾向），會偏向認為自己產出的東西是對的，自我 review 多半只給正面評價，抓不到真問題

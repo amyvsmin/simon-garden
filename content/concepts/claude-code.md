@@ -14,6 +14,8 @@ created: 2026-05-05
 
 Anthropic 推出的終端型 AI 助手，運行於本地 shell，具備完整「讀檔、改檔、跑指令、搜資料、串服務」的自主迴圈能力，是 Claude 三大產品線中自主性最高的一端。
 
+<p align="center"><img src="assets/covers/claude-code-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **執行環境**：本地 terminal，需安裝 `claude` CLI；跨平台支援 macOS / Linux / Windows（WSL）

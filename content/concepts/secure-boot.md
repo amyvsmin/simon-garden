@@ -14,6 +14,8 @@ created: 2026-05-05
 
 配合密碼簽署，確保開機載入器、韌體、作業系統核心皆來自可信來源，未通過簽章驗證的程式碼無法執行；是抵禦韌體層植入與電源調節器後門的核心控制。
 
+<p align="center"><img src="assets/covers/secure-boot-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 信任鏈從硬體 root of trust 開始

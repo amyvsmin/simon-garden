@@ -21,6 +21,8 @@ created: 2026-05-26
 
 脈報（思思）拆解 X 用戶 Avid 從 12 個月 Claude Code 轉用 Codex 30 天的長推文。文章定位是「Codex 心智模型更新」而非「轉換指南」——Avid 沒給 benchmark 或成本對比，整篇是主觀體驗整理，文末有 Sonnet 4.6 編輯的 disclaimer。脈報主筆判斷：文章真正最被低估的洞察不是「該不該轉 Codex」，而是 [[cross-provider-verification]]——讓兩個不同供應商的模型一個寫、一個審，利用各自盲點互補。對已養成 Claude Code 習慣的人，新增一個 reviewer 角色比重建整套工作流容易太多。
 
+<p align="center"><img src="assets/covers/2026-05-26-heymaibao-claude-code-to-codex-30-days-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[cross-provider-verification]]：文章最值錢的一句是「Generation is solved. Verification is the bottleneck.」五個並行 cloud PR 就是五次出 bug 的機會。核心問題是 [[sycophancy]]（諂媚傾向），寫程式碼的模型偏向覺得自己寫的對。結構解法有兩層：Codex 內建的 `auto_review`（同供應商 fresh context reviewer）和 cross-provider verification（跨供應商，例如 Codex 寫、Claude Code 審）。

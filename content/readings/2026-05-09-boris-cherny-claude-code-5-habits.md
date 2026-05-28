@@ -18,6 +18,8 @@ icon: "⚡"
 
 Inside 報導 Anthropic Claude Code 工程主管 Boris Cherny 親自示範的 5 個高效習慣：(1) 進新 codebase 先 Q&A 不要直接改程式 (2) 大改動前先讓 AI 規劃 (3) 給 AI 驗證方式進入自我修正循環 (4) 用 CLAUDE.md 建立專案記憶 (5) 平行 5 視窗 + git worktree 一天送 30 PR。核心心法是把 AI 當工程夥伴、用 vibe coding 的協作姿態取代「下指令」式使用、CC 是設計成適應你的工作流而不是強迫你改變習慣。
 
+<p align="center"><img src="assets/covers/2026-05-09-boris-cherny-claude-code-5-habits-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[claude-code-onboarding-qa]]：進入一個不熟悉的 codebase 時，不要一開始就讓 AI 動手改程式碼，而是先讓它當顧問做 Q&A——問它「這個 repo 的架構是什麼？」「這段程式碼為什麼這樣寫？」。Boris 說 Anthropic 內部新工程師的 onboarding 因此從幾週縮短到幾天，因為 AI 能快速閱讀整個 codebase 並回答脈絡性問題，省去大量翻文件跟問同事的時間。

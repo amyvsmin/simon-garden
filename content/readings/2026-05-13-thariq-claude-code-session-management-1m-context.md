@@ -12,11 +12,14 @@ reviewed: 2026-05-18
 tldr: "Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M 上下文時代的會話管理心法。核心觀念是「每一轉都是分岔點」——五個選項（繼續／回溯／清除／壓縮／子代理）對應不同情境。"
 stage: growing
 icon: "⚡"
+source_images_backfilled: 2026-05-28
 ---
 
 ## 摘要
 
 Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M 上下文時代的會話管理心法。核心觀念是「每一轉都是分岔點」——五個選項（繼續／回溯／清除／壓縮／子代理）對應不同情境。重點概念：context rot（上下文腐爛）指長對話模型效能下降；`/rewind`（Esc Esc）回溯到任何先前訊息重新開始；`/compact <提示>` 主動壓縮帶提示比被動觸發更精準；`/clear` 由使用者撰寫摘要，最精確但成本最高；subagents 適合產出大量中間結果但只要結論的任務（codebase 搜尋／驗證／文件）；`/usage` 監控會話水位。心智測驗「我需要工具輸出本身、還是只需要結論」決定要不要走 subagent。
+
+<p align="center"><img src="assets/covers/2026-05-13-thariq-claude-code-session-management-1m-context-cover.png" alt="封面圖" width="400"></p>
 
 ## 核心概念
 
@@ -46,6 +49,54 @@ Anthropic Thariq Shihipar 2026-04-15 官方部落格，講 Claude Code 在 1M �
 - `/clear` 由使用者撰寫摘要、最精確但成本最高、適合啟動全新任務
 - Subagent 心智測驗：「我需要此工具輸出本身嗎，還是只需結論？」
 - `/usage` 新斜線命令：監控會話大小跟 context 消耗
+
+<p align="center"><img src="assets/2026-05-13-thariq-claude-code-session-management-1m-context/01-841424ca.png" alt="Context window 組成架構圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：架構圖
+> 內容：Context window 的六大組成區塊橫向排列：系統提示、CLAUDE.md、對話歷史、工具呼叫與輸出、已讀取的檔案、剩餘空間，最右端標示 1,000,000 tokens 的硬性上限。清楚呈現「會話水位」的物理構成，對應 `/usage` 監控的對象。
+> 原文出處：Anthropic 官方部落格（2026-04-15）
+> 可檢索關鍵字：context window 組成、token 上限、系統提示佔比
+
+<p align="center"><img src="assets/2026-05-13-thariq-claude-code-session-management-1m-context/02-2080b9a7.png" alt="上下文腐爛與壓縮機制示意圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：流程圖
+> 內容：漸層色條模擬 context window 從「清晰」到「腐爛」的退化過程，碰到 1M 硬限後以虛線箭頭引導「壓縮：摘要後繼續」，新視窗只帶入摘要加上新內容，舊雜訊被截斷。直觀說明為何 context rot 不是比喻，而是可測量的退化。
+> 原文出處：Anthropic 官方部落格（2026-04-15）
+> 可檢索關鍵字：context rot、壓縮時機、70% 水位
+
+<p align="center"><img src="assets/2026-05-13-thariq-claude-code-session-management-1m-context/03-5ec9c7fb.png" alt="五種分岔點的 context 保留量對照圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：架構圖
+> 內容：橫軸為「保留多少舊 context」（從完全捨棄到完整保留），五種選項由左至右排列：全新會話（只帶你的提示）／壓縮（有損摘要）／子代理（全帶但只回結論）／回溯（保留前綴、截斷後段）／繼續（全部保留）。一張圖統整五個決策選項的 trade-off（取捨）。
+> 原文出處：Anthropic 官方部落格（2026-04-15）
+> 可檢索關鍵字：rewind compact clear subagent 五種選項、context 保留策略
+
+<p align="center"><img src="assets/2026-05-13-thariq-claude-code-session-management-1m-context/04-ee7daa26.png" alt="修正路徑 vs 回溯路徑對比圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：流程圖
+> 內容：上下兩列對比：「修正路徑」是讀檔 → 嘗試 A 失敗 → 補正指令 → 嘗試 B 失敗 → 再補正 → 嘗試 C 成功，context 累積兩次失敗嘗試加兩次補正；「回溯路徑」是讀檔 → 嘗試 A 失敗 → Esc Esc 回到起點 → 一次有效提示 → 嘗試 C 成功，context 只留起點前綴加一次有效提示。視覺化說明 /rewind 如何降低 context 雜訊。
+> 原文出處：Anthropic 官方部落格（2026-04-15）
+> 可檢索關鍵字：rewind vs 修正、Esc Esc、context 瘦身
+
+<p align="center"><img src="assets/2026-05-13-thariq-claude-code-session-management-1m-context/05-6eb3edd8.png" alt="/compact 與 /clear 的選擇決策圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：架構圖
+> 內容：從「長會話」出發分成兩條路：左側 `/compact` 產出模型寫的摘要（有損、便宜、中途維持動力）；右側 `/clear` 產出使用者手寫的摘要加全新起點（精確、成本高、適合高風險下一步）。對應「主動壓縮帶提示」與「清除後手寫交接棒」兩種工作流。
+> 原文出處：Anthropic 官方部落格（2026-04-15）
+> 可檢索關鍵字：compact vs clear、主動壓縮、手寫摘要
+
+<p align="center"><img src="assets/2026-05-13-thariq-claude-code-session-management-1m-context/06-8dbac4bc.png" alt="子代理垃圾回收機制架構圖" width="500"></p>
+
+> **圖像解讀**
+> 類型：架構圖
+> 內容：母 context 包含使用者提示加 Task("explore auth/")，派生出子代理 context，其中有 20 次讀檔、12 次 grep、3 條死路；子代理退出時只有最終報告回到母 context，其餘探索雜訊被「垃圾回收」。圖說：「探索雜訊在子代理退出時被垃圾回收」。對應「只需要結論就丟子代理」的心智測驗。
+> 原文出處：Anthropic 官方部落格（2026-04-15）
+> 可檢索關鍵字：subagent 垃圾回收、探索雜訊、子代理隔離
 
 ## 原始連結
 

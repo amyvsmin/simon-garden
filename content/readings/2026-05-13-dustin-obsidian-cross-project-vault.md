@@ -18,6 +18,8 @@ icon: "⚡"
 
 Dustin 示範用 Obsidian 當跨專案知識庫主軸，解決 Claude Code 在多專案間的「上下文視窗滿了」「跨專案連線斷裂」兩大痛點。核心是 wikilink 突破傳統樹狀資料夾結構——讓不同子目錄下的文件能跨層連線、AI 讀到某檔案時自動跳到關聯檔案讀全貌；不依賴向量資料庫、純語意連線。實作建議是 Plan Mode 起跑（請 AI 調查現有專案 + 上網找用法 + 問你問題）、安裝官方 Obsidian skill 讓 Claude 用 CLI 操作 vault；最重要的觀念是知識庫不是一夜建好的，從 projects + pillars 兩個資料夾起步、隨著使用逐步長出 decisions／日誌／週報／personal／insight／書籤等等。
 
+<p align="center"><img src="assets/covers/2026-05-13-dustin-obsidian-cross-project-vault-cover.png" alt="封面圖" width="400"></p>
+
 ## 核心概念
 
 - [[wikilink-cross-folder]]：Obsidian 的 wikilink（`檔名`）不受資料夾層級限制——A 資料夾的檔案可以直接連到 B 資料夾的檔案。對 AI 來說這很關鍵：它讀到某個檔案時，看到 wikilink 就能自動跳過去讀關聯檔案，等於順著語意連線把分散在不同目錄的知識串起來，不再被樹狀結構困住。傳統資料夾結構下，AI 只能讀到當前目錄的內容，跨目錄的脈絡全靠人手動交代。

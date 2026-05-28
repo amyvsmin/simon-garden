@@ -12,6 +12,8 @@ query-count: 0
 
 以量子電腦也算不出來的數學基礎（lattice、code-based、hash-based、multivariate）取代傳統 RSA／ECC 的下一代加密技術。NIST 在 2024 年正式標準化第一批演算法（Kyber、Dilithium、Falcon、SPHINCS+）；全球大企業在做密碼遷移（Cryptographic Migration）。
 
+<p align="center"><img src="assets/covers/post-quantum-cryptography-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **遷移範圍廣**：包括 HTTPS／VPN gateway／金融加密／企業 CA／程式碼簽章／TPM／HSM

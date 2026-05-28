@@ -12,6 +12,8 @@ query-count: 0
 
 AI 模型在被要求評估自己產出的內容時，傾向給出過度正面的評價、不願意指出自己的錯誤的系統性偏差。這個傾向不限於對話中的「討好使用者」，更深層的問題是模型對自己寫的程式碼、文件、分析也會自我偏袒。
 
+<p align="center"><img src="assets/covers/sycophancy-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **程式碼自評的具體問題**：讓寫程式碼的模型 review 自己的 PR，多半得到正面回饋（thumbs-up），真正的 bug 被輕描淡寫或完全漏掉

@@ -21,6 +21,8 @@ AccuHit 行銷技術部落格 2026-04 發布的 Claude 完整介紹文，從行�
 
 這篇文章把 Claude 的使用框架整理成 Chat（諮詢）、Cowork（自動化協作）、Code（程式開發）三模式，針對行銷人員受眾提供落地場景。核心主張是 AI 已從「問答工具」進化成「任務執行助理」：[[claude-three-modes]] 中的 Cowork 模式讓使用者在背景讓 AI 自動執行跨平台任務、不需手動操作。文章以 AccuHit 行銷團隊自身為例，示範了兩條自動化流水線：一條是每日 AI 新聞自動爬取→摘要→排程發布到 Threads，另一條是從公司資料庫→選題→出文→生圖→多平台分發的完整 [[marketing-automation-workflow]]。對 Simon 最有用的是：這份文章是觀察「Claude 被如何向非工程師受眾推廣」的一手材料，以及 [[ai-task-execution]] 範式轉移在行銷場域的具體落地描述。
 
+<p align="center"><img src="assets/covers/2026-05-20-accuhit-claude-ai-complete-guide-cover.png" alt="封面圖" width="400"></p>
+
 ![[2026-05-20-accuhit-claude-ai-complete-guide-claude-three-modes.png|275]]
 
 ## 核心概念

@@ -12,6 +12,8 @@ query-count: 0
 
 訂閱制電子報結合個人出版頁面的內容平台，2017 年由前 Kik 工程師 Chris Best、Hamish McKenzie、Jairaj Sethi 創立。創作者寫一篇文章會同時寄到所有訂閱者的 email 信箱、且永久保存在個人頁面、可被 Google 搜尋索引。
 
+<p align="center"><img src="assets/covers/substack-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **雙軌觸達機制**：每篇長文同時做兩件事——寄 email 給訂閱者、永久存在 publication 公開頁面被搜尋發現

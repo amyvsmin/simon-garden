@@ -12,6 +12,8 @@ query-count: 0
 
 把 Google NotebookLM 當作 Claude Code 的外掛檢索增強生成（RAG）引擎，用來補 Claude Code 在影片內容處理、深度 RAG、圖表生成上的短板；同時避免消耗 Claude 訂閱 token（NotebookLM 走 Gemini 免費 tier）。
 
+<p align="center"><img src="assets/covers/notebooklm-as-rag-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 串接工具：林探 `notebooklm-py` CLI + Anthropic skills-creator + yt-dlp + 自訂 yt-search skill

@@ -21,6 +21,8 @@ Simon 想知道這支影片有什麼可以用的。Simon-Agent 目錄滿手自�
 
 YAHA学堂 2026-05-22 發布的 6 分 16 秒教學，介紹 Anthropic 官方新推的 [[claude-code-setup-plugin]]。一行指令裝完、選 scope（User／Project／Local 三層、見 [[claude-code-plugin-scope]]）、reload 後就能用人話觸發。底層是一支 [[skill]]、寫死掃描流程：讀 `package.json`、看 imports、ls 目錄結構、讀 [[instructions-file|CLAUDE.md]]，產結構化繁中報告。報告分五段：專案判讀／[[mcp|MCP]] 推薦／Skills 推薦（先點名 Claude Code 內建可用如 security-review、code-review、verify、run，再建議自包）／[[hooks|Hooks]] 推薦（具體 pattern 五個）／[[subagents|Subagents]] 推薦，最後給 CP 值 top 5 快速啟動。三種觸發講法（通掃／單類別深挖／新手 onboarding）共用同支 skill、口吻深度不同。每條推薦都附「為什麼適合這個專案」客製理由、取代盲抄 dotfiles。
 
+<p align="center"><img src="assets/covers/2026-05-22-yaha-claude-code-setup-plugin-cover.png" alt="封面圖" width="400"></p>
+
 ![[2026-05-22-yaha-claude-code-setup-plugin-claude-code-setup-plugin.png|275]]
 
 ## 核心概念

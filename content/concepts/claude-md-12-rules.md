@@ -13,6 +13,8 @@ query-count: 0
 
 Karpathy 2026/1 抱怨 → Forrest Chang 4 條 → Mnilax 2026/5 補 8 條 = 12 條 CLAUDE.md 規則。整套用契約式語言寫進 CLAUDE.md，Claude Code 寫程式錯誤率從 41% 降到 3%。前 4 條對應 1 月份單次補全場景的失敗模式，後 8 條對應 5 月 Agent 編排／hook 鏈／多 codebase 場景。
 
+<p align="center"><img src="assets/covers/claude-md-12-rules-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **Karpathy 4 條基礎**：(1) 編碼前先思考暴露假設 (2) 簡單優先 (3) 外科手術式修改 (4) 以目標為導向執行

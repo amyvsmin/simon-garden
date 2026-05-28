@@ -12,6 +12,8 @@ query-count: 0
 
 Google I/O 2026 推出的跨服務代理人產品；不是新模型、是組織 [[gemini-flash]] 跟 Antigravity harness 在 Google Workspace（Gmail、Calendar、Drive、Docs、Sheets、Slides、YouTube、Maps）內執行任務的介面；三大模組（Tasks 單次／Skills 客製化反覆／Schedules 時間條件觸發）；高風險動作（寄信、花錢）前需使用者確認。
 
+<p align="center"><img src="assets/covers/gemini-spark-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **底層**：跑在 [[gemini-flash]] + Antigravity harness、不是新模型；定位是「組織已有 AI 能力的代理介面」
