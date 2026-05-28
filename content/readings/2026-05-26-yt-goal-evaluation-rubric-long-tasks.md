@@ -43,6 +43,15 @@ created: 2026-05-26
 - 嘗試用影片的六步驟 SOP 為 Substack 文章建一份寫作 rubric——讓 AI 先跑 5 篇文章的 baseline、自己看了皺眉的點記下來、分類成維度
 - 資安週報（/schedule 每週一 08:00）的品質也可以套 rubric 思維做持續校正
 
+## 落地動作與效益
+
+| 動作 | 狀態 | 效益 |
+|---|---|---|
+| KW γ ingest-flow 加 Step 5b reading 品質自檢（三維度：白話程度、應用具體度、概念獨立性） | ✅ 已做 | reading 品質從「不犯規」提升到「積極好」；每篇多 30 秒自檢成本 |
+| CLAUDE.md §3 修辭上限表補正面維度 | ❌ 不做 | 目前運作良好、暫不動 |
+| Substack 文章建寫作 rubric（六步驟 SOP） | ⏸ 擱置 | 有價值但目前 Substack 節奏穩定、等下次寫到不滿意再啟動 |
+| 資安週報套 rubric 校正 | ⏸ 擱置 | 等累積 4 期以上再看品質趨勢 |
+
 ## 原文要點
 
 - **三家同時推 goal**：Claude Code、Codex、Hermes Agent 幾乎同名同功能同時推出，解決同一個問題
