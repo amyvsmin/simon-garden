@@ -4,7 +4,7 @@ date: 2026-04-25
 type: 來源分析
 url: https://www.youtube.com/watch?v=v5h-NV6cWsw
 tags: [management, culture, podcast, career]
-concepts: [permeation-management, cultural-nesting, win-vs-prevail]
+concepts: [permeation-management, cultural-nesting]
 inbox-id: 34df85da-554f-8186-8f1c-deb8b3445b6c
 notion-page-id: 34df85da-554f-81fa-a710-f4a7e7a7f597
 impact: medium
@@ -22,7 +22,7 @@ icon: "⚡"
 
 - [[permeation-management]]：滲透式管理的核心主張是，管理不靠由上而下的命令，而是透過日常細節（晨會怎麼開、月會聊什麼、餐桌上談什麼話題）把價值觀一層一層傳導下去。管理者需要有全局視野，從宏觀到微觀都照顧到，而且這個傳導是雙向的——基層的反饋也會回流影響高層決策。
 - [[cultural-nesting]]：文化是層層嵌套的結構，從最大的地區文化（例如東亞社會對加班的高接受度），到企業文化，再到部門內的亞文化（業務部 vs 研發部各有自己的做事風格），最後到三五人小團隊的微觀文化。重點是這些層級之間不只是上對下的單向影響，各層之間會雙向反饋——小團隊的默契可能反過來改變部門文化。
-- [[win-vs-prevail]]：「勝出」和「贏得」是兩種不同的人生態度。勝出是零和競爭，你贏別人就輸；贏得是正和累積，透過持續創造價值讓自己和周圍的人都受益。歐德張用自己寫詩的習慣來說明「贏得」——把生活經歷寫成自己的敘事，賦予存在意義，這種累積不需要跟任何人比較。
+- 「贏得」vs「勝出」生命觀：「勝出」和「贏得」是兩種不同的人生態度。勝出是零和競爭，你贏別人就輸；贏得是正和累積，透過持續創造價值讓自己和周圍的人都受益。歐德張用自己寫詩的習慣來說明「贏得」——把生活經歷寫成自己的敘事，賦予存在意義，這種累積不需要跟任何人比較。
 ![[2026-04-25-oudezhang-management-podcast-permeation-management.png|275]]
 
 ## 對 Simon 的應用（當下想法）

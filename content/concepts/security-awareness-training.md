@@ -1,7 +1,7 @@
 ---
 title: "資安意識訓練（Security Awareness Training）"
 slug: security-awareness-training
-aliases: [security awareness training, 資安意識訓練, 資安教育訓練, 資安訓練, security training, 安全意識培訓]
+aliases: [security awareness training, 資安意識訓練, 資安教育訓練, 資安訓練, security training, 安全意識培訓, Security Awareness Design, 有感訓練, 資安行為改變設計, 情境式資安教育, Behavior Change Training]
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
@@ -15,8 +15,21 @@ query-count: 0
 - **訓練內容**：釣魚郵件辨識、密碼安全、社交工程防範、資料處理規範、事件通報流程
 - **頻率與形式**：至少年度一次正式訓練 + 定期釣魚演練（[[phishing-drill-improved]]）+ 即時提醒
 - **有效性指標**：通報率（非點擊率）、事件回報時間、重複違規率
-- **行為改變設計**：[[security-awareness-design]] 強調情境故事、角色視角、情緒鉤子、決策後果四元素
 - **合規要求**：ISO 27001 A.7.2.2 要求資訊安全意識教育與訓練
+
+## 有感訓練設計（行為改變範式）
+
+把目標從「完訓率」搬到「行為改變」的設計範式。傳統訓練條列式教注意事項、員工聽完就忘。CYBERSEC 2026 七維思執行長飛飛（林子婷）提出的有感訓練核心：利用大腦只記得「情緒高峰」與「故事情節」的特性，重做成微劇情。
+
+- **核心信念**：完訓率 ≠ 行為改變、所有指標重新定義（從點選率改通報率）
+- **四元素設計**：(1) 情境故事：具體時間地點讓員工覺得「這會發生在我身上」 (2) 角色與視角：不同 persona 各有壓力源 (3) 情緒鉤子：核心是讓員工「真的猶豫」、猶豫代表判斷系統啟動 (4) 決策與後果：做錯後果才是學習錨點
+- **大腦記憶原理**：心跳加速 + 帶情節故事 = 長期記憶；條列式定義 = 短期記憶
+- **覆盤是學習關鍵**：員工選錯後不責備、引導他「還原決策過程」、理解攻擊者的設計邏輯
+- **與 [[storytelling-modular-framework]] 連動**：四元素是抽象設計原則、拼積木框架是落地工具
+
+### 有感訓練尚未解決的疑問
+- 微劇情風格能否規避企業文化中「不浪費時間」的反彈
+- 行為改變指標（通報率）的長期追蹤資料樣本
 
 ## 應用場景
 - **Simon 工作場景**：公司年度資安意識訓練規劃與執行；釣魚演練結果納入月度資安 KPI 簡報；ISO 27001 稽核需提供訓練紀錄與出席率；新進員工報到時的資安 onboarding
@@ -24,10 +37,10 @@ query-count: 0
 
 ## 相關概念
 - [[security-culture]]：訓練是建立資安文化的關鍵手段
-- [[security-awareness-design]]：訓練設計的進階方法論
 - [[phishing-drill-improved]]：改良式釣魚演練是訓練的實踐工具
 - [[social-engineering-playbook]]：訓練需教授的社交工程攻擊模式
-- [[storytelling-modular-framework]]：拼積木式訓練素材產出框架
+- [[storytelling-modular-framework]]：拼積木式訓練素材產出框架（四元素的可規模化落地工具）
 
 ## 來源
 - Course 5 Assets, Threats, and Vulnerabilities — Module 2
+- [[2026-05-07-phoebe-security-awareness-training-cybersec]]

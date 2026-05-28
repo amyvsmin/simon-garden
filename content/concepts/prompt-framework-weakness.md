@@ -27,8 +27,8 @@ created: 2026-05-05
 
 ## 相關概念
 
-- [[consultant-mindset]]：選 prompt 框架是顧問決策
-- [[decision-triangle]]：CoT / ToT / ReAct 各踩三軸的不同點
+- 顧問思維：選 prompt 框架是顧問決策
+- 決策三角：CoT / ToT / ReAct 各踩三軸的不同點
 
 ## 尚未解決的疑問
 

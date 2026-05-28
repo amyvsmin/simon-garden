@@ -29,7 +29,7 @@ Claude Code 以工作目錄作為 skill 模式切換的顯式觸發器。打開�
 ## 相關概念
 
 - [[pure-receive-immediate-write]]：C9 是純接收模式的啟動入口
-- [[simplicity-over-control]]：目錄即觸發是「降低每次啟動成本」的設計案例
+- 簡化流程 > 資料主控：目錄即觸發是「降低每次啟動成本」的設計案例
 
 ## 尚未解決的疑問
 

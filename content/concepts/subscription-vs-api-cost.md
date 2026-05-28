@@ -29,7 +29,7 @@ Claude Pro / Max 訂閱（個人月費）與 Claude API（按 token 計費）是
 ## 相關概念
 
 - [[claude-code-vs-api-split]]：兩種 runtime 的分工
-- [[ai-tier-trickledown]]：「同品牌、不同層級、計費／功能不互通」mental model 相似
+- AI 功能分層下放策略：「同品牌、不同層級、計費／功能不互通」mental model 相似
 
 ## 尚未解決的疑問
 

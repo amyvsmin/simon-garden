@@ -1,7 +1,7 @@
 ---
 title: "Claude Code 12 條規則（Karpathy 4 + Mnilax 8）"
 slug: claude-md-12-rules
-aliases: [Claude Code 12 rules, CLAUDE.md 12 rules, Karpathy 12 rules, Mnilax 12 rules, 12 條規則模板, Claude Code 行為契約]
+aliases: [Claude Code 12 rules, CLAUDE.md 12 rules, Karpathy 12 rules, Mnilax 12 rules, 12 條規則模板, Claude Code 行為契約, CLAUDE.md 200 行, CLAUDE.md 行數上限, 200 行死線, claude-md token budget, instruction file size limit]
 category: AI
 confidence: 已驗證
 created: 2026-05-15
@@ -19,8 +19,20 @@ Karpathy 2026/1 抱怨 → Forrest Chang 4 條 → Mnilax 2026/5 補 8 條 = 12 
 - **Mnilax 補 8 條 Agent 時代**：(5) Claude 該／不該做的分工 (6) task=4K/session=30K token 預算 (7) 矛盾模式選一個不混合 (8) 改檔前先讀檔 (9) 測試編碼「為什麼」(10) 多步驟每步檢查點 (11) 一致性 > 個人偏好 (12) [[loud-failure]] 大聲失敗
 - **遵守率不會崩潰**：4 條 78% → 12 條 76%，幾乎不掉。超過 14 條才會掉到 52%
 - **錯誤模式不重疊**：新規則覆蓋舊規則沒處理的場景，不搶同一塊注意力預算
-- **2 行硬限**：CLAUDE.md 全文超過 [[claude-md-200-line-limit]] 200 行遵守率明顯下降
 - **不該寫的東西**：示例（占上下文）、「小心點」（無法檢驗）、「像資深工程師」（身份提示無效）、領域特定工具規則（無法泛化）
+
+## CLAUDE.md 200 行上限
+
+CLAUDE.md 全文超過 200 行後，個別規則的遵守率明顯下降。原因：重要規則被噪音淹沒、Claude 開始「模式匹配看到規則」而不是逐條閱讀。Anthropic 官方建議 CLAUDE.md ~80% 遵守率，前提是「短、結構清楚」。
+- **死線是 200 行不是 200 條規則**：規則密度比規則數量更關鍵
+- **遵守率分段**：≤14 條規則維持 76-78%、>14 條陡降到 52%
+- **超限三類錯誤**：(1) 偏好垃圾桶（堆習慣到 4000+ token、遵守率 30%）(2) 完全不用每次重 prompt（5x token 浪費）(3) 複製模板不更新（兩週後失效）
+- **超限訊號**：規則開始相互重複、領域特定規則混進通用規則、模板靜態化沒滾動
+- **拆檔策略**：CLAUDE.md 留契約／反射律；細部規範拆 `~/.claude/rules/{name}.md` 用 paths-conditional 載入；場景化規則拆 skill `references/`
+- **示例占空間**：3 個示例 ≈ 10 條規則的 token 量、Claude 易對示例過擬合
+- **無法檢驗的話無效**：「小心點」「認真思考」遵守率掉到 30%
+- **身份提示無效**：「像資深工程師一樣」沒用
+- **Simon 全域 CLAUDE.md**：目前約 130 行安全範圍。新規則加入前先評估「能不能拆 rules/」
 
 ## 應用場景
 
@@ -33,15 +45,17 @@ Karpathy 2026/1 抱怨 → Forrest Chang 4 條 → Mnilax 2026/5 補 8 條 = 12 
 
 - [[claude-md-reflexive-law]]：行為偏差改規則寫進 CLAUDE.md，是這 12 條的元規則
 - [[loud-failure]]：規則 12，值得獨立成 concept 因為跨領域可用
-- [[claude-md-200-line-limit]]：CLAUDE.md 行數上限，跟這套規則總長度衝突時的取捨依據
 - [[rules-over-code]]：規則 > 程式碼的元理念，這套 12 條就是落地版本
 - [[instructions-file]]：CLAUDE.md 概念本體
 - [[claude-md-dual-nav]]：多層 CLAUDE.md（vault 根 + 子資料夾），跟 12 條規則放置策略相關
+- [[progressive-disclosure]]：按需讀取，主檔短 + 細節拆 references 的設計原則本體
 
 ## 尚未解決的疑問
 
 - 規則 5「Claude 該／不該做的分工」對 Simon 工作流是否落地？目前還是把所有決策包進去
 - 規則 9「測試編碼為什麼」對前端／設計類任務（如 Reading Garden）如何套？
+- Anthropic 官方有沒有公布 CLAUDE.md token 消耗上限？目前只看到「短、結構清楚」沒具體數字
+- 拆 rules/ + paths-conditional 之後總 instruction 量還在、token 上會不會反而更貴？
 
 ## 來源（自動維護）
 

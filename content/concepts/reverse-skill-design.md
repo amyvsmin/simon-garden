@@ -28,7 +28,7 @@ created: 2026-05-05
 
 ## 相關概念
 
-- [[sentinel-test]]：反推出規則後需要驗證 MCP 能力是否支援，Sentinel 是驗證手段
+- Sentinel 測試法：反推出規則後需要驗證 MCP 能力是否支援，Sentinel 是驗證手段
 - [[pure-receive-immediate-write]]：Simon-Journal 的 A / C 規則是反推產出
 
 ## 尚未解決的疑問

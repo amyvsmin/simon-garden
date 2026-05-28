@@ -1,7 +1,7 @@
 ---
 title: "Gemini Spark（Google 跨服務 AI 代理人）"
 slug: gemini-spark
-aliases: [Gemini Spark, Spark, Google Spark, AI 代理人 Spark, Google AI agent, Workspace agent]
+aliases: [Gemini Spark, Spark, Google Spark, AI 代理人 Spark, Google AI agent, Workspace agent, Compute-based pricing, 運算量計費, 算力計費, compute pricing, AI 訂閱計費, Google AI 新計費]
 category: AI
 confidence: 待驗證
 created: 2026-05-20
@@ -37,8 +37,17 @@ Google I/O 2026 推出的跨服務代理人產品；不是新模型、是組織 
 - [[gemini-omni]]：多模態生成姊妹產品、不在 Spark 模組內
 - [[ai-task-execution]]：Spark 是 AI 從問答到執行範式在 Google 生態的代表落地
 - [[agent-os-competition]]：Anthropic／OpenAI／xAI／Google 代理人作業系統競賽中 Google 端的核心產品
-- [[compute-based-pricing]]：Spark 重度使用會帶動運算量計費模式進主流
 - [[subscription-vs-api-cost]]：Spark 走訂閱方案、非 API 計費；Pro/Ultra 額度耦合
+
+## Compute-based pricing（運算量計費）
+
+Google I/O 2026 隨 Spark 公佈的新訂閱計費邏輯：從「每日提示次數上限」轉為「依運算量計費」。
+- **舊模型**：每日 prompt 次數上限（如 ChatGPT Plus 80 messages / 3 hours）
+- **新模型**：依實際運算量計費；複雜推理／長對話／多模態調用各自吃不同算力
+- **降級備援**：到上限自動切較小模型（如 Pro 降 Lite）、不直接斷服務
+- **加買機制**：Pro／Ultra 訂戶可購 pay-as-you-go 點數續用
+- **重新整理週期**：每 5 小時刷新一次、直到週上限
+- **意涵**：訂戶為「值得多少算力」付錢、不再被「次數」綁
 
 ## 尚未解決的疑問
 
@@ -46,6 +55,9 @@ Google I/O 2026 推出的跨服務代理人產品；不是新模型、是組織 
 - B2B Workspace 是否預設啟用、企業資料隱私邊界
 - Skills 跟 Claude Code skill 的關係（同樣概念不同實作？）
 - 跟 Gemini Daily Brief（每日早晨摘要代理）是否同一機制不同包裝
+- 「運算量」是否量化展示給用戶（如 Anthropic 的 5h / weekly meter）
+- 跟 token-based 計費的精確換算公式
+- Pro／Ultra 額外點數價格
 
 ## 來源（自動維護）
 

@@ -4,7 +4,7 @@ date: 2026-04-29
 type: 來源分析
 url: https://youtu.be/wiBj6x4y43k
 tags: [ipas, ai, certification, exam-strategy]
-concepts: [consultant-mindset, reflection-matrix, decision-triangle, prompt-framework-weakness, technology-leap-deployment]
+concepts: [prompt-framework-weakness]
 inbox-id: 350f85da-554f-81ff-9061-ff3358fb1c44
 notion-page-id: 351f85da-554f-8181-b277-c3270db83e5b
 impact: high
@@ -20,13 +20,11 @@ iPAS AI 應用規劃師 115 年命題核心從「What 名詞解釋」全面升�
 
 ## 核心概念
 
-- [[consultant-mindset]]：iPAS 115 年的命題方向從「這個名詞的定義是什麼」全面轉向「在這個情境下你該怎麼判斷、怎麼補救」。考官要的不再是能背定義的學生，而是能在限制條件下做決策的顧問。這個思維同樣適用於 CISSP 等情境式考試。
-- [[reflection-matrix]]：一種應考直覺訓練法——看到特定資料形態（例如影像、時序、表格）就能立刻對應到該用哪類演算法（CNN、LSTM、XGBoost 等），不需要逐步推理。目標是把「資料樣態 → 演算法選擇」的對應關係練成反射動作。
-- [[decision-triangle]]：工程決策中效能、成本、速度三個軸之間的取捨框架。三者不可能同時最大化，必須根據題目給的限制條件（預算不夠？延遲要低？硬體受限？）選擇犧牲哪一軸。影片提到一個實用技巧：題目出現「預算受限」「硬體不足」「低延遲」等關鍵字時，直接選 LoRA、模型量化等降本方案，命中率超過八成。
+- 顧問思維：iPAS 115 年的命題方向從「這個名詞的定義是什麼」全面轉向「在這個情境下你該怎麼判斷、怎麼補救」。考官要的不再是能背定義的學生，而是能在限制條件下做決策的顧問。這個思維同樣適用於 CISSP 等情境式考試。
+- 反射矩陣：一種應考直覺訓練法——看到特定資料形態（例如影像、時序、表格）就能立刻對應到該用哪類演算法（CNN、LSTM、XGBoost 等），不需要逐步推理。目標是把「資料樣態 → 演算法選擇」的對應關係練成反射動作。
+- 決策三角：工程決策中效能、成本、速度三個軸之間的取捨框架。三者不可能同時最大化，必須根據題目給的限制條件（預算不夠？延遲要低？硬體受限？）選擇犧牲哪一軸。影片提到一個實用技巧：題目出現「預算受限」「硬體不足」「低延遲」等關鍵字時，直接選 LoRA、模型量化等降本方案，命中率超過八成。
 - [[prompt-framework-weakness]]：光知道 CoT（Chain of Thought）、ToT（Tree of Thought）、ReAct 這些提示工程框架怎麼用還不夠，更重要的是記住它們各自的致命弱點——例如 CoT 在需要回溯的問題上會卡住、ToT 計算成本高。考試考的是「什麼時候不該用某個框架」，而不是「某個框架的定義」。
-- [[technology-leap-deployment]]：影片預測 iPAS 下一波加分題會集中在三個領域：向量資料庫（用 Embedding 做語意檢索）、多模態（影像加文字並行處理）、進階評估指標（ROUGE、RAGAS 取代傳統的 Accuracy）。這些是目前產業正在大量採用但考題尚未大量出現的技術。
-![[2026-04-29-ipas-ai-planner-2026-strategy-consultant-mindset.png|275]]
-
+- 技術超前部署：影片預測 iPAS 下一波加分題會集中在三個領域：向量資料庫（用 Embedding 做語意檢索）、多模態（影像加文字並行處理）、進階評估指標（ROUGE、RAGAS 取代傳統的 Accuracy）。這些是目前產業正在大量採用但考題尚未大量出現的技術。
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。

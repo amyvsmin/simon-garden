@@ -1,7 +1,7 @@
 ---
 title: "開工／收工每日 AI 工作流"
 slug: kaigong-shougong-loop
-aliases: [開工收工 loop, daily 開工收工, 開工收工工作流, kickoff-wrap loop]
+aliases: [開工收工 loop, daily 開工收工, 開工收工工作流, kickoff-wrap loop, daily notes, AI 工作日誌, 每日筆記]
 category: 生產力
 confidence: 待驗證
 created: 2026-05-05
@@ -29,14 +29,26 @@ query-count: 0
 
 - [[obsidian-claude-code-workflow]]：本 loop 是其上實作之一
 - [[pure-receive-immediate-write]]：Simon 的 journal skill 採純接收互動模式，跟本 loop 任務驅動互動互補
-- [[daily-notes]]：daily notes 適合純記錄，本 loop 適合任務狀態追蹤
 - [[claude-md-dual-nav]]：CLAUDE.md 跟 SessionHandoff.md 是不同職責的兩層
+- [[progressive-disclosure]]：daily notes 是漸進式披露在時間維度的具體實作
+
+## Daily Notes（AI 工作日誌）
+
+AI 每天結束時把工作內容寫進當日的 daily notes 檔（`YYYY-MM-DD.md`），下次 session 只讀最近幾天即可恢復脈絡。
+- **寫入時機**：session 結束時 AI 自行 append、或 stop hook 觸發、或人工以「今天做了什麼」收束
+- **讀取策略**：next session 只讀最近 3-7 天，更早的不掃、要查就 grep
+- **跟人類日記的差別**：daily notes 給 AI 讀、可結構化；人類日記給自己讀、可敘事
+- **跟 git log 互補**：git log 記程式碼變更、daily notes 記決策脈絡與未進入 commit 的討論
+- **典型內容**：完成事項、討論過的決策、未決問題、明日待辦、學到的新概念
 
 ## 尚未解決的疑問
 
 - 跟 Notion Action DB 的職責劃分：vault SessionHandoff vs Notion 任務該各放什麼？
 - 收工後 AI 自動延後任務的判斷邏輯如何避免越權重排（例如把硬截止日的任務也順手延後）
+- 多 session 在同一天並行寫 daily notes 的衝突處理
+- daily notes 老化策略（半年前的還要保留嗎、要不要封存）
 
 ## 來源（自動維護）
 
 - [[2026-05-05-obsidian-cli-claude-code-daily-loop]]
+- [[2026-05-02-xinxin-obsidian-ai-second-brain]]
