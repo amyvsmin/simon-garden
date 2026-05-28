@@ -346,3 +346,29 @@ article a.internal[href*="/concepts/"] {
   background-image: none;
   &:hover { background: rgba(109,40,217,0.08); border-bottom-style: solid; }
 }
+
+// HTML tables in reading body (added 2026-05-28 for image-table-enhancement)
+// Source: firecrawl converts complex tables (colspan/rowspan/nested) to HTML
+// instead of pipe tables; this gives them readable styling.
+article table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  font-size: 0.95em;
+
+  th, td {
+    border: 1px solid var(--gray);
+    padding: 0.5em 0.75em;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background-color: var(--lightgray);
+    font-weight: 600;
+  }
+
+  tr:nth-child(even) td {
+    background-color: var(--light);
+  }
+}
