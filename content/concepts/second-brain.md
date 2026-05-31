@@ -43,3 +43,4 @@ created: 2026-05-05
 ## 來源（自動維護）
 
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
+- [[2026-05-31-synaptic-pruning-deep-focus]]

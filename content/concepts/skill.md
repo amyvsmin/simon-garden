@@ -56,3 +56,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - [[2026-05-11-josie-claude-code-obsidian-project-planner]]
 - [[2026-05-12-raymond-claude-code-skill]]
 - [[2026-05-18-li-jiada-skill-pack-install-demo]]
+- [[2026-05-31-codex-obsidian-self-growing-kb]]

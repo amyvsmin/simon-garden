@@ -14,6 +14,8 @@ created: 2026-05-05
 
 多篇文章被分別萃取概念後，AI 自動發現跨文章共用節點（例如 continuous learning），把不同文章經由共用概念連起來形成知識圖譜；文章越多，連結越密。
 
+<p align="center"><img src="assets/covers/graph-emergence-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 自動產生：不靠人工手動建 backlink
@@ -37,3 +39,4 @@ created: 2026-05-05
 ## 來源（自動維護）
 
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
+- [[2026-05-31-codex-obsidian-self-growing-kb]]

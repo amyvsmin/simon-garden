@@ -14,6 +14,8 @@ created: 2026-05-05
 
 知識庫拆成 Raw（原料收件匣）與 Wiki（AI 整理產出）兩個資料夾，新內容先進 Raw、AI 收錄後才搬進 Wiki，明確區分人類丟入跟 AI 整理過的資料層級。
 
+<p align="center"><img src="assets/covers/raw-wiki-split-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 對應典型的 INPUT → PROCESS → OUTPUT 流程
@@ -37,3 +39,4 @@ created: 2026-05-05
 ## 來源（自動維護）
 
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
+- [[2026-05-31-codex-obsidian-self-growing-kb]]

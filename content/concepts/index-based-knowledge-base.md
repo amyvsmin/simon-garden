@@ -14,6 +14,8 @@ created: 2026-05-05
 
 用一份 Index markdown 檔當全庫目錄，AI 查詢時先讀索引再決定打開哪些頁面，不依賴向量相似度搜尋的個人知識庫架構，是 RAG 的另一條輕量替代路徑。
 
+<p align="center"><img src="assets/covers/index-based-knowledge-base-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - 索引由 LLM 自行維護（讀全庫後產生），不需要 embedding pipeline
@@ -37,3 +39,4 @@ created: 2026-05-05
 ## 來源（自動維護）
 
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
+- [[2026-05-31-codex-obsidian-self-growing-kb]]
