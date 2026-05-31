@@ -44,6 +44,19 @@ created: 2026-05-31
 - 影片附的 Skill 庫清單跟兩張知識庫架構圖放在原文文章裡。**暫不抓**——Simon 的 KW γ + skill 體系已比影片這套成熟，等哪天真要重組 skill 庫時再回來看這兩張圖。
 - 影片提到的一鍵出 PPT（Presentations 外掛）、一鍵出影片（Hyperframes 外掛）是 Codex/Obsidian 生態的工具。Simon 目前走 NotebookLM 出簡報＋音訊，可不動；除非哪天想在 vault 內直接出 PPT 再評估。
 
+## 落地動作與效益
+
+> Step 9／10 自檢結論（2026-05-31 收錄當天跟 Simon 討論後落地）。
+
+**A. 芙莉蓮優化**
+
+- ✅ **收錄流程加「Substack 寫作角度掃描」**：改 `~/.claude/skills/knowledge-wiki/references/ingest-flow.md` Step 9，收每篇 reading 時順手判斷有沒有可寫成 Substack 的角度，有就在 B 類列具體切入點（不准寫「可以寫」這種空話）。出處：影片的「選題價值判斷 Skill」。效益：把知識收錄跟寫作軸串起來、不漏素材。
+- ⏸ **定時蒸餾 cron 化（確認已存在、不重做）**：影片的「每天定時蒸餾」在 Simon 系統早有對應——`knowledge-wiki-lint-catchup.sh` 在 SessionStart 距上次健檢 ≥7 天就提醒、刻意設計成不自動跑、保留決策權。知識庫面已被這個提醒覆蓋，工作復盤面走週復盤（刻意手動）。所以不需新做。
+
+**B. Simon 個人動作**
+
+- ⏸ 影片附的 Skill 架構圖跟清單：暫不抓——KW γ + skill 體系已比影片這套成熟，真要重組 skill 庫再回來看。
+
 ## 原文要點
 
 - **理念（Karpathy 自生長理論）**：不要把知識庫當收藏夾，要當成由 AI 持續維護的自生長系統。迴圈：原始資料夾 A → AI 消化提煉成概念進 B → 依任務沉澱成方法論／Skill 進 C → 輸出進 D → 輸出迴流回庫。
