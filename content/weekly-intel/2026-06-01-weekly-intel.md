@@ -63,42 +63,48 @@ icon: "🛡️"
 1. **[CISA 發布 Nx Console 與 GitHub 儲存庫供應鏈專文（5/28）](https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories)**
    - 攻擊者藉先前對 Nx 開發系統的入侵，透過遭投毒的 Nx Console VS Code 擴充（惡意版本 18.95.0、經 VS Code 自動更新散布）入侵 GitHub 員工裝置並竊取內部儲存庫，CVE-2026-48027 隨之列入 KEV。CISA 同時點名「Megalodon」攻擊活動注入惡意 GitHub Action 工作流以竊取 CI/CD 機密、雲端憑證與權杖，並建議：回溯撤銷 5 月 18 日後自動化帳號（如 `build-bot`、`ci-bot`）的提交、輪換所有 CI/CD secrets、拉取套件前至少等待 3 小時、釘選（pin）可信版本。
 
-2. **[微軟揭露大規模惡意 npm 套件投毒，濫用依賴混淆](https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/)**
+2. **[Mini Shai-Hulud 自我傳播蠕蟲挾持 npm CI 流程擴大供應鏈攻擊](https://securityboulevard.com/2026/05/the-mini-shai-hulud-worm-and-the-new-era-of-ci-cd-exploitation/)**
+   - 本週國際最受關注的供應鏈事件。TeamPCP 集團操作的 Mini Shai-Hulud 蠕蟲，濫用持續整合（CI）快取與 OIDC 權杖竊取，挾持 npm 套件的發布流程快速自我傳播，把惡意版本透過合法管道推送出去（[aicerts 技術分析](https://www.aicerts.ai/news/mini-shai-hulud-malicious-packages-hijack-npm-ci/)）。延續 W01 的供應鏈攻擊潮，凸顯「惡意套件 + CI/CD 自動化濫用」的組合正成為攻擊者的高投報率路徑。
+
+3. **[微軟揭露大規模惡意 npm 套件投毒，濫用依賴混淆](https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/)**
    - 微軟威脅情報於 5 月 28~29 日揭露分三波釋出、累計達 45 個（初報 33 個）的惡意 npm 套件，攻擊者註冊與企業內部命名空間同名的套件、刻意拉高版本號（100.100.100）以在解析時優先於合法內部套件。內含名為「RECON_ONLY」的偵察酬載，蒐集主機名、環境變數與開發者情境，並預留升級為完整攻擊模式的能力；命令與控制（C2）網域為 `oob.moika.tech`。
 
-3. **[Charter（Spectrum）遭 ShinyHunters 入侵，外洩逾 1,300 萬筆客戶資料](https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/)**
+4. **[Charter（Spectrum）遭 ShinyHunters 入侵，外洩逾 1,300 萬筆客戶資料](https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/)**
    - 勒索集團 ShinyHunters 透過語音釣魚（vishing）並入侵 Microsoft Entra／SaaS 環境，宣稱竊得 4,200 萬筆紀錄；Charter 拒絕付贖後，駭客外洩逾 1,300 萬筆含姓名、電郵與地址的客戶資料，官方估計最多影響近 500 萬名客戶。
 
-4. **[7-Eleven 加盟申請者資料外洩，逾 60 萬筆經 Salesforce 環境洩露](https://www.esecurityplanet.com/weekly-roundup/ai-threats-data-breaches-and-supply-chain-risks-define-this-week-of-may-2026-in-cybersecurity/)**
+5. **[7-Eleven 加盟申請者資料外洩，逾 60 萬筆經 Salesforce 環境洩露](https://www.esecurityplanet.com/weekly-roundup/ai-threats-data-breaches-and-supply-chain-risks-define-this-week-of-may-2026-in-cybersecurity/)**
    - 與 ShinyHunters 相關的攻擊者透過遭入侵的 Salesforce 環境，竊取逾 60 萬筆加盟申請者紀錄。延續近期針對 SaaS 與身分平臺的攻擊趨勢。
 
-5. **[Glassworm 殭屍網路遭瓦解，C2 基礎設施被端掉](https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/)**
+6. **[Glassworm 殭屍網路遭瓦解，C2 基礎設施被端掉](https://www.bleepingcomputer.com/news/security/glassworm-botnet-disrupted-after-resilient-c2-infrastructure-takedown/)**
    - 鎖定開發者、用於軟體供應鏈攻擊的 Glassworm 殭屍網路，在研究人員（含 CrowdStrike、Google、Shadowserver 等）端掉其具韌性的命令與控制基礎設施後遭瓦解。
 
-6. **[攻擊者以 SEO 投毒與 AI 聊天機器人散布假 AI 安裝包進行挖礦](https://www.ithome.com.tw/news/176246)**
+7. **[攻擊者以 SEO 投毒與 AI 聊天機器人散布假 AI 安裝包進行挖礦](https://www.ithome.com.tw/news/176246)**
    - 微軟發現新一波挖礦攻擊，除常見的搜尋引擎最佳化投毒外，更透過 AI 聊天機器人接觸受害者，散布假冒 Gemini CLI、Claude Code 等 AI 工具的安裝包，鎖定高效能運算主機植入 GPU 挖礦惡意程式（BleepingComputer 亦同步報導）。
 
-7. **[北韓 Kimsuky 部署 HTTPSpy，擴充 HelloDoor 等武器庫](https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html)**
+8. **[北韓 Kimsuky 部署 HTTPSpy，擴充 HelloDoor 等武器庫](https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html)**
    - 北韓國家級駭客組織 Kimsuky（又稱 Velvet Chollima）以新一組工具鎖定南韓目標，顯示國家級威脅行為者持續汰換工具以規避偵測。
 
-8. **[SANS ISC 分析 Akira 勒索軟體入侵手法（5/28 Stormcast）](https://isc.sans.edu/podcastdetail/9948)**
+9. **[SANS ISC 分析 Akira 勒索軟體入侵手法（5/28 Stormcast）](https://isc.sans.edu/podcastdetail/9948)**
    - 該案未使用特定漏洞，而是先取得初始存取、再進行內部探查與橫向移動，凸顯「無漏洞、靠憑證與探查」的勒索入侵模式，偵測重點應放在異常內網行為而非僅看漏洞。
 
 ## 防禦與偵測
 
-1. **[Cisco Talos：別再只靠 CVSS，改用 EPSS 與 GCVE 精準修補](https://blog.talosintelligence.com/less-panic-patching-more-precision/)**
+1. **[SANS ISC：只靠防火牆 syslog 與 Windows EVTX 重建 Akira 勒索軟體攻擊鏈](https://isc.sans.edu/diary/33024)**
+   - Manuel Humberto Santander Peláez 於 5 月 27 日發布的 Handler Diary。在沒有 EDR、沒有封包側錄的中型組織，僅用防火牆 syslog 與 Windows 事件記錄就還原整條 Akira 攻擊鏈：暴力破解一個「在 AD 已停用、卻仍留在防火牆」的本機 SSLVPN 帳號（無 MFA）取得入口 → Kerberoasting（EID 4769 短時間多個 SPN 的 RC4 票證）→ RDP 橫向移動取得網域管理員 → 清除事件記錄（EID 1102）→ 刪除磁碟陰影複製（vssadmin）後加密。關鍵洞察：加密只佔整體潛伏時間約 5%，其餘 95% 都留在組織既有日誌裡。文末附可立即落地的偵測清單：盤點本機 SSLVPN 帳號並強制 MFA、單一來源一小時逾 50 次驗證失敗即告警、全機開啟 EID 4688 並把安全記錄調至 1 GB 以上、對 EID 1102 與 vssadmin／wmic shadowcopy 一律告警、全網（含防火牆）統一 NTP 時間源以利跨來源比對。
+
+2. **[Cisco Talos：別再只靠 CVSS，改用 EPSS 與 GCVE 精準修補](https://blog.talosintelligence.com/less-panic-patching-more-precision/)**
    - Talos 主張停止單看 CVSS 嚴重性分數，改以 EPSS（漏洞利用預測評分系統，預測實際被利用機率）與 GCVE 聚焦真正會被攻擊的漏洞，把修補資源從「恐慌式全修」轉為「精準優先修」。
 
-2. **[Verizon 2026 資料外洩調查報告（DBIR）重點](https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/)**
+3. **[Verizon 2026 資料外洩調查報告（DBIR）重點](https://www.helpnetsecurity.com/2026/05/25/lessons-from-verizon-dbir-2026-findings/)**
    - 2026 年 DBIR 指出攻擊者持續利用漏洞、勒索軟體威脅上升，且資安基本功仍存在缺口，呼應本週多起「基礎防護失效」的事件。
 
-3. **[印度 CERT-In 要求對外設備漏洞 12 小時內修補](https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html)**
+4. **[印度 CERT-In 要求對外設備漏洞 12 小時內修補](https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html)**
    - 印度電腦緊急應變小組發布新指引，要求組織在 12 小時內修補對外暴露的重大漏洞，反映各國對 edge 設備修補時效的要求正快速收緊。
 
-4. **[Microsoft Defender for Endpoint 測試自動隔離被駭端點](https://www.ithome.com.tw/news/176157)**
+5. **[Microsoft Defender for Endpoint 測試自動隔離被駭端點](https://www.ithome.com.tw/news/176157)**
    - 名為「自動攻擊阻斷」（automatic attack disruption）的功能，可在特定裝置被駭時自動隔離，防止攻擊在企業網路橫向擴散。對端點防護縱深布署有參考價值。
 
-5. **[SANS ISC：YARA-X 1.17.0 釋出（5/31 Diary）](https://isc.sans.edu/diary/0)**
+6. **[SANS ISC：YARA-X 1.17.0 釋出（5/31 Diary）](https://isc.sans.edu/diary/0)**
    - YARA-X 1.17.0 帶來 5 項改進（多項效能優化）與 1 項錯誤修正，惡意程式偵測規則引擎持續演進。
 
 ## 台灣在地動態
@@ -131,3 +137,6 @@ icon: "🛡️"
 
 4. **修補優先序方法論 — 納入資安 KPI 月簡報**
    Talos 的 EPSS／GCVE 觀點搭配 Verizon DBIR 與 KEV，可作為月簡報的修補策略升級依據：把「KEV 修補達成率」與「以 EPSS 排序的高風險修補」列為指標，呼應 ISO 27001 弱點管理流程，讓修補從「全部都修」轉向「先修真正被利用的」，同時提供主管可量化的進度數字。
+
+5. **SANS Akira 鑑識文 — 幾乎是為你的伺服器／AD／Veeam 量身寫的偵測自檢表**
+   本週 SANS ISC diary 33024（見「防禦與偵測」第 1 項）還原的 Akira 攻擊鏈，與你的伺服器管理、機房、AD 與 Veeam 備份職責高度重疊，且攻擊者在加密前曾偵察備份基礎設施與磁碟陰影複製狀態。建議直接拿文中的偵測清單對照公司現況自檢：本機／SSLVPN 帳號是否都已強制 MFA、AD 已停用的帳號是否同步在防火牆停用、Windows 安全記錄大小是否足以保留 EID 4688／4769、是否對 EID 1102（清除記錄）與 vssadmin 刪除磁碟陰影複製設有告警、全網是否統一 NTP 時間源。這些幾乎零成本，卻能把「加密前 95% 的潛伏期」變成可偵測的防禦窗口。
