@@ -16,12 +16,12 @@ query-count: 0
 
 - **各家檔名不同、要靠捷徑橋接**：Claude Code 讀 `CLAUDE.md`、Codex 讀 `AGENTS.md`、Gemini 讀 `GEMINI.md`，而且 Codex 不會去讀 `CLAUDE.md`。直接維護三份會漂移：今天改了一份、切到另一家就「少認識你一點」。解法是真正的本體只放一份核心規則，三個檔名全做成 symlink 指向它，只更新本體、三家自動同步。
 - **記憶放本地、別開平台內建記憶**：Codex 有「啟用記憶」開關，但那份記憶存在 Codex 自己的雲端、搬到 Claude Code 就消失。把記憶系統獨立放本地檔（分 feedback／reference／每日記憶幾層），三家都讀得到，才不會被一家鎖住。
-- **可攜的是資料層、不是自動化層**：規則與記憶（純文字檔）能靠 symlink 跨家。但平台原生的自動化——Claude Code 的 hook（開場注入記憶）、Skill 自動觸發、MCP 設定——是綁定該平台的，換家不會跟著走。雙棲讓另一家「讀得到同一個大腦」，不保證「跑得動同一套反射」。
+- **資料層自動跨家、自動化層要移植但可跨**（2026-06-01 查證更正）：規則與記憶（純文字檔）能靠 symlink 直接跨家。平台原生自動化（hook、skill 觸發、MCP 設定）不會「自動」跟著走、要逐一移植；但 Codex 刻意鏡像了 Claude 的擴充模型——有近乎一對一的 hook 系統、skill 走同一套 agentskills.io 開放標準（同一份 SKILL.md 跨家通用）、MCP 可 JSON→TOML 轉。所以自動化層是「要重建設定」、不是「不可跨」。真正不可跨的只有 Claude 專屬編排引擎（superpowers、Skill tool 自動編排）。雙棲讓另一家「讀得到同一個大腦」，多數反射補設定後可重建、只有專屬編排跑不動。
 - **目的是降低 lock-in**：養 agent 的目標不是綁一家，是去哪一家都能無縫接軌；類比網路巨頭把資料鎖在自家平台讓你搬不走，把記憶留在本地就是把搬家的自由拿回來。
 
 ## 應用場景
 
-- Simon 工作場景：他 2026-05-31 已啟動雙棲——Claude Code（WSL）+ Codex（Windows）、Obsidian vault 當共享知識中介。Claude 側 CLAUDE.md 是 symlink 指向 vault 本體；Codex 側另寫一份 vault 根 AGENTS.md（針對「唯讀參考 + 第二雙眼睛」角色客製、非盲目 symlink），且 Codex 平台記憶已關閉（合本概念）。卡點在自動化層：hook／skill 自動觸發是 Claude Code 原生、Codex 不吃，所以 Codex 是「讀得到大腦、跑不了反射」。實際踩到的坑：那份 vault 根 AGENTS.md 一次 vault refactor 後就漂失了——獨立檔沒進版控、沒 symlink，正是本概念「可攜的是資料層、要有 SSOT 紀律才不漂移」的反面教材。
+- Simon 工作場景：他 2026-05-31 已啟動雙棲——Claude Code（WSL）+ Codex（Windows）、Obsidian vault 當共享知識中介。Claude 側 CLAUDE.md 是 symlink 指向 vault 本體；Codex 側另寫一份 vault 根 AGENTS.md（針對「唯讀參考 + 第二雙眼睛」角色客製、非盲目 symlink），且 Codex 平台記憶已關閉（合本概念）。卡點在自動化層的「移植工」、不是「可行性」（2026-06-01 查證更正）：hook／skill 在 Codex 端尚未建，但 Codex 有對應的 hook 系統 + agentskills.io skill，補設定即可跨；只有 superpowers／Skill tool 編排是 Claude 專屬、不可跨。實際踩到的坑：那份 vault 根 AGENTS.md 一次 vault refactor 後就漂失了——獨立檔沒進版控、沒 symlink，正是本概念「可攜的是資料層、要有 SSOT 紀律才不漂移」的反面教材。
 - 一般場景：擔心被單一 AI 供應商綁死、想保留隨時換家彈性的人，先把規則與記憶收進本地、用 symlink 接上各家檔名，比「全面切換」實用。
 
 ## 相關概念
@@ -34,8 +34,9 @@ query-count: 0
 
 ## 尚未解決的疑問
 
-- 自動化層怎麼跨家？hook 與 Skill 自動觸發是 Claude Code 專屬，Codex 要達到等效得另寫一套機制，目前沒有現成解。
-- 記憶注入若不靠 hook，Codex 端要用什麼方式把記憶索引塞進每次對話？
+- ~~自動化層怎麼跨家？~~（2026-06-01 已解：Codex 有對應 hook 系統 + agentskills.io skill 標準，自動化層是「移植設定的工」、不是無解。）
+- ~~記憶注入若不靠 hook，Codex 端要用什麼方式把記憶索引塞進每次對話？~~（2026-06-01 已解：Codex 的 SessionStart hook 可把純文字當開發者脈絡注入，等效 Claude 的 user-memory-inject。）
+- 真正還沒解的卡點：跨作業系統跑腳本（WSL 的 bash／python 路徑 vs Windows 的 `py`／路徑）怎麼用「一份 SKILL.md + if-then 環境分支」維護而不裂成兩份；以及 `.agents/skills` 連結在 Windows + WSL 共用實體夾下怎麼建、兩端才都認得。
 
 ## 來源（自動維護）
 

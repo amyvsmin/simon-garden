@@ -36,6 +36,8 @@ created: 2026-06-01
 ## 對 Simon 的應用（當下想法）
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段。
+>
+> **2026-06-01 查證更正**：本段原寫「自動化層（hook／skill）不跨家／Codex 搬不動」，查 OpenAI Codex 官方文件後推翻——Codex 有近乎一對一的 hook 系統（SessionStart／UserPromptSubmit／PreToolUse 等，寫進 `config.toml` 或 `hooks.json`）與 agentskills.io 開放標準的 skill（同一份 SKILL.md 跨家通用、掃 `.agents/skills`）。hook／skill 是「要逐一移植設定」、不是「搬不動」；真正不可跨的只有 superpowers 與 Skill tool 編排。下列已就地修正。
 
 **A. 芙莉蓮優化類**（可套到 Claude Code／skill／rules／CLAUDE.md／user-memory）：
 
@@ -44,20 +46,20 @@ created: 2026-06-01
 - **規則 1：SSOT + symlink**。Claude 側 ✅：`~/.claude/CLAUDE.md`（全域）+ 專案 `CLAUDE.md` 都是 symlink 指向 vault `0-context/system/CLAUDE-global.md`、`CLAUDE-project.md`、有 git 版控（vault remote = github private）。Codex 側 ⚠️：昨天芙莉蓮**另寫**一份 vault 根 `AGENTS.md`（針對 Codex「唯讀參考 + 第二雙眼睛」角色客製、非指向 CLAUDE-global）。雷蒙 ProKey 08 的標準做法其實是抽一份平台中立的 `CORE_RULES.md`、讓 CLAUDE.md 跟 AGENTS.md 都指向它（乾淨的 SSOT）；Simon 的 CLAUDE-global 本身是 Claude Code 口味（含 Skill tool／hook／superpowers），純指向會餵 Codex 一堆用不到的規則，所以另寫 Codex 版是合理權衡，代價是兩份會漂移、要手動同步（或日後改走 CORE_RULES 模式）。
 - **規則 2：同一可攜資料夾**。⚠️ vault 是共享知識中介（Codex 讀得到 readings／concepts／rules），但 Claude 的 20 個 skill、hook、user-memory 在 `~/.claude/`（WSL），Codex 的 skill 在 `~/.codex/skills/`（Windows、目前幾乎空）。知識層共享、自動化層各自分開。
 - **規則 3：記憶放本地、不開平台記憶**。✅✅ 做對了：`~/.codex/config.toml` 明確 `use_memories = false`、`generate_memories = false`——Codex 平台記憶是關的，正合雷蒙規則。Claude 側記憶也全本地。唯一缺口：user-memory 檔在 `~/.claude`（WSL）、不在 vault，所以 Codex 讀得到 vault 知識、讀不到 user-memory（昨天「待續」已記）。
-- **規則 4：跨家無縫接軌**。讀取層 ✅（昨天「方案 A」雙關卡驗證過：Codex 在 vault 啟動載入 AGENTS.md、全程繁中、會順著讀 `0-context/rules/vault-auto-retrieval.md`、答得出 KW γ／course-notes 個人內容）。自動化層 ❌（hook／skill 自動觸發不跨家）。
+- **規則 4：跨家無縫接軌**。讀取層 ✅（昨天「方案 A」雙關卡驗證過：Codex 在 vault 啟動載入 AGENTS.md、全程繁中、會順著讀 `0-context/rules/vault-auto-retrieval.md`、答得出 KW γ／course-notes 個人內容）。自動化層 ⚠️ 需移植、非不可跨（2026-06-01 查證官方文件後更正，原寫「❌ 不跨家」已被推翻）：Codex 有近乎一對一的 hook 系統（事件含 SessionStart／UserPromptSubmit／PreToolUse／PostToolUse／PreCompact／Stop 等，寫進 `~/.codex/config.toml` 或 `hooks.json`）、skill 走同一套 agentskills.io 開放標準（Anthropic 2025-12-18 釋出、SKILL.md + 隱式觸發、掃 `.agents/skills`／`~/.agents/skills`、支援 symlink）。所以 hook／skill 是「要逐一移植設定」、不是「搬不動」；真正不可跨的只剩 superpowers 與 Claude 的 Skill tool 編排層，其餘卡點是跨作業系統跑腳本 + 兩份設定要維護，用 if-then + 共用腳本可壓薄。
 - **規則 5：雙棲健檢助手**。雷蒙那份是付費迷你課 ProKey 08（Simon 有連結）。本次直接對真實設定做健檢、可再拿雷蒙清單交叉比對、補檢核點。
 
 **最關鍵的兩件事**：
 
 1. **vault 根 AGENTS.md 現在不見了**（2026-06-01 完整 ls + find + git log 三查確認：working tree 無、從未 commit 過）。昨天建好、雙關卡驗證過，今天 vault refactor（commit `70dc8ff`）後不在了；`~/.codex/AGENTS.md` 又是 0 bytes 空檔。等於現在 Codex 在 vault 啟動讀不到任何 AGENTS.md、昨天驗證過的雙棲橋目前是斷的。這是健檢第一順位。
-2. **雷蒙影片美化的那層對 Simon 仍成立**：規則／知識（純文字）能跨家，但 Claude 原生自動化（hook 注入記憶／git 狀態／健檢提醒、Skill tool 自動觸發 20 個 skill、superpowers）Codex 全不吃。Codex 是「讀得到同一個大腦、跑不了同一套反射」。Simon 昨天的設計其實已接受這點——把 Codex 定位成唯讀參考 + 第二雙眼睛、不要求它跑芙莉蓮全套，這是對的。
+2. **「自動化層不可跨」這個原始判斷已被查證推翻（2026-06-01）**：規則／知識（純文字）能跨家不變；但 hook 與 skill 這層 Codex 其實鏡像了 Claude 的擴充模型（有 hook 系統 + agentskills.io skill），可逐一移植重建、不是搬不動。真正不可跨的只有 superpowers 與 Skill tool 自動編排（Claude 專屬引擎）。比較準的說法是：Codex「讀得到同一個大腦、多數反射可重建（要移植設定）、跑不了 Claude 專屬編排」。Simon 昨天把 Codex 定位成唯讀參考 + 第二雙眼睛仍是合理的階段性選擇，但理由不是「自動化搬不動」，而是移植要工、且桌面版 Codex 自有強項（生圖／Computer Use／手機遠端）值得各司其職。
 
 → 討論結論見「落地動作與效益」段。
 
 **B. Simon 個人動作類**：
 
 - **上下文三技巧自我檢核**：雷蒙的三招（八成時手動壓縮而非等自動、規劃跟執行分兩個對話、給絕對路徑不給關鍵字）Simon 多半已內化，可當提醒。規劃／執行分對話對應 Simon 寫 spec → plan → 實作的習慣。
-- **Substack 寫作角度**：一個比影片更深的真實角度——「我照雷蒙的雙棲規則把芙莉蓮架成 Claude Code + Codex 雙棲，一天後發現：規則可攜不等於 agent 可攜。AGENTS.md 一次 refactor 就漂走、hook 跟 skill 這層 Codex 根本搬不動。雷蒙影片沒講的是，雙棲真正綁死你的不是檔名、是自動化層。」對應 Simon 親手踩到的雙棲斷橋、跟「不被工具鎖死」的個人成長軸。
+- **Substack 寫作角度（2026-06-01 查證後修正論點）**：原本想寫「hook／skill 這層 Codex 根本搬不動」，查證後不成立（Codex 有對應機制）。更準也更有料的真實角度是：「規則可攜不等於 agent 可攜——但卡死你的不是 hook／skill 搬不動（那層其實鏡像得了），是兩件更隱性的事：一是『沒進 git 的橋會漂走』（我昨天建的 AGENTS.md 一次 refactor 就不見，因為它從沒被 commit）；二是『跨作業系統跑腳本 + Claude 專屬編排（superpowers）才是真正搬不動的那層』。雙棲的魔鬼在工程細節、不在檔名。」對應 Simon 親手踩到的雙棲斷橋、跟「不被工具鎖死」的個人成長軸。
 
 ## 落地動作與效益
 
@@ -76,7 +78,7 @@ created: 2026-06-01
 - **Step 1 同步方式**：vault 是 WSL + Windows 同一實體夾（`/mnt/c/Users/User/vaults/SimonVault`）+ github private remote + Obsidian Sync。**避開**雷蒙常見錯誤 #9（雲端 symlink 失效）——兩端讀同一份實體檔、不靠雲端 symlink。
 - **Step 2 規則**：本次兩個發現正中雷蒙常見錯誤 #1（只建 CLAUDE.md 忘 AGENTS.md）跟 #2（`~/.codex/AGENTS.md` 0 bytes 空檔）。
 - **Step 4 MCP（第一版漏、雷蒙補到的最大一塊）**：Claude 側 = notebooklm-mcp／twinkle-hub（+ claude.ai 帳號連 Gmail／Calendar／Drive／Notion + firecrawl／playwright）；Codex 側 = node_repl + OpenAI plugins（gmail／calendar／drive／browser／documents…）。兩邊工具完全不同、格式 JSON vs TOML、未轉未同步。雷蒙明示別 symlink、要逐一轉測。這是雙棲真正花工的一塊。
-- **Step 3／6 自動化**：Claude commands=1（morning）、agents=1（plan-reviewer）、~20 skill（昨天 refactor 收進 vault）、多個 hook；Codex skills 空。自動化層各自分開、印證「讀得到大腦、跑不了反射」。
+- **Step 3／6 自動化**：Claude commands=1（morning）、agents=1（plan-reviewer）、~20 skill（昨天 refactor 收進 vault）、多個 hook；Codex skills 空。自動化層目前各自分開（Codex 端尚未建）——但這是「還沒做」不是「做不到」：Codex 有 hook 系統 + agentskills.io skill，補設定即可跨；只有 superpowers／Skill tool 編排不可跨（2026-06-01 查證更正原「跑不了反射」的過度判斷）。
 - **Step 5 記憶**：Codex `use_memories=false` ✓（雷蒙也說 session 不該同步）。
 - 我比清單多抓到的：靜態盤點抓不到「昨天有今天沒」的 AGENTS.md 漂移；那是查 git log + 對照昨天 changelog 才看到的。
 
