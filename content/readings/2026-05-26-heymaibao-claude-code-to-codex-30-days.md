@@ -45,6 +45,15 @@ created: 2026-05-26
 - **季度性回看 agent OS 競賽動態**：把這篇跟 [[2026-05-16-bnext-agent-os-codex-vs-claude]] 和 [[2026-05-20-bnext-google-io-2026-gemini-spark]] 三篇放一起，下次 agent 工具評估時一起複查。
 - **10 個常見錯誤 checklist 可存**：文章整理的開發者使用 agentic 工具的 10 個常見錯誤（任務模糊、多任務塞同一個 prompt、跳過 plan、沒寫指令檔、權限太高、太多 MCP、讓模型自評、拿 compile success 當正確、過度並行、沒邊界的 Goal），多數也適用 Claude Code。
 
+## 落地動作與效益
+
+> 2026-05-31 更新：本段記錄「對 Simon 的應用」部分判斷的後續落地；上方「當下想法」段保留原貌不動。
+
+- **「AGENTS.md 暫不行動」「不急著轉 Codex」已推翻 → Codex 並用正式啟動**。Simon 在 Windows 裝了 Codex，決定 Claude Code（WSL，芙莉蓮）和 Codex 兩個工具並用，用 Obsidian vault 當共享知識中介（Codex 只讀、不在兩邊重複維護）。芙莉蓮草了一份 vault 根 `AGENTS.md`：繁體中文自檢列最高優先、降低 AI 語感、vault 導航、精簡查法、wikilink 引用、把 Codex 定位成「參考知識來源 + 第二雙眼睛」。
+- **驗證結果（雙關卡都過）**：Codex 在 vault 目錄啟動會自動載入 AGENTS.md；回答全程繁中、零簡體；會主動順著指路去讀 `0-context/rules/vault-auto-retrieval.md`；問它本篇「對 Simon 的應用」時，能如實檢索、答出 KW γ／course-notes 這類個人專屬內容、引用格式標準。雙棲方案 A（vault 當工作目錄開 Codex）成立。
+- **cross-provider verification 從「模擬」升級為「真跨家族」**：A 類原構想是用同家族 subagent 模擬第二雙眼睛、效果有限；現在有了 Codex，可做真正跨供應商互審（一個寫、另一個審），補上同家族共同盲點。
+- **待續**：vault 規則檔內部有些路徑是 WSL（芙莉蓮）視角的 `~/.claude/...`，Codex 在 Windows 對應不到 vault 以外的檔；目前不影響讀 vault 知識。方案 B（在 code 專案內跨目錄讀 vault）待評估。
+
 ## 原文要點
 
 - Avid 切換動機三層：rate limits、workflow friction、desktop app 體驗。強調不是某天突然爆炸，而是「trade-offs 變了」
