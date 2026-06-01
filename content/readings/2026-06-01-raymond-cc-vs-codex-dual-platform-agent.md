@@ -41,7 +41,7 @@ created: 2026-06-01
 
 這支的「雙棲規則」逐條對照 Simon **昨天（2026-05-31）已實際啟動的雙棲設定**（Claude Code WSL = 芙莉蓮 + Codex Windows、vault 當共享中介），就是一次雙棲健檢。2026-06-01 直接查真實狀態（`~/.claude` symlink、vault 根、`~/.codex/config.toml`）：
 
-- **規則 1：SSOT + symlink**。Claude 側 ✅：`~/.claude/CLAUDE.md`（全域）+ 專案 `CLAUDE.md` 都是 symlink 指向 vault `0-context/system/CLAUDE-global.md`、`CLAUDE-project.md`、有 git 版控。Codex 側 ⚠️：昨天芙莉蓮**另寫**了一份 vault 根 `AGENTS.md`（不是 symlink 指向 CLAUDE-global、而是針對 Codex「唯讀參考 + 第二雙眼睛」角色客製的獨立檔）。這個分流比雷蒙的盲目 symlink 更合理（兩家角色不同），代價是 AGENTS.md 會跟 CLAUDE-global 漂移、要手動同步。
+- **規則 1：SSOT + symlink**。Claude 側 ✅：`~/.claude/CLAUDE.md`（全域）+ 專案 `CLAUDE.md` 都是 symlink 指向 vault `0-context/system/CLAUDE-global.md`、`CLAUDE-project.md`、有 git 版控（vault remote = github private）。Codex 側 ⚠️：昨天芙莉蓮**另寫**一份 vault 根 `AGENTS.md`（針對 Codex「唯讀參考 + 第二雙眼睛」角色客製、非指向 CLAUDE-global）。雷蒙 ProKey 08 的標準做法其實是抽一份平台中立的 `CORE_RULES.md`、讓 CLAUDE.md 跟 AGENTS.md 都指向它（乾淨的 SSOT）；Simon 的 CLAUDE-global 本身是 Claude Code 口味（含 Skill tool／hook／superpowers），純指向會餵 Codex 一堆用不到的規則，所以另寫 Codex 版是合理權衡，代價是兩份會漂移、要手動同步（或日後改走 CORE_RULES 模式）。
 - **規則 2：同一可攜資料夾**。⚠️ vault 是共享知識中介（Codex 讀得到 readings／concepts／rules），但 Claude 的 20 個 skill、hook、user-memory 在 `~/.claude/`（WSL），Codex 的 skill 在 `~/.codex/skills/`（Windows、目前幾乎空）。知識層共享、自動化層各自分開。
 - **規則 3：記憶放本地、不開平台記憶**。✅✅ 做對了：`~/.codex/config.toml` 明確 `use_memories = false`、`generate_memories = false`——Codex 平台記憶是關的，正合雷蒙規則。Claude 側記憶也全本地。唯一缺口：user-memory 檔在 `~/.claude`（WSL）、不在 vault，所以 Codex 讀得到 vault 知識、讀不到 user-memory（昨天「待續」已記）。
 - **規則 4：跨家無縫接軌**。讀取層 ✅（昨天「方案 A」雙關卡驗證過：Codex 在 vault 啟動載入 AGENTS.md、全程繁中、會順著讀 `0-context/rules/vault-auto-retrieval.md`、答得出 KW γ／course-notes 個人內容）。自動化層 ❌（hook／skill 自動觸發不跨家）。
@@ -67,8 +67,18 @@ created: 2026-06-01
 
 - 🔧 **健檢第一順位：vault 根 AGENTS.md 不見了**。昨天建好、雙關卡驗證過，今天 vault refactor（commit `70dc8ff`）後 working tree 已無、且從未 commit；`~/.codex/AGENTS.md` 又是空檔。等於昨天驗證過的雙棲橋目前是斷的——Codex 在 vault 啟動讀不到任何 AGENTS.md。**本次不修（Simon 說不動設定），待 Simon 指示是否重建／補進版控。**
 - ⚠️ **AGENTS.md 跟 CLAUDE-global 會漂移**：兩份是獨立檔、不是 symlink。要嘛接受手動同步、要嘛把共用段抽出來 symlink、Codex 專屬段（唯讀參考 + 第二雙眼睛定位）另寫。留給 Simon 決定。
-- ❌ **不照搬雷蒙的盲目三檔 symlink**：他 CLAUDE.md／AGENTS.md／GEMINI.md 指同一份適合單人簡單設定；Simon 的 Codex 角色（唯讀參考）跟 Claude（主驅動）不同，獨立 AGENTS.md 更合理，這點 Simon 昨天已做對。
+- 🧭 **長期架構選項：雷蒙的 CORE_RULES.md 模式**：ProKey 08 的做法是把平台中立核心抽成 `CORE_RULES.md`、CLAUDE.md 跟 AGENTS.md 都指向它。Simon 目前是 CLAUDE-global 當本體（CC 口味）+ Codex 版另寫。要不要改走 CORE_RULES（抽出中立核心 + 各家加平台專屬段）是日後可選的整理、不急。本次不動。
 - ✅ **已正確、不用動的**：Codex 平台記憶關閉（`use_memories=false`，合雷蒙規則 3）、vault 設 trusted 專案、locale zh-TW、方案 A 讀取雙關卡驗證過。
+
+**雷蒙 ProKey 08 交叉比對（2026-06-01、Simon 提供原檔）**
+
+跑雷蒙七步健檢在真實設定上、補第一版漏的維度：
+- **Step 1 同步方式**：vault 是 WSL + Windows 同一實體夾（`/mnt/c/Users/User/vaults/SimonVault`）+ github private remote + Obsidian Sync。**避開**雷蒙常見錯誤 #9（雲端 symlink 失效）——兩端讀同一份實體檔、不靠雲端 symlink。
+- **Step 2 規則**：本次兩個發現正中雷蒙常見錯誤 #1（只建 CLAUDE.md 忘 AGENTS.md）跟 #2（`~/.codex/AGENTS.md` 0 bytes 空檔）。
+- **Step 4 MCP（第一版漏、雷蒙補到的最大一塊）**：Claude 側 = notebooklm-mcp／twinkle-hub（+ claude.ai 帳號連 Gmail／Calendar／Drive／Notion + firecrawl／playwright）；Codex 側 = node_repl + OpenAI plugins（gmail／calendar／drive／browser／documents…）。兩邊工具完全不同、格式 JSON vs TOML、未轉未同步。雷蒙明示別 symlink、要逐一轉測。這是雙棲真正花工的一塊。
+- **Step 3／6 自動化**：Claude commands=1（morning）、agents=1（plan-reviewer）、~20 skill（昨天 refactor 收進 vault）、多個 hook；Codex skills 空。自動化層各自分開、印證「讀得到大腦、跑不了反射」。
+- **Step 5 記憶**：Codex `use_memories=false` ✓（雷蒙也說 session 不該同步）。
+- 我比清單多抓到的：靜態盤點抓不到「昨天有今天沒」的 AGENTS.md 漂移；那是查 git log + 對照昨天 changelog 才看到的。
 
 **B 類 Simon 個人動作**
 
