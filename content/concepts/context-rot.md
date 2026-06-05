@@ -22,6 +22,7 @@ query-count: 0
 - Compaction 自動觸發 vs 主動觸發：自動觸發可能丟重要細節、主動 `/compact <提示>` 帶引導比較精準
 - 跟 [[token-saving-rules]] 的「對話水位管理」是同一件事的兩種說法
 - 防 rot 的紀律：到 70% context 就主動 compact、新任務開新會話、subagent 卸載大量中間輸出
+- 常駐 harness 太肥也會加速 rot：即使是新對話，如果一開始就載入重複、衝突、冗長的規則與記憶，模型也會更早進入注意力分散狀態，見 [[agent-harness-hygiene]]
 
 ## 應用場景
 
@@ -46,3 +47,4 @@ query-count: 0
 ## 來源（自動維護）
 
 - [[2026-05-13-thariq-claude-code-session-management-1m-context]]
+- [[2026-06-05-dustin-claude-code-harness-cleanup]]

@@ -46,3 +46,4 @@ query-count: 0
 ## 來源（自動維護）
 
 - [[2026-05-11-josie-claude-code-obsidian-project-planner]]
+- [[2026-06-05-aj-chatgpt-presentation-flow]]

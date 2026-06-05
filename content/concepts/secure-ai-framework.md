@@ -39,3 +39,4 @@ Google 推出的 AI 全生命週期治理框架，涵蓋從資料、訓練、模
 ## 來源（自動維護）
 
 - [[2026-05-05-google-cloud-agentic-secops-cybersec]]
+- [[2026-06-02-owasp-llm-top-10-genai-security]]

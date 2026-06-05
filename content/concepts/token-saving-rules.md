@@ -20,6 +20,7 @@ created: 2026-05-10
 - **對話水位管理**：來回對話超過 15 句就請 AI 做總結壓縮；類比水庫洩洪，不洩洪上下文會變雜訊
 - **模型適配**：日常寫程式、整理文件用 Sonnet（速度快 3 倍、省 5 倍額度）；只有需要深層邏輯推理才請出 Opus
 - **核心邏輯**：省 token 的真正目的是維持 AI 智商，雜訊累積會讓 AI 變笨、不只是錢的問題
+- **常駐規則瘦身**：整理 CLAUDE.md、AGENTS.md、hooks、memories、skills 這類每次都會讀到的 harness，省的是固定成本；Dustin 案例中每次新對話平均少約 4000 token，見 [[agent-harness-hygiene]]
 
 ## 應用場景
 
@@ -42,3 +43,4 @@ created: 2026-05-10
 
 - [[2026-05-09-claude-token-limits-tutorial]]
 - [[2026-05-24-anthropic-claude-code-cache-tips]]
+- [[2026-06-05-dustin-claude-code-harness-cleanup]]

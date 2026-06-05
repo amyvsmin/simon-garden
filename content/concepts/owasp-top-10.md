@@ -30,3 +30,4 @@ OWASP（Open Worldwide Application Security Project，開放全球應用程式�
 
 ## 來源
 - Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[2026-06-02-owasp-llm-top-10-genai-security]]

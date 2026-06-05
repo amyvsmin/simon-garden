@@ -24,6 +24,7 @@ Claude 的多代理協作機制。Subagent 是為特定任務訂製的持久化�
 - **Claude Code 內建**：透過 Agent tool + subagent_type 欄位呼叫；有官方與使用者自訂兩類
 - **傳遞方式**：prompt 內塞入所有必要上下文（subagent 看不到主對話）
 - **協作 vs 對抗兩種用法**：同一批 subagent 既可分工合作（各做一塊再彙整），也可彼此對抗（各自想推翻同一個結論，見 [[adversarial-verification]]）。正因為每個 subagent 的 context 互相隔離、看不到彼此的推理，互相挑錯才有意義——不是球員兼裁判。用途由派發時的 prompt 決定。[[dynamic-workflows]] 用一句話就能派出整批平行跑——影片裡兩個漏洞各派三個、共六個子代理同時跑。
+- **探索與驗證要分開**：整理 agent harness 時，可先派探索型 subagent 分區盤點，再派不繼承主對話的 reviewer subagent 驗證成果。驗證代理只拿最終標準，不拿主 agent 的「我改了哪裡」說明，才不會被引導。
 
 ## 應用場景
 
@@ -50,3 +51,4 @@ Claude 的多代理協作機制。Subagent 是為特定任務訂製的持久化�
 
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
+- [[2026-06-05-dustin-claude-code-harness-cleanup]]

@@ -25,6 +25,7 @@ created: 2026-05-05
 - **跟 [[skill]] 的分工（雷蒙範式）**：CLAUDE.md = 「入職手冊」放通用偏好（語言、風格、禁區、資料夾結構）、Skill = 「SOP」放特定任務完整流程（步驟、格式、範例、例外處理）
 - **更新頻率**：CLAUDE.md 偶爾改、Skill 每次做錯就改；長流程強塞 CLAUDE.md 會讓它又長又亂
 - **載入機制差異**：CLAUDE.md 每次對話都自動載入（佔常駐 token）、Skill 相關時才載入（progressive disclosure）
+- **常駐內容要定期盤點**：指令檔裡的故事、日期、過長例子與只在特定路徑才用的規則，應搬到 changelog、reference 或 path-scoped rules；指令檔只留會跨任務反覆影響行為的契約。
 
 ## 應用場景
 
@@ -45,3 +46,4 @@ created: 2026-05-05
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
 - [[2026-05-12-raymond-claude-code-skill]]
 - [[2026-05-26-heymaibao-claude-code-to-codex-30-days]]
+- [[2026-06-05-dustin-claude-code-harness-cleanup]]
