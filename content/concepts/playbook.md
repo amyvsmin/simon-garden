@@ -9,7 +9,7 @@ query-count: 0
 ---
 
 ## 定義
-提供任何 operational action（操作動作）細節的手冊。在事件應變中，playbook 的作用像「產品說明書」——把某類事件（如釣魚、勒索）該怎麼一步步處理寫成可照做的指引，確保不同人、不同時間的反應一致。是 [[documentation]] 的一種類型，也是 [[soar]] 自動執行的回應依據。
+提供任何 operational action（操作動作）細節的手冊。在事件應變中，playbook 的作用像「產品說明書」——把某類事件（如釣魚、勒索）該怎麼一步步處理寫成可照做的指引，確保不同人、不同時間的反應一致。是文件（documentation）的一種類型，也是 [[soar]] 自動執行的回應依據。
 
 ## 關鍵面向
 - **操作導向**：逐步說明某情境下要做什麼、按什麼順序
@@ -23,7 +23,7 @@ query-count: 0
 - **一般場景**：SOC 標準化處置、SOAR 自動回應、新進分析師訓練教材
 
 ## 相關概念
-- [[documentation]]：playbook 是文件的一種
+- 文件（documentation）：playbook 是其中一種
 - [[incident-response-plan]]：計畫層，playbook 是其下的情境操作手冊
 - [[soar]]：自動執行 playbook 的工具
 

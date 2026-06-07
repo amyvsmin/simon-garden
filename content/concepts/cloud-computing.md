@@ -25,7 +25,7 @@ query-count: 0
 ## 相關概念
 - [[cia-triad]]：雲端環境下 CIA 的挑戰與地端不同
 - [[data-lifecycle]]：雲端資料的生命週期管理需考慮供應商鎖定
-- [[encryption-decryption]]：雲端靜態與傳輸加密是基本要求
+- [[cryptography]]：雲端靜態與傳輸加密是基本要求
 - [[sso-single-sign-on]]：雲端多服務環境下 SSO 是存取管理關鍵
 - [[mfa-multi-factor-authentication]]：雲端帳號 MFA 是防帳號劫持的第一道防線
 

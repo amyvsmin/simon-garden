@@ -25,7 +25,7 @@ query-count: 0
 - [[incident-response]]：IRP 是 IR 流程的書面化計畫
 - [[playbook]]：IRP 之下針對特定情境的操作手冊
 - [[psp-hierarchy]]：IRP 屬程序層
-- [[documentation]]：IRP 是文件的一種
+- 文件（documentation）：IRP 是文件的一種
 
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-3-incident-response-operations/4-incident-response-plans|Course 6 Module 1 Section 3 Leaf 4 Incident response plans]]

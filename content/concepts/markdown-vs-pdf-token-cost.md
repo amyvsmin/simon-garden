@@ -23,7 +23,7 @@ created: 2026-05-10
 
 ## 應用場景
 
-- Simon 工作場景：CISSP／ISO 27001 教材丟給 CC 分析時、先轉 Markdown；長 PDF 報告處理走 [[pdf|pdf skill]] 抽文字；公司 IT 規範文件批次轉 Markdown 入 vault
+- Simon 工作場景：CISSP／ISO 27001 教材丟給 CC 分析時、先轉 Markdown；長 PDF 報告處理走 pdf skill 抽文字；公司 IT 規範文件批次轉 Markdown 入 vault
 - 一般場景：所有要把書／報告／論文塞進 LLM 的場景；特別是 RAG pipeline 必先 Markdown 化
 
 ## 相關概念

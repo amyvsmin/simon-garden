@@ -25,7 +25,7 @@ query-count: 0
 ## 相關概念
 - [[data-governance]]：資料生命週期是治理框架的操作層
 - [[information-privacy]]：隱私保護貫穿生命週期每個階段
-- [[encryption-decryption]]：各階段的資料保護手段
+- [[cryptography]]：各階段的資料保護手段
 - [[cia-triad]]：生命週期管理的目標是維護 CIA 三要素
 
 ## 來源

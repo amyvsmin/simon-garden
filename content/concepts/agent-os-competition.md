@@ -20,7 +20,7 @@ Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人�
 - **模型差距收斂**：GPT-5.5 性能跟 Anthropic 打平、模型不再是決勝點；應用層（速度、子代理、自動化推送）成主戰場
 - **快速迭代取代鎖定**：企業按季度評估競品、避免被鎖定單一供應商；6 個月內版圖會洗牌
 - **文件設計升級**：要針對「代理人可讀性」優化、不只人類可讀；對應 [[html-vs-markdown-ai-output]] 角度但更系統化
-- **跟 [[claude-code-vs-api-split]] 的關係**：claude-code-vs-api-split 看 Claude 內部三形態分工、agent-os-competition 看跨廠商桌面入口競爭、兩者互補不同層
+- **跟 [[claude-three-modes]] 的關係**：claude-three-modes 看 Claude 內部三形態（Chat/Cowork/Code）分工、agent-os-competition 看跨廠商桌面入口競爭、兩者互補不同層
 - **Every 創辦人丹希普案例**：從 Claude Code 轉 Codex Desktop、主因是 app 層體驗（速度、子代理、推送）勝出、非模型差
 - **Codex 2026 五入口全景**（脈報 2026-05-25）：Codex 已從「更聰明的 autocomplete」變成完整 agentic 開發平台，五個入口（CLI、IDE 擴充、Desktop app、Cloud、In-app browser + Computer Use）對應不同人機黏合度；Cloud 走 async 背景並行 PR、Desktop 走 Goal mode 長期目標、CLI 走 scripted 雜事
 - **工作節奏轉換**：unit of work 從 turn（一次對話）變成 task（一個交付），output 從 chat response 變成 PR；開發者角色從「寫程式的人」轉為「review 永遠不睡的初階工程師團隊的人」
@@ -36,7 +36,7 @@ Anthropic、OpenAI、xAI、Google 同時搶奪知識工作者「桌面代理人�
 ## 相關概念
 
 - [[tool-agnostic-thinking]]：工具中立思考、agent-os-competition 是其在桌面 OS 層的具體展開
-- [[claude-code-vs-api-split]]：Claude 內部三形態分工；agent-os-competition 是跨廠商版
+- [[claude-three-modes]]：Claude 內部三形態分工；agent-os-competition 是跨廠商版
 - [[html-vs-markdown-ai-output]]：文件代理人可讀性議題、agent-os-competition 把它升級成系統級需求
 - [[subscription-vs-api-cost]]：訂閱策略受桌面 OS 競賽影響
 

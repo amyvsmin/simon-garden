@@ -38,7 +38,7 @@ query-count: 0
 ## 尚未解決的疑問
 
 - WSL／遠端環境怎麼讓 Simon 看到 Claude 生的 HTML？headless 瀏覽器渲染成截圖？或開 localhost server？
-- 對 [[playwright-headless-remote]] 限制的影響——可拖曳介面遠端會用不到
+- 對 [[browser-use]] 限制的影響——可拖曳介面遠端會用不到
 
 ## 來源（自動維護）
 
