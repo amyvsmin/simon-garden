@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 520" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <!-- 產出（草稿） -->
+  <rect x="24" y="222" width="150" height="72" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="99" y="252" text-anchor="middle" font-size="16" font-weight="600" fill="#1e293b">產出（草稿）</text>
+  <text x="99" y="274" text-anchor="middle" font-size="13" fill="#475569">設計 · 計畫 · 程式</text>
+
+  <!-- 三道對抗關卡容器 -->
+  <rect x="214" y="70" width="330" height="384" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="379" y="100" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">三道對抗關卡</text>
+
+  <rect x="239" y="128" width="280" height="86" rx="9" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.4"/>
+  <text x="379" y="160" text-anchor="middle" font-size="15" font-weight="600" fill="#075985">① 跨平台對抗式審查</text>
+  <text x="379" y="184" text-anchor="middle" font-size="13" fill="#0c4a6e">Claude 寫 · Codex 審</text>
+  <text x="379" y="202" text-anchor="middle" font-size="12" fill="#475569">不同供應商、不同盲點</text>
+
+  <rect x="239" y="226" width="280" height="86" rx="9" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+  <text x="379" y="258" text-anchor="middle" font-size="15" font-weight="600" fill="#065f46">② 子代理預審</text>
+  <text x="379" y="282" text-anchor="middle" font-size="13" fill="#064e3b">送審前先擋一輪</text>
+  <text x="379" y="300" text-anchor="middle" font-size="12" fill="#475569">成本低的同平台預檢</text>
+
+  <rect x="239" y="324" width="280" height="86" rx="9" fill="#fef2f2" stroke="#dc2626" stroke-width="1.4"/>
+  <text x="379" y="356" text-anchor="middle" font-size="15" font-weight="600" fill="#991b1b">③ 自動對抗式驗證</text>
+  <text x="379" y="380" text-anchor="middle" font-size="13" fill="#7f1d1d">派子代理「推翻」結論</text>
+  <text x="379" y="398" text-anchor="middle" font-size="12" fill="#475569">全部推翻失敗才算數</text>
+
+  <!-- 判斷菱形 -->
+  <polygon points="672,184 764,262 672,340 580,262" fill="#fffbeb" stroke="#d97706" stroke-width="1.6"/>
+  <text x="672" y="256" text-anchor="middle" font-size="14" font-weight="600" fill="#92400e">還挑得出</text>
+  <text x="672" y="278" text-anchor="middle" font-size="14" font-weight="600" fill="#92400e">「非改不可」？</text>
+
+  <!-- 零必改 / 收工 -->
+  <rect x="812" y="232" width="110" height="58" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="867" y="266" text-anchor="middle" font-size="16" font-weight="700" fill="#14532d">零必改</text>
+
+  <rect x="812" y="322" width="110" height="58" rx="9" fill="#f1f5f9" stroke="#475569" stroke-width="1.5"/>
+  <text x="867" y="349" text-anchor="middle" font-size="14" font-weight="600" fill="#1e293b">收工</text>
+  <text x="867" y="368" text-anchor="middle" font-size="12" fill="#475569">進下一步</text>
+
+  <!-- 連線 -->
+  <line x1="174" y1="258" x2="210" y2="262" stroke="#475569" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="544" y1="262" x2="576" y2="262" stroke="#475569" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="764" y1="262" x2="808" y2="261" stroke="#475569" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="788" y="250" text-anchor="middle" font-size="13" font-weight="600" fill="#16a34a">否</text>
+  <line x1="867" y1="290" x2="867" y2="318" stroke="#475569" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- 退回重來 迴圈（沿頂部） -->
+  <polyline points="672,184 672,36 99,36 99,218" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+  <text x="385" y="28" text-anchor="middle" font-size="13" font-weight="600" fill="#dc2626">是 → 退回重來</text>
+</svg>
