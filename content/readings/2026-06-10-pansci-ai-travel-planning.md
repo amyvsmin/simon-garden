@@ -8,7 +8,7 @@ concepts: [notebooklm-as-rag, gemini-live]
 impact: medium
 transcript_source: whisper-large-v3
 tldr: "用 Gemini 查即時資訊、NotebookLM 整合零散資料、Gemini Canvas 排行程、CSV 匯入 Google My Maps 導航、Gemini Live 當隨行助理——一條 AI 旅遊規劃流水線。是 Gemini × NotebookLM 原生串接（5/26 國煜那篇收過的介面改版）的第一個完整應用實例。"
-stage: growing
+stage: evergreen
 icon: "⚡"
 created: 2026-06-10
 ---
@@ -40,6 +40,17 @@ created: 2026-06-10
 
 - 下次跟阿茹出遊可直接套這條流水線：收藏的 IG 景點截圖＋LINE 討論訊息丟 NotebookLM → Gemini 筆記本入口開 Canvas 排行程（給條件：步行上限、預算、誰不想早起）→ 行程轉 CSV 匯入 Google My Maps 當天導航。
 - 手機 Gemini App 的 Live 功能值得先試用一次熟悉操作（拍照問、視訊問），出遊當下才不用現學。
+
+## 落地動作與效益
+
+**A 類芙莉蓮優化**（2026-06-10 與 Simon 討論定案）：
+
+- **不優化**：候選「在 KW skill 的 NotebookLM 段落加 Gemini 筆記本入口延伸產出建議」決定不做。理由：事實已記進 [[notebooklm-as-rag]] concept（本次擴寫）、目前 KW 流程沒有「拿 notebook 繼續創作」的實際需求，等需求出現再動 skill，避免規則越加越肥（agent harness 衛生考量）。
+
+**B 類 Simon 個人動作**（Simon 自行維護狀態）：
+
+- ⏸ 下次跟阿茹出遊套用流水線（NotebookLM 整合 → Canvas 排行程 → CSV 進 My Maps）——等有出遊計畫
+- ⏸ 手機 Gemini App 的 Live 功能先試用一次（拍照問、視訊問）
 
 ## 原文要點
 
