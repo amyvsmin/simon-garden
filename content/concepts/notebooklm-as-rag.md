@@ -22,6 +22,8 @@ query-count: 0
 - NotebookLM 強項：source-based 生成減幻覺、多媒體輸出（手繪藍圖／心智圖／互動圖表）、podcast 配音、整合 quiz／study guide
 - 限制：NotebookLM 是 GUI-first、CLI 整合靠社群工具（`notebooklm-py` 是 unofficial）；可能未來會被官方 API 取代
 - skills-creator 用法：丟一段「我要這個 skill 做 X、用 Y 工具、有 Z 輸出」自動產生 skill 包
+- **Gemini 原生串接（2026-05 介面改版後）**：Gemini 左側工具欄新增「筆記本」入口、可直接開啟 NotebookLM 的所有筆記本、對話奠基在匯入的資料上（不會自己亂找外部資料）；等於 Google 官方把「NotebookLM 管資料、Gemini 管生成」的分工做成了原生通道、不再只能靠社群 CLI 工具串（國煜、泛科學院）。限制：分享出去的筆記本會從 Gemini 側欄消失、有對話記錄的筆記本不能分享、釘選最多 5 本（國煜）
+- **「整理」與「創作」分工**：NotebookLM 擅長整理既有資料、不擅長延伸企劃；要做創作型產出（排行程、寫企劃）應從 Gemini 筆記本入口接 Canvas 畫布、生成結果可即時編輯修改（泛科學院）
 
 ## 應用場景
 
@@ -44,3 +46,5 @@ query-count: 0
 ## 來源（自動維護）
 
 - [[2026-05-13-hc-notebooklm-claude-code-rag]]
+- [[2026-05-26-yt-guoyu-gemini-notebooklm-gems-integration]]
+- [[2026-06-10-pansci-ai-travel-planning]]
