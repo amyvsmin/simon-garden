@@ -1,7 +1,7 @@
 ---
 title: 把另一個 AI 當對手：對抗式審查如何撐起我做的每一套系統
 type: topic
-status: draft-v1
+status: done
 created: 2026-06-09
 last_updated: 2026-06-09
 flow_diagram: assets/adversarial-ai-review-flow.svg
@@ -96,6 +96,7 @@ tags:
 ## 內部紀錄
 
 - **對應 Article**：[[2026-06-09-cross-review-substack]]（2026-06-09 發 Substack，第一人稱心得版；URL: https://simonwang1234.substack.com/p/a21 ）
+- **月度認列**：6 月高品質主題筆記（年度目標 O2 KR1「每月至少整理 1 篇高品質主題筆記，全年累積 9 篇」）— Notion 行動卡 https://app.notion.com/p/37bf85da554f815abf67e2199ccc4d8f
 - **相關 concept**：[[sycophancy]]、[[cross-provider-verification]]、[[adversarial-verification]]、[[subagents]]、[[dynamic-workflows]]、[[red-team]]、[[attacker-mindset]]、[[blue-team]]
 - **上次擴寫**：2026-06-09（建立）
 - **下次重看檢查項**：
