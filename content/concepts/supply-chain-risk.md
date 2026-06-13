@@ -23,6 +23,7 @@ created: 2026-05-05
 - SBOM（Software Bill of Materials）是基礎管制工具
 - **Cisco 2026 觀察**：攻擊者偏好供應鏈、targeting 一家技術供應商可橫掃多組織、跨組織橫向移動效率遠高於單點攻擊
 - **AI 加速**：agentic agent 可自動掃描整條供應鏈尋找最弱環節
+- **AI Skill 市集成新攻擊面**：第三方 AI agent skill 市集（如 OpenClaw 的 ClawHub）是供應鏈攻擊的新前線——惡意行為者大量上傳功能正常但藏惡意指令的 skill，使用者一裝就中招。Koi Security 2026-02 揭露的 ClawHavoc 行動掃出 341 個惡意 skill（後續審計數字持續上升）。詳見 [[ai-skill-security]]
 
 ## 攻擊手法
 
@@ -59,4 +60,5 @@ created: 2026-05-05
 - [[2026-05-05-earth-kurma-apt-rootkit-cybersec]]
 - [[2026-05-06-cisco-aging-infrastructure-cybersec]]
 - [[2026-05-07-cybersec-taiwan-pavilion-tour]]
+- [[2026-06-13-pansci-claude-skill-security]]
 - Course 5 Assets, Threats, and Vulnerabilities — Module 3

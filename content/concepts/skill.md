@@ -30,7 +30,7 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - **進化路徑**：每次都要講 → SKILL.md → 加 references/ 子資料夾 → 加 scripts/ → 加版本號與 changelog → 打包成 Plugin；大部分人到第三步就夠
 - **模板 + Reference 雙要素（李佳達師父班）**：光有 prompt 模板不夠、要附範例和參考文獻才精準產出；技能包安裝後可持續優化、每次改版建議輸出安裝檔留底備份、方便回退版本
 - **GPTs/Gems 範式翻轉**：GPTs 時代要「先想找誰、再開哪個對話框」；Skill 時代靠 description 自動匹配、AI 主動抓對應流程進來、「工具來找人」取代「人去找工具」
-- **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝
+- **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式、以你的使用者身份存取所有檔案與對外連網；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝。完整的風險模型（為何 skill 等同把電腦鑰匙交出去）、三種已揭露攻擊型態與四招肉眼審核法見 [[ai-skill-security]]
 - **Skill 也需要瘦身**：description 太長、觸發條件相近或多個 skill 做同一件事，會讓模型匹配成本變高、觸發更不穩。定期檢查 description 是否精準互斥，是 [[agent-harness-hygiene]] 的一部分。
 
 ## 應用場景
@@ -60,3 +60,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - [[2026-05-31-codex-obsidian-self-growing-kb]]
 - [[2026-06-05-aj-chatgpt-presentation-flow]]
 - [[2026-06-05-dustin-claude-code-harness-cleanup]]
+- [[2026-06-13-pansci-claude-skill-security]]
