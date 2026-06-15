@@ -11,6 +11,8 @@ created: 2026-06-01
 
 把一隻 AI agent 的規則與記憶設計成「不綁特定供應商、可在 Claude Code、Codex、Gemini 之間無痛搬家」的做法。手段是單一真實來源（SSOT，Single Source of Truth）加捷徑（symlink）：本體只維護一份，各家用各自認得的檔名指向它。
 
+<p align="center"><img src="assets/covers/cross-platform-agent-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **各家檔名不同、要靠捷徑橋接**：Claude Code 讀 `CLAUDE.md`、Codex 讀 `AGENTS.md`、Gemini 讀 `GEMINI.md`，而且 Codex 不會去讀 `CLAUDE.md`。直接維護三份會漂移：今天改了一份、切到另一家就「少認識你一點」。解法是真正的本體只放一份核心規則，三個檔名全做成 symlink 指向它，只更新本體、三家自動同步。
