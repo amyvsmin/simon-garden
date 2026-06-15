@@ -3,7 +3,7 @@ title: "零時差漏洞（Zero-Day）"
 slug: zero-day
 aliases: [Zero-Day, 零時差漏洞, 零日漏洞, zero-day vulnerability, zero-day exploit, 0-day]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[vulnerability-management]]：zero-day 管理是弱點管理中最棘手的部分
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-1-flaws-in-the-system/2-vulnerability-management|Course 5 Module 3 Section 1 Leaf 2 vulnerability management]]

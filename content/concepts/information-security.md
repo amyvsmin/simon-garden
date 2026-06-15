@@ -3,7 +3,7 @@ title: "資訊安全（Information Security）"
 slug: information-security
 aliases: [Information Security, 資訊安全, InfoSec, 資安, information security]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,6 @@ created: 2026-05-25
 - [[psp-hierarchy]]：資訊安全治理文件架構
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-2-introduction-to-assets/2-the-what-why-and-how-of-asset-security|Course 5 Module 1 Section 2 Leaf 2 the what why and how of asset security]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/2-security-controls|Course 5 Module 2 Section 1 Leaf 2 security controls]]

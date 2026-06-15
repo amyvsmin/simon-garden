@@ -3,7 +3,7 @@ title: "標準（Standard）"
 slug: standard
 aliases: [Standard, 標準, 安全標準, security standard, 合規標準, compliance standard]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -33,4 +33,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/1-elements-of-a-security-plan|Course 5 Module 1 Section 4 Leaf 1 elements of a security plan]]

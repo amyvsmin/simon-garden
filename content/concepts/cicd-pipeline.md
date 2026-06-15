@@ -3,7 +3,7 @@ title: "CI/CD 管線（CI/CD Pipeline）"
 slug: cicd-pipeline
 aliases: [CI/CD Pipeline, CI/CD 管線, CI/CD, 持續整合, 持續交付, Continuous Integration, Continuous Delivery, Continuous Deployment]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -33,4 +33,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-1-flaws-in-the-system/3-vulnerabilities-of-cicd|Course 5 Module 3 Section 1 Leaf 3 vulnerabilities of cicd]]

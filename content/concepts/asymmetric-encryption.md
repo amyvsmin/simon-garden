@@ -3,7 +3,7 @@ title: "非對稱加密（Asymmetric Encryption）"
 slug: asymmetric-encryption
 aliases: [Asymmetric Encryption, 非對稱加密, 非對稱式加密, public key cryptography, 公鑰加密, 公開金鑰加密]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,6 @@ created: 2026-05-25
 - [[post-quantum-cryptography]]：RSA/ECC 的下一代替代方案
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/3-symmetric-and-asymmetric-encryption|Course 5 Module 2 Section 2 Leaf 3 symmetric and asymmetric encryption]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/2-public-key-infrastructure|Course 5 Module 2 Section 2 Leaf 2 public key infrastructure]]

@@ -3,7 +3,7 @@ title: "AAA 框架（Authentication, Authorization, Accounting）"
 slug: aaa-framework
 aliases: [AAA, AAA framework, 認證授權稽核, 認證授權記帳, authentication authorization accounting, AAA 架構, triple A]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -30,4 +30,6 @@ created: 2026-05-25
 - [[non-repudiation]]：Accounting 日誌支撐不可否認性
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-3-authentication-authorization-and-accounting/1-access-controls-and-authentication-systems|Course 5 Module 2 Section 3 Leaf 1 access controls and authentication systems]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-3-authentication-authorization-and-accounting/4-why-we-audit-user-activity|Course 5 Module 2 Section 3 Leaf 4 why we audit user activity]]

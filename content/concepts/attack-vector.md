@@ -3,7 +3,7 @@ title: "攻擊向量（Attack Vector）"
 slug: attack-vector
 aliases: [Attack Vector, 攻擊向量, 攻擊路徑, attack path, 入侵途徑]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -33,4 +33,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-3-cyber-attacker-mindset/3-types-of-threat-actors|Course 5 Module 3 Section 3 Leaf 3 types of threat actors]]

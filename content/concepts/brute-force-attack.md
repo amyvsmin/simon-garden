@@ -3,7 +3,7 @@ title: "暴力攻擊（Brute Force Attack）"
 slug: brute-force-attack
 aliases: [Brute Force Attack, 暴力攻擊, 暴力破解, brute force, 窮舉攻擊, 密碼窮舉]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -32,4 +32,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-3-cyber-attacker-mindset/7-fortify-against-brute-force-cyber-attacks|Course 5 Module 3 Section 3 Leaf 7 fortify against brute force cyber attacks]]

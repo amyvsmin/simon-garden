@@ -3,7 +3,7 @@ title: "政策標準程序層級（Policy-Standard-Procedure Hierarchy）"
 slug: psp-hierarchy
 aliases: [Policy-Standard-Procedure Hierarchy, 政策標準程序層級, PSP, 治理文件架構, policy hierarchy, 政策層級]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[nist-csf]]：框架指引如何建構治理文件
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/1-elements-of-a-security-plan|Course 5 Module 1 Section 4 Leaf 1 elements of a security plan]]

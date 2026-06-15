@@ -3,7 +3,7 @@ title: "OAuth 授權（OAuth Authorization）"
 slug: oauth-authorization
 aliases: [OAuth, OAuth 2.0, OAuth Authorization, OAuth 授權, 開放授權, OAuth 授權框架]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[api]]：OAuth token 常用於 API 存取控制
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-3-authentication-authorization-and-accounting/3-the-mechanisms-of-authorization|Course 5 Module 2 Section 3 Leaf 3 the mechanisms of authorization]]

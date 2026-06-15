@@ -3,7 +3,7 @@ title: "職責分離（Separation of Duties / SoD）"
 slug: separation-of-duties
 aliases: [separation of duties, SoD, 職責分離, 權責分離, 分權制衡, segregation of duties]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,6 @@ created: 2026-05-25
 - [[privilege-creep]]：未落實 SoD 時權限容易蔓延
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-3-authentication-authorization-and-accounting/6-identity-and-access-management|Course 5 Module 2 Section 3 Leaf 6 identity and access management]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/3-principle-of-least-privilege|Course 5 Module 2 Section 1 Leaf 3 principle of least privilege]]

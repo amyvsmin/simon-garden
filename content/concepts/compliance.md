@@ -3,7 +3,7 @@ title: "合規（Compliance）"
 slug: compliance
 aliases: [Compliance, 合規, 法規遵循, regulatory compliance, 合規性, 法遵]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,6 @@ created: 2026-05-25
 - [[risk]]：合規缺口本身就是一種風險
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/3-security-guidelines-in-action|Course 5 Module 1 Section 4 Leaf 3 security guidelines in action]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/5-information-privacy-regulations-and-compliance|Course 5 Module 2 Section 1 Leaf 5 information privacy regulations and compliance]]

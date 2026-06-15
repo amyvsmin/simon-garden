@@ -3,7 +3,7 @@ title: "密碼學（Cryptography）"
 slug: cryptography
 aliases: [Cryptography, 密碼學, 加密技術, 加密學, encryption, decryption, 加密, 解密, 加密與解密, encryption and decryption, 密文, 明文, ciphertext, plaintext]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -35,4 +35,5 @@ created: 2026-05-25
 - [[public-key-infrastructure]]：管理非對稱加密金鑰的框架
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/1-fundamentals-of-cryptography|Course 5 Module 2 Section 2 Leaf 1 fundamentals of cryptography]]

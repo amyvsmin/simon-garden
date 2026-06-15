@@ -3,7 +3,7 @@ title: "資料生命週期（Data Lifecycle）"
 slug: data-lifecycle
 aliases: [data lifecycle, 資料生命週期, 資料生命週期管理, data lifecycle management, DLM, 資料全生命週期]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[cia-triad]]：生命週期管理的目標是維護 CIA 三要素
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/4-the-data-lifecycle|Course 5 Module 2 Section 1 Leaf 4 the data lifecycle]]

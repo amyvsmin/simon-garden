@@ -3,7 +3,7 @@ title: "NIST SP 800-53（安全與隱私控制措施）"
 slug: nist-sp-800-53
 aliases: [NIST SP 800-53, 安全與隱私控制措施, Security and Privacy Controls, NIST 800-53, NIST 控制措施目錄]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -34,4 +34,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1+2
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/8-activity-exemplar-determine-appropriate-data-handling-practices|Course 5 Module 2 Section 1 Leaf 8 activity exemplar determine appropriate data handling practices]]

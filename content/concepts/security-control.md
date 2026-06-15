@@ -3,7 +3,7 @@ title: "安全控制措施（Security Control）"
 slug: security-control
 aliases: [Security Control, 安全控制, 安全控制措施, 控制措施, security countermeasure, 資安控制]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[security-hardening]]：系統層面的控制措施實作
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1 + Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/2-security-controls|Course 5 Module 2 Section 1 Leaf 2 security controls]]

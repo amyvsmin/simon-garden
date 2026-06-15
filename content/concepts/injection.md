@@ -3,7 +3,7 @@ title: "注入攻擊（Injection）"
 slug: injection
 aliases: [Injection, 注入攻擊, 注入漏洞, code injection, 程式碼注入]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[security-control]]：輸入驗證與參數化查詢都是技術性控制措施
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-3-web-based-exploits/3-prevent-injection-attacks|Course 5 Module 4 Section 3 Leaf 3 prevent injection attacks]]

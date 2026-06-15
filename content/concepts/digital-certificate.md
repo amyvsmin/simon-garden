@@ -3,7 +3,7 @@ title: "數位憑證（Digital Certificate）"
 slug: digital-certificate
 aliases: [digital certificate, 數位憑證, 電子憑證, X.509, SSL certificate, TLS certificate, 憑證]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[non-repudiation]]：憑證讓數位簽章可驗證，支撐不可否認性
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/2-public-key-infrastructure|Course 5 Module 2 Section 2 Leaf 2 public key infrastructure]]

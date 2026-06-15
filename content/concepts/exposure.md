@@ -3,7 +3,7 @@ title: "曝露（Exposure）"
 slug: exposure
 aliases: [Exposure, 曝露, 暴露, 資訊曝露, security exposure, 安全曝露]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -33,4 +33,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-1-flaws-in-the-system/5-common-vulnerabilities-and-exposures|Course 5 Module 3 Section 1 Leaf 5 common vulnerabilities and exposures]]

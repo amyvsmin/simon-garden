@@ -3,7 +3,7 @@ title: "終止支援軟體（End-of-Life Software）"
 slug: eol-software
 aliases: [End-of-Life Software, EoL Software, 終止支援軟體, 停止支援軟體, end of life, EOL, EOS, End of Support, 終止生命週期]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[aging-network-infrastructure]]：硬體端的同類問題
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-2-identify-system-vulnerabilities/3-the-importance-of-updates|Course 5 Module 3 Section 2 Leaf 3 the importance of updates]]

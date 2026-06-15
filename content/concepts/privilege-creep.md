@@ -3,7 +3,7 @@ title: "權限蔓延（Privilege Creep）"
 slug: privilege-creep
 aliases: [privilege creep, 權限蔓延, 權限膨脹, 權限累積, permission creep, access creep, 累積權限]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[soft-disable-vs-hard-delete]]：離職流程的帳號處理直接影響權限蔓延
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/3-principle-of-least-privilege|Course 5 Module 2 Section 1 Leaf 3 principle of least privilege]]

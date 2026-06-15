@@ -3,7 +3,7 @@ title: "隱私設計（Privacy by Design）"
 slug: privacy-by-design
 aliases: [privacy by design, PbD, 隱私設計, 隱私即設計, 嵌入式隱私, 設計階段隱私]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[data-lifecycle]]：PbD 要求在生命週期每階段都嵌入保護
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/5-information-privacy-regulations-and-compliance|Course 5 Module 2 Section 1 Leaf 5 information privacy regulations and compliance]]

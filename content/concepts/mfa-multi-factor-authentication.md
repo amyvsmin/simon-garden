@@ -3,7 +3,7 @@ title: "多因子認證（Multi-Factor Authentication / MFA）"
 slug: mfa-multi-factor-authentication
 aliases: [MFA, multi-factor authentication, 多因子認證, 多因子驗證, 雙因子認證, 2FA, two-factor authentication, 多重驗證]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[public-key-infrastructure]]：FIDO2 依賴 PKI 架構
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-3-authentication-authorization-and-accounting/2-the-rise-of-sso-and-mfa|Course 5 Module 2 Section 3 Leaf 2 the rise of sso and mfa]]

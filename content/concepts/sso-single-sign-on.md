@@ -3,7 +3,7 @@ title: "單一登入（Single Sign-On / SSO）"
 slug: sso-single-sign-on
 aliases: [SSO, single sign-on, 單一登入, 單點登入, 統一登入, SAML, OIDC]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[cloud-computing]]：雲端多服務環境是 SSO 的主要場景
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-3-authentication-authorization-and-accounting/2-the-rise-of-sso-and-mfa|Course 5 Module 2 Section 3 Leaf 2 the rise of sso and mfa]]

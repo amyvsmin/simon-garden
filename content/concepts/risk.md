@@ -3,7 +3,7 @@ title: "風險（Risk）"
 slug: risk
 aliases: [Risk, 風險, 資安風險, security risk, 風險評估]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -30,4 +30,6 @@ created: 2026-05-25
 - [[cvss]]：漏洞嚴重性量化、輸入風險評估的依據之一
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-2-introduction-to-assets/3-understand-risks-threats-and-vulnerabilities|Course 5 Module 1 Section 2 Leaf 3 understand risks threats and vulnerabilities]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-2-introduction-to-assets/2-the-what-why-and-how-of-asset-security|Course 5 Module 1 Section 2 Leaf 2 the what why and how of asset security]]

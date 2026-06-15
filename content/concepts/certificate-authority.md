@@ -3,7 +3,7 @@ title: "憑證機構（Certificate Authority）"
 slug: certificate-authority
 aliases: [CA, certificate authority, 憑證機構, 憑證中心, 認證中心, 憑證簽發機構]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[asymmetric-encryption]]：CA 簽章依賴的密碼學基礎
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/2-public-key-infrastructure|Course 5 Module 2 Section 2 Leaf 2 public key infrastructure]]

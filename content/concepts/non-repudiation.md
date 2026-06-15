@@ -3,7 +3,7 @@ title: "不可否認性（Non-Repudiation）"
 slug: non-repudiation
 aliases: [non-repudiation, 不可否認性, 不可抵賴性, 不可否認, non repudiation]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[log]]：稽核日誌是不可否認性的輔助機制
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/9-non-repudiation-and-hashing|Course 5 Module 2 Section 2 Leaf 9 non repudiation and hashing]]

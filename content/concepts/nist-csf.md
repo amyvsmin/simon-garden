@@ -3,7 +3,7 @@ title: "NIST 網路安全框架（NIST Cybersecurity Framework）"
 slug: nist-csf
 aliases: [NIST CSF, NIST Cybersecurity Framework, NIST 網路安全框架, CSF, 網路安全框架]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,6 @@ created: 2026-05-25
 - [[psp-hierarchy]]：NIST CSF 對應到組織內部的政策標準程序
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/2-the-nist-cybersecurity-framework|Course 5 Module 1 Section 4 Leaf 2 the nist cybersecurity framework]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/3-security-guidelines-in-action|Course 5 Module 1 Section 4 Leaf 3 security guidelines in action]]

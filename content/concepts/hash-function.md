@@ -3,7 +3,7 @@ title: "雜湊函數（Hash Function）"
 slug: hash-function
 aliases: [Hash Function, 雜湊函數, 雜湊, hash, 散列函數, 哈希函數, hashing, Hash Value, 雜湊值, digest, 摘要, message digest, 雜湊摘要, 散列值]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -35,4 +35,6 @@ created: 2026-05-25
 - [[patch-management]]：驗證 patch 檔案完整性時用雜湊值比對
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/9-non-repudiation-and-hashing|Course 5 Module 2 Section 2 Leaf 9 non repudiation and hashing]]
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/10-the-evolution-of-hash-functions|Course 5 Module 2 Section 2 Leaf 10 the evolution of hash functions]]

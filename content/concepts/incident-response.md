@@ -3,7 +3,7 @@ title: "事件回應（Incident Response）"
 slug: incident-response
 aliases: [incident response, IR, 事件回應, 事件處理, 資安事件回應, 事件應變, security incident response]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[patch-management]]：根除階段常需要緊急修補
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-2-the-incident-response-lifecycle/2-introduction-to-the-incident-response-lifecycle|Course 6 Module 1 Section 2 Leaf 2 Introduction to the incident response lifecycle]]

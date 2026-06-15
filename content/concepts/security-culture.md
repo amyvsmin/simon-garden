@@ -3,7 +3,7 @@ title: "資安文化（Security Culture）"
 slug: security-culture
 aliases: [security culture, 資安文化, 安全文化, 組織安全文化, 資訊安全文化]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[insider-threat]]：文化弱的組織更容易出現內部威脅
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/1-elements-of-a-security-plan|Course 5 Module 1 Section 4 Leaf 1 elements of a security plan]]

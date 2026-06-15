@@ -3,7 +3,7 @@ title: "攻擊面（Attack Surface）"
 slug: attack-surface
 aliases: [Attack Surface, 攻擊面, 攻擊表面, 進入點, entry point]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[eol-software]]：擴大攻擊面的常見因素
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-3-cyber-attacker-mindset/1-protect-all-entry-points|Course 5 Module 3 Section 3 Leaf 1 protect all entry points]]

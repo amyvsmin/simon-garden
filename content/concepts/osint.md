@@ -3,7 +3,7 @@ title: "開源情報（OSINT）"
 slug: osint
 aliases: [OSINT, Open Source Intelligence, 開源情報, 公開來源情報, 開放原始碼情報, 公開情報蒐集]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[vulnerability]]：OSINT 可發現組織公開暴露的弱點
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-1-flaws-in-the-system/7-open-source-intelligence|Course 5 Module 3 Section 1 Leaf 7 open source intelligence]]

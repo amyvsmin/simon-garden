@@ -3,7 +3,7 @@ title: "USB 誘餌攻擊（USB Baiting）"
 slug: usb-baiting
 aliases: [USB Baiting, USB 誘餌攻擊, USB 誘餌, USB drop attack, USB 釣餌, 隨身碟攻擊]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -32,4 +32,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-3-cyber-attacker-mindset/8-activity-identify-the-attack-vectors-of-a-usb-drive|Course 5 Module 3 Section 3 Leaf 8 activity identify the attack vectors of a usb drive]]

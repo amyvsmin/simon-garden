@@ -3,7 +3,7 @@ title: "法規（Regulations）"
 slug: regulations
 aliases: [Regulations, 法規, 法律規範, 規章]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -33,4 +33,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-4-risk-and-asset-security/2-the-nist-cybersecurity-framework|Course 5 Module 1 Section 4 Leaf 2 the nist cybersecurity framework]]

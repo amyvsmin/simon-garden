@@ -3,7 +3,7 @@ title: "威脅行為者（Threat Actor）"
 slug: threat-actor
 aliases: [Threat Actor, 威脅行為者, 威脅來源, 攻擊者, malicious actor, 惡意行為者]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -37,4 +37,4 @@ created: 2026-05-25
 
 ## 來源
 
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-3-cyber-attacker-mindset/3-types-of-threat-actors|Course 5 Module 3 Section 3 Leaf 3 types of threat actors]]

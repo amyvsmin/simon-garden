@@ -3,7 +3,7 @@ title: "縱深防禦（Defense in Depth）"
 slug: defense-in-depth
 aliases: [Defense in Depth, 縱深防禦, 深度防禦, layered security, 多層防禦, 層層防禦]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[cia-triad]]：縱深防禦保護的終極目標
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 3
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-1-flaws-in-the-system/4-defense-in-depth-strategy|Course 5 Module 3 Section 1 Leaf 4 defense in depth strategy]]

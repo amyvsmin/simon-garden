@@ -3,7 +3,7 @@ title: "公鑰基礎建設（PKI）"
 slug: public-key-infrastructure
 aliases: [PKI, public key infrastructure, 公鑰基礎建設, 公鑰架構, 公開金鑰基礎建設]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[post-quantum-cryptography]]：PKI 未來需遷移的方向
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/2-public-key-infrastructure|Course 5 Module 2 Section 2 Leaf 2 public key infrastructure]]

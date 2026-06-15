@@ -3,7 +3,7 @@ title: "對稱加密（Symmetric Encryption）"
 slug: symmetric-encryption
 aliases: [Symmetric Encryption, 對稱加密, 對稱式加密, symmetric key, 對稱金鑰, secret key encryption]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[hash-function]]：常與對稱加密搭配用於完整性驗證
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-2-encryption-methods/3-symmetric-and-asymmetric-encryption|Course 5 Module 2 Section 2 Leaf 3 symmetric and asymmetric encryption]]

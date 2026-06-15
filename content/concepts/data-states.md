@@ -3,7 +3,7 @@ title: "資料三態（Data States）"
 slug: data-states
 aliases: [Data States, 資料三態, 資料狀態, data in use, data in transit, data at rest, 使用中資料, 傳輸中資料, 靜態資料]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[compliance]]：法規常要求三態都有加密措施
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-3-digital-and-physical-assets/2-identify-states-of-data-in-the-workplace|Course 5 Module 1 Section 3 Leaf 2 identify states of data in the workplace]]

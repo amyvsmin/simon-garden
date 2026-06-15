@@ -3,7 +3,7 @@ title: "共同責任模型（Shared Responsibility Model）"
 slug: shared-responsibility-model
 aliases: [Shared Responsibility Model, 共同責任模型, 責任共擔模型, cloud shared responsibility, 雲端共同責任]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[asset]]：雲端資產的所有權與保護責任需明確
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 1
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-3-digital-and-physical-assets/3-the-emergence-of-cloud-security|Course 5 Module 1 Section 3 Leaf 3 the emergence of cloud security]]

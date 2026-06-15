@@ -3,7 +3,7 @@ title: "雲端運算（Cloud Computing）"
 slug: cloud-computing
 aliases: [cloud computing, 雲端運算, 雲端服務, cloud, 雲, IaaS, PaaS, SaaS, 雲端]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -29,4 +29,5 @@ created: 2026-05-25
 - [[mfa-multi-factor-authentication]]：雲端帳號 MFA 是防帳號劫持的第一道防線
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-1-introduction-to-asset-security/section-3-digital-and-physical-assets/3-the-emergence-of-cloud-security|Course 5 Module 1 Section 3 Leaf 3 the emergence of cloud security]]

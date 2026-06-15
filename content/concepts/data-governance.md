@@ -3,7 +3,7 @@ title: "資料治理（Data Governance）"
 slug: data-governance
 aliases: [data governance, 資料治理, 資料管理, 資料管治, data management governance]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
@@ -28,4 +28,5 @@ created: 2026-05-25
 - [[separation-of-duties]]：Data Owner / Custodian / Steward 的角色分離體現 SoD
 
 ## 來源
-- Course 5 Assets, Threats, and Vulnerabilities — Module 2
+
+- [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-2-protect-organizational-assets/section-1-safeguard-information/4-the-data-lifecycle|Course 5 Module 2 Section 1 Leaf 4 the data lifecycle]]
