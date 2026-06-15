@@ -31,7 +31,7 @@ created: 2026-05-05
 
 ## 相關概念
 
-- [[power-conditioner]]：關鍵基礎設施的薄弱環節
+- power-conditioner：關鍵基礎設施的薄弱環節
 - [[firmware-attack-surface]]：CIP 風險已沉到韌體層
 - [[supply-chain-risk]]：CIP 採購多來自全球供應鏈
 

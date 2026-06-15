@@ -22,7 +22,7 @@ Blocktempo 報導 Nous Research 推出的「越用越聰明」自我進化 AI ag
 
 ## 核心概念
 
-- [[self-evolving-ai-agent]]：Nous Research 開發的 Hermes Agent 標榜「越用越聰明」——它會把每次對話學到的東西自動寫回 MEMORY.md 和 USER.md 做長期記憶，還會把重複出現的操作自動打包成 Markdown skill。這樣下次碰到類似任務就不用重新教，形成一個「使用→學習→變強」的閉環。HuggingFace 上累計 3,300 萬次下載。
+- self-evolving-ai-agent：Nous Research 開發的 Hermes Agent 標榜「越用越聰明」——它會把每次對話學到的東西自動寫回 MEMORY.md 和 USER.md 做長期記憶，還會把重複出現的操作自動打包成 Markdown skill。這樣下次碰到類似任務就不用重新教，形成一個「使用→學習→變強」的閉環。HuggingFace 上累計 3,300 萬次下載。
 - [[agent-architecture-comparison]]：這篇文章對比了幾個主流終端型 AI agent 的定位差異。Claude Code 是 Anthropic 官方出品、品質穩定但需付費訂閱；Hermes Agent 走開源去中心化路線，功能架構跟 Claude Code 高度相似（MEMORY.md 對應 auto-memory、Markdown skill 對應 Skill、40+ 內建工具對應 MCP）；OpenClaw 曾經 33 天就超越 React 成為 GitHub 增星最快的專案，但後來被爆出 138 個 CVE 安全漏洞（平均一天 2.2 個），導致大量使用者出走。Hermes 甚至內建一鍵從 OpenClaw 遷移的功能來接收難民。
 - [[claude-code]]：在這篇對比脈絡下，Claude Code 的定位是「架構類似但由 Anthropic 官方維護、安全性與品質更有保障」的選項。
 ![[2026-05-02-hermes-agent-vs-openclaw-self-evolving-ai-agent.png|275]]

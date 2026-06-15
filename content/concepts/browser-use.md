@@ -34,7 +34,7 @@ query-count: 0
 - [[api]]：第一優先、能用就不要走到這層
 - [[cli]]：第二優先、比 Browser Use 快十倍以上
 - [[mcp]]：第三優先、已包好的工具集
-- [[firecrawl]]（待建）：抓網頁的中介層、比直接 Playwright 更穩
+- firecrawl（待建）：抓網頁的中介層、比直接 Playwright 更穩
 
 ## 尚未解決的疑問
 

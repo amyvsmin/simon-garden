@@ -1,7 +1,7 @@
 ---
 title: "事件回應（Incident Response）"
 slug: incident-response
-aliases: [incident response, IR, 事件回應, 事件處理, 資安事件回應, CSIRT, 事件應變, security incident response]
+aliases: [incident response, IR, 事件回應, 事件處理, 資安事件回應, 事件應變, security incident response]
 category: 資安
 confidence: 待驗證
 created: 2026-05-25

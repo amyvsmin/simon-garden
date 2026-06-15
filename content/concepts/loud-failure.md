@@ -38,7 +38,7 @@ AI 操作完成後、如果有任何沒驗證／跳過／不確定的部分，**
 - [[claude-md-12-rules]]：規則 12 本體
 - [[claude-md-reflexive-law]]：發現 silent success 案例後，把它寫成新 rule（反射律落地）
 - [[rules-over-code]]：「規則優先於程式碼」的具體落實
-- [[task-checkpoint]]：多步驟任務每步檢查、避免推到出錯時才發現
+- task-checkpoint：多步驟任務每步檢查、避免推到出錯時才發現
 
 ## 尚未解決的疑問
 

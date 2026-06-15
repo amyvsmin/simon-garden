@@ -18,7 +18,7 @@ query-count: 0
 - 觸發長出的訊號：發現某類資料反覆寫到 projects 裡很彆扭 → 抽出新資料夾；發現某類查詢反覆做 → 建索引／日誌
 - 常見演進順序：projects + pillars → decisions（未來決策）→ daily logs（日誌）→ weekly review → personal → insights → bookmarks
 - 反對「一夜建好」：完整結構維護成本高、80% 子目錄沒在用反而干擾 AI 找路
-- 對應 [[validate-then-upgrade]]：先用最簡方案驗證、再決定是否升級
+- 對應 [[feedback-validate-then-upgrade]]：先用最簡方案驗證、再決定是否升級
 - 自然語言驅動：每個新資料夾通常是「我想做 X 但現有結構放不下」觸發、有清楚 use case
 
 ## 應用場景
@@ -30,8 +30,8 @@ query-count: 0
 ## 相關概念
 
 - [[obsidian-claude-code-workflow]]：本概念是該工作流的演進心法
-- [[validate-then-upgrade]]：Simon 既有偏好的具體落地
-- [[surface-cost-first]]：起步成本低 → 不需要在第一輪就揭露大量設計成本
+- [[feedback-validate-then-upgrade]]：Simon 既有偏好的具體落地
+- [[feedback-surface-cost-first]]：起步成本低 → 不需要在第一輪就揭露大量設計成本
 
 ## 尚未解決的疑問
 

@@ -26,7 +26,7 @@ icon: "⚡"
 - [[obsidian-claude-code-workflow]]：Obsidian vault 當第二大腦資料層、Claude Code 當讀寫與處理層的組合
 - [[claude-md-dual-nav]]：vault 根目錄 CLAUDE.md + 各資料夾 instructions.md 當局部地圖的兩層 AI 導航設計
 - [[progressive-disclosure]]：AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案的 token 控制心法
-- [[daily-notes]]：AI 每天結束時把工作內容寫進當日的 daily notes 檔，下次 session 只讀最近幾天即可恢復脈絡
+- daily-notes：AI 每天結束時把工作內容寫進當日的 daily notes 檔，下次 session 只讀最近幾天即可恢復脈絡
 - [[claude-code]]：實作載具
 ![[2026-05-02-xinxin-obsidian-ai-second-brain-second-brain.png|275]]
 

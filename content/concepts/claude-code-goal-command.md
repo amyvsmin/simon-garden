@@ -21,7 +21,7 @@ Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一
 - **條件三規則**：可量終點（測試結果、退出碼、檔案數、queue 空）／講清楚怎麼證明（哪個指令該怎麼跑）／講清楚什麼不能動（測試檔、設定檔、package.json）
 - **嘴砲陷阱**：條件寫成「重構完成」這種感覺型、Haiku 看到 Claude 講「我做完了」就放行；要寫成「`npm test` 退出 0」這種看得到證據的形式
 - **上限與行為**：條件最多 4000 字、可加「or stop after 20 turns」做硬煞車、`/goal` 無參數查狀態、`/goal clear`（或 stop/off/reset/none/cancel）手動停、`--resume` 後條件保留但 turn／timer／token 基準重置
-- **計費**：互動式 session 跑只計入 Max 5x 訂閱；headless `claude -p "/goal ..."` 走 2026-06-15 起每月 $100 [[claude-max5x-agent-sdk-credit|Agent SDK 額度桶]]；每輪 Haiku 評估會多計一筆但 token 量典型可忽略
+- **計費**：互動式 session 跑只計入 Max 5x 訂閱；headless `claude -p "/goal ..."` 走 2026-06-15 起每月 $100 Agent SDK 額度桶；每輪 Haiku 評估會多計一筆但 token 量典型可忽略
 - **環境限制**：要 workspace 已 accept trust dialog、`disableAllHooks` 或 `allowManagedHooksOnly` 任一啟用就不能跑（屬於 hooks 系統）
 - **跨公司同步趨勢**（2026-05）：Claude Code、OpenAI Codex、Hermes Agent 幾乎同時推出名稱一樣的 `/goal` 功能，背後要解決的都是同一個問題——[[context-anxiety]]（上下文焦慮），模型執行長任務做到一半會因為感知 context 快滿而提前收工
 - **好的 goal prompt 五要素**：① Outcome（完成狀態）② Verification（怎麼證明完成）③ Constraints（哪些不能動）④ Iteration policy（每輪之間要記錄什麼）⑤ Error handling（什麼時候該停下來回報而不是硬撐）。缺任何一項，模型要嘛草草收工、要嘛無腦跑到天荒地老
@@ -45,7 +45,7 @@ Claude Code 2.1.139（2026-05-12）上線的 session 級指令。使用者寫一
 - [[hooks]]：goal 底層是 prompt-based Stop hook 的 session-scoped 包裝
 - [[claude-code]]：goal 是 CC 的內建指令、要 2.1.139 以上版本
 - [[claude-code-iteration-loop]]：goal 自動化了 Boris Cherny 描述的「跑測試→看錯→修正→再測試」循環、把確認 enter 拿掉
-- [[claude-max5x-agent-sdk-credit]]：headless 模式跑 goal 會吃 6/15 上路的額度桶
+- claude-max5x-agent-sdk-credit：headless 模式跑 goal 會吃 6/15 上路的額度桶
 
 ## 尚未解決的疑問
 

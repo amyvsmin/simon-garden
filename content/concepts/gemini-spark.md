@@ -1,7 +1,7 @@
 ---
 title: "Gemini Spark（Google 跨服務 AI 代理人）"
 slug: gemini-spark
-aliases: [Gemini Spark, Spark, Google Spark, AI 代理人 Spark, Google AI agent, Workspace agent, Compute-based pricing, 運算量計費, 算力計費, compute pricing, AI 訂閱計費, Google AI 新計費]
+aliases: [Gemini Spark, Spark, Google Spark, AI 代理人 Spark, Google AI agent, Workspace agent, compute pricing, AI 訂閱計費, Google AI 新計費]
 category: AI
 confidence: 待驗證
 created: 2026-05-20

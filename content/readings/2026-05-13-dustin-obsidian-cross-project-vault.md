@@ -34,9 +34,9 @@ Dustin 示範用 Obsidian 當跨專案知識庫主軸，解決 Claude Code 在�
 
 > 以下為 reading 當下想到的應用、隨時間／工具／興趣變化可能已失效；後續落地狀態見下方「落地動作與效益」段（若有）。
 1. ✅ 對照 Simon 自己 vault `~/vaults/SimonVault/` 的七頂層 lowercase-dash 結構（2026-05-05 完成 1b 重構），確認當前架構已內建跨資料夾 wikilink
-2. ✅ Dustin 的「漸進長出」很對 [[validate-then-upgrade]] 偏好，可以對應 Knowledge Wiki v0.1 → v1.0 演進軌跡
+2. ✅ Dustin 的「漸進長出」很對 [[feedback-validate-then-upgrade]] 偏好，可以對應 Knowledge Wiki v0.1 → v1.0 演進軌跡
 3. ⏳ 跨專案連線實際應用：Simon-Agent 的 project memory、SimonVault 的 reading／concept、Simon-Journal 的日記若能 wikilink 互通，Claude 開任何專案都能秒進入全局視角
-4. ✅ 「不要一夜建好」對 [[surface-cost-first]] 反向印證——一開始就推完整方案反而負擔重
+4. ✅ 「不要一夜建好」對 [[feedback-surface-cost-first]] 反向印證——一開始就推完整方案反而負擔重
 
 ## 原文要點
 

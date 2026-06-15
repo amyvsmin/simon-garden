@@ -1,7 +1,7 @@
 ---
 title: "Claude 斜槓指令快捷控制"
 slug: claude-slash-commands-control
-aliases: [Claude 斜槓指令, Claude slash commands, /compact, /clear, /context, /btw, /usage, Claude /rewind, /rewind, Claude 回溯, Esc Esc 回溯, rewind to message, Claude 退回機制]
+aliases: [Claude 斜槓指令, Claude slash commands, /compact, /clear, /context, /btw, /usage, Claude /rewind, Claude 回溯, Esc Esc 回溯, rewind to message, Claude 退回機制]
 category: AI
 confidence: 已驗證
 created: 2026-05-10
