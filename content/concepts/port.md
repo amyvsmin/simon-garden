@@ -1,7 +1,7 @@
 ---
 title: "連接埠（Port）"
 slug: port
-aliases: [Port, 連接埠, 通訊埠, 埠號]
+aliases: [Port, 連接埠, 通訊埠, 埠號, port-number, port-numbers, Port Number, well-known port, 知名埠]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
@@ -16,6 +16,7 @@ query-count: 0
 - **port／協定錯配是警訊**：攻擊者刻意用非慣例組合（如 HTTPS 走 port 8088 而非 443）維持與被入侵主機的通訊，這就是 [[command-and-control]]（C2）的徵兆
 - **流量分析的一環**：flow analysis 看 packet、protocol、port 三者，組織要清楚哪些 port 該開、並盯 port 與協定的錯配
 - **tcpdump 解讀**：每行輸出含 source port 與 destination port；加 `-nn` 可讓 tcpdump 不把 port 解析成服務名
+- **埠號 vs IP 協定號**：走 TCP/UDP 的協定才有埠號（0–65535、知名埠 0–1023）；[[routing-protocols|OSPF（89）、EIGRP（88）]]、IPsec ESP（50）、AH（51）直接騎在 IP 上、用的是「IP 協定號」而非埠號（兩套不同編號空間，別把 Kerberos 埠 88 跟 EIGRP 協定號 88 搞混）
 
 ## 應用場景
 - **Simon 工作場景**：機房防火牆規則與網路監看的核心——盤點該開的 port、設告警抓 port／協定錯配，是該排進 ISO 27001 監控的 IoC
@@ -30,3 +31,5 @@ query-count: 0
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-1-understand-network-traffic/4-maintain-awareness-with-network-monitoring|Course 6 Module 2 Section 1 Leaf 4 Maintain awareness with network monitoring]]
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-3-packet-inspection/2-overview-of-tcpdump|Course 6 Module 2 Section 3 Leaf 2 Overview of tcpdump]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/1-osi-reference-model|CCNA Section 2 Leaf 1 OSI 參考模型]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/13-common-protocols-and-ports|CCNA Section 2 Leaf 13 常用協定與埠號對照表]]

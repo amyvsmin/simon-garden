@@ -29,3 +29,6 @@ query-count: 0
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-3-packet-inspection/7-activity-research-network-protocol-analyzers|Course 6 Module 2 Section 3 Leaf 7 Activity Research network protocol analyzers]]
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-2-capture-and-view-network-traffic/1-packets-and-packet-captures|Course 6 Module 2 Section 2 Leaf 1 Packets and packet captures]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/4-dhcp-and-dora-process|CCNA Section 2 Leaf 4 DHCP 與 DORA 四階段]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/8-tcp-handshake-and-teardown|CCNA Section 2 Leaf 8 TCP 三次握手與四次揮手]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/11-data-link-layer|CCNA Section 2 Leaf 11 資料連結層]]

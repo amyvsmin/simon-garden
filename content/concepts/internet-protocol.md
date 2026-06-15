@@ -1,7 +1,7 @@
 ---
 title: "網際網路協定（Internet Protocol / IP）"
 slug: internet-protocol
-aliases: [Internet Protocol, IP, 網際網路協定, IP 協定]
+aliases: [Internet Protocol, IP, 網際網路協定, IP 協定, ip-address, IP 位址, IP address, 邏輯位址]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
@@ -30,3 +30,4 @@ query-count: 0
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-2-capture-and-view-network-traffic/4-reexamine-the-fields-of-a-packet-header|Course 6 Module 2 Section 2 Leaf 4 Reexamine the fields of a packet header]]
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-2-capture-and-view-network-traffic/3-interpret-network-communications-with-packets|Course 6 Module 2 Section 2 Leaf 3 Interpret network communications with packets]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/9-network-layer|CCNA Section 2 Leaf 9 網路層]]
