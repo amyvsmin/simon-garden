@@ -3,7 +3,7 @@ title: "DHCP 動態主機配置協定（Dynamic Host Configuration Protocol）"
 slug: dhcp
 aliases: [DHCP, Dynamic Host Configuration Protocol, 動態主機配置協定, 動態主機設定協定]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

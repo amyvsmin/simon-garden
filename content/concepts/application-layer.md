@@ -3,7 +3,7 @@ title: "應用層（Application Layer，OSI L7）"
 slug: application-layer
 aliases: [Application Layer, 應用層, OSI 第七層, L7]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

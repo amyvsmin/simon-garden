@@ -3,7 +3,7 @@ title: "Information Agent（資訊代理人）"
 slug: information-agent
 aliases: [Information Agent, 資訊代理人, Google 資訊代理人, search agent, 搜尋代理人, monitoring agent, generative ui search]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-20
 ---
 

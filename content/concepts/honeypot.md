@@ -3,7 +3,7 @@ title: "蜜罐（Honeypot）"
 slug: honeypot
 aliases: [Honeypot, 蜜罐, 誘捕系統, 誘餌系統, honeypot, decoy]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

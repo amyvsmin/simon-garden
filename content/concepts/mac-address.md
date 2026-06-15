@@ -3,7 +3,7 @@ title: "MAC 位址（Media Access Control Address）"
 slug: mac-address
 aliases: [MAC Address, MAC 位址, 媒體存取控制位址, 實體位址, 硬體位址]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

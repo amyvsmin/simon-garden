@@ -3,7 +3,7 @@ title: "衝突域（Collision Domain）"
 slug: collision-domain
 aliases: [Collision Domain, 衝突域, 碰撞域]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

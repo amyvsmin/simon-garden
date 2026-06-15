@@ -3,7 +3,7 @@ title: "doc-to-md（PDF→MD 知識庫轉換工具）"
 slug: doc-to-md
 aliases: [doc-to-md, PDF 轉 MD, PDF 轉 Markdown, 知識庫轉 MD 工具, doc to md, document to markdown]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-18
 ---
 

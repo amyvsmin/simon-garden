@@ -3,7 +3,7 @@ title: "跨站腳本（Cross-site Scripting / XSS）"
 slug: cross-site-scripting
 aliases: [Cross-site scripting, XSS, 跨站腳本, cross site scripting, reflected XSS, 反射型 XSS, stored XSS, 儲存型 XSS, DOM-based XSS, DOM 型 XSS]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-30
 ---
 

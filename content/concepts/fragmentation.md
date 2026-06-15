@@ -3,7 +3,7 @@ title: "分片（Fragmentation）"
 slug: fragmentation
 aliases: [Fragmentation, 分片, IP 分片, 封包分片]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

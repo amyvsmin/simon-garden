@@ -3,7 +3,7 @@ title: "資安編排、自動化與回應（SOAR）"
 slug: soar
 aliases: [SOAR, security orchestration automation and response, 資安編排自動化與回應, 安全編排自動化與回應, SOAR tool]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

@@ -10,7 +10,7 @@ aliases:
   - claude code plugin scope
   - CC plugin scope
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-22
 ---
 

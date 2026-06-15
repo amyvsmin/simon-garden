@@ -3,7 +3,7 @@ title: "災難復原計畫（Disaster Recovery Plan / DRP）"
 slug: disaster-recovery-plan
 aliases: [Disaster Recovery Plan, DRP, 災難復原計畫, 災害復原計畫, disaster recovery plan, 災備計畫]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

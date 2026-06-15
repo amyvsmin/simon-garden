@@ -3,7 +3,7 @@ title: "會話層（Session Layer，OSI L5）"
 slug: session-layer
 aliases: [Session Layer, 會話層, OSI 第五層, L5]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

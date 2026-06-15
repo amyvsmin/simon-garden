@@ -3,7 +3,7 @@ title: "經驗學習會議（Lessons Learned Meeting）"
 slug: lessons-learned
 aliases: [Lessons Learned Meeting, lessons learned, 經驗學習會議, 事後檢討, 事後檢討會議, post-mortem, 復盤會議, 教訓學習]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

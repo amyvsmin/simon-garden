@@ -3,7 +3,7 @@ title: "資安維運中心（SOC）"
 slug: soc
 aliases: [SOC, security operations center, 資安維運中心, 安全維運中心, 資安監控中心, SOC tiers]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

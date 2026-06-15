@@ -3,7 +3,7 @@ title: "基線（Baseline）"
 slug: baseline
 aliases: [Baseline, 基線, 基準線, 正常行為基準, expected network traffic flow]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

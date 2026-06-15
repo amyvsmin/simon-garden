@@ -3,7 +3,7 @@ title: "YARA-L（Chronicle 偵測規則語言）"
 slug: yara-l
 aliases: [YARA-L, yara-l, YARA-L language, Chronicle 規則語言, YARA-L 規則]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-14
 ---
 

@@ -3,7 +3,7 @@ title: "分流（Triage）"
 slug: triage
 aliases: [Triage, 分流, 檢傷分類, 事件分流, 告警分流, triage, 優先級排序]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

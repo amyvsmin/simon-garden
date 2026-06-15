@@ -3,7 +3,7 @@ title: "欺敵防禦（Cyber Deception）"
 slug: cyber-deception
 aliases: [Cyber Deception, 欺敵防禦, 網路欺敵, 欺騙技術, cyber deception, deception technology, 主動欺敵]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

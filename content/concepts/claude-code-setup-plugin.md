@@ -10,7 +10,7 @@ aliases:
   - 掃專案推薦 plugin
   - Claude Code 自動推薦
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-22
 ---
 

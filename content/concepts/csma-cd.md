@@ -3,7 +3,7 @@ title: "CSMA/CD 載波偵聽多重存取／碰撞偵測（Carrier Sense Multiple
 slug: csma-cd
 aliases: [CSMA/CD, Carrier Sense Multiple Access with Collision Detection, 載波偵聽多重存取碰撞偵測, 碰撞偵測]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

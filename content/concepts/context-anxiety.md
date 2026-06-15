@@ -3,7 +3,7 @@ title: "上下文焦慮（Context Anxiety）"
 slug: context-anxiety
 aliases: [上下文焦慮, context anxiety, LLM 下班心態, context window anxiety, 上下文窗口焦慮, LLM 提前收工]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-26
 ---
 

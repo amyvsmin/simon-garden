@@ -3,7 +3,7 @@ title: "TCP 三次握手與四次揮手（Three-Way Handshake / Teardown）"
 slug: tcp-three-way-handshake
 aliases: [TCP Three-Way Handshake, 三次握手, TCP 三次握手, 四次揮手, four-way teardown, SYN ACK FIN]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

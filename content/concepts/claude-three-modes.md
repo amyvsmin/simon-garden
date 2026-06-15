@@ -3,7 +3,7 @@ title: "Claude 三工作模式（Chat / Cowork / Code）"
 slug: claude-three-modes
 aliases: [Claude 三模式, Chat Cowork Code, Claude 工作模式, Claude 模式選擇, 三個 Claude 形態, 設計師員工分工, Claude runtime 比較, Claude Code vs API 分工]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-20
 ---
 

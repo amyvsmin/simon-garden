@@ -3,7 +3,7 @@ title: "Log 收錄（Log Ingestion）"
 slug: log-ingestion
 aliases: [log ingestion, Log Ingestion, log 收錄, 日誌收錄, log 匯入, 日誌匯入, 收錄]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-14
 ---
 

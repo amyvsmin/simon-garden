@@ -3,7 +3,7 @@ title: "入侵防禦系統（IPS）"
 slug: ips
 aliases: [IPS, intrusion prevention system, 入侵防禦系統, 入侵防護系統, 入侵預防系統]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

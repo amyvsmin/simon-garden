@@ -3,7 +3,7 @@ title: "路由協定（Routing Protocols：RIP/OSPF/EIGRP/BGP）"
 slug: routing-protocols
 aliases: [Routing Protocols, 路由協定, 動態路由協定, RIP OSPF EIGRP BGP]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

@@ -3,7 +3,7 @@ title: "ARP 位址解析協定（Address Resolution Protocol）"
 slug: arp
 aliases: [ARP, Address Resolution Protocol, 位址解析協定, 地址解析協定]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

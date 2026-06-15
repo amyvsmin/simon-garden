@@ -3,7 +3,7 @@ title: "乙太網路訊框（Ethernet Frame）"
 slug: ethernet-frame
 aliases: [Ethernet Frame, 乙太網路訊框, 乙太網訊框, 二層訊框, MAC frame]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

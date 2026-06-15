@@ -3,7 +3,7 @@ title: "Google Chronicle / Google SecOps（雲端 SIEM）"
 slug: google-chronicle
 aliases: [Chronicle, google chronicle, Google Chronicle, Google SecOps, Chronicle SIEM, 谷歌 SIEM, Google Security Operations]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-14
 ---
 

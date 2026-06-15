@@ -3,7 +3,7 @@ title: "藍隊（Blue Team）"
 slug: blue-team
 aliases: [Blue Team, 藍隊, 防禦隊, 防禦團隊, defensive team, blue teaming]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

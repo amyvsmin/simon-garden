@@ -3,7 +3,7 @@ title: "網路協定分析器（Network Protocol Analyzer / Packet Sniffer）"
 slug: network-protocol-analyzer
 aliases: [Network Protocol Analyzer, packet sniffer, 網路協定分析器, 封包嗅探器, protocol analyzer, 封包分析器]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-07
 ---
 

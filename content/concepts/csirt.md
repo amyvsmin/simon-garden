@@ -3,7 +3,7 @@ title: "電腦資安事件應變小組（CSIRT）"
 slug: csirt
 aliases: [CSIRT, computer security incident response team, 電腦資安事件應變小組, 事件應變小組, IHT, incident handling team, SIRT, security incident response team]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

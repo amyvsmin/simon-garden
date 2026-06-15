@@ -3,7 +3,7 @@ title: "Gemini Flash（Google 輕量高速代理人模型）"
 slug: gemini-flash
 aliases: [Gemini Flash, Gemini 3.5 Flash, Flash, Google Flash, 3.5 Flash, gemini flash]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-20
 ---
 

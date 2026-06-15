@@ -3,7 +3,7 @@ title: "資安文件化（Security Documentation）"
 slug: security-documentation
 aliases: [Documentation, 文件化, 資安文件, 安全文件, security documentation, 文件, recorded content]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

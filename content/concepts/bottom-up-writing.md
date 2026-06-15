@@ -3,7 +3,7 @@ title: "由下而上寫作（從筆記浮現主題、萬能寫作框架）"
 slug: bottom-up-writing
 aliases: [由下而上寫作, bottom-up writing, bottom-up-writing, 萬能寫作框架, 觀點案例總結, 不從大綱寫, 做筆記等於寫作, note-as-writing, 寫作不從空白紙, 節錄評論法, 一問一答法, 先記錄後思考]
 category: 生產力
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-18
 ---
 

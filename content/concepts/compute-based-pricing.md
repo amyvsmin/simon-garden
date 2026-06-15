@@ -3,7 +3,7 @@ title: "算力計費（Compute-based Pricing）"
 slug: compute-based-pricing
 aliases: [Compute-based Pricing, 算力計費, 運算量計費, compute-based pricing, usage-based AI pricing, 依運算量計費]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-07
 ---
 

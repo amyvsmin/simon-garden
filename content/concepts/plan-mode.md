@@ -21,7 +21,7 @@ Claude Code 在複雜任務下先讓 AI 複述手上資訊並設計完整實作�
 
 ## 應用場景
 
-- Simon 工作場景：Knowledge Wiki 設計階段、n8n 工作流變更、SQL Server MFA 設定、ISO 27001 資產盤點三 DB 全面變動，誤差代價高的任務都適合 Plan Mode
+- Simon 工作場景：Knowledge Wiki 設計階段、skill／hook 工作流改寫、SQL Server MFA 設定、ISO 27001 資產盤點三 DB 全面變動，誤差代價高的任務都適合 Plan Mode
 - 一般場景：大型 refactor、跨多檔修改、migration、架構變更、schema 變更、生產環境佈署腳本製作
 
 ## 相關概念

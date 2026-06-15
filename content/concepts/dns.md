@@ -3,7 +3,7 @@ title: "DNS 網域名稱系統（Domain Name System）"
 slug: dns
 aliases: [DNS, Domain Name System, 網域名稱系統, 域名系統, 網域名稱解析]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

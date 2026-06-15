@@ -3,7 +3,7 @@ title: "資安資訊與事件管理（SIEM）"
 slug: siem
 aliases: [SIEM, security information and event management, 資安資訊與事件管理, 安全資訊與事件管理, SIEM tool, SIEM 工具]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

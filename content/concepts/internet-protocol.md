@@ -3,7 +3,7 @@ title: "網際網路協定（Internet Protocol / IP）"
 slug: internet-protocol
 aliases: [Internet Protocol, IP, 網際網路協定, IP 協定, ip-address, IP 位址, IP address, 邏輯位址]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

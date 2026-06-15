@@ -3,7 +3,7 @@ title: "網路協定（Network Protocol）"
 slug: network-protocol
 aliases: [Network Protocol, 網路協定, 通訊協定, 網路通訊協定]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

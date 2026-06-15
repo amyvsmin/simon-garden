@@ -3,7 +3,7 @@ title: "代理人決策鏈誤差放大（3% 源頭誤差複合）"
 slug: agent-error-amplification
 aliases: [代理人誤差放大, 代理人決策鏈誤差, 3% 誤差複合, agent error propagation, agent error amplification, 上游資料污染]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-18
 ---
 

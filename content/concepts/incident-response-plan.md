@@ -3,7 +3,7 @@ title: "事件應變計畫（Incident Response Plan）"
 slug: incident-response-plan
 aliases: [incident response plan, IRP, 事件應變計畫, 事件回應計畫, 事故應變計畫, IR plan]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-05
 ---
 

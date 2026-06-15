@@ -3,7 +3,7 @@ title: "封包擷取（Packet Capture / P-cap）"
 slug: packet-capture
 aliases: [Packet Capture, P-cap, pcap, 封包擷取, 封包擷取檔, packet sniffing, 封包嗅探, libpcap]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-07
 ---
 

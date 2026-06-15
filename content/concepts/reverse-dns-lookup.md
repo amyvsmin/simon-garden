@@ -3,7 +3,7 @@ title: "反向 DNS 查詢（Reverse DNS Lookup）"
 slug: reverse-dns-lookup
 aliases: [Reverse DNS Lookup, 反向 DNS 查詢, rDNS, 反查]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

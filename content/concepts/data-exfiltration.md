@@ -3,7 +3,7 @@ title: "資料外洩（Data Exfiltration）"
 slug: data-exfiltration
 aliases: [Data Exfiltration, 資料外洩, 資料外傳, 資料竊取, data theft, 外洩攻擊]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-07
 ---
 

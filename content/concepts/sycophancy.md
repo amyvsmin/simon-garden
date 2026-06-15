@@ -3,7 +3,7 @@ title: "AI 模型諂媚傾向（Sycophancy）"
 slug: sycophancy
 aliases: [AI 模型諂媚傾向, sycophancy, AI 諂媚, model sycophancy, 自評偏差, AI self-review bias, 模型自我肯定偏誤]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-26
 ---
 

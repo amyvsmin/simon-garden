@@ -3,7 +3,7 @@ title: "威脅狩獵（Threat Hunting）"
 slug: threat-hunting
 aliases: [Threat Hunting, 威脅狩獵, 威脅獵捕, 主動威脅搜尋, threat hunting, threat hunter, 威脅獵人]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 

@@ -3,7 +3,7 @@ title: "OWASP 十大風險（OWASP Top 10）"
 slug: owasp-top-10
 aliases: [OWASP Top 10, OWASP 十大風險, OWASP 十大, OWASP Top Ten, Web 十大風險, OWASP 風險排行]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 

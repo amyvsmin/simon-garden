@@ -3,7 +3,7 @@ title: "PASTA 威脅建模框架（Process for Attack Simulation and Threat Anal
 slug: pasta-framework
 aliases: [PASTA, Process for Attack Simulation and Threat Analysis, PASTA 框架, 攻擊模擬與威脅分析流程, 七階段威脅建模]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-30
 ---
 

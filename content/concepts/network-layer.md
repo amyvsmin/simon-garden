@@ -3,7 +3,7 @@ title: "網路層（Network Layer，OSI L3）"
 slug: network-layer
 aliases: [Network Layer, 網路層, OSI 第三層, L3]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-15
 ---
 

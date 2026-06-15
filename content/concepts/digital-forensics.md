@@ -3,7 +3,7 @@ title: "數位鑑識（Digital Forensics）"
 slug: digital-forensics
 aliases: [Digital Forensics, 數位鑑識, 數位取證, 電腦鑑識, digital forensics, 鑑識]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-06-13
 ---
 
