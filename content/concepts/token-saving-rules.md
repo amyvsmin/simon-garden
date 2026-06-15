@@ -44,4 +44,3 @@ created: 2026-05-10
 - [[2026-05-09-claude-token-limits-tutorial]]
 - [[2026-05-24-anthropic-claude-code-cache-tips]]
 - [[2026-06-05-dustin-claude-code-harness-cleanup]]
-- [[2026-06-15-usage-menubar-quota-tracker]]

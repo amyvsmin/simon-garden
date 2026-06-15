@@ -38,4 +38,3 @@ Claude 桌面／網頁版額度顯示拆三層：Current Session（當前會話�
 ## 來源（自動維護）
 
 - [[2026-05-09-claude-token-limits-tutorial]]
-- [[2026-06-15-usage-menubar-quota-tracker]]
