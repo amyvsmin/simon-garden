@@ -5,7 +5,6 @@ aliases: [Data Exfiltration, 資料外洩, 資料外傳, 資料竊取, data thef
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

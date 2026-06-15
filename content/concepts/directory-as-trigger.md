@@ -1,12 +1,9 @@
 ---
-name: 目錄即觸發（directory-as-state）
+title: "目錄即觸發（directory-as-state）"
+slug: directory-as-trigger
 aliases: [directory-as-trigger, cwd-as-state, 目錄狀態機, C9 觸發]
 category: 自動化
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 34cf85da-554f-81c2-8e40-c240006cec06
 created: 2026-05-05
 ---
 

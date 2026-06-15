@@ -3,9 +3,8 @@ title: "Agentic SecOps"
 slug: agentic-secops
 aliases: [AI 驅動的 SecOps, Agent 化資安營運, agentic security operations, AI SOC 閉環]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-05
-query-count: 0
 ---
 
 ## 定義

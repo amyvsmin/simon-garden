@@ -5,7 +5,6 @@ aliases: [YARA-L, yara-l, YARA-L language, Chronicle 規則語言, YARA-L 規則
 category: 資安
 confidence: 待驗證
 created: 2026-06-14
-query-count: 0
 ---
 
 ## 定義

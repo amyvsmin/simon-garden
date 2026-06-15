@@ -5,7 +5,6 @@ aliases: [突觸減除, 突觸修剪, synaptic pruning, 神經可塑性, neuropl
 category: 生產力
 confidence: 已驗證
 created: 2026-05-31
-query-count: 0
 ---
 
 ## 定義

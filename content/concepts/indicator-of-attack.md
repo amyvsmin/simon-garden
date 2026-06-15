@@ -5,7 +5,6 @@ aliases: [Indicator of Attack, IoA, IoAs, 攻擊指標, indicators of attack, in
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

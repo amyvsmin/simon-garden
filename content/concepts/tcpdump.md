@@ -5,7 +5,6 @@ aliases: [tcpdump, 命令列封包分析器, command-line packet analyzer, CLI p
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

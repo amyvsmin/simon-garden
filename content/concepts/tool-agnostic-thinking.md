@@ -5,7 +5,6 @@ aliases: [工具中立思考, 先思考再選工具, tool-agnostic, 不綁定 AI
 category: 生產力
 confidence: 待驗證
 created: 2026-05-18
-query-count: 0
 ---
 
 ## 定義

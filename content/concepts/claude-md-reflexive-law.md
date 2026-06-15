@@ -1,12 +1,10 @@
 ---
-name: CLAUDE.md 反射律
+title: "CLAUDE.md 反射律"
+slug: claude-md-reflexive-law
 aliases: [claude-md reflexive law, 行為偏差改規則, 不鑽 CC 內部機制, rule-driven debugging]
 category: AI
-status: active
 confidence: 已驗證
 created: 2026-05-14
-last-queried: ""
-query-count: 0
 ---
 
 ## 定義

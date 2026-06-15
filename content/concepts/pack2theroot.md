@@ -1,12 +1,9 @@
 ---
-name: Pack2TheRoot
+title: "Pack2TheRoot"
+slug: pack2theroot
 aliases: [CVE-2026-41651, PackageKit 漏洞]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-8130-b735-c3e6c3ca21f1
+confidence: 已驗證
 created: 2026-05-05
 ---
 

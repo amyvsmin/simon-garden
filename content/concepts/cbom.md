@@ -5,7 +5,6 @@ aliases: [CBOM, Cryptographic Bill of Materials, 加密物料清單, 密碼資�
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

@@ -1,12 +1,9 @@
 ---
-name: Obsidian + Claude Code 工作流
+title: "Obsidian + Claude Code 工作流"
+slug: obsidian-claude-code-workflow
 aliases: [Obsidian + AI 工作流, Obsidian Claude 工作流, vault + AI]
 category: 生產力
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 354f85da-554f-8100-8cff-fe5533b688ca
+confidence: 已驗證
 created: 2026-05-05
 ---
 

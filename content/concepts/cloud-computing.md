@@ -5,7 +5,6 @@ aliases: [cloud computing, 雲端運算, 雲端服務, cloud, 雲, IaaS, PaaS, S
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

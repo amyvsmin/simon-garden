@@ -1,11 +1,9 @@
 ---
-name: 相對路徑
+title: "相對路徑"
+slug: relative-path
 aliases: [relative path, relative file path, 相對位置, 相對檔案路徑]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

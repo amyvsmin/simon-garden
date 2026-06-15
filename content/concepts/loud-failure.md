@@ -5,8 +5,6 @@ aliases: [大聲失敗, loud failure, fail loud, fail loudly, 暴露不確定性
 category: AI
 confidence: 已驗證
 created: 2026-05-15
-last-queried: ""
-query-count: 0
 ---
 
 ## 定義

@@ -1,12 +1,9 @@
 ---
-name: 第二大腦（Second Brain）
+title: "第二大腦（Second Brain）"
+slug: second-brain
 aliases: [Second Brain, PKM, 個人知識庫, 外腦]
 category: 生產力
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 354f85da-554f-811f-8bba-e94f58116982
+confidence: 已驗證
 created: 2026-05-05
 ---
 

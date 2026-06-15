@@ -5,7 +5,6 @@ aliases: [內容資產, 內容資產化, content asset, 長壽內容, 複利內�
 category: 個人成長／自動化
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

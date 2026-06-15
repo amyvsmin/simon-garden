@@ -5,7 +5,6 @@ aliases: [Command and Control, C2, C&C, 命令與控制, 命令控制, command a
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

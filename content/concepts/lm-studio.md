@@ -5,7 +5,6 @@ aliases: [LM Studio, lmstudio, 本機 AI GUI, LM Studio 圖形介面]
 category: AI／生產力
 confidence: 已驗證
 created: 2026-05-13
-query-count: 0
 ---
 
 ## 定義

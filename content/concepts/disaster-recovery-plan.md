@@ -5,7 +5,6 @@ aliases: [Disaster Recovery Plan, DRP, 災難復原計畫, 災害復原計畫, d
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

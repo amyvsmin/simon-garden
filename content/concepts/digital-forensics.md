@@ -5,7 +5,6 @@ aliases: [Digital Forensics, 數位鑑識, 數位取證, 電腦鑑識, digital f
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

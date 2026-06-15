@@ -5,7 +5,6 @@ aliases: [Gemini Live, 即時多模態助理, Gemini 隨行助理, Gemini 即時
 category: AI
 confidence: 已驗證
 created: 2026-06-10
-query-count: 0
 ---
 
 ## 定義

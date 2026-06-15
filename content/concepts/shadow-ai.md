@@ -5,7 +5,6 @@ aliases: [Shadow AI, 影子 AI, 未授權 AI 使用]
 category: 資安
 confidence: 已驗證
 created: 2026-05-06
-query-count: 0
 ---
 
 ## 定義

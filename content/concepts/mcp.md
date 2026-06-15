@@ -1,12 +1,9 @@
 ---
-name: MCP (Model Context Protocol)
+title: "MCP (Model Context Protocol)"
+slug: mcp
 aliases: [Model Context Protocol, AI USB-C]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: 2026-04-21
-query-count: 1
-notion-page-id: 349f85da-554f-8102-b895-fc351ae61f09
+confidence: 已驗證
 created: 2026-05-05
 ---
 

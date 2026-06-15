@@ -1,12 +1,9 @@
 ---
-name: 設計交棒
+title: "設計交棒"
+slug: design-handoff
 aliases: [Design Handoff, Design-to-Deploy, Netlify Connector]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81be-a26c-f4a94681901e
+confidence: 已驗證
 created: 2026-05-05
 ---
 
@@ -22,7 +19,7 @@ Claude Design 完成前端視覺後，產生指令把專案資產轉移到 Claud
 
 ## 應用場景
 
-- Simon 工作場景：跟 n8n 自動化串接思路同源，Dev/Ops 分工、設計與工程介面整合都是同個範式
+- Simon 工作場景：跟 skill 之間自動串接（如 course-notes 寫完自動接 Notion 建卡）、hook 鏈式觸發的交接思路同源，Dev/Ops 分工、設計與工程介面整合都是同個範式
 - 一般場景：個人創作者、產品團隊、敏捷開發
 
 ## 相關概念

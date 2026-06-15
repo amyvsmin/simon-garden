@@ -5,7 +5,6 @@ aliases: [Presentation Layer, 表示層, OSI 第六層, L6]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

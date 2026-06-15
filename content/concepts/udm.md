@@ -5,7 +5,6 @@ aliases: [UDM, udm, Unified Data Model, 統一資料模型, UDM Search, UDM 搜�
 category: 資安
 confidence: 待驗證
 created: 2026-06-14
-query-count: 0
 ---
 
 ## 定義

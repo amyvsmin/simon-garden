@@ -5,7 +5,6 @@ aliases: [AI 模型諂媚傾向, sycophancy, AI 諂媚, model sycophancy, 自評
 category: AI
 confidence: 待驗證
 created: 2026-05-26
-query-count: 0
 ---
 
 ## 定義

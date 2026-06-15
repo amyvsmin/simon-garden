@@ -5,7 +5,6 @@ aliases: [OWASP Top 10, OWASP 十大風險, OWASP 十大, OWASP Top Ten, Web 十
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

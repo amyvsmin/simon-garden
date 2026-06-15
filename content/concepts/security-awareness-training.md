@@ -5,7 +5,6 @@ aliases: [security awareness training, 資安意識訓練, 資安教育訓練, �
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

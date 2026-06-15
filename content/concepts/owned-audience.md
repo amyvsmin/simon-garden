@@ -5,7 +5,6 @@ aliases: [自有受眾, 自有讀者清單, owned audience, 擁有讀者清單, 
 category: 個人成長／自動化
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

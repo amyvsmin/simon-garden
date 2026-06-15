@@ -5,7 +5,6 @@ aliases: [SSH, Secure Shell, 安全殼協定, 安全外殼協定]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

@@ -5,8 +5,6 @@ aliases: [Claude Code 12 rules, CLAUDE.md 12 rules, Karpathy 12 rules, Mnilax 12
 category: AI
 confidence: 已驗證
 created: 2026-05-15
-last-queried: ""
-query-count: 0
 ---
 
 ## 定義

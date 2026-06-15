@@ -1,12 +1,9 @@
 ---
-name: AI 漏洞挖掘
+title: "AI 漏洞挖掘"
+slug: ai-vuln-discovery
 aliases: [AI Vulnerability Discovery, Claude Opus, AI 找漏洞]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-8147-a2a7-f85a0dc15abd
+confidence: 已驗證
 created: 2026-05-05
 ---
 

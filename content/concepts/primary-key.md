@@ -5,7 +5,6 @@ aliases: [primary key, 主鍵, PK, 唯一鍵, unique key]
 category: 資安
 confidence: 已驗證
 created: 2026-05-09
-query-count: 0
 ---
 
 ## 定義

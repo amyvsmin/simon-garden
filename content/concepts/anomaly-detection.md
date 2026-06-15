@@ -5,7 +5,6 @@ aliases: [anomaly detection, 異常偵測, 異常檢測, baseline detection, red
 category: 資安
 confidence: 已驗證
 created: 2026-05-09
-query-count: 0
 ---
 
 ## 定義

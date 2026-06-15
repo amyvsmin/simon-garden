@@ -5,7 +5,6 @@ aliases: [log ingestion, Log Ingestion, log 收錄, 日誌收錄, log 匯入, �
 category: 資安
 confidence: 待驗證
 created: 2026-06-14
-query-count: 0
 ---
 
 ## 定義

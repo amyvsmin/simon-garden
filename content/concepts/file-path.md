@@ -1,11 +1,9 @@
 ---
-name: 檔案路徑
+title: "檔案路徑"
+slug: file-path
 aliases: [file path, path, 路徑]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

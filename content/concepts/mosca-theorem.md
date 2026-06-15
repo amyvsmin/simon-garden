@@ -5,7 +5,6 @@ aliases: [Mosca's Theorem, Mosca 不等式, Mosca Inequality, x+y≤z, 後量子
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

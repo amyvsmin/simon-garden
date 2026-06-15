@@ -5,7 +5,6 @@ aliases: [Gemini Omni, Omni Flash, Google Omni, 多模態生成模型, Gemini �
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

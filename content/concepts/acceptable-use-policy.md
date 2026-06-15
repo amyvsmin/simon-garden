@@ -5,7 +5,6 @@ aliases: [Acceptable Use Policy, AUP, 可接受使用政策, 使用規範, accep
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

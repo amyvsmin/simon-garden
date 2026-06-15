@@ -1,12 +1,9 @@
 ---
-name: 紅隊
+title: "紅隊"
+slug: red-team
 aliases: [Red Team, 紅隊演練, 攻擊模擬]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-814b-a4d2-f55d79d345fa
+confidence: 已驗證
 created: 2026-05-05
 ---
 

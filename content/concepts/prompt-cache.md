@@ -5,7 +5,6 @@ aliases: [提示快取, prompt caching, Claude cache, cache hit, 快取命中, t
 category: AI
 confidence: 已驗證
 created: 2026-05-24
-query-count: 0
 ---
 
 ## 定義

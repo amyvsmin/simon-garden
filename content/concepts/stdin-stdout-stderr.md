@@ -1,11 +1,9 @@
 ---
-name: 標準輸入輸出
+title: "標準輸入輸出"
+slug: stdin-stdout-stderr
 aliases: [stdin, stdout, stderr, standard input, standard output, standard error, 標準輸入, 標準輸出, 標準錯誤, file descriptor]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

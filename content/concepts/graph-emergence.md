@@ -1,12 +1,9 @@
 ---
-name: 圖譜浮現
+title: "圖譜浮現"
+slug: graph-emergence
 aliases: [Knowledge Graph, 雙向連結, Backlink, 共用概念]
 category: 自動化
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-8148-8a9f-c54df4437ef8
+confidence: 已驗證
 created: 2026-05-05
 ---
 
@@ -30,7 +27,7 @@ created: 2026-05-05
 ## 相關概念
 
 - [[index-based-knowledge-base]]：圖譜在索引基礎上自然浮現
-- [[graph-emergence]] 跟 [[second-brain]] 互為實作 / 結果
+- [[second-brain]]：圖譜浮現是第二大腦的實作機制之一，兩者互為實作／結果
 
 ## 尚未解決的疑問
 

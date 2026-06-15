@@ -5,7 +5,6 @@ aliases: [Eradication, 根除, 清除, 移除, eradication, 威脅清除]
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

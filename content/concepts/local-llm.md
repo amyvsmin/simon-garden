@@ -5,7 +5,6 @@ aliases: [本機 LLM, local LLM, on-device LLM, 本地大模型, 本機 AI, on-p
 category: AI
 confidence: 已驗證
 created: 2026-05-13
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Cross-site scripting, XSS, 跨站腳本, cross site scripting, reflect
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

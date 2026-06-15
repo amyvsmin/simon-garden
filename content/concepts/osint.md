@@ -5,7 +5,6 @@ aliases: [OSINT, Open Source Intelligence, 開源情報, 公開來源情報, 開
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [AI 執行任務, AI 個人助理, AI 任務執行, AI from QA to execu
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

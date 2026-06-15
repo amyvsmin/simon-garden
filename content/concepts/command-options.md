@@ -1,11 +1,9 @@
 ---
-name: 命令選項
+title: "命令選項"
+slug: command-options
 aliases: [options, command options, flags, 旗標, 命令旗標]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

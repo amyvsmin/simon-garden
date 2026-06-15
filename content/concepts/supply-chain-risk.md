@@ -1,12 +1,9 @@
 ---
-name: 供應鏈風險
+title: "供應鏈風險"
+slug: supply-chain-risk
 aliases: [supply chain risk, SBOM, 第三方風險, Supply Chain Attack, 供應鏈攻擊, 軟體供應鏈攻擊, third-party attack, 第三方攻擊, software supply chain]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81e7-88bb-c7cfb1ae7b08
+confidence: 已驗證
 created: 2026-05-05
 ---
 

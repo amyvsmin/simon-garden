@@ -5,7 +5,6 @@ aliases: [Agentic Kill Chain, AI Agent 攻擊鏈, 自動化攻擊鏈]
 category: 資安
 confidence: 已驗證
 created: 2026-05-06
-query-count: 0
 ---
 
 ## 定義

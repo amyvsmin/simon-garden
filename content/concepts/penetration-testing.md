@@ -5,7 +5,6 @@ aliases: [Penetration Testing, 滲透測試, pen test, pentest, 滲透測試演�
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

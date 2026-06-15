@@ -5,7 +5,6 @@ aliases: [STRIDE, STRIDE 模型, STRIDE 框架, Spoofing Tampering Repudiation, 
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

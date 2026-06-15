@@ -1,11 +1,9 @@
 ---
-name: nano 編輯器
+title: "nano 編輯器"
+slug: nano-editor
 aliases: [nano, nano editor, 命令列編輯器]
 category: 生產力
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

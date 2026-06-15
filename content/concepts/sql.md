@@ -5,7 +5,6 @@ aliases: [SQL, 結構化查詢語言, Structured Query Language, sequel]
 category: 資安
 confidence: 已驗證
 created: 2026-05-09
-query-count: 0
 ---
 
 ## 定義

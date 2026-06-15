@@ -5,7 +5,6 @@ aliases: [上下文焦慮, context anxiety, LLM 下班心態, context window anx
 category: AI
 confidence: 待驗證
 created: 2026-05-26
-query-count: 0
 ---
 
 ## 定義

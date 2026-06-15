@@ -5,7 +5,6 @@ aliases: [data governance, 資料治理, 資料管理, 資料管治, data manage
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

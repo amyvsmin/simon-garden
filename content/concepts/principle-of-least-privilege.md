@@ -1,11 +1,9 @@
 ---
-name: 最小權限原則
+title: "最小權限原則"
+slug: principle-of-least-privilege
 aliases: [principle of least privilege, PoLP, least privilege, 最小特權, need-to-know]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

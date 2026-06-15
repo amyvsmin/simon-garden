@@ -5,7 +5,6 @@ aliases: [Agent Harness, harness hygiene, agent 設定瘦身, AI 設定韁繩, �
 category: AI
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

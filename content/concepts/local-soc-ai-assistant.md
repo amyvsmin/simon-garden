@@ -5,7 +5,6 @@ aliases: [Local SOC AI, 地端資安助手, Private SOC LLM, 內網 AI 助手, O
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

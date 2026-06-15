@@ -5,7 +5,6 @@ aliases: [對抗式驗證, adversarial verification, 推翻式驗證, AI 紅隊�
 category: AI
 confidence: 已驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

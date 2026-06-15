@@ -5,7 +5,6 @@ aliases: [EDR, endpoint detection and response, 端點偵測與回應, 端點偵
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

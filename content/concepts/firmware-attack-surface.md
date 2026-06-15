@@ -1,12 +1,9 @@
 ---
-name: 韌體攻擊面
+title: "韌體攻擊面"
+slug: firmware-attack-surface
 aliases: [firmware attack surface, BIOS, UEFI, 低層攻擊, power conditioner, 電源調節器, 電壓穩壓器, 電源管理]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-819f-b47e-d46c4fd90aba
+confidence: 已驗證
 created: 2026-05-05
 ---
 

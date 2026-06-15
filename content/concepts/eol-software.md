@@ -5,7 +5,6 @@ aliases: [End-of-Life Software, EoL Software, 終止支援軟體, 停止支援�
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

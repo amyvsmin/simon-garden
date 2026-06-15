@@ -1,12 +1,9 @@
 ---
-name: Hooks
+title: "Hooks"
+slug: hooks
 aliases: [Claude Code Hooks, session hooks]
 category: 自動化
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 349f85da-554f-8171-bb78-d3e99f5572d5
+confidence: 已驗證
 created: 2026-05-05
 ---
 

@@ -5,7 +5,6 @@ aliases: [Business Continuity Plan, BCP, 營運持續計畫, 業務持續計畫,
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

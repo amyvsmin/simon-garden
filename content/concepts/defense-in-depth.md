@@ -5,7 +5,6 @@ aliases: [Defense in Depth, 縱深防禦, 深度防禦, layered security, 多層
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

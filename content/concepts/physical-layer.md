@@ -5,7 +5,6 @@ aliases: [Physical Layer, 實體層, 物理層, OSI 第一層, L1]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

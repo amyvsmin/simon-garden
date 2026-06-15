@@ -1,12 +1,10 @@
 ---
-name: 訪談式提示（Interview-Driven Prompting / AskUser Pattern）
+title: "訪談式提示（Interview-Driven Prompting / AskUser Pattern）"
+slug: interview-driven-prompting
 aliases: [訪談式 prompt, interview-driven prompting, askuser pattern, AskUser, ask user pattern, AI 反問防腦補, 訪談式互動]
 category: AI
-status: active
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-11
-last-queried: ""
-query-count: 0
 ---
 
 ## 定義

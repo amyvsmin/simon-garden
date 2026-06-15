@@ -5,7 +5,6 @@ aliases: [Cyber Range, Digital Twin, 數位孿生, 資安攻防演練, 虛擬演
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

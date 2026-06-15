@@ -5,7 +5,6 @@ aliases: [SQL injection, SQL 注入, SQLi, 資料庫注入攻擊, SQL injection 
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

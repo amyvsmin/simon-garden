@@ -5,7 +5,6 @@ aliases: [security culture, 資安文化, 安全文化, 組織安全文化, 資�
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

@@ -1,11 +1,9 @@
 ---
-name: 套件管理工具
+title: "套件管理工具"
+slug: package-manager
 aliases: [package manager, apt, yum, dnf, dpkg, rpm, 套件管理器]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

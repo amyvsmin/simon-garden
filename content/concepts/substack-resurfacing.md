@@ -5,7 +5,6 @@ aliases: [Substack 重新堆疊, Restack, Substack 精選引言, Quote Note, Sub
 category: 自動化／生產力
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

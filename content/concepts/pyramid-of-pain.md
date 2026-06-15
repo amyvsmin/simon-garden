@@ -5,7 +5,6 @@ aliases: [Pyramid of Pain, 痛苦金字塔, 痛苦金字塔模型, pyramid of pa
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

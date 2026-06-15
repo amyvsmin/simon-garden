@@ -5,7 +5,6 @@ aliases: [自生長知識庫, 知識飛輪, self-growing knowledge base, knowled
 category: 生產力
 confidence: 已驗證
 created: 2026-05-31
-query-count: 0
 ---
 
 ## 定義

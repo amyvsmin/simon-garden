@@ -5,7 +5,6 @@ aliases: [Site Resilience, 站點韌性, 站台韌性, 異地備援, site resili
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

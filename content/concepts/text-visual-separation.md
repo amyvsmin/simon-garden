@@ -5,7 +5,6 @@ aliases: [文字視覺分離, 文字邏輯與視覺邏輯分開, text-visual sep
 category: 生產力
 confidence: 已驗證
 created: 2026-06-12
-query-count: 0
 ---
 
 ## 定義

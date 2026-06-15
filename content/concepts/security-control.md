@@ -5,7 +5,6 @@ aliases: [Security Control, 安全控制, 安全控制措施, 控制措施, secu
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

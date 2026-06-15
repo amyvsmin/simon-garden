@@ -5,7 +5,6 @@ aliases: [IDS, intrusion detection system, 入侵偵測系統, 入侵偵測, NID
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

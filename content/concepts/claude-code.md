@@ -1,12 +1,9 @@
 ---
-name: Claude Code
+title: "Claude Code"
+slug: claude-code
 aliases: [CC, Claude CLI]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 349f85da-554f-8173-a1df-f3f2de223af3
+confidence: 已驗證
 created: 2026-05-05
 ---
 

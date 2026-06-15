@@ -5,7 +5,6 @@ aliases: [Threat Intelligence, 威脅情報, 威脅情資, threat intelligence, 
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

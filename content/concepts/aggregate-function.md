@@ -5,7 +5,6 @@ aliases: [aggregate function, aggregate, 聚合函數, COUNT, AVG, SUM, MIN, MAX
 category: 資安
 confidence: 已驗證
 created: 2026-05-09
-query-count: 0
 ---
 
 ## 定義

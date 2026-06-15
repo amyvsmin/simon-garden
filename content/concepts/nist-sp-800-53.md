@@ -5,7 +5,6 @@ aliases: [NIST SP 800-53, 安全與隱私控制措施, Security and Privacy Cont
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

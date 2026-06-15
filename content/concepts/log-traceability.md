@@ -1,12 +1,9 @@
 ---
-name: 日誌可追
+title: "日誌可追"
+slug: log-traceability
 aliases: [Audit Log, 變更日誌, Action Log]
 category: 自動化
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81d3-ac1f-f6287d327cae
+confidence: 已驗證
 created: 2026-05-05
 ---
 

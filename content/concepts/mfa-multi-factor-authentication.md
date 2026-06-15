@@ -5,7 +5,6 @@ aliases: [MFA, multi-factor authentication, 多因子認證, 多因子驗證, �
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

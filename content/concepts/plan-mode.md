@@ -1,12 +1,9 @@
 ---
-name: Plan Mode（規劃模式）
+title: "Plan Mode（規劃模式）"
+slug: plan-mode
 aliases: [Plan Mode, 規劃模式, plan first]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 354f85da-554f-817e-9f20-e33bd543dca4
+confidence: 已驗證
 created: 2026-05-05
 ---
 
@@ -20,7 +17,7 @@ Claude Code 在複雜任務下先讓 AI 複述手上資訊並設計完整實作�
 - **限制**：Plan Mode 時 AI 不能進行寫入類動作（Edit、Write），可讀取、搜尋、執行 sandbox 指令
 - **輸出**：詳細計畫 + 預計變動清單，人類進行 approve / reject / edit
 - **訓練使用者思考**：推動「先規劃、再動手」的習慣
-- **不適用場景**：哨小任務、探索性讀取、debug，這些反而快速試錯並仔細閱讀 stack trace
+- **不適用場景**：瑣小任務、探索性讀取、debug，這些反而快速試錯並仔細閱讀 stack trace
 
 ## 應用場景
 

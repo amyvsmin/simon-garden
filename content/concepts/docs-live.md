@@ -5,7 +5,6 @@ aliases: [Docs Live, Google Docs Live, 語音文件編輯, voice document editin
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

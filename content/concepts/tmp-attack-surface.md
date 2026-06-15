@@ -1,11 +1,9 @@
 ---
-name: /tmp 攻擊面
+title: "/tmp 攻擊面"
+slug: tmp-attack-surface
 aliases: [tmp attack surface, /tmp 風險, tmp directory abuse]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

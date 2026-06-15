@@ -5,7 +5,6 @@ aliases: [VirusTotal, virustotal, 病毒總、VirusTotal 平台, vendors ratio, 
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

@@ -3,9 +3,8 @@ title: "Windows DSE 繞過（反射式驅動載入）"
 slug: dse-bypass
 aliases: [DSE bypass, Driver Signature Enforcement bypass, 反射式驅動載入, reflective driver loading]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-05
-query-count: 0
 ---
 
 ## 定義

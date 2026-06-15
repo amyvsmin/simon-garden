@@ -5,7 +5,6 @@ aliases: [SIEM, security information and event management, 資安資訊與事件
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

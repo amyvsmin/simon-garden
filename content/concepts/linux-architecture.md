@@ -1,11 +1,9 @@
 ---
-name: Linux 架構
+title: "Linux 架構"
+slug: linux-architecture
 aliases: [linux architecture, Linux 五層架構, application-os-hardware-flow, OS 分層]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

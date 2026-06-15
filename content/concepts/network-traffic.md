@@ -5,7 +5,6 @@ aliases: [Network Traffic, 網路流量, network data, 網路資料, expected ne
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

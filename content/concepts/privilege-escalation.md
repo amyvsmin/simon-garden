@@ -1,12 +1,9 @@
 ---
-name: 權限提升
+title: "權限提升"
+slug: privilege-escalation
 aliases: [Privilege Escalation, 提權, 本機提權]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-8185-ad30-e13192bfcfad
+confidence: 已驗證
 created: 2026-05-05
 ---
 

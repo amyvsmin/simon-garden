@@ -5,7 +5,6 @@ aliases: [APT, Advanced Persistent Threat, 進階持續性威脅, 高級持續�
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

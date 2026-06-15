@@ -5,7 +5,6 @@ aliases: [Gemini Flash, Gemini 3.5 Flash, Flash, Google Flash, 3.5 Flash, gemini
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

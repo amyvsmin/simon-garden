@@ -5,7 +5,6 @@ aliases: [Threat Hunting, 威脅狩獵, 威脅獵捕, 主動威脅搜尋, threat
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Threat Actor, 威脅行為者, 威脅來源, 攻擊者, malicious acto
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

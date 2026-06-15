@@ -5,7 +5,6 @@ aliases: [Zero-Day, 零時差漏洞, 零日漏洞, zero-day vulnerability, zero-
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

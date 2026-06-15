@@ -5,7 +5,6 @@ aliases: [claude-rewind, Claude rewind, /rewind, 回溯機制, Claude Code 回�
 category: AI
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

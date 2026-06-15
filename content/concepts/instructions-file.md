@@ -1,12 +1,9 @@
 ---
-name: 指令檔
+title: "指令檔"
+slug: instructions-file
 aliases: [CLAUDE.md, AI Instruction File, AGENTS.md, GEMINI.md]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81b5-a0f8-f6d5fbf4a665
+confidence: 已驗證
 created: 2026-05-05
 ---
 

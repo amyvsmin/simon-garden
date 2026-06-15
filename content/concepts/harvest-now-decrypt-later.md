@@ -5,7 +5,6 @@ aliases: [HNDL, Harvest Now Decrypt Later, 現在收割之後解密, 量子收�
 category: 資安
 confidence: 已驗證
 created: 2026-05-06
-query-count: 0
 ---
 
 ## 定義

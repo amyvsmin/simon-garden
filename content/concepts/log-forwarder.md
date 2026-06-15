@@ -5,7 +5,6 @@ aliases: [log forwarder, Log Forwarder, log 轉送器, 日誌轉送器, log ship
 category: 資安
 confidence: 待驗證
 created: 2026-06-14
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Compute-based Pricing, 算力計費, 運算量計費, compute-based pr
 category: AI
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

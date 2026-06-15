@@ -5,7 +5,6 @@ aliases: [privacy by design, PbD, 隱私設計, 隱私即設計, 嵌入式隱私
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

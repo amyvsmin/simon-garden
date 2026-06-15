@@ -1,11 +1,9 @@
 ---
-name: Linux 命令
+title: "Linux 命令"
+slug: linux-command
 aliases: [linux command, command, Linux 指令, 指令]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

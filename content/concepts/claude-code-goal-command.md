@@ -5,7 +5,6 @@ aliases: [/goal, goal 指令, Claude Code goal mode, goal command, 完成條件�
 category: 自動化
 confidence: 已驗證
 created: 2026-05-14
-query-count: 0
 ---
 
 ## 定義

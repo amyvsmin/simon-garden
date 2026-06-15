@@ -5,7 +5,6 @@ aliases: [ARP, Address Resolution Protocol, 位址解析協定, 地址解析協�
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

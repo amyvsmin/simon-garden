@@ -5,7 +5,6 @@ aliases: [Storytelling Modular Framework, 拼積木框架, 角色卡手法卡場
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

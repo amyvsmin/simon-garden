@@ -5,7 +5,6 @@ aliases: [Social Engineering, 社交工程, 社會工程, social-engineering-tac
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [data lifecycle, 資料生命週期, 資料生命週期管理, data lif
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

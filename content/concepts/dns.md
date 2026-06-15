@@ -5,7 +5,6 @@ aliases: [DNS, Domain Name System, 網域名稱系統, 域名系統, 網域名�
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

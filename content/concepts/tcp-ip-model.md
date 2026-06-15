@@ -5,7 +5,6 @@ aliases: [TCP/IP Model, TCP/IP 模型, TCP/IP 四層模型, TCP/IP four-layer mo
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

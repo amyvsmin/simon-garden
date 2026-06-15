@@ -5,7 +5,6 @@ aliases: [上下文腐爛, context rot, context decay, 對話腐爛, 長對話�
 category: AI
 confidence: 已驗證
 created: 2026-05-13
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [OSI Model, OSI 模型, OSI 七層模型, OSI 參考模型, OSI seven-l
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

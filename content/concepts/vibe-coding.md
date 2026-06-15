@@ -1,12 +1,9 @@
 ---
-name: Vibe Coding
+title: "Vibe Coding"
+slug: vibe-coding
 aliases: [自然語言開發, AI Coding]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 354f85da-554f-81d3-9750-c77eedc36b64
+confidence: 已驗證
 created: 2026-05-05
 ---
 

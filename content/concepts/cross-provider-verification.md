@@ -5,7 +5,6 @@ aliases: [跨供應商交叉驗證, cross-provider verification, 跨模型審查
 category: AI
 confidence: 待驗證
 created: 2026-05-26
-query-count: 0
 ---
 
 ## 定義

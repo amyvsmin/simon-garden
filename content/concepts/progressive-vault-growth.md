@@ -5,7 +5,6 @@ aliases: [漸進式知識庫長出, 漸進長出 vault, progressive vault growth
 category: 生產力／AI
 confidence: 已驗證
 created: 2026-05-13
-query-count: 0
 ---
 
 ## 定義

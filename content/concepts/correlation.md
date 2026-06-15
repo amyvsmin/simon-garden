@@ -5,7 +5,6 @@ aliases: [correlation, 關聯分析, 事件關聯, log correlation, event correl
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Playbook, 劇本, 手冊, 應變手冊, 操作手冊, runbook, inciden
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

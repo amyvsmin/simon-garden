@@ -5,7 +5,6 @@ aliases: [Security Awareness Design, 有感訓練, 有感資安訓練, 資安訓
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

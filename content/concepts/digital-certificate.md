@@ -5,7 +5,6 @@ aliases: [digital certificate, 數位憑證, 電子憑證, X.509, SSL certificat
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

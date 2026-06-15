@@ -1,11 +1,9 @@
 ---
-name: Linux 求助命令
+title: "Linux 求助命令"
+slug: linux-help-commands
 aliases: [linux help commands, man, whatis, apropos, man-pages, whatis-command, apropos-command, builtin-help-vs-online, linux-man-pages]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

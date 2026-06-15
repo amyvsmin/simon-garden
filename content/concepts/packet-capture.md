@@ -5,7 +5,6 @@ aliases: [Packet Capture, P-cap, pcap, 封包擷取, 封包擷取檔, packet sni
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

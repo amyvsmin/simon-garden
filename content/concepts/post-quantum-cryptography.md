@@ -5,7 +5,6 @@ aliases: [Post-Quantum Cryptography, PQC, 後量子加密, 抗量子密碼學]
 category: 資安
 confidence: 已驗證
 created: 2026-05-06
-query-count: 0
 ---
 
 ## 定義

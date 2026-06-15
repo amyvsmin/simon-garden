@@ -5,7 +5,6 @@ aliases: [Fragmentation, 分片, IP 分片, 封包分片]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

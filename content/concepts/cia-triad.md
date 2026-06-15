@@ -5,7 +5,6 @@ aliases: [CIA Triad, CIA 三元組, 機密性完整性可用性, Confidentiality
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

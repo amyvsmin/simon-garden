@@ -5,7 +5,6 @@ aliases: [提示注入, prompt injection, prompt-injection, 間接提示注入, 
 category: 資安
 confidence: 已驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

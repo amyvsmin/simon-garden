@@ -1,12 +1,9 @@
 ---
-name: 文化嵌套關係
+title: "文化嵌套關係"
+slug: cultural-nesting
 aliases: [文化套娃, 文化分層, cultural nesting, 嵌套文化, 全局管理, 滲透式管理, penetration management, 全布局滲透式管理]
 category: 職涯
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 34df85da-554f-8195-833f-fe0e04a11b57
 created: 2026-05-05
 ---
 

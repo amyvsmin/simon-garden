@@ -1,11 +1,9 @@
 ---
-name: 根目錄
+title: "根目錄"
+slug: root-directory
 aliases: [root directory, /, Linux 根目錄, 檔案系統根]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

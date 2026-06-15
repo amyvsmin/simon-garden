@@ -5,7 +5,6 @@ aliases: [Network Monitoring, 網路監看, 網路監控, 流量監看]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

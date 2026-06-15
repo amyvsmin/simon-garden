@@ -1,12 +1,9 @@
 ---
-name: Skill
+title: "Skill"
+slug: skill
 aliases: [Claude Skill, 技能包]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 349f85da-554f-8184-b4c9-e39540364c8c
+confidence: 已驗證
 created: 2026-05-05
 ---
 

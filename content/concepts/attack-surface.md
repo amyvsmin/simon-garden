@@ -5,7 +5,6 @@ aliases: [Attack Surface, 攻擊面, 攻擊表面, 進入點, entry point]
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

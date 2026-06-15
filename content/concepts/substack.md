@@ -5,7 +5,6 @@ aliases: [Substack, 訂閱制電子報平台, Newsletter 平台]
 category: 自動化／生產力
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

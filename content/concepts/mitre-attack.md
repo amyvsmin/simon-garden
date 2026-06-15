@@ -5,7 +5,6 @@ aliases: [MITRE ATT&CK, ATT&CK, MITRE ATTACK, 對手戰術與技術知識庫, AT
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

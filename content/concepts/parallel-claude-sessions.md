@@ -3,7 +3,7 @@ title: "平行 Claude Code 視窗工作流"
 slug: parallel-claude-sessions
 aliases: [平行 CC 工作流, 5 視窗 CC, parallel claude sessions, git worktree CC, Boris 30 PR]
 category: AI
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-10
 ---
 

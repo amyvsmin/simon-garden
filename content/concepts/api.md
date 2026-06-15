@@ -1,12 +1,10 @@
 ---
-name: API（應用程式介面）
+title: "API（應用程式介面）"
+slug: api
 aliases: [API, Application Programming Interface, 應用程式介面, 程式介面]
 category: AI
-status: active
 confidence: 已驗證
 created: 2026-05-12
-last-queried: ""
-query-count: 0
 ---
 
 ## 定義

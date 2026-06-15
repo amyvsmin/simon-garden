@@ -5,7 +5,6 @@ aliases: [Injection, 注入攻擊, 注入漏洞, code injection, 程式碼注入
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

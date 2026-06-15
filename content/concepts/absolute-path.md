@@ -1,11 +1,9 @@
 ---
-name: 絕對路徑
+title: "絕對路徑"
+slug: absolute-path
 aliases: [absolute path, absolute file path, 完整路徑, full path]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

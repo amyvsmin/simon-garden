@@ -1,11 +1,9 @@
 ---
-name: 認證
+title: "認證"
+slug: authentication
 aliases: [authentication, 身份驗證, 驗證, 認證流程]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

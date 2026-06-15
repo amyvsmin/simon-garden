@@ -5,7 +5,6 @@ aliases: [SPL, spl, Search Processing Language, 搜尋處理語言, Splunk 查�
 category: 資安
 confidence: 待驗證
 created: 2026-06-14
-query-count: 0
 ---
 
 ## 定義

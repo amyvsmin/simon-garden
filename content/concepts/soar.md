@@ -5,7 +5,6 @@ aliases: [SOAR, security orchestration automation and response, 資安編排自�
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

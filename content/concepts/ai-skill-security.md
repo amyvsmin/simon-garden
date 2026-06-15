@@ -5,7 +5,6 @@ aliases: [AI Skill 資安, skill security, 惡意 skill, malicious skill, skill 
 category: 資安
 confidence: 已驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

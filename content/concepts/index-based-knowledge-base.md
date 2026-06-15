@@ -1,12 +1,9 @@
 ---
-name: 索引式知識庫
+title: "索引式知識庫"
+slug: index-based-knowledge-base
 aliases: [Index-based KB, 目錄式知識庫, 無向量知識庫]
 category: 自動化
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-8134-abda-c9433ac58d2b
+confidence: 已驗證
 created: 2026-05-05
 ---
 

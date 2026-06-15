@@ -5,7 +5,6 @@ aliases: [PASTA, Process for Attack Simulation and Threat Analysis, PASTA 框架
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

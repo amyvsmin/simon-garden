@@ -5,7 +5,6 @@ aliases: [代理人作業系統競賽, agent OS, 桌面 AI 競賽, Codex vs Clau
 category: AI
 confidence: 待驗證
 created: 2026-05-18
-query-count: 0
 ---
 
 ## 定義

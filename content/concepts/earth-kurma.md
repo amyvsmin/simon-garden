@@ -3,9 +3,8 @@ title: "Earth Kurma（EarthMaker）APT 組織"
 slug: earth-kurma
 aliases: [EarthMaker, Earth Kurma APT, 東南亞 APT 組織]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-05
-query-count: 0
 ---
 
 ## 定義

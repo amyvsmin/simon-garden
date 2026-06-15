@@ -5,7 +5,6 @@ aliases: [Chain of Custody, 監管鏈, 證據監管鏈, 保管鏈, chain of cust
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

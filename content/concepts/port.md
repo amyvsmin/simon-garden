@@ -5,7 +5,6 @@ aliases: [Port, 連接埠, 通訊埠, 埠號, port-number, port-numbers, Port Nu
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

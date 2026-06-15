@@ -1,12 +1,9 @@
 ---
-name: 安全開機
+title: "安全開機"
+slug: secure-boot
 aliases: [secure boot, UEFI Secure Boot, 程式碼簽署]
 category: 資安
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81a9-b4e7-f8b5d8b87d67
+confidence: 已驗證
 created: 2026-05-05
 ---
 

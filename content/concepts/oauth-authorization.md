@@ -5,7 +5,6 @@ aliases: [OAuth, OAuth 2.0, OAuth Authorization, OAuth 授權, 開放授權, OAu
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Triage, 分流, 檢傷分類, 事件分流, 告警分流, triage, 優�
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

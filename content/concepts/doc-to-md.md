@@ -5,7 +5,6 @@ aliases: [doc-to-md, PDF 轉 MD, PDF 轉 Markdown, 知識庫轉 MD 工具, doc t
 category: AI
 confidence: 待驗證
 created: 2026-05-18
-query-count: 0
 ---
 
 ## 定義

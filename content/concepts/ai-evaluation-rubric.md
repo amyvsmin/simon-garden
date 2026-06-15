@@ -5,7 +5,6 @@ aliases: [AI 評估量表, evaluation rubric, AI rubric, AI 評分標準, 品味
 category: AI
 confidence: 待驗證
 created: 2026-05-26
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Phishing, 釣魚, 網路釣魚, phishing-types, 釣魚類型, phishing
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義

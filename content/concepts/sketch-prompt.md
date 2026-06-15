@@ -1,12 +1,9 @@
 ---
-name: 草圖提示
+title: "草圖提示"
+slug: sketch-prompt
 aliases: [Sketch Prompt, 視覺提示詞, Multi-modal Prompt]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81a5-a184-c726a2074955
+confidence: 已驗證
 created: 2026-05-05
 ---
 

@@ -5,7 +5,6 @@ aliases: [Final Report, 最終報告, 事件最終報告, 結案報告, final re
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Zero Trust, 零信任, 零信任架構, zero trust, ZTA, zero trust ar
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [TaaS, Token as a Service, Token 即服務, Token 經濟學, token econ
 category: AI
 confidence: 已驗證
 created: 2026-06-12
-query-count: 0
 ---
 
 ## 定義

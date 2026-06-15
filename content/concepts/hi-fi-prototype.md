@@ -1,12 +1,9 @@
 ---
-name: 擬真原型
+title: "擬真原型"
+slug: hi-fi-prototype
 aliases: [High Fidelity, Hi-Fi Prototype, 可上線原型]
 category: 生產力
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-811c-9904-cd2af63b7fc1
+confidence: 已驗證
 created: 2026-05-05
 ---
 

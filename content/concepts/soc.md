@@ -5,7 +5,6 @@ aliases: [SOC, security operations center, 資安維運中心, 安全維運中�
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

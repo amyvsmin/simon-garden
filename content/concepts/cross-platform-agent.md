@@ -5,7 +5,6 @@ aliases: [雙棲 agent, 兩棲 agent, 跨家 agent, cross-platform agent, SSOT a
 category: AI
 confidence: 已驗證
 created: 2026-06-01
-query-count: 0
 ---
 
 ## 定義

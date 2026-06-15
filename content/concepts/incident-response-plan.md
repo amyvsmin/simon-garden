@@ -5,7 +5,6 @@ aliases: [incident response plan, IRP, 事件應變計畫, 事件回應計畫, �
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

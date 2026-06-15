@@ -5,7 +5,6 @@ aliases: [raw log search, Raw Log Search, 原始 log 搜尋, 原始日誌搜尋,
 category: 資安
 confidence: 待驗證
 created: 2026-06-14
-query-count: 0
 ---
 
 ## 定義

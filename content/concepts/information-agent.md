@@ -5,7 +5,6 @@ aliases: [Information Agent, 資訊代理人, Google 資訊代理人, search age
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

@@ -3,9 +3,8 @@ title: "濫用合法雲端服務作 C2／資料外洩"
 slug: living-off-cloud-c2
 aliases: [living off the cloud, cloud C2, 雲端 C2 濫用, Webex C2 濫用, OneDrive 外洩]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-05
-query-count: 0
 ---
 
 ## 定義

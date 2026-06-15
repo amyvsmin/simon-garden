@@ -5,7 +5,6 @@ aliases: [Documentation, 文件化, 資安文件, 安全文件, security documen
 category: 資安
 confidence: 待驗證
 created: 2026-06-13
-query-count: 0
 ---
 
 ## 定義

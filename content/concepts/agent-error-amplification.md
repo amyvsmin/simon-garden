@@ -5,7 +5,6 @@ aliases: [代理人誤差放大, 代理人決策鏈誤差, 3% 誤差複合, agen
 category: AI
 confidence: 待驗證
 created: 2026-05-18
-query-count: 0
 ---
 
 ## 定義

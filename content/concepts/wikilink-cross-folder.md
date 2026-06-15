@@ -5,7 +5,6 @@ aliases: [跨資料夾 wikilink, wikilink AI 上下文觸達, 跨層級連線, c
 category: 生產力／AI
 confidence: 已驗證
 created: 2026-05-13
-query-count: 0
 ---
 
 ## 定義

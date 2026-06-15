@@ -5,7 +5,6 @@ aliases: [Claude 三模式, Chat Cowork Code, Claude 工作模式, Claude 模式
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

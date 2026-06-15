@@ -1,11 +1,9 @@
 ---
-name: Linux 導覽命令
+title: "Linux 導覽命令"
+slug: linux-navigation-commands
 aliases: [linux navigation commands, pwd, ls, cd, whoami, pwd-command, ls-command, cd-command, whoami-command, ls-long-format, ls-all-flag, ls-la-combined]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

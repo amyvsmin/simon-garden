@@ -5,7 +5,6 @@ aliases: [Compliance, 合規, 法規遵循, regulatory compliance, 合規性, �
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

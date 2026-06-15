@@ -5,7 +5,6 @@ aliases: [Security Hardening, 安全強化, 系統強化, 系統加固, hardenin
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

@@ -1,12 +1,9 @@
 ---
-name: 原料分流
+title: "原料分流"
+slug: raw-wiki-split
 aliases: [收件匣模式, Raw/Wiki 分流, 資訊收集箱模式]
 category: 生產力
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-81fc-bc8e-c03c6e11431a
+confidence: 已驗證
 created: 2026-05-05
 ---
 

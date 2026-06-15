@@ -5,7 +5,6 @@ aliases: [Gemini Spark, Spark, Google Spark, AI 代理人 Spark, Google AI agent
 category: AI
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

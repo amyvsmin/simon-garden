@@ -5,7 +5,6 @@ aliases: [Network Protocol Analyzer, packet sniffer, 網路協定分析器, 封�
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

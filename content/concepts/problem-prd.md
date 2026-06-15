@@ -5,7 +5,6 @@ aliases: [問題規格書, PRD, 問題規格, 目標限制障礙, problem PRD, p
 category: 生產力
 confidence: 待驗證
 created: 2026-05-18
-query-count: 0
 ---
 
 ## 定義

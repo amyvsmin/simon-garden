@@ -1,11 +1,9 @@
 ---
-name: Linux 核心
+title: "Linux 核心"
+slug: linux-kernel
 aliases: [linux kernel, kernel, Linux 內核]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

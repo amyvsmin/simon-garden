@@ -5,7 +5,6 @@ aliases: [Attacker Mindset, 攻擊者思維, 攻擊者視角, adversarial thinki
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

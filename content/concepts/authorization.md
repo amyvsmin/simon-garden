@@ -1,11 +1,9 @@
 ---
-name: 授權
+title: "授權"
+slug: authorization
 aliases: [authorization, 存取授權, 授權控管]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

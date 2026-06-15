@@ -5,7 +5,6 @@ aliases: [Cryptographic Agility, Crypto Agility, 密碼敏捷, 演算法可換, 
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

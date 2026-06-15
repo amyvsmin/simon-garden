@@ -5,7 +5,6 @@ aliases: [SEMI E187, 半導體設備資安標準, 設備資安認證, SEMI 187]
 category: 資安
 confidence: 已驗證
 created: 2026-05-07
-query-count: 0
 ---
 
 ## 定義

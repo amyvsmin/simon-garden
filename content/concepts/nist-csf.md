@@ -5,7 +5,6 @@ aliases: [NIST CSF, NIST Cybersecurity Framework, NIST 網路安全框架, CSF, 
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

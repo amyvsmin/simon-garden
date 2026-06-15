@@ -1,12 +1,9 @@
 ---
-name: 提示工程框架死穴
+title: "提示工程框架死穴"
+slug: prompt-framework-weakness
 aliases: [Prompt Engineering, CoT, ToT, ReAct]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 351f85da-554f-818c-ad2b-cb70d2c5f486
+confidence: 已驗證
 created: 2026-05-05
 ---
 
@@ -22,7 +19,7 @@ created: 2026-05-05
 
 ## 應用場景
 
-- Simon 工作場景：Claude Code 自架環境、n8n AI Agent、KW 收錄流程設計都可選對提示策略避開死穴
+- Simon 工作場景：Claude Code 自架環境、Cloudflare Workers LINE bot、skill／hook 工作流設計都可選對提示策略避開死穴
 - 一般場景：LLM 應用開發者、prompt engineer
 
 ## 相關概念

@@ -5,7 +5,6 @@ aliases: [行銷自動化, 內容自動化工作流, marketing automation, 行�
 category: 自動化
 confidence: 待驗證
 created: 2026-05-20
-query-count: 0
 ---
 
 ## 定義

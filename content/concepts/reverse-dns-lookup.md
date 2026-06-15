@@ -5,7 +5,6 @@ aliases: [Reverse DNS Lookup, 反向 DNS 查詢, rDNS, 反查]
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

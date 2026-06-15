@@ -5,7 +5,6 @@ aliases: [Endpoint, 端點, 端點裝置, endpoint device, 終端裝置, end-use
 category: 資安
 confidence: 待驗證
 created: 2026-06-05
-query-count: 0
 ---
 
 ## 定義

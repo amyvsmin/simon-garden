@@ -5,7 +5,6 @@ aliases: [privilege creep, 權限蔓延, 權限膨脹, 權限累積, permission 
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

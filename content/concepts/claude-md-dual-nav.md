@@ -1,12 +1,9 @@
 ---
-name: CLAUDE.md（雙層導航設計）
+title: "CLAUDE.md（雙層導航設計）"
+slug: claude-md-dual-nav
 aliases: [雙層導航, AI 文件夾地圖, 兩層 instructions]
 category: AI
-status: active
-confidence: 待驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 354f85da-554f-813e-a5d8-c779cec39777
+confidence: 已驗證
 created: 2026-05-05
 ---
 

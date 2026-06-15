@@ -5,7 +5,6 @@ aliases: [Indicator of Compromise, IoC, IoCs, 入侵指標, 妥協指標, 危害
 category: 資安
 confidence: 待驗證
 created: 2026-06-07
-query-count: 0
 ---
 
 ## 定義

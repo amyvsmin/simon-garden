@@ -5,7 +5,6 @@ aliases: [Standard, 標準, 安全標準, security standard, 合規標準, compl
 category: 資安
 confidence: 待驗證
 created: 2026-05-25
-query-count: 0
 ---
 
 ## 定義

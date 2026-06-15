@@ -1,11 +1,9 @@
 ---
-name: 任意可寫檔
+title: "任意可寫檔"
+slug: world-writable-file
 aliases: [world writable file, world-writable, chmod 777 災難, 任意可寫]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

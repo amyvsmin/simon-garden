@@ -5,7 +5,6 @@ aliases: [推理力道, effort level, Claude Code effort, reasoning effort, low 
 category: AI
 confidence: 待驗證
 created: 2026-05-29
-query-count: 0
 ---
 
 ## 定義

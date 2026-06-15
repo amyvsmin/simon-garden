@@ -1,11 +1,9 @@
 ---
-name: Linux 用戶管理命令
+title: "Linux 用戶管理命令"
+slug: linux-user-mgmt-commands
 aliases: [linux user management commands, sudo, useradd, usermod, userdel, passwd, groupadd, groupdel, sudo-command, useradd-command, usermod-command, userdel-command, groupdel-command, sudoers-file, user-lifecycle, useradd-options]
 category: 資安
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
 created: 2026-05-10
 ---
 

@@ -1,12 +1,9 @@
 ---
-name: 純接收 + 即時落地（日記互動模式）
+title: "純接收 + 即時落地（日記互動模式）"
+slug: pure-receive-immediate-write
 aliases: [append-only journaling, 純接收模式, 即時落地, write-through journaling]
 category: 生產力
-status: active
 confidence: 已驗證
-last-queried: ""
-query-count: 0
-notion-page-id: 34cf85da-554f-81fc-a22e-ebd3bbce219a
 created: 2026-05-05
 ---
 

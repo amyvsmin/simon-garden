@@ -5,7 +5,6 @@ aliases: [Internet Protocol, IP, 網際網路協定, IP 協定, ip-address, IP �
 category: 資安
 confidence: 待驗證
 created: 2026-06-15
-query-count: 0
 ---
 
 ## 定義

@@ -5,7 +5,6 @@ aliases: [Attack Tree, 攻擊樹, 攻擊路徑樹, attack path tree]
 category: 資安
 confidence: 待驗證
 created: 2026-05-30
-query-count: 0
 ---
 
 ## 定義
