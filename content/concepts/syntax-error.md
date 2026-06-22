@@ -33,3 +33,5 @@ created: 2026-06-22
 ## 來源（自動維護）
 
 - [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-2-write-effective-python-code/section-3-learn-from-the-python-community/4-ensure-proper-syntax-and-readability-in-python|Course 7 Module 2 Section 3 Leaf 4 Ensure proper syntax and readability in Python]]
+- [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-4-python-in-practice/section-3-debug-python-code/1-debugging-strategies|Course 7 Module 4 Section 3 Leaf 1 Debugging strategies]]
+- [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-4-python-in-practice/section-3-debug-python-code/4-explore-debugging-techniques|Course 7 Module 4 Section 3 Leaf 4 Explore debugging techniques]]

@@ -34,3 +34,5 @@ created: 2026-06-21
 
 - [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-1-introduction-to-python/section-2-introduction-to-python-programming-in-cybersecurity/3-get-to-know-python|Course 7 Module 1 Section 2 Leaf 3 Get to know Python]]
 - [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-1-introduction-to-python/section-4-conditional-and-iterative-statements/1-conditional-statements-in-python|Course 7 Module 1 Section 4 Leaf 1 Conditional statements in Python]]
+- [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-4-python-in-practice/section-1-python-for-automation/2-automate-cybersecurity-tasks-with-python|Course 7 Module 4 Section 1 Leaf 2 Automate cybersecurity tasks with Python]]
+- [[1-learning/coursera/google-cybersecurity/course-7-automate-cybersecurity-tasks-with-python/module-4-python-in-practice/section-1-python-for-automation/4-essential-python-components-for-automation|Course 7 Module 4 Section 1 Leaf 4 Essential Python components for automation]]

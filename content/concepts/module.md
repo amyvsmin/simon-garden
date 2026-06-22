@@ -1,7 +1,7 @@
 ---
 title: "模組（Module）"
 slug: module
-aliases: [Module, 模組, modules, 模塊, Python module]
+aliases: [Module, 模組, modules, Python module]
 category: 資安
 confidence: 已驗證
 created: 2026-06-22

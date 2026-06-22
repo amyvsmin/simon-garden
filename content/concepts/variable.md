@@ -1,7 +1,7 @@
 ---
 title: "變數（Variable）"
 slug: variable
-aliases: [Variable, 變數, variables, 變量]
+aliases: [Variable, 變數, variables]
 category: 資安
 confidence: 已驗證
 created: 2026-06-21
