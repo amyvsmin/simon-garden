@@ -9,7 +9,7 @@ created: 2026-06-22
 
 ## 定義
 
-切片是用兩個 [[index]] 從序列取出「一段」的操作，語法 `[起:終]`——**起點 index 含、終點 index 不含**（Python 停在終點前一個元素）。對 [[string]] 取一段字元（`"HELLO"[1:4]` 得 `"ELL"`）、對 [[list]] 取一段元素（結果是「子清單 sublist」、本身也是一個 list）。換算訣竅：想取到第 n 個（index n）的元素，終點要寫 n+1。
+切片是用兩個 [[index-concept|index]] 從序列取出「一段」的操作，語法 `[起:終]`——**起點 index 含、終點 index 不含**（Python 停在終點前一個元素）。對 [[string]] 取一段字元（`"HELLO"[1:4]` 得 `"ELL"`）、對 [[list]] 取一段元素（結果是「子清單 sublist」、本身也是一個 list）。換算訣竅：想取到第 n 個（index n）的元素，終點要寫 n+1。
 
 ## 關鍵面向
 
@@ -25,7 +25,7 @@ created: 2026-06-22
 
 ## 相關概念
 
-- [[index]]：切片用兩個索引界定範圍
+- [[index-concept|index]]：切片用兩個索引界定範圍
 - [[bracket-notation]]：切片透過方括號表示
 - [[string]]、[[list]]：可切片的兩種序列（清單切片結果稱子清單 sublist）
 

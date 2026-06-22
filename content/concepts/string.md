@@ -9,7 +9,7 @@ created: 2026-06-22
 
 ## 定義
 
-字串是「由有序字元序列組成的資料」，是 [[data-type]] 之一，寫在引號內（單或雙引號皆可、本課用雙引號）。在資安最常用來存「不需做數學運算」的資訊：IP 位址、使用者名稱、URL、員工與裝置 ID。可用 [[index]]／[[slice]] 取出部分、用 [[method]]（如 `.upper()`／`.lower()`／`.index()`）處理、用 [[str-function]] 從別的型別轉成字串。字串是 [[immutability|不可變]]的——建立後不能改其中的字元。
+字串是「由有序字元序列組成的資料」，是 [[data-type]] 之一，寫在引號內（單或雙引號皆可、本課用雙引號）。在資安最常用來存「不需做數學運算」的資訊：IP 位址、使用者名稱、URL、員工與裝置 ID。可用 [[index-concept|index]]／[[slice]] 取出部分、用 [[method]]（如 `.upper()`／`.lower()`／`.index()`）處理、用 [[str-function]] 從別的型別轉成字串。字串是 [[immutability|不可變]]的——建立後不能改其中的字元。
 
 ## 關鍵面向
 
@@ -26,7 +26,7 @@ created: 2026-06-22
 ## 相關概念
 
 - [[data-type]]：字串是資料型別之一
-- [[index]]、[[slice]]、[[bracket-notation]]：取字串的字元或片段
+- [[index-concept|index]]、[[slice]]、[[bracket-notation]]：取字串的字元或片段
 - [[method]]、[[index-method]]：字串方法（upper／lower／index）
 - [[immutability]]：字串不可變
 - [[str-function]]、[[substring]]、[[string-concatenation]]：字串相關操作

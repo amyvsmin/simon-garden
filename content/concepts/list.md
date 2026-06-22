@@ -9,7 +9,7 @@ created: 2026-06-22
 
 ## 定義
 
-清單是「序列形式的資料集合」，是 [[data-type]] 之一，能在單一變數裡存多個元素、且可同時含多種資料型別。元素用逗號分隔、外面用方括號 `[]` 包住。資安常用來存 IP 位址、使用者名稱、URL、裝置 ID 等。跟 [[string]] 最大的不同：list **可變（mutable）**——可用 [[bracket-notation]] 賦值改元素、用 [[insert-method]]／[[remove-method]]／[[append-method]] 增刪。可用 [[index]]／[[slice]] 取值、配 [[for-loop]] 走訪做批次處理。
+清單是「序列形式的資料集合」，是 [[data-type]] 之一，能在單一變數裡存多個元素、且可同時含多種資料型別。元素用逗號分隔、外面用方括號 `[]` 包住。資安常用來存 IP 位址、使用者名稱、URL、裝置 ID 等。跟 [[string]] 最大的不同：list **可變（mutable）**——可用 [[bracket-notation]] 賦值改元素、用 [[insert-method]]／[[remove-method]]／[[append-method]] 增刪。可用 [[index-concept|index]]／[[slice]] 取值、配 [[for-loop]] 走訪做批次處理。
 
 ## 關鍵面向
 
@@ -27,7 +27,7 @@ created: 2026-06-22
 
 - [[data-type]]：清單是資料型別之一
 - [[string]]：對照——字串不可變、清單可變
-- [[index]]、[[slice]]、[[bracket-notation]]：取清單元素或子清單
+- [[index-concept|index]]、[[slice]]、[[bracket-notation]]：取清單元素或子清單
 - [[insert-method]]、[[remove-method]]、[[append-method]]、[[index-method]]：清單方法
 - [[for-loop]]：走訪清單
 

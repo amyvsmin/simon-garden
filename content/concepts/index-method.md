@@ -1,7 +1,7 @@
 ---
 title: ".index() 方法（Index Method）"
 slug: index-method
-aliases: [index method, .index() 方法, index, list index, string index, 索引方法]
+aliases: [index method, .index() 方法, list index, string index, 索引方法]
 category: 資安
 confidence: 已驗證
 created: 2026-06-22
@@ -9,7 +9,7 @@ created: 2026-06-22
 
 ## 定義
 
-`.index()` 是一個 [[method]]，找輸入在序列中「第一個出現」的位置、回傳其 [[index]]。用於 [[string]]（找字元或 [[substring]]）與 [[list]]（找元素）。三個重點：**只回第一個出現**、**大小寫敏感**、**找不到會報錯（ValueError）**。重要：字串的 `.index()` 與清單的 `.index()` **同名但不是同一個方法**——方法在定義資料型別時就定義好了，字串與清單定義不同，方法也不同。
+`.index()` 是一個 [[method]]，找輸入在序列中「第一個出現」的位置、回傳其 [[index-concept|index]]。用於 [[string]]（找字元或 [[substring]]）與 [[list]]（找元素）。三個重點：**只回第一個出現**、**大小寫敏感**、**找不到會報錯（ValueError）**。重要：字串的 `.index()` 與清單的 `.index()` **同名但不是同一個方法**——方法在定義資料型別時就定義好了，字串與清單定義不同，方法也不同。
 
 ## 關鍵面向
 
@@ -25,7 +25,7 @@ created: 2026-06-22
 
 ## 相關概念
 
-- [[index]]：`.index()` 回傳的就是索引
+- [[index-concept|index]]：`.index()` 回傳的就是索引
 - [[method]]：`.index()` 是方法
 - [[string]]、[[list]]、[[substring]]：可用 `.index()` 搜尋的對象
 
