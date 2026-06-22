@@ -59,7 +59,7 @@ MadebyPan 的 Claude 生態系入門指南。核心觀點：Claude 三大產品�
 
 1. 三大 AI 對比：ChatGPT / Gemini / Claude 分別為學者 / 創作者 / 執行者
 2. 模型等級：Haiku / Sonnet / Opus
-3. 訂閱：Pro US$20 / Max 5x US$100 / Max 20x US$200
+3. 訂閱：Pro US\$20 / Max 5x US\$100 / Max 20x US\$200
 4. 三大產品線：App → Cowork → Code，自主性逐級放大
 5. 生態系擴展：Task、Channel、Dispatch、Chrome、Interactive Tools、Computer Use
 6. CC 非工程師用途：知識管理、寫作、簡報、設計、媒體處理

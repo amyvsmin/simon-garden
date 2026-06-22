@@ -19,7 +19,7 @@ icon: "⚡"
 
 ## 摘要
 
-Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作業系統競賽：[[gemini-spark]] 把 Gemini 從聊天機器人升級為跨 Workspace（Gmail/Calendar/Drive 等 8 個原生服務）代理人、底層跑 [[gemini-flash]]；3.5 Flash 即日全球開放、輸出 token 速度比其他前沿快 4 倍、定位代理人時代預設工作馬；Google 搜尋升級為 [[information-agent]]、可 24/7 監看主題、自動通知、配 Generative UI 即時組互動 mini app；[[gemini-omni]] Omni Flash 接續 Nano Banana 延伸影片生成、含 Avatars 用使用者聲音生影片+SynthID 浮水印。訂閱方案重整：AI Ultra 新增 $100/月、原 $250 降 $200；計費邏輯重大改變、從「次數上限」轉 [[compute-based-pricing]]（運算量計費）+ pay-as-you-go 點數加買。Spark 下週給美國 AI Ultra 用戶 Beta 測試、台灣暫不可用；3.5 Pro 下月推出；開發者 API 數週內。整體訊號明確：Google 把 Gemini 全面推向「會行動」、跟 Anthropic／OpenAI 拉開差異化主軸是 Workspace 生態深度 + Flash 速度 + 搜尋整合。
+Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作業系統競賽：[[gemini-spark]] 把 Gemini 從聊天機器人升級為跨 Workspace（Gmail/Calendar/Drive 等 8 個原生服務）代理人、底層跑 [[gemini-flash]]；3.5 Flash 即日全球開放、輸出 token 速度比其他前沿快 4 倍、定位代理人時代預設工作馬；Google 搜尋升級為 [[information-agent]]、可 24/7 監看主題、自動通知、配 Generative UI 即時組互動 mini app；[[gemini-omni]] Omni Flash 接續 Nano Banana 延伸影片生成、含 Avatars 用使用者聲音生影片+SynthID 浮水印。訂閱方案重整：AI Ultra 新增 \$100/月、原 \$250 降 \$200；計費邏輯重大改變、從「次數上限」轉 [[compute-based-pricing]]（運算量計費）+ pay-as-you-go 點數加買。Spark 下週給美國 AI Ultra 用戶 Beta 測試、台灣暫不可用；3.5 Pro 下月推出；開發者 API 數週內。整體訊號明確：Google 把 Gemini 全面推向「會行動」、跟 Anthropic／OpenAI 拉開差異化主軸是 Workspace 生態深度 + Flash 速度 + 搜尋整合。
 
 <p align="center"><img src="assets/covers/2026-05-20-bnext-google-io-2026-gemini-spark-cover.png" alt="封面圖" width="400"></p>
 
@@ -73,10 +73,10 @@ Google I/O 2026（2026-05-19 大會）一次推出四路產品線打代理人作
 - **Omni Flash**：輸入圖+文+影片+音訊組合、輸出影片+自然語言對話式編輯、角色/物理/場景三類一致性、Avatars 用自己聲音生影片+SynthID 浮水印
 - **Omni 上線**：即日開放 Google AI Plus/Pro/Ultra 訂閱者；YouTube Shorts 與 YouTube Create App 本週免費；開發者 API 數週內
 - **訂閱方案調整**：
-  - AI Ultra $100/月（新）：5 倍 Pro 用量上限、3.5 Flash、優先 Antigravity、20TB 雲端、YouTube Premium
-  - AI Ultra $200/月（原 $250）：調降 $50 功能不變、20 倍 Pro 用量上限
-  - Project Genie：Ultra $200 獨享、3D 互動虛擬世界、含 Street View 實景錨定
-  - Spark：Ultra $100/$200、美國限定
+  - AI Ultra \$100/月（新）：5 倍 Pro 用量上限、3.5 Flash、優先 Antigravity、20TB 雲端、YouTube Premium
+  - AI Ultra \$200/月（原 \$250）：調降 \$50 功能不變、20 倍 Pro 用量上限
+  - Project Genie：Ultra \$200 獨享、3D 互動虛擬世界、含 Street View 實景錨定
+  - Spark：Ultra \$100/\$200、美國限定
 - **計費重大改變**：從「每日提示次數上限」轉「依運算量計費」（依複雜度＋使用功能＋對話長度）；每 5 小時刷新到週上限；達上限自動降模型；Pro/Ultra 可購 pay-as-you-go 點數
 - **官方語**：Koray Kavukcuoglu「Gemini 3.5 系列主打前沿智慧加上行動力」、「搜尋不再只是把答案摘要放在搜尋結果上方、而是走向可追問、可監控主題、甚至可生成互動介面的代理人搜尋」
 - **競爭脈絡**：文章未直接點名 Anthropic Claude／OpenAI ChatGPT、但隱含 — Spark 對標 OpenAI Agents、Flash 速度對應實時交互競爭、Workspace 整合是 Google 護城河、運算量計費是業界新嘗試
