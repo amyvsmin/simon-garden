@@ -16,6 +16,7 @@ created: 2026-06-13
 - **含復原策略**：可納入 [[site-resilience]]（站點韌性，hot／warm／cold site）等 [[recovery]] 策略
 - **關鍵基礎設施情境**：勒索軟體攻擊 [[critical-infrastructure]]（如醫療）可癱瘓必要服務，BCP 把營運中斷降到最低
 - **損害面向**：避免長期中斷造成法律、財務、商譽三重損害
+- **四個建立步驟**（Course 8 補充）：① 做 BIA（[[business-impact-analysis]]）→ ② 辨識並落實復原關鍵業務功能的步驟 → ③ 組跨部門營運持續團隊（資安／IT／HR／溝通／營運）→ ④ 對團隊演練
 
 ## 應用場景
 - **Simon 工作場景**：對應 ISO 27001 BIA／RTO／RPO 與備份備援規劃；公司 Veeam 備份、異地備援是其落地
@@ -29,3 +30,4 @@ created: 2026-06-13
 
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-3-incident-investigation-and-response/section-3-response-and-recovery/5-business-continuity-considerations|Course 6 Module 3 Section 3 Leaf 5 Business continuity considerations]]
+- [[1-learning/coursera/google-cybersecurity/course-8-put-it-to-work/module-1-protect-data-and-communicate-incidents/section-3-your-impact-on-data-protection/2-disaster-recovery-and-business-continuity|Course 8 Module 1 Section 3 Leaf 2 Disaster recovery and business continuity]]

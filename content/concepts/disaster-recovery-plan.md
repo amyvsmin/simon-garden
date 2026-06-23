@@ -15,6 +15,7 @@ created: 2026-06-13
 - **與 BCP 的差別**：BCP 維持「整體營運持續」；DRP 只負責「資訊系統在災後的復原」——常被一起討論但分工不同
 - **災難範圍廣**：含硬體故障、設施被天災摧毀等，不限資安事件
 - **與復原動作的關係**：實作時用 [[recovery]] 動作（reimaging、還原備份）與 [[site-resilience]]（備援站點）
+- **三類復原步驟**（Course 8 補充）：復原軟體、讓硬體恢復運作、辨識在事故發生後可能受影響的應用與資料
 
 ## 應用場景
 - **Simon 工作場景**：對應 ISO 27001 的 IT 服務持續與備份備援；機房、伺服器、儲存的災後還原規劃
@@ -27,3 +28,4 @@ created: 2026-06-13
 
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-3-incident-investigation-and-response/section-3-response-and-recovery/5-business-continuity-considerations|Course 6 Module 3 Section 3 Leaf 5 Business continuity considerations]]
+- [[1-learning/coursera/google-cybersecurity/course-8-put-it-to-work/module-1-protect-data-and-communicate-incidents/section-3-your-impact-on-data-protection/2-disaster-recovery-and-business-continuity|Course 8 Module 1 Section 3 Leaf 2 Disaster recovery and business continuity]]
