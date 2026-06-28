@@ -8,13 +8,13 @@ created: 2026-06-25
 ---
 
 ## 定義
-確保資訊之機密性、完整性與可用性（[[cia-triad]]）的實務，做法是保護網路、裝置、人與資料免於未授權存取或犯罪利用。是整個 Google Cybersecurity 證書的最上位概念；與 [[information-security]] 高度相關但範圍更廣（涵蓋網路與裝置層面，不限資料狀態）。
+確保資訊之機密性、完整性與可用性（[[cia-triad]]）的實務，做法是保護網路、裝置、人與資料免於未授權存取或犯罪利用。是整個 Google Cybersecurity 證書的最上位概念；與 [[information-security]] 高度相關，差別在 InfoSec 涵蓋所有形式的資訊（含紙本、實體），cybersecurity 聚焦數位資產與網路、裝置環境的防護。
 
 ## 關鍵面向
 - **目標是 CIA**：所有控制都在維護機密性、完整性、可用性之一或多者（[[cia-triad]]）
 - **保護對象廣**：網路、裝置、人、資料四者
 - **持續演化**：技術進步、威脅跟著演化，需 [[continuous-learning|持續學習]]、保持資訊更新
-- **與 InfoSec 區別**：[[information-security]] 聚焦「資料在所有狀態下不被未授權存取」；cybersecurity 更廣、含網路與裝置防護
+- **與 InfoSec 區別**：[[information-security]] 範圍更廣、涵蓋紙本與實體等所有形式的資訊；cybersecurity 聚焦數位資產與網路、裝置的防護
 
 ## 應用場景
 - **Simon 工作場景**：光電半導體公司內部 IT 的資安職責（伺服器、機房、資安、ISO 27001）；走超級個體、以資安專業幫助他人的職涯主軸
