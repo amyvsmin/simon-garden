@@ -27,4 +27,5 @@ DHCP 是用於 IP 網路、自動把 IP 位址與相關設定派發給客戶端�
 - [[broadcast-domain]]：Discover 與 Request 以廣播送出，只在同一廣播網域內傳遞。
 
 ## 來源
-[[1-learning/udemy/ccna-all-in-one/section-02-osi-model/4-dhcp-and-dora-process|CCNA Section 2 Leaf 4 DHCP 與 DORA 四階段]]
+- [[1-learning/udemy/ccna-all-in-one/section-02-osi-model/4-dhcp-and-dora-process|CCNA Section 2 Leaf 4 DHCP 與 DORA 四階段]]
+- [[1-learning/udemy/ccna-all-in-one/section-04-ipv4/6-configuring-ipv4-on-cisco-windows-linux|CCNA Section 4 Leaf 6 設定 IPv4]]

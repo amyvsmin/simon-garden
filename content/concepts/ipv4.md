@@ -28,3 +28,5 @@ created: 2026-06-15
 
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-2-network-monitoring-and-analysis/section-2-capture-and-view-network-traffic/4-reexamine-the-fields-of-a-packet-header|Course 6 Module 2 Section 2 Leaf 4 Reexamine the fields of a packet header]]
+- [[1-learning/udemy/ccna-all-in-one/section-04-ipv4/1-ipv4-history|CCNA Section 4 Leaf 1 IPv4 歷史]]
+- [[1-learning/udemy/ccna-all-in-one/section-04-ipv4/3-ipv4-addressing-and-classification|CCNA Section 4 Leaf 3 IPv4 位址表示與分類]]
