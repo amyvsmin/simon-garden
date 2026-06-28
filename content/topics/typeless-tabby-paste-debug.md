@@ -10,7 +10,7 @@ tags:
   - voice-input
   - claude-code
 related:
-  - "[[reference_typeless_tabby_paste]]"
+  - "[[reference-typeless-tabby-paste]]"
 ---
 
 # Typeless 在 Tabby 裡字按不出來：兩個獨立坑疊在一起的 debug 紀錄

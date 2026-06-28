@@ -3,7 +3,7 @@ title: "風險登錄簿（Risk Register）"
 slug: risk-register
 aliases: [Risk Register, 風險登錄簿, 風險登記簿, 風險清冊, risk log, 風險紀錄]
 category: 資安
-confidence: 待驗證
+confidence: 已驗證
 created: 2026-05-25
 ---
 
