@@ -33,6 +33,7 @@ created: 2026-05-13
 
 ## 相關概念
 
+- [[notebooklm]]：母概念——NotebookLM 工具本體（通用、來源扎根）；本概念是它「當 Claude Code RAG 引擎、省 token」的特定應用
 - [[skill]]：用 skills-creator 半自動產生 yt-search skill、再串 notebooklm skill
 - [[mcp]]：對照 MCP 機制、notebooklm 走 CLI tool + skill 而非 MCP server
 - [[subscription-vs-api-cost]]：NotebookLM Gemini 免費 tier 是 Claude Max weekly limit 的延伸口
