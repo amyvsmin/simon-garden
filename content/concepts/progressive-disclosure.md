@@ -11,6 +11,8 @@ created: 2026-05-05
 
 AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案的 token 控制心法，目的是讓 AI 能處理規模大但相關性稀疏的知識庫。對應 UX 設計領域的 progressive disclosure，把資訊分層展示而非一次推給使用者。
 
+> 打個比方：像 Google Maps 導航——它不會一次把整條路線每個細節唸完，而是先給大方向（往北、10 分鐘後右轉），快到路口才報「前方 50 公尺右轉」，中途想找加油站才載入附近資訊。AI 讀知識庫也一樣：用多少、拿多少，不把整庫塞進腦袋。（高見龍〈Claude Code Skills〉）
+
 <p align="center"><img src="assets/covers/progressive-disclosure-cover.png" alt="封面圖" width="400"></p>
 
 ## 關鍵面向
