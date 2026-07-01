@@ -100,6 +100,7 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
           const fmConcepts = (fm.concepts as string[]) ?? []
           const tldr = (fm.tldr as string) ?? ""
           const dateStr = fm.date ? String(fm.date).slice(0, 10) : ""
+          const publishedStr = fm.published ? String(fm.published).slice(0, 10) : ""
           const impactOrder = impact === "high" ? 2 : impact === "medium" ? 1 : 0
 
           return (
@@ -127,6 +128,12 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
                   <span>{impact}</span>
                   <span class="dot">·</span>
                   <span>{dateStr}</span>
+                  {publishedStr && publishedStr !== dateStr && (
+                    <>
+                      <span class="dot">·</span>
+                      <span>發表 {publishedStr}</span>
+                    </>
+                  )}
                   <span class="dot">·</span>
                   <span>{type}</span>
                 </div>

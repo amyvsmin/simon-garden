@@ -48,6 +48,7 @@ const ReadingHeader: QuartzComponent = ({ fileData, allFiles }: QuartzComponentP
   const concepts = (fm.concepts as string[]) ?? []
   const url = (fm.url as string) ?? ""
   const dateStr = fm.date ? String(fm.date).slice(0, 10) : ""
+  const publishedStr = fm.published ? String(fm.published).slice(0, 10) : ""
   const stageInfo = getStageInfo(stage)
   const readingTime = estimateReadingTime(fileData.text)
 
@@ -62,7 +63,13 @@ const ReadingHeader: QuartzComponent = ({ fileData, allFiles }: QuartzComponentP
         <div class="header-text">
           <h1>{fm.title as string}</h1>
           <div class="header-meta">
-            <span>{dateStr}</span>
+            <span>收錄 {dateStr}</span>
+            {publishedStr && publishedStr !== dateStr && (
+              <>
+                <span class="divider">·</span>
+                <span>發表 {publishedStr}</span>
+              </>
+            )}
             <span class="divider">·</span>
             <span>{type}</span>
             <span class="divider">·</span>
