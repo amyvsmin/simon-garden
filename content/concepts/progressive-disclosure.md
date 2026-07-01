@@ -43,4 +43,4 @@ AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案�
 ## 來源（自動維護）
 
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
-- [[2026-01-03-kaochenlong-claude-code-skills]]
+- [[2026-07-01-kaochenlong-claude-code-skills]]

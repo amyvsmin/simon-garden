@@ -1,6 +1,7 @@
 ---
 title: "Claude Code Skills：讓 AI 變身專業工匠"
-date: 2026-01-03
+date: 2026-07-01
+published: 2026-01-03
 type: 來源分析
 url: "https://kaochenlong.com/claude-code-skills"
 inbox-id: "38ff85da-554f-81bc-8849-e85e0c99e674"
@@ -15,12 +16,12 @@ created: 2026-07-01
 ---
 
 ## 為什麼讀
-這篇原本判為「工具類教學、bypass 收錄」——內容都是既有 concept 已涵蓋的 Claude Code Skills 入門知識，對重度 skill 作者的 Simon 沒有新概念增量。Simon 追問「文章寫得好的地方有沒有值得補進現有 concept」，逐條比對後確認有三個表達／規格層的點值得擴進 `progressive-disclosure`／`skill`／`mcp`，並決定補收成 reading（source B）讓這三個 concept 的來源反引有 reading 可掛。收這篇不是為了學新東西、是為了把幾個既有 concept 補扎實。
+這篇原本判為「工具類教學、bypass 收錄」——內容都是既有 concept 已涵蓋的 Claude Code Skills 入門知識，對重度 skill 作者的 Simon 沒有新概念增量。Simon 追問「文章寫得好的地方有沒有值得補進現有 concept」，逐條比對後確認有三個表達／規格層的點值得擴進 `progressive-disclosure`／`skill`／`mcp`，並決定補收成 reading（source B）讓這三個 concept 的來源反引有 reading 可掛。收這篇不是為了學新東西、是為了把幾個既有 concept 補扎實。（原文 2026-01 發表、2026-07 收錄，隔約半年；AI 題材通常要留意發表日時效，但這篇講的 Skills 三層結構、四機制分工屬穩定的機制設計、半年內未過時。）
 
 ## 摘要
 一篇寫給「還沒用過 skill 的工程師」的 Claude Code Skills 入門教學。開頭點出痛點：把團隊慣例全塞進 `CLAUDE.md`，內容一長就難維護，而且每次啟動全部載入、不管當前任務用不用得到，還會拖慢效能。Skills 是另一條路——把專業知識打包成獨立模組，讓 agent 自己依 description 判斷何時該用、只載入需要的部分、還能跨專案重用。文章依序講清楚：一個 skill 最少只需一個 `SKILL.md`（開頭一段 YAML frontmatter（檔案開頭的設定區塊）寫 name 和 description，之後是給 agent 的指令）；設計上最漂亮的 Progressive Disclosure（漸進式揭露）把內容分三層、按需載入；Skills 跟 Custom Commands（手動打的 `/` 指令）、MCP（讓 AI 連外部工具的協定）、Subagents（獨立跑的子代理）四種客製化機制怎麼分工；動手做一個 commit-message-helper skill 的完整範例；寫好 description 的正反例技巧；安裝第三方 skill 的資安風險。最後帶到 2025 年 12 月 Anthropic 把 Agent Skills 發布為開放標準（agentskills.io），讓這套「工匠技能系統」可以跨 agent、跨工具使用。
 
-<p align="center"><img src="assets/covers/2026-01-03-kaochenlong-claude-code-skills-cover.png" alt="封面圖" width="400"></p>
+<p align="center"><img src="assets/covers/2026-07-01-kaochenlong-claude-code-skills-cover.png" alt="封面圖" width="400"></p>
 
 ## 核心概念
 - [[skill]]：把重複用到的專業知識、流程、腳本打包成可重用模組的機制，核心精神是「試一次、存起來、用很多次」。文章用「小吃店老闆拿到一本《台南小吃完全手冊》就能做出道地府城味」比喻——skill 就是那本武功秘笈，把 AI 從什麼都略懂的通才變成某領域的專家。最小結構只要一個 `SKILL.md`（YAML frontmatter 的 name 必須跟資料夾同名、description 決定何時被觸發），複雜的再加 `scripts/`（可執行程式）、`references/`（參考文件）、`assets/`（範本資源）三個選用目錄。

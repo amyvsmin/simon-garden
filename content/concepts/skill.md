@@ -62,4 +62,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - [[2026-06-05-aj-chatgpt-presentation-flow]]
 - [[2026-06-05-dustin-claude-code-harness-cleanup]]
 - [[2026-06-13-pansci-claude-skill-security]]
-- [[2026-01-03-kaochenlong-claude-code-skills]]
+- [[2026-07-01-kaochenlong-claude-code-skills]]

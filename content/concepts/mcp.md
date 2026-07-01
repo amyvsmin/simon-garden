@@ -48,4 +48,4 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-12-raymond-ai-controls-software]]
-- [[2026-01-03-kaochenlong-claude-code-skills]]
+- [[2026-07-01-kaochenlong-claude-code-skills]]
