@@ -1,6 +1,7 @@
 ---
 title: "雷蒙：Claude Code 跟 Codex 怎麼選 + 桌面版怎麼用（雙棲 agent 規則）"
 date: 2026-06-01
+published: 2026-05-31
 type: 來源分析
 url: "https://youtu.be/d7qmp6gjpiU?si=Dd37KeQThMeA8S59"
 inbox-id: "372f85da554f81a7ba69eab5bef3b751"

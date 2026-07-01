@@ -1,6 +1,7 @@
 ---
 title: "Codex 是新一代作業系統？Every 創辦人實測 6 種 AI 工作流、為何從 Claude Code 投奔 Codex（bnext 90960）"
 date: 2026-05-16
+published: 2026-05-15
 type: 來源分析
 url: "https://www.bnext.com.tw/article/90960/ai-agent-desktop-operating-system-codex-vs-claude"
 inbox-id: "362f85da-554f-815d-b235-cdb2a34c9266"

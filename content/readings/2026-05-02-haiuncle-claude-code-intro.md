@@ -1,6 +1,7 @@
 ---
 title: Claude Code 完整介紹（海大叔）
 date: 2026-05-02
+published: 2026-03-22
 type: 來源分析
 url: https://youtu.be/2pM-7fBXc_M
 tags: [claude-code, tutorial, youtube]

@@ -1,6 +1,7 @@
 ---
 title: "10 分鐘用 Codex + Obsidian 搭建可自生長的知識庫（宣家）"
 date: 2026-05-31
+published: 2026-05-29
 type: 來源分析
 url: "https://youtu.be/iTuuxdaXcns?si=QhQX6qyeYsqywysk"
 inbox-id: "371f85da554f81eeadbcff4582bb4bc3"

@@ -1,6 +1,7 @@
 ---
 title: "Obsidian CLI plugin × Claude Code 三檔結構 + 開工收工每日工作流"
 date: 2026-05-05
+published: 2026-04-01
 type: 來源分析
 url: "https://youtu.be/4r4Zy55Avpc?si=oEj_NyFSpKQmFPda"
 inbox-id: "354f85da554f818da314f604aaedec1b"

@@ -1,6 +1,7 @@
 ---
 title: "做筆記的方法與寫出讀書心得的方法（YT 影片、節錄評論法 + 一問一答法 + 萬能寫作框架）"
 date: 2026-05-17
+published: 2022-04-09
 type: 來源分析
 url: "https://youtu.be/C0KCnQ3F3QA"
 inbox-id: "363f85da-554f-8155-bfc1-cb33d2b835cb"

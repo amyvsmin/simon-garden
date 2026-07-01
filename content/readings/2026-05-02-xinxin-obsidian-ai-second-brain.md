@@ -1,6 +1,7 @@
 ---
 title: Obsidian + AI 第二大腦工作流（心心）
 date: 2026-05-02
+published: 2026-04-26
 type: 來源分析
 url: https://youtu.be/RZEb6FLZSHE
 tags: [obsidian, claude-code, second-brain, knowledge-management]

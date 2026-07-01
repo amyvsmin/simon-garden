@@ -1,6 +1,7 @@
 ---
 title: "讓 AI 不眠不休為你幹活：Goal 功能 + Evaluation Rubric 六步驟 SOP"
 date: 2026-05-26
+published: 2026-05-24
 type: 來源分析
 url: "https://youtu.be/PpeCur6fEXc"
 inbox-id: "36cf85da554f81398fb2c840ebe1ab23"

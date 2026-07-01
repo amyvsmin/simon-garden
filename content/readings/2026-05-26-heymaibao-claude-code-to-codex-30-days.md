@@ -1,6 +1,7 @@
 ---
 title: "用了 12 個月 Claude Code 後切到 Codex，30 天心得整理（脈報思思）"
 date: 2026-05-26
+published: 2026-05-25
 type: 來源分析
 url: "https://heymaibao.com/claude-code-to-codex-30-days/"
 inbox-id: "36cf85da554f81879261ef9633c85533"

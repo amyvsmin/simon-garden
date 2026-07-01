@@ -1,6 +1,7 @@
 ---
 title: "Anthropic 工程師分享 Claude Code 快取技巧——每週省 3 億 token"
 date: 2026-05-24
+published: 2026-05-23
 type: 來源分析
 url: "https://www.kucoin.com/news/flash/anthropic-engineer-shares-claude-code-cache-tips-to-save-300m-tokens-weekly"
 inbox-id: "369f85da-554f-8135-bf79-d1580d609109"

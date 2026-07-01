@@ -1,6 +1,7 @@
 ---
 title: "Claude Code 的 CLAUDE.md 和 SKILL 教學，打造可重複使用的 AI 自動化工作流"
 date: 2026-05-12
+published: 2026-04-02
 type: 來源分析
 url: "https://raymondhouch.com/lifehacker/digital-workflow/claude-code-skill/"
 inbox-id: "35ef85da-554f-8158-959c-ce8b356f1c4a"

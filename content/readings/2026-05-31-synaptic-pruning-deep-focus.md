@@ -1,6 +1,7 @@
 ---
 title: "碎片化資訊正在剪斷你的大腦：突觸減除與三個神經升級演算法（心智架構師）"
 date: 2026-05-31
+published: 2026-05-23
 type: 來源分析
 url: "https://youtu.be/Hb5x5vHGzzw?si=PhVZsxYRbJt-PrAe"
 inbox-id: "371f85da554f81aa85a3e573e4a15876"

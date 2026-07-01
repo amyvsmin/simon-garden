@@ -1,6 +1,7 @@
 ---
 title: "HTML 取代 Markdown 在 AI 時代（NotebookLM 配音深入解析）"
 date: 2026-05-12
+published: 2026-05-09
 type: 來源分析
 url: "https://youtu.be/TFC7d63EpK4"
 inbox-id: "35ef85da-554f-81c1-a798-f9ad2495c851"

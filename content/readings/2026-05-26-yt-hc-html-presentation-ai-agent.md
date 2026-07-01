@@ -1,6 +1,7 @@
 ---
 title: "HC 直播：HTML 簡報是 AI Agent 時代教學簡報的完全體"
 date: 2026-05-26
+published: 2026-05-24
 type: 來源分析
 url: "https://www.youtube.com/watch?v=ZNdaQJOu8AU"
 concepts: [html-vs-markdown-ai-output, skill, disposable-ui-html]

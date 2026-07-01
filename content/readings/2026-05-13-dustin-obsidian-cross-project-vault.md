@@ -1,6 +1,7 @@
 ---
 title: "Dustin Obsidian × Claude Code 跨專案知識庫：wikilink 突破樹狀結構、漸進長出 vault"
 date: 2026-05-13
+published: 2026-05-12
 type: 來源分析
 url: "https://youtu.be/EhMKfG1dvnI"
 inbox-id: "35ff85da-554f-8163-912a-c5e8f13fce34"
