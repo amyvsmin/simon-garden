@@ -29,6 +29,8 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - **GPTs/Gems 範式翻轉**：GPTs 時代要「先想找誰、再開哪個對話框」；Skill 時代靠 description 自動匹配、AI 主動抓對應流程進來、「工具來找人」取代「人去找工具」
 - **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式、以你的使用者身份存取所有檔案與對外連網；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝。完整的風險模型（為何 skill 等同把電腦鑰匙交出去）、三種已揭露攻擊型態與四招肉眼審核法見 [[ai-skill-security]]
 - **Skill 也需要瘦身**：description 太長、觸發條件相近或多個 skill 做同一件事，會讓模型匹配成本變高、觸發更不穩。定期檢查 description 是否精準互斥，是 [[agent-harness-hygiene]] 的一部分。
+- **跟 Custom Commands／MCP／Subagents 的四機制分工**：客製化 Claude 行為有四種機制，差別在「誰觸發、給的是什麼」。Skills 由模型依 description 自動判斷觸發、給的是知識；Custom Commands 由使用者打 `/xxx` 手動觸發、是固定的 prompt 巨集（例如 `/review-pr`）；[[mcp]] 連外部服務、給的是工具；[[subagents]] 開獨立 context 平行處理複雜任務。四者互補、可同時運作——一個 `/review-pr` 觸發 Code Review 流程，Skill 給審查標準、MCP 拉 PR 內容、檔案多時再派 Subagent 平行審不同檔。判準一句話：要手動觸發固定流程用 Command、要 AI 自己判斷何時用什麼專業知識用 Skill。（高見龍〈Claude Code Skills〉）
+- **Progressive Disclosure 的三層載入**：skill 內容按 [[progressive-disclosure]] 分三層——metadata（名稱＋描述、約 100 tokens、啟動全預載供比對）／instructions（`SKILL.md` 主體、建議 5000 tokens 內、相關才載）／resources（scripts/references/assets、用到才讀）。這也是「進化路徑」為什麼把細節往 references/ 拆的底層原因：主 `SKILL.md` 控在 500 行內、細節丟 references/，讓 context「用多少拿多少」。（高見龍〈Claude Code Skills〉）
 
 ## 應用場景
 
@@ -58,3 +60,4 @@ Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化
 - [[2026-06-05-aj-chatgpt-presentation-flow]]
 - [[2026-06-05-dustin-claude-code-harness-cleanup]]
 - [[2026-06-13-pansci-claude-skill-security]]
+- [[2026-01-03-kaochenlong-claude-code-skills]]

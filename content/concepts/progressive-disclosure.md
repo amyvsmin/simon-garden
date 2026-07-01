@@ -11,6 +11,8 @@ created: 2026-05-05
 
 AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案的 token 控制心法，目的是讓 AI 能處理規模大但相關性稀疏的知識庫。對應 UX 設計領域的 progressive disclosure，把資訊分層展示而非一次推給使用者。
 
+<p align="center"><img src="assets/covers/progressive-disclosure-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **跟雙層導航搭配**：CLAUDE.md 給 AI 索引，AI 依索引 fetch 需要的局部，不掃全庫
@@ -18,6 +20,7 @@ AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案�
 - **token 線性可控**：知識庫從 100 篇成長到 10000 篇，單次 session 的 token 消耗不變
 - **跟 RAG 的關係**：RAG 是用向量檢索做按需讀取，本概念則是用結構化目錄做檢索；兩者可結合
 - **代價**：依賴索引品質，若 CLAUDE.md 沒寫好對應位置，AI 可能 fetch 不到正確檔
+- **Anthropic Skills 的三層實作（旗艦範例）**：Claude Code 的 [[skill]] 是這個心法最具代表性的官方實作，把 skill 內容分三層、按需載入。第一層 metadata（中繼資料，只有名稱和描述、約 100 tokens、啟動時全預載，用來比對「這任務跟哪個 skill 有關」）；第二層 instructions（`SKILL.md` 主體、建議 5000 tokens 內、判定相關才載）；第三層 resources（`scripts/`／`references/`／`assets/`，用到哪個檔才讀哪個）。正因為分層按需，單一 skill 能打包的知識量理論上沒有上限——把心法從抽象的「按需讀取」補上了「一個 skill 具體怎麼分層、每層多少量級」。（高見龍〈Claude Code Skills〉）
 
 ## 應用場景
 
@@ -38,3 +41,4 @@ AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案�
 ## 來源（自動維護）
 
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
+- [[2026-01-03-kaochenlong-claude-code-skills]]

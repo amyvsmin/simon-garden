@@ -23,6 +23,7 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 - **跟 API 的取捨（雷蒙觀點）**：MCP 是有人幫你包好的 API 子集、功能權限常少於原生 API；Notion 官方 MCP 跟 Notion API 比缺很多、WordPress 也是；功能要全開時最終還是回到 [[api]] 自己寫
 - **裝太多會吃 context window**：每個 MCP server 在 Claude session 載入時都佔 token、無腦多裝會榨乾 AI 記憶空間
 - **判斷法**：要新工具能力時直接問 AI「這個工具在 MCP 跟 API 上、功能跟使用上的差異？」、AI 評估後給比較表
+- **跟 [[skill]] 的分工（腦袋 vs 手腳）**：一句好記的區分——Skills 給 agent「腦袋」（知識：翻譯時的語氣、專有名詞怎麼處理、哪些詞不翻），MCP 給 agent「手腳」（工具：存取術語庫資料庫、呼叫 DeepL API）。社群曾傳「Skills 會取代 MCP」，其實兩者解決不同層次的問題、互補不互斥——可以同時用 Skill 教 agent 怎麼做翻譯、又用 MCP 讓它取用外部術語庫。（高見龍〈Claude Code Skills〉）
 
 ## 應用場景
 
@@ -32,7 +33,7 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 ## 相關概念
 
 - [[claude-code]]：MCP 的主要宿主平台，CC 啟動時載入已註冊的 MCP server
-- [[skill]]：Skill 本身不是 MCP，但 Skill 的執行經常呼叫 MCP 工具
+- [[skill]]：Skill 本身不是 MCP，但 Skill 的執行經常呼叫 MCP 工具；分工上 Skill 是知識（腦袋）、MCP 是工具（手腳），互補不互斥
 - [[api]]：MCP 是 API 的包裝層、不是替代品
 - [[cli]]：CLI 也常是 API 的包裝、跟 MCP 互為替代選項
 
@@ -47,3 +48,4 @@ AI 模型與外部工具之間的標準化協議，讓 Claude 能透過統一介
 - [[2026-04-21-madebypan-claude-guide]]
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-12-raymond-ai-controls-software]]
+- [[2026-01-03-kaochenlong-claude-code-skills]]
