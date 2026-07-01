@@ -1,6 +1,7 @@
 ---
 title: "NotebookLM + Gemini 超狂組合技！10 分鐘搞定完美行程！（泛科學院）"
 date: 2026-06-10
+published: 2026-06-04
 type: 來源分析
 url: "https://youtu.be/TN3ZrSQ4DTc"
 inbox-id: "376f85da-554f-8118-ad22-f2db6ab3bca3"

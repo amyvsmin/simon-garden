@@ -1,6 +1,7 @@
 ---
 title: "從 SaaS 到 TaaS：AI 時代為何你不是付月費，而是 Token？"
 date: 2026-06-12
+published: 2026-06-10
 type: 來源分析
 url: "https://finance.technews.tw/2026/06/10/saas-to-taas/"
 inbox-id: "37bf85da554f816e8920f439325e86d8"

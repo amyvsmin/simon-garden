@@ -1,6 +1,7 @@
 ---
 title: "欸那個AJ：ChatGPT 七步驟高級簡報流"
 date: 2026-06-05
+published: 2026-05-29
 type: 來源分析
 url: "https://www.youtube.com/watch?v=vmk4ToeAgpU"
 inbox-id: "372f85da554f8172a768e776d995ec4e"

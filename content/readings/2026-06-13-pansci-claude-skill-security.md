@@ -1,6 +1,7 @@
 ---
 title: "Claude Skill 的資安風險：三個真實攻擊案例 + 四招肉眼辨識可疑 Skill（泛科學院 國衛三號）"
 date: 2026-06-13
+published: 2026-06-12
 type: 來源分析
 url: "https://youtu.be/3rCPZizvb18"
 inbox-id: "37df85da-554f-818d-a8de-d8e8eb297974"
