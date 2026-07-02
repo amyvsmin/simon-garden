@@ -9,7 +9,7 @@ concepts: [cvss, epss, kev, vulnerability-prioritization, security-storytelling]
 projects: [ipas-security-cert-prep]
 impact: high
 tldr: "CVSS 是起點不是終點：CVSS 講理論嚴重度、EPSS 講未來 30 天被利用機率、KEV 證實已被攻擊者在野利用。三指標做漏斗式篩選，可把掃描器吐出的 1,575 個漏洞縮到 11 個最優先；漏洞永遠修不完、目標是「優先修對的」。"
-stage: growing
+stage: evergreen
 icon: "🛡️"
 transcript_source: ""
 created: 2026-07-02
@@ -145,6 +145,19 @@ iThome 對 DevOpsDays Taipei 2026 演講的報導，講者是資安社群人稱 
 - 其餘全文行文克制：iThome 還主動補了 KEV 的三個限制（即時性落差、地域性、回溯補登記），屬演講報導、無明顯行銷包裝。
 
 ## 原文全文
+
+## 落地動作與效益
+
+（2026-07-02 與 Simon 討論定案）
+
+**A 類・芙莉蓮優化**：
+- ✅ 已做：資安週報（weekly-intel）「重大漏洞與威脅」段每個 CVE 條目補查並列出 EPSS 分數與 KEV 列入狀態。改動檔 `~/.claude/scripts/weekly-intel-prompt.md`——新增步驟 2b（KEV feed 抓一次存暫存檔逐 CVE 查、EPSS 走 FIRST API）＋條目格式加「指標：CVSS｜EPSS｜KEV」行。兩個資料源已實測可用（EPSS API 回真值、KEV feed 1,631 筆——順帶發現投影片說的「約 1,000+」已偏舊）。下期週報（週一 08:00 排程）生效。預期效益：看漏洞新聞時「該不該緊張」一眼可判。
+
+**B 類・Simon 個人動作**：
+- ✅ 已做（芙莉蓮代辦）：五張概念卡連結＋garden reading 連結已補進 Notion「Phase 2：科目二 — 資訊安全防護實務」卡，對應 #6 弱點、威脅分類與攻擊手法（deadline 07/08）
+- ❌ 不做：公司弱掃報告 EPSS 過濾實驗（Simon 2026-07-02 決定不用）
+- ❌ 不做：KPI 月簡報加 MTTR 趨勢呈現（Simon 2026-07-02 決定不用）
+- ⏸ 備忘保留：Substack 切入角「漏洞修不完是常態、修對的才是本事」——純選題素材、非行動項、Simon 未承諾發文
 
 ## 原始連結
 - https://www.ithome.com.tw/news/176987
