@@ -15,6 +15,8 @@ created: 2026-06-24
 - **三步驟組裝（以日誌發現惡意程式碼為例）**：① 詳述問題；② 對照組織的 [[incident-response]] [[playbook]]、引用其建議指引（向主管證明你照流程走）；③ 提出可能的解法（入門分析師未必是決策者，但講清楚「發生什麼＋可能解法」本身就有價值）
 - **多種載體**：email、分享文件、視覺化呈現（[[visual-dashboard]]）、事件管理／工單系統
 - **價值定位**：會把資安故事講得有說服力又精簡的人，能幫利害關係人決策、讓他們工作更輕鬆；這結合「技術 ＋ 可遷移技能」，在缺乏業界資歷時能讓人脫穎而出
+- **用對方的語言講風險（DevOpsDays 高于凱）**：對開發者別只丟「此漏洞 CVSS 評分 9.8、非常危險」，改講具體威脅情境——「這個漏洞能讓攻擊者僅用 5 行 Python 程式碼就取得資料庫帳密」。分數是資安人的語言、後果才是對方的語言
+- **展示進步而非待辦（DevOpsDays 高于凱）**：別只給工程師看待修清單，改展示平均修復時間（MTTR）下降趨勢與漏洞總數變化，讓開發團隊看到自己的進步——安全文化的本質是降低摩擦、不是增加管制
 
 ## 應用場景
 - **Simon 工作場景**：寫資安事件回報、KPI 月簡報的骨架——按「問題 → 引用公司 SOP／劇本 → 建議處置」三段組織，跟 incident-response skill 同一精神
@@ -25,8 +27,10 @@ created: 2026-06-24
 - [[visual-dashboard]]：把資安故事「視覺化」呈現的載體
 - [[playbook]]：故事第二步要對照引用的操作手冊
 - [[incident-response]]：故事常圍繞的事件處理流程
+- [[vulnerability-prioritization]]：漏斗篩選出「該修哪些」之後、還要用對方聽得懂的語言讓修補推得動
 
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-8-put-it-to-work/module-3-communicate-effectively-to-influence-stakeholders/section-2-communicate-for-impact/2-building-blocks-of-cybersecurity-communications|Course 8 Module 3 Section 2 Leaf 2 Building blocks of cybersecurity communications]]
 - [[1-learning/coursera/google-cybersecurity/course-8-put-it-to-work/module-3-communicate-effectively-to-influence-stakeholders/section-3-visual-communication-using-a-dashboard/1-visual-storytelling-in-cybersecurity|Course 8 Module 3 Section 3 Leaf 1 Visual storytelling in cybersecurity]]
 - [[1-learning/coursera/google-cybersecurity/course-8-put-it-to-work/module-3-communicate-effectively-to-influence-stakeholders/section-4-review-communicate-effectively-to-influence-stakeholders/1-wrap-up|Course 8 Module 3 Section 4 Leaf 1 Wrap-up]]
+- [[2026-07-02-ithome-cvss-epss-kev]]
