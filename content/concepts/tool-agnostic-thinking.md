@@ -16,6 +16,7 @@ created: 2026-05-18
 - **問題優先、工具其次**：先把「問對問題」做到位、產出 PRD 跟思考框架、工具是 last mile
 - **AI 工具迭代論**：ChatGPT／Gemini／Claude 排名 6 個月就洗一次；綁定特定工具的工作流會被洗掉
 - **思考力是真正資產**：密涅瓦思考習慣（habits of mind）是可遷移技能、不會因工具換而失效
+- **先把思考習慣裝進 AI、再共學**：李佳達《AI 超級大腦》CH0 的順序是先把密涅瓦思考習慣（[[minerva-hc]]）裝進 AI、再帶真實問題跟它討論，AI 就會把思考習慣示範用給你看；思考力（不綁工具）才是被複用的資產、工具只是載體
 - **跟 [[cli-api-mcp-priority]] 的關係**：cli-api-mcp 是「工具介面選哪一層」的優先序、tool-agnostic 是「不選特定產品」的更上層原則
 - **反模式**：把工作流寫死在某個工具的 prompt 風格、特殊指令、UI 行為上
 
@@ -29,6 +30,8 @@ created: 2026-05-18
 - [[problem-prd]]：tool-agnostic 思考下產出的成果就是 PRD、可以餵任何 AI
 - [[cli-api-mcp-priority]]：工具介面層的選擇優先序、跟 tool-agnostic 互補
 - [[skill]]：skill 本身雖然綁 Claude、但內容（流程、reference）可以工具中立寫法
+- [[minerva-hc]]：tool-agnostic 主張要練的「思考習慣」的完整清單
+- [[metacognition]]：不綁工具的底層思考力之一
 
 ## 尚未解決的疑問
 
@@ -38,3 +41,4 @@ created: 2026-05-18
 ## 來源（自動維護）
 
 - [[2026-05-18-li-jiada-skill-pack-install-demo]]
+- [[2026-07-03-ai-super-brain-ch0]]

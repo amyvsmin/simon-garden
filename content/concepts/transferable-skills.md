@@ -1,7 +1,7 @@
 ---
 title: "可轉移技能（Transferable Skills）"
 slug: transferable-skills
-aliases: [可轉移技能, 可轉換技能, transferable skills, transferable-skills, 跨領域技能, 帶得走的技能]
+aliases: [可轉移技能, 可轉換技能, transferable skills, transferable-skills, 跨領域技能, 帶得走的技能, 學習遷移, learning transfer, learning-transfer, 殺手級應用]
 category: 職涯
 confidence: 已驗證
 created: 2026-06-27
@@ -18,6 +18,7 @@ created: 2026-06-27
 - **盤點三步驟**：① 回顧所有人生經驗（含志工、導師、教練、領導角色）② 想每段各練出哪些技能 ③ 把技能連到潛在職缺
 - **太內化反而看不見（second nature）**：技能因太熟練而難以自我察覺，常需要第二雙眼睛（mentor、AI 工具）幫忙抽出（Atlantis 靠 mentor；Career Dreamer 這類 AI 工具也能依真實職缺資料判讀可轉移技能）
 - **對應 skills-based hiring**：雇主愈來愈以技能而非學歷或職稱選人，把可轉移技能明確秀出來格外重要
+- **學習遷移（密涅瓦視角）**：把 A 情境學到的原則搬去解 B 情境的全新問題，密涅瓦把這叫教育的「殺手級應用」，判準是「能拿出來用，才是你的」。可轉移技能是你擁有的資產、學習遷移是把它調用出來的動作，一體兩面（李佳達《AI 超級大腦》CH0）
 
 ## 應用場景
 
@@ -30,6 +31,8 @@ created: 2026-06-27
 - [[skills-based-hiring]]：讓可轉移技能變重要的招募趨勢
 - [[resume-tailoring]]：履歷要把經驗轉譯成可轉移技能並附量化證據
 - [[star-method]]：面試時用 STAR 故事佐證可轉移技能
+- [[minerva-hc]]：思考習慣是最底層、最能跨情境遷移的能力
+- [[incidental-learning]]：先有深度思考的附帶學習、才遷移得出來
 
 ## 來源
 
@@ -37,3 +40,4 @@ created: 2026-06-27
 - [[1-learning/coursera/google-cybersecurity/course-9-accelerate-your-job-search-with-ai/module-1-uncover-your-transferable-skills-with-ai/section-2-identify-your-transferable-skills/2-mike-identify-your-most-valuable-transferable-skills|Course 9 Module 1 Section 2 Leaf 2 Mike: Identify your most valuable transferable skills]]
 - [[1-learning/coursera/google-cybersecurity/course-9-accelerate-your-job-search-with-ai/module-1-uncover-your-transferable-skills-with-ai/section-3-define-your-professional-identity/4-atlantis-my-career-transition-experience|Course 9 Module 1 Section 3 Leaf 4 Atlantis: My career transition experience]]
 - [[1-learning/coursera/google-cybersecurity/course-9-accelerate-your-job-search-with-ai/module-1-uncover-your-transferable-skills-with-ai/section-3-define-your-professional-identity/2-launch-your-job-search-with-career-dreamer|Course 9 Module 1 Section 3 Leaf 2 Launch your job search with Career Dreamer]]
+- [[2026-07-03-ai-super-brain-ch0]]
