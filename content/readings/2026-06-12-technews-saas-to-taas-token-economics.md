@@ -56,6 +56,8 @@ Simon 2026-05 把 Claude Pro 升級到 Max 5x（月費 3,300），一直關注�
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-06-12-technews-saas-to-taas-token-economics)
 ## 原始連結
 - https://finance.technews.tw/2026/06/10/saas-to-taas/
 - 收集箱原始短網址：https://share.google/tCjIYawPWNrRfqQNA

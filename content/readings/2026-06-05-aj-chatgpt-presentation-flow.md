@@ -55,6 +55,8 @@ AJ 示範用 ChatGPT 建一條「簡報風格規範 → 專案資料夾 → 簡�
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-06-05-aj-chatgpt-presentation-flow)
 ## 原始連結
 
 - https://www.youtube.com/watch?v=vmk4ToeAgpU

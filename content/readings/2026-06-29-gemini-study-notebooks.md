@@ -71,6 +71,8 @@ Simon 自己用手機分享進收件箱的文章。Simon 是下班時間備考�
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-06-29-gemini-study-notebooks)
 ## 原始連結
 - https://mrmad.com.tw/gemini-notebook-ai-learning-features
 - 收件箱原始短鏈：https://share.google/IMDRZggOamRMEr5S6

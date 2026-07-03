@@ -49,6 +49,8 @@ OWASP LLM Top 10 原本是一份列出 LLM 應用十大風險的清單，現在�
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-06-02-owasp-llm-top-10-genai-security)
 ## 原始連結
 
 - https://owasp.org/www-project-top-10-for-large-language-model-applications/

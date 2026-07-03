@@ -54,6 +54,8 @@ Simon 看完雷蒙「Claude Code × Codex 雙棲進化地圖」後，盤點還�
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-06-15-bnext-loop-engineering)
 ## 原始連結
 
 - https://www.bnext.com.tw/article/91246/loop-engineering-from-prompting-to-designing-ai-coding-loops

@@ -65,5 +65,7 @@ created: 2026-07-01
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-01-kaochenlong-claude-code-skills)
 ## 原始連結
 - https://kaochenlong.com/claude-code-skills

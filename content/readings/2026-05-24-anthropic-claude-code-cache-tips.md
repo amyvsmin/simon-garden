@@ -119,6 +119,8 @@ Anthropic 工程師 Thariq 公開分享 prompt caching 策略，實測每週省�
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-05-24-anthropic-claude-code-cache-tips)
 ## 落地動作與效益
 
 **A 類芙莉蓮優化**：

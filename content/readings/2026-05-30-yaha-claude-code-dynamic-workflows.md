@@ -52,5 +52,7 @@ YAHA 學堂實測 Claude Code 2026-05 新功能 Dynamic Workflows。觸發很簡
 
 ## 原文全文
 
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-05-30-yaha-claude-code-dynamic-workflows)
 ## 原始連結
 - https://www.youtube.com/watch?v=6AITeKsqVz0
