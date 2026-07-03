@@ -1,5 +1,5 @@
 ---
-title: "李佳達《AI 超級大腦》CH2 創意思考｜解決問題的新思考"
+title: "李佳達《AI 超級大腦》CH2 創意思考｜解決問題的新思路"
 date: 2026-07-03
 type: 來源分析
 url: ""
@@ -64,6 +64,6 @@ CH2 是創意思考章，把 76 HC 的創意類落到五個 AI 落地案例。2-
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-03-ai-super-brain-ch2)
 ## 原始連結
 
-- 李佳達《AI 超級大腦》線上課程 CH2「創意思考｜解決問題的新思考」（付費課程、無公開連結）
+- 李佳達《AI 超級大腦》線上課程 CH2「創意思考｜解決問題的新思路」（付費課程、無公開連結）
 - CH2 參考檔（Google Drive 資料夾）：<https://drive.google.com/drive/folders/1TDgSGgi2N-CokmZMsA3qfaL0OT7jeJrZ>
 - 補充教材：[[ch2-skill-packs-and-refs|CH2 五個技能包與參考資源清單]]（存 `1-learning/ai-super-brain/`、不在 garden 範圍）
