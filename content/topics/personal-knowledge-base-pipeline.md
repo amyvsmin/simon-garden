@@ -1,6 +1,7 @@
 ---
 title: 從「收了就忘」到「會自己合成」：個人知識庫的 AI 流水線
 type: topic
+topic_kind: synthesis
 status: draft-v3
 created: 2026-04-28
 last_updated: 2026-05-13

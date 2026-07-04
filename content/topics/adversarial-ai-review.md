@@ -1,6 +1,7 @@
 ---
 title: 把另一個 AI 當對手：對抗式審查如何撐起我做的每一套系統
 type: topic
+topic_kind: synthesis
 status: done
 created: 2026-06-09
 last_updated: 2026-06-09
