@@ -34,3 +34,4 @@ created: 2026-05-30
 
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-1-social-engineering/4-phishing-for-information|Course 5 Module 4 Section 1 Leaf 4 Phishing for information]]
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-1-social-engineering/5-types-of-phishing|Course 5 Module 4 Section 1 Leaf 5 Types of phishing]]
+- [[1-learning/ipas/subject-2-protection/training-day2/2-web-network-attacks-defense-and-secops|iPAS 培訓班 Day 2 下午 · Web／網路攻擊、防護與維運]]

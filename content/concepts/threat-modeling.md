@@ -36,3 +36,4 @@ created: 2026-05-25
 
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-4-threat-modeling/1-a-proactive-approach-to-security|Course 5 Module 4 Section 4 Leaf 1 a proactive approach to security]]
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-4-threat-modeling/4-pasta-the-process-for-attack-simulation-and-threat-analysis|Course 5 Module 4 Section 4 Leaf 4 pasta the process for attack simulation and threat analysis]]
+- [[1-learning/ipas/subject-2-protection/training-day2/2-web-network-attacks-defense-and-secops|iPAS 培訓班 Day 2 下午 · Web／網路攻擊、防護與維運]]

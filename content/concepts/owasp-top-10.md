@@ -30,3 +30,4 @@ OWASP（Open Worldwide Application Security Project，開放全球應用程式�
 ## 來源
 - Course 5 Assets, Threats, and Vulnerabilities — Module 3
 - [[2026-06-02-owasp-llm-top-10-genai-security]]
+- [[1-learning/ipas/subject-2-protection/training-day2/1-attack-frameworks-scanning-and-vuln-management|iPAS 培訓班 Day 2 上午 · 攻擊框架、掃描與弱點管理]]

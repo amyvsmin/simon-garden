@@ -31,3 +31,4 @@ created: 2026-05-25
 ## 來源
 
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-1-flaws-in-the-system/2-vulnerability-management|Course 5 Module 3 Section 1 Leaf 2 vulnerability management]]
+- [[1-learning/ipas/subject-2-protection/training-day2/1-attack-frameworks-scanning-and-vuln-management|iPAS 培訓班 Day 2 上午 · 攻擊框架、掃描與弱點管理]]

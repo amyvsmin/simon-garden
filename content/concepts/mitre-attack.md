@@ -33,3 +33,4 @@ MITRE ATT&CK 是由 MITRE 維護的對手戰術（Tactics）與技術（Techniqu
 ## 來源
 
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-4-threat-modeling/8-activity-exemplar-apply-the-pasta-threat-model-framework|Course 5 Module 4 Section 4 Leaf 8 Activity Exemplar: Apply the PASTA threat model framework]]
+- [[1-learning/ipas/subject-2-protection/training-day2/1-attack-frameworks-scanning-and-vuln-management|iPAS 培訓班 Day 2 上午 · 攻擊框架、掃描與弱點管理]]

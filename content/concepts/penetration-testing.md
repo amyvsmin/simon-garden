@@ -31,3 +31,4 @@ created: 2026-05-25
 ## 來源
 
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-3-vulnerabilities-in-systems/section-2-identify-system-vulnerabilities/5-penetration-testing|Course 5 Module 3 Section 2 Leaf 5 penetration testing]]
+- [[1-learning/ipas/subject-2-protection/training-day2/2-web-network-attacks-defense-and-secops|iPAS 培訓班 Day 2 下午 · Web／網路攻擊、防護與維運]]

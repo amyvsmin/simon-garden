@@ -40,3 +40,4 @@ Common Vulnerability Scoring System，業界通用的漏洞嚴重性量化標準
 
 - [[2026-04-29-pack2theroot-packagekit-vuln]]
 - [[2026-07-02-ithome-cvss-epss-kev]]
+- [[1-learning/ipas/subject-2-protection/training-day2/1-attack-frameworks-scanning-and-vuln-management|iPAS 培訓班 Day 2 上午 · 攻擊框架、掃描與弱點管理]]

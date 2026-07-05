@@ -30,3 +30,4 @@ created: 2026-06-05
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-4-incident-response-tools/6-alert-and-event-management-with-siem-and-soar-tools|Course 6 Module 1 Section 4 Leaf 6 Alert and event management with SIEM and SOAR tools]]
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-4-incident-response-tools/7-overview-of-siem-technology|Course 6 Module 1 Section 4 Leaf 7 Overview of SIEM technology]]
+- [[1-learning/ipas/subject-2-protection/training-day2/2-web-network-attacks-defense-and-secops|iPAS 培訓班 Day 2 下午 · Web／網路攻擊、防護與維運]]

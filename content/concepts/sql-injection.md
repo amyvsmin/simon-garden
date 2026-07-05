@@ -34,3 +34,4 @@ SQL 注入是在資料庫上執行非預期查詢的 [[injection]] 攻擊——�
 
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-3-web-based-exploits/2-exploitable-gaps-in-databases|Course 5 Module 4 Section 3 Leaf 2 Exploitable gaps in databases]]
 - [[1-learning/coursera/google-cybersecurity/course-5-assets-threats-and-vulnerabilities/module-4-threats-to-asset-security/section-3-web-based-exploits/3-prevent-injection-attacks|Course 5 Module 4 Section 3 Leaf 3 Prevent injection attacks]]
+- [[1-learning/ipas/subject-2-protection/training-day2/2-web-network-attacks-defense-and-secops|iPAS 培訓班 Day 2 下午 · Web／網路攻擊、防護與維運]]
