@@ -5,13 +5,15 @@ aliases: [PKI, public key infrastructure, 公鑰基礎建設, 公鑰架構, 公�
 category: 資安
 confidence: 已驗證
 created: 2026-05-25
+updated: 2026-07-06
 ---
 
 ## 定義
 管理數位憑證（digital certificate）與公私鑰對的加密框架，涵蓋憑證的簽發、分配、儲存、撤銷與驗證全流程。PKI 是 [[asymmetric-encryption]] 在真實世界大規模部署的信任基礎。
 
 ## 關鍵面向
-- **核心元件**：[[certificate-authority]]（CA）簽發憑證、Registration Authority（RA）驗證申請者身份、憑證撤銷清單（CRL）/ OCSP 即時查詢
+- **核心元件（PKI 三角色）**：[[certificate-authority]]（CA）簽發與管理憑證、**RA**（Registration Authority，註冊中心）審查並驗證申請者身份、**VA**（Validation Authority，驗證中心）提供憑證狀態查詢
+- **撤銷查詢兩法**：**CRL**（Certificate Revocation List，下載完整撤銷清單、可離線查）vs **OCSP**（Online Certificate Status Protocol，線上即時查單筆憑證狀態）
 - **信任鏈**：Root CA → Intermediate CA → End-entity Certificate，層層簽署形成信任鏈（chain of trust）
 - **憑證生命週期**：申請 → 簽發 → 使用 → 續期 → 撤銷，每階段都有安全控制
 - **應用協定**：TLS/SSL（HTTPS）、S/MIME（郵件簽章）、程式碼簽署（code signing）
