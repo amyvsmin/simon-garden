@@ -85,6 +85,6 @@ CH5 是《AI 超級大腦》的實戰章，把 76 個思考習慣落到十個 AI
 ## 原始連結
 
 - 李佳達《AI 超級大腦》線上課程 CH5「十大 AI 案例互動助手解析」（付費課程、無公開連結）
-- CH5 參考檔（Google Drive 資料夾）：待補（Simon 提供中）
-- 各節 HTML 互動附件（5-2-問對問題.html 等）：待補（Simon 提供中）
+- CH5 參考檔（Google Drive 資料夾）：<https://drive.google.com/drive/folders/10vM8_cgiNnoVGbQPH4hCUXkLj7Rks6J5>
+- 各節 HTML 互動附件（5-2-問對問題.html 等）：在上列 Drive 資料夾內（依 CH0～CH4 慣例、Drive 本體不下載；已知清單見補充教材）
 - 補充教材：[[ch5-skill-packs-and-refs|CH5 十大案例決策骨架與參考資源清單]]（存 `1-learning/ai-super-brain/`、不在 garden 範圍）
