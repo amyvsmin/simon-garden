@@ -1,7 +1,7 @@
 ---
 title: ".join() 方法（Join Method）"
 slug: join-method
-aliases: [join method, .join(), join, 清單合併成字串, join 方法]
+aliases: [join method, .join(), 清單合併成字串, join 方法]
 category: 資安
 confidence: 已驗證
 created: 2026-06-22

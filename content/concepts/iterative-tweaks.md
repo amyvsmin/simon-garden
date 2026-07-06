@@ -1,7 +1,7 @@
 ---
 title: "迭代調整"
 slug: iterative-tweaks
-aliases: [Edit Mode, Comment Mode, Tweaks, 人機協作]
+aliases: [Edit Mode, Comment Mode, Tweaks]
 category: AI
 confidence: 已驗證
 created: 2026-05-05

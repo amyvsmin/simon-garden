@@ -1,7 +1,7 @@
 ---
 title: "資安（Cybersecurity）"
 slug: cybersecurity
-aliases: [Cybersecurity, 資安, cybersecurity, 資訊安全, security, 資通安全]
+aliases: [Cybersecurity, 資安, cybersecurity, security, 資通安全]
 category: 資安
 confidence: 已驗證
 created: 2026-06-25

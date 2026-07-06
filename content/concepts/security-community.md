@@ -1,7 +1,7 @@
 ---
 title: "資安社群參與（持續成長的場域）"
 slug: security-community
-aliases: [資安社群, 資安社群參與, security community, security-community, 參與資安社群, 資安組織, security organizations, 加入社群]
+aliases: [資安社群, 資安社群參與, security community, security-community, 參與資安社群, security organizations, 加入社群]
 category: 職涯
 confidence: 已驗證
 created: 2026-06-25

@@ -1,7 +1,7 @@
 ---
 title: "提示工程框架死穴"
 slug: prompt-framework-weakness
-aliases: [Prompt Engineering, CoT, ToT, ReAct]
+aliases: [CoT, ToT, ReAct]
 category: AI
 confidence: 已驗證
 created: 2026-05-05

@@ -1,7 +1,7 @@
 ---
 title: "資訊安全（Information Security）"
 slug: information-security
-aliases: [Information Security, 資訊安全, InfoSec, 資安, information security]
+aliases: [Information Security, 資訊安全, InfoSec, information security]
 category: 資安
 confidence: 已驗證
 created: 2026-05-25

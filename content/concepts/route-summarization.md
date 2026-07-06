@@ -1,7 +1,7 @@
 ---
 title: "地址聚合／路由匯總（Route Summarization）"
 slug: route-summarization
-aliases: [Route Summarization, 路由匯總, 地址聚合, 位址聚合, address aggregation, route aggregation, supernetting]
+aliases: [Route Summarization, 路由匯總, 地址聚合, 位址聚合, address aggregation, route aggregation, supernetting, 超網]
 category: 資安
 confidence: 已驗證
 created: 2026-06-28

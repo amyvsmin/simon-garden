@@ -27,7 +27,7 @@ created: 2026-07-03
 - [[synaptic-pruning]]：附帶學習為什麼有效的神經學基礎
 - [[transferable-skills]]：能拿出來用（遷移）才算真的學會
 - [[minerva-hc]]：密涅瓦整套教學就建立在附帶學習上
-- [[note-as-writing]]：寫下來這個動作本身就在製造深度思考
+- 筆記即寫作（note-as-writing）：寫下來這個動作本身就在製造深度思考
 
 ## 尚未解決的疑問
 

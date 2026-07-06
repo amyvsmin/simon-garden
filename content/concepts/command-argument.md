@@ -1,7 +1,7 @@
 ---
 title: "命令參數"
 slug: command-argument
-aliases: [argument, command argument, 參數, 命令補充資訊]
+aliases: [command argument, 命令補充資訊]
 category: 資安
 confidence: 已驗證
 created: 2026-05-10

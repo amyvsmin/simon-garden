@@ -8,7 +8,7 @@ created: 2026-06-25
 ---
 
 ## 定義
-開源（open-source）作業系統，在資安領域廣泛使用。由核心（[[kernel]]）管理程序與記憶體、檔案系統階層標準（FHS）組織資料、[[bash-shell|shell]] 提供命令列介面。有多種發行版（distributions），如 Ubuntu、Red Hat、CentOS、Kali、Parrot 等，安全人員常用 Kali／Parrot。
+開源（open-source）作業系統，在資安領域廣泛使用。由核心（kernel）管理程序與記憶體、檔案系統階層標準（FHS）組織資料、[[bash-shell|shell]] 提供命令列介面。有多種發行版（distributions），如 Ubuntu、Red Hat、CentOS、Kali、Parrot 等，安全人員常用 Kali／Parrot。
 
 ## 關鍵面向
 - **開源**：原始碼公開、可自由修改，社群維護
@@ -22,7 +22,7 @@ created: 2026-06-25
 
 ## 相關概念
 - [[bash-shell]]：Linux 最常用的 shell
-- [[kernel]]：Linux OS 的核心元件
+- 核心（kernel）：Linux OS 的核心元件
 - [[sql]]：與 Linux 並列為資安分析師的運算基礎
 
 ## 來源

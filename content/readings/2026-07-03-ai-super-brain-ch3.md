@@ -24,7 +24,7 @@ CH3 是溝通思考章，把 76 HC 的溝通類落到五個「讓訊息精準落
 - [[curse-of-knowledge]]（新建）：專家會忘記「我理所當然的、非專家不懂」；解法不是說得簡單、是說得有畫面＋「所以呢？」把事實逼成論點。串 3-5 與 3-3。
 - [[requirement-elicitation]]（新建）：把對方的模糊詞（簡單、現代、穩定）拆成 3-5 個具體選項讓他選，開工前對齊、demo 前列驗收清單。串 3-4。
 - [[ai-adoption-gap]]（擴寫）：3-2 補「客觀指標漂亮但採用率低」——連問五次為什麼挖根因、真痛不在你優化那層、零學習／零行為改變設計繞過採用阻力。接續 CH1→CH2 的採用主軸。
-- 沿用連結：[[opinion-piece]]／[[presentation-design]]（前兩張是它們的方法內核）、[[problem-prd]]（需求規格、跟 requirement-elicitation 相鄰）。
+- 沿用連結：`opinion-piece`／`presentation-design`（前兩張是它們的方法內核）、[[problem-prd]]（需求規格、跟 requirement-elicitation 相鄰）。
 
 ## 對 Simon 的應用（當下想法）
 

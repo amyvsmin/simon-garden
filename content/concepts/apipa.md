@@ -1,7 +1,7 @@
 ---
 title: "APIPA 自動私有位址（Automatic Private IP Addressing）"
 slug: apipa
-aliases: [APIPA, Automatic Private IP Addressing, 自動私有位址, 本地鏈路位址, link-local address, 169.254]
+aliases: [APIPA, Automatic Private IP Addressing, 自動私有位址, 169.254]
 category: 資安
 confidence: 已驗證
 created: 2026-06-28

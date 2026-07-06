@@ -27,7 +27,7 @@ created: 2026-07-03
 ## 相關概念
 
 - [[curse-of-knowledge]]：同一章的另一支柱；順序對了還要詞與畫面對，非專家才讀得懂。
-- [[opinion-piece]]、[[presentation-design]]：本原理是它們「工作對外提報」文體的內核。
+- `opinion-piece`、`presentation-design`：本原理是它們「工作對外提報」文體的內核。
 - [[minerva-hc]]：對應 76 HC 的 #內容組織／#組織結構；本概念由《AI 超級大腦》CH3 的 3-3／3-5 帶出。
 
 ## 尚未解決的疑問
