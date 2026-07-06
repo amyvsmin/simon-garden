@@ -39,3 +39,4 @@ created: 2026-07-03
 ## 來源（自動維護）
 
 - [[2026-07-03-ai-super-brain-ch0]]
+- [[2026-07-06-ai-super-brain-ch4]]
