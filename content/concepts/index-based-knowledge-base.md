@@ -5,6 +5,7 @@ aliases: [Index-based KB, 目錄式知識庫, 無向量知識庫]
 category: 自動化
 confidence: 已驗證
 created: 2026-05-05
+updated: 2026-07-09
 ---
 
 ## 定義
@@ -18,6 +19,7 @@ created: 2026-05-05
 - 索引由 LLM 自行維護（讀全庫後產生），不需要 embedding pipeline
 - 規模上限約數百篇文章，超過後索引太長 token 成本爆炸
 - 跟 graph database 不同：索引是平面的目錄頁，不強調關聯網結構
+- **具體門檻參考**：Karpathy 說知識庫累積到約 100 篇文章、40 萬字左右時，複雜問答幾乎不必再依賴 RAG，因為 LLM 已把索引與摘要維護得夠完整、能直接從編譯後的結構找答案。這給「索引式何時夠用、何時該升 RAG」一個粗略的量級錨點。
 
 ## 應用場景
 
@@ -37,3 +39,4 @@ created: 2026-05-05
 
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
 - [[2026-05-31-codex-obsidian-self-growing-kb]]
+- [[2026-07-09-inside-llm-wiki]]

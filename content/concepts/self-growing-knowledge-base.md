@@ -1,15 +1,18 @@
 ---
 title: "自生長知識庫（Self-Growing Knowledge Base）"
 slug: self-growing-knowledge-base
-aliases: [自生長知識庫, 知識飛輪, self-growing knowledge base, knowledge flywheel, Karpathy 自生長理論, 自我生長知識庫, AI 知識庫迴圈, A B C D 知識迴圈]
+aliases: [自生長知識庫, 知識飛輪, self-growing knowledge base, knowledge flywheel, Karpathy 自生長理論, 自我生長知識庫, AI 知識庫迴圈, A B C D 知識迴圈, LLM Wiki, obsidian-llm-wiki]
 category: 生產力
 confidence: 已驗證
 created: 2026-05-31
+updated: 2026-07-09
 ---
 
 ## 定義
 
 把知識庫當成「一個由 AI 持續維護、會自己長大的系統」，而不是把資料收進去就不管的收藏夾。靈感來自 Andrej Karpathy：資訊收進來後讓 AI 定期消化、提煉、沉澱、迴流，知識庫會隨使用越長越密、越用越聰明。
+
+<p align="center"><img src="assets/covers/self-growing-knowledge-base-cover.png" alt="封面圖" width="400"></p>
 
 ## 關鍵面向
 
@@ -17,6 +20,8 @@ created: 2026-05-31
 - **輸出會迴流**：D 的成果不是終點，下一輪 AI 消化時又被重新讀回知識庫、變成新養分。這個迴流動作是「飛輪」越轉越快的關鍵——產出越多、庫越厚、下次產出越省力。
 - **跟收藏夾的根本差別**：收藏夾是「收了就放著、要用再翻」，自生長知識庫是「收了之後 AI 主動幫你檢查哪些重複、哪些過時、哪些值得提煉成模板」。差別在有沒有一個「定期蒸餾（distillation）」的動作持續注入養分。
 - **不依賴向量資料庫**：用資料夾分層 + 索引 + wikilink 就能跑，不必架 RAG 向量庫。靠的是 AI 直接讀本地 Markdown 檔。
+- **Karpathy 稱它「LLM Wiki」，主動編輯而非被動索引**：跟傳統 RAG（查詢時才撈原文、答完就結束）相反，LLM Wiki 在「收進來當下」就讓 LLM 讀全文、抽概念、更新既有主題頁、甚至標注新舊資料的矛盾——把 LLM 從被動檢索工具變成主動的知識編輯。Karpathy 說累積到約 100 篇、40 萬字時，複雜問答幾乎不必再靠 RAG，因為索引與摘要已維護得夠完整。
+- **三層流水線（擷取／編譯／審核）＋模型分級**：開源工具 obsidian-llm-wiki（v0.8.5）把流程拆三段——擷取用輕量模型（3B–8B 參數）抽概念摘要、編譯用較大模型（7B–14B）生成帶內部連結的 wiki 文章、審核由人逐篇確認（拒絕的帶回饋重生成）。預設走 Ollama 本機執行、資料不出網路，也支援 Groq／Together AI／Azure OpenAI。作者已把重心移到後繼專案 Synto，架構仍在快速演化。
 
 ## 應用場景
 
@@ -40,3 +45,4 @@ created: 2026-05-31
 ## 來源（自動維護）
 - [[2026-05-31-codex-obsidian-self-growing-kb]]
 - [[2026-04-29-karpathy-obsidian-claude-wiki]]
+- [[2026-07-09-inside-llm-wiki]]
