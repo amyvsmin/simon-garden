@@ -22,6 +22,7 @@ MITRE ATT&CK 是由 MITRE 維護的對手戰術（Tactics）與技術（Techniqu
 
 - **Simon 工作場景**：弱點管理／威脅情報時，把 ATT&CK 當「攻擊者會怎麼用這個弱點」的對照表；SIEM／偵測規劃時用 ATT&CK 盤點偵測涵蓋率
 - **一般場景**：SOC 偵測工程、威脅情報分析、紅藍隊演練的共通語言、資安報告的技術編號標準
+- **iPAS 備考**：五堂 Windows 滲透 Lab 的攻擊鏈逐步對映到 14 戰術＋技術編號（含 v18／v19 版本差異），見 [[6-attack-chain-attack-map|Windows 滲透攻擊鏈 × ATT&CK 戰術對映]]
 
 ## 相關概念
 
