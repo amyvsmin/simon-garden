@@ -37,4 +37,4 @@ created: 2026-07-19
 ## 來源（自動維護）
 
 - [[1-learning/wordup/ai-education-treasury/gifts/直播招牌詞圖鑑|KIAO 禮物 17 直播招牌詞圖鑑・第 5 場]]
-- KIAO 禮物 02 持久技能超級大彙總
+- [[2026-07-20-kiao-durable-skills-mega-summary]]（KIAO 禮物 02 全文）

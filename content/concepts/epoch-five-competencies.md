@@ -39,3 +39,4 @@ KIAO 課程提出的「AI 時代人類最不可取代的五種核心能力」：
 ## 來源（自動維護）
 
 - [[1-learning/wordup/ai-education-treasury/gifts/課程術語字典|KIAO 禮物 12 課程術語字典・核心心法（EPOCH 六條目）]]
+- [[2026-07-20-kiao-durable-skills-mega-summary]]（KIAO 禮物 02、22 框架目錄第 16 個：MIT EPOCH 與 O*NET 任務分析）
