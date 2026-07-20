@@ -1,7 +1,7 @@
 ---
 title: "社交工程（Social Engineering）"
 slug: social-engineering
-aliases: [Social Engineering, 社交工程, 社會工程, social-engineering-tactics, 社交工程手法, social-engineering-stages, 社交工程階段, human hacking]
+aliases: [Social Engineering, 社交工程, 社會工程, human hacking]
 category: 資安
 confidence: 已驗證
 created: 2026-05-30

@@ -1,7 +1,7 @@
 ---
 title: "園區網路設計（Campus Network Design，五原則＋核心/分佈/存取三層架構）"
 slug: campus-network-design
-aliases: [Campus Network Design, 園區網路設計, campus-network, 園區網路, three-tier-architecture, 三層架構, 三層式架構, core-layer, 核心層, distribution-layer, 分佈層, access-layer, 存取層, collapsed-core, 兩層架構, two-tier-architecture]
+aliases: [Campus Network Design, 園區網路設計, campus-network, 園區網路]
 category: 資安
 confidence: 已驗證
 created: 2026-07-11

@@ -1,7 +1,7 @@
 ---
 title: "資料治理角色（Data Governance Roles）"
 slug: data-governance-roles
-aliases: [Data Governance Roles, data governance roles, 資料治理角色, data-owner, data owner, 資料擁有者, data-controller, data controller, 資料控管者, data-processor, data processor, 資料處理者, data-custodian, data custodian, 資料保管者, data-protection-officer, data protection officer, DPO, 資料保護長]
+aliases: [Data Governance Roles, data governance roles, 資料治理角色]
 category: 資安
 confidence: 已驗證
 created: 2026-06-23

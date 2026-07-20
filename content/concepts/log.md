@@ -1,7 +1,7 @@
 ---
 title: "Log（系統日誌）"
 slug: log
-aliases: [log, 日誌, 系統日誌, security log, event log, syslog, 紀錄, 事件紀錄]
+aliases: [log, 日誌, 系統日誌, security log, event log, 紀錄, 事件紀錄]
 category: 資安
 confidence: 已驗證
 created: 2026-05-09

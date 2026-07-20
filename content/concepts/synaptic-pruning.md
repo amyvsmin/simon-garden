@@ -1,7 +1,7 @@
 ---
 title: "突觸減除（Synaptic Pruning）"
 slug: synaptic-pruning
-aliases: [突觸減除, 突觸修剪, synaptic pruning, 神經可塑性, neuroplasticity, 長時程增強, LTP, 用進廢退, 神經迴路修剪]
+aliases: [突觸減除, 突觸修剪, synaptic pruning, 用進廢退, 神經迴路修剪]
 category: 生產力
 confidence: 已驗證
 created: 2026-05-31

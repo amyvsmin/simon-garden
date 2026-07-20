@@ -1,7 +1,7 @@
 ---
 title: "主動回想（Retrieval Practice）"
 slug: retrieval-practice
-aliases: [主動回想, retrieval practice, 提取練習, 間隔練習, spaced repetition, 交錯練習, interleaving, 學習科學, Make It Stick]
+aliases: [主動回想, retrieval practice, 提取練習]
 category: 學習
 confidence: 已驗證
 created: 2026-07-03

@@ -1,7 +1,7 @@
 ---
 title: "網路拓撲類型（Network Topology，匯流排/星形/環形/網狀/樹形/混合）"
 slug: network-topology
-aliases: [Network Topology, 網路拓撲, 網路拓撲類型, 拓撲類型, 拓樸類型, bus-topology, 匯流排拓撲, point-to-point-topology, 點對點拓撲, ring-topology, 環形拓撲, mesh-topology, 網狀拓撲, full-mesh-topology, 全連結, tree-topology, 樹形拓撲, hybrid-topology, 混合拓撲]
+aliases: [Network Topology, 網路拓撲, 網路拓撲類型, 拓撲類型, 拓樸類型]
 category: 資安
 confidence: 已驗證
 created: 2026-07-11

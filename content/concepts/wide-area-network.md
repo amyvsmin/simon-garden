@@ -1,7 +1,7 @@
 ---
 title: "廣域網路（WAN）與 MAN／WAN 連接技術（專線・VPN・MPLS・SD-WAN・城域乙太網）"
 slug: wide-area-network
-aliases: [Wide Area Network, WAN, 廣域網路, Metropolitan Area Network, MAN, 都會網路, 城域網, leased-line, 專線, MPLS, sd-wan, SD-WAN, 軟體定義廣域網, metro-ethernet, 城域乙太網, 都會乙太網, wan-connectivity]
+aliases: [Wide Area Network, WAN, 廣域網路, wan-connectivity]
 category: 資安
 confidence: 已驗證
 created: 2026-07-11

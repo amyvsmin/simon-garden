@@ -1,7 +1,7 @@
 ---
 title: "Linux 架構"
 slug: linux-architecture
-aliases: [linux architecture, Linux 五層架構, application-os-hardware-flow, OS 分層]
+aliases: [linux architecture, Linux 五層架構]
 category: 資安
 confidence: 已驗證
 created: 2026-05-10

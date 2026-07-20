@@ -1,7 +1,7 @@
 ---
 title: "受法律保護的資訊（Legally Protected Information）"
 slug: legally-protected-information
-aliases: [Legally Protected Information, 受法律保護的資訊, PII, SPII, PHI, personally identifiable information, 個人可識別資訊, sensitive personally identifiable information, 敏感個人可識別資訊, protected health information, 受保護健康資訊]
+aliases: [Legally Protected Information, 受法律保護的資訊]
 category: 資安
 confidence: 已驗證
 created: 2026-06-23

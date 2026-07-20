@@ -1,7 +1,7 @@
 ---
 title: "釣魚（Phishing）"
 slug: phishing
-aliases: [Phishing, 釣魚, 網路釣魚, phishing-types, 釣魚類型, phishing-kit, 釣魚工具包, spear phishing, 魚叉式釣魚, whaling, 鯨釣, smishing, 簡訊釣魚, vishing, 語音釣魚, angler phishing]
+aliases: [Phishing, 釣魚, 網路釣魚]
 category: 資安
 confidence: 已驗證
 created: 2026-05-30
