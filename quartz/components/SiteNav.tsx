@@ -8,7 +8,7 @@ import searchScript from "./scripts/search.inline"
 // @ts-ignore
 import darkmodeScript from "./scripts/darkmode.inline"
 
-const SiteNav: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
+const SiteNav: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const slug = fileData.slug ?? ""
 
   const activeClass = (section: string) => {
@@ -22,10 +22,7 @@ const SiteNav: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
   return (
     <div class="site-nav-container">
       <nav class="site-nav">
-        <a
-          href={resolveRelative(fileData.slug!, "index" as any)}
-          class="nav-brand internal"
-        >
+        <a href={resolveRelative(fileData.slug!, "index" as any)} class="nav-brand internal">
           <span class="brand-icon">🌿</span>
           <span class="brand-text">知識庫</span>
         </a>

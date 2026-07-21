@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/conceptHeader.scss"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 function getCategoryGradient(category: string): string {
   const cat = (category ?? "").toLowerCase()
@@ -11,7 +12,7 @@ function getCategoryGradient(category: string): string {
 }
 
 const ConceptHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const fm = fileData.frontmatter ?? {}
+  const fm = vaultFm(fileData.frontmatter)
   const category = (fm.category as string) ?? ""
   const confidence = (fm.confidence as string) ?? "待驗證"
   const aliases = (fm.aliases as string[]) ?? []
@@ -22,7 +23,10 @@ const ConceptHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   if (!displayTldr && fileData.text) {
     const defMatch = fileData.text.match(/## 定義\s*\n([\s\S]*?)(?=\n## |$)/)
     if (defMatch) {
-      const sentences = defMatch[1].trim().split(/[。！？\.\!\?]/).filter(Boolean)
+      const sentences = defMatch[1]
+        .trim()
+        .split(/[。！？\.\!\?]/)
+        .filter(Boolean)
       displayTldr = sentences.slice(0, 2).join("。") + "。"
     }
   }

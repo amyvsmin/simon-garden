@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/topicHeader.scss"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 function getTopicIcon(fm: Record<string, unknown>): string {
   const tags = (fm.tags as string[]) ?? []
@@ -47,7 +48,7 @@ function estimateReadingTime(text?: string): string {
 }
 
 const TopicHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const fm = fileData.frontmatter ?? {}
+  const fm = vaultFm(fileData.frontmatter)
   const icon = getTopicIcon(fm)
   const status = (fm.status as string) ?? ""
   const statusInfo = getStatusInfo(status)

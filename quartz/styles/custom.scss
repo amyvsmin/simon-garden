@@ -7,12 +7,12 @@
 
 // --- 暖白底 + 中性深灰文字（覆蓋 Quartz 預設冷色票）---
 :root {
-  --light: #fdfaf6;        // 暖白底（原 #faf8f8）
-  --lightgray: #ecebe7;    // 邊線、淡分隔（原 #e5e5e5）
-  --dark: #24292e;         // 內文深灰（原 #2b2b2b）
-  --darkgray: #57606a;     // 次級文字
-  --secondary: #b3543a;    // 品牌磚紅（實際以 quartz.config.ts 的 :root 為準，此處同步保持一致、避免矛盾）
-  --tertiary: #8a3f2b;     // hover 用，同色系加深
+  --light: #fdfaf6; // 暖白底（原 #faf8f8）
+  --lightgray: #ecebe7; // 邊線、淡分隔（原 #e5e5e5）
+  --dark: #24292e; // 內文深灰（原 #2b2b2b）
+  --darkgray: #57606a; // 次級文字
+  --secondary: #b3543a; // 品牌磚紅（實際以 quartz.config.ts 的 :root 為準，此處同步保持一致、避免矛盾）
+  --tertiary: #8a3f2b; // hover 用，同色系加深
 }
 
 // --- 全域字型 + 行距 ---
@@ -96,7 +96,8 @@ body {
   }
 
   // 清單留白
-  ul, ol {
+  ul,
+  ol {
     margin: 1rem 0;
     padding-left: 1.6rem;
 
@@ -152,41 +153,67 @@ body {
 // Dark mode overrides for redesigned components
 // ============================================
 :root[saved-theme="dark"] {
-  .reading-header, .concept-header {
+  .reading-header,
+  .concept-header {
     .meta-table {
-      .meta-label { background: rgba(255,255,255,0.05); }
+      .meta-label {
+        background: rgba(255, 255, 255, 0.05);
+      }
     }
     .tldr-card {
-      background: linear-gradient(135deg, rgba(109,40,217,0.1), rgba(79,70,229,0.1));
-      border-color: rgba(109,40,217,0.2);
+      background: linear-gradient(135deg, rgba(109, 40, 217, 0.1), rgba(79, 70, 229, 0.1));
+      border-color: rgba(109, 40, 217, 0.2);
     }
-    .growth-badge, .confidence-badge {
-      &.seedling, &.unverified { background: rgba(254,249,195,0.15); }
-      &.growing { background: rgba(232,245,233,0.15); }
-      &.evergreen, &.verified { background: rgba(209,250,229,0.15); }
+    .growth-badge,
+    .confidence-badge {
+      &.seedling,
+      &.unverified {
+        background: rgba(254, 249, 195, 0.15);
+      }
+      &.growing {
+        background: rgba(232, 245, 233, 0.15);
+      }
+      &.evergreen,
+      &.verified {
+        background: rgba(209, 250, 229, 0.15);
+      }
     }
     .impact-badge {
-      &.high { background: rgba(254,226,226,0.15); }
-      &.medium { background: rgba(254,243,199,0.15); }
+      &.high {
+        background: rgba(254, 226, 226, 0.15);
+      }
+      &.medium {
+        background: rgba(254, 243, 199, 0.15);
+      }
     }
   }
 
   .enhanced-toc .toc-card {
     background: var(--light);
-    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   }
 
   .enhanced-backlinks .backlink-card {
     background: var(--light);
-    &:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+    &:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
   }
 
   .dashboard-home {
-    .stat-card { background: var(--light); }
-    .article-card { background: var(--light); }
+    .stat-card {
+      background: var(--light);
+    }
+    .article-card {
+      background: var(--light);
+    }
     .concept-tag {
-      &.large { background: rgba(109,40,217,0.15); }
-      &.medium { background: rgba(109,40,217,0.1); }
+      &.large {
+        background: rgba(109, 40, 217, 0.15);
+      }
+      &.medium {
+        background: rgba(109, 40, 217, 0.1);
+      }
     }
   }
 }
@@ -196,7 +223,9 @@ body {
 // ============================================
 body[data-slug="index"] {
   #quartz-body .sidebar.left,
-  #quartz-body .sidebar.right { display: none; }
+  #quartz-body .sidebar.right {
+    display: none;
+  }
 
   #quartz-body {
     grid-template-columns: 1fr;
@@ -210,8 +239,12 @@ body[data-slug="index"] {
   }
 
   #quartz-body > .center > hr,
-  #quartz-body > .center > .page-footer { display: none; }
-  footer { display: none; }
+  #quartz-body > .center > .page-footer {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
 }
 
 // ============================================
@@ -222,7 +255,9 @@ body[data-slug="concepts/index"],
 body[data-slug="topics/index"],
 body[data-slug="weekly-intel/index"] {
   #quartz-body .sidebar.left,
-  #quartz-body .sidebar.right { display: none; }
+  #quartz-body .sidebar.right {
+    display: none;
+  }
 
   #quartz-body {
     grid-template-columns: 1fr;
@@ -246,41 +281,60 @@ body[data-slug="weekly-intel/index"] {
 // Dark mode — list pages
 // ============================================
 :root[saved-theme="dark"] {
-  .reading-list, .concept-list {
+  .reading-list,
+  .concept-list {
     .filter-bar {
-      background: rgba(255,255,255,0.03);
-      border-color: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.03);
+      border-color: rgba(255, 255, 255, 0.08);
 
       .filter-select {
         background: var(--light);
         color: var(--dark);
-        border-color: rgba(255,255,255,0.1);
+        border-color: rgba(255, 255, 255, 0.1);
       }
     }
 
-    .reading-card, .concept-card {
+    .reading-card,
+    .concept-card {
       background: var(--light);
-      border-color: rgba(255,255,255,0.08);
+      border-color: rgba(255, 255, 255, 0.08);
 
-      &:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.2); }
-
-      .card-title-text { color: var(--dark); }
-      .card-meta, .card-tldr { color: var(--darkgray); }
-
-      .stage-badge {
-        &.seedling { background: rgba(254,249,195,0.15); }
-        &.growing { background: rgba(232,245,233,0.15); }
-        &.evergreen { background: rgba(209,250,229,0.15); }
+      &:hover {
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
       }
 
-      .card-pill { background: rgba(109,40,217,0.15); }
-      .alias-pill { background: rgba(255,255,255,0.06); }
+      .card-title-text {
+        color: var(--dark);
+      }
+      .card-meta,
+      .card-tldr {
+        color: var(--darkgray);
+      }
+
+      .stage-badge {
+        &.seedling {
+          background: rgba(254, 249, 195, 0.15);
+        }
+        &.growing {
+          background: rgba(232, 245, 233, 0.15);
+        }
+        &.evergreen {
+          background: rgba(209, 250, 229, 0.15);
+        }
+      }
+
+      .card-pill {
+        background: rgba(109, 40, 217, 0.15);
+      }
+      .alias-pill {
+        background: rgba(255, 255, 255, 0.06);
+      }
     }
 
     .page-btn {
       background: var(--light);
       color: var(--dark);
-      border-color: rgba(255,255,255,0.1);
+      border-color: rgba(255, 255, 255, 0.1);
     }
   }
 }
@@ -294,14 +348,23 @@ body[data-slug="weekly-intel/index"] {
   margin-bottom: 0.5rem;
   gap: 0.3rem;
 
-  a { color: #6d28d9; text-decoration: none; background-image: none; &:hover { text-decoration: underline; } }
+  a {
+    color: #6d28d9;
+    text-decoration: none;
+    background-image: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 // ============================================
 // beforeBody TOC — desktop only show in right sidebar, hide in content area
 // ============================================
 @media (min-width: 800px) {
-  .page-header .enhanced-toc { display: none; }
+  .page-header .enhanced-toc {
+    display: none;
+  }
 }
 
 // ============================================
@@ -311,8 +374,12 @@ body[data-slug^="readings/"],
 body[data-slug^="concepts/"],
 body[data-slug^="topics/"],
 body[data-slug^="weekly-intel/"] {
-  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]):not([data-slug="topics/index"]):not([data-slug="weekly-intel/index"]) {
-    #quartz-body .sidebar.left { display: none; }
+  &:not([data-slug="readings/index"]):not([data-slug="concepts/index"]):not(
+      [data-slug="topics/index"]
+    ):not([data-slug="weekly-intel/index"]) {
+    #quartz-body .sidebar.left {
+      display: none;
+    }
 
     @media (min-width: 1200px) {
       #quartz-body {
@@ -344,7 +411,10 @@ article a.internal[href*="/concepts/"] {
   color: #6d28d9;
   border-bottom: 1px dashed #c4b5fd;
   background-image: none;
-  &:hover { background: rgba(109,40,217,0.08); border-bottom-style: solid; }
+  &:hover {
+    background: rgba(109, 40, 217, 0.08);
+    border-bottom-style: solid;
+  }
 }
 
 // HTML tables in reading body (added 2026-05-28 for image-table-enhancement)
@@ -356,7 +426,8 @@ article table {
   margin: 1em 0;
   font-size: 0.95em;
 
-  th, td {
+  th,
+  td {
     border: 1px solid var(--gray);
     padding: 0.5em 0.75em;
     text-align: left;

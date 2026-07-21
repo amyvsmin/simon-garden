@@ -6,7 +6,9 @@ function setupEnhancedToc() {
     const scrollTop = window.scrollY
     const docHeight = document.documentElement.scrollHeight - window.innerHeight
     const progress = docHeight > 0 ? Math.min((scrollTop / docHeight) * 100, 100) : 0
-    fills.forEach((el) => { el.style.width = progress + "%" })
+    fills.forEach((el) => {
+      el.style.width = progress + "%"
+    })
   }
 
   window.addEventListener("scroll", updateProgress, { passive: true })

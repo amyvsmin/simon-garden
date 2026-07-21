@@ -1,14 +1,21 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/conceptList.scss"
-import script from "./scripts/conceptList.inline.ts"
+// @ts-ignore（inline script 非 module；Quartz 內建元件同樣寫法，見 Darkmode.tsx）
+import script from "./scripts/conceptList.inline"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 function getCategory(fm: Record<string, unknown>): string {
   if (fm.category) return fm.category as string
   const title = ((fm.title as string) ?? "").toLowerCase()
   const aliases = ((fm.aliases as string[]) ?? []).join(" ").toLowerCase()
   const joined = `${title} ${aliases}`
-  if (/secops|資安|安全|kill-chain|zero-trust|cia|incident|siem|vulnerability|malware|phishing/.test(joined)) return "資安"
+  if (
+    /secops|資安|安全|kill-chain|zero-trust|cia|incident|siem|vulnerability|malware|phishing/.test(
+      joined,
+    )
+  )
+    return "資安"
   if (/claude|prompt|token|agent|llm|ai|gpt|gemini/.test(joined)) return "AI"
   if (/vault|obsidian|notion|knowledge|pkm|知識|筆記/.test(joined)) return "知識管理"
   return "其他"
@@ -16,11 +23,16 @@ function getCategory(fm: Record<string, unknown>): string {
 
 function getCategoryStyle(cat: string): { bg: string; color: string } {
   switch (cat) {
-    case "資安": return { bg: "#fee2e2", color: "#dc2626" }
-    case "AI": return { bg: "#ede9fe", color: "#6d28d9" }
-    case "知識管理": return { bg: "#d1fae5", color: "#059669" }
-    case "工具": return { bg: "#fef3c7", color: "#d97706" }
-    default: return { bg: "#f3f4f6", color: "#6b7280" }
+    case "資安":
+      return { bg: "#fee2e2", color: "#dc2626" }
+    case "AI":
+      return { bg: "#ede9fe", color: "#6d28d9" }
+    case "知識管理":
+      return { bg: "#d1fae5", color: "#059669" }
+    case "工具":
+      return { bg: "#fef3c7", color: "#d97706" }
+    default:
+      return { bg: "#f3f4f6", color: "#6b7280" }
   }
 }
 
@@ -31,8 +43,12 @@ const ConceptList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
   const concepts = allFiles
     .filter((f) => f.slug?.startsWith("concepts/") && f.slug !== "concepts/index")
     .sort((a, b) => {
-      const da = new Date((a.frontmatter?.created as string) ?? (a.frontmatter?.date as string) ?? 0)
-      const db = new Date((b.frontmatter?.created as string) ?? (b.frontmatter?.date as string) ?? 0)
+      const da = new Date(
+        (a.frontmatter?.created as string) ?? (a.frontmatter?.date as string) ?? 0,
+      )
+      const db = new Date(
+        (b.frontmatter?.created as string) ?? (b.frontmatter?.date as string) ?? 0,
+      )
       return db.getTime() - da.getTime()
     })
 
@@ -43,12 +59,14 @@ const ConceptList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
     refCounts.set(c.slug!, count)
   })
 
-  const categories = [...new Set(concepts.map((c) => getCategory(c.frontmatter ?? {})))].sort()
+  const categories = [...new Set(concepts.map((c) => getCategory(vaultFm(c.frontmatter))))].sort()
 
   return (
     <div class="concept-list">
       <nav class="list-breadcrumb">
-        <a href={resolveRelative(fileData.slug!, "index" as any)} class="internal">Home</a>
+        <a href={resolveRelative(fileData.slug!, "index" as any)} class="internal">
+          Home
+        </a>
         <span class="separator">›</span>
         <span>所有概念</span>
       </nav>
@@ -90,7 +108,7 @@ const ConceptList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
 
       <div class="card-grid" data-page-size="20">
         {concepts.map((c) => {
-          const fm = c.frontmatter ?? {}
+          const fm = vaultFm(c.frontmatter)
           const title = (fm.title as string) ?? simplifySlug(c.slug!)
           const category = getCategory(fm)
           const catStyle = getCategoryStyle(category)
@@ -121,12 +139,12 @@ const ConceptList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
                 >
                   {category}
                 </span>
-                <span class={`confidence-badge ${confidence === "已驗證" ? "verified" : "unverified"}`}>
+                <span
+                  class={`confidence-badge ${confidence === "已驗證" ? "verified" : "unverified"}`}
+                >
                   {confidence === "已驗證" ? "✅" : "⏳"} {confidence}
                 </span>
-                {refs > 0 && (
-                  <span class="ref-badge">🔗 {refs}</span>
-                )}
+                {refs > 0 && <span class="ref-badge">🔗 {refs}</span>}
               </div>
               {aliases.length > 0 && (
                 <div class="card-aliases">

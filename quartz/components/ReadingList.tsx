@@ -2,7 +2,9 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { resolveRelative } from "../util/path"
 import { isReadingSlug } from "../util/readingSlug"
 import style from "./styles/readingList.scss"
-import script from "./scripts/readingList.inline.ts"
+// @ts-ignore（inline script 非 module；Quartz 內建元件同樣寫法，見 Darkmode.tsx）
+import script from "./scripts/readingList.inline"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 const thumbColors = [
   "linear-gradient(135deg, #e0e7ff, #c7d2fe)",
@@ -17,7 +19,8 @@ function getReadingIcon(fm: Record<string, unknown>): string {
   const concepts = (fm.concepts as string[]) ?? []
   const title = (fm.title as string) ?? ""
   const joined = [...concepts, title.toLowerCase()].join(" ")
-  if (/secops|kill-chain|zero-trust|cia|incident|siem|vulnerability|資安|安全/.test(joined)) return "🛡️"
+  if (/secops|kill-chain|zero-trust|cia|incident|siem|vulnerability|資安|安全/.test(joined))
+    return "🛡️"
   if (/claude|prompt|token|agent|llm|ai|gpt|gemini/.test(joined)) return "⚡"
   if (/vault|obsidian|notion|knowledge|pkm|知識|筆記/.test(joined)) return "🧠"
   if (/google|i\/o|docs-live/.test(joined)) return "🌐"
@@ -28,9 +31,12 @@ function getReadingIcon(fm: Record<string, unknown>): string {
 
 function getStageLabel(stage: string): { emoji: string; cls: string } {
   switch (stage) {
-    case "evergreen": return { emoji: "🌳", cls: "evergreen" }
-    case "growing": return { emoji: "🌿", cls: "growing" }
-    default: return { emoji: "🌱", cls: "seedling" }
+    case "evergreen":
+      return { emoji: "🌳", cls: "evergreen" }
+    case "growing":
+      return { emoji: "🌿", cls: "growing" }
+    default:
+      return { emoji: "🌱", cls: "seedling" }
   }
 }
 
@@ -46,7 +52,9 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
       return db.getTime() - da.getTime()
     })
 
-  const types = [...new Set(readings.map((f) => (f.frontmatter?.type as string) ?? "").filter(Boolean))]
+  const types = [
+    ...new Set(readings.map((f) => (f.frontmatter?.type as string) ?? "").filter(Boolean)),
+  ]
   const domains = [
     ...new Set(readings.map((f) => (f.frontmatter?.domain as string) ?? "").filter(Boolean)),
   ]
@@ -54,7 +62,9 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
   return (
     <div class="reading-list">
       <nav class="list-breadcrumb">
-        <a href={resolveRelative(fileData.slug!, "index" as any)} class="internal">Home</a>
+        <a href={resolveRelative(fileData.slug!, "index" as any)} class="internal">
+          Home
+        </a>
         <span class="separator">›</span>
         <span>所有文章</span>
       </nav>
@@ -104,7 +114,7 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
 
       <div class="card-grid" data-page-size="10">
         {readings.map((f, i) => {
-          const fm = f.frontmatter ?? {}
+          const fm = vaultFm(f.frontmatter)
           const icon = getReadingIcon(fm)
           const impact = (fm.impact as string) ?? ""
           const type = (fm.type as string) ?? ""
@@ -127,16 +137,15 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
               data-date={dateStr}
               data-impact-order={impactOrder}
             >
-              <div
-                class="card-thumb"
-                style={{ background: thumbColors[i % thumbColors.length] }}
-              >
+              <div class="card-thumb" style={{ background: thumbColors[i % thumbColors.length] }}>
                 {icon}
               </div>
               <div class="card-body">
                 <div class="card-title-row">
                   <span class="card-title-text">{fm.title as string}</span>
-                  <span class={`stage-badge ${stageInfo.cls}`}>{stageInfo.emoji} {stage}</span>
+                  <span class={`stage-badge ${stageInfo.cls}`}>
+                    {stageInfo.emoji} {stage}
+                  </span>
                 </div>
                 <div class="card-meta">
                   <span class={`impact-dot ${impact}`} />

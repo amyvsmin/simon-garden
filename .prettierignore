@@ -1,3 +1,7 @@
 public
 node_modules
 .quartz-cache
+
+# content/ 是 sync-garden.sh 從 SimonVault 同步過來的產物、不是本 repo 的原始碼。
+# 格式化它會改壞 Obsidian 語法（callout、wikilink），而且下次同步就被覆蓋。
+content

@@ -11,9 +11,14 @@
       color: #6d28d9;
       text-decoration: none;
       background-image: none;
-      &:hover { text-decoration: underline; }
+      &:hover {
+        text-decoration: underline;
+      }
     }
-    .separator { margin: 0 0.3rem; color: #ccc; }
+    .separator {
+      margin: 0 0.3rem;
+      color: #ccc;
+    }
   }
 
   .list-header {
@@ -55,7 +60,10 @@
     border-radius: 12px;
     text-decoration: none;
     color: inherit;
-    transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+    transition:
+      box-shadow 0.2s,
+      border-color 0.2s,
+      transform 0.15s;
     align-items: flex-start;
 
     &:hover {
@@ -103,10 +111,22 @@
           font-size: 0.72rem;
           font-weight: 500;
 
-          &.published { background: #d1fae5; color: #059669; }
-          &.draft { background: #fef9c3; color: #a16207; }
-          &.personal { background: #e0e7ff; color: #4338ca; }
-          &.default { background: #f3f4f6; color: #6b7280; }
+          &.published {
+            background: #d1fae5;
+            color: #059669;
+          }
+          &.draft {
+            background: #fef9c3;
+            color: #a16207;
+          }
+          &.personal {
+            background: #e0e7ff;
+            color: #4338ca;
+          }
+          &.default {
+            background: #f3f4f6;
+            color: #6b7280;
+          }
         }
 
         .ref-count {
@@ -156,22 +176,38 @@
 
 :root[saved-theme="dark"] {
   .topic-list {
-    .list-description { color: var(--darkgray); }
+    .list-description {
+      color: var(--darkgray);
+    }
 
     .topic-card {
       background: var(--light);
       border-color: rgba(255, 255, 255, 0.08);
 
-      &:hover { box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); }
+      &:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      }
 
-      .card-title-text { color: var(--dark); }
-      .card-meta { color: var(--darkgray); }
-      .tag-pill { background: rgba(109, 40, 217, 0.15); }
+      .card-title-text {
+        color: var(--dark);
+      }
+      .card-meta {
+        color: var(--darkgray);
+      }
+      .tag-pill {
+        background: rgba(109, 40, 217, 0.15);
+      }
 
       .status-badge {
-        &.published { background: rgba(209, 250, 229, 0.15); }
-        &.draft { background: rgba(254, 249, 195, 0.15); }
-        &.personal { background: rgba(224, 231, 255, 0.15); }
+        &.published {
+          background: rgba(209, 250, 229, 0.15);
+        }
+        &.draft {
+          background: rgba(254, 249, 195, 0.15);
+        }
+        &.personal {
+          background: rgba(224, 231, 255, 0.15);
+        }
       }
     }
   }

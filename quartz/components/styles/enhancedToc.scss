@@ -4,53 +4,90 @@
     border: 1px solid var(--lightgray);
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
   }
   .toc-title {
-    font-size: 13px; font-weight: 600; color: #6d28d9;
-    margin-bottom: 16px; padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #6d28d9;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #ede9fe;
-    &::before { content: "📑 "; font-size: 14px; }
+    &::before {
+      content: "📑 ";
+      font-size: 14px;
+    }
   }
   .toc-list {
-    list-style: none; padding: 0; margin: 0;
-    li { margin-bottom: 2px; }
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 2px;
+    }
     a {
-      display: block; padding: 8px 14px; font-size: 13.5px;
-      color: var(--darkgray); text-decoration: none;
-      border-radius: 8px; transition: all 0.2s ease;
-      border: 1px solid transparent; background-image: none;
+      display: block;
+      padding: 8px 14px;
+      font-size: 13.5px;
+      color: var(--darkgray);
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+      background-image: none;
       &:hover {
-        background: #f5f3ff; color: #6d28d9;
-        border-color: #ede9fe; transform: translateX(2px);
+        background: #f5f3ff;
+        color: #6d28d9;
+        border-color: #ede9fe;
+        transform: translateX(2px);
       }
       &:active {
-        background: #ede9fe; transform: translateX(2px) scale(0.98);
+        background: #ede9fe;
+        transform: translateX(2px) scale(0.98);
       }
       &.in-view {
         background: linear-gradient(135deg, #f5f3ff, #ede9fe);
-        color: #6d28d9; font-weight: 600;
+        color: #6d28d9;
+        font-weight: 600;
         border-color: #c4b5fd;
-        box-shadow: 0 1px 3px rgba(109,40,217,0.08);
+        box-shadow: 0 1px 3px rgba(109, 40, 217, 0.08);
       }
     }
-    .depth-3 a, .depth-4 a {
-      padding-left: 32px; font-size: 12.5px; color: var(--gray);
-      &::before { content: "›"; margin-right: 6px; color: #c4b5fd; font-weight: 700; }
+    .depth-3 a,
+    .depth-4 a {
+      padding-left: 32px;
+      font-size: 12.5px;
+      color: var(--gray);
+      &::before {
+        content: "›";
+        margin-right: 6px;
+        color: #c4b5fd;
+        font-weight: 700;
+      }
     }
   }
   .toc-progress {
-    margin-top: 16px; padding-top: 12px;
+    margin-top: 16px;
+    padding-top: 12px;
     border-top: 1px solid var(--lightgray);
   }
-  .toc-progress-label { font-size: 11px; color: var(--gray); margin-bottom: 6px; }
+  .toc-progress-label {
+    font-size: 11px;
+    color: var(--gray);
+    margin-bottom: 6px;
+  }
   .toc-progress-bar {
-    height: 4px; background: var(--lightgray); border-radius: 2px; overflow: hidden;
+    height: 4px;
+    background: var(--lightgray);
+    border-radius: 2px;
+    overflow: hidden;
   }
   .toc-progress-fill {
-    height: 100%; width: 0%;
+    height: 100%;
+    width: 0%;
     background: linear-gradient(90deg, #667eea, #764ba2);
-    border-radius: 2px; transition: width 0.3s ease;
+    border-radius: 2px;
+    transition: width 0.3s ease;
   }
 }
 
@@ -58,18 +95,33 @@
   display: none;
 }
 @media (max-width: 900px) {
-  .enhanced-toc { display: none; }
+  .enhanced-toc {
+    display: none;
+  }
   .mobile-toc {
     display: block;
-    position: sticky; top: 0; z-index: 100;
-    background: var(--light); border-bottom: 1px solid var(--lightgray);
-    padding: 10px 16px; margin: 0 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--light);
+    border-bottom: 1px solid var(--lightgray);
+    padding: 10px 16px;
+    margin: 0 0 20px;
     summary {
-      font-size: 13px; font-weight: 600; color: #6d28d9;
-      cursor: pointer; list-style: none;
-      &::-webkit-details-marker { display: none; }
-      &::before { content: "📑 "; }
+      font-size: 13px;
+      font-weight: 600;
+      color: #6d28d9;
+      cursor: pointer;
+      list-style: none;
+      &::-webkit-details-marker {
+        display: none;
+      }
+      &::before {
+        content: "📑 ";
+      }
     }
-    .toc-list { margin-top: 8px; }
+    .toc-list {
+      margin-top: 8px;
+    }
   }
 }

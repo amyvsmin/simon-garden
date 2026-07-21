@@ -49,7 +49,9 @@
       font-size: 0.85rem;
       color: #57606a;
 
-      .divider { color: #ccc; }
+      .divider {
+        color: #ccc;
+      }
     }
   }
 
@@ -70,9 +72,18 @@
     font-size: 0.72rem;
     font-weight: 500;
 
-    &.high { background: #dc2626; color: #fff; }
-    &.medium { background: #d97706; color: #fff; }
-    &.low { background: #16a34a; color: #fff; }
+    &.high {
+      background: #dc2626;
+      color: #fff;
+    }
+    &.medium {
+      background: #d97706;
+      color: #fff;
+    }
+    &.low {
+      background: #16a34a;
+      color: #fff;
+    }
   }
 
   .intel-tags {
@@ -116,7 +127,9 @@
       line-height: 1.5;
       color: #374151;
 
-      &:last-child { margin-bottom: 0; }
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       .highlight-dot {
         color: #dc2626;
@@ -157,13 +170,17 @@
       font-size: 1.5rem;
     }
 
-    .header-text h1 { font-size: 1.3rem; }
+    .header-text h1 {
+      font-size: 1.3rem;
+    }
   }
 }
 
 :root[saved-theme="dark"] {
   .weekly-intel-header {
-    .header-meta { color: var(--darkgray); }
+    .header-meta {
+      color: var(--darkgray);
+    }
 
     .intel-tags .tag-pill {
       background: rgba(109, 40, 217, 0.15);
@@ -174,18 +191,32 @@
       background: rgba(255, 255, 255, 0.05);
       border-color: rgba(255, 255, 255, 0.08);
 
-      .highlights-title { color: var(--darkgray); }
-      .highlight-item { color: var(--dark); }
+      .highlights-title {
+        color: var(--darkgray);
+      }
+      .highlight-item {
+        color: var(--dark);
+      }
     }
 
     .tldr-card {
-      background: linear-gradient(135deg, rgba(109, 40, 217, 0.1) 0%, rgba(109, 40, 217, 0.05) 100%);
-      .tldr-text { color: var(--dark); }
+      background: linear-gradient(
+        135deg,
+        rgba(109, 40, 217, 0.1) 0%,
+        rgba(109, 40, 217, 0.05) 100%
+      );
+      .tldr-text {
+        color: var(--dark);
+      }
     }
 
     .impact-badge {
-      &.high { opacity: 0.85; }
-      &.medium { opacity: 0.85; }
+      &.high {
+        opacity: 0.85;
+      }
+      &.medium {
+        opacity: 0.85;
+      }
     }
   }
 }

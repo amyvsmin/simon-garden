@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative } from "../util/path"
 import style from "./styles/weeklyIntelList.scss"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 const WeeklyIntelList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
   const slug = fileData.slug ?? ""
@@ -36,63 +37,58 @@ const WeeklyIntelList: QuartzComponent = ({ fileData, allFiles }: QuartzComponen
       </p>
 
       <div class="intel-timeline">
-        {latest && (() => {
-          const fm = latest.frontmatter ?? {}
-          const icon = (fm.icon as string) ?? "🛡️"
-          const issue = (fm.issue as string) ?? ""
-          const date = (fm.date as string) ?? ""
-          const coverRange = (fm.cover_range as string) ?? ""
-          const impact = (fm.impact as string) ?? ""
-          const tldr = (fm.tldr as string) ?? ""
-          const highlights = (fm.highlights as string[]) ?? []
-          const tags = (fm.tags as string[]) ?? []
+        {latest &&
+          (() => {
+            const fm = vaultFm(latest.frontmatter)
+            const icon = (fm.icon as string) ?? "🛡️"
+            const issue = (fm.issue as string) ?? ""
+            const date = (fm.date as string) ?? ""
+            const coverRange = (fm.cover_range as string) ?? ""
+            const impact = (fm.impact as string) ?? ""
+            const tldr = (fm.tldr as string) ?? ""
+            const highlights = (fm.highlights as string[]) ?? []
+            const tags = (fm.tags as string[]) ?? []
 
-          return (
-            <a
-              href={resolveRelative(fileData.slug!, latest.slug!)}
-              class="intel-card latest internal"
-            >
-              <div class="card-top">
-                <div class="card-top-left">
-                  <span class="card-icon">{icon}</span>
-                  {issue && <span class="issue-badge">{issue}</span>}
-                  <span class="card-date">{date}</span>
+            return (
+              <a
+                href={resolveRelative(fileData.slug!, latest.slug!)}
+                class="intel-card latest internal"
+              >
+                <div class="card-top">
+                  <div class="card-top-left">
+                    <span class="card-icon">{icon}</span>
+                    {issue && <span class="issue-badge">{issue}</span>}
+                    <span class="card-date">{date}</span>
+                  </div>
+                  <div class="card-top-right">
+                    {impact && <span class={`impact-badge ${impact}`}>{impact.toUpperCase()}</span>}
+                  </div>
                 </div>
-                <div class="card-top-right">
-                  {impact && (
-                    <span class={`impact-badge ${impact}`}>
-                      {impact.toUpperCase()}
-                    </span>
-                  )}
-                </div>
-              </div>
-              {coverRange && (
-                <div class="card-cover-range">涵蓋：{coverRange}</div>
-              )}
-              {tldr && <div class="card-tldr">{tldr}</div>}
-              {highlights.length > 0 && (
-                <div class="card-highlights">
-                  {highlights.map((h) => (
-                    <div class="highlight-item">
-                      <span class="highlight-dot">●</span>
-                      <span>{h}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-              {tags.length > 0 && (
-                <div class="card-tags">
-                  {tags.map((tag) => (
-                    <span class="tag-pill">{tag}</span>
-                  ))}
-                </div>
-              )}
-            </a>
-          )
-        })()}
+                {coverRange && <div class="card-cover-range">涵蓋：{coverRange}</div>}
+                {tldr && <div class="card-tldr">{tldr}</div>}
+                {highlights.length > 0 && (
+                  <div class="card-highlights">
+                    {highlights.map((h) => (
+                      <div class="highlight-item">
+                        <span class="highlight-dot">●</span>
+                        <span>{h}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {tags.length > 0 && (
+                  <div class="card-tags">
+                    {tags.map((tag) => (
+                      <span class="tag-pill">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </a>
+            )
+          })()}
 
         {history.map((item) => {
-          const fm = item.frontmatter ?? {}
+          const fm = vaultFm(item.frontmatter)
           const icon = (fm.icon as string) ?? "🛡️"
           const issue = (fm.issue as string) ?? ""
           const date = (fm.date as string) ?? ""
@@ -109,9 +105,7 @@ const WeeklyIntelList: QuartzComponent = ({ fileData, allFiles }: QuartzComponen
                 <span class="card-icon">{icon}</span>
                 {issue && <span class="issue-badge">{issue}</span>}
                 <span class="card-date">{date}</span>
-                {coverRange && (
-                  <span class="card-cover-range">涵蓋：{coverRange}</span>
-                )}
+                {coverRange && <span class="card-cover-range">涵蓋：{coverRange}</span>}
               </div>
               {tldr && <div class="card-tldr">{tldr}</div>}
               {tags.length > 0 && (

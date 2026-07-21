@@ -1,6 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/topicList.scss"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 function getTopicIcon(fm: Record<string, unknown>): string {
   const tags = (fm.tags as string[]) ?? []
@@ -73,13 +74,11 @@ const TopicList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps
         <span class="list-count">{topics.length} 個</span>
       </header>
 
-      <p class="list-description">
-        跨多篇文章與概念的整合主題頁，把相關知識串成完整敘事。
-      </p>
+      <p class="list-description">跨多篇文章與概念的整合主題頁，把相關知識串成完整敘事。</p>
 
       <div class="topic-grid">
         {topics.map((t) => {
-          const fm = t.frontmatter ?? {}
+          const fm = vaultFm(t.frontmatter)
           const title = (fm.title as string) ?? simplifySlug(t.slug!)
           const icon = getTopicIcon(fm)
           const status = (fm.status as string) ?? ""
@@ -98,12 +97,8 @@ const TopicList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps
                 <div class="card-title-text">{title}</div>
                 <div class="card-meta">
                   <span class={`status-badge ${statusInfo.cls}`}>{statusInfo.label}</span>
-                  {lastUpdated && (
-                    <span class="card-date">更新 {lastUpdated}</span>
-                  )}
-                  {!lastUpdated && created && (
-                    <span class="card-date">建立 {created}</span>
-                  )}
+                  {lastUpdated && <span class="card-date">更新 {lastUpdated}</span>}
+                  {!lastUpdated && created && <span class="card-date">建立 {created}</span>}
                   {refs > 0 && <span class="ref-count">🔗 {refs} 引用</span>}
                 </div>
                 {tags.length > 0 && (

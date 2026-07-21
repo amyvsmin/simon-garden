@@ -7,10 +7,18 @@
     border-radius: 6px 6px 0 0;
     margin-bottom: 1.2rem;
 
-    &.topic-security { background: linear-gradient(90deg, #f5576c, #ffa726); }
-    &.topic-ai { background: linear-gradient(90deg, #667eea, #764ba2); }
-    &.topic-knowledge { background: linear-gradient(90deg, #43e97b, #38f9d7); }
-    &.topic-default { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+    &.topic-security {
+      background: linear-gradient(90deg, #f5576c, #ffa726);
+    }
+    &.topic-ai {
+      background: linear-gradient(90deg, #667eea, #764ba2);
+    }
+    &.topic-knowledge {
+      background: linear-gradient(90deg, #43e97b, #38f9d7);
+    }
+    &.topic-default {
+      background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    }
   }
 
   .header-top {
@@ -52,7 +60,9 @@
       font-size: 0.85rem;
       color: #57606a;
 
-      .divider { color: #ccc; }
+      .divider {
+        color: #ccc;
+      }
 
       .status-badge {
         padding: 0.15rem 0.5rem;
@@ -60,10 +70,22 @@
         font-size: 0.78rem;
         font-weight: 500;
 
-        &.published { background: #d1fae5; color: #059669; }
-        &.draft { background: #fef9c3; color: #a16207; }
-        &.personal { background: #e0e7ff; color: #4338ca; }
-        &.default { background: #f3f4f6; color: #6b7280; }
+        &.published {
+          background: #d1fae5;
+          color: #059669;
+        }
+        &.draft {
+          background: #fef9c3;
+          color: #a16207;
+        }
+        &.personal {
+          background: #e0e7ff;
+          color: #4338ca;
+        }
+        &.default {
+          background: #f3f4f6;
+          color: #6b7280;
+        }
       }
     }
   }
@@ -92,13 +114,17 @@
       font-size: 1.5rem;
     }
 
-    .header-text h1 { font-size: 1.3rem; }
+    .header-text h1 {
+      font-size: 1.3rem;
+    }
   }
 }
 
 :root[saved-theme="dark"] {
   .topic-header {
-    .header-meta { color: var(--darkgray); }
+    .header-meta {
+      color: var(--darkgray);
+    }
 
     .topic-tags .tag-pill {
       background: rgba(109, 40, 217, 0.15);
@@ -106,9 +132,15 @@
     }
 
     .status-badge {
-      &.published { background: rgba(209, 250, 229, 0.15); }
-      &.draft { background: rgba(254, 249, 195, 0.15); }
-      &.personal { background: rgba(224, 231, 255, 0.15); }
+      &.published {
+        background: rgba(209, 250, 229, 0.15);
+      }
+      &.draft {
+        background: rgba(254, 249, 195, 0.15);
+      }
+      &.personal {
+        background: rgba(224, 231, 255, 0.15);
+      }
     }
   }
 }

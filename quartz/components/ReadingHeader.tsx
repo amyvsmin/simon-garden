@@ -1,13 +1,15 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative } from "../util/path"
 import style from "./styles/readingHeader.scss"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 function getReadingIcon(frontmatter: Record<string, unknown>): string {
   const concepts = (frontmatter.concepts as string[]) ?? []
   const title = (frontmatter.title as string) ?? ""
   const joined = [...concepts, title.toLowerCase()].join(" ")
 
-  if (/secops|kill-chain|zero-trust|cia|incident|siem|vulnerability|資安|安全/.test(joined)) return "🛡️"
+  if (/secops|kill-chain|zero-trust|cia|incident|siem|vulnerability|資安|安全/.test(joined))
+    return "🛡️"
   if (/claude|prompt|token|agent|llm|ai|gpt|gemini/.test(joined)) return "⚡"
   if (/vault|obsidian|notion|knowledge|pkm|知識|筆記/.test(joined)) return "🧠"
   if (/google|i\/o|docs-live/.test(joined)) return "🌐"
@@ -24,9 +26,12 @@ function getGradientClass(type: string): string {
 
 function getStageInfo(stage: string): { emoji: string; label: string; cls: string } {
   switch (stage) {
-    case "evergreen": return { emoji: "🌳", label: "evergreen", cls: "evergreen" }
-    case "growing": return { emoji: "🌿", label: "growing", cls: "growing" }
-    default: return { emoji: "🌱", label: "seedling", cls: "seedling" }
+    case "evergreen":
+      return { emoji: "🌳", label: "evergreen", cls: "evergreen" }
+    case "growing":
+      return { emoji: "🌿", label: "growing", cls: "growing" }
+    default:
+      return { emoji: "🌱", label: "seedling", cls: "seedling" }
   }
 }
 
@@ -34,12 +39,12 @@ function estimateReadingTime(text?: string): string {
   if (!text) return "1 分鐘"
   const cjkChars = (text.match(/[一-鿿]/g) || []).length
   const words = text.split(/\s+/).length
-  const minutes = Math.max(1, Math.round((cjkChars / 500 + words / 250)))
+  const minutes = Math.max(1, Math.round(cjkChars / 500 + words / 250))
   return `${minutes} 分鐘`
 }
 
 const ReadingHeader: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
-  const fm = fileData.frontmatter ?? {}
+  const fm = vaultFm(fileData.frontmatter)
   const icon = (fm.icon as string) || getReadingIcon(fm)
   const type = (fm.type as string) ?? ""
   const impact = (fm.impact as string) ?? ""
@@ -57,7 +62,10 @@ const ReadingHeader: QuartzComponent = ({ fileData, allFiles }: QuartzComponentP
       <div class={`gradient-band ${getGradientClass(type)}`} />
 
       <div class="header-top">
-        <div class="header-icon" style={{ background: "linear-gradient(135deg, #e0e7ff, #c7d2fe)" }}>
+        <div
+          class="header-icon"
+          style={{ background: "linear-gradient(135deg, #e0e7ff, #c7d2fe)" }}
+        >
           {icon}
         </div>
         <div class="header-text">
@@ -122,7 +130,9 @@ const ReadingHeader: QuartzComponent = ({ fileData, allFiles }: QuartzComponentP
               return (
                 <>
                   {i > 0 && "、"}
-                  <a href={href} class="internal">{c}</a>
+                  <a href={href} class="internal">
+                    {c}
+                  </a>
                 </>
               )
             })}

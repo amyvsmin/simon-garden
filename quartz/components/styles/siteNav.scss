@@ -22,7 +22,9 @@
     border-bottom: none !important;
     flex-shrink: 0;
 
-    .brand-icon { font-size: 1.15rem; }
+    .brand-icon {
+      font-size: 1.15rem;
+    }
 
     &:hover {
       color: #6d28d9;
@@ -91,7 +93,9 @@
         }
       }
 
-      & > p { display: none; }
+      & > p {
+        display: none;
+      }
 
       .search-label {
         font-size: 0.85rem;
@@ -102,8 +106,12 @@
       &:hover {
         background: #f5f3ff;
 
-        .search-label { color: #6d28d9; }
-        .search-path { stroke: #6d28d9; }
+        .search-label {
+          color: #6d28d9;
+        }
+        .search-path {
+          stroke: #6d28d9;
+        }
       }
     }
   }
@@ -111,7 +119,9 @@
   // Dark mode 切換鈕 — 放進導覽列，hover 對齊其他項目的紫色
   .darkmode {
     flex-shrink: 0;
-    &:hover svg { fill: #6d28d9; }
+    &:hover svg {
+      fill: #6d28d9;
+    }
   }
 }
 
@@ -154,7 +164,9 @@
       border-radius: 14px !important;
       overflow: hidden;
 
-      & > div { border-radius: 14px; }
+      & > div {
+        border-radius: 14px;
+      }
 
       & .highlight {
         background: rgba(109, 40, 217, 0.15) !important;
@@ -169,9 +181,12 @@
           border-bottom: 1px solid var(--lightgray);
           transition: background 0.15s;
 
-          &:last-child { border-bottom: none; }
+          &:last-child {
+            border-bottom: none;
+          }
 
-          &:hover, &.focus {
+          &:hover,
+          &.focus {
             background: #f5f3ff !important;
           }
 
@@ -191,7 +206,9 @@
           &.no-match {
             text-align: center;
             color: var(--darkgray);
-            & > h3 { font-weight: 500; }
+            & > h3 {
+              font-weight: 500;
+            }
           }
         }
       }
@@ -211,7 +228,9 @@
     padding: 0.5rem 0;
     gap: 0.4rem;
 
-    .brand-text { display: none; }
+    .brand-text {
+      display: none;
+    }
 
     .nav-links {
       gap: 0.15rem;
@@ -225,7 +244,9 @@
     .search > .search-button {
       padding: 0.3rem !important;
 
-      .search-label { display: none; }
+      .search-label {
+        display: none;
+      }
     }
   }
 }
@@ -238,8 +259,12 @@
     border-bottom-color: rgba(255, 255, 255, 0.08);
 
     .nav-link {
-      &:hover { background: rgba(109, 40, 217, 0.15); }
-      &.active { background: rgba(109, 40, 217, 0.2); }
+      &:hover {
+        background: rgba(109, 40, 217, 0.15);
+      }
+      &.active {
+        background: rgba(109, 40, 217, 0.2);
+      }
     }
 
     .search > .search-button:hover {
@@ -252,7 +277,10 @@
 
     & > .search-space > .search-layout {
       & > .results-container .result-card {
-        &:hover, &.focus { background: rgba(109, 40, 217, 0.1) !important; }
+        &:hover,
+        &.focus {
+          background: rgba(109, 40, 217, 0.1) !important;
+        }
       }
 
       & .highlight {

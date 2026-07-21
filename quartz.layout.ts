@@ -27,8 +27,7 @@ const isWeeklyIntel = (p: { fileData: { slug?: string } }) =>
 const isDetailPage = (p: { fileData: { slug?: string } }) =>
   isReading(p) || isConcept(p) || isTopic(p) || isWeeklyIntel(p)
 
-const isIndex = (p: { fileData: { slug?: string } }) =>
-  p.fileData.slug === "index"
+const isIndex = (p: { fileData: { slug?: string } }) => p.fileData.slug === "index"
 
 const isFolderIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "readings/index" ||
@@ -36,20 +35,22 @@ const isFolderIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "topics/index" ||
   p.fileData.slug === "weekly-intel/index"
 
-const isReadingIndex = (p: { fileData: { slug?: string } }) =>
-  p.fileData.slug === "readings/index"
+const isReadingIndex = (p: { fileData: { slug?: string } }) => p.fileData.slug === "readings/index"
 
-const isConceptIndex = (p: { fileData: { slug?: string } }) =>
-  p.fileData.slug === "concepts/index"
+const isConceptIndex = (p: { fileData: { slug?: string } }) => p.fileData.slug === "concepts/index"
 
-const isTopicIndex = (p: { fileData: { slug?: string } }) =>
-  p.fileData.slug === "topics/index"
+const isTopicIndex = (p: { fileData: { slug?: string } }) => p.fileData.slug === "topics/index"
 
 const isWeeklyIntelIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "weekly-intel/index"
 
 const isDefault = (p: { fileData: { slug?: string } }) =>
-  !isReading(p) && !isConcept(p) && !isTopic(p) && !isWeeklyIntel(p) && !isIndex(p) && !isFolderIndex(p)
+  !isReading(p) &&
+  !isConcept(p) &&
+  !isTopic(p) &&
+  !isWeeklyIntel(p) &&
+  !isIndex(p) &&
+  !isFolderIndex(p)
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -114,9 +115,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
-      components: [
-        { Component: Component.ReaderMode() },
-      ],
+      components: [{ Component: Component.ReaderMode() }],
     }),
     Component.ConditionalRender({
       component: Component.Explorer({ folderDefaultState: "collapsed" }),

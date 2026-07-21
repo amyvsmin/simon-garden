@@ -7,8 +7,18 @@
     color: #57606a;
     margin-bottom: 0.5rem;
 
-    a { color: #6d28d9; text-decoration: none; background-image: none; &:hover { text-decoration: underline; } }
-    .separator { margin: 0 0.3rem; color: #ccc; }
+    a {
+      color: #6d28d9;
+      text-decoration: none;
+      background-image: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .separator {
+      margin: 0 0.3rem;
+      color: #ccc;
+    }
   }
 
   .list-header {
@@ -85,7 +95,9 @@
     border-radius: 12px;
     text-decoration: none;
     color: inherit;
-    transition: box-shadow 0.2s, border-color 0.2s;
+    transition:
+      box-shadow 0.2s,
+      border-color 0.2s;
 
     &:hover {
       border-color: #c4b5fd;
@@ -126,8 +138,14 @@
       }
 
       .confidence-badge {
-        &.verified { background: #d1fae5; color: #059669; }
-        &.unverified { background: #fef9c3; color: #a16207; }
+        &.verified {
+          background: #d1fae5;
+          color: #059669;
+        }
+        &.unverified {
+          background: #fef9c3;
+          color: #a16207;
+        }
       }
 
       .ref-badge {

@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/weeklyIntelHeader.scss"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 function estimateReadingTime(text?: string): string {
   if (!text) return "1 分鐘"
@@ -10,7 +11,7 @@ function estimateReadingTime(text?: string): string {
 }
 
 const WeeklyIntelHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
-  const fm = fileData.frontmatter ?? {}
+  const fm = vaultFm(fileData.frontmatter)
   const icon = (fm.icon as string) ?? "🛡️"
   const issue = (fm.issue as string) ?? ""
   const coverRange = (fm.cover_range as string) ?? ""
@@ -30,11 +31,7 @@ const WeeklyIntelHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) 
           <h1>{fm.title as string}</h1>
           <div class="header-meta">
             {issue && <span class="issue-badge">{issue}</span>}
-            {impact && (
-              <span class={`impact-badge ${impact}`}>
-                {impact.toUpperCase()}
-              </span>
-            )}
+            {impact && <span class={`impact-badge ${impact}`}>{impact.toUpperCase()}</span>}
             {coverRange && (
               <>
                 <span class="divider">·</span>

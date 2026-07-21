@@ -1,6 +1,9 @@
 function setupReadingList() {
-  const container = document.querySelector(".reading-list")
-  if (!container) return
+  const root = document.querySelector(".reading-list")
+  if (!root) return
+  // 收成非 null 的區域常數：TS 對 const 的 narrowing 在巢狀函式（closure）內不保證存續，
+  // 直接用 container 會讓每個 querySelector 都報 TS18047。
+  const container: Element = root
 
   const cards = Array.from(container.querySelectorAll(".reading-card")) as HTMLElement[]
   const countEl = container.querySelector(".list-count") as HTMLElement
@@ -10,11 +13,14 @@ function setupReadingList() {
   let currentPage = 1
 
   function getFilters() {
-    const impact = (container.querySelector('[data-filter="impact"]') as HTMLSelectElement)?.value ?? "all"
-    const type = (container.querySelector('[data-filter="type"]') as HTMLSelectElement)?.value ?? "all"
+    const impact =
+      (container.querySelector('[data-filter="impact"]') as HTMLSelectElement)?.value ?? "all"
+    const type =
+      (container.querySelector('[data-filter="type"]') as HTMLSelectElement)?.value ?? "all"
     const domain =
       (container.querySelector('[data-filter="domain"]') as HTMLSelectElement)?.value ?? "all"
-    const sort = (container.querySelector('[data-filter="sort"]') as HTMLSelectElement)?.value ?? "date-desc"
+    const sort =
+      (container.querySelector('[data-filter="sort"]') as HTMLSelectElement)?.value ?? "date-desc"
     return { impact, type, domain, sort }
   }
 

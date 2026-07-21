@@ -4,6 +4,7 @@ import style from "./styles/dashboardHome.scss"
 import { readFileSync } from "fs"
 import { join } from "path"
 import { isReadingSlug } from "../util/readingSlug"
+import { vaultFm } from "../util/vaultFrontmatter"
 
 const thumbColors = [
   "linear-gradient(135deg, #e0e7ff, #c7d2fe)",
@@ -25,7 +26,7 @@ function getReadingIcon(fm: Record<string, unknown>): string {
   return "📊"
 }
 
-const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponentProps) => {
+const DashboardHome: QuartzComponent = ({ fileData, allFiles }: QuartzComponentProps) => {
   if (fileData.slug !== "index") return null
 
   const readings = allFiles
@@ -40,9 +41,7 @@ const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzCompo
     (f) => f.slug?.startsWith("concepts/") && f.slug !== "concepts/index",
   )
 
-  const topics = allFiles.filter(
-    (f) => f.slug?.startsWith("topics/") && f.slug !== "topics/index",
-  )
+  const topics = allFiles.filter((f) => f.slug?.startsWith("topics/") && f.slug !== "topics/index")
 
   const weeklyIntel = allFiles.filter(
     (f) => f.slug?.startsWith("weekly-intel/") && f.slug !== "weekly-intel/index",
@@ -92,13 +91,19 @@ const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzCompo
           <div class="stat-label">概念</div>
           <div class="stat-sublabel">跨文章萃取</div>
         </div>
-        <a href={resolveRelative(fileData.slug!, "topics/" as any)} class="stat-card stat-card-link internal">
+        <a
+          href={resolveRelative(fileData.slug!, "topics/" as any)}
+          class="stat-card stat-card-link internal"
+        >
           <div class="stat-icon">🗂️</div>
           <div class="stat-number amber">{topics.length}</div>
           <div class="stat-label">主題</div>
           <div class="stat-sublabel">跨概念整合</div>
         </a>
-        <a href={resolveRelative(fileData.slug!, "weekly-intel/" as any)} class="stat-card stat-card-link internal">
+        <a
+          href={resolveRelative(fileData.slug!, "weekly-intel/" as any)}
+          class="stat-card stat-card-link internal"
+        >
           <div class="stat-icon">🛡️</div>
           <div class="stat-number red">{weeklyIntel.length}</div>
           <div class="stat-label">週報</div>
@@ -114,7 +119,7 @@ const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzCompo
       </div>
       <div class="article-list">
         {latest5.map((f, i) => {
-          const fm = f.frontmatter ?? {}
+          const fm = vaultFm(f.frontmatter)
           const icon = (fm.icon as string) || getReadingIcon(fm)
           const impact = (fm.impact as string) ?? ""
           const fmConcepts = (fm.concepts as string[]) ?? []

@@ -7,8 +7,18 @@
     color: #57606a;
     margin-bottom: 0.5rem;
 
-    a { color: #6d28d9; text-decoration: none; background-image: none; &:hover { text-decoration: underline; } }
-    .separator { margin: 0 0.3rem; color: #ccc; }
+    a {
+      color: #6d28d9;
+      text-decoration: none;
+      background-image: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .separator {
+      margin: 0 0.3rem;
+      color: #ccc;
+    }
   }
 
   .list-header {
@@ -84,7 +94,9 @@
     border-radius: 12px;
     text-decoration: none;
     color: inherit;
-    transition: box-shadow 0.2s, border-color 0.2s;
+    transition:
+      box-shadow 0.2s,
+      border-color 0.2s;
 
     &:hover {
       border-color: #c4b5fd;
@@ -128,9 +140,18 @@
         border-radius: 12px;
         white-space: nowrap;
 
-        &.seedling { background: #fef9c3; color: #a16207; }
-        &.growing { background: #e8f5e9; color: #2e7d32; }
-        &.evergreen { background: #d1fae5; color: #059669; }
+        &.seedling {
+          background: #fef9c3;
+          color: #a16207;
+        }
+        &.growing {
+          background: #e8f5e9;
+          color: #2e7d32;
+        }
+        &.evergreen {
+          background: #d1fae5;
+          color: #059669;
+        }
       }
 
       .card-meta {
@@ -148,11 +169,17 @@
           border-radius: 50%;
           display: inline-block;
 
-          &.high { background: #dc2626; }
-          &.medium { background: #f59e0b; }
+          &.high {
+            background: #dc2626;
+          }
+          &.medium {
+            background: #f59e0b;
+          }
         }
 
-        .dot { color: #ccc; }
+        .dot {
+          color: #ccc;
+        }
       }
 
       .card-tldr {
