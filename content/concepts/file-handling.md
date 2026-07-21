@@ -2,7 +2,7 @@
 title: "檔案處理（File Handling）"
 slug: file-handling
 aliases: [File handling, 檔案處理, file operations, 檔案操作, file I/O, 讀寫檔案]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

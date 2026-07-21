@@ -2,7 +2,7 @@
 title: "金鑰生命週期管理（Key Lifecycle Management）"
 slug: key-lifecycle-management
 aliases: [Key Lifecycle Management, Key Management, 金鑰生命週期管理, 金鑰管理, 金鑰生命週期]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-06
 ---

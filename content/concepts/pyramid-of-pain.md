@@ -2,7 +2,7 @@
 title: "痛苦金字塔（Pyramid of Pain）"
 slug: pyramid-of-pain
 aliases: [Pyramid of Pain, 痛苦金字塔, 痛苦金字塔模型, pyramid of pain]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

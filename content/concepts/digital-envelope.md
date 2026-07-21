@@ -2,7 +2,7 @@
 title: "數位信封（Digital Envelope / 混合式加密）"
 slug: digital-envelope
 aliases: [Digital Envelope, 數位信封, 混合加密, 混合式加密, Hybrid Encryption, 數位信封加密]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-04
 ---

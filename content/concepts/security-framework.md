@@ -2,7 +2,7 @@
 title: "安全框架（Security Framework）"
 slug: security-framework
 aliases: [Security Framework, 安全框架, security framework, 資安框架, security frameworks, 安全框架指引]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-25
 ---

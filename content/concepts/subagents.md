@@ -2,7 +2,7 @@
 title: "Subagents / Agent Teams"
 slug: subagents
 aliases: [Claude subagent, custom subagents, 分身團隊, agent team]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

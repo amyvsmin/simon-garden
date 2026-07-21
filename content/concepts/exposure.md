@@ -2,7 +2,7 @@
 title: "曝露（Exposure）"
 slug: exposure
 aliases: [Exposure, 曝露, 暴露, 資訊曝露, security exposure, 安全曝露]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-25
 ---

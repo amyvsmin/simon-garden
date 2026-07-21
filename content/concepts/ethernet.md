@@ -2,7 +2,7 @@
 title: "乙太網路（Ethernet，含 10BASE-T 命名法）"
 slug: ethernet
 aliases: [Ethernet, 乙太網路, 以太網, IEEE 802.3, ethernet-naming-convention, 乙太網路命名法, 10BASE-T, 1000BASE-T, BASE-T]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

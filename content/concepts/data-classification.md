@@ -2,7 +2,7 @@
 title: "資料分類（Data Classification）"
 slug: data-classification
 aliases: [Data Classification, 資料分類, data classification, 資料分級, public data, private data, sensitive data, confidential data, 公開資料, 私有資料, 敏感資料, 機密資料]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-06-23
 ---

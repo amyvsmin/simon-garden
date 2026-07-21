@@ -2,7 +2,7 @@
 title: "資料型別（Data Type）"
 slug: data-type
 aliases: [Data type, 資料型別, 資料型態, data types, 型別]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

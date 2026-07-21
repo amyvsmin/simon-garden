@@ -2,7 +2,7 @@
 title: "技能半衰期（Skill Half-Life）"
 slug: skill-half-life
 aliases: [技能半衰期, skill half-life, 能力半衰期, 技能的半衰期]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-19
 ---

@@ -2,7 +2,7 @@
 title: "零信任（Zero Trust）"
 slug: zero-trust
 aliases: [Zero Trust, 零信任, 零信任架構, zero trust, ZTA, zero trust architecture, never trust always verify]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-06-13
 ---

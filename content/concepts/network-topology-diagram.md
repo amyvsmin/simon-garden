@@ -2,7 +2,7 @@
 title: "網路拓樸圖（Network Topology Diagram，邏輯 vs 實體）"
 slug: network-topology-diagram
 aliases: [Network Topology Diagram, 網路拓樸圖, 拓樸圖, 拓撲圖, 邏輯拓撲圖, 實體佈置圖, topology diagram]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

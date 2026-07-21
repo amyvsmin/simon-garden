@@ -2,7 +2,7 @@
 title: "單一登入（Single Sign-On / SSO）"
 slug: sso-single-sign-on
 aliases: [SSO, single sign-on, 單一登入, 單點登入, 統一登入, SAML, OIDC]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-25
 ---

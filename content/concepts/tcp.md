@@ -2,7 +2,7 @@
 title: "TCP 傳輸控制協定（Transmission Control Protocol）"
 slug: tcp
 aliases: [TCP, Transmission Control Protocol, 傳輸控制協定]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

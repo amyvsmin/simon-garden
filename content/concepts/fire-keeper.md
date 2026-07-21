@@ -2,7 +2,7 @@
 title: "守火人（意義夥伴 AI）"
 slug: fire-keeper
 aliases: [守火人, fire keeper, firekeeper, 守火人 AI]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-19
 ---

@@ -2,7 +2,7 @@
 title: "答案規格表（Output Schema）"
 slug: output-schema
 aliases: [答案規格表, output schema, 輸出規格, 輸出契約, output contract, structured output spec, 欄位把關, 結構化輸出規格]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-03
 ---

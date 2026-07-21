@@ -2,7 +2,7 @@
 title: "IPv4 位址枯竭（IPv4 Address Exhaustion）"
 slug: ipv4-address-exhaustion
 aliases: [IPv4 Address Exhaustion, IPv4 位址枯竭, IPv4 位址耗盡, IPv4 位址池耗盡, 位址枯竭, address exhaustion, IP 枯竭]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

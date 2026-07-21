@@ -2,7 +2,7 @@
 title: "Skill"
 slug: skill
 aliases: [Claude Skill, 技能包]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

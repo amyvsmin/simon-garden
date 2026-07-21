@@ -2,7 +2,7 @@
 title: "資訊生命週期策略（Information Lifecycle Strategy）"
 slug: information-lifecycle-strategy
 aliases: [Information Lifecycle Strategy, 資訊生命週期, information lifecycle, 資訊生命週期策略, 資安生命週期, security lifecycle]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-06-23
 ---

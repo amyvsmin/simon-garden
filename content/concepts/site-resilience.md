@@ -2,7 +2,7 @@
 title: "站點韌性（Site Resilience）"
 slug: site-resilience
 aliases: [Site Resilience, 站點韌性, 站台韌性, 異地備援, site resilience, hot site, warm site, cold site, 熱備站, 溫備站, 冷備站, recovery site]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-13
 ---

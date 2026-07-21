@@ -2,7 +2,7 @@
 title: "資料外洩通報法（Breach Notification Law）"
 slug: breach-notification-law
 aliases: [Breach Notification Law, breach notification law, 資料外洩通報法, 外洩通報法, 資料外洩通知法, breach notification, 個資外洩通報]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-23
 ---

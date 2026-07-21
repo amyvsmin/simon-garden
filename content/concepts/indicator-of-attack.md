@@ -2,7 +2,7 @@
 title: "攻擊指標（Indicator of Attack / IoA）"
 slug: indicator-of-attack
 aliases: [Indicator of Attack, IoA, IoAs, 攻擊指標, indicators of attack, indicator of attack]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

@@ -2,7 +2,7 @@
 title: "使用者自訂函式（User-defined Function）"
 slug: user-defined-function
 aliases: [User-defined function, 使用者自訂函式, user defined function, 自訂函式, 使用者定義函式]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

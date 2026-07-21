@@ -2,7 +2,7 @@
 title: "日誌可追"
 slug: log-traceability
 aliases: [Audit Log, 變更日誌, Action Log]
-category: 自動化
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

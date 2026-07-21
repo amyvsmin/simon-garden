@@ -2,7 +2,7 @@
 title: "USB 誘餌攻擊（USB Baiting）"
 slug: usb-baiting
 aliases: [USB Baiting, USB 誘餌攻擊, USB 誘餌, USB drop attack, USB 釣餌, 隨身碟攻擊]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-25
 ---

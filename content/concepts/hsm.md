@@ -2,7 +2,7 @@
 title: "HSM 硬體安全模組（Hardware Security Module）"
 slug: hsm
 aliases: [HSM, Hardware Security Module, 硬體安全模組]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-06
 ---

@@ -2,7 +2,7 @@
 title: "職業人脈經營（資安職涯的連結）"
 slug: professional-networking
 aliases: [職業人脈經營, 人脈經營, 建立人脈, professional networking, professional-networking, networking, 資安人脈, 連結同行, LinkedIn 連結]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-25
 ---

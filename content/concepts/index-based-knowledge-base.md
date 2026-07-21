@@ -2,7 +2,7 @@
 title: "索引式知識庫"
 slug: index-based-knowledge-base
 aliases: [Index-based KB, 目錄式知識庫, 無向量知識庫]
-category: 自動化
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 updated: 2026-07-09

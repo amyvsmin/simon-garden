@@ -2,7 +2,7 @@
 title: "釣魚（Phishing）"
 slug: phishing
 aliases: [Phishing, 釣魚, 網路釣魚]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-30
 ---

@@ -2,7 +2,7 @@
 title: "知識的詛咒（Curse of Knowledge）"
 slug: curse-of-knowledge
 aliases: [知識的詛咒, curse of knowledge, 知識詛咒, 專家忘記非專家不懂, 說得有畫面, 術語翻譯, 行話翻譯, 所以呢測試, 語義三角]
-category: 溝通
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-03
 ---

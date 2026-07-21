@@ -2,7 +2,7 @@
 title: "無線控制器（Wireless LAN Controller, WLC）"
 slug: wireless-lan-controller
 aliases: [Wireless LAN Controller, WLC, 無線控制器, 無線區域網路控制器, wireless controller]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

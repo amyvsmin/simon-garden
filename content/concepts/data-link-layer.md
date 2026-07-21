@@ -2,7 +2,7 @@
 title: "資料連結層（Data Link Layer，OSI L2）"
 slug: data-link-layer
 aliases: [Data Link Layer, 資料連結層, 資料鏈結層, OSI 第二層, L2]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

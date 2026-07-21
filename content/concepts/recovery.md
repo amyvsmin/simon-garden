@@ -2,7 +2,7 @@
 title: "復原（Recovery）"
 slug: recovery
 aliases: [Recovery, 復原, 復元, 系統復原, recovery, 恢復運作]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

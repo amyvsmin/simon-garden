@@ -2,7 +2,7 @@
 title: "內插與外推（AI 能力的邊界）"
 slug: interpolation-vs-extrapolation
 aliases: [內插與外推, 內插 vs 外推, interpolation vs extrapolation, 內插外推]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-19
 ---

@@ -2,7 +2,7 @@
 title: "加密資產清單"
 slug: cbom
 aliases: [CBOM, Cryptographic Bill of Materials, 加密物料清單, 密碼資產盤點]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-07
 ---

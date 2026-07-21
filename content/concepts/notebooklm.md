@@ -2,7 +2,7 @@
 title: "NotebookLM（來源扎根的 AI 研究助理）"
 slug: notebooklm
 aliases: [NotebookLM, notebooklm, Google NotebookLM, 來源扎根 AI, source-grounded AI, 個人化研究助理]
-category: AI／生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-06-29
 ---

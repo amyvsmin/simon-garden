@@ -2,7 +2,7 @@
 title: "神經可塑性（Neuroplasticity）"
 slug: neuroplasticity
 aliases: [神經可塑性, Neuroplasticity, brain plasticity, 大腦可塑性]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 待驗證
 created: 2026-07-19
 ---

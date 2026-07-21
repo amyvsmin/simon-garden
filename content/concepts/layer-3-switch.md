@@ -2,7 +2,7 @@
 title: "三層交換機（Layer 3 Switch，含二層/多層對比）"
 slug: layer-3-switch
 aliases: [Layer 3 Switch, 三層交換機, 三層交換器, L3 switch, 二層交換機, Layer 2 Switch, 多層交換機, Multilayer Switch]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

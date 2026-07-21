@@ -2,7 +2,7 @@
 title: "刻意練習（Deliberate Practice）"
 slug: deliberate-practice
 aliases: [刻意練習, deliberate practice, Ericsson, 有目的的練習, 練習的品質]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

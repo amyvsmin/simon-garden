@@ -2,7 +2,7 @@
 title: "IPsec（VPN 網路層加密協定）"
 slug: ipsec
 aliases: [IPsec, IPSec, IP Security, 網路層加密, VPN 加密協定, ipsec]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-06
 ---

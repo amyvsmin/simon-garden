@@ -2,7 +2,7 @@
 title: "註解（Comment）"
 slug: code-comment
 aliases: [Comment, 註解, code comment, comments, 程式註解, 註釋, single-line comment, multi-line comment]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

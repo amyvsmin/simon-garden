@@ -2,7 +2,7 @@
 title: "密碼學（Cryptography）"
 slug: cryptography
 aliases: [Cryptography, 密碼學, 加密技術, 加密學, encryption, decryption, 加密, 解密, 加密與解密, encryption and decryption, 密文, 明文, ciphertext, plaintext]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-25
 ---

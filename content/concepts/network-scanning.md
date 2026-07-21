@@ -2,7 +2,7 @@
 title: "網路掃描（Network Scanning）"
 slug: network-scanning
 aliases: [網路掃描, Network Scanning, Port Scanning, 埠掃描, 通訊埠掃描, 主機掃描, banner grabbing]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-07-05
 ---

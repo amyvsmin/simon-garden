@@ -2,7 +2,7 @@
 title: "命令選項"
 slug: command-options
 aliases: [options, command options, flags, 旗標, 命令旗標]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

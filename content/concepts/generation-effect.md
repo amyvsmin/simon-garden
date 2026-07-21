@@ -2,7 +2,7 @@
 title: "生成效應（Generation Effect）"
 slug: generation-effect
 aliases: [生成效應, generation effect, 產生效應, 自己想過才記得, 先猜再看, Slamecka]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

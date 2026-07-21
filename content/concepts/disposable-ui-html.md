@@ -2,7 +2,7 @@
 title: "用完即丟 HTML 介面"
 slug: disposable-ui-html
 aliases: [用完即丟 HTML 介面, disposable HTML UI, throwaway HTML interface, 客製即丟介面, 一次性 HTML 介面]
-category: AI／生產力
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-13
 ---

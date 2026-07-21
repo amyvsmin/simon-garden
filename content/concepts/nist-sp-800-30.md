@@ -2,7 +2,7 @@
 title: "NIST SP 800-30（風險評估指南）"
 slug: nist-sp-800-30
 aliases: [NIST SP 800-30, 風險評估指南, Guide for Conducting Risk Assessments, NIST 800-30, 風險評估方法論]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

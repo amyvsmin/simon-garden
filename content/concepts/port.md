@@ -2,7 +2,7 @@
 title: "連接埠（Port）"
 slug: port
 aliases: [Port, 連接埠, 通訊埠, 埠號, port-number, port-numbers, Port Number, well-known port, 知名埠]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

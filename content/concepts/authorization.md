@@ -2,7 +2,7 @@
 title: "授權"
 slug: authorization
 aliases: [authorization, 存取授權, 授權控管]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

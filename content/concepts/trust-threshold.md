@@ -2,7 +2,7 @@
 title: "信任門檻（Trust Threshold）"
 slug: trust-threshold
 aliases: [信任門檻, trust threshold, AI 信任門檻, 自動化可靠度門檻, trust calibration, 損失趨避, loss aversion, 例外驗證]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-03
 ---

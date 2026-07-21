@@ -2,7 +2,7 @@
 title: "提示工程（Prompt Engineering）"
 slug: prompt-engineering
 aliases: [Prompt Engineering, 提示工程, prompt engineering, 寫 prompt, 提示詞工程, prompting, 提示設計]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

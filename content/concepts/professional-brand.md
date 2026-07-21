@@ -2,7 +2,7 @@
 title: "專業品牌與線上形象（Professional Brand / Online Presence）"
 slug: professional-brand
 aliases: [專業品牌, 個人品牌, 線上形象, professional brand, professional-brand, online presence, personal brand, 個人線上形象]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

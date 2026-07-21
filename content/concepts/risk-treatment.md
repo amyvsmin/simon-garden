@@ -2,7 +2,7 @@
 title: "風險處理四策略（Risk Treatment）"
 slug: risk-treatment
 aliases: [風險處理, Risk Treatment, 風險處理策略, 風險應對, 風險修改, 風險保留, 風險避免, 風險分攤, 風險轉移, 風險接受]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-07-05
 ---

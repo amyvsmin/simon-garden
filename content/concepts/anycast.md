@@ -2,7 +2,7 @@
 title: "任意播（Anycast）"
 slug: anycast
 aliases: [Anycast, 任意播, 任播, 選播, anycast address, 任意播位址]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

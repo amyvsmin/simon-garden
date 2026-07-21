@@ -2,7 +2,7 @@
 title: "Rootkit（根工具組）"
 slug: rootkit
 aliases: [Rootkit, root kit, 根工具組, 根工具包]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

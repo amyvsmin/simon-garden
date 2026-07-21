@@ -2,7 +2,7 @@
 title: "上下文腐爛（Context Rot）"
 slug: context-rot
 aliases: [上下文腐爛, context rot, context decay, 對話腐爛, 長對話效能衰退, Claude context rot]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-13
 ---

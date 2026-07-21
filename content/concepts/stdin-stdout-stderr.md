@@ -2,7 +2,7 @@
 title: "標準輸入輸出"
 slug: stdin-stdout-stderr
 aliases: [stdin, stdout, stderr, standard input, standard output, standard error, 標準輸入, 標準輸出, 標準錯誤, file descriptor]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

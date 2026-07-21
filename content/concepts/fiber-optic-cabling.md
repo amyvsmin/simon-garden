@@ -2,7 +2,7 @@
 title: "光纖（Fiber Optic，含單模 vs 多模・接頭・FTTH）"
 slug: fiber-optic-cabling
 aliases: [Fiber Optic, 光纖, 光纖線, single-mode-vs-multimode-fiber, 單模光纖, 多模光纖, single-mode, multimode, LC, SC, ST, FC, MPO, MTP, FTTH]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

@@ -2,7 +2,7 @@
 title: "突觸減除（Synaptic Pruning）"
 slug: synaptic-pruning
 aliases: [突觸減除, 突觸修剪, synaptic pruning, 用進廢退, 神經迴路修剪]
-category: 生產力
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-05-31
 ---

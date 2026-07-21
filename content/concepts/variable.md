@@ -2,7 +2,7 @@
 title: "變數（Variable）"
 slug: variable
 aliases: [Variable, 變數, variables]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

@@ -2,7 +2,7 @@
 title: "公司研究（Company Research）"
 slug: company-research
 aliases: [公司研究, 招募公司調查, company research, company-research, 公司背景調查, 雇主研究]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

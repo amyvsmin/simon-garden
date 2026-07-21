@@ -2,7 +2,7 @@
 title: "Cisco IOS 與作業系統家族（IOS/IOS-XR/IOS-XE/NX-OS）"
 slug: cisco-ios
 aliases: [Cisco IOS, IOS, Internetwork Operating System, 互聯網作業系統, cisco-network-os-family, Cisco 作業系統家族, IOS-XR, IOS-XE, NX-OS, Networking Software System]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

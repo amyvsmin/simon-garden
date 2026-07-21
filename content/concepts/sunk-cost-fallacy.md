@@ -2,7 +2,7 @@
 title: "沉沒成本謬誤（Sunk Cost Fallacy）"
 slug: sunk-cost-fallacy
 aliases: [沉沒成本謬誤, 沉沒成本陷阱, Sunk Cost Fallacy, sunk cost fallacy, sunk-cost-fallacy, 沉沒成本, sunk cost, 停損, 機會成本綁架]
-category: 思考方法
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-06
 updated: 2026-07-06

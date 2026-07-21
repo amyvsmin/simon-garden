@@ -2,7 +2,7 @@
 title: "社交工程四大套路"
 slug: social-engineering-playbook
 aliases: [Social Engineering Playbook, 社交工程套路, 社交工程攻擊類型, 釣魚四大手法, Phishing Patterns]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-07
 ---

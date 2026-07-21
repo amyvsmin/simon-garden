@@ -2,7 +2,7 @@
 title: "Linux 導覽命令"
 slug: linux-navigation-commands
 aliases: [linux navigation commands, pwd, ls, cd, whoami, pwd-command, ls-command, cd-command, whoami-command, ls-long-format, ls-all-flag, ls-la-combined]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

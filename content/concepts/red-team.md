@@ -2,7 +2,7 @@
 title: "紅隊"
 slug: red-team
 aliases: [Red Team, 紅隊演練, 攻擊模擬]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-05
 ---

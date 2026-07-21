@@ -2,7 +2,7 @@
 title: "Substack 重新曝光戰術（Restack + 精選引言）"
 slug: substack-resurfacing
 aliases: [Substack 重新堆疊, Restack, Substack 精選引言, Quote Note, Substack 站內推廣, 每篇 3 次曝光]
-category: 自動化／生產力
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-05-07
 ---

@@ -2,7 +2,7 @@
 title: "ICMP 網際網路控制訊息協定（Internet Control Message Protocol）"
 slug: icmp
 aliases: [ICMP, Internet Control Message Protocol, 網際網路控制訊息協定]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

@@ -2,7 +2,7 @@
 title: "搜尋處理語言（Search Processing Language / SPL）"
 slug: spl
 aliases: [SPL, spl, Search Processing Language, 搜尋處理語言, Splunk 查詢語言, Splunk query language]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-14
 ---

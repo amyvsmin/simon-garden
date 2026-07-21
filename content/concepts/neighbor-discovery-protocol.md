@@ -2,7 +2,7 @@
 title: "NDP 鄰居發現協定（Neighbor Discovery Protocol）"
 slug: neighbor-discovery-protocol
 aliases: [NDP, Neighbor Discovery Protocol, 鄰居發現協定, 鄰居發現協議, 鄰居探索協定, ICMPv6 NDP]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

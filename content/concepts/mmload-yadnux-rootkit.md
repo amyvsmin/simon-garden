@@ -2,7 +2,7 @@
 title: "MMLOAD/Yadnux 多階段反射式 rootkit"
 slug: mmload-yadnux-rootkit
 aliases: [Yadnux, MMLOAD, MMLOAD rootkit, Yadnux rootkit, NsdiProxy rootkit]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-05
 ---

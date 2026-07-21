@@ -2,7 +2,7 @@
 title: "漸進式知識庫長出"
 slug: progressive-vault-growth
 aliases: [漸進式知識庫長出, 漸進長出 vault, progressive vault growth, organic vault growth, 知識庫不一夜建好, 知識庫 v0.1 起步]
-category: 生產力／AI
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-13
 ---

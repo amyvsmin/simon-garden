@@ -2,7 +2,7 @@
 title: "統一資料模型搜尋（Unified Data Model / UDM Search）"
 slug: udm
 aliases: [UDM, udm, Unified Data Model, 統一資料模型, UDM Search, UDM 搜尋, UDM fields]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-14
 ---

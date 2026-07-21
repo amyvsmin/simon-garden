@@ -2,7 +2,7 @@
 title: "切片（Slice）"
 slug: slice
 aliases: [Slice, 切片, slicing, slices, 子序列, sublist, 子清單]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

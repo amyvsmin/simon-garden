@@ -2,7 +2,7 @@
 title: "縱深防禦（Defense in Depth）"
 slug: defense-in-depth
 aliases: [Defense in Depth, 縱深防禦, 深度防禦, layered security, 多層防禦, 層層防禦]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-25
 ---

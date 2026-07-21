@@ -2,7 +2,7 @@
 title: "邏輯錯誤（Logic Error）"
 slug: logic-error
 aliases: [Logic error, 邏輯錯誤, logic errors, 邏輯錯]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "攻擊面（Attack Surface）"
 slug: attack-surface
 aliases: [Attack Surface, 攻擊面, 攻擊表面, 進入點, entry point]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

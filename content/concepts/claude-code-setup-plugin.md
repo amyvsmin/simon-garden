@@ -9,7 +9,7 @@ aliases:
   - CC 顧問 plugin
   - 掃專案推薦 plugin
   - Claude Code 自動推薦
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-22
 ---

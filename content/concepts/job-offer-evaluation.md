@@ -2,7 +2,7 @@
 title: "評估與回應 offer（Job Offer Evaluation）"
 slug: job-offer-evaluation
 aliases: [評估offer, 回應offer, job offer evaluation, job-offer-evaluation, offer 評估, 談薪, 行情研究, 整體報酬]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

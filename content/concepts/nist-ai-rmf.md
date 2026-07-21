@@ -2,7 +2,7 @@
 title: "NIST AI RMF（AI 風險管理框架）"
 slug: nist-ai-rmf
 aliases: [NIST AI RMF, AI Risk Management Framework, AI 風險管理框架, NIST AI 100-1, AI RMF]
-category: 資安
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-06
 ---

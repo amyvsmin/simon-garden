@@ -2,7 +2,7 @@
 title: "套件管理工具"
 slug: package-manager
 aliases: [package manager, yum, dnf, dpkg, rpm, 套件管理器]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

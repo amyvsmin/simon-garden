@@ -2,7 +2,7 @@
 title: "CLI（命令列介面）"
 slug: cli
 aliases: [CLI, Command Line Interface, 命令列介面, 命令列工具, 終端指令]
-category: AI
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-12
 ---

@@ -2,7 +2,7 @@
 title: "文件字串（Docstring）"
 slug: docstring
 aliases: [Docstring, 文件字串, documentation string, docstrings]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

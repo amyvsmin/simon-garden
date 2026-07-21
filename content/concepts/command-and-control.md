@@ -2,7 +2,7 @@
 title: "命令與控制（Command and Control / C2）"
 slug: command-and-control
 aliases: [Command and Control, C2, C&C, 命令與控制, 命令控制, command and control, C2 server, 命令與控制伺服器]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

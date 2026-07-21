@@ -2,7 +2,7 @@
 title: "威脅行為者（Threat Actor）"
 slug: threat-actor
 aliases: [Threat Actor, 威脅行為者, 威脅來源, 攻擊者, malicious actor, 惡意行為者]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

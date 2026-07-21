@@ -2,7 +2,7 @@
 title: "有類別定址（Classful Addressing）"
 slug: classful-addressing
 aliases: [Classful Addressing, 有類別定址, 有類別位址, 分類定址, A 類, B 類, C 類, D 類, E 類, IP address class]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

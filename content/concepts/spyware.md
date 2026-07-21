@@ -2,7 +2,7 @@
 title: "間諜軟體（Spyware）"
 slug: spyware
 aliases: [Spyware, 間諜軟體, 資訊竊取軟體]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

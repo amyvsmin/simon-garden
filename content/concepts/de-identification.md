@@ -2,7 +2,7 @@
 title: "去識別化（De-identification）"
 slug: de-identification
 aliases: [De-identification, 去識別化, 去識別, 假名化, Pseudonymization, 匿名化, Anonymization, 代碼化, Tokenization, 資料遮罩, 隱碼]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-07-06
 ---

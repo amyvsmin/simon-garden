@@ -2,7 +2,7 @@
 title: "異常偵測（Anomaly Detection）"
 slug: anomaly-detection
 aliases: [anomaly detection, 異常偵測, 異常檢測, baseline detection, red flag, 紅旗, 異常行為偵測, behavioral anomaly]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-09
 ---

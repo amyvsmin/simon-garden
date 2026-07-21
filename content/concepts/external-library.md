@@ -2,7 +2,7 @@
 title: "外部函式庫（External Library）"
 slug: external-library
 aliases: [External library, 外部函式庫, external library, 第三方函式庫, 外部庫, 外部程式庫]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

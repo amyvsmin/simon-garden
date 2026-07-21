@@ -2,7 +2,7 @@
 title: "星形拓撲（Star Topology，現代 LAN 主流）"
 slug: star-topology
 aliases: [Star Topology, 星形拓撲, 星型拓撲, 星狀拓撲]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

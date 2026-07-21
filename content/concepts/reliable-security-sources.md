@@ -2,7 +2,7 @@
 title: "可靠資安來源（保持資訊更新的固定來源）"
 slug: reliable-security-sources
 aliases: [可靠資安來源, 資安新聞來源, reliable security sources, reliable-security-sources, security news sources, 資安部落格, mailing list, 資安情報來源]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-25
 ---

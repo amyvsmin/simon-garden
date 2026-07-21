@@ -2,7 +2,7 @@
 title: "動態工作流（Dynamic Workflows）"
 slug: dynamic-workflows
 aliases: [動態工作流, Dynamic Workflows, dynamic workflow, CC workflow, Claude Code workflow, workflow 編排腳本]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-30
 ---

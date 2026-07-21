@@ -2,7 +2,7 @@
 title: "橫向移動（Lateral Movement / Pivoting）"
 slug: lateral-movement
 aliases: [Lateral Movement, Pivoting, 橫向移動, 樞紐攻擊, 內網橫移]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-15
 ---

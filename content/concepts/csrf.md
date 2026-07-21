@@ -2,7 +2,7 @@
 title: "CSRF（跨站請求偽造）"
 slug: csrf
 aliases: [CSRF, 跨站請求偽造, Cross-Site Request Forgery, One-Click Attack, 一鍵攻擊]
-category: 資安
+category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-07-05
 ---

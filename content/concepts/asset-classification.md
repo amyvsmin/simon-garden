@@ -2,7 +2,7 @@
 title: "資產分類（Asset Classification）"
 slug: asset-classification
 aliases: [Asset Classification, 資產分類, asset classification, 資產分級, low-level asset, high-level asset, 低階資產, 高階資產]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-06-23
 ---

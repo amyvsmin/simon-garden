@@ -2,7 +2,7 @@
 title: "職責分離（Separation of Duties / SoD）"
 slug: separation-of-duties
 aliases: [separation of duties, SoD, 職責分離, 權責分離, 分權制衡, segregation of duties]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-25
 ---

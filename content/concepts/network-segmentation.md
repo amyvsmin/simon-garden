@@ -2,7 +2,7 @@
 title: "網路分段（Network Segmentation）"
 slug: network-segmentation
 aliases: [Network Segmentation, 網路分段, 網段切割, 網路區隔, network segmentation, 分段, 安全區域]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-28
 ---

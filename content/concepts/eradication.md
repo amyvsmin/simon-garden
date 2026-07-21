@@ -2,7 +2,7 @@
 title: "根除（Eradication）"
 slug: eradication
 aliases: [Eradication, 根除, 清除, 移除, eradication, 威脅清除]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

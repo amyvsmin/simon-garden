@@ -2,7 +2,7 @@
 title: "傳輸層（Transport Layer，OSI L4）"
 slug: transport-layer
 aliases: [Transport Layer, 傳輸層, OSI 第四層, L4]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

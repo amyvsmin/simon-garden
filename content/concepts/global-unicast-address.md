@@ -2,7 +2,7 @@
 title: "GUA 全球單播位址（Global Unicast Address）"
 slug: global-unicast-address
 aliases: [GUA, Global Unicast Address, 全球單播位址, 全域單播位址, 公網單播位址, IPv6 公網位址]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

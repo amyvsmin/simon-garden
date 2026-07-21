@@ -2,7 +2,7 @@
 title: "持久技能（Durable Skills）"
 slug: durable-skills
 aliases: [持久技能, durable skills, 持久能力]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-19
 ---

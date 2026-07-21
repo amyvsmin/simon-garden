@@ -2,7 +2,7 @@
 title: "人工智慧（Artificial Intelligence, AI）"
 slug: artificial-intelligence
 aliases: [Artificial Intelligence, AI, 人工智慧, artificial intelligence, 人工智能]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

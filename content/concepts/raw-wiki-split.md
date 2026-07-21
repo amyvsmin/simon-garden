@@ -2,7 +2,7 @@
 title: "原料分流"
 slug: raw-wiki-split
 aliases: [收件匣模式, Raw/Wiki 分流, 資訊收集箱模式]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

@@ -2,7 +2,7 @@
 title: "TCREI 提示框架（Task, Context, References, Evaluate, Iterate）"
 slug: tcrei-framework
 aliases: [TCREI, TCREI framework, TCREI 框架, Task Context References Evaluate Iterate, Thoughtfully Create Really Excellent Inputs, T-C-R-E-I]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

@@ -2,7 +2,7 @@
 title: "Claude Code"
 slug: claude-code
 aliases: [CC, Claude CLI]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

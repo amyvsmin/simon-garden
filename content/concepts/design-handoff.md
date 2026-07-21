@@ -2,7 +2,7 @@
 title: "設計交棒"
 slug: design-handoff
 aliases: [Design Handoff, Design-to-Deploy, Netlify Connector]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

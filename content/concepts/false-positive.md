@@ -2,7 +2,7 @@
 title: "偵測結果四象限（True/False Positive/Negative）"
 slug: false-positive
 aliases: [false positive, 偽陽性, 誤報, false negative, 偽陰性, 漏報, true positive, 真陽性, true negative, 真陰性, detection categories, 偵測結果, 偵測準確度]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
 ---

@@ -2,7 +2,7 @@
 title: "元組（Tuple）"
 slug: tuple
 aliases: [Tuple, 元組, tuple data, 元組資料, 不可變序列]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

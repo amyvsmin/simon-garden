@@ -2,7 +2,7 @@
 title: "Linux 命令"
 slug: linux-command
 aliases: [linux command, command, Linux 指令, 指令]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

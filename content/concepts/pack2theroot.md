@@ -2,7 +2,7 @@
 title: "Pack2TheRoot"
 slug: pack2theroot
 aliases: [CVE-2026-41651, PackageKit 漏洞]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-05
 ---

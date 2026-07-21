@@ -2,7 +2,7 @@
 title: "附帶學習（Incidental Learning）"
 slug: incidental-learning
 aliases: [附帶學習, Incidental Learning, 深度思考的副產品, 記憶是思考的副產品]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-03
 ---

@@ -2,7 +2,7 @@
 title: "演算法（Algorithm）"
 slug: algorithm
 aliases: [Algorithm, 演算法, 算法, algorithms]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

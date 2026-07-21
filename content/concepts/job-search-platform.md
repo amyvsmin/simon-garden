@@ -2,7 +2,7 @@
 title: "求職平台（Job Search Platform）"
 slug: job-search-platform
 aliases: [求職平台, 職缺平台, job search platform, job-search-platform, 職缺板, job board, 求職管道]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

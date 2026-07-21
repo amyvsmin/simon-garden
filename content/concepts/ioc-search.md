@@ -2,7 +2,7 @@
 title: "IOC 字串搜尋"
 slug: ioc-search
 aliases: [ioc search, indicator of compromise search, IOC sweep, 入侵指標搜尋]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-10
 ---

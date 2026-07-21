@@ -2,7 +2,7 @@
 title: "Claude Code Onboarding Q&A 模式"
 slug: claude-code-onboarding-qa
 aliases: [CC onboarding Q&A, Claude Code 進新 codebase, codebase 新人 onboarding, Q&A 先行]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

@@ -2,7 +2,7 @@
 title: "Agentic Kill Chain"
 slug: agentic-kill-chain
 aliases: [Agentic Kill Chain, AI Agent 攻擊鏈, 自動化攻擊鏈]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-06
 ---

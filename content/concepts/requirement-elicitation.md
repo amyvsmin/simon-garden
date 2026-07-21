@@ -2,7 +2,7 @@
 title: "模糊需求解碼（Requirement Elicitation）"
 slug: requirement-elicitation
 aliases: [模糊需求解碼, requirement elicitation, 需求釐清, 需求解碼, 模糊詞拆解, 字面需求, Kano 模型, 驗收清單]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-03
 ---

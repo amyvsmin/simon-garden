@@ -2,7 +2,7 @@
 title: "求職計畫（Job Search Plan）"
 slug: job-search-plan
 aliases: [求職計畫, 求職規劃, job search plan, job-search-plan, 求職步驟清單]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

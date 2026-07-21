@@ -2,7 +2,7 @@
 title: "求職韌性（Job Seeker Resilience）"
 slug: job-seeker-resilience
 aliases: [求職韌性, 求職者韌性, job seeker resilience, job-seeker-resilience, 求職心態, 面對被拒]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

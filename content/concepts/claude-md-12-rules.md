@@ -2,7 +2,7 @@
 title: "Claude Code 12 條規則（Karpathy 4 + Mnilax 8）"
 slug: claude-md-12-rules
 aliases: [Claude Code 12 rules, CLAUDE.md 12 rules, Karpathy 12 rules, Mnilax 12 rules, 12 條規則模板, Claude Code 行為契約, CLAUDE.md 200 行, CLAUDE.md 行數上限, 200 行死線, claude-md token budget, instruction file size limit]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-15
 ---

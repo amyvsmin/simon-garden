@@ -2,7 +2,7 @@
 title: ".index() 方法（Index Method）"
 slug: index-method
 aliases: [index method, .index() 方法, list index, string index, 索引方法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "Footprinting（足跡探測）"
 slug: footprinting
 aliases: [Footprinting, 足跡探測, 偵查, 資訊收集, reconnaissance, 偵察]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-07-05
 ---

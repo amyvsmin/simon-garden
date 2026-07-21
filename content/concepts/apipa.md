@@ -2,7 +2,7 @@
 title: "APIPA 自動私有位址（Automatic Private IP Addressing）"
 slug: apipa
 aliases: [APIPA, Automatic Private IP Addressing, 自動私有位址, 169.254]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

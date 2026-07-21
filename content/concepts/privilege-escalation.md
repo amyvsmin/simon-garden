@@ -2,7 +2,7 @@
 title: "權限提升"
 slug: privilege-escalation
 aliases: [Privilege Escalation, 提權, 本機提權]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-05
 ---

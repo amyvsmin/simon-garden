@@ -2,7 +2,7 @@
 title: "CIDR 無類別域間路由（Classless Inter-Domain Routing）"
 slug: cidr
 aliases: [CIDR, Classless Inter-Domain Routing, 無類別域間路由, 無類別定址, 前綴長度, prefix length]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

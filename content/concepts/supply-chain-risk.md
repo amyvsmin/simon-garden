@@ -2,7 +2,7 @@
 title: "供應鏈風險"
 slug: supply-chain-risk
 aliases: [supply chain risk, 第三方風險, Supply Chain Attack, 供應鏈攻擊, 軟體供應鏈攻擊, third-party attack, 第三方攻擊, software supply chain]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-05
 ---

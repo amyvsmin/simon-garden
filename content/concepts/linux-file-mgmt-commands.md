@@ -2,7 +2,7 @@
 title: "Linux 檔案管理命令"
 slug: linux-file-mgmt-commands
 aliases: [linux file management commands, mkdir, rmdir, touch, rm, mv, cp, mkdir-command, rmdir-command, touch-command, rm-command, mv-command, cp-command, file-management-commands, mv-rename, redirection, output-redirection, redirect-overwrite, redirect-append]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

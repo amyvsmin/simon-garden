@@ -2,7 +2,7 @@
 title: "HTTPS 加密超文字傳輸協定（HTTP Secure）"
 slug: https
 aliases: [HTTPS, HTTP Secure, 加密 HTTP, HTTP over TLS]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

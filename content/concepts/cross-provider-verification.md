@@ -2,7 +2,7 @@
 title: "跨供應商交叉驗證（Cross-Provider Verification）"
 slug: cross-provider-verification
 aliases: [跨供應商交叉驗證, cross-provider verification, 跨模型審查, cross-model review, 跨工具驗證, Codex 寫 Claude 審]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-26
 ---

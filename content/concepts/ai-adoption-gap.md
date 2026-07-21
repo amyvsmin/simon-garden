@@ -2,7 +2,7 @@
 title: "AI 導入落差（AI Adoption Gap）"
 slug: ai-adoption-gap
 aliases: [AI 導入落差, AI 落地失敗, AI 採用落差, ai adoption gap, AI 導入失敗, 選錯先鋒, AI rollout failure, 買了沒人用]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-03
 ---

@@ -2,7 +2,7 @@
 title: "自生長知識庫（Self-Growing Knowledge Base）"
 slug: self-growing-knowledge-base
 aliases: [自生長知識庫, 知識飛輪, self-growing knowledge base, knowledge flywheel, Karpathy 自生長理論, 自我生長知識庫, AI 知識庫迴圈, A B C D 知識迴圈, LLM Wiki, obsidian-llm-wiki]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-31
 updated: 2026-07-09

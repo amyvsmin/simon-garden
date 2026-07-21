@@ -2,7 +2,7 @@
 title: "子網路遮罩（Subnet Mask）"
 slug: subnet-mask
 aliases: [Subnet Mask, 子網路遮罩, 子網掩碼, 網路掩碼, netmask, network mask, 掩碼]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

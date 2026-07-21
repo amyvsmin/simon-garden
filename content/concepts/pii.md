@@ -2,7 +2,7 @@
 title: "個人可識別資訊（PII）"
 slug: pii
 aliases: [PII, Personally Identifiable Information, personally identifiable information, 個人可識別資訊, 個資識別資訊]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-07-19
 ---

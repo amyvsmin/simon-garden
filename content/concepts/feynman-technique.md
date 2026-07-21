@@ -2,7 +2,7 @@
 title: "費曼技巧（Feynman Technique）"
 slug: feynman-technique
 aliases: [費曼技巧, Feynman technique, 費曼學習法, 教是最好的學, 講給外行聽, 以教代學]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

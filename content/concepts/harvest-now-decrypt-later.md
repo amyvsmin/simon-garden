@@ -2,7 +2,7 @@
 title: "Harvest Now Decrypt Later"
 slug: harvest-now-decrypt-later
 aliases: [HNDL, Harvest Now Decrypt Later, 現在收割之後解密, 量子收割攻擊]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-06
 ---

@@ -2,7 +2,7 @@
 title: "Secure AI Framework（SAIF）"
 slug: secure-ai-framework
 aliases: [SAIF, Google SAIF, AI 安全框架, AI 全生命週期治理]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-05
 ---

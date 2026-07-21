@@ -2,7 +2,7 @@
 title: "條件式（Conditional Statement）"
 slug: conditional-statement
 aliases: [Conditional statement, 條件式, 條件陳述, if statement, if 陳述, conditionals]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

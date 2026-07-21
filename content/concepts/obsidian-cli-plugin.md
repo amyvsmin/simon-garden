@@ -2,7 +2,7 @@
 title: "Obsidian CLI plugin"
 slug: obsidian-cli-plugin
 aliases: [Obsidian 命令列界面, Obsidian CLI, CLI plugin]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

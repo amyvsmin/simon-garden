@@ -2,7 +2,7 @@
 title: "雙碼理論（Dual Coding）"
 slug: dual-coding
 aliases: [雙碼理論, dual coding, 雙重編碼, 圖文並用, Paivio, 語文與圖像兩套系統]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

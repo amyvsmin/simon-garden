@@ -2,7 +2,7 @@
 title: "nano 編輯器"
 slug: nano-editor
 aliases: [nano, nano editor, 命令列編輯器]
-category: 生產力
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

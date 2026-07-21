@@ -2,7 +2,7 @@
 title: "HTML 取代 Markdown 作 AI 輸出格式"
 slug: html-vs-markdown-ai-output
 aliases: [HTML vs Markdown AI 輸出, HTML 取代 Markdown, AI 原生格式, Thariq HTML 主張]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

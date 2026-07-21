@@ -2,7 +2,7 @@
 title: "VPN 虛擬私有網路（Virtual Private Network）"
 slug: vpn
 aliases: [VPN, Virtual Private Network, 虛擬私有網路, 虛擬私人網路, 虛擬私網]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

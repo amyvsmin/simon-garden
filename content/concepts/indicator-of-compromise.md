@@ -2,7 +2,7 @@
 title: "入侵指標（Indicator of Compromise / IoC）"
 slug: indicator-of-compromise
 aliases: [Indicator of Compromise, IoC, IoCs, 入侵指標, 妥協指標, 危害指標, indicators of compromise]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-07
 ---

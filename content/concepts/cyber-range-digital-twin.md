@@ -2,7 +2,7 @@
 title: "數位孿生資安攻防演練"
 slug: cyber-range-digital-twin
 aliases: [Cyber Range, Digital Twin, 數位孿生, 資安攻防演練, 虛擬演練環境]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-07
 ---

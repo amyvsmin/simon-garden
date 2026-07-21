@@ -2,7 +2,7 @@
 title: "圖譜浮現"
 slug: graph-emergence
 aliases: [Knowledge Graph, 雙向連結, Backlink, 共用概念]
-category: 自動化
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

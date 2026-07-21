@@ -2,7 +2,7 @@
 title: "最小權限原則"
 slug: principle-of-least-privilege
 aliases: [principle of least privilege, PoLP, least privilege, 最小特權, need-to-know]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

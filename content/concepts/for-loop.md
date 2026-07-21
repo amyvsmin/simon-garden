@@ -2,7 +2,7 @@
 title: "for 迴圈（For Loop）"
 slug: for-loop
 aliases: [For loop, for 迴圈, for loop, for-loop, for 迴圈陳述]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

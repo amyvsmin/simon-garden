@@ -2,7 +2,7 @@
 title: "改良式釣魚演練流程"
 slug: phishing-drill-improved
 aliases: [Improved Phishing Drill, 改良釣魚演練, 通報率演練, Report Rate Drill, 引導式釣魚演練]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-07
 ---

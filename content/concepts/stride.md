@@ -2,7 +2,7 @@
 title: "STRIDE 威脅建模框架"
 slug: stride
 aliases: [STRIDE, STRIDE 模型, STRIDE 框架, Spoofing Tampering Repudiation, 微軟威脅建模]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-30
 ---

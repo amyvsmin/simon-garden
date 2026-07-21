@@ -2,7 +2,7 @@
 title: "法規（Regulations）"
 slug: regulations
 aliases: [Regulations, 法規, 法律規範, 規章]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

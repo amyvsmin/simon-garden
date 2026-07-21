@@ -2,7 +2,7 @@
 title: "while 迴圈（While Loop）"
 slug: while-loop
 aliases: [While loop, while 迴圈, while loop, while-loop, while 迴圈陳述]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

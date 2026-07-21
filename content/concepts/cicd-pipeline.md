@@ -2,7 +2,7 @@
 title: "CI/CD 管線（CI/CD Pipeline）"
 slug: cicd-pipeline
 aliases: [CI/CD Pipeline, CI/CD 管線, CI/CD, 持續整合, 持續交付, Continuous Integration, Continuous Delivery, Continuous Deployment]
-category: 資安
+category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-05-25
 ---

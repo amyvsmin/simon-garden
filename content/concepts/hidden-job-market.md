@@ -2,7 +2,7 @@
 title: "隱藏職缺市場（Hidden Job Market）"
 slug: hidden-job-market
 aliases: [隱藏職缺市場, 隱藏職缺, hidden job market, hidden-job-market, 未公開職缺, 內推市場]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

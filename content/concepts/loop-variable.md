@@ -2,7 +2,7 @@
 title: "迴圈變數（Loop Variable）"
 slug: loop-variable
 aliases: [Loop variable, 迴圈變數, loop variable, 迴圈控制變數, 迭代變數]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

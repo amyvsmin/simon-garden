@@ -2,7 +2,7 @@
 title: "老化網路基礎設施"
 slug: aging-network-infrastructure
 aliases: [aging network infrastructure, EoL network device, 老舊網路設備, 網設備生命週期風險]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-05-06
 ---

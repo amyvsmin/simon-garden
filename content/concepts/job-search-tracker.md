@@ -2,7 +2,7 @@
 title: "求職追蹤表（Job Search Tracker）"
 slug: job-search-tracker
 aliases: [求職追蹤表, 求職追蹤, job search tracker, job-search-tracker, 應徵追蹤表, 求職試算表]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

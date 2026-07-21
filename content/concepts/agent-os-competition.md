@@ -2,7 +2,7 @@
 title: "代理人作業系統競賽（桌面 AI Codex vs Claude vs Grok vs Gemini）"
 slug: agent-os-competition
 aliases: [代理人作業系統競賽, agent OS, 桌面 AI 競賽, Codex vs Claude, agent OS war, 代理人桌面 OS]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-18
 ---

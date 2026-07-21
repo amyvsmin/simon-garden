@@ -2,7 +2,7 @@
 title: "Plan Mode（規劃模式）"
 slug: plan-mode
 aliases: [Plan Mode, 規劃模式, plan first]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

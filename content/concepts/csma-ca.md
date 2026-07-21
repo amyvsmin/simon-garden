@@ -2,7 +2,7 @@
 title: "CSMA/CA 載波偵聽多重存取／碰撞避免（Carrier Sense Multiple Access with Collision Avoidance）"
 slug: csma-ca
 aliases: [CSMA/CA, Carrier Sense Multiple Access with Collision Avoidance, 載波偵聽多重存取碰撞避免, 碰撞避免]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

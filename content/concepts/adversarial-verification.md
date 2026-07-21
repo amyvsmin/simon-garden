@@ -2,7 +2,7 @@
 title: "對抗式驗證（Adversarial Verification）"
 slug: adversarial-verification
 aliases: [對抗式驗證, adversarial verification, 推翻式驗證, AI 紅隊驗證, refute-don't-confirm, 對抗驗證]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-30
 ---

@@ -2,7 +2,7 @@
 title: "反推式 Skill 設計法（Q5 反推）"
 slug: reverse-skill-design
 aliases: [Q5 反推法, sample-backward design, 樣本反推設計]
-category: 自動化
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

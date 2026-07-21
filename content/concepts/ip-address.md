@@ -2,7 +2,7 @@
 title: "IP 位址（IP Address）"
 slug: ip-address
 aliases: [IP Address, IP 位址, IP 地址, 邏輯位址, logical address, 點分十進位, dotted-decimal notation]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

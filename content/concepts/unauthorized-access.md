@@ -2,7 +2,7 @@
 title: "未授權存取（Unauthorized Access）"
 slug: unauthorized-access
 aliases: [Unauthorized Access, unauthorized access, 未授權存取, 非授權存取]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

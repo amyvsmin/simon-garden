@@ -2,7 +2,7 @@
 title: "資料生命週期（Data Lifecycle）"
 slug: data-lifecycle
 aliases: [data lifecycle, 資料生命週期, 資料生命週期管理, data lifecycle management, DLM, 資料全生命週期]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-05-25
 ---

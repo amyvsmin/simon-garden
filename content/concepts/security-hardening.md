@@ -2,7 +2,7 @@
 title: "安全強化（Security Hardening）"
 slug: security-hardening
 aliases: [Security Hardening, 安全強化, 系統強化, 系統加固, hardening, 安全加固, OS hardening]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-25
 ---

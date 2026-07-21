@@ -2,7 +2,7 @@
 title: "技能導向招募（Skills-based Hiring）"
 slug: skills-based-hiring
 aliases: [技能導向招募, 技能本位招募, skills-based hiring, skills-based-hiring, 以技能選才, 技能優先招募]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

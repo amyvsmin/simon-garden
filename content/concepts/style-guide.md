@@ -2,7 +2,7 @@
 title: "風格指南（Style Guide）"
 slug: style-guide
 aliases: [Style guide, 風格指南, style guide, coding style guide, 程式風格指南]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

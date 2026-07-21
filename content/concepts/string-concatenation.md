@@ -2,7 +2,7 @@
 title: "字串串接（String Concatenation）"
 slug: string-concatenation
 aliases: [String concatenation, 字串串接, 字串連接, string concat]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "側通道攻擊（Side-Channel Attack）"
 slug: side-channel-attack
 aliases: [Side-Channel Attack, Side Channel Attack, 側通道攻擊, 旁路攻擊, 側信道攻擊]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-06
 ---

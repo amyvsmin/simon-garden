@@ -2,7 +2,7 @@
 title: "Linux 讀檔命令"
 slug: linux-read-file-commands
 aliases: [linux read file commands, cat, head, tail, less, cat-command, head-command, tail-command, less-command, tail-f]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

@@ -2,7 +2,7 @@
 title: "Linux Shell"
 slug: linux-shell
 aliases: [shell, shell 殼層]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

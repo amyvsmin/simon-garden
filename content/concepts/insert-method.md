@@ -2,7 +2,7 @@
 title: ".insert() 方法（Insert Method）"
 slug: insert-method
 aliases: [insert method, .insert() 方法, insert, list insert, 插入方法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

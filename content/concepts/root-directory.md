@@ -2,7 +2,7 @@
 title: "根目錄"
 slug: root-directory
 aliases: [root directory, /, Linux 根目錄, 檔案系統根]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

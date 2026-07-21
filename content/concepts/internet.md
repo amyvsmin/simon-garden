@@ -2,7 +2,7 @@
 title: "網際網路（Internet，去中心化公共基礎設施）"
 slug: internet
 aliases: [Internet, 網際網路, 互聯網]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

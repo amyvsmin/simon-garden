@@ -2,7 +2,7 @@
 title: "自動化（Automation）"
 slug: automation
 aliases: [Automation, 自動化, 自動化任務, automate, 自動化腳本]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

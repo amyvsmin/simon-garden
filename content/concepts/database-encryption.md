@@ -2,7 +2,7 @@
 title: "資料庫加密與遮罩（Database Protection）"
 slug: database-encryption
 aliases: [Database Encryption, 資料庫加密, 資料庫保護, TDE, Transparent Data Encryption, Data Masking, 資料遮罩]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-07-06
 ---

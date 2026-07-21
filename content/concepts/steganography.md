@@ -2,7 +2,7 @@
 title: "資訊隱藏（Steganography）"
 slug: steganography
 aliases: [Steganography, 資訊隱藏, 隱寫術, 隱寫, 資料隱藏]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-04
 ---

@@ -2,7 +2,7 @@
 title: "除錯（Debugging）"
 slug: debugging
 aliases: [Debugging, 除錯, debug, 偵錯, 除錯策略]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

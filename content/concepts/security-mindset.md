@@ -2,7 +2,7 @@
 title: "安全心態（Security Mindset）"
 slug: security-mindset
 aliases: [Security Mindset, 安全心態, security mindset, 資安心態]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-23
 ---

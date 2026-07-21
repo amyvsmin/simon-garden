@@ -2,7 +2,7 @@
 title: "規則比程式碼重要"
 slug: rules-over-code
 aliases: [rules over code, 規則表 > code, 規則優先, prompt rules over code, 規則先於實作]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-14
 ---

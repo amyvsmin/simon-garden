@@ -2,7 +2,7 @@
 title: "SLAAC 無狀態位址自動配置（Stateless Address Autoconfiguration）"
 slug: slaac
 aliases: [SLAAC, Stateless Address Autoconfiguration, 無狀態位址自動配置, 無狀態自動配置, 無狀態位址自動組態]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

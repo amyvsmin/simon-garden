@@ -2,7 +2,7 @@
 title: "EPSS（漏洞利用機率預測評分）"
 slug: epss
 aliases: [Exploit Prediction Scoring System, 漏洞利用機率預測評分系統, EPSS 分數, 漏洞利用預測]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-07-02
 ---

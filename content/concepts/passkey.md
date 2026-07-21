@@ -2,7 +2,7 @@
 title: "Passkey 與 FIDO2（無密碼驗證）"
 slug: passkey
 aliases: [Passkey, 通行金鑰, FIDO2, WebAuthn, CTAP, 無密碼驗證, passwordless, FIDO]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-07-04
 ---

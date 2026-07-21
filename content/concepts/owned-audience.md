@@ -2,7 +2,7 @@
 title: "自有受眾（Owned Audience）"
 slug: owned-audience
 aliases: [自有受眾, 自有讀者清單, owned audience, 擁有讀者清單, email 名單, 訂閱者名單]
-category: 個人成長／自動化
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-05-07
 ---

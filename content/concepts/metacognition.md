@@ -2,7 +2,7 @@
 title: "元認知（Metacognition）"
 slug: metacognition
 aliases: [元認知, Metacognition, 對思考的思考, 想我該怎麼想, 先想策略再動手]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-03
 ---

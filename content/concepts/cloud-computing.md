@@ -2,7 +2,7 @@
 title: "雲端運算（Cloud Computing）"
 slug: cloud-computing
 aliases: [cloud computing, 雲端運算, 雲端服務, cloud, 雲, IaaS, PaaS, SaaS, 雲端]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-25
 ---

@@ -2,7 +2,7 @@
 title: "選項價值／選擇權思維（Option Value）"
 slug: option-value
 aliases: [選項價值, 選擇權思維, Option Value, option value, optionality, 選擇權價值, 保留選項, 先止血再決定, 嘗試的權利]
-category: 思考方法
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-06
 updated: 2026-07-06

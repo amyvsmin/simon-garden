@@ -2,7 +2,7 @@
 title: "設計系統"
 slug: design-system
 aliases: [Design System, 品牌資產, 視覺規範]
-category: 生產力
+category: 其他
 confidence: 已驗證
 created: 2026-05-05
 ---

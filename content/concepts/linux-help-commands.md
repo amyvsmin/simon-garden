@@ -2,7 +2,7 @@
 title: "Linux 求助命令"
 slug: linux-help-commands
 aliases: [linux help commands, man, whatis, apropos, man-pages, whatis-command, apropos-command, builtin-help-vs-online, linux-man-pages]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

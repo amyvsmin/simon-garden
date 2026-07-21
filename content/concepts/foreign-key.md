@@ -2,7 +2,7 @@
 title: "外鍵（Foreign Key）"
 slug: foreign-key
 aliases: [foreign key, 外鍵, FK, 參照鍵, referencing key]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-09
 ---

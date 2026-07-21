@@ -2,7 +2,7 @@
 title: "終止支援軟體（End-of-Life Software）"
 slug: eol-software
 aliases: [End-of-Life Software, EoL Software, 終止支援軟體, 停止支援軟體, end of life, EOL, EOS, End of Support, 終止生命週期]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

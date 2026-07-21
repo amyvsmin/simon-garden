@@ -2,7 +2,7 @@
 title: "收發模組（Transceiver Module，SFP/QSFP・光口 vs 電口）"
 slug: transceiver-module
 aliases: [Transceiver Module, 收發模組, 光模組, 光口模組, 電口模組, SFP, SFP+, XFP, SFP28, QSFP, QSFP28, 準系統]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

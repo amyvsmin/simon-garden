@@ -2,7 +2,7 @@
 title: "遺忘曲線（Forgetting Curve）"
 slug: forgetting-curve
 aliases: [遺忘曲線, forgetting curve, 艾賓浩斯遺忘曲線, Ebbinghaus, 記憶保留曲線, 遺忘率]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

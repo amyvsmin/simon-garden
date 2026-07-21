@@ -2,7 +2,7 @@
 title: "AI 評估量表（Evaluation Rubric）"
 slug: ai-evaluation-rubric
 aliases: [AI 評估量表, evaluation rubric, AI rubric, AI 評分標準, 品味量化, AI evaluation, 評審標準, rubric design]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-26
 ---

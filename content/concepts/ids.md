@@ -2,7 +2,7 @@
 title: "入侵偵測系統（IDS）"
 slug: ids
 aliases: [IDS, intrusion detection system, 入侵偵測系統, 入侵偵測]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-05
 ---

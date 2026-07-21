@@ -2,7 +2,7 @@
 title: "清單（List）"
 slug: list
 aliases: [List, 清單, list data, 清單資料, lists]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

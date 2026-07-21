@@ -2,7 +2,7 @@
 title: "語法（Syntax）"
 slug: python-syntax
 aliases: [Syntax, 語法, python syntax, Python 語法, 程式語法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

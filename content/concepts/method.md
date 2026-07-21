@@ -2,7 +2,7 @@
 title: "方法（Method）"
 slug: method
 aliases: [Method, 方法, methods, 物件方法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

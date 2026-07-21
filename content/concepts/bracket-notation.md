@@ -2,7 +2,7 @@
 title: "方括號取值（Bracket Notation）"
 slug: bracket-notation
 aliases: [Bracket notation, 方括號取值, 方括號表示法, bracket, 中括號取值]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

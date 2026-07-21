@@ -2,7 +2,7 @@
 title: "可接受使用政策（Acceptable Use Policy）"
 slug: acceptable-use-policy
 aliases: [Acceptable Use Policy, AUP, 可接受使用政策, 使用規範, acceptable use, 資源使用政策]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

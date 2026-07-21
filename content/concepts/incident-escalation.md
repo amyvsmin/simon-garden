@@ -2,7 +2,7 @@
 title: "事件升級（Incident Escalation）"
 slug: incident-escalation
 aliases: [Incident Escalation, incident escalation, 事件升級, 事故升級, 升級, escalation, 資安事件升級]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-23
 ---

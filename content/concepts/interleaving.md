@@ -2,7 +2,7 @@
 title: "交錯練習（Interleaving）"
 slug: interleaving
 aliases: [交錯練習, Interleaving, interleaved practice, 混合題型練習]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-19
 ---

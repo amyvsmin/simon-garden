@@ -2,7 +2,7 @@
 title: ".split() 方法（Split Method）"
 slug: split-method
 aliases: [split method, .split(), split, 字串切割, split 方法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

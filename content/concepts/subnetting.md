@@ -2,7 +2,7 @@
 title: "子網切分（Subnetting）"
 slug: subnetting
 aliases: [Subnetting, 子網切分, 子網劃分, 子網切割, 切子網, subnet calculation]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

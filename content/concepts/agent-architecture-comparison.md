@@ -2,7 +2,7 @@
 title: "Agent 架構對比（Hermes vs OpenClaw）"
 slug: agent-architecture-comparison
 aliases: [agent framework comparison, Hermes vs OpenClaw, 個人 AI 架構選型, Hermes Agent, Nous Research, self-evolving agent, 自我進化 agent, self-evolving-ai-agent]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

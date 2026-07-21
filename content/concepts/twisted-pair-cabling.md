@@ -2,7 +2,7 @@
 title: "雙絞線（Twisted Pair，含 UTP/STP・Cat 分類・T568A/B・直通/交叉線）"
 slug: twisted-pair-cabling
 aliases: [Twisted Pair, 雙絞線, UTP, STP, RJ45, Cat5, Cat5e, Cat6, Cat6A, Cat8, T568A, T568B, straight-through-vs-crossover-cable, 直通線, 交叉線, Auto-MDIX]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

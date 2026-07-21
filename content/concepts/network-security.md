@@ -2,7 +2,7 @@
 title: "網路安全（Network Security）"
 slug: network-security
 aliases: [Network Security, 網路安全, network security, 網路基礎設施安全, 網路防護]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-25
 ---

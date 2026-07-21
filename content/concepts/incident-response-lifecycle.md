@@ -2,7 +2,7 @@
 title: "事件應變生命週期（Incident Response Lifecycle）"
 slug: incident-response-lifecycle
 aliases: [incident response lifecycle, NIST IR lifecycle, 事件應變生命週期, 事件回應生命週期, IR lifecycle, NIST incident response lifecycle]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
 ---

@@ -2,7 +2,7 @@
 title: "SSH 安全殼協定（Secure Shell）"
 slug: ssh
 aliases: [SSH, Secure Shell, 安全殼協定, 安全外殼協定]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-15
 ---

@@ -2,7 +2,7 @@
 title: "STAR 法（STAR Method）"
 slug: star-method
 aliases: [STAR method, STAR 法, STAR, Situation Task Action Result, 情境任務行動結果, STAR 面試法]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-25
 ---

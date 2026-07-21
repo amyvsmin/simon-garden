@@ -2,7 +2,7 @@
 title: "流暢性錯覺（Fluency Illusion）"
 slug: fluency-illusion
 aliases: [流暢性錯覺, fluency illusion, 熟練錯覺, 能力錯覺, illusion of competence, illusion of knowing, 看過就以為學會]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

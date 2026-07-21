@@ -2,7 +2,7 @@
 title: "Token 即服務（TaaS）"
 slug: token-as-a-service
 aliases: [TaaS, Token as a Service, Token 即服務, Token 經濟學, token economics, 思考 token, reasoning tokens, token 計價]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-12
 ---

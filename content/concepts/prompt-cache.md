@@ -2,7 +2,7 @@
 title: "Prompt Cache（提示快取）"
 slug: prompt-cache
 aliases: [提示快取, prompt caching, Claude cache, cache hit, 快取命中, token cache, 上下文快取]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-24
 ---

@@ -2,7 +2,7 @@
 title: "Syslog（日誌協定、服務與格式）"
 slug: syslog
 aliases: [Syslog, syslog protocol, Syslog 協定, Syslog 格式, 系統日誌協定]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

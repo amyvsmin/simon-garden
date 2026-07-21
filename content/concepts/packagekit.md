@@ -2,7 +2,7 @@
 title: "PackageKit"
 slug: packagekit
 aliases: [Linux 套件管理服務, D-Bus]
-category: 網管
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-05
 ---

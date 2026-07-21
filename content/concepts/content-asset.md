@@ -2,7 +2,7 @@
 title: "內容資產化（Content Asset）"
 slug: content-asset
 aliases: [內容資產, 內容資產化, content asset, 長壽內容, 複利內容]
-category: 個人成長／自動化
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-05-07
 ---

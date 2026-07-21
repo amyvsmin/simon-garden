@@ -2,7 +2,7 @@
 title: "零時差漏洞（Zero-Day）"
 slug: zero-day
 aliases: [Zero-Day, 零時差漏洞, 零日漏洞, zero-day vulnerability, zero-day exploit, 0-day]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

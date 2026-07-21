@@ -2,7 +2,7 @@
 title: "Claude Code 疊代迴圈（驗證 → 自我修正）"
 slug: claude-code-iteration-loop
 aliases: [CC iteration loop, 疊代迴圈, 自我修正循環, AI 驗證迴圈, 給 AI 驗證方式]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

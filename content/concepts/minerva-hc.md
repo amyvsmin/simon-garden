@@ -2,7 +2,7 @@
 title: "密涅瓦思考習慣（HC）框架"
 slug: minerva-hc
 aliases: [密涅瓦思考習慣, 思考習慣, HC, Habits of Mind, 76 個思考習慣, 密涅瓦 HC, habits of mind and foundational concepts]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-03
 ---

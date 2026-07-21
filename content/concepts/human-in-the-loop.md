@@ -2,7 +2,7 @@
 title: "人在迴圈中（Human-in-the-loop）"
 slug: human-in-the-loop
 aliases: [Human-in-the-loop, human in the loop, 人在迴圈中, 人類在迴圈, HITL, 人機協作驗證, 人類監督]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

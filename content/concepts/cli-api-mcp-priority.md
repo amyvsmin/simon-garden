@@ -2,7 +2,7 @@
 title: "CLI → API → MCP → Browser Use 優先順序"
 slug: cli-api-mcp-priority
 aliases: [CLI API MCP 優先順序, AI 操控軟體優先順序, AI tool priority, 雷蒙協定優先順序, raymond protocol priority, ai-controls-software-priority]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-14
 ---

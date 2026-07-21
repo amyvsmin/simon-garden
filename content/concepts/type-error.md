@@ -2,7 +2,7 @@
 title: "型別錯誤（Type Error）"
 slug: type-error
 aliases: [Type error, 型別錯誤, TypeError, 型態錯誤, 資料型別錯誤]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

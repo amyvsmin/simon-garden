@@ -2,7 +2,7 @@
 title: "網路型入侵偵測系統（NIDS）"
 slug: nids
 aliases: [NIDS, Network-based IDS, network intrusion detection system, 網路型 IDS, 網路型入侵偵測系統]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

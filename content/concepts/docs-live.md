@@ -2,7 +2,7 @@
 title: "Docs Live（語音文件編輯）"
 slug: docs-live
 aliases: [Docs Live, Google Docs Live, 語音文件編輯, voice document editing, voice-controlled docs]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-20
 ---

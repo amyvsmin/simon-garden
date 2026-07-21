@@ -2,7 +2,7 @@
 title: "資安利害關係人（Security Stakeholder）"
 slug: security-stakeholder
 aliases: [Security Stakeholder, Stakeholder, 利害關係人, 資安利害關係人, security stakeholder, stakeholder, 關係人]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-24
 ---

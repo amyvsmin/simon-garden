@@ -2,7 +2,7 @@
 title: "升級政策（Escalation Policy）"
 slug: escalation-policy
 aliases: [Escalation Policy, escalation policy, 升級政策, 升級流程, 升級準則, escalation guidelines, escalation process, 通報流程]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-23
 ---

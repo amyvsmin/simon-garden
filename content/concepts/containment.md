@@ -2,7 +2,7 @@
 title: "遏制（Containment）"
 slug: containment
 aliases: [Containment, 遏制, 圍堵, 控制, containment, 事件遏制]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

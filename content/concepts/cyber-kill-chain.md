@@ -2,7 +2,7 @@
 title: "Cyber Kill Chain（網路攻擊鏈）"
 slug: cyber-kill-chain
 aliases: [Cyber Kill Chain, 網路攻擊鏈, Kill Chain, 攻擊鏈, 洛克希德馬丁攻擊鏈, Lockheed Martin Kill Chain]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-05
 ---

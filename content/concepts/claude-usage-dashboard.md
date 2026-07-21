@@ -2,7 +2,7 @@
 title: "Claude 額度面板三層結構"
 slug: claude-usage-dashboard
 aliases: [Claude 額度面板, Claude usage dashboard, Current Session, Weekly Limits, Extra Usage, 會話額度, 週期額度]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

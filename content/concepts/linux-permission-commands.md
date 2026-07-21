@@ -2,7 +2,7 @@
 title: "Linux 權限命令"
 slug: linux-permission-commands
 aliases: [linux permission commands, chmod, chown, chmod-command, chown-command, chmod-symbolic-mode, chmod-equals-operator, permission-modification-syntax, change-permissions-when, permission-string, permission-rwx, file-owners-trio]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

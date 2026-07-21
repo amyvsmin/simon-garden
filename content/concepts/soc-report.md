@@ -2,7 +2,7 @@
 title: "SOC 服務組織控制報告（SOC Report）"
 slug: soc-report
 aliases: [SOC Report, SOC 報告, 服務組織控制報告, SOC 1, SOC 2, SOC 3, Service Organization Control]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-07-06
 ---

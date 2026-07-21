@@ -2,7 +2,7 @@
 title: "區域變數（Local Variable）"
 slug: local-variable
 aliases: [Local variable, 區域變數, local variable, 局部變數]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

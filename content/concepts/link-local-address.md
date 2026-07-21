@@ -2,7 +2,7 @@
 title: "LLA 本地鏈路位址（Link-Local Address）"
 slug: link-local-address
 aliases: [LLA, Link-Local Address, 本地鏈路位址, 鏈路本地位址, 連結本地位址, FE80]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

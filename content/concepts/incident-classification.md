@@ -2,7 +2,7 @@
 title: "事件分類類型（Incident Classification）"
 slug: incident-classification
 aliases: [Incident Classification, incident classification, 事件分類, 事件分類類型, incident type, incident classification types]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-23
 ---

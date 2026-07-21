@@ -2,7 +2,7 @@
 title: "暴力攻擊（Brute Force Attack）"
 slug: brute-force-attack
 aliases: [Brute Force Attack, 暴力攻擊, 暴力破解, brute force, 窮舉攻擊, 密碼窮舉]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-25
 ---

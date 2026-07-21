@@ -2,7 +2,7 @@
 title: "面試準備（Interview Preparation）"
 slug: interview-preparation
 aliases: [面試準備, 面試準備策略, interview preparation, interview-preparation, 面試三著力點, 面試準備練習溝通]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

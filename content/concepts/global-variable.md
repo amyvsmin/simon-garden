@@ -2,7 +2,7 @@
 title: "全域變數（Global Variable）"
 slug: global-variable
 aliases: [Global variable, 全域變數, global variable, 全局變數]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

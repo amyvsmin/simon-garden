@@ -2,7 +2,7 @@
 title: "威脅情報（Threat Intelligence / CTI）"
 slug: threat-intelligence
 aliases: [Threat Intelligence, 威脅情報, 威脅情資, threat intelligence, TIP, threat intelligence platform, 威脅情報平台, 網路威脅情報, CTI, Cyber Threat Intelligence, STIX, TAXII, TLP, IOC 情報]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

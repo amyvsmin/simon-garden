@@ -2,7 +2,7 @@
 title: "面試型態（Interview Formats）"
 slug: interview-formats
 aliases: [面試型態, 面試形式, interview formats, interview-formats, 面試類型, 行為技術案例小組面試]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

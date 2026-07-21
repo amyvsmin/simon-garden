@@ -2,7 +2,7 @@
 title: "Python 標準函式庫（Python Standard Library）"
 slug: python-standard-library
 aliases: [Python Standard Library, Python 標準函式庫, standard library, 標準庫, 標準函式庫]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

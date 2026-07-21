@@ -2,7 +2,7 @@
 title: "TTL（存活時間，Time to Live）"
 slug: ttl
 aliases: [TTL, Time to Live, 存活時間, 存活上限]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

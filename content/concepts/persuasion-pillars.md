@@ -2,7 +2,7 @@
 title: "說服三支柱（Ethos／Pathos／Logos）"
 slug: persuasion-pillars
 aliases: [說服三支柱, 修辭三支柱, ethos pathos logos, ethos, pathos, logos, 亞里斯多德修辭學, persuasion pillars, persuasion-pillars, 讓對方在乎, 讓對方信, 讓對方覺得合理, rhetoric triangle]
-category: 溝通
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-06
 ---

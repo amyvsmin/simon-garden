@@ -2,7 +2,7 @@
 title: "Wireshark"
 slug: wireshark
 aliases: [Wireshark, 圖形化封包分析器, GUI packet analyzer, 圖形介面封包嗅探器]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-07
 ---

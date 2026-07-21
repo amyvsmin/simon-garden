@@ -2,7 +2,7 @@
 title: "SSDLC（安全軟體開發生命週期）"
 slug: ssdlc
 aliases: [SSDLC, 安全軟體開發生命週期, Secure SDLC, 安全開發生命週期, 安全性左移, Shift Left, SAST, DAST]
-category: 資安
+category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-07-05
 ---

@@ -2,7 +2,7 @@
 title: "監管鏈（Chain of Custody）"
 slug: chain-of-custody
 aliases: [Chain of Custody, 監管鏈, 證據監管鏈, 保管鏈, chain of custody, 證據鏈]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

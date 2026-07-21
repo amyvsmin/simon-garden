@@ -2,7 +2,7 @@
 title: "函式庫（Library）"
 slug: library
 aliases: [Library, 函式庫, libraries, 程式庫, 函數庫, Python library]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

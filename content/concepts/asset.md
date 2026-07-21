@@ -2,7 +2,7 @@
 title: "資產（Asset）"
 slug: asset
 aliases: [Asset, 資產, 資訊資產, information asset, IT asset, 資產盤點]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-05-25
 ---

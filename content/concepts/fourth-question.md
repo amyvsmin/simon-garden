@@ -2,7 +2,7 @@
 title: "第四個問題（讀書第四問）"
 slug: fourth-question
 aliases: [第四個問題, 第四問, fourth question, 讀書第四問]
-category: 學習
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-19
 ---

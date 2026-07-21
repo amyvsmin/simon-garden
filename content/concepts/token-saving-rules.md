@@ -2,7 +2,7 @@
 title: "Claude 省 Token 四大守則"
 slug: token-saving-rules
 aliases: [省 token 守則, Claude token saving, token 守則, 省額度, 省成本守則]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

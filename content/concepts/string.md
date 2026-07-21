@@ -2,7 +2,7 @@
 title: "字串（String）"
 slug: string
 aliases: [String, 字串, string data, 字串資料, strings]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "意義建構（Sense-Making）"
 slug: sense-making
 aliases: [意義建構, sense making, sensemaking]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-20
 ---

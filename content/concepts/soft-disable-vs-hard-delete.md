@@ -2,7 +2,7 @@
 title: "軟鎖 vs 硬刪"
 slug: soft-disable-vs-hard-delete
 aliases: [soft disable vs hard delete, usermod -L, userdel -r, 帳號離職流程, account disable]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

@@ -2,7 +2,7 @@
 title: "有感資安訓練設計（Security Awareness Design）"
 slug: security-awareness-design
 aliases: [Security Awareness Design, 有感訓練, 有感資安訓練, 資安訓練設計, security awareness program design, 訓練設計範式]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-07
 ---

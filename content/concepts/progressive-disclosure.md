@@ -2,7 +2,7 @@
 title: "漸進式披露 / 按需讀取"
 slug: progressive-disclosure
 aliases: [progressive disclosure, lazy loading, on-demand reading, 按需載入]
-category: AI
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

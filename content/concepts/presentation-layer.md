@@ -2,7 +2,7 @@
 title: "表示層（Presentation Layer，OSI L6）"
 slug: presentation-layer
 aliases: [Presentation Layer, 表示層, OSI 第六層, L6]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

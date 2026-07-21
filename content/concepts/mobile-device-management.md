@@ -2,7 +2,7 @@
 title: "行動裝置管理 MDM／MAM／UEM（Mobile Device & Endpoint Management）"
 slug: mobile-device-management
 aliases: [MDM, MAM, UEM, 行動裝置管理, 端點裝置管理, Mobile Device Management, Mobile Application Management, Unified Endpoint Management]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-06
 ---

@@ -2,7 +2,7 @@
 title: "生物辨識錯誤率（FAR / FRR / CER）"
 slug: biometric-error-rate
 aliases: [生物辨識錯誤率, Biometric Error Rate, FAR, FRR, CER, EER, 錯誤接受率, 錯誤拒絕率, 交叉錯誤率, 等錯誤率]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-07-04
 ---

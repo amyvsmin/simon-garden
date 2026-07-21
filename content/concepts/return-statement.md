@@ -2,7 +2,7 @@
 title: "return 陳述（Return Statement）"
 slug: return-statement
 aliases: [Return statement, return 陳述, return, return-statement, 回傳陳述, 返回陳述]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

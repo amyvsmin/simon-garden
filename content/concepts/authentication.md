@@ -2,7 +2,7 @@
 title: "認證"
 slug: authentication
 aliases: [authentication, 身份驗證, 驗證, 認證流程]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

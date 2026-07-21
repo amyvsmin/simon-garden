@@ -2,7 +2,7 @@
 title: "IPv4（網際網路協定第 4 版）"
 slug: ipv4
 aliases: [IPv4, IP version 4, 網際網路協定第四版, IPv4 header]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

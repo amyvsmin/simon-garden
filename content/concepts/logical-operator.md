@@ -2,7 +2,7 @@
 title: "邏輯運算子（Logical Operator）"
 slug: logical-operator
 aliases: [Logical operator, 邏輯運算子, logical operators, and or not, 布林運算子, boolean operator]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

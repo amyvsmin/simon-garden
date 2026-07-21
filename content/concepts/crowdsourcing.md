@@ -2,7 +2,7 @@
 title: "群眾外包（Crowdsourcing）"
 slug: crowdsourcing
 aliases: [Crowdsourcing, 群眾外包, 群眾協作, 眾包, crowdsourcing, 社群共享情報]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

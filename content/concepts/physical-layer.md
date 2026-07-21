@@ -2,7 +2,7 @@
 title: "實體層（Physical Layer，OSI L1）"
 slug: physical-layer
 aliases: [Physical Layer, 實體層, 物理層, OSI 第一層, L1]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

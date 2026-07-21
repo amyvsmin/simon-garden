@@ -2,7 +2,7 @@
 title: "AI 採用階段模型（AI Adoption Stage Model）"
 slug: ai-adoption-stage-model
 aliases: [AI 採用階段模型, AI 採用五階段, AI adoption stages, Steps of AI Adoption]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-21
 ---

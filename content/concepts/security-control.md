@@ -2,7 +2,7 @@
 title: "安全控制措施（Security Control）"
 slug: security-control
 aliases: [Security Control, 安全控制, 安全控制措施, 控制措施, security countermeasure, 資安控制]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

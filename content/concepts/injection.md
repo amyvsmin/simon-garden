@@ -2,7 +2,7 @@
 title: "注入攻擊（Injection）"
 slug: injection
 aliases: [Injection, 注入攻擊, 注入漏洞, code injection, 程式碼注入]
-category: 資安
+category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-05-25
 ---

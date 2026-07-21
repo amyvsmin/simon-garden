@@ -2,7 +2,7 @@
 title: "MITRE ATT&CK"
 slug: mitre-attack
 aliases: [MITRE ATT&CK, ATT&CK, MITRE ATTACK, 對手戰術與技術知識庫, ATT&CK framework]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-30
 ---

@@ -2,7 +2,7 @@
 title: "最終報告（Final Report）"
 slug: final-report
 aliases: [Final Report, 最終報告, 事件最終報告, 結案報告, final report, incident final report]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

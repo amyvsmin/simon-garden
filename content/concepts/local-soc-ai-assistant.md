@@ -2,7 +2,7 @@
 title: "地端 SOC AI 助手"
 slug: local-soc-ai-assistant
 aliases: [Local SOC AI, 地端資安助手, Private SOC LLM, 內網 AI 助手, On-prem SOC AI]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-07
 ---

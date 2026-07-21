@@ -2,7 +2,7 @@
 title: "Browser Use（瀏覽器自動化）"
 slug: browser-use
 aliases: [Browser Use, 瀏覽器自動化, Playwright, Puppeteer, agent-browser, 桌面 App 控制]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-12
 ---

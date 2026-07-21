@@ -2,7 +2,7 @@
 title: "re 模組（re Module）"
 slug: re-module
 aliases: [re module, re 模組, re, regular expression module]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

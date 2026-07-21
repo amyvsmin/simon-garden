@@ -2,7 +2,7 @@
 title: "AI 漏洞挖掘"
 slug: ai-vuln-discovery
 aliases: [AI Vulnerability Discovery, Claude Opus, AI 找漏洞]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-05
 ---

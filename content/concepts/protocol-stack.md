@@ -2,7 +2,7 @@
 title: "協定棧（Protocol Stack）"
 slug: protocol-stack
 aliases: [Protocol Stack, 協定棧, 協議棧, 協定堆疊, network protocol stack]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

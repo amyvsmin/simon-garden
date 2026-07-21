@@ -2,7 +2,7 @@
 title: "數位簽章（Digital Signature）"
 slug: digital-signature
 aliases: [Digital Signature, 數位簽章, 數位簽署, digital sign]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-04
 ---

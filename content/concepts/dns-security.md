@@ -2,7 +2,7 @@
 title: "DNS 安全（DNS Security）"
 slug: dns-security
 aliases: [DNS Security, DNS 安全, DNSSEC, DoH, DoT, dns security]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-06
 ---

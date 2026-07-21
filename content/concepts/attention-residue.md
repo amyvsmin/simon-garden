@@ -2,7 +2,7 @@
 title: "注意力殘留（Attention Residue）"
 slug: attention-residue
 aliases: [注意力殘留, attention residue, 任務切換殘留]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 待驗證
 created: 2026-07-19
 ---

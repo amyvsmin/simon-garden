@@ -2,7 +2,7 @@
 title: "提示工程框架死穴"
 slug: prompt-framework-weakness
 aliases: [CoT, ToT, ReAct]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

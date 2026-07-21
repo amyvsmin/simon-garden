@@ -2,7 +2,7 @@
 title: "Context 重送 Token 悖論"
 slug: context-resend-token-paradox
 aliases: [Token 悖論, context resend cost, 上下文重送成本, HTML token 反直覺]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

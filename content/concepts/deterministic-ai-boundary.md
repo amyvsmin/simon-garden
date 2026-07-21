@@ -2,7 +2,7 @@
 title: "確定性與 AI 邊界劃分"
 slug: deterministic-ai-boundary
 aliases: [確定性與 AI 分工, 機械活不餵 LLM, deterministic vs AI split, 清洗與結構化分離]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-28
 ---

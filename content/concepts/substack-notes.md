@@ -2,7 +2,7 @@
 title: "Substack Notes（短貼文）"
 slug: substack-notes
 aliases: [Substack Notes, Notes, Substack 短貼文, Substack 筆記]
-category: 自動化／生產力
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-05-07
 ---

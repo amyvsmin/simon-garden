@@ -2,7 +2,7 @@
 title: "re.findall() 函式（re.findall Function）"
 slug: re-findall
 aliases: [re.findall, re findall, findall, re.findall() 函式]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

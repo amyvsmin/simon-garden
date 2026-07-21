@@ -2,7 +2,7 @@
 title: "專業自我介紹（Professional Pitch / Elevator Pitch）"
 slug: professional-pitch
 aliases: [專業自我介紹, 電梯簡報, professional pitch, professional-pitch, elevator pitch, 20秒自我介紹, tell me about you, 自我推銷]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

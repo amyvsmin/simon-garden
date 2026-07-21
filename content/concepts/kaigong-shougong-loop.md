@@ -2,7 +2,7 @@
 title: "開工／收工每日 AI 工作流"
 slug: kaigong-shougong-loop
 aliases: [開工收工 loop, daily 開工收工, 開工收工工作流, kickoff-wrap loop, daily notes, AI 工作日誌, 每日筆記]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

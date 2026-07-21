@@ -2,7 +2,7 @@
 title: "Bash"
 slug: bash-shell
 aliases: [Bash shell, Bourne Again Shell, 預設 shell]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

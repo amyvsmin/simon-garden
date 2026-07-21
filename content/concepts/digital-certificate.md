@@ -2,7 +2,7 @@
 title: "數位憑證（Digital Certificate）"
 slug: digital-certificate
 aliases: [digital certificate, 數位憑證, 電子憑證, X.509, SSL certificate, TLS certificate, 憑證]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-25
 ---

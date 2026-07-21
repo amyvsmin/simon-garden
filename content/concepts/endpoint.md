@@ -2,7 +2,7 @@
 title: "端點（Endpoint）"
 slug: endpoint
 aliases: [Endpoint, 端點, 端點裝置, endpoint device, 終端裝置, end-user device]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
 ---

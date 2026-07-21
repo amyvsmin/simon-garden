@@ -2,7 +2,7 @@
 title: "雜湊函數（Hash Function）"
 slug: hash-function
 aliases: [Hash Function, 雜湊函數, 雜湊, hash, 散列函數, 哈希函數, hashing, Hash Value, 雜湊值, digest, 摘要, message digest, 雜湊摘要, 散列值]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-25
 ---

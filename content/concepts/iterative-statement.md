@@ -2,7 +2,7 @@
 title: "迭代陳述（Iterative Statement / Loop）"
 slug: iterative-statement
 aliases: [Iterative statement, 迭代陳述, 迴圈, loop, loops, 迭代]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

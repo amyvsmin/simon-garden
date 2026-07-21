@@ -2,7 +2,7 @@
 title: "園區網路設計（Campus Network Design，五原則＋核心/分佈/存取三層架構）"
 slug: campus-network-design
 aliases: [Campus Network Design, 園區網路設計, campus-network, 園區網路]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

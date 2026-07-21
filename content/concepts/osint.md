@@ -2,7 +2,7 @@
 title: "開源情報（OSINT）"
 slug: osint
 aliases: [OSINT, Open Source Intelligence, 開源情報, 公開來源情報, 開放原始碼情報, 公開情報蒐集]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-25
 ---

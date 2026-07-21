@@ -2,7 +2,7 @@
 title: "密碼敏捷性"
 slug: crypto-agility
 aliases: [Cryptographic Agility, Crypto Agility, 密碼敏捷, 演算法可換, 加密敏捷性]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-07
 ---

@@ -2,7 +2,7 @@
 title: "無線網路安全（Wi-Fi Security）"
 slug: wifi-security
 aliases: [Wi-Fi Security, 無線網路安全, 無線安全, WLAN 安全, WiFi security, 802.11 安全]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-06
 ---

@@ -2,7 +2,7 @@
 title: "直譯器（Interpreter）"
 slug: interpreter
 aliases: [Interpreter, 直譯器, python interpreter, 解譯器, 直譯程式]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

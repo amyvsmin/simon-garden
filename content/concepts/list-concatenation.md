@@ -2,7 +2,7 @@
 title: "清單串接（List Concatenation）"
 slug: list-concatenation
 aliases: [List concatenation, 清單串接, 清單連接, list concat]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

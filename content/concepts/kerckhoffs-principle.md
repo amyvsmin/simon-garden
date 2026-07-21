@@ -2,7 +2,7 @@
 title: "科克霍夫原則（Kerckhoffs's Principle）"
 slug: kerckhoffs-principle
 aliases: [Kerckhoffs's Principle, Kerckhoffs Principle, 科克霍夫原則, 柯克霍夫原則]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-07-06
 ---

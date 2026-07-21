@@ -2,7 +2,7 @@
 title: "SQL Join（多表合併）"
 slug: sql-join
 aliases: [SQL JOIN, join, 多表合併, 表合併, INNER JOIN, OUTER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-09
 ---

@@ -2,7 +2,7 @@
 title: "主機型入侵偵測系統（HIDS）"
 slug: hids
 aliases: [HIDS, Host-based IDS, host based intrusion detection system, 主機型 IDS, 主機型入侵偵測系統]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

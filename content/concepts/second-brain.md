@@ -2,7 +2,7 @@
 title: "第二大腦（Second Brain）"
 slug: second-brain
 aliases: [Second Brain, PKM, 個人知識庫, 外腦]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

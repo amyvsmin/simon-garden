@@ -2,7 +2,7 @@
 title: "事件危急度（Incident Criticality）"
 slug: incident-criticality
 aliases: [Incident Criticality, incident criticality, 事件危急度, 危急度, 事件危急程度, criticality level, 事件急迫度]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-23
 ---

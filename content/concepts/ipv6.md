@@ -2,7 +2,7 @@
 title: "IPv6（網際網路協定第 6 版）"
 slug: ipv6
 aliases: [IPv6, IP version 6, 網際網路協定第六版, IPv6 位址, 128 位元位址]
-category: 網路
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-05
 updated: 2026-07-06

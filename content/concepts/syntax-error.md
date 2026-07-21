@@ -2,7 +2,7 @@
 title: "語法錯誤（Syntax Error）"
 slug: syntax-error
 aliases: [Syntax error, 語法錯誤, syntax error, syntax errors, SyntaxError]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

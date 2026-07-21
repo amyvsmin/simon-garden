@@ -2,7 +2,7 @@
 title: "AI 任務分組（Cluster）"
 slug: ai-task-clustering
 aliases: [AI 任務 cluster, AI task clustering, 任務分組, task clustering, 任務聚類, cluster grouping]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-11
 ---

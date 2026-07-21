@@ -2,7 +2,7 @@
 title: "區域網路（LAN，Local Area Network）"
 slug: local-area-network
 aliases: [Local Area Network, LAN, 區域網路, 局域網]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

@@ -2,7 +2,7 @@
 title: "AI 任務執行範式（從問答到執行）"
 slug: ai-task-execution
 aliases: [AI 執行任務, AI 個人助理, AI 任務執行, AI from QA to execution, AI 代理執行, 從問答到執行]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-20
 ---

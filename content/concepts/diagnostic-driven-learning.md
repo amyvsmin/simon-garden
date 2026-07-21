@@ -2,7 +2,7 @@
 title: "診斷驅動學習（Diagnostic-Driven Learning）"
 slug: diagnostic-driven-learning
 aliases: [診斷驅動學習, 弱點驅動複習, 診斷式學習, 個人化補強, diagnostic-driven learning, knowledge-gap learning]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-06-30
 ---

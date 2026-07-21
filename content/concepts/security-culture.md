@@ -2,7 +2,7 @@
 title: "資安文化（Security Culture）"
 slug: security-culture
 aliases: [security culture, 資安文化, 安全文化, 組織安全文化, 資訊安全文化]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

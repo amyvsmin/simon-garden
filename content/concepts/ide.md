@@ -2,7 +2,7 @@
 title: "整合開發環境（IDE）"
 slug: ide
 aliases: [IDE, 整合開發環境, Integrated Development Environment, 整合式開發環境]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

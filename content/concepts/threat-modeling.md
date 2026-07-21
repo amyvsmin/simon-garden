@@ -2,7 +2,7 @@
 title: "威脅建模（Threat Modeling）"
 slug: threat-modeling
 aliases: [Threat Modeling, 威脅建模, 威脅模型, threat model, 威脅分析]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

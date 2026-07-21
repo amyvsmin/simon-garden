@@ -2,7 +2,7 @@
 title: "修補管理（Patch Management）"
 slug: patch-management
 aliases: [patch management, 修補管理, 補丁管理, vulnerability remediation, 漏洞修補, patch, 軟體更新, OS update]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-09
 ---

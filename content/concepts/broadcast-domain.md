@@ -2,7 +2,7 @@
 title: "廣播域（Broadcast Domain）"
 slug: broadcast-domain
 aliases: [Broadcast Domain, 廣播域]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

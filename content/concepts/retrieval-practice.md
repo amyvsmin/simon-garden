@@ -2,7 +2,7 @@
 title: "主動回想（Retrieval Practice）"
 slug: retrieval-practice
 aliases: [主動回想, retrieval practice, 提取練習]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-03
 ---

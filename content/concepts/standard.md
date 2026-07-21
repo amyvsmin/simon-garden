@@ -2,7 +2,7 @@
 title: "標準（Standard）"
 slug: standard
 aliases: [Standard, 標準, 安全標準, security standard, 合規標準, compliance standard]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

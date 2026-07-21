@@ -2,7 +2,7 @@
 title: "ULA 本地唯一位址（Unique Local Address）"
 slug: unique-local-address
 aliases: [ULA, Unique Local Address, 本地唯一位址, 唯一本地位址, IPv6 私有位址, FC00, FD00]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

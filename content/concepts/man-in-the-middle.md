@@ -2,7 +2,7 @@
 title: "中間人攻擊（Man-in-the-Middle, MITM）"
 slug: man-in-the-middle
 aliases: [中間人攻擊, MITM, Man-in-the-Middle, 中間人, Evil Twin, ARP Spoofing, DNS Spoofing, 惡魔雙胞胎]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-05
 ---

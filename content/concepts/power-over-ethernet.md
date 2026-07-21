@@ -2,7 +2,7 @@
 title: "PoE 乙太網路供電（Power over Ethernet）"
 slug: power-over-ethernet
 aliases: [Power over Ethernet, PoE, PoE+, UPoE, UPoE+, 乙太網路供電, PSE, PD, power inline, 802.3af, 802.3at, 802.3bt]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

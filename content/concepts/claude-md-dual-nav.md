@@ -2,7 +2,7 @@
 title: "CLAUDE.md（雙層導航設計）"
 slug: claude-md-dual-nav
 aliases: [雙層導航, AI 文件夾地圖, 兩層 instructions]
-category: AI
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

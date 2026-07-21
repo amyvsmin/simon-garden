@@ -2,7 +2,7 @@
 title: "營運持續計畫（Business Continuity Plan / BCP）"
 slug: business-continuity-plan
 aliases: [Business Continuity Plan, BCP, 營運持續計畫, 業務持續計畫, business continuity plan, 營運不中斷計畫]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-13
 ---

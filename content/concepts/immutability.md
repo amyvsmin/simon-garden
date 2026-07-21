@@ -2,7 +2,7 @@
 title: "不可變性（Immutability）"
 slug: immutability
 aliases: [Immutable, 不可變, immutability, 不可變性, 不可變更, immutable object]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "關鍵基礎設施"
 slug: critical-infrastructure
 aliases: [critical infrastructure, CIP, 關鍵資訊基礎設施]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-05
 ---

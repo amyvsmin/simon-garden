@@ -2,7 +2,7 @@
 title: "Obsidian + Claude Code 工作流"
 slug: obsidian-claude-code-workflow
 aliases: [Obsidian + AI 工作流, Obsidian Claude 工作流, vault + AI]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

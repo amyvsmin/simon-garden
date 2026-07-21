@@ -2,7 +2,7 @@
 title: "劇本（Playbook）"
 slug: playbook
 aliases: [Playbook, 劇本, 手冊, 應變手冊, 操作手冊, runbook, incident playbook, 事件劇本]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
 ---

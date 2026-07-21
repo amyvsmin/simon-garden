@@ -2,7 +2,7 @@
 title: "跨平台可攜 AI Agent（雙棲 / SSOT + symlink）"
 slug: cross-platform-agent
 aliases: [雙棲 agent, 兩棲 agent, 跨家 agent, cross-platform agent, SSOT agent config, 單一真實來源 agent, AGENTS.md CLAUDE.md GEMINI.md 同步, agent portability, 可遷移 AI agent, 不被鎖定 agent]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-01
 ---

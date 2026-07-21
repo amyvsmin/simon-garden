@@ -2,7 +2,7 @@
 title: "持續學習（資安職涯的內建要求）"
 slug: continuous-learning
 aliases: [持續學習, 終身學習, continuous learning, continuous-learning, lifelong learning, 持續進修, 保持資訊更新, stay up-to-date, keeping current]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-25
 ---

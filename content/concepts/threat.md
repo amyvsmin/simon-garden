@@ -2,7 +2,7 @@
 title: "威脅（Threat）"
 slug: threat
 aliases: [Threat, 威脅, 資安威脅, security threat]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

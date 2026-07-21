@@ -2,7 +2,7 @@
 title: "Vibe Coding"
 slug: vibe-coding
 aliases: [自然語言開發, AI Coding]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

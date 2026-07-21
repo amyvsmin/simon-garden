@@ -2,7 +2,7 @@
 title: "網路監看（Network Monitoring）"
 slug: network-monitoring
 aliases: [Network Monitoring, 網路監看, 網路監控, 流量監看]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-15
 ---

@@ -2,7 +2,7 @@
 title: "Claude Code /goal 指令"
 slug: claude-code-goal-command
 aliases: [/goal, goal 指令, Claude Code goal mode, goal command, 完成條件指令]
-category: 自動化
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-14
 ---

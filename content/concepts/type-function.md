@@ -2,7 +2,7 @@
 title: "type() 函式（Type Function）"
 slug: type-function
 aliases: [type function, type() 函式, type, type 函式, type() function]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

@@ -2,7 +2,7 @@
 title: "Claude Code 推理力道（Effort Level）"
 slug: claude-code-effort-level
 aliases: [推理力道, effort level, Claude Code effort, reasoning effort, low medium high effort, thinking effort, 思考力道]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-29
 ---

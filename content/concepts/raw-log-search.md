@@ -2,7 +2,7 @@
 title: "原始 Log 搜尋（Raw Log Search）"
 slug: raw-log-search
 aliases: [raw log search, Raw Log Search, 原始 log 搜尋, 原始日誌搜尋, raw log, 未正規化搜尋]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-14
 ---

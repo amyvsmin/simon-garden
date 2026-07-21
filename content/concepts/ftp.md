@@ -2,7 +2,7 @@
 title: "FTP 檔案傳輸協定（File Transfer Protocol）"
 slug: ftp
 aliases: [FTP, File Transfer Protocol, 檔案傳輸協定]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

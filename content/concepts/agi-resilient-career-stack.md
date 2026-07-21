@@ -2,7 +2,7 @@
 title: "抗 AGI 職涯能力組合（AGI-Resilient Career Stack）"
 slug: agi-resilient-career-stack
 aliases: [抗 AGI 職涯能力組合, AGI 韌性職涯組合, AGI-resilient career stack]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-18
 ---

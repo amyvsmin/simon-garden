@@ -2,7 +2,7 @@
 title: "Python（程式語言）"
 slug: python
 aliases: [Python, Python 3, Python programming language, Python 程式語言, 派森]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

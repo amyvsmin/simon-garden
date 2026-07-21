@@ -2,7 +2,7 @@
 title: "非對稱加密（Asymmetric Encryption）"
 slug: asymmetric-encryption
 aliases: [Asymmetric Encryption, 非對稱加密, 非對稱式加密, public key cryptography, 公鑰加密, 公開金鑰加密]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-25
 ---

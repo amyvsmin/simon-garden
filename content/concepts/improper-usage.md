@@ -2,7 +2,7 @@
 title: "不當使用（Improper Usage）"
 slug: improper-usage
 aliases: [Improper Usage, improper use, 不當使用, 資源不當使用]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

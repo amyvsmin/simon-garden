@@ -2,7 +2,7 @@
 title: "資安研討會與組織（在地連結的場域）"
 slug: security-conferences
 aliases: [資安研討會, 資安會議, security conferences, security-conferences, 資安組織, security associations, 資安年會]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-25
 ---

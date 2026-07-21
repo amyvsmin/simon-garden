@@ -2,7 +2,7 @@
 title: "Mosca 定理"
 slug: mosca-theorem
 aliases: [Mosca's Theorem, Mosca 不等式, Mosca Inequality, x+y≤z, 後量子遷移時程框架]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-07
 ---

@@ -2,7 +2,7 @@
 title: "共同責任模型（Shared Responsibility Model）"
 slug: shared-responsibility-model
 aliases: [Shared Responsibility Model, 共同責任模型, 責任共擔模型, cloud shared responsibility, 雲端共同責任]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

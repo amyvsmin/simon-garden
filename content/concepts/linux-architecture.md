@@ -2,7 +2,7 @@
 title: "Linux 架構"
 slug: linux-architecture
 aliases: [linux architecture, Linux 五層架構]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

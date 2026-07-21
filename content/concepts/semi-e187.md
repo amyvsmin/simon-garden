@@ -2,7 +2,7 @@
 title: "SEMI E187（晶圓廠設備資安規範）"
 slug: semi-e187
 aliases: [SEMI E187, E187, SEMI 187, 半導體設備資安標準, 晶圓廠設備資安, 設備資安認證, Fab Equipment Cybersecurity]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-07
 updated: 2026-07-06

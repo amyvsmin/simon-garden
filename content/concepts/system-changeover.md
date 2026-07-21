@@ -2,7 +2,7 @@
 title: "系統轉換方式（System Changeover）"
 slug: system-changeover
 aliases: [System Changeover, 系統轉換, 系統轉換方式, 系統切換, changeover]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-06
 ---

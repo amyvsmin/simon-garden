@@ -2,7 +2,7 @@
 title: "len() 函式（Length Function）"
 slug: len-function
 aliases: [len function, len() 函式, length function, len, 長度函式]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

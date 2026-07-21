@@ -2,7 +2,7 @@
 title: "解析（Parsing）"
 slug: parsing
 aliases: [Parsing, 解析, parse, 剖析, 解析檔案]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

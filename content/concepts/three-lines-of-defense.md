@@ -2,7 +2,7 @@
 title: "三道防線（Three Lines of Defense／三線模型）"
 slug: three-lines-of-defense
 aliases: [Three Lines of Defense, 三道防線, 三線模型, Three Lines Model, 三線防禦]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-07-06
 ---

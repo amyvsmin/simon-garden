@@ -2,7 +2,7 @@
 title: "API（應用程式介面）"
 slug: api
 aliases: [API, Application Programming Interface, 應用程式介面, 程式介面]
-category: AI
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-12
 ---

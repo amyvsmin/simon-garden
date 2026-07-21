@@ -2,7 +2,7 @@
 title: "可轉移技能（Transferable Skills）"
 slug: transferable-skills
 aliases: [可轉移技能, 可轉換技能, transferable skills, transferable-skills, 跨領域技能, 帶得走的技能, 學習遷移, learning transfer, learning-transfer, 殺手級應用]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

@@ -2,7 +2,7 @@
 title: "視覺儀表板（Visual Dashboard）"
 slug: visual-dashboard
 aliases: [Visual Dashboard, visual dashboard, 視覺儀表板, 儀表板, dashboard, 視覺化儀表板, security dashboard]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-24
 ---

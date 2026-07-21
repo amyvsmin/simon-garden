@@ -2,7 +2,7 @@
 title: "跨資料夾 wikilink"
 slug: wikilink-cross-folder
 aliases: [跨資料夾 wikilink, wikilink AI 上下文觸達, 跨層級連線, cross-folder wikilink, wikilink 突破樹狀結構, AI vault navigation by wikilink]
-category: 生產力／AI
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-13
 ---

@@ -2,7 +2,7 @@
 title: "政策（Policy）"
 slug: policy
 aliases: [Policy, 政策, 安全政策, security policy, 資安政策, 資訊安全政策]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

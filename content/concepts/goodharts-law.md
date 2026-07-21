@@ -2,7 +2,7 @@
 title: "古德哈特定律（Goodhart's Law）"
 slug: goodharts-law
 aliases: [古德哈特定律, Goodhart's Law, goodharts law, goodharts-law, 指標變目標就失真, 假使用, 考核失真, 指標操縱, 度量即目標]
-category: 思考方法
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-06
 ---

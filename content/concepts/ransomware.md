@@ -2,7 +2,7 @@
 title: "勒索軟體（Ransomware）"
 slug: ransomware
 aliases: [勒索軟體, Ransomware, 勒索病毒, 加密勒索, 雙重勒索, RaaS, WannaCry]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-05
 ---

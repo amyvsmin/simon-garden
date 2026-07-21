@@ -2,7 +2,7 @@
 title: "Claude Code 回溯（/rewind）"
 slug: claude-rewind
 aliases: [claude-rewind, Claude rewind, /rewind, 回溯機制, Claude Code 回溯, rewind]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-07
 ---

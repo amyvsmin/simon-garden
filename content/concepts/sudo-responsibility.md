@@ -2,7 +2,7 @@
 title: "sudo 責任使用"
 slug: sudo-responsibility
 aliases: [sudo responsibility, sudo design, sudo elevated privileges, sudo-elevated-privileges, root-login-bad-practice]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

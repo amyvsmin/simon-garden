@@ -2,7 +2,7 @@
 title: "主鍵（Primary Key）"
 slug: primary-key
 aliases: [primary key, 主鍵, PK, 唯一鍵, unique key]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-09
 ---

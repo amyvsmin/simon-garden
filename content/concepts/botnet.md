@@ -2,7 +2,7 @@
 title: "殭屍網路（Botnet）"
 slug: botnet
 aliases: [Botnet, bot net, 殭屍網路, 機器人網路]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-19
 ---

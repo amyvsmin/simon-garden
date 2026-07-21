@@ -2,7 +2,7 @@
 title: "TLS / SSL（傳輸層安全協定）"
 slug: tls
 aliases: [TLS, SSL, 傳輸層安全, Transport Layer Security, TLS/SSL, 心臟出血, Heartbleed, POODLE, 貴賓犬漏洞]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-05
 ---

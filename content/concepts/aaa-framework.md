@@ -2,7 +2,7 @@
 title: "AAA 框架（Authentication, Authorization, Accounting）"
 slug: aaa-framework
 aliases: [AAA, AAA framework, 認證授權稽核, 認證授權記帳, authentication authorization accounting, AAA 架構, triple A]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-25
 ---

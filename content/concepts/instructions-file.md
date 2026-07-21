@@ -2,7 +2,7 @@
 title: "指令檔"
 slug: instructions-file
 aliases: [CLAUDE.md, AI Instruction File, AGENTS.md, GEMINI.md]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

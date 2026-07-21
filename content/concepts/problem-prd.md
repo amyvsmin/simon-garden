@@ -2,7 +2,7 @@
 title: "問題規格書（Problem PRD）"
 slug: problem-prd
 aliases: [問題規格書, PRD, 問題規格, 目標限制障礙, problem PRD, prd-thinking]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-18
 ---

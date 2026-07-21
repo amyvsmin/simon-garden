@@ -2,7 +2,7 @@
 title: "攻擊向量（Attack Vector）"
 slug: attack-vector
 aliases: [Attack Vector, 攻擊向量, 攻擊路徑, attack path, 入侵途徑]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-25
 ---

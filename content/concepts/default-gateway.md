@@ -2,7 +2,7 @@
 title: "預設閘道（Default Gateway）"
 slug: default-gateway
 aliases: [Default Gateway, 預設閘道, 預設網關, 缺省網關, gateway, 閘道]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

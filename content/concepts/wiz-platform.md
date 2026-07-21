@@ -2,7 +2,7 @@
 title: "Wiz 平台"
 slug: wiz-platform
 aliases: [Wiz, Wiz 雲端安全平台, Google Wiz, 微視]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-05
 ---

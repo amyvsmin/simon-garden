@@ -2,7 +2,7 @@
 title: "VLSM 可變長子網遮罩（Variable Length Subnet Mask）"
 slug: vlsm
 aliases: [VLSM, Variable Length Subnet Mask, 可變長子網遮罩, 可變長子網掩碼, 變長子網]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

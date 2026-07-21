@@ -2,7 +2,7 @@
 title: "安全控制分類（Security Control Types）"
 slug: security-control-types
 aliases: [Security Control Types, 安全控制分類, 控制方法分類, 控制類型, security controls]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-07-06
 ---

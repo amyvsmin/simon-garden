@@ -2,7 +2,7 @@
 title: "行銷內容自動化工作流"
 slug: marketing-automation-workflow
 aliases: [行銷自動化, 內容自動化工作流, marketing automation, 行銷流水線, 多平台自動發布]
-category: 自動化
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-20
 ---

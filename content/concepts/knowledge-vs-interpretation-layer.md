@@ -2,7 +2,7 @@
 title: "知識層與詮釋層（Knowledge vs Interpretation Layer）"
 slug: knowledge-vs-interpretation-layer
 aliases: [知識層與詮釋層, 知識層 vs 詮釋層, 詮釋層, knowledge vs interpretation layer]
-category: 學習
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-19
 ---

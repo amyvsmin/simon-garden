@@ -2,7 +2,7 @@
 title: "隱性知識外化（Tacit Knowledge Externalization）"
 slug: tacit-knowledge-externalization
 aliases: [隱性知識外化, 隱性知識, tacit knowledge, tacit knowledge externalization, 內隱轉外顯, SECI, 老師傅腦袋外化, 資深經驗外化, 判斷力文件化]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-03
 ---

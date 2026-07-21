@@ -2,7 +2,7 @@
 title: ".append() 方法（Append Method）"
 slug: append-method
 aliases: [append method, .append() 方法, append, list append, 附加方法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

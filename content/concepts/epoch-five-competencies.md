@@ -2,7 +2,7 @@
 title: "EPOCH 五能力（EPOCH Five Competencies）"
 slug: epoch-five-competencies
 aliases: [EPOCH 五能力, EPOCH, epoch five competencies, EPOCH 五大能力]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-19
 ---

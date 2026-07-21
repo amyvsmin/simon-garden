@@ -2,7 +2,7 @@
 title: "純接收 + 即時落地（日記互動模式）"
 slug: pure-receive-immediate-write
 aliases: [append-only journaling, 純接收模式, 即時落地, write-through journaling]
-category: 生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-05
 ---

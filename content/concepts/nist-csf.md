@@ -2,7 +2,7 @@
 title: "NIST 網路安全框架（NIST Cybersecurity Framework）"
 slug: nist-csf
 aliases: [NIST CSF, NIST Cybersecurity Framework, NIST 網路安全框架, CSF, 網路安全框架]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

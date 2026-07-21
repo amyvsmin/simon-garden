@@ -2,7 +2,7 @@
 title: "Linux 發行版"
 slug: linux-distribution
 aliases: [linux distribution, distro, Linux distro, ubuntu, debian, kali, parrot, red hat, RHEL, CentOS, AlmaLinux]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

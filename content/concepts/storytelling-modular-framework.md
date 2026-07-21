@@ -2,7 +2,7 @@
 title: "故事化模組化拼積木框架"
 slug: storytelling-modular-framework
 aliases: [Storytelling Modular Framework, 拼積木框架, 角色卡手法卡場景卡, Persona x Tactic x Scene, 模組化故事設計]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-07
 ---

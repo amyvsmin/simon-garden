@@ -2,7 +2,7 @@
 title: "PEP 8 風格指南（PEP 8 Style Guide）"
 slug: pep-8
 aliases: [PEP 8 style guide, PEP 8, PEP8, pep-8, Python Enhancement Proposals]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

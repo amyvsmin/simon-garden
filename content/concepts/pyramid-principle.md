@@ -2,7 +2,7 @@
 title: "金字塔原理（Pyramid Principle）"
 slug: pyramid-principle
 aliases: [金字塔原理, pyramid principle, 結論先行, BLUF, 倒金字塔, 決策者順序, Minto, 內容重組, bottom line up front]
-category: 溝通
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-03
 ---

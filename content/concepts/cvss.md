@@ -2,7 +2,7 @@
 title: "CVSS"
 slug: cvss
 aliases: [Common Vulnerability Scoring System, 漏洞評分]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-05-05
 ---

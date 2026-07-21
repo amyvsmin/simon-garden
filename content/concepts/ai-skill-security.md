@@ -2,7 +2,7 @@
 title: "AI Skill 資安風險與審核"
 slug: ai-skill-security
 aliases: [AI Skill 資安, skill security, 惡意 skill, malicious skill, skill 風險, skill 供應鏈攻擊, skill supply chain, 第三方 skill 審核, ClawHub, ClawHavoc]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

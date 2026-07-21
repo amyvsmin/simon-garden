@@ -2,7 +2,7 @@
 title: "認知卸載（Cognitive Offloading）"
 slug: cognitive-offloading
 aliases: [認知卸載, cognitive offloading, 認知外包]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-19
 ---

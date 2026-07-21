@@ -2,7 +2,7 @@
 title: "縮排（Indentation）"
 slug: indentation
 aliases: [Indentation, 縮排, indentation, 縮進]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

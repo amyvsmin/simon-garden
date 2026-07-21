@@ -2,7 +2,7 @@
 title: "關聯分析（Correlation）"
 slug: correlation
 aliases: [correlation, 關聯分析, 事件關聯, log correlation, event correlation]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
 ---

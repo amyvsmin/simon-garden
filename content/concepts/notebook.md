@@ -2,7 +2,7 @@
 title: "筆記本（Notebook）"
 slug: notebook
 aliases: [Notebook, 筆記本, Jupyter Notebook, Jupyter, Google Colab, Colaboratory, 互動式筆記本]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

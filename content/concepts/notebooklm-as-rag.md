@@ -2,7 +2,7 @@
 title: "NotebookLM 當 RAG 引擎"
 slug: notebooklm-as-rag
 aliases: [NotebookLM 當 RAG, NotebookLM 外掛 RAG, NotebookLM as RAG, 外掛 RAG 引擎, Gemini RAG 卸載, Claude token 卸載]
-category: AI／生產力
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-13
 ---

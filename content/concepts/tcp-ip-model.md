@@ -2,7 +2,7 @@
 title: "TCP/IP 模型（TCP/IP Model）"
 slug: tcp-ip-model
 aliases: [TCP/IP Model, TCP/IP 模型, TCP/IP 四層模型, TCP/IP four-layer model, 四層模型, internet protocol suite]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-07
 ---

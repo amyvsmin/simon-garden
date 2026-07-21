@@ -2,7 +2,7 @@
 title: "認知負荷理論（Cognitive Load Theory）"
 slug: cognitive-load
 aliases: [認知負荷, cognitive load, 認知負荷理論, cognitive load theory, Sweller, 工作記憶容量, 內在負荷, 外在負荷]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

@@ -2,7 +2,7 @@
 title: "Spine-and-Leaf 脊葉式架構（資料中心互聯拓撲）"
 slug: spine-and-leaf-architecture
 aliases: [Spine-and-Leaf, spine and leaf, 脊葉式架構, 脊葉架構, Spine, Leaf, 脊, 葉]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

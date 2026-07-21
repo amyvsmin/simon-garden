@@ -2,7 +2,7 @@
 title: "子字串（Substring）"
 slug: substring
 aliases: [Substring, 子字串, substrings, 子串]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

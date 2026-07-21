@@ -2,7 +2,7 @@
 title: "職涯認同陳述（Career Identity Statement）"
 slug: career-identity-statement
 aliases: [職涯認同陳述, 職涯認同, career identity statement, career-identity-statement, 職業定位陳述, 自我定位陳述]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

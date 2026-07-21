@@ -2,7 +2,7 @@
 title: "草圖提示"
 slug: sketch-prompt
 aliases: [Sketch Prompt, 視覺提示詞, Multi-modal Prompt]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

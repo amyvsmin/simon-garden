@@ -2,7 +2,7 @@
 title: "晶格密碼學"
 slug: lattice-based-cryptography
 aliases: [Lattice-based Cryptography, 晶格加密, LWE, Module-LWE, Learning With Errors]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-07
 ---

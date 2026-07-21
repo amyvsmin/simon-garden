@@ -2,7 +2,7 @@
 title: "Log 轉送器（Log Forwarder）"
 slug: log-forwarder
 aliases: [log forwarder, Log Forwarder, log 轉送器, 日誌轉送器, log shipper, log forwarding, filebeat]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-14
 ---

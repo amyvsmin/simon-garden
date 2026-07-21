@@ -2,7 +2,7 @@
 title: "Markdown vs PDF token 成本差距"
 slug: markdown-vs-pdf-token-cost
 aliases: [Markdown vs PDF token, PDF token cost, 文件格式 token, Markdown 省 token, 資料降噪]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-10
 ---

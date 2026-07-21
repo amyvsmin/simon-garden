@@ -2,7 +2,7 @@
 title: "面試後跟進（Post-Interview Follow-up）"
 slug: post-interview-follow-up
 aliases: [面試後跟進, 感謝信, post-interview follow-up, post-interview-follow-up, thank-you note, 跟進信, 面試後續]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-29
 ---

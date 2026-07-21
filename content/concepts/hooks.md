@@ -2,7 +2,7 @@
 title: "Hooks"
 slug: hooks
 aliases: [Claude Code Hooks, session hooks]
-category: 自動化
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

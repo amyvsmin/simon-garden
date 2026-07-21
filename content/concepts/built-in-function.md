@@ -2,7 +2,7 @@
 title: "內建函式（Built-in Function）"
 slug: built-in-function
 aliases: [Built-in function, 內建函式, builtin function, built-in functions, 內建函數]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "被路由協定（Routed Protocol）"
 slug: routed-protocol
 aliases: [Routed Protocol, 被路由協定, 可路由協定, routed protocols]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

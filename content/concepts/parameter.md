@@ -2,7 +2,7 @@
 title: "參數（Parameter）"
 slug: parameter
 aliases: [Parameter, 參數, parameters, 形式參數, 形參]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

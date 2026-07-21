@@ -2,7 +2,7 @@
 title: "合意困難（Desirable Difficulty）"
 slug: desirable-difficulty
 aliases: [合意困難, desirable difficulty, 適度困難, 有益的困難, Bjork, 學習與表現的區分, 難才學得起來]
-category: 學習
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-15
 ---

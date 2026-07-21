@@ -2,7 +2,7 @@
 title: "絕對路徑"
 slug: absolute-path
 aliases: [absolute path, absolute file path, 完整路徑, full path]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

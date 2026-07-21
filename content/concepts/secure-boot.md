@@ -2,7 +2,7 @@
 title: "安全開機"
 slug: secure-boot
 aliases: [secure boot, UEFI Secure Boot, 程式碼簽署]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-05
 ---

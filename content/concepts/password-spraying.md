@@ -2,7 +2,7 @@
 title: "密碼潑灑（Password Spraying）"
 slug: password-spraying
 aliases: [Password Spraying, 密碼潑灑, 密碼噴灑, spray attack]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-07-06
 ---

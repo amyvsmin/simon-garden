@@ -2,7 +2,7 @@
 title: "MCP (Model Context Protocol)"
 slug: mcp
 aliases: [Model Context Protocol, AI USB-C]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

@@ -2,7 +2,7 @@
 title: "存取控制模型（DAC / MAC / RBAC / ABAC / RuBAC）"
 slug: access-control-models
 aliases: [存取控制模型, Access Control Models, DAC, MAC, RBAC, ABAC, RuBAC, 任意型存取控制, 強制型存取控制, 角色型存取控制, 屬性型存取控制, 規則型存取控制, 存取控制類型]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-07-04
 updated: 2026-07-06

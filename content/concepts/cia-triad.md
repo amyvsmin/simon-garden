@@ -2,7 +2,7 @@
 title: "機密性完整性可用性三要素（CIA Triad）"
 slug: cia-triad
 aliases: [CIA Triad, CIA 三元組, 機密性完整性可用性, Confidentiality Integrity Availability, CIA, 資安三要素]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

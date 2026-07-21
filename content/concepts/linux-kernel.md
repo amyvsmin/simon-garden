@@ -2,7 +2,7 @@
 title: "Linux 核心"
 slug: linux-kernel
 aliases: [linux kernel, kernel, Linux 內核]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

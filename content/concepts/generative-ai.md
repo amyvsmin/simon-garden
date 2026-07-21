@@ -2,7 +2,7 @@
 title: "生成式 AI（Generative AI）"
 slug: generative-ai
 aliases: [Generative AI, 生成式 AI, Gen AI, gen ai, 生成式人工智慧, 生成 AI]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

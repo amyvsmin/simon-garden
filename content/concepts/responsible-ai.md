@@ -2,7 +2,7 @@
 title: "負責任的 AI（Responsible AI）"
 slug: responsible-ai
 aliases: [Responsible AI, 負責任的 AI, responsible ai, 負責任 AI, 負責任使用 AI, AI 倫理使用]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

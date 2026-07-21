@@ -2,7 +2,7 @@
 title: "永不定影（顯影與定影的攝影隱喻）"
 slug: never-fixing
 aliases: [永不定影, 顯影, 顯影與定影, never fixing, AI 顯影論]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-19
 ---

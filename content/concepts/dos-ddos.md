@@ -2,7 +2,7 @@
 title: "DoS / DDoS（阻斷服務攻擊）"
 slug: dos-ddos
 aliases: [DoS, DDoS, 阻斷服務, 分散式阻斷服務, 阻斷服務攻擊, Denial of Service, SYN Flood, SYN 洪水, LAND 攻擊, 淚滴攻擊, 死亡之 Ping]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-05
 ---

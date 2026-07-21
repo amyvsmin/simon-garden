@@ -2,7 +2,7 @@
 title: "Template 參考模式（Template Reference Pattern）"
 slug: template-reference-pattern
 aliases: [Template Reference, 既有 template 參考, AI 防腦補的個人語料, reference pattern, 個人案例 reference, 個人語料 reference]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-11
 ---

@@ -2,7 +2,7 @@
 title: "合規（Compliance）"
 slug: compliance
 aliases: [Compliance, 合規, 法規遵循, regulatory compliance, 合規性, 法遵]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-25
 ---

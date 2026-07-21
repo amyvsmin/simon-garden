@@ -2,7 +2,7 @@
 title: "EUI-64（Extended Unique Identifier-64）"
 slug: eui-64
 aliases: [EUI-64, EUI64, Extended Unique Identifier, 擴充唯一識別碼, 修改型 EUI-64, Modified EUI-64]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-03
 ---

@@ -2,7 +2,7 @@
 title: "tcpdump"
 slug: tcpdump
 aliases: [tcpdump, 命令列封包分析器, command-line packet analyzer, CLI packet sniffer]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-07
 ---

@@ -2,7 +2,7 @@
 title: "私有 IP 位址（Private IP Address）"
 slug: private-ip-address
 aliases: [Private IP Address, 私有 IP 位址, 私有位址, 私有網路地址, private address, RFC 1918, 內網位址]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

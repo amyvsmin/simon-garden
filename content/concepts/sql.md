@@ -2,7 +2,7 @@
 title: "SQL（結構化查詢語言）"
 slug: sql
 aliases: [SQL, 結構化查詢語言, Structured Query Language, sequel]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-09
 ---

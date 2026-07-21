@@ -2,7 +2,7 @@
 title: "資訊分享與分析中心（ISAC）"
 slug: isac
 aliases: [ISAC, ISACs, 資訊分享與分析中心, Information Sharing and Analysis Center, isac, 產業資訊分享中心]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-13
 ---

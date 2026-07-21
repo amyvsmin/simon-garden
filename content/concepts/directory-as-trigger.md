@@ -2,7 +2,7 @@
 title: "目錄即觸發（directory-as-state）"
 slug: directory-as-trigger
 aliases: [directory-as-trigger, cwd-as-state, 目錄狀態機, C9 觸發]
-category: 自動化
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

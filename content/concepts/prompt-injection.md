@@ -2,7 +2,7 @@
 title: "提示注入（Prompt Injection）"
 slug: prompt-injection
 aliases: [提示注入, prompt injection, prompt-injection, 間接提示注入, indirect prompt injection, 隱形指令注入, 提示詞注入]
-category: 資安
+category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-06-13
 ---

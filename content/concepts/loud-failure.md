@@ -2,7 +2,7 @@
 title: "大聲失敗 — 不要把靜默失敗包裝成成功"
 slug: loud-failure
 aliases: [大聲失敗, loud failure, fail loud, fail loudly, 暴露不確定性, expose uncertainty, 不要靜默成功, silent success warning]
-category: AI
+category: 知識管理
 confidence: 已驗證
 created: 2026-05-15
 ---

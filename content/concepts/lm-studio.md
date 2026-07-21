@@ -2,7 +2,7 @@
 title: "LM Studio"
 slug: lm-studio
 aliases: [LM Studio, lmstudio, 本機 AI GUI, LM Studio 圖形介面]
-category: AI／生產力
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-13
 ---

@@ -2,7 +2,7 @@
 title: "相對路徑"
 slug: relative-path
 aliases: [relative path, relative file path, 相對位置, 相對檔案路徑]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

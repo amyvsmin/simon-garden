@@ -2,7 +2,7 @@
 title: "Linux 過濾命令"
 slug: linux-filter-commands
 aliases: [linux filter commands, grep, pipe, find, grep-command, pipe-operator, find-command, command-chaining, command-pipeline, wildcard-asterisk, mtime-option, ioc-search 工具集]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-10
 ---

@@ -2,7 +2,7 @@
 title: "人機協作勝過人機對抗（流程設計 > 單方強度）"
 slug: human-ai-collaboration
 aliases: [人機協作, 人機協作勝過人機對抗, 流程設計勝過單方強度, 半人馬棋, Centaur Chess, Advanced Chess, Human-AI Collaboration, 卡斯帕洛夫定律]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-03
 ---

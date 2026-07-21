@@ -2,7 +2,7 @@
 title: "業務營運衝擊分析（Business Impact Analysis / BIA）"
 slug: business-impact-analysis
 aliases: [Business Impact Analysis, BIA, 業務營運衝擊分析, business impact analysis, 業務衝擊分析, 營運衝擊分析]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-23
 ---

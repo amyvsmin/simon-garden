@@ -2,7 +2,7 @@
 title: "擬真原型"
 slug: hi-fi-prototype
 aliases: [High Fidelity, Hi-Fi Prototype, 可上線原型]
-category: 生產力
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

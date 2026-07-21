@@ -2,7 +2,7 @@
 title: "受法律保護的資訊（Legally Protected Information）"
 slug: legally-protected-information
 aliases: [Legally Protected Information, 受法律保護的資訊]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-06-23
 ---

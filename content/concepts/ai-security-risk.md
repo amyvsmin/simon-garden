@@ -2,7 +2,7 @@
 title: "AI 的雙面刃（AI Security Risk）"
 slug: ai-security-risk
 aliases: [AI security risk, AI 雙面刃, AI 資安風險, double-edged sword of AI, AI 攻擊標的, AI 被濫用]
-category: AI／Agent／LLM
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-25
 ---

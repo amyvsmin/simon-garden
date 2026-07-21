@@ -2,7 +2,7 @@
 title: "DORA（數位營運韌性法案）"
 slug: dora
 aliases: [DORA, 數位營運韌性法案, Digital Operational Resilience Act, 數位營運韌性法, 數位維運韌性法]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-07-04
 ---

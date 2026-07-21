@@ -2,7 +2,7 @@
 title: "決策指標四分法（虛榮／健康 × 領先／落後）"
 slug: decision-metrics
 aliases: [決策指標四分法, 虛榮指標, 健康指標, vanity metrics, healthy metrics, 領先指標, 落後指標, leading indicator, lagging indicator, decision metrics, 虛榮 vs 健康指標]
-category: 思考方法
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-06
 updated: 2026-07-06

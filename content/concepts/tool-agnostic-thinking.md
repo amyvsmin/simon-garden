@@ -2,7 +2,7 @@
 title: "工具中立思考（先思考再選工具）"
 slug: tool-agnostic-thinking
 aliases: [工具中立思考, 先思考再選工具, tool-agnostic, 不綁定 AI 工具, AI 工具中立, think-before-tool]
-category: 生產力
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-18
 ---

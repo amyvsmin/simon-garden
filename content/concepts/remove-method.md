@@ -2,7 +2,7 @@
 title: ".remove() 方法（Remove Method）"
 slug: remove-method
 aliases: [remove method, .remove() 方法, remove, list remove, 移除方法]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

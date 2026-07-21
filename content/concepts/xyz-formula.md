@@ -2,7 +2,7 @@
 title: "X-Y-Z 公式（履歷成就寫法）"
 slug: xyz-formula
 aliases: [X-Y-Z 公式, XYZ 公式, x-y-z formula, xyz formula, xyz-formula, 履歷量化公式, Google 履歷公式]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

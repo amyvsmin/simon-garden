@@ -2,7 +2,7 @@
 title: "資安故事化溝通（Security Storytelling）"
 slug: security-storytelling
 aliases: [Security Storytelling, security storytelling, 資安故事化溝通, 資安故事, security story, 資安說故事, telling a security story]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-06-24
 ---

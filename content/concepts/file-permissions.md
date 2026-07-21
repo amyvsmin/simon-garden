@@ -2,7 +2,7 @@
 title: "檔案權限"
 slug: file-permissions
 aliases: [file permissions, permissions, 權限, rwx, ugo, 10-character permission string]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

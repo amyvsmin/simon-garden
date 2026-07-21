@@ -2,7 +2,7 @@
 title: "Agent Harness 健康管理"
 slug: agent-harness-hygiene
 aliases: [Agent Harness, harness hygiene, agent 設定瘦身, AI 設定韁繩, 規則去重, 設定環境整理, Claude Code harness]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-05
 ---

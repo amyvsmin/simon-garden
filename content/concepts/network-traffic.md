@@ -2,7 +2,7 @@
 title: "網路流量（Network Traffic）"
 slug: network-traffic
 aliases: [Network Traffic, 網路流量, network data, 網路資料, expected network traffic flow, 預期網路流量]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-06-07
 ---

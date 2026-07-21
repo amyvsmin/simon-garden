@@ -2,7 +2,7 @@
 title: "AI 可信任性（AI Trustworthiness）"
 slug: ai-trustworthiness
 aliases: [AI Trustworthiness, AI 可信任性, 可信任 AI, 可信賴 AI, trustworthy AI, AI 強韌度, AI 可靠度, AI 可控性]
-category: 資安
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-06
 ---

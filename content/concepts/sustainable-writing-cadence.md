@@ -2,7 +2,7 @@
 title: "可持續寫作節奏（雙標準 + 流程化）"
 slug: sustainable-writing-cadence
 aliases: [可持續寫作節奏, 寫作節奏, sustainable writing cadence, 雙標準, 寫作流程化, 最低標準, 理想標準]
-category: 個人成長
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-05-07
 ---

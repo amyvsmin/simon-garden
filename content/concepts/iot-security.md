@@ -2,7 +2,7 @@
 title: "物聯網安全（IoT Security）"
 slug: iot-security
 aliases: [物聯網安全, IoT Security, IoT 資安, 物聯網資安, 影子物聯網, 孤兒設備, Mirai, OWASP IoT Top 10]
-category: 資安
+category: 資安・網路安全
 confidence: 已驗證
 created: 2026-07-05
 ---

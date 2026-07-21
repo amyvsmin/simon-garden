@@ -2,7 +2,7 @@
 title: "超級使用者"
 slug: root-user
 aliases: [root user, superuser, root, UID 0, 最高權限帳號]
-category: 資安
+category: 資安・身分與存取
 confidence: 已驗證
 created: 2026-05-10
 ---

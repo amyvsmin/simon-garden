@@ -2,7 +2,7 @@
 title: "AI 簡報的文字／視覺邏輯分離"
 slug: text-visual-separation
 aliases: [文字視覺分離, 文字邏輯與視覺邏輯分開, text-visual separation, 先大綱再配圖, 輸入端輸出端分離, AI 簡報工作流原則]
-category: 生產力
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-12
 ---

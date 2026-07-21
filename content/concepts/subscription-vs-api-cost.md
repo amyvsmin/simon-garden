@@ -2,7 +2,7 @@
 title: "訂閱不共吃 API（Max ≠ Claude API）"
 slug: subscription-vs-api-cost
 aliases: [Claude 訂閱, API 計費, Max 訂閱, Anthropic 計費結構]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
 ---

@@ -2,7 +2,7 @@
 title: "KEV（已知被利用漏洞清單）"
 slug: kev
 aliases: [Known Exploited Vulnerabilities Catalog, CISA KEV, 已知被利用漏洞清單, KEV 清單, 在野利用清單]
-category: 資安
+category: 資安・評估與測試
 confidence: 已驗證
 created: 2026-07-02
 ---

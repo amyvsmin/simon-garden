@@ -2,7 +2,7 @@
 title: "胖 AP vs 瘦 AP（Fat AP vs Thin AP）"
 slug: fat-ap-vs-thin-ap
 aliases: [Fat AP, Thin AP, 胖AP, 瘦AP, Fat Access Point, Thin Access Point, Autonomous AP, Lightweight AP, 自主式AP, 輕量型AP]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-07-11
 ---

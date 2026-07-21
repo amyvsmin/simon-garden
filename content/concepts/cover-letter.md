@@ -2,7 +2,7 @@
 title: "求職信（Cover Letter）"
 slug: cover-letter
 aliases: [求職信, 求職動機信, 動機信, cover letter, cover-letter, 應徵信]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

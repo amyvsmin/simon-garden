@@ -2,7 +2,7 @@
 title: "索引（Index）"
 slug: index-concept
 aliases: [索引, indices, 位置編號, 下標]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

@@ -2,7 +2,7 @@
 title: "歐盟網路韌性法"
 slug: eu-cra
 aliases: [EU CRA, Cyber Resilience Act, 歐盟韌性法, 網路韌性法案, EU 網安法]
-category: 資安
+category: 資安・風險管理
 confidence: 已驗證
 created: 2026-05-07
 ---

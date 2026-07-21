@@ -2,7 +2,7 @@
 title: "import 陳述（Import Statement）"
 slug: import-statement
 aliases: [Import statement, import 陳述, import, from import, 匯入陳述, import keyword]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-22
 ---

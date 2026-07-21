@@ -2,7 +2,7 @@
 title: "履歷客製化（Resume Tailoring）"
 slug: resume-tailoring
 aliases: [履歷客製化, 履歷客製, 客製履歷, resume tailoring, resume-tailoring, tailored resume, 履歷對齊職缺, base resume]
-category: 職涯
+category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-06-27
 ---

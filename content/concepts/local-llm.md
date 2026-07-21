@@ -2,7 +2,7 @@
 title: "本機 LLM（Local LLM）"
 slug: local-llm
 aliases: [本機 LLM, local LLM, on-device LLM, 本地大模型, 本機 AI, on-prem LLM, 離線 AI, Gemma 4, Llama, Mistral, Qwen]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-13
 ---

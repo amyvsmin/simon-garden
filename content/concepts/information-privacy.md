@@ -2,7 +2,7 @@
 title: "資訊隱私（Information Privacy）"
 slug: information-privacy
 aliases: [information privacy, 資訊隱私, 隱私權, data privacy, 個人資料保護, 個資保護, privacy]
-category: 資安
+category: 資安・資產安全
 confidence: 已驗證
 created: 2026-05-25
 ---

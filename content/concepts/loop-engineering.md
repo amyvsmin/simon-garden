@@ -2,7 +2,7 @@
 title: "迴圈工程（Loop Engineering）"
 slug: loop-engineering
 aliases: [迴圈工程, Loop Engineering, loop engineering, 迴圈式開發, 設計迴圈, 會自己下指令的迴圈, loop-based development]
-category: AI
+category: 知識管理
 confidence: 已驗證
 created: 2026-06-15
 ---

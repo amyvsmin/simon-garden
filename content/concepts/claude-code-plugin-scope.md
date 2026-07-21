@@ -9,7 +9,7 @@ aliases:
   - plugin 安裝範圍
   - claude code plugin scope
   - CC plugin scope
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-22
 ---

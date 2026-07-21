@@ -2,7 +2,7 @@
 title: "SBOM（軟體物料清單）"
 slug: sbom
 aliases: [SBOM, 軟體物料清單, Software Bill of Materials, SSDF, SLSA, VEX, 軟體供應鏈安全]
-category: 資安
+category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-07-04
 ---

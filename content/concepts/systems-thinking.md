@@ -2,7 +2,7 @@
 title: "系統思考（Systems Thinking）"
 slug: systems-thinking
 aliases: [系統思考, systems thinking, systems-thinking, 系統描繪, system mapping, 關鍵槓桿點, leverage point, 平衡迴圈, 增強迴圈, 反饋迴圈, 看清決策後續反應]
-category: 思考方法
+category: 知識管理
 confidence: 已驗證
 created: 2026-07-06
 ---

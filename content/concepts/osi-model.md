@@ -2,7 +2,7 @@
 title: "OSI 七層參考模型（OSI Model）"
 slug: osi-model
 aliases: [OSI Model, OSI 模型, OSI 七層模型, OSI 參考模型, OSI seven-layer model, 開放系統互連模型]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

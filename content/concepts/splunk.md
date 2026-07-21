@@ -2,7 +2,7 @@
 title: "Splunk（資料分析平台 / SIEM）"
 slug: splunk
 aliases: [Splunk, splunk, Splunk Enterprise Security, 資料分析平台, Splunk SIEM]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-14
 ---

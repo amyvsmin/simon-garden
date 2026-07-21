@@ -2,7 +2,7 @@
 title: "過濾"
 slug: filtering-concept
 aliases: [filtering, filter, 資料過濾, 篩選]
-category: 資安
+category: 資安・安全營運
 confidence: 已驗證
 created: 2026-05-10
 ---

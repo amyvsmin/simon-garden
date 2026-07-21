@@ -2,7 +2,7 @@
 title: "HTTP 超文字傳輸協定（HyperText Transfer Protocol）"
 slug: http
 aliases: [HTTP, HyperText Transfer Protocol, 超文字傳輸協定]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-15
 ---

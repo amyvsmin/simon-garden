@@ -2,7 +2,7 @@
 title: "比較運算子（Comparison Operator）"
 slug: comparison-operator
 aliases: [Comparison operator, 比較運算子, comparison operators, 比較運算符, relational operator]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-06-21
 ---

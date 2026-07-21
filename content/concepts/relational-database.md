@@ -2,7 +2,7 @@
 title: "關聯式資料庫"
 slug: relational-database
 aliases: [關聯式資料庫, relational database, RDB, RDBMS, 關聯式 DB]
-category: 資安
+category: 運算基礎
 confidence: 已驗證
 created: 2026-05-09
 ---

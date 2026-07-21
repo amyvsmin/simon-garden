@@ -2,7 +2,7 @@
 title: "Gemini Live（即時多模態隨行助理）"
 slug: gemini-live
 aliases: [Gemini Live, 即時多模態助理, Gemini 隨行助理, Gemini 即時視訊, Gemini Live 鏡頭]
-category: AI
+category: AI 與 Agent
 confidence: 已驗證
 created: 2026-06-10
 ---

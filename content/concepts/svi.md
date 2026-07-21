@@ -2,7 +2,7 @@
 title: "SVI 交換器虛擬介面（Switch Virtual Interface）"
 slug: svi
 aliases: [SVI, Switch Virtual Interface, 交換器虛擬介面, 交換機虛擬介面, VLAN interface, interface vlan]
-category: 資安
+category: 網路基礎
 confidence: 已驗證
 created: 2026-06-28
 ---

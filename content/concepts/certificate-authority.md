@@ -2,7 +2,7 @@
 title: "憑證機構（Certificate Authority）"
 slug: certificate-authority
 aliases: [CA, certificate authority, 憑證機構, 憑證中心, 認證中心, 憑證簽發機構]
-category: 資安
+category: 資安・架構與工程
 confidence: 已驗證
 created: 2026-05-25
 ---
