@@ -54,11 +54,20 @@ function setupReadingList() {
 
     const start = (currentPage - 1) * pageSize
     const end = start + pageSize
-    const visible = new Set(filtered.slice(start, end))
+    const pageCards = filtered.slice(start, end)
+    const visible = new Set(pageCards)
 
     cards.forEach((card) => {
       card.style.display = visible.has(card) ? "" : "none"
     })
+
+    // 依排序結果重排 DOM。只設 display 不夠——DOM 順序是建構時的日期新→舊，
+    // 光靠 display 會讓「日期舊→新」「Impact 高→低」選中正確的卡片、卻仍以
+    // 原順序顯示。appendChild 對既有節點是移動、不是複製。
+    const grid = container.querySelector(".card-grid")
+    if (grid) {
+      pageCards.forEach((card) => grid.appendChild(card))
+    }
 
     countEl.textContent = `${filtered.length} 篇`
     renderPagination(totalPages)
