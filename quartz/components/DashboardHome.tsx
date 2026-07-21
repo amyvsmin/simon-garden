@@ -3,6 +3,7 @@ import { resolveRelative, simplifySlug } from "../util/path"
 import style from "./styles/dashboardHome.scss"
 import { readFileSync } from "fs"
 import { join } from "path"
+import { isReadingSlug } from "../util/readingSlug"
 
 const thumbColors = [
   "linear-gradient(135deg, #e0e7ff, #c7d2fe)",
@@ -28,7 +29,7 @@ const DashboardHome: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzCompo
   if (fileData.slug !== "index") return null
 
   const readings = allFiles
-    .filter((f) => f.slug?.startsWith("readings/") && f.slug !== "readings/index")
+    .filter((f) => isReadingSlug(f.slug))
     .sort((a, b) => {
       const da = new Date((a.frontmatter?.date as string) ?? 0)
       const db = new Date((b.frontmatter?.date as string) ?? 0)

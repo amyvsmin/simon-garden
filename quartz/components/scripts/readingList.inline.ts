@@ -12,16 +12,19 @@ function setupReadingList() {
   function getFilters() {
     const impact = (container.querySelector('[data-filter="impact"]') as HTMLSelectElement)?.value ?? "all"
     const type = (container.querySelector('[data-filter="type"]') as HTMLSelectElement)?.value ?? "all"
+    const domain =
+      (container.querySelector('[data-filter="domain"]') as HTMLSelectElement)?.value ?? "all"
     const sort = (container.querySelector('[data-filter="sort"]') as HTMLSelectElement)?.value ?? "date-desc"
-    return { impact, type, sort }
+    return { impact, type, domain, sort }
   }
 
   function getFilteredCards() {
-    const { impact, type, sort } = getFilters()
+    const { impact, type, domain, sort } = getFilters()
 
     let filtered = cards.filter((card) => {
       if (impact !== "all" && card.dataset.impact !== impact) return false
       if (type !== "all" && card.dataset.type !== type) return false
+      if (domain !== "all" && card.dataset.domain !== domain) return false
       return true
     })
 

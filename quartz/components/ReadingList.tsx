@@ -1,5 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { resolveRelative } from "../util/path"
+import { isReadingSlug } from "../util/readingSlug"
 import style from "./styles/readingList.scss"
 import script from "./scripts/readingList.inline.ts"
 
@@ -38,7 +39,7 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
   if (slug !== "readings/index" && slug !== "readings/") return null
 
   const readings = allFiles
-    .filter((f) => f.slug?.startsWith("readings/") && f.slug !== "readings/index")
+    .filter((f) => isReadingSlug(f.slug))
     .sort((a, b) => {
       const da = new Date((a.frontmatter?.date as string) ?? 0)
       const db = new Date((b.frontmatter?.date as string) ?? 0)
@@ -46,6 +47,9 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
     })
 
   const types = [...new Set(readings.map((f) => (f.frontmatter?.type as string) ?? "").filter(Boolean))]
+  const domains = [
+    ...new Set(readings.map((f) => (f.frontmatter?.domain as string) ?? "").filter(Boolean)),
+  ]
 
   return (
     <div class="reading-list">
@@ -80,6 +84,15 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
           </select>
         </div>
         <div class="filter-group">
+          <label>主題</label>
+          <select class="filter-select" data-filter="domain">
+            <option value="all">全部</option>
+            {domains.map((d) => (
+              <option value={d}>{d}</option>
+            ))}
+          </select>
+        </div>
+        <div class="filter-group">
           <label>排序</label>
           <select class="filter-select" data-filter="sort">
             <option value="date-desc">日期新→舊</option>
@@ -95,6 +108,7 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
           const icon = getReadingIcon(fm)
           const impact = (fm.impact as string) ?? ""
           const type = (fm.type as string) ?? ""
+          const domain = (fm.domain as string) ?? ""
           const stage = (fm.stage as string) ?? "seedling"
           const stageInfo = getStageLabel(stage)
           const fmConcepts = (fm.concepts as string[]) ?? []
@@ -109,6 +123,7 @@ const ReadingList: QuartzComponent = ({ fileData, allFiles }: QuartzComponentPro
               class="reading-card internal"
               data-impact={impact}
               data-type={type}
+              data-domain={domain}
               data-date={dateStr}
               data-impact-order={impactOrder}
             >
