@@ -1,14 +1,12 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/conceptHeader.scss"
 import { vaultFm } from "../util/vaultFrontmatter"
+import { categoryVisualGroup } from "../util/conceptCategoryVisual"
 
+// 與 ConceptList 的色票共用同一套值對照（受控 14 值→視覺族群），不再靠子字串猜；
+// class 對應 styles/conceptHeader.scss 的 cat-* gradient。
 function getCategoryGradient(category: string): string {
-  const cat = (category ?? "").toLowerCase()
-  if (/資安|security|secops/.test(cat)) return "cat-security"
-  if (/ai|人工智慧|機器學習/.test(cat)) return "cat-ai"
-  if (/知識管理|pkm|knowledge/.test(cat)) return "cat-km"
-  if (/工具|tool/.test(cat)) return "cat-tool"
-  return "cat-default"
+  return `cat-${categoryVisualGroup(category ?? "")}`
 }
 
 const ConceptHeader: QuartzComponent = ({ fileData }: QuartzComponentProps) => {

@@ -15,8 +15,17 @@
     &.cat-tool {
       background: linear-gradient(135deg, #f7971e, #ffd200);
     }
+    &.cat-foundation {
+      background: linear-gradient(135deg, #64748b, #94a3b8);
+    }
+    &.cat-network {
+      background: linear-gradient(135deg, #06b6d4, #22d3ee);
+    }
+    &.cat-writing {
+      background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    }
     &.cat-default {
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #9ca3af, #d1d5db);
     }
   }
 

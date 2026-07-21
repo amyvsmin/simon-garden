@@ -4,32 +4,27 @@ import style from "./styles/conceptList.scss"
 // @ts-ignore（inline script 非 module；Quartz 內建元件同樣寫法，見 Darkmode.tsx）
 import script from "./scripts/conceptList.inline"
 import { vaultFm } from "../util/vaultFrontmatter"
+import { categoryVisualGroup } from "../util/conceptCategoryVisual"
 
+// category 是受控 14 值（vault spec 3.1）、由 vault 端三道閘門保證存在且合法；
+// 站台不再做關鍵字兜底判類（舊備援已移除——收斂後它猜出的「資安」「AI」都不在新值清單、只會誤導）。
 function getCategory(fm: Record<string, unknown>): string {
-  if (fm.category) return fm.category as string
-  const title = ((fm.title as string) ?? "").toLowerCase()
-  const aliases = ((fm.aliases as string[]) ?? []).join(" ").toLowerCase()
-  const joined = `${title} ${aliases}`
-  if (
-    /secops|資安|安全|kill-chain|zero-trust|cia|incident|siem|vulnerability|malware|phishing/.test(
-      joined,
-    )
-  )
-    return "資安"
-  if (/claude|prompt|token|agent|llm|ai|gpt|gemini/.test(joined)) return "AI"
-  if (/vault|obsidian|notion|knowledge|pkm|知識|筆記/.test(joined)) return "知識管理"
-  return "其他"
+  return (fm.category as string) ?? "其他"
 }
 
 function getCategoryStyle(cat: string): { bg: string; color: string } {
-  switch (cat) {
-    case "資安":
+  switch (categoryVisualGroup(cat)) {
+    case "security":
       return { bg: "#fee2e2", color: "#dc2626" }
-    case "AI":
+    case "ai":
       return { bg: "#ede9fe", color: "#6d28d9" }
-    case "知識管理":
+    case "km":
       return { bg: "#d1fae5", color: "#059669" }
-    case "工具":
+    case "foundation":
+      return { bg: "#e2e8f0", color: "#475569" }
+    case "network":
+      return { bg: "#cffafe", color: "#0e7490" }
+    case "writing":
       return { bg: "#fef3c7", color: "#d97706" }
     default:
       return { bg: "#f3f4f6", color: "#6b7280" }
