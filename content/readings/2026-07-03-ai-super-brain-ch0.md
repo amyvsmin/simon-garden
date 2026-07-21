@@ -61,6 +61,7 @@ CH0「初見師父」是整門課的概論，串起五個底層判斷。一，�
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-03-ai-super-brain-ch0)
+
 ## 原始連結
 
 - 李佳達《AI 超級大腦》線上課程 CH0「初見師父」（付費課程、無公開連結）

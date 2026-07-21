@@ -82,6 +82,7 @@ CH5 是《AI 超級大腦》的實戰章，把 76 個思考習慣落到十個 AI
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-06-ai-super-brain-ch5)
+
 ## 原始連結
 
 - 李佳達《AI 超級大腦》線上課程 CH5「十大 AI 案例互動助手解析」（付費課程、無公開連結）

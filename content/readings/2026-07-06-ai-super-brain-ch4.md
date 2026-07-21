@@ -64,6 +64,7 @@ CH4 是互動思考章，把 76 HC 的互動類落到五個「複雜系統裡協
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-06-ai-super-brain-ch4)
+
 ## 原始連結
 
 - 李佳達《AI 超級大腦》線上課程 CH4「互動思考｜複雜系統中的協作與影響」（付費課程、無公開連結）

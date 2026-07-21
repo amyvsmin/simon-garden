@@ -54,6 +54,7 @@ HC 在直播中用 Claude Code 現場示範如何從零打造一份互動式 HTM
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-05-26-yt-hc-html-presentation-ai-agent)
+
 ## 原始連結
 
 - https://www.youtube.com/watch?v=ZNdaQJOu8AU

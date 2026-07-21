@@ -56,6 +56,7 @@ Simon 重度使用 NotebookLM——KW γ 流程對 impact:high reading 會自動
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-06-12-bnext-notebooklm-22-use-cases-map)
+
 ## 原始連結
 - https://www.bnext.com.tw/article/91193/notebooklm-complete-guide-and-use-cases
 - 收集箱原始短網址：https://share.google/xzlI58EElBSAfMPya

@@ -62,6 +62,7 @@ CH3 是溝通思考章，把 76 HC 的溝通類落到五個「讓訊息精準落
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-03-ai-super-brain-ch3)
+
 ## 原始連結
 
 - 李佳達《AI 超級大腦》線上課程 CH3「溝通思考｜讓訊息精準傳達」（付費課程、無公開連結）

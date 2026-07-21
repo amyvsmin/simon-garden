@@ -148,6 +148,7 @@ iThome 對 DevOpsDays Taipei 2026 演講的報導，講者是資安社群人稱 
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-07-02-ithome-cvss-epss-kev)
+
 ## 落地動作與效益
 
 （2026-07-02 與 Simon 討論定案）

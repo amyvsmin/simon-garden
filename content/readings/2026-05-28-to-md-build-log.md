@@ -110,23 +110,8 @@ Simon 的 Obsidian 知識庫有三個 Claude Code skill 負責不同來源的內
 
 ## 原文全文
 
-> [!quote]- 原始對話紀錄摘要（點擊展開）
-> 本篇 reading 的來源是 Simon 和芙莉蓮在 2026-05-27 和 2026-05-28 兩個 Claude Code session 中的對話。
-> 
-> **5/27 session（spec 設計）**：
-> - 起點：Simon 問「我的 skill 裡面有哪些步驟其實不需要 AI？」
-> - 盤點三個 skill 的收錄流程，發現重複的機械清洗工作
-> - 討論設計方案：方案 A（LLM 自己做全部）vs 方案 B（格式感知的文字提取，程式做確定性清洗）
-> - 選定方案 B，定義三層架構：提取→清洗→結構化
-> - 踩了 5 個坑（見原文要點）
-> - 產出 spec：`9-ops/specs/2026-05-27-to-md-tool-design.md`
-> 
-> **5/28 session（plan + 實作）**：
-> - 寫 implementation plan（5 個 Task、~780 行）
-> - 用 Subagent-Driven Development 執行
-> - 5 個 Task 全部完成，7 項測試全過
-> - 額外發現 yt-gemini-transcribe.py 的 YT_DLP_BIN 路徑寫死問題
-> - 產出：to-md.py v1.0 + 三個 skill 修改 + venv 遷移
+> [!info]- 原文全文（未公開）
+> 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-05-28-to-md-build-log)
 
 ## 原始連結
 

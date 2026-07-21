@@ -71,5 +71,6 @@ created: 2026-05-31
 
 > [!info]- 原文全文（未公開）
 > 原文全文只保留在本機 Obsidian、未同步到這個 garden。[在 Obsidian 開啟這篇 →](obsidian://open?vault=SimonVault&file=2-knowledge%2Freadings%2F2026-05-31-synaptic-pruning-deep-focus)
+
 ## 原始連結
 - https://youtu.be/Hb5x5vHGzzw?si=PhVZsxYRbJt-PrAe
