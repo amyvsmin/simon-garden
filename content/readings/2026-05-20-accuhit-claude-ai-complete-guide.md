@@ -3,6 +3,7 @@ title: "Claude AI 到底在紅什麼？一篇解析 Claude 的超強應用！"
 date: 2026-05-20
 published: 2026-04-17
 type: 來源分析
+domain: AI 工具實務
 url: "https://blog.accuhit.net/2026/04/17/claude-ai/"
 inbox-id: "366f85da-554f-81f5-b4bf-db772d5499dd"
 concepts: [claude-three-modes, ai-task-execution, marketing-automation-workflow, vibe-coding]

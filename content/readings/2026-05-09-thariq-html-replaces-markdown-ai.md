@@ -2,6 +2,7 @@
 title: "HTML 才是 AI 時代的原生語言？Anthropic 工程師：我已停止寫 Markdown"
 date: 2026-05-09
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.inside.com.tw/article/41251-from-md-to-html"
 inbox-id: "35cf85da-554f-811e-adf0-c8117d9e98ee"
 concepts: [html-vs-markdown-ai-output, interactive-confirmation-ui, context-resend-token-paradox]

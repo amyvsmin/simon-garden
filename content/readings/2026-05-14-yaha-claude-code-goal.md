@@ -2,6 +2,7 @@
 title: "Claude Code /goal 完整教學（YAHA学堂 4 分鐘速講）"
 date: 2026-05-14
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.youtube.com/watch?v=TE9vSqBI_Sg"
 inbox-id: "360f85da-554f-81c8-b566-d81f78803054"
 concepts: [claude-code-goal-command, hooks]

@@ -3,6 +3,7 @@ title: Andrej Karpathy 的 Obsidian + Claude Code 個人 Wiki 做法
 date: 2026-04-29
 published: 2026-04-14
 type: 來源分析
+domain: 知識管理
 url: https://www.youtube.com/watch?v=FdSO1Yhr76I
 tags: [obsidian, claude-code, knowledge-management, karpathy]
 concepts: [index-based-knowledge-base, raw-wiki-split, graph-emergence, log-traceability, instructions-file]

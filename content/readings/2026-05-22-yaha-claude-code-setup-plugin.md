@@ -2,6 +2,7 @@
 title: "還在盲抄 Claude Code 設定檔？Anthropic 官方外掛 1 分鐘幫你自動掃描專案！"
 date: 2026-05-22
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.youtube.com/watch?v=vzZPNH4pNEE"
 inbox-id: "368f85da-554f-81a9-8a87-dd22abd7052a"
 concepts: [claude-code-setup-plugin, claude-code-plugin-scope]

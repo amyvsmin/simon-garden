@@ -2,6 +2,7 @@
 title: Claude 完全入門指南｜分析
 date: 2026-04-21
 type: 來源分析
+domain: AI 工具實務
 url: https://madebypan.com/claude-guide
 tags: [claude-code, ai-tools, guide]
 concepts: [claude-code, mcp, skill, hooks, subagents]

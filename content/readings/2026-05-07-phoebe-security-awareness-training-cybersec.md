@@ -2,6 +2,7 @@
 title: "飛飛（林子婷）— 為什麼資安意識總是被遺忘？人因 + 故事化的有感訓練設計｜CYBERSEC 2026 Cyber Talent Day 3"
 date: 2026-05-07
 type: 來源分析
+domain: 資安
 url: "https://web.plaud.ai/s/pub_4139299e-4aa1-4b01-89fa-4173c0570544::GXycTyRMPl-sVTNNrZOXEtGoTx0zhEYB2AMuTdNiUqVQvEck5J8xktrBc0vRmgKS7QqaoE2W2JTPLToC"
 inbox-id: "359f85da-554f-814e-bb89-eb6ed51572b4"
 concepts: [security-awareness-design, social-engineering-playbook, phishing-drill-improved, storytelling-modular-framework]

@@ -3,6 +3,7 @@ title: "Claude 額度管理 + 省 Token 教學（Notebook LM 配音）"
 date: 2026-05-09
 published: 2026-05-06
 type: 來源分析
+domain: AI 工具實務
 url: "https://youtu.be/50-MQWAzk-U"
 inbox-id: "35bf85da-554f-81ce-8969-c43c5d784cf6"
 concepts: [claude-usage-dashboard, token-saving-rules, claude-slash-commands-control, markdown-vs-pdf-token-cost]

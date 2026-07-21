@@ -3,6 +3,7 @@ title: Hermes Agent vs OpenClaw（Blocktempo）
 date: 2026-05-02
 published: 2026-04-13
 type: 來源分析
+domain: AI 工具實務
 url: https://www.blocktempo.com/hermes-agent-opens-source-nous-research-openclaw-github-stars-learning/
 tags: [ai-agent, hermes, openclaw, claude-code]
 concepts: [self-evolving-ai-agent, agent-architecture-comparison, claude-code]

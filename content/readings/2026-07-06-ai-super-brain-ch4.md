@@ -2,6 +2,7 @@
 title: "李佳達《AI 超級大腦》CH4 互動思考｜複雜系統中的協作與影響"
 date: 2026-07-06
 type: 來源分析
+domain: 思維方法
 url: ""
 concepts: [minerva-hc, systems-thinking, goodharts-law, persuasion-pillars, ai-adoption-gap]
 projects: []

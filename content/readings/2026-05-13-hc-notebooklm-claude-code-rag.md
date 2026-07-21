@@ -3,6 +3,7 @@ title: "HC：NotebookLM × Claude Code — 把 RAG 跟圖表卸載給 Gemini、�
 date: 2026-05-13
 published: 2026-04-17
 type: 來源分析
+domain: AI 工具實務
 url: "https://youtu.be/22bjps4LMmU"
 inbox-id: "35ff85da-554f-8129-b6fc-f11e9cbbe4cb"
 concepts: [notebooklm-as-rag, skill, mcp, claude-code]

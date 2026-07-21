@@ -3,6 +3,7 @@ title: "Claude Code Skills：讓 AI 變身專業工匠"
 date: 2026-07-01
 published: 2026-01-03
 type: 來源分析
+domain: AI 工具實務
 url: "https://kaochenlong.com/claude-code-skills"
 inbox-id: "38ff85da-554f-81bc-8849-e85e0c99e674"
 concepts: [progressive-disclosure, skill, mcp, subagents, claude-slash-commands-control]

@@ -2,6 +2,7 @@
 title: 週復盤系統設計（Weekly-Review skill）
 date: 2026-04-25
 type: 綜覽
+domain: AI 工具實務
 url: ""
 tags: [claude-code, skill, weekly-review, notion]
 concepts: []

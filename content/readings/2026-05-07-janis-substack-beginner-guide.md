@@ -2,6 +2,7 @@
 title: "Substack 新手入門指南｜Janis Zeng（從 0 到 2070 訂閱、6 個月複利）"
 date: 2026-05-07
 type: 來源分析
+domain: 寫作與表達
 url: "https://drive.google.com/file/d/1Rqz96MYKjJJoCLqltfAWbBBXUPOnCNOe/view?pli=1"
 inbox-id: "359f85da-554f-812c-af15-f67cefacdd81"
 concepts: [substack, owned-audience, content-asset, substack-notes, substack-resurfacing, sustainable-writing-cadence]

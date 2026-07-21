@@ -2,6 +2,7 @@
 title: Simon-Agent 架構設計記錄：CLAUDE.md 分層 + auto-memory 跨專案
 date: 2026-04-21
 type: 綜覽
+domain: AI 工具實務
 url: ""
 tags: [claude-code, architecture, memory, hooks]
 concepts: []

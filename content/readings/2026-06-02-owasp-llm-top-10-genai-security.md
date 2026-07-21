@@ -2,6 +2,7 @@
 title: "OWASP LLM Top 10 與 GenAI Security Project：把生成式 AI 風險變成共同語言"
 date: 2026-06-02
 type: 來源分析
+domain: 資安
 url: "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
 inbox-id: ""
 concepts: [owasp-top-10, secure-ai-framework]

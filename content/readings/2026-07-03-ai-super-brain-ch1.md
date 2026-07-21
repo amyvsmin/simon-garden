@@ -2,6 +2,7 @@
 title: "李佳達《AI 超級大腦》CH1 AI 批判思考｜AI 時代的決策判斷力"
 date: 2026-07-03
 type: 來源分析
+domain: 思維方法
 url: ""
 concepts: [minerva-hc, ai-adoption-gap, trust-threshold, problem-prd, adversarial-verification, loud-failure]
 projects: []

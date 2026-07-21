@@ -3,6 +3,7 @@ title: "NotebookLM 用法大全：22 篇精華索引（YouTube 匯入、簡報�
 date: 2026-06-12
 published: 2026-06-09
 type: 綜覽
+domain: AI 工具實務
 url: "https://www.bnext.com.tw/article/91193/notebooklm-complete-guide-and-use-cases"
 inbox-id: "37cf85da554f8105a7f9d1fe11935b19"
 concepts: [notebooklm-as-rag]

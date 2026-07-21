@@ -3,6 +3,7 @@ title: iPAS AI 應用規劃師 115 年戰情分析 — 從名詞解釋升級到�
 date: 2026-04-29
 published: 2026-04-27
 type: 來源分析
+domain: 職涯與學習
 url: https://youtu.be/wiBj6x4y43k
 tags: [ipas, ai, certification, exam-strategy]
 concepts: [prompt-framework-weakness]

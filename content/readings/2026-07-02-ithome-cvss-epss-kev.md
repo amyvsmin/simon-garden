@@ -3,6 +3,7 @@ title: "資安界如何優化漏洞修補優先順序？HackerCat 教你快速�
 date: 2026-07-02
 published: 2026-06-30
 type: 來源分析
+domain: 資安
 url: "https://www.ithome.com.tw/news/176987"
 inbox-id: "390f85da-554f-810c-98a4-d3f8c00750c0"
 concepts: [cvss, epss, kev, vulnerability-prioritization, security-storytelling]

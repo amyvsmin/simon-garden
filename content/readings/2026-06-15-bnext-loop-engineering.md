@@ -2,6 +2,7 @@
 title: "迴圈工程（Loop Engineering）是什麼？一次解密 6 大組件，搞懂工程師為什麼不再寫提示詞"
 date: 2026-06-15
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.bnext.com.tw/article/91246/loop-engineering-from-prompting-to-designing-ai-coding-loops"
 inbox-id: "380f85da554f81bab896ef58a9d73107"
 concepts: [loop-engineering]

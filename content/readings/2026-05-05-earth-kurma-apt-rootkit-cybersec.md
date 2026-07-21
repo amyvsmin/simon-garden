@@ -2,6 +2,7 @@
 title: "東南亞 APT「Earth Kurma」工具鏈與 MMLOAD/Yadnux 未簽章 rootkit 技術解析（CYBERSEC 2026）"
 date: 2026-05-05
 type: 來源分析
+domain: 資安
 url: "https://web.plaud.ai/s/pub_f76ac29d-9c00-4230-bdb3-2a4233d0548a::FitTcPGVv5mdpzMkT8-EQFLxKhsUitb6pmO3VPOuIC-l1UbqRTYQaDhVBPcmj4nSGm1ho5ma-LjJlbwC"
 inbox-id: "357f85da554f81499c9ff8a33ca2db94"
 concepts: [earth-kurma, mmload-yadnux-rootkit, dse-bypass, living-off-cloud-c2, red-team, supply-chain-risk]

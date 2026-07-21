@@ -3,6 +3,7 @@ title: "Dustin：規則越加，Claude 反而越不聽話？重整 agent harness
 date: 2026-06-05
 published: 2026-05-29
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.youtube.com/watch?v=OFAPR52Zwd4"
 inbox-id: "375f85da554f818aacbbe1631631c93d"
 concepts: [agent-harness-hygiene, context-rot, token-saving-rules, subagents, instructions-file, hooks]

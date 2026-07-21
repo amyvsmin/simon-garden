@@ -3,6 +3,7 @@ title: "白話文教學：AI 怎麼幫你動手做事？API、CLI、MCP、瀏覽
 date: 2026-05-12
 published: 2026-03-18
 type: 來源分析
+domain: AI 工具實務
 url: "https://raymondhouch.com/lifehacker/digital-workflow/how-ai-controls-software-api-cli-mcp-browser-use/"
 inbox-id: "35ef85da-554f-818c-9580-df5726889a22"
 concepts: [api, cli, mcp, browser-use]

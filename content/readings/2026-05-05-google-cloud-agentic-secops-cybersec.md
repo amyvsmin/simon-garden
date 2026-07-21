@@ -2,6 +2,7 @@
 title: "Google Cloud Agentic SecOps：AI 驅動的全方位資安轉型（CYBERSEC 2026 William Tam）"
 date: 2026-05-05
 type: 來源分析
+domain: 資安
 url: "https://web.plaud.ai/s/pub_1d056f42-6980-4ea9-9a08-3d9952ad8e14::y4UZ9SHsD02ifsn52EZ4dCsskfuyxW3POxNx-e3rygIUH2NMD4vLOj1nSMn1a2lmKjBmecnFN8DSIpMC"
 inbox-id: "357f85da554f81a59714d9a82da7548f"
 concepts: [agentic-secops, cve-weaponization-time, secure-ai-framework, wiz-platform, ai-vuln-discovery, supply-chain-risk]

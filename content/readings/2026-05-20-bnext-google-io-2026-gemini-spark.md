@@ -2,6 +2,7 @@
 title: "Google I/O 2026 懶人包｜Gemini Spark 啟動 AI 代理人時代，3.5 Flash 帶來哪些搜尋新玩法？"
 date: 2026-05-20
 type: 來源分析
+domain: AI 產業與趨勢
 url: "https://www.bnext.com.tw/article/90991/google-gemini-spark-3-5-flash-ai-agent-strategy"
 inbox-id: "366f85da-554f-8182-a5c9-f0fd511b8bac"
 concepts: [gemini-spark, gemini-flash, gemini-omni, information-agent, compute-based-pricing, agent-os-competition, ai-task-execution]

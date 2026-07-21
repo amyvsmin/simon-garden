@@ -2,6 +2,7 @@
 title: "李佳達師父班 Lesson 11：260429 會員直播 001 — 技能包安裝示範"
 date: 2026-05-18
 type: 來源分析
+domain: 思維方法
 url: "https://worldviewsacademy.circle.so/c/shifuclass/sections/1004867/lessons/3854248"
 inbox-id: "364f85da-554f-8142-a012-dded2304ad1f"
 concepts: [problem-prd, skill, doc-to-md, tool-agnostic-thinking]

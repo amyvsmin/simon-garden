@@ -3,6 +3,7 @@ title: "建立第二大腦！用 LLM 把你收藏的文章，自動變成一座�
 date: 2026-07-09
 published: 2026-07-06
 type: 來源分析
+domain: 知識管理
 url: "https://www.inside.com.tw/article/41745-obsidian-vault-pipelin"
 inbox-id: "396f85da554f81189e08f3ab8d6010a1"
 concepts: [self-growing-knowledge-base, index-based-knowledge-base]

@@ -2,6 +2,7 @@
 title: "李佳達《AI 超級大腦》CH5 十大 AI 案例互動助手解析"
 date: 2026-07-06
 type: 來源分析
+domain: 思維方法
 url: ""
 concepts: [minerva-hc, sunk-cost-fallacy, decision-metrics, option-value, goodharts-law]
 projects: []

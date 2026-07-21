@@ -2,6 +2,7 @@
 title: "李佳達《AI 超級大腦》CH3 溝通思考｜讓訊息精準傳達"
 date: 2026-07-03
 type: 來源分析
+domain: 思維方法
 url: ""
 concepts: [minerva-hc, pyramid-principle, curse-of-knowledge, requirement-elicitation, ai-adoption-gap]
 projects: []

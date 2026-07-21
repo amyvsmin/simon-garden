@@ -2,6 +2,7 @@
 title: Simon-Journal /journal skill 設計過程
 date: 2026-04-24
 type: 綜覽
+domain: AI 工具實務
 url: ""
 tags: [claude-code, skill, journal, notion]
 concepts: [reverse-skill-design, pure-receive-immediate-write, directory-as-trigger]

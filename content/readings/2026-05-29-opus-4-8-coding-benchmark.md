@@ -2,6 +2,7 @@
 title: "I Tested NEW Opus 4.8 on Four Projects (Updated LLM Leaderboard)"
 date: 2026-05-29
 type: 來源分析
+domain: AI 產業與趨勢
 url: "https://youtu.be/urmLUZbthcM"
 inbox-id: "36ff85da554f816a96b5ef33ff4c5bd6"
 concepts: [claude-code-effort-level, ai-evaluation-rubric, subagents, claude-code]

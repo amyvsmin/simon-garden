@@ -3,6 +3,7 @@ title: "Hermes Agent 保姆級教學：三檔記憶 + Telegram + 自主目標的
 date: 2026-06-15
 published: 2026-06-14
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.youtube.com/watch?v=-EivK7vpOXY"
 inbox-id: "37ff85da-554f-8101-99ea-f1973ab5320e"
 concepts: [agent-architecture-comparison, ai-skill-security, claude-code-goal-command, cross-platform-agent]

@@ -2,6 +2,7 @@
 title: 雷蒙 24 小時 Claude Code 迷你課｜四週讀完心得
 date: 2026-05-14
 type: 課程心得
+domain: AI 工具實務
 url: https://lifehacker.tw/courses/24hr-claude-code-tutorial
 tags: [claude-code, ai-agent, course-review, lifehacker, raymond]
 concepts: [claude-md-reflexive-law, rules-over-code, cli-api-mcp-priority]

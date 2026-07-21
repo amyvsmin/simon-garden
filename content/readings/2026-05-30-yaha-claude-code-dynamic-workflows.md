@@ -2,6 +2,7 @@
 title: "真實測評 Dynamic Workflows：故意埋兩個漏洞，Claude Code 派 6 個 Agent 互撕？（YAHA 學堂）"
 date: 2026-05-30
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.youtube.com/watch?v=6AITeKsqVz0"
 inbox-id: "370f85da-554f-817e-b281-cec3dac7458f"
 concepts: [dynamic-workflows, adversarial-verification, subagents]

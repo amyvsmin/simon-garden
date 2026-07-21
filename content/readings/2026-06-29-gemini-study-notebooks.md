@@ -2,6 +2,7 @@
 title: "Gemini 筆記與學習新功能教學！5 招技巧透過 AI 讓讀書考試效率翻倍"
 date: 2026-06-29
 type: 來源分析
+domain: 職涯與學習
 url: "https://mrmad.com.tw/gemini-notebook-ai-learning-features"
 inbox-id: "38ef85da-554f-81b3-8aa6-e8353dabbb4a"
 concepts: [diagnostic-driven-learning]

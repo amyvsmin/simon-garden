@@ -2,6 +2,7 @@
 title: "酷澎陳浩維 — Insider Threat 與 AI 漏洞挖掘失衡｜CYBERSEC 2026 Day 2"
 date: 2026-05-06
 type: 來源分析
+domain: 資安
 url: ""
 inbox-id: ""
 concepts: [insider-threat, insider-threat-program, ai-vuln-discovery, cve-weaponization-time]

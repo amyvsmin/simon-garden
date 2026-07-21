@@ -3,6 +3,7 @@ title: "一人用 AI 產出翻 10 倍，全公司卻沒跟上？Boris Cherny 的
 date: 2026-07-21
 published: 2026-07-17
 type: 來源分析
+domain: 職涯與學習
 url: "https://www.bnext.com.tw/article/91541/claude-code-ai-adoption-5-stages"
 source_tier: 二手
 inbox-id: "3a1f85da-554f-81cd-aa87-eca50ae8f304"

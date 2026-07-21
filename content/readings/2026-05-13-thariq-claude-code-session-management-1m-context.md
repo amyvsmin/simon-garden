@@ -2,6 +2,7 @@
 title: "Thariq Shihipar：Claude Code 會話管理與 1M 上下文（官方部落格）"
 date: 2026-05-13
 type: 來源分析
+domain: AI 工具實務
 url: "https://claude.com/blog/using-claude-code-session-management-and-1m-context"
 inbox-id: "35ff85da-554f-814e-9e76-cb4919c289d9"
 concepts: [context-rot, claude-rewind, claude-slash-commands-control, subagents, claude-usage-dashboard, token-saving-rules]

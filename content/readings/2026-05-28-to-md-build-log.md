@@ -2,6 +2,7 @@
 title: "為什麼我自己寫 to-md.py，而不是用現成工具"
 date: 2026-05-28
 type: 綜覽
+domain: AI 工具實務
 url: ""
 concepts: [deterministic-ai-boundary, claude-code]
 projects: []

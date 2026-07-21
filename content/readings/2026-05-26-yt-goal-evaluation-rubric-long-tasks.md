@@ -3,6 +3,7 @@ title: "讓 AI 不眠不休為你幹活：Goal 功能 + Evaluation Rubric 六步
 date: 2026-05-26
 published: 2026-05-24
 type: 來源分析
+domain: AI 工具實務
 url: "https://youtu.be/PpeCur6fEXc"
 inbox-id: "36cf85da554f81398fb2c840ebe1ab23"
 concepts: [claude-code-goal-command, context-anxiety, ai-evaluation-rubric, sycophancy]

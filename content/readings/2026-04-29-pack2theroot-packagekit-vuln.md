@@ -2,6 +2,7 @@
 title: Linux 套件管理工具 PackageKit 揭露權限提升漏洞 Pack2TheRoot — Claude Opus 協助挖掘
 date: 2026-04-29
 type: 來源分析
+domain: 資安
 url: https://www.ithome.com.tw/news/175353
 tags: [cybersecurity, vulnerability, linux, ai-security]
 concepts: [pack2theroot, packagekit, privilege-escalation, red-team, cvss, ai-vuln-discovery]

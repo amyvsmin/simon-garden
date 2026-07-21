@@ -2,6 +2,7 @@
 title: "Claude Code 創始者 Boris Cherny 親授 5 個高效習慣"
 date: 2026-05-09
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.inside.com.tw/article/41252-claude-code-pair-programming"
 inbox-id: "35cf85da-554f-816e-bcd5-f549902ef99d"
 concepts: [claude-code-onboarding-qa, claude-code-iteration-loop, parallel-claude-sessions]

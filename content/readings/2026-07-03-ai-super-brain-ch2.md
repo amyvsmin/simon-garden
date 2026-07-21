@@ -2,6 +2,7 @@
 title: "李佳達《AI 超級大腦》CH2 創意思考｜解決問題的新思路"
 date: 2026-07-03
 type: 來源分析
+domain: 思維方法
 url: ""
 concepts: [minerva-hc, tacit-knowledge-externalization, output-schema, retrieval-practice, ai-adoption-gap]
 projects: []

@@ -3,6 +3,7 @@ title: "Claude Skill 的資安風險：三個真實攻擊案例 + 四招肉眼�
 date: 2026-06-13
 published: 2026-06-12
 type: 來源分析
+domain: 資安
 url: "https://youtu.be/3rCPZizvb18"
 inbox-id: "37df85da-554f-818d-a8de-d8e8eb297974"
 concepts: [ai-skill-security, prompt-injection, supply-chain-risk, principle-of-least-privilege]

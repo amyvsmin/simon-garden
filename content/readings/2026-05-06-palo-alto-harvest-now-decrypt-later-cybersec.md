@@ -2,6 +2,7 @@
 title: "Palo Alto Nicole Quinn — Harvest Now Decrypt Later 與後量子密碼遷移｜CYBERSEC 2026 Day 2"
 date: 2026-05-06
 type: 來源分析
+domain: 資安
 url: ""
 inbox-id: ""
 concepts: [harvest-now-decrypt-later, post-quantum-cryptography, shadow-ai, critical-infrastructure]

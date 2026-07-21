@@ -2,6 +2,7 @@
 title: "陳君明 — 後量子密碼遷移挑戰、標準進度與實務路線圖｜CYBERSEC 2026 PQC Forum Day 3"
 date: 2026-05-07
 type: 來源分析
+domain: 資安
 url: "https://web.plaud.ai/s/pub_2bdd7e6d-c245-4e8d-beb5-ab6581f75cc8::rksjzRRCJQPk_YAcS-vWcgJR5Z1P3YuLIYjbOjQZBXDxNmb-gClQ_eCVeJKKr_kOZ1TWAf0cQ92JcggC"
 inbox-id: "359f85da-554f-81f8-9002-eceecfe4959b"
 concepts: [post-quantum-cryptography, harvest-now-decrypt-later, mosca-theorem, lattice-based-cryptography, crypto-agility, cbom]

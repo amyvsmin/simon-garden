@@ -2,6 +2,7 @@
 title: 美國電力商 Itron 遭駭與 DC 電源調節器新攻擊面 — 關鍵基礎設施資安警訊
 date: 2026-04-29
 type: 來源分析
+domain: 資安
 url: https://www.informationsecurity.com.tw/article/article_detail.aspx?aid=12865
 tags: [cybersecurity, ot, firmware, critical-infrastructure]
 concepts: [power-conditioner, firmware-attack-surface, critical-infrastructure, supply-chain-risk, secure-boot]

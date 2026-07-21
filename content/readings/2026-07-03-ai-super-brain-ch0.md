@@ -2,6 +2,7 @@
 title: "李佳達《AI 超級大腦》CH0 初見師父（課程概論）"
 date: 2026-07-03
 type: 來源分析
+domain: 思維方法
 url: ""
 concepts: [minerva-hc, metacognition, incidental-learning, human-ai-collaboration, tool-agnostic-thinking, transferable-skills]
 projects: []

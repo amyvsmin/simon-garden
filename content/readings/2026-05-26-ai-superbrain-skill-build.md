@@ -2,6 +2,7 @@
 title: "資安 AI 超級大腦 — 從素材到 Skill 的完整建構紀錄"
 date: 2026-05-26
 type: 實作紀錄
+domain: 資安
 url: https://www.notion.so/341f85da554f800d9d1ad2df42fcc432
 tags: [ai-agent, incident-response, claude-code, skill-design, deep-research]
 concepts: [incident-response, nist-csf, claude-code, shadow-ai]

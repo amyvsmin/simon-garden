@@ -3,6 +3,7 @@ title: 歐德張《全布局滲透式管理》訪談分析｜郝聲音 podcast
 date: 2026-04-25
 published: 2026-04-22
 type: 來源分析
+domain: 職涯與學習
 url: https://www.youtube.com/watch?v=v5h-NV6cWsw
 tags: [management, culture, podcast, career]
 concepts: [permeation-management, cultural-nesting]

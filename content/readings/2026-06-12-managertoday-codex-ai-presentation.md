@@ -2,6 +2,7 @@
 title: "Codex AI 簡報教學：比 ChatGPT 強！6 步驟做出能修改的投影片、專屬 Skills"
 date: 2026-06-12
 type: 來源分析
+domain: 寫作與表達
 url: "https://www.managertoday.com.tw/articles/view/72295"
 inbox-id: "37bf85da554f814dbadeda636311f1a8"
 concepts: [text-visual-separation, ai-task-execution, skill]

@@ -3,6 +3,7 @@ title: Claude Code 完整介紹（海大叔）
 date: 2026-05-02
 published: 2026-03-22
 type: 來源分析
+domain: AI 工具實務
 url: https://youtu.be/2pM-7fBXc_M
 tags: [claude-code, tutorial, youtube]
 concepts: [claude-code, skill, hooks, subagents, mcp, plan-mode, vibe-coding]

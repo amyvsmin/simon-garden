@@ -2,6 +2,7 @@
 title: LINE bot 日記入口設計（+ KW 收件擴充）
 date: 2026-04-25
 type: 綜覽
+domain: 知識管理
 url: ""
 tags: [line-bot, claude-code, notion, cloudflare-workers]
 concepts: []

@@ -2,6 +2,7 @@
 title: "Claude Code 12 條規則：把錯誤率從 41% 降到 3%（Mnilax 補完 Karpathy 4 條）"
 date: 2026-05-14
 type: 來源分析
+domain: AI 工具實務
 url: "https://www.blocktempo.com/claude-code-12-rules-error-rate-3-percent-karpathy-agent/"
 inbox-id: "361f85da-554f-81bab696e52800f6f07d"
 concepts: [claude-md-12-rules, loud-failure, claude-md-200-line-limit]
