@@ -1,11 +1,13 @@
 ---
 title: "NotebookLM（來源扎根的 AI 研究助理）"
 slug: notebooklm
-aliases: [NotebookLM, notebooklm, Google NotebookLM, 來源扎根 AI, source-grounded AI, 個人化研究助理]
+aliases: [NotebookLM, notebooklm, Google NotebookLM, Gemini Notebook, gemini-notebook, Gemini Notebooks, 來源扎根 AI, source-grounded AI, 個人化研究助理]
 category: 知識管理
 confidence: 已驗證
 created: 2026-06-29
 ---
+
+> **2026-07-16 更名（芙莉蓮認名用）**：Google 已把 NotebookLM 更名為 **Gemini Notebook**——同一個產品、同網址，既有分享連結自動轉址；只是換名＋新 logo，並新增每本 notebook 內建「安全雲端電腦」可寫並執行程式。**以後看到「Gemini Notebook」＝本概念（原 NotebookLM）**。本檔 slug 維持 `notebooklm` 不動、vault 內既有歷史紀錄（dated readings、課程筆記、日誌）一律不回改，維持當時事實。
 
 ## 定義
 

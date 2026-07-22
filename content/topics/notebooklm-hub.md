@@ -5,9 +5,9 @@ type: topic
 topic_kind: entity
 entity_type: product
 status: living
-aliases: [NotebookLM 彙整, NotebookLM hub]
+aliases: [NotebookLM 彙整, NotebookLM hub, Gemini Notebook, Gemini Notebook 彙整]
 created: 2026-06-20
-last_updated: 2026-07-04
+last_updated: 2026-07-22
 tags:
   - ai-tool
   - google
@@ -17,6 +17,8 @@ tags:
 ---
 
 # NotebookLM
+
+> **2026-07-16 更名（芙莉蓮認名用）**：NotebookLM 已由 Google 更名為 **Gemini Notebook**（同一產品、同網址、既有連結自動轉址）。以後看到「Gemini Notebook」＝本主題（原 NotebookLM）。slug 與歷史紀錄不動，詳見概念 [[notebooklm]]。
 
 > 實體彙整頁（entity）。把散在多篇 reading 與多個 concept 裡、關於 NotebookLM 這個產品的東西收攏成一頁：它是什麼、我目前怎麼定位它、它在我知識庫裡的各個切面（連出去、不重抄）、怎麼一路演化、還有哪些沒拍板。深入單一切面的內容留在各自的 concept。
 

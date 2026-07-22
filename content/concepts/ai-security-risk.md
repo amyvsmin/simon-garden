@@ -13,6 +13,7 @@ AI 在資安既是強力幫手、也是新風險來源的雙面性。一方面 [
 ## 關鍵面向
 - **AI 作為攻擊標的**：越普及越吸引惡意行為者，AI 系統的弱點需要被保護
 - **AI 作為攻擊工具**：攻擊者用 AI 提升攻擊精密度、規避偵測（對照 adversarial AI）
+- **角色宣稱不是授權證據**：Bandcampro 案顯示，攻擊者可把自己描述成「經授權滲透測試員」來包裝惡意目的。具工具權限的 AI 若只依對話文字判斷授權，缺少外部驗證、最小權限與行為監控，安全限制可能被繞過。
 - **資安人的雙重任務**：用 AI 強化防禦 ＋ 防止 AI 被濫用、保護 AI 系統
 - **與倫理面互補**：[[responsible-ai]] 管「我們怎麼用得對」，本概念管「它怎麼被攻擊／濫用」
 
@@ -29,3 +30,4 @@ AI 在資安既是強力幫手、也是新風險來源的雙面性。一方面 [
 ## 來源
 
 - [[1-learning/coursera/google-cybersecurity/course-8-put-it-to-work/module-5-use-ai-to-optimize-workflows/section-1-ai-in-cybersecurity/1-introduction-to-ai-in-cybersecurity|Course 8 Module 5 Section 1 Leaf 1 Introduction to AI in Cybersecurity]]
+- [[2026-07-22-gemini-cli-c2-botnet]]
