@@ -15,8 +15,6 @@ tags:
   - coding-agent
 ---
 
-# Claude Code
-
 > 實體彙整頁（entity）。把散在多篇 reading 與多個 concept 裡、關於 Claude Code 這個產品的東西收攏成一頁：它是什麼、我目前怎麼定位它、它在我知識庫裡的各個切面（連出去、不重抄）、怎麼一路演化、還有哪些沒拍板。深入單一切面的內容留在各自的 concept。
 
 ## 一句話身份

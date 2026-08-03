@@ -13,8 +13,6 @@ related:
   - "[[reference-typeless-tabby-paste]]"
 ---
 
-# Typeless 在 Tabby 裡字按不出來：兩個獨立坑疊在一起的 debug 紀錄
-
 ## 症狀：字明明講出去了，畫面什麼都沒有
 
 最近開始用 Typeless 語音輸入。在瀏覽器、Notion、文書軟體都跑得很順，唯獨打開 Tabby 終端機按啟動鍵講話、Typeless 顯示「轉錄完成」、Tabby 視窗裡空空如也。沒亂碼、沒錯誤、什麼都沒有，就像我從沒講過話。

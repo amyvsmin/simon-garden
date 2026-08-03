@@ -15,8 +15,6 @@ tags:
 notion_action_card: https://www.notion.so/33ef85da554f8097bb2fc1bbef97c23e
 ---
 
-# 從「收了就忘」到「會自己合成」：個人知識庫的 AI 流水線
-
 ## 1. Inbox 收了就忘 — 不分工具的普世痛點
 
 打開 Notion、Obsidian、或任何知識管理工具的 Inbox 區，看著一堆從 LINE、RSS、YouTube 收進來的文章和影片，你看過幾篇？
