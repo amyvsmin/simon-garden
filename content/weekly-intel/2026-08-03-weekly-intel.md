@@ -43,7 +43,7 @@ icon: "🛡️"
    - 指標（CVE-2026-20316）：CVSS 5.3（Cisco 評 High）｜EPSS 0.79%｜KEV：已列入（2026-07-29）
 
 3. **[Fortinet FortiOS SSL-VPN 持久化修補繞過 CVE-2025-68686 遭利用，7 月 27 日列入 KEV](https://cybersecuritynews.com/fortinet-fortios-vulnerability-exploited/)**
-   - CVE-2025-68686 是 FortiOS 的資訊揭露漏洞（CWE-200）、CVSS 5.3。它繞過的是 Fortinet 先前用來移除 SSL-VPN symbolic link（符號連結）持久化機制的修補：攻擊者只要送出一個在 URL 路徑中夾帶雙斜線的特製 HTTP 請求，就能重新取得該持久化通道。關鍵前提是——依 Fortinet 與 NIST 的描述，攻擊者必須**先透過其他漏洞在檔案系統層取得立足點**，這不是獨立的初始入侵漏洞，而是協助既有入侵者維持存在的手段。CISA 已依在野利用證據將其列入 KEV（與 Arista VCO 同批、見 [CISA 2026-07-27 通報](https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog)）。修補方向：FortiOS 7.6.x 升到 7.6.2 以上、7.4.x 升到 7.4.7 以上；對曾疑似遭入侵的 FortiGate，光升級不夠，要一併獵捕並清除既有的 symlink 持久化痕跡，否則修補只擋住新利用、擋不住已埋下的後門。
+   - CVE-2025-68686 是 FortiOS 的資訊揭露漏洞（CWE-200）、CVSS 5.3。它繞過的是 Fortinet 先前用來移除 SSL-VPN symbolic link（符號連結）持久化機制的修補：攻擊者只要送出一個在 URL 路徑中夾帶雙斜線的特製 HTTP 請求，就能重新取得該持久化通道。關鍵前提是——依 Fortinet 與 NIST 的描述，攻擊者必須**先透過其他漏洞在檔案系統層取得立足點**，這不是獨立的初始入侵漏洞，而是協助既有入侵者維持存在的手段。CISA 已依在野利用證據將其列入 KEV（與 Arista VCO 同批、見 [CISA 2026-07-27 通報](https://www.cisa.gov/news-events/alerts/2026/07/27/cisa-adds-two-known-exploited-vulnerabilities-catalog)）。受影響版本涵蓋 FortiOS 7.6.0～7.6.1、7.4.0～7.4.6，以及 7.2、7.0、6.4 各分支的所有版本（範圍不限 7.6／7.4，較舊分支同樣受影響）。修補方向：7.6.x 升到 7.6.2 以上、7.4.x 升到 7.4.7 以上，7.2／7.0／6.4 這些較舊分支需遷移到仍受支援的版本；對曾疑似遭入侵的 FortiGate，光升級不夠，要一併獵捕並清除既有的 symlink 持久化痕跡，否則修補只擋住新利用、擋不住已埋下的後門。
    - 指標（CVE-2025-68686）：CVSS 5.3｜EPSS 1.26%｜KEV：已列入（2026-07-27）
 
 > 本期三條漏洞的共通教訓：EPSS 都在 0.79%～1.26% 這種「看起來不急」的區間，但三者全在 KEV、都已被實際利用。原因之一是 EPSS 對剛揭露的新 CVE 反應有落差、分數會偏低；一旦漏洞進了 KEV，代表利用已是既成事實，排序上應直接壓過 EPSS 機率。本期排序邏輯：**已列入 KEV → 再看 CVSS 嚴重度 → EPSS 只作參考、不作為排除依據**。
@@ -63,7 +63,7 @@ icon: "🛡️"
 
 ## 防禦與偵測
 
-1. **[SANS ISC 8 月 2 日 Handler Diary：AMOS（Atomic macOS Stealer）藉「貼上終端機指令」的 ClickFix 手法散布](https://isc.sans.edu/diary.html)**
+1. **[SANS ISC 8 月 2 日 Handler Diary：AMOS（Atomic macOS Stealer）藉「貼上終端機指令」的 ClickFix 手法散布](https://isc.sans.edu/diary/33208)**
    - SANS ISC 值班分析師 Brad Duncan 於 8 月 2 日記錄了一起實驗室重現的 AMOS 竊密程式感染。散布手法是典型的 ClickFix：惡意網站（getmacouscloud[.]com）誘導使用者以為在安裝「macOS 工具包」，實則複製貼上一段終端機指令，取回 base64 編碼的酬載、把 Mach-O 執行檔安裝到系統目錄並在 Application Support 資料夾建立持久化。偵測面的可用線索包括：命令與控制伺服器 188.166.78[.]138 以未加密 HTTP（80 埠）通訊、staging 網域 render65[.]com 與 grove-89[.]com、以及 boot／init_session／credentials／browsers／wallets 等標記感染階段的 API 端點。防禦建議：監控可疑的終端機指令執行、封鎖上述網域與 IP、對腳本中的 base64 酬載提高警覺。這條提醒「教使用者貼指令」的社交工程在 macOS 上一樣有效，端點防護不能只防點擊安裝檔。
 
 2. **對抗本週「邊緣與資安設備管理層被打」的收斂作法。** VeloCloud Orchestrator、Cisco FMC、FortiOS SSL-VPN 三條的共通點是：漏洞都落在網路邊緣或資安設備的**管理／控制平面**，而這類介面常被預設為「內部信任」而疏於收斂。三個不必等完整修補窗口就能先做的動作：一是盤點所有管理介面（SD-WAN 編排器、防火牆管理中心、VPN 閘道的管理埠）是否對網際網路或過廣的內網開放，能收斂就先收斂到跳板機或管理專網；二是對這些設備的內建帳號做清點與輪換，尤其是廠商預設或文件未強調的服務帳號（呼應 Cisco 的靜態憑證問題）；三是把弱點排序改成「已列入 KEV → CVSS 高 → EPSS 參考」，別因為本期三條的 EPSS 都低於 2% 就延後——它們都已在野利用。
