@@ -1,7 +1,7 @@
 ---
 title: "事件應變生命週期（Incident Response Lifecycle）"
 slug: incident-response-lifecycle
-aliases: [incident response lifecycle, NIST IR lifecycle, 事件應變生命週期, 事件回應生命週期, IR lifecycle, NIST incident response lifecycle]
+aliases: [incident response lifecycle, NIST IR lifecycle, 事件應變生命週期, 事件回應生命週期, 事件應變四階段, IR lifecycle, NIST incident response lifecycle]
 category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
@@ -16,6 +16,7 @@ NIST 專為事件應變展開的四階段框架，是 [[nist-csf]] 在事件應�
 - **遏制、根除與復原（Containment, Eradication, and Recovery）**：隔離、清除、修補、從乾淨備份還原
 - **事後活動（Post-incident activity）**：覆盤、final report、把新 IOC 回饋偵測
 - **循環非線性**：步驟會重疊、可回頭，跟 [[incident-response]] 的 NIST SP 800-61 四階段一致
+- **資安署在地操作化版本**：準備 → 偵測與應變處理 → 通報與外部溝通 → 復原與持續改善；這是強調治理與溝通的互補變體，不取代 NIST 骨架
 
 ## 應用場景
 - **Simon 工作場景**：可當公司事件處理 SOP 的階段骨架，對應 ISO 27001 A.16 事件管理；自製的 incident-response skill 六階段可對齊此框架校準
@@ -29,3 +30,4 @@ NIST 專為事件應變展開的四階段框架，是 [[nist-csf]] 在事件應�
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-2-the-incident-response-lifecycle/2-introduction-to-the-incident-response-lifecycle|Course 6 Module 1 Section 2 Leaf 2 Introduction to the incident response lifecycle]]
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-5-review-introduction-to-detection-and-incident-response/1-wrap-up|Course 6 Module 1 Section 5 Leaf 1 Wrap-up]]
+- [[2026-08-04-moda-security-incident-response-guide]]

@@ -1,7 +1,7 @@
 ---
 title: "劇本（Playbook）"
 slug: playbook
-aliases: [Playbook, 劇本, 手冊, 應變手冊, 操作手冊, runbook, incident playbook, 事件劇本]
+aliases: [Playbook, 劇本, 手冊, 應變手冊, 操作手冊, 情境式事件應變手冊, 事件應變行動手冊, runbook, incident playbook, 事件劇本]
 category: 資安・安全營運
 confidence: 已驗證
 created: 2026-06-05
@@ -16,6 +16,8 @@ created: 2026-06-05
 - **類型**：incident response playbook、phishing playbook、特定攻擊應變 playbook 等
 - **與 plan 的關係**：[[incident-response-plan]] 是整體計畫，playbook 是針對特定情境的細部操作手冊
 - **自動化**：SOAR 可把 playbook 變成自動執行的工作流
+- **壓力下可操作**：把檢核清單、建議里程碑時限與聲明稿範本放進手冊，減少現場臨時判斷
+- **常見事件情境**：設備感染、帳號遭竊、網路釣魚、商業支付詐欺、勒索軟體與 DDoS 可各自建立情境手冊
 
 ## 應用場景
 - **Simon 工作場景**：可為公司常見事件（釣魚、勒索、帳號異常）各寫一份 playbook，納入事件處理 SOP，對應 ISO 27001 事件管理
@@ -28,3 +30,4 @@ created: 2026-06-05
 
 ## 來源
 - [[1-learning/coursera/google-cybersecurity/course-6-sound-the-alarm/module-1-introduction-to-detection-and-incident-response/section-4-incident-response-tools/2-the-value-of-documentation|Course 6 Module 1 Section 4 Leaf 2 The value of documentation]]
+- [[2026-08-04-moda-security-incident-response-guide]]
