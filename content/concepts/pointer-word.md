@@ -1,7 +1,7 @@
 ---
 title: "指引詞（Pointer Word）"
 slug: pointer-word
-aliases: [指引詞, pointer word, 術語壓縮, 專有名詞當指令, 高密度術語, prompt 術語壓縮]
+aliases: [指引詞, pointer word, 引導詞, leading word, 術語壓縮, 專有名詞當指令, 高密度術語, prompt 術語壓縮]
 category: AI 與 Agent
 confidence: 已驗證
 created: 2026-07-23
@@ -15,6 +15,7 @@ created: 2026-07-23
 - **前提是這個詞真的在訓練資料裡**：指引詞的威力來自「模型早就讀過幾千份談這個詞的文件」。自己發明的縮寫、公司內部黑話沒有這個效果，反而要多寫解釋。挑詞要挑有經典出處的（例如《Refactoring》的壞味道清單、設計模式名稱、資安框架術語）。
 - **短不等於資訊少**：Matt Pocock 的 `grill-me` 只有五行字卻能持續發威，靠的就是每一句都是高密度指令、沒有一句廢話。字數少是結果，不是目標。
 - **跟寫給人看的原則相反**：對人要避免行話（見[[curse-of-knowledge]]，專家常忘記別人不懂），對 AI 反而要主動用行話。兩種讀者的最佳寫法在這一點上是分岔的。
+- **上游原詞是 leading word（引導詞）**：2026-08-09 查證 `mattpocock/skills` 原始碼，本概念在正本 `writing-for-agents` 裡叫 **leading word**；「pointer」在他的體系另有所指——**context pointer（脈絡指標）**是「留在脈絡內、指向脈絡外材料的那行字」（例如 skill 的 description 欄），與本概念是兩回事。引用上游時別把兩者混用。
 
 ## 應用場景
 - Simon 工作場景：寫或精簡 skill 時，把一整段行為描述換成既有術語——例如與其寫「派子代理去想辦法證明這個結論是錯的」，直接寫「跑一輪[[adversarial-verification]]／紅隊」；資安相關 skill 可以直接用 CISSP、MITRE ATT&CK 的標準名詞當指令。

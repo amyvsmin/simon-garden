@@ -28,8 +28,8 @@ created: 2026-07-23
 - [[agent-harness-hygiene]]：都在講定期整理 AI 讀得到的內容、刪掉冗餘。
 
 ## 尚未解決的疑問
-- 「不說模型也知道」這條界線會隨模型版本移動，換模型後該不該重新校準 skill 的詳細度，影片沒給方法。
-- 影片說專案裡有個叫「Writing Great Skills」的 skill，但 2026-07-23 查該 repo 的 README skill 清單沒有同名項目，這三條原則的原始出處還沒查到確切位置。
+- 「不說模型也知道」這條界線會隨模型版本移動，換模型後該不該重新校準 skill 的詳細度，影片沒給方法。→ **2026-08-09 上游已補答**：正本 `writing-for-agents` 明文 no-op（無作用句）測試是「相對於模型」的判定，兩人對某句是不是廢話有分歧時，用實跑文件驗證、不辯論；換模型後重跑同一測試就是校準方法。
+- ~~影片說專案裡有個叫「Writing Great Skills」的 skill，原始出處還沒查到。~~ **2026-08-09 已結案**：查 repo CHANGELOG，該 skill 經 `write-a-skill` → `writing-great-skills` → `writing-for-agents`（PR #763）兩次改名，現存於 `skills/productivity/writing-for-agents/`；內容已從三原則擴成七主題（脈絡指標、兩種負載、資訊階層、完成標準、拆檔時機、引導詞、修剪）。
 
 ## 來源（自動維護）
 - [[2026-07-23-matt-pocock-skills-teardown]]

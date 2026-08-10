@@ -74,6 +74,13 @@ TypeScript 圈的 Matt Pocock 把自己這一年跟 AI 開發的經驗，開源�
 - 影片作者說 Matt 的三個「AI 寫作 skill」比寫程式的更值錢，但完整拆解放在他的付費文章裡，影片沒講。要不要追這條，Simon 自己判斷〔原文支撐〕。
 - 寫作角度：Simon 手上同時有 superpowers（九步固定流程）跟自己寫的一批 skill，這篇影片的核心爭論——「模型變聰明後，防呆鷹架是資產還是累贅」——正好可以對照自己維護 skill 的實際經驗寫一篇，切入點是「我照著兩種哲學各活了幾個月，結論是什麼」〔需 Simon 確認〕。
 
+## 落地動作與效益
+
+- **2026-08-09 第二輪逐支拆解（Notion 卡「和芙莉蓮深入討論 mattpocock skills 技能包」）**：全部 30 支逐支讀原文拆完。現況更新三件：repo 已改版為五分類目錄（engineering／productivity／in-progress／misc／deprecated）；`grill-me` 已拆成入口＋`grilling` 引擎並從一次一題改成回合制（前緣批次問）；影片查不到的「Writing Great Skills」證實為 `write-a-skill` → `writing-great-skills` → `writing-for-agents`（PR #763）。
+- **產出**：13 條必做＋8 條勾選候選。已落地（甲類）：concept 修正三筆（[[pointer-word]] 正名 leading word、[[minimal-skill-writing]] 出處結案、[[tdd-anti-cheat]] 補半答案）＋新記憶三份（`reference-phase-boundary` 階段邊界決策樹、`feedback-learning-retrieval-completion` 學習取回判準、`feedback-proposal-reflexes` 提議制反射清單五條）。進行中（乙類）：9 支單檔工單分兩批跑（cross-review、memory-classification、delegation-templates／skill-creator、right-problem、model-dispatch、maintenance-protocol、opinion-piece、KW 健檢），各批完成後送 Windows Codex 合併審查。拷問 skill 走行為版試行、2~3 次後評估 skill 化。
+- **上一輪 A 段三條候選應用的下場**：「三原則健檢 skill 字數」→併入 skill-creator 但書與 no-op 測試工單；「共用指引詞表」→未採（改為 concept 正名＋引用上游詞彙，避免自造表）；「壞味道寫成健檢清單」→升級為 KW 健檢工單（病徵→修法格式＋熱點優先）。
+- **核心收穫一句話**：把「Simon 要記得」變成「系統會自己做」——觸發的認知負載移到芙莉蓮端（提議制），驗證的模糊判準換成機械閘門（取回證據、獨立真值、紅綠驗證、前緣清空）。
+
 ## 原文要點
 
 - Matt Pocock 是 TypeScript 領域的知名教學者，這一年把重心轉向 AI 開發，並把自己的工作流開源成 `mattpocock/skills` 專案（2026-07-23 查證為 182k stars，影片標題稱 17 萬星）。
@@ -90,7 +97,7 @@ TypeScript 圈的 Matt Pocock 把自己這一年跟 AI 開發的經驗，開源�
 - 跟 Superpowers 的比較：Superpowers 用寫死的九個步驟逼你想清楚才准動工，在模型還容易偏題的時代非常管用；但影片作者認為，在現在這一代模型（他點名 Fable 5 這種等級）理解力已經很強的情況下，那套死規矩反而變成累贅，而且它產出的文件是為自己下一步量身打造的、別人難接手。Matt 的做法是一盒隨插即用的樂高，你手上只要有份規格——自己寫的、主管給的、還是別的 AI 產的都行——就能直接跳到 `to-tickets` 開始拆。
 - 影片結論：Matt 靠的是深厚的軟體工程底子，並用在兩個地方——架構上（把深模組、爛程式碼徵兆這些老方法寫進 skill 來規範 AI）與溝通上（直接把專業術語當 prompt 用）。所以「有了 AI 就不必在自己的領域精進」是迷思，只有成為專業領域的專家，才控制得好 AI。
 
-> **本篇術語糾錯說明**：逐字稿為機器轉錄，人名與 skill 名誤聽極多，已依 GitHub 專案原文校正：MacPocao／Matt Poco／MapleCock／Matt Polka → Matt Pocock；GrillMe／GrowMe／Glomy → `grill-me`；GrowWithDocs → `grill-with-docs`；2Spec → `to-spec`；2Tickets／2TKs → `to-tickets`；improve code-based architecture → `improve-codebase-architecture`；生模組 → 深模組；LAN Code／爛扣 → 爛程式碼；CTD → TDD；區域性性 → 局部性；極尖主義 → 極簡主義。另有三處判不出原話、保留並標記：影片列舉的第一個框架名（聽成「Gash It Down」）、影片點名的另一個模型（聽成「GBT 5.6 Soul」）、以及微觀決定的第一個例子（聽成「房貸怎麼做」）。**待查**：影片說專案裡有個叫「Writing Great Skills」的 skill，但 2026-07-23 查該 repo 的 README skill 清單並未列出同名項目，可能已改名或位於 README 未列的目錄。
+> **本篇術語糾錯說明**：逐字稿為機器轉錄，人名與 skill 名誤聽極多，已依 GitHub 專案原文校正：MacPocao／Matt Poco／MapleCock／Matt Polka → Matt Pocock；GrillMe／GrowMe／Glomy → `grill-me`；GrowWithDocs → `grill-with-docs`；2Spec → `to-spec`；2Tickets／2TKs → `to-tickets`；improve code-based architecture → `improve-codebase-architecture`；生模組 → 深模組；LAN Code／爛扣 → 爛程式碼；CTD → TDD；區域性性 → 局部性；極尖主義 → 極簡主義。另有三處判不出原話、保留並標記：影片列舉的第一個框架名（聽成「Gash It Down」）、影片點名的另一個模型（聽成「GBT 5.6 Soul」）、以及微觀決定的第一個例子（聽成「房貸怎麼做」）。**待查已結案（2026-08-09）**：影片說的「Writing Great Skills」經查 repo CHANGELOG 為改名所致——`write-a-skill` → `writing-great-skills` → `writing-for-agents`（PR #763），現存於 `skills/productivity/writing-for-agents/`。
 
 ## 盲點與保留
 **缺口／矛盾**：
