@@ -32,7 +32,7 @@ Google 在 I/O 2026 發布的輕量高速 LLM 模型家族，專攻代理人任�
 
 ## 應用場景
 
-- **Simon 目前的接觸點有三個**：Google One AI Pro 訂閱涵蓋 Gemini App 與 [[gemini-spark]]；Antigravity CLI（`agy`）是第三方審核者的執行環境——但 2026-08-15 實查 `agy models`，1.1.5 版最新仍只到 `gemini-3.6-flash`，3.7 還沒下放，審核預設也照舊維持 `gemini-3.1-pro-high`（重推理線）。
+- **Simon 目前的接觸點有兩個**：Google One AI Pro 訂閱涵蓋 Gemini App 與 [[gemini-spark]]；Antigravity CLI（`agy`）是第三方審核者的執行環境，2026-08-15 更新到 1.1.13 後 `gemini-3.7-flash-high／medium／low` 三檔已可選。**但審核預設不改**，仍是 `gemini-3.1-pro-high`——第三方審核要的是重推理線與家族多樣性，Flash 這條線再快也是工作馬、不是同一條軸，未經同題比測不動預設。
 - **值得留意 Flash Cyber**：Simon 是資安 IT，這支是專為資安場景訓練的分支；目前限量試用、拿不到細節，先掛著觀察。
 - 一般場景：所有代理人應用底層；速度比品質更重要的場景（搜尋、客服、即時翻譯）。
 - 反場景：深度推理（大型重構、學術寫作）仍需 Pro／Opus 級。Flash 這條線再快，定位始終是工作馬而非旗艦。
