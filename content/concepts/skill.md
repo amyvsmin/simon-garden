@@ -1,7 +1,7 @@
 ---
 title: "Skill"
 slug: skill
-aliases: [Claude Skill, Agent Skill, Agent Skills, 技能包]
+aliases: [Claude Skill, 技能包]
 category: AI 與 Agent
 confidence: 已驗證
 created: 2026-05-05
@@ -9,7 +9,7 @@ created: 2026-05-05
 
 ## 定義
 
-AI Agent 的可重用能力包：把反覆使用的指令、範例、流程與附屬資源收進 `SKILL.md` 及其目錄，讓相容工具在需要時載入。核心精神是「試一次、存起來、用很多次」；Agent Skills 是跨工具開放標準，Claude Code 另提供叫用控制、動態資料注入與子代理等擴充。
+Claude 的技能打包機制，把重複用到的 prompt、範例、流程固化為可重用的指令包，核心精神是「試一次、存起來、用很多次」。
 
 > 打個比方：skill 就像給一位什麼都會、但都不夠精的廚師一本《台南小吃完全手冊》——擔仔麵湯頭怎麼熬、肉燥用哪個部位、醬油膏比例都寫在裡面，看完就能做出道地府城味。它把「什麼都略懂的通才 AI」變成「某個領域的專家」。（高見龍〈Claude Code Skills〉）
 
@@ -18,7 +18,7 @@ AI Agent 的可重用能力包：把反覆使用的指令、範例、流程與�
 ## 關鍵面向
 
 - **組成**：description（觸發條件說明）、主體 prompt（含指示與範例）、附屬腳本或資源檔
-- **叫用方式**：模型可依 `description` 自動叫用，使用者也可輸入 `/skill-name` 手動叫用；需要人工拍板才可啟動的工作流程，可設 `disable-model-invocation: true` 禁止模型自動叫用。
+- **觸發**：使用者意圖匹配 description 時自動載入到對話中
 - **來源**：Anthropic 官方（superpowers、example-skills）+ 社群外掛 + 自製
 - **與 Plugin 的關係**：Plugin 是一組 Skills 的打包，安裝 Plugin 會帶入多個 Skills
 - **Skill Creator**：用自然語言讓 Claude 自動產出新 Skill
@@ -31,9 +31,7 @@ AI Agent 的可重用能力包：把反覆使用的指令、範例、流程與�
 - **GPTs/Gems 範式翻轉**：GPTs 時代要「先想找誰、再開哪個對話框」；Skill 時代靠 description 自動匹配、AI 主動抓對應流程進來、「工具來找人」取代「人去找工具」
 - **安全紅旗**：Skill 可內含 scripts/、能在本機跑程式、以你的使用者身份存取所有檔案與對外連網；裝陌生 Skill 前先把網址丟給 AI 評估、別無腦安裝。完整的風險模型（為何 skill 等同把電腦鑰匙交出去）、三種已揭露攻擊型態與四招肉眼審核法見 [[ai-skill-security]]
 - **Skill 也需要瘦身**：description 太長、觸發條件相近或多個 skill 做同一件事，會讓模型匹配成本變高、觸發更不穩。定期檢查 description 是否精準互斥，是 [[agent-harness-hygiene]] 的一部分。
-- **Custom Commands 已併入 Skills（現行官方行為）**：舊 `.claude/commands/*.md` 仍相容，但「手動叫用」與「模型自動叫用」現在是同一套 Skill 的控制選項，不再是 Command 與 Skill 的固定邊界。[[mcp]] 仍負責連外部服務與工具，[[subagents]] 仍負責隔離脈絡或分派複雜任務；三者可由同一個 Skill 串起來。（Anthropic 官方 Claude Code Skills 指南，2026-08-14 收錄）
-- **內容與權限是兩種生命週期**：Skill 主體載入後會留在本次對話脈絡，後續相同內容不會重複塞入；`allowed-tools` 這類工具預先核准只維持當輪，使用者送出下一則訊息就清除。不能因指令仍在脈絡裡，就誤以為權限也一直存在。
-- **評估拆成路由與產出**：看到 Skill 被叫到，只證明模型找到它，不代表任務做對。先測「該觸發與不該觸發的要求有沒有分對」，再測「叫用後輸出是否符合預期」；每個案例用全新對話做啟用／停用比較，避免撰寫時留下的脈絡掩蓋指令缺口。
+- **跟 Custom Commands／MCP／Subagents 的四機制分工**：客製化 Claude 行為有四種機制，差別在「誰觸發、給的是什麼」。Skills 由模型依 description 自動判斷觸發、給的是知識；Custom Commands 由使用者打 `/xxx` 手動觸發、是固定的 prompt 巨集（例如 `/review-pr`）；[[mcp]] 連外部服務、給的是工具；[[subagents]] 開獨立 context 平行處理複雜任務。四者互補、可同時運作——一個 `/review-pr` 觸發 Code Review 流程，Skill 給審查標準、MCP 拉 PR 內容、檔案多時再派 Subagent 平行審不同檔。判準一句話：要手動觸發固定流程用 Command、要 AI 自己判斷何時用什麼專業知識用 Skill。（高見龍〈Claude Code Skills〉）
 - **Progressive Disclosure 的三層載入**：skill 內容按 [[progressive-disclosure]] 分三層——metadata（名稱＋描述、約 100 tokens、啟動全預載供比對）／instructions（`SKILL.md` 主體、建議 5000 tokens 內、相關才載）／resources（scripts/references/assets、用到才讀）。這也是「進化路徑」為什麼把細節往 references/ 拆的底層原因：主 `SKILL.md` 控在 500 行內、細節丟 references/，讓 context「用多少拿多少」。（高見龍〈Claude Code Skills〉）
 
 ## 應用場景
@@ -65,4 +63,3 @@ AI Agent 的可重用能力包：把反覆使用的指令、範例、流程與�
 - [[2026-06-05-dustin-claude-code-harness-cleanup]]
 - [[2026-06-13-pansci-claude-skill-security]]
 - [[2026-07-01-kaochenlong-claude-code-skills]]
-- [[2026-08-14-claude-code-skills-official-guide]]
