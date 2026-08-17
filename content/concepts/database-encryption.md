@@ -27,7 +27,7 @@ created: 2026-07-06
 ## 相關概念
 
 - [[cryptography]]：TDE、欄位、檔案加密都是密碼學在資料庫層的應用
-- [[de-identification]]：資料遮罩是去識別化的一種手段，同樣不可還原
+- [[de-identification]]：資料遮罩是去識別化的一種手段；遮罩輸出的被蓋部分不可逆，但去識別化也包含仍保留還原路徑的假名化
 - [[data-classification]]：先分類敏感欄位，才知道要對哪些資料加密或遮罩
 - [[legally-protected-information]]：加密與遮罩是保護個資等受法律保護資訊的技術控制
 
