@@ -1,7 +1,7 @@
 ---
 title: "資料銷毀（Media Sanitization）"
 slug: data-sanitization
-aliases: [Media Sanitization, Data Sanitization, 資料銷毀, 媒體銷毀, 清除, Clear, 清洗, Purge, 銷毀, Destroy, 加密銷毀, Cryptographic Erase, CE]
+aliases: [Media Sanitization, Data Sanitization, 資料銷毀, 媒體銷毀, 媒體清除, Clear, 清洗, Purge, 銷毀, Destroy, 加密銷毀, Cryptographic Erase, CE]
 category: 資安・資產安全
 confidence: 已驗證
 created: 2026-07-06

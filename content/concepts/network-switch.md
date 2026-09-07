@@ -8,7 +8,7 @@ created: 2026-09-05
 ---
 
 ## 定義
-交換器是工作在 [[data-link-layer]]（OSI 第二層）的區域網路設備，依 [[mac-address-table]] 決定每個訊框該從哪個埠送出，而不是像集線器那樣廣播到所有埠。英文 switch 原意是「開關」——如同開關控制電流方向，交換器控制訊框的流向，並能在微秒級別做出轉發決策。
+本卡以第二層乙太網交換為主：交換器在 [[data-link-layer]]（OSI 第二層）依 VLAN 與 [[mac-address-table]] 決定訊框的轉送方向。已知目的 MAC 的單播訊框會依表轉送；若該 VLAN 查不到目的 MAC，預設會做「未知單播泛洪」，送往同 VLAN 中除接收埠以外、處於轉送狀態的埠。因此，交換器並非每次都只送一個埠。多層交換器另可具備第三層功能，見 [[layer-3-switch]]。
 
 ## 關鍵面向
 - **為解決集線器的瓶頸而生**：1980 年代終端設備暴增，集線器把所有埠放在同一個 [[collision-domain]]，擁塞與碰撞成為主要問題（碰撞處理見 [[csma-cd]]）。
@@ -37,5 +37,6 @@ created: 2026-09-05
 - 交換器的訊框轉發模式（store-and-forward、cut-through、fragment-free）差異與適用場景，課程尚未涵蓋。
 
 ## 來源
+- [Cisco：Unicast Flooding in Switched Campus Networks](https://www.cisco.com/c/en/us/support/docs/switches/catalyst-6000-series-switches/23563-143.html) — 2026-09-07 核對第二層依 VLAN／目的 MAC 轉送，以及未知單播的泛洪範圍。
 - [[1-learning/udemy/ccna-all-in-one/section-09-switching-basics/1-switch-history-and-why-switches|CCNA Section 9 Leaf 1 交換機出現的歷史背景]]
 - [[1-learning/udemy/ccna-all-in-one/section-09-switching-basics/2-cisco-switch-product-lines-and-key-specs|CCNA Section 9 Leaf 2 Cisco 交換機的產品線與重要參數指標]]
