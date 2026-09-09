@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="report-title" content="agent-bridge｜讓審查回到原來的對話">
+<meta name="report-date" content="2026-09-09">
+<meta name="report-status" content="先停">
+<meta name="report-summary" content="用五張圖看懂：誰送審、怎麼修改、修不完何時停，以及目前已完成和暫停的驗證。">
+<meta name="description" content="用流程圖看懂跨平台審查與自動停點。P1a 已實測，因必要證據不足而停在開工關卡。">
+<title>agent-bridge｜讓審查回到原來的對話</title>
+<style>
+:root{--paper:#faf8f3;--surface:#fffdf9;--ink:#383641;--muted:#706b78;--line:#ded9df;--purple:#74618b;--wash:#eee8f2;--green:#536c60;--greenwash:#eaf0e9;--amber:#846448;--amberwash:#f4ecdf;color-scheme:light}
+:root[data-theme="dark"]{--paper:#201f26;--surface:#292830;--ink:#e7e1e9;--muted:#b7adbe;--line:#49414f;--purple:#c3add8;--wash:#393040;--green:#adc8b5;--greenwash:#2a3931;--amber:#dfc29b;--amberwash:#3d3329;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.8 "Segoe UI","Microsoft JhengHei",system-ui,sans-serif}h1,h2{font-family:"Noto Serif TC","PMingLiU",serif;font-weight:600;letter-spacing:.025em;line-height:1.45}h1{font-size:clamp(2.2rem,5.4vw,3.6rem);margin:16px 0 20px}h2{font-size:clamp(1.65rem,3vw,2.2rem);margin:8px 0 14px}h3,p{margin:0}h3{font-size:1.07rem}a{color:var(--purple);text-underline-offset:5px}button{font:inherit;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:30px;min-height:44px;padding:8px 16px;cursor:pointer;font-size:.85rem}button:hover{border-color:var(--purple)}button[aria-pressed="true"]{background:var(--purple);color:var(--paper)}:focus-visible{outline:3px solid var(--purple);outline-offset:4px}main{max-width:1040px;padding:0 40px;margin:auto}.topbar{max-width:1120px;margin:auto;padding:20px 40px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:.85rem}.topbar a{text-decoration:none}.hero{padding:46px 0 48px;border:0}.eyebrow,.number{font-size:.76rem;color:var(--purple);letter-spacing:.1em;font-weight:650}.lead{color:var(--muted);font-size:1.05rem}.status{display:inline-flex;align-items:center;gap:10px;margin-top:23px;font-size:.82rem;color:var(--amber)}.dot{height:7px;width:7px;border-radius:50%;background:currentColor}.chapter-nav{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:26px;font-size:.85rem}.chapter-nav a{text-decoration:none}section{padding:54px 0;border-top:1px solid var(--line)}.intro,.note{color:var(--muted);font-size:.91rem}.note{font-size:.82rem;margin-top:18px}.switcher{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}figure{margin:28px 0 0}.diagram{border:1px solid var(--line);border-radius:20px;background:var(--surface);padding:28px}figcaption{font-size:.82rem;color:var(--muted);margin-top:16px;text-align:center}.route{display:grid;grid-template-columns:1fr 38px 1fr 38px 1fr;align-items:center}.actor{text-align:center;min-width:0;padding:18px 8px}.actor svg{display:block;width:104px;height:92px;margin:0 auto 13px;color:var(--purple)}.actor .tag{display:block;font-size:.72rem;color:var(--purple);margin-bottom:4px}.actor p{font-size:.86rem;color:var(--muted);margin-top:5px}.arrow{font-size:1.55rem;color:var(--purple);text-align:center}.return{margin:8px 9% 0;border:1px solid var(--purple);border-top:0;border-radius:0 0 20px 20px;padding:13px;text-align:center;color:var(--purple);font-size:.85rem}.return b{font-size:1.2rem;margin-right:8px}.pill{display:inline-block;background:var(--wash);color:var(--purple);padding:4px 13px;border-radius:30px;font-size:.8rem}.cycle{max-width:760px;margin:auto;text-align:center}.node{border:1px solid var(--line);background:var(--paper);border-radius:12px;padding:15px 18px}.node small{display:block;font-size:.8rem;color:var(--muted)}.cycle>.node{max-width:340px;margin:auto}.down{height:35px;color:var(--purple);line-height:35px;font-size:1.35rem}.branches{display:grid;grid-template-columns:1fr 1fr;gap:22px;position:relative;padding-top:24px}.branches:before{content:"";position:absolute;left:25%;right:25%;top:0;border-top:1px solid var(--purple)}.branch{position:relative}.branch:before{content:"↓";position:absolute;top:-29px;left:calc(50% - 7px);color:var(--purple)}.branch-label{font-size:.8rem;color:var(--muted);margin:0 0 10px}.pass{background:var(--greenwash);border-color:var(--green);color:var(--green)}.revise{background:var(--wash);border-color:var(--purple);color:var(--purple)}.loop{border:1px dashed var(--purple);color:var(--purple);border-radius:12px;padding:12px;font-size:.85rem}.halt{background:var(--amberwash);color:var(--amber);border-radius:12px;padding:13px;font-size:.85rem;text-align:center;margin-top:24px}.stop-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:26px}.stop-card{border-top:3px solid var(--amber);background:var(--surface);padding:25px 22px;border-radius:0 0 14px 14px}.big{font:3.6rem/1.1 Georgia,serif;color:var(--amber);margin-bottom:12px}.big span{font: .87rem/1.4 "Microsoft JhengHei",sans-serif;margin-left:8px}.stop-card p{font-size:.85rem;color:var(--muted);margin-top:8px}.example{margin-top:26px;padding:26px;background:var(--wash);border-radius:18px}.example h3{font-weight:600}.score-line{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;position:relative;margin:25px 0 12px}.score-line:before{content:"";height:2px;background:var(--purple);position:absolute;top:45px;left:9%;right:9%;opacity:.4}.score-step{position:relative;text-align:center;font-size:.76rem;color:var(--muted)}.score{position:relative;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin:8px auto;background:var(--surface);border:1px solid var(--purple);color:var(--purple);border-radius:50%;font:1.25rem Georgia,serif}.score-step:last-child .score{background:var(--amberwash);border:2px solid var(--amber);color:var(--amber)}.score-step strong{display:block;color:var(--ink);font-size:.8rem}.result{text-align:center;margin-top:19px;font-size:.93rem;color:var(--purple)}.setting{display:flex;gap:20px;align-items:center;margin:26px 0}.setting>span{font:2.3rem Georgia,serif;color:var(--purple)}.setting p{font-size:.87rem}.setting small{display:block;font-size:.8rem;color:var(--muted)}details{border-top:1px solid var(--line);padding:15px 0}summary{cursor:pointer;font-size:.88rem;padding:6px 0;font-weight:600}details .detail{padding:12px 0 5px;max-width:760px}details p,details li{font-size:.85rem;color:var(--muted)}details p+p{margin-top:13px}details ul{padding-left:22px;margin:0}details li+li{margin-top:8px}.cost-figure{display:grid;grid-template-columns:1.4fr 1fr;gap:30px;align-items:center}.test-group{display:flex;align-items:center;gap:14px;margin:12px 0}.test-group>span{width:80px;font-size:.83rem;color:var(--muted);flex-shrink:0}.tokens{display:flex;gap:6px;flex-wrap:wrap}.tokens i{display:block;width:22px;height:28px;border:1px solid var(--purple);background:var(--wash);border-radius:4px;position:relative}.tokens i:after{content:"";position:absolute;left:5px;right:5px;top:10px;height:5px;border-top:1px solid var(--purple);border-bottom:1px solid var(--purple)}.test-group:nth-child(2) i{opacity:.75}.test-group:nth-child(3) i{opacity:.5}.budget{border-left:1px solid var(--line);padding-left:28px}.budget strong{font:2.5rem Georgia,serif;color:var(--purple)}.budget p{font-size:.88rem}.budget small{font-size:.78rem;color:var(--muted)}.extras{display:flex;gap:18px;justify-content:space-between;margin-top:23px;padding-top:20px;border-top:1px solid var(--line);font-size:.84rem;color:var(--muted)}.extras strong{color:var(--ink)}.gates{display:grid;grid-template-columns:1fr 30px 1fr 30px 1fr;align-items:center;margin-top:26px}.gate{text-align:center;border:1px solid var(--line);border-radius:14px;padding:23px 12px;background:var(--surface)}.gate.current{border-color:var(--purple);background:var(--wash)}.gate small{display:block;font-size:.75rem;color:var(--muted);margin:5px 0}.gate b{font-size:1.04rem}.acceptance{text-align:center;margin:30px 0 25px;font-family:"PMingLiU",serif;font-size:1.25rem;color:var(--purple)}.source-links{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px;font-size:.85rem}textarea{width:100%;height:200px;resize:vertical;padding:15px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font-family:inherit;font-size:.85rem;line-height:1.8}.copy-row{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:12px;font-size:.8rem;color:var(--muted)}footer{padding:25px 0 45px;border-top:1px solid var(--line);font-size:.78rem;color:var(--muted)}.skip{position:absolute;left:20px;top:-100px}.skip:focus{top:10px;background:var(--surface);padding:10px;z-index:10}
+@media(max-width:720px){main{padding:0 24px}.topbar{padding:16px 24px}.hero{padding:28px 0 36px}section{padding:40px 0}.diagram{padding:22px 17px}.route{grid-template-columns:1fr}.actor{display:grid;grid-template-columns:86px 1fr;gap:14px;align-items:center;text-align:left;padding:10px 0}.actor svg{width:82px;height:76px;margin:0}.route>.arrow{transform:rotate(90deg);height:32px;line-height:32px}.return{margin:10px 0 0}.stop-grid{grid-template-columns:1fr;gap:12px}.stop-card{display:grid;grid-template-columns:68px 1fr;column-gap:17px;padding:19px 20px;border-top:0;border-left:3px solid var(--amber);border-radius:0 12px 12px 0}.big{grid-row:1/3;margin:0;font-size:2.9rem}.big span{display:block;margin:5px 0 0;font-size:.76rem}.stop-card p{margin-top:4px}.example{padding:23px 15px}.branches{gap:12px}.node{padding:13px 9px;font-size:.9rem}.node small,.loop{font-size:.76rem}.cost-figure{grid-template-columns:1fr;gap:15px}.budget{padding:18px 0 0;border-left:0;border-top:1px solid var(--line);text-align:center}.extras{flex-direction:column;gap:9px}.gates{grid-template-columns:1fr}.gates>.arrow{transform:rotate(90deg);height:34px;line-height:34px}.gate{padding:16px}.gate small{margin:0}.setting{gap:15px}.setting>span{font-size:2rem}body{font-size:16px}.score-step strong{font-size:.74rem}.score-line{gap:2px}.score{width:38px;height:38px}.score-line:before{top:43px}.test-group{gap:9px}.tokens{gap:5px}.tokens i{width:18px;height:25px}.test-group>span{width:75px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{button,.chapter-nav,.topbar,.copy-row{display:none}section{padding:22px 0}body{font-size:11pt}.diagram,.stop-grid,.example{break-inside:avoid}details .detail{display:block}h2{break-after:avoid}}
+</style>
+</head>
+<body>
+<a class="skip" href="#overview">跳到報告內容</a>
+<header class="topbar"><a href="/reports/">← 一頁報告</a><button id="theme" type="button" aria-label="切換深淺色">切換深淺色</button></header>
+<main>
+<section class="hero" id="overview">
+<p class="eyebrow">agent-bridge · 功能圖解</p>
+<h1>把另一雙眼睛請來，<br>留在熟悉的對話裡。</h1>
+<p class="lead">另一個 AI 幫忙找問題，原本的芙莉蓮負責修改。<br>有進展就繼續，卡住就停下來。</p>
+<p class="status"><span class="dot" aria-hidden="true"></span>P1a 已實測，正停在必要證據</p>
+<nav class="chapter-nav" aria-label="頁內導覽"><a href="#flow">怎麼送審</a><a href="#cycle">怎麼修改</a><a href="#boundaries">什麼時候停</a><a href="#cost">需要多少時間</a><a href="#gates">目前在哪</a></nav>
+</section>
+<section id="flow">
+<p class="number">圖 01 ／ 誰做什麼</p><h2>你不用來回搬運對話。</h2>
+<p class="intro">例如：請另一個 AI 檢查一份計畫，有沒有漏掉重要的事。</p>
+<div class="switcher" role="group" aria-label="選擇送審方向"><button id="to-claude" type="button" aria-pressed="true">從 Codex 送出</button><button id="to-codex" type="button" aria-pressed="false">從 Claude 送出</button></div>
+<figure class="diagram">
+<div class="route">
+<div class="actor"><svg viewBox="0 0 110 95" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="10" y="9" width="90" height="60" rx="8" fill="var(--wash)"/><path d="M41 69v12m28-12v12M29 82h52"/><path d="M28 29h43M28 39h30M28 49h38"/><circle cx="86" cy="56" r="3" fill="currentColor"/></svg><div><span class="tag">01 · 原對話的作者</span><h3 id="author-name">Codex 芙莉蓮</h3><p>整理材料 · 送出審查</p></div></div>
+<div class="arrow" aria-hidden="true">→</div>
+<div class="actor"><svg viewBox="0 0 110 95" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 69h96M16 68V30m78 38V30M16 35c20 40 58 40 78 0M29 50v18m17-8v8m18-8v8m17-18v18"/><rect x="40" y="8" width="29" height="33" rx="4" fill="var(--wash)"/><path d="M47 19h15m-15 8h10M12 80c9-5 18 5 27 0s18 5 27 0 18 5 27 0"/></svg><div><span class="tag">02 · 一次交接</span><h3>agent-bridge</h3><p>送材料 · 帶回結果</p></div></div>
+<div class="arrow" aria-hidden="true">→</div>
+<div class="actor"><svg viewBox="0 0 110 95" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="17" y="8" width="57" height="70" rx="6" fill="var(--wash)"/><path d="M29 23h31M29 33h23M29 43h15"/><circle cx="68" cy="56" r="18" fill="var(--surface)"/><path d="m81 70 17 16M61 56l5 5 10-11"/></svg><div><span class="tag">03 · 另一平台的審查者</span><h3 id="reviewer-name">Claude 芙莉蓮</h3><p>只看材料 · 找問題與評分</p></div></div>
+</div><div class="return"><b aria-hidden="true">↩</b> 審查意見回到原對話，再由作者修改</div>
+<figcaption>審查者不直接改稿；橋每次只完成一次交接。</figcaption>
+</figure>
+<details><summary>怎麼知道審查者讀了哪些材料？</summary><div class="detail"><p>作者指定原檔，審查者逐檔回報讀取範圍、是否完整與失敗原因。需要時可自主查核公開來源；讀取回報仍有保證邊界，不能當成完整閱讀的絕對證明。這些能力都還要經過實測。</p></div></details>
+</section>
+<section id="cycle">
+<p class="number">圖 02 ／ 收到意見之後</p><h2>修正有方向，完成有人把關。</h2>
+<figure class="diagram"><div class="cycle">
+<div class="node">收到審查意見<small>作者逐項核對，判斷哪些真的要改</small></div><div class="down" aria-hidden="true">↓</div>
+<div class="node revise">還有必須修正的問題嗎？</div><div class="down" aria-hidden="true">↓</div>
+<div class="branches">
+<div class="branch"><p class="branch-label">有 → 繼續修</p><div class="node">作者修改原稿</div><div class="down" aria-hidden="true">↓</div><div class="node">先檢查停止條件</div><div class="down" aria-hidden="true">↓</div><div class="loop">可以繼續才送下一輪 ↩</div></div>
+<div class="branch"><p class="branch-label">沒有 → 準備收尾</p><div class="node">格式完整、必要證據齊全</div><div class="down" aria-hidden="true">↓</div><div class="node pass">交給 Simon 驗收<small>高分本身不等於通過</small></div></div>
+</div><div class="halt">缺必要證據 → 先等證據，不當成通過</div>
+</div><figcaption>作者主持每一輪；遇到下圖任一停點，就不再自動送審。</figcaption></figure>
+<details><summary>只剩很小的修正，能不能收尾？</summary><div class="detail"><p>設計另留「收斂結案」：只限內容密集、多檔案的案件。必須同時符合連續評分卡在高點、作者核對後確認沒有新的邏輯缺口，以及每條意見都留下採用或拒絕的理由，才可交 Simon 驗收。不能拿它跳過真正的缺陷或待補證據。</p></div></details>
+</section>
+<section id="boundaries">
+<p class="number">圖 03 ／ 修不完，也有停點</p><h2>不會無止境地一直改。</h2>
+<p class="intro">以下是設計中的自動停止條件；停下來時，不代表已通過。</p>
+<div class="stop-grid">
+<article class="stop-card"><div class="big">5<span>次上限</span></div><h3>用完這次額度，就停</h3><p>沒特別指定，最多啟動五次審查。格式失敗也會用掉一次。</p></article>
+<article class="stop-card"><div class="big">4<span>次沒突破</span></div><h3>一直沒進展，就停</h3><p>連續四次有效評分，都沒有超過這個案件的歷史最高分。</p></article>
+<article class="stop-card"><div class="big">!<span>狀態不明</span></div><h3>有疑點，先暫停</h3><p>缺證據、紀錄對不上，或上次審查還沒確認結束，都不開下一次。</p></article>
+</div>
+<figure class="example"><h3>即使你說「最多十輪」，也可能第五輪就停。</h3><p class="note">示意評分：最高分一直停在 8 分。</p>
+<div class="score-line" aria-label="第一輪八分建立基準，第二輪八分、第三輪七分、第四輪八分、第五輪八分，連續四次沒有創新高，停止。">
+<div class="score-step">第 1 輪<span class="score">8</span><strong>建立基準</strong></div><div class="score-step">第 2 輪<span class="score">8</span><strong>沒突破 ①</strong></div><div class="score-step">第 3 輪<span class="score">7</span><strong>沒突破 ②</strong></div><div class="score-step">第 4 輪<span class="score">8</span><strong>沒突破 ③</strong></div><div class="score-step">第 5 輪<span class="score">8</span><strong>沒突破 ④</strong></div>
+</div><p class="result">連續四次沒突破 → 停止，不跑第六輪</p><figcaption>中途若創新高，沒突破的計數歸零；已用掉的審查次數不歸零。</figcaption></figure>
+<div class="setting"><span aria-hidden="true">5 → 10</span><div><p>要增加次數，直接說：「這次最多十輪。」</p><small>沒說就用五次，不必每次先問。只調整這個案件，不用重寫設計與計畫；其他停點仍有效。</small></div></div>
+<details><summary>取消、逾時、格式錯誤，怎麼算？</summary><div class="detail"><ul><li>你取消、明訂期限已到，或執行逾時，就停止新增審查。若不能確認上一筆已結束，單說「繼續」也不能開下一筆。</li><li>格式錯誤照算一次啟動，但不算有效分數，也不拿零分代替。人工審查的有效評分會影響停滯計數，卻不消耗橋接啟動次數。</li><li>預設五次時，純橋接流程最快在第五次達到停滯條件；增加上限後，這條規則仍能提早擋住空轉。</li><li>每五分鐘查一次結果，是查看進度，不是五分鐘就逾時。沒有預設整案期限；對話或主持端中斷後，也不會自行醒來續跑。</li></ul></div></details>
+</section>
+<section id="cost">
+<p class="number">圖 04 ／ 做出來要花多少時間</p><h2>這是開發測試的預算。</h2><p class="intro">P1a 的零模型假材料測試已完成。下面是仍未開啟的 AI 測試次數與等待上限。</p>
+<figure class="diagram"><div class="cost-figure"><div aria-label="正常測試四次、異常測試四次、三個案件共六次，總共十四次">
+<div class="test-group"><span>正常測試 4</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+<div class="test-group"><span>異常測試 4</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+<div class="test-group"><span>三個案件 6</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+</div><div class="budget"><p><strong>14</strong> 次 AI 測試</p><p>每次最多 5 分鐘</p><p>合計最多 <strong>70</strong> 分鐘</p><small>仍未開模型額度；是上限，不是保證會花滿</small></div></div>
+<div class="extras"><p>不用 AI 的模擬等待：<strong>最多 22 分鐘</strong></p><p>人工整理與修改：<strong>還沒估計</strong></p></div>
+<figcaption>不是日常每次使用的耗時，也不能直接換算成金額或訂閱額度。</figcaption></figure>
+<details><summary>如果先只做一個方向，或繼續人工交接？</summary><div class="detail"><p>只做一個方向的備選方案：最多八次 AI 測試、合計四十分鐘，目前尚未採用。繼續人工交接，則不用新增橋接驗證的 AI 呼叫，但原本對話用量和搬材料的時間仍會發生。</p><p>P1a 的零模型假材料測試已做完；這裡的 AI 測試仍未開。測試重跑也計入總數；超過這批測試上限，要先重新取得授權。</p></div></details>
+</section>
+<section id="gates">
+<p class="number">圖 05 ／ 現在走到哪裡</p><h2>圖解已確認；P1a 已實測，停在必要證據。</h2>
+<div class="gates" aria-label="三關卡：採用、開工、驗收。圖解與 v6 採用已完成；P1a 零模型測試已停止在必要證據，P1b 以後未開。"><div class="gate"><small>第一關 · 圖解已確認</small><b>採用</b><small>這是不是想要的功能？</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate current"><small>第二關 · P1a 已停在缺證</small><b>開工</b><small>只跑假材料；未開模型額度</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate"><small>第三關 · 尚未到達</small><b>驗收</b><small>實際證據支持哪些能力？</small></div></div>
+<p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料與雙向等待已跑完，但關鍵證據不足而停止。P1b 以後、模型與 B 級操作均未開。</p>
+<p class="acceptance">功能圖解已驗收。<br>實作與必要驗證完成後，再交成果頁驗收。</p>
+<details id="sources"><summary>來源、版本與實作關卡</summary><div class="detail"><div class="source-links"><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-design.md">DESIGN v0.63-draft</a><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-plan.md">PLAN v0.58-draft</a></div><p>圖解整理日：2026-09-09。R50 唯一必改已由作者採納，文件審查收斂，不重跑 R50；8／10 是修正前評分。v6 九檔已採用並回讀相符。P1a 已用公開假材料完成材料閘門、短失敗／回收與雙向長等待；模型、財務正本、交易材料與財務樣本均未碰。</p><p>P1a 尚未通過：實際單次限制、公開網頁能力與核准分類仍缺可核證據。五分鐘觀測時間戳已改為當下保存，雙向重測符合時間窗；依停止條件不自行重跑，P1b → P3 仍鎖定。圖中的評分例子只用來說明停止規則，不會執行審查或變更設定。</p></div></details>
+<details><summary>帶一段短摘要回對話</summary><div class="detail"><textarea id="takeaway" aria-label="可複製的報告摘要" readonly>agent-bridge 功能導讀：原對話作者送審，另一平台只讀材料並提出意見，再由作者修改。正式 bridge 尚未實作；P1a 零模型測試已完成。
+沒指定時最多啟動五次；可說「這次最多十輪」，不用重寫設計與計畫。連續四次有效評分沒超過歷史最高分就停；缺證據或上一筆是否結束不明，也不能繼續。
+開發驗收提案：最多十四次 AI 測試，每次最多五分鐘，合計最多七十分鐘；另有不用 AI 的模擬等待最多二十二分鐘與未估計的人工時間。P1a 的零模型等待已做；AI 測試仍未授權，不等於每次日常使用的耗時。
+目前進度：功能圖解已驗收、文件審查已收斂，v6 九檔已採用。P1a 已用公開假材料實測，但因必要證據不足停止；P1b → P3、模型與 B 級操作尚未開。</textarea><div class="copy-row"><button id="copy" type="button">複製摘要</button><span id="copy-status" role="status" aria-live="polite"></span></div></div></details>
+</section>
+<footer>留一點空白，讓重要的事看得見。<br><a href="/reports/">回到一頁報告</a></footer>
+</main>
+<script>
+(function(){
+const root=document.documentElement,theme=document.getElementById('theme');
+try{const saved=localStorage.getItem('garden-report-theme');if(saved==='dark'||saved==='light')root.dataset.theme=saved;else if(window.matchMedia('(prefers-color-scheme: dark)').matches)root.dataset.theme='dark'}catch(e){}
+theme.addEventListener('click',()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('garden-report-theme',root.dataset.theme)}catch(e){}});
+const toClaude=document.getElementById('to-claude'),toCodex=document.getElementById('to-codex');
+function direction(codexAuthor){document.getElementById('author-name').textContent=(codexAuthor?'Codex':'Claude')+' 芙莉蓮';document.getElementById('reviewer-name').textContent=(codexAuthor?'Claude':'Codex')+' 芙莉蓮';toClaude.setAttribute('aria-pressed',String(codexAuthor));toCodex.setAttribute('aria-pressed',String(!codexAuthor));}
+toClaude.addEventListener('click',()=>direction(true));toCodex.addEventListener('click',()=>direction(false));
+document.getElementById('copy').addEventListener('click',async()=>{const area=document.getElementById('takeaway'),status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(area.value);status.textContent='已複製，可以帶回對話。'}catch(e){area.focus();area.select();status.textContent='請複製已選取的摘要。'}});
+})();
+</script>
+</body>
+</html>
