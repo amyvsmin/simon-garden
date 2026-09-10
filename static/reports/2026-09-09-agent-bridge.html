@@ -6,9 +6,9 @@
 <meta name="color-scheme" content="light dark">
 <meta name="report-title" content="agent-bridge｜讓審查回到原來的對話">
 <meta name="report-date" content="2026-09-09">
-<meta name="report-status" content="先停" data-r3="zero-model-call; CRLF launcher stopped before CLI">
-<meta name="report-summary" content="用六張圖看懂：誰送審、怎麼修改、修不完何時停，以及 P1a 關閉和 P1b 兩個獨立授權包均在首次實測停止的結果。" data-r3="zero-model-call; CRLF launcher stopped before CLI">
-<meta name="description" content="用流程圖看懂跨平台審查與自動停點。P1a 已關閉；P1b 兩次首次實測均因必要公開能力未實際發生而停止。">
+<meta name="report-status" content="先停" data-r4="marker Write unexpectedly succeeded; stopped after first call">
+<meta name="report-summary" content="用六張圖看懂：誰送審、怎麼修改、修不完何時停，以及 P1a 關閉和 P1b 三個有模型的獨立授權包均在首次實測停止的結果。" data-r4="marker Write unexpectedly succeeded; stopped after first call">
+<meta name="description" content="用流程圖看懂跨平台審查與自動停點。P1a 已關閉；P1b 三次首次實測均依必要護欄停止。">
 <title>agent-bridge｜讓審查回到原來的對話</title>
 <style>
 :root{--paper:#faf8f3;--surface:#fffdf9;--ink:#383641;--muted:#706b78;--line:#ded9df;--purple:#74618b;--wash:#eee8f2;--green:#536c60;--greenwash:#eaf0e9;--amber:#846448;--amberwash:#f4ecdf;color-scheme:light}
@@ -27,7 +27,7 @@
 <p class="eyebrow">agent-bridge · 成果頁</p>
 <h1>把另一雙眼睛請來，<br>留在熟悉的對話裡。</h1>
 <p class="lead">另一個 AI 幫忙找問題，原本的芙莉蓮負責修改。<br>有進展就繼續，卡住就停下來。</p>
-<p class="status"><span class="dot" aria-hidden="true"></span>P1a 已關閉；P1b r2 + r3 首次實測已停止</p>
+<p class="status"><span class="dot" aria-hidden="true"></span>P1a 已關閉；P1b r4 首次實測已停止</p>
 <nav class="chapter-nav" aria-label="頁內導覽"><a href="#flow">怎麼送審</a><a href="#cycle">怎麼修改</a><a href="#boundaries">什麼時候停</a><a href="#cost">用了多少測試</a><a href="#gates">目前在哪</a><a href="#result">本次結果</a></nav>
 </section>
 <section id="flow">
@@ -74,33 +74,33 @@
 <details><summary>取消、逾時、格式錯誤，怎麼算？</summary><div class="detail"><ul><li>你取消、明訂期限已到，或執行逾時，就停止新增審查。若不能確認上一筆已結束，單說「繼續」也不能開下一筆。</li><li>格式錯誤照算一次啟動，但不算有效分數，也不拿零分代替。人工審查的有效評分會影響停滯計數，卻不消耗橋接啟動次數。</li><li>預設五次時，純橋接流程最快在第五次達到停滯條件；增加上限後，這條規則仍能提早擋住空轉。</li><li>每五分鐘查一次結果，是查看進度，不是五分鐘就逾時。沒有預設整案期限；對話或主持端中斷後，也不會自行醒來續跑。</li></ul></div></details>
 </section>
 <section id="cost">
-<p class="number">圖 04 ／ 本次用了多少測試</p><h2>兩個獨立授權包，都在第一次停下。</h2><p class="intro">P1a 的公開零模型開工核對已關閉。P1b 兩次各自新登記的測試都只用第一次；每包剩餘額度已取消，沒有挪作其他階段。</p>
-<figure class="diagram"><div class="cost-figure"><div aria-label="兩個獨立 P1b 授權包，各四次中已用一次並取消三次；P1c、P2、P3 均未開啟">
+<p class="number">圖 04 ／ 本次用了多少測試</p><h2>每個獨立授權包，都在第一次停下。</h2><p class="intro">P1a 的公開零模型開工核對已關閉。P1b 的三個有模型包各只用第一次；每包其餘額度均取消，沒有挪作其他階段。</p>
+<figure class="diagram"><div class="cost-figure"><div aria-label="三個有模型 P1b 授權包各四次中已用一次並取消三次；P1c、P2、P3 均未開啟">
 <div class="test-group"><span>P1b 原包：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
-<div class="test-group"><span>P1b r2 + r3：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+<div class="test-group"><span>P1b r2：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div><div class="test-group"><span>P1b r4：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
 <div class="test-group"><span>P1c／P2／P3：未開</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
-</div><div class="budget"><p><strong>2</strong> 次 AI 測試</p><p>首次約 78 秒；r2 約 36 秒</p><p>兩包各餘 <strong>3</strong> 次已取消</p><small>各包的停止規則獨立計算，沒有合併或移轉額度</small></div></div>
+</div><div class="budget"><p><strong>3</strong> 次 AI 測試</p><p>約 78 秒、36 秒、49 秒</p><p>三包各餘 <strong>3</strong> 次已取消</p><small>各包的停止規則獨立計算，沒有合併或移轉額度</small></div></div>
 <div class="extras"><p>不用 AI 的模擬等待：<strong>最多 22 分鐘</strong></p><p>人工整理與修改：<strong>還沒估計</strong></p></div>
 <figcaption>不是日常每次使用的耗時，也不能直接換算成金額或訂閱額度。</figcaption></figure>
-<details><summary>為什麼每包只跑一次就停？</summary><div class="detail"><p>PLAN 要求 P1b 必須同時讓公開網頁能力真的運作，並由系統回傳針對指定 marker 的寫入拒絕事件。原包啟動前沒有 Write 工具；r2 補回 Write 後，工具確實被呼叫，卻和 WebSearch、WebFetch 一起被 <code>dontAsk</code> 的整體模式拒絕。工具存在、或任何寫入都被擋，都不能冒充指定規則已通過。</p><p>每一包的第一次失敗後都必須停止該包；沒有重試，也沒有轉去做 P1c、P2 或 P3。</p></div></details>
+<details><summary>為什麼每包只跑一次就停？</summary><div class="detail"><p>PLAN 要求 P1b 必須同時讓公開網頁能力真的運作，並由系統回傳針對指定 marker 的寫入拒絕事件。原包沒有 Write；r2 的整體模式拒絕公開網頁與 Write；r4 已讓公開網頁實際運作，卻讓 marker Write 成功。三者都不能冒充指定規則已通過。</p><p>每一包的第一次失敗後都必須停止該包；沒有重試，也沒有轉去做 P1c、P2 或 P3。</p></div></details>
 </section>
 <section id="gates">
-<p class="number">圖 05 ／ 現在走到哪裡</p><h2>圖解與 P1a 已關閉；P1b 兩包都在首次實測停下。</h2>
-<div class="gates" aria-label="三關卡：採用、開工、驗收。圖解與 v6 採用已完成；P1a 已關閉；P1b 兩個獨立包均因公開網頁能力未實際發生而停止。"><div class="gate"><small>第一關 · 圖解已確認</small><b>採用</b><small>這是不是想要的功能？</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate current"><small>第二關 · P1b 兩包均停止</small><b>開工</b><small>公開網頁能力未實際發生</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate"><small>第三關 · 尚未到達</small><b>驗收</b><small>尚不足以支持正式 bridge</small></div></div>
-<p class="note"><strong>r3 狀態：</strong>零模型靜態檢查通過；Windows→WSL 啟動器因 CRLF 改變執行檔路徑，在 Claude CLI 前停止。模型呼叫 0 次、模型秒數 0、公開網路與工具操作 0 次。依首次失敗即停止，不跑反向 b1、b3、P1c、P2、P3。</p><p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料、雙向等待與一次性設定載入證據已完成。P1b 原包缺少 Write；r2 有 Write，卻使公開搜尋、抓取與指定寫入都被同一整體模式擋住，不能證明公開能力與目標規則各自成立。</p>
+<p class="number">圖 05 ／ 現在走到哪裡</p><h2>圖解與 P1a 已關閉；P1b 每個已啟動包都在首次實測停下。</h2>
+<div class="gates" aria-label="三關卡：採用、開工、驗收。圖解與 v6 採用已完成；P1a 已關閉；P1b 三個有模型包各因必要護欄未同時成立而停止。"><div class="gate"><small>第一關 · 圖解已確認</small><b>採用</b><small>這是不是想要的功能？</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate current"><small>第二關 · P1b 各包均停止</small><b>開工</b><small>必要護欄未同時成立</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate"><small>第三關 · 尚未到達</small><b>驗收</b><small>尚不足以支持正式 bridge</small></div></div>
+<p class="note"><strong>r4 狀態：</strong>Windows→WSL 實測已執行一次，約 49 秒。公開搜尋、抓取與工作區外讀取拒絕皆有實際事件，但指定 marker 的 Write 成功並留下檔案；因此依首次失敗即停止，不跑反向 b1、b3、P1c、P2、P3。</p><p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料、雙向等待與一次性設定載入證據已完成。P1b 原包缺少 Write；r2 的整體模式擋住公開能力；r4 的公開能力已實際運作，但 marker 寫入未被拒絕。</p>
 <p class="acceptance">功能圖解已驗收。<br>本次實作證明缺口已如實交付，等待 Simon 決定是否另開新一輪。</p>
 </section>
 <section id="result">
 <p class="number">圖 06 ／ 本次結果</p><h2>停在哪裡、怎麼還原、接下來由誰決定。</h2>
-<div class="stop-grid"><article class="stop-card"><div class="big">2<span>次</span></div><h3>兩個獨立 P1b 包各跑一次</h3><p>原包約 78 秒；r2 約 36 秒。兩次都在第一次失敗後依規則停止，沒有消耗任何剩餘次數。</p></article><article class="stop-card"><div class="big">!</div><h3>公開能力與拒絕規則無法同時驗明</h3><p>r2 的 Write 確實存在並被呼叫，但 WebSearch、WebFetch 與 Write 都被 <code>dontAsk</code> 整體模式拒絕；沒有網頁請求或轉址可以驗。</p></article><article class="stop-card"><div class="big">0<span>項</span></div><h3>沒有需要還原的持久改動</h3><p>沒有建立 bridge、沒有改設定、沒有讀財務或交易材料。外部暫存證據保留供核對，系統與 vault 正本沒有寫入回復動作。</p></article></div>
+<div class="stop-grid"><article class="stop-card"><div class="big">3<span>次</span></div><h3>三個有模型 P1b 包各跑一次</h3><p>原包約 78 秒；r2 約 36 秒；r4 約 49 秒。每包都在第一次失敗後依規則停止，沒有消耗任何剩餘次數。</p></article><article class="stop-card"><div class="big">!</div><h3>公開能力與拒絕規則無法同時驗明</h3><p>r4 的公開搜尋與抓取已實際完成，但指定 marker 的 Write 成功；所以公開能力與精準拒絕規則仍無法同時驗明。</p></article><article class="stop-card"><div class="big">0<span>項</span></div><h3>沒有需要還原的持久改動</h3><p>沒有建立 bridge、沒有改設定、沒有讀財務或交易材料。外部暫存證據保留供核對，系統與 vault 正本沒有寫入回復動作。</p></article></div>
 <details open><summary>如果要再開工，需要 Simon 決定什麼？</summary><div class="detail"><p>只有一件：是否另行授權一個新的、限定範圍的 P1b 候選。它要先做出能讓公開網頁能力實際運作、同時只拒絕指定 marker 寫入的權限架構，並以新額度重新登記。這不是沿用任一既有包的剩餘額度，也不會自動開 P1c、P2 或 P3。</p></div></details>
 <details><summary>交付時遇到的問題與修復</summary><div class="detail"><p>第一次同步時，報告目錄只接受「定案／要你決定／先停」三種狀態。我原先填了較長的「P1b 首次實測已停止」，前置檢查因此拒絕發布。已改回既定的「先停」分類，頁面內仍保留完整停止原因；重新執行既有同步流程後，前置檢查、來源同步與 Garden 推送都已完成。</p></div></details>
-<details id="sources"><summary>來源、版本與實作關卡</summary><div class="detail"><div class="source-links"><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-design.md">DESIGN v0.63-draft</a><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-plan.md">PLAN v0.58-draft</a></div><p>R50 唯一必改已由作者採納，文件審查收斂，不重跑 R50；8／10 是修正前評分。v6 九檔已採用並回讀相符。P1a 已用公開假材料完成材料閘門、短失敗／回收、雙向長等待與兩端一次性設定載入核對；財務正本、交易材料與財務樣本均未碰。</p><p>P1b 的完整事件、雜湊、兩個獨立包的首次實測停止原因，記在 execution 台帳與驗證報告。原包用 1 次／約 78 秒；r2 用 1 次／約 36 秒；每包其餘三次均取消。P1c、P2、P3 未開。</p></div></details>
+<details id="sources"><summary>來源、版本與實作關卡</summary><div class="detail"><div class="source-links"><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-design.md">DESIGN v0.63-draft</a><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-plan.md">PLAN v0.58-draft</a></div><p>R50 唯一必改已由作者採納，文件審查收斂，不重跑 R50；8／10 是修正前評分。v6 九檔已採用並回讀相符。P1a 已用公開假材料完成材料閘門、短失敗／回收、雙向長等待與兩端一次性設定載入核對；財務正本、交易材料與財務樣本均未碰。</p><p>P1b 的完整事件、雜湊、三個有模型包的首次實測停止原因，記在 execution 台帳與驗證報告。原包用 1 次／約 78 秒；r2 用 1 次／約 36 秒；r4 用 1 次／約 49 秒；每包其餘三次均取消。P1c、P2、P3 未開。</p></div></details>
 <details><summary>帶一段短摘要回對話</summary><div class="detail"><textarea id="takeaway" aria-label="可複製的報告摘要" readonly>agent-bridge 成果：功能圖解已驗收、文件審查已收斂，v6 九檔已採用；P1a 已在公開、非敏感、零模型範圍關閉。
-P1b 有兩個獨立授權包，各只跑一次模型：原包約 78 秒，r2 約 36 秒。原包缺少 Write；r2 的 Write 確實被呼叫，但它與 WebSearch、WebFetch 都被 dontAsk 整體模式拒絕，沒有公開網頁請求或轉址可以驗，也無法證明拒絕只針對指定 marker。
-依 PLAN 每包首次失敗即停止：兩包各餘 3 次均取消，P1c、P2、P3 未開。沒有讀財務正本或交易材料，沒有建立 bridge 或持久改動。
+P1b 有三個有模型的獨立授權包，各只跑一次：原包約 78 秒，r2 約 36 秒，r4 約 49 秒。原包缺少 Write；r2 的整體模式拒絕公開網頁與 Write；r4 的公開網頁工具成功，卻讓指定 marker 寫入成功，仍無法證明拒絕只針對 marker。
+依 PLAN 每包首次失敗即停止：三包各餘 3 次均取消，P1c、P2、P3 未開。沒有讀財務正本或交易材料，沒有建立 bridge 或持久改動。
 若要續作，需 Simon 另行決定是否授權新的限定 P1b，先準備能同時允許公開網頁能力與精準拒絕 marker 寫入的可檢查設定，再重新登記額度。
-r3：零模型靜態檢查通過；CRLF 啟動器在 Claude CLI 前停止。模型呼叫 0 次、模型秒數 0、公開網路與工具操作 0 次。首次失敗規則已關閉本包；未跑反向 b1、b3、P1c、P2、P3。
+r4：公開搜尋與抓取有成功事件，工作區外讀取被拒絕，但指定 marker 寫入成功並留下檔案。首次失敗規則已關閉本包；未跑反向 b1、b3、P1c、P2、P3。
 </textarea><div class="copy-row"><button id="copy" type="button">複製摘要</button><span id="copy-status" role="status" aria-live="polite"></span></div></div></details>
 </section>
 <footer>留一點空白，讓重要的事看得見。<br><a href="/reports/">回到一頁報告</a></footer>
