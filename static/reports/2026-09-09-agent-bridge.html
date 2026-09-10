@@ -6,8 +6,8 @@
 <meta name="color-scheme" content="light dark">
 <meta name="report-title" content="agent-bridge｜讓審查回到原來的對話">
 <meta name="report-date" content="2026-09-09">
-<meta name="report-status" content="先停" data-p1b="Windows→WSL passed with actual events; WSL→Windows blocked before model by sandbox refusal">
-<meta name="report-summary" content="用六張圖看懂：誰送審、怎麼修改、修不完何時停，以及 P1a 關閉、Windows→WSL 實測成立、WSL→Windows 在無模型沙盒核對停止的結果。" data-p1b="Windows→WSL passed with actual events; WSL→Windows blocked before model by sandbox refusal">
+<meta name="report-status" content="先停" data-p1b="Windows→WSL passed with actual events; two WSL→Windows zero-model prechecks stopped at sandbox refusal">
+<meta name="report-summary" content="用六張圖看懂：誰送審、怎麼修改、修不完何時停，以及 P1a 關閉、Windows→WSL 實測成立、WSL→Windows 兩次無模型沙盒核對停止的結果。" data-p1b="Windows→WSL passed with actual events; two WSL→Windows zero-model prechecks stopped at sandbox refusal">
 <meta name="description" content="用流程圖看懂跨平台審查與自動停點。P1a 已關閉；P1b 一個方向通過實測，反向受 Windows 沙盒限制停止。">
 <title>agent-bridge｜讓審查回到原來的對話</title>
 <style>
@@ -74,32 +74,32 @@
 <details><summary>取消、逾時、格式錯誤，怎麼算？</summary><div class="detail"><ul><li>你取消、明訂期限已到，或執行逾時，就停止新增審查。若不能確認上一筆已結束，單說「繼續」也不能開下一筆。</li><li>格式錯誤照算一次啟動，但不算有效分數，也不拿零分代替。人工審查的有效評分會影響停滯計數，卻不消耗橋接啟動次數。</li><li>預設五次時，純橋接流程最快在第五次達到停滯條件；增加上限後，這條規則仍能提早擋住空轉。</li><li>每五分鐘查一次結果，是查看進度，不是五分鐘就逾時。沒有預設整案期限；對話或主持端中斷後，也不會自行醒來續跑。</li></ul></div></details>
 </section>
 <section id="cost">
-<p class="number">圖 04 ／ 本次用了多少測試</p><h2>只有一個方向完成必要實測。</h2><p class="intro">P1a 的公開零模型開工核對已關閉。P1b 的 Windows→WSL 在 r17 取得完整事件；反向 Windows 在零模型沙盒核對即安全停止，沒有消耗模型額度。</p>
+<p class="number">圖 04 ／ 本次用了多少測試</p><h2>只有一個方向完成必要實測。</h2><p class="intro">P1a 的公開零模型開工核對已關閉。P1b 的 Windows→WSL 在 r17 取得完整事件；反向 Windows 兩次零模型沙盒核對都在模型啟動前安全停止。</p>
 <figure class="diagram"><div class="cost-figure"><div aria-label="四個有模型 P1b 授權包各四次中已用一次並取消三次；P1c、P2、P3 均未開啟">
 <div class="test-group"><span>Windows → WSL r17：1 次，已通過 b1／b2</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
 <div class="test-group"><span>WSL → Windows：0 次，沙盒安全停止</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
 <div class="test-group"><span>b3／P1c／P2／P3：未開</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
 </div><div class="budget"><p><strong>1</strong> 個方向實測成立</p><p>r17 約 <strong>46</strong> 秒</p><p><strong>0</strong> 次反向模型呼叫</p><small>反向的安全前提不成立，不能用測試額度補過去</small></div></div>
-<div class="extras"><p>Windows 反向預檢：<strong>0 次模型</strong></p><p>已執行的後續階段：<strong>沒有</strong></p></div>
+<div class="extras"><p>Windows 反向預檢：<strong>2 次、0 次模型</strong></p><p>已執行的後續階段：<strong>沒有</strong></p></div>
 <figcaption>實測分鐘數不等於日常成本，也不能直接換算成金額或訂閱額度。</figcaption></figure>
-<details><summary>為什麼反向沒有再試一次？</summary><div class="detail"><p>PLAN 要求反向必須真的限制成「只能讀指定公開檔案」。Windows Codex CLI 在模型啟動前就說明目前的受限權杖沙盒做不到這件事，並拒絕改成未受限模式。用較寬的唯讀模式重跑，仍會留下可讀取其他路徑的缺口，所以不能算測試通過。</p><p>因此停在安全前提，不執行 b3、P1c、P2 或 P3。</p></div></details>
+<details><summary>為什麼反向沒有再試一次？</summary><div class="detail"><p>PLAN 要求反向必須真的限制成「只能讀指定公開檔案」。兩次獨立的零模型核對中，Windows Codex CLI 都在模型啟動前說明目前的受限權杖沙盒做不到這件事，並拒絕改成未受限模式。用較寬的唯讀模式重跑，仍會留下可讀取其他路徑的缺口，所以不能算測試通過。</p><p>因此停在安全前提，不執行 b3、P1c、P2 或 P3。</p></div></details>
 </section>
 <section id="gates">
 <p class="number">圖 05 ／ 現在走到哪裡</p><h2>一個方向已證明；反向的安全前提還沒有。</h2>
 <div class="gates" aria-label="三關卡：採用、開工、驗收。圖解與 v6 採用已完成；P1a 已關閉；P1b 的 Windows到WSL方向通過實測，WSL到Windows在無模型沙盒核對停止。"><div class="gate"><small>第一關 · 圖解已確認</small><b>採用</b><small>這是不是想要的功能？</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate current"><small>第二關 · 反向先停</small><b>開工</b><small>Windows 無法強制最小讀取範圍</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate"><small>第三關 · 尚未到達</small><b>驗收</b><small>尚不足以支持正式 bridge</small></div></div>
-<p class="note"><strong>r17 成立：</strong>Windows→WSL 的公開讀取、公開搜尋、轉址抓取、工作區外讀取拒絕、工作區外寫入拒絕、最後再讀回公開檔案，全部有同一 session 的實際事件與雜湊。</p><p class="note"><strong>反向停止：</strong>Windows Codex 在不啟動模型的設定核對中明確拒絕分割讀取規則，原因是目前受限權杖沙盒無法強制它。沒有改用能讀取其他路徑的寬鬆模式，也沒有執行 b3、P1c、P2 或 P3。</p>
+<p class="note"><strong>r17 成立：</strong>Windows→WSL 的公開讀取、公開搜尋、轉址抓取、工作區外讀取拒絕、工作區外寫入拒絕、最後再讀回公開檔案，全部有同一 session 的實際事件與雜湊。</p><p class="note"><strong>反向停止：</strong>兩次獨立的無模型設定核對都顯示，Windows Codex 無法在目前受限權杖沙盒強制分割讀取規則。沒有改用能讀取其他路徑的寬鬆模式，也沒有執行 b3、P1c、P2 或 P3。</p>
 <p class="acceptance">功能圖解已驗收。<br>本次證據清楚指出 Windows 反向的安全缺口，尚不能當成 bridge 完成。</p>
 </section>
 <section id="result">
 <p class="number">圖 06 ／ 本次結果</p><h2>停在哪裡、怎麼還原、接下來由誰決定。</h2>
-<div class="stop-grid"><article class="stop-card"><div class="big">✓</div><h3>Windows → WSL 已實測成立</h3><p>公開網頁能力與工作區外讀寫拒絕，均有同一 session 的機械事件；marker 沒有建立。</p></article><article class="stop-card"><div class="big">!</div><h3>WSL → Windows 先停</h3><p>Windows CLI 明確拒絕在無法強制最小讀取範圍時執行。這是安全停止，不是模型失敗。</p></article><article class="stop-card"><div class="big">0<span>次</span></div><h3>反向沒有消耗模型</h3><p>沒有建立 bridge、沒有改持久設定、沒有讀財務或交易材料；公開暫存 fixture 與可稽核證據仍保留。</p></article></div>
+<div class="stop-grid"><article class="stop-card"><div class="big">✓</div><h3>Windows → WSL 已實測成立</h3><p>公開網頁能力與工作區外讀寫拒絕，均有同一 session 的機械事件；marker 沒有建立。</p></article><article class="stop-card"><div class="big">!</div><h3>WSL → Windows 先停</h3><p>兩次零模型預檢都確認：Windows CLI 無法強制最小讀取範圍。這是安全停止，不是模型失敗。</p></article><article class="stop-card"><div class="big">0<span>次</span></div><h3>反向沒有消耗模型</h3><p>沒有建立 bridge、沒有改持久設定、沒有讀財務或交易材料；本次公開暫存 fixture 已清除，稽核證據保留。</p></article></div>
 <details open><summary>接下來需要 Simon 決定什麼？</summary><div class="detail"><p>需要決定 Windows 反向要採用哪種可真正強制「只准讀指定檔案」的執行環境：提供具備此能力的 Windows sandbox，或重新審閱 DESIGN 是否接受不同的受控執行方式。在此之前，不能用目前的寬鬆唯讀模式，也不能開 b3、P1c、P2 或 P3。</p></div></details>
 <details><summary>交付時遇到的問題與修復</summary><div class="detail"><p>早期候選曾出現 marker Write 成功、MCP 未載入與跨界啟動器行尾錯誤。r17 改用 WSL 的工作目錄限制後，已在 Windows→WSL 產生完整的真實事件鏈。Windows 反向的候選則在模型開始前檢出目前沙盒無法安全強制分割讀取，故保留拒絕而不降級。</p></div></details>
 <details><summary>如何還原</summary><div class="detail"><p>本次沒有建立 bridge 或持久設定。若要撤下成果頁，從 Garden 的 reports 清單移除本頁，再走既有同步；若要回到上一版，將 Garden 裡這一份 HTML 回復到前一個版本後同步即可。還原頁面不會讓 P1b 變成通過；反向的安全缺口仍須以可強制最小讀取範圍的 Windows 執行環境處理。</p></div></details>
-<details id="sources"><summary>來源、版本與實作關卡</summary><div class="detail"><div class="source-links"><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-design.md">DESIGN v0.63-draft</a><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-plan.md">PLAN v0.58-draft</a></div><p>R50 唯一必改已由作者採納，文件審查收斂，不重跑 R50；8／10 是修正前評分。v6 九檔已採用並回讀相符。P1a 已用公開假材料完成材料閘門、短失敗／回收、雙向長等待與兩端一次性設定載入核對；財務正本、交易材料與財務樣本均未碰。</p><p>P1b 完整事件、雜湊與停止條件記在 execution 台帳和驗證報告。r17 已關閉 Windows→WSL 的 b1/b2；Windows 反向在 `codex debug prompt-input` 的零模型沙盒核對停止。P1b 整體、b3、P1c、P2、P3 均未通過或啟動。</p></div></details>
+<details id="sources"><summary>來源、版本與實作關卡</summary><div class="detail"><div class="source-links"><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-design.md">DESIGN v0.63-draft</a><a href="obsidian://open?vault=SimonVault&amp;file=9-ops%2Fspecs%2F2026-09-04-agent-bridge-plan.md">PLAN v0.58-draft</a></div><p>R50 唯一必改已由作者採納，文件審查收斂，不重跑 R50；8／10 是修正前評分。v6 九檔已採用並回讀相符。P1a 已用公開假材料完成材料閘門、短失敗／回收、雙向長等待與兩端一次性設定載入核對；財務正本、交易材料與財務樣本均未碰。</p><p>P1b 完整事件、雜湊與停止條件記在 execution 台帳和驗證報告。r17 已關閉 Windows→WSL 的 b1/b2；Windows 反向兩次在 `codex debug prompt-input` 的零模型沙盒核對停止。P1b 整體、b3、P1c、P2、P3 均未通過或啟動。</p></div></details>
 <details><summary>帶一段短摘要回對話</summary><div class="detail"><textarea id="takeaway" aria-label="可複製的報告摘要" readonly>agent-bridge 成果：功能圖解已驗收、文件審查已收斂，v6 九檔已採用；P1a 已在公開、非敏感、零模型範圍關閉。
 P1b 的 Windows → WSL 在 r17 實測成立：同一 session 內完成公開檔案讀取、公開搜尋、公開轉址抓取、工作區外讀取拒絕、工作區外 marker 寫入拒絕，以及最後再讀回公開檔案。marker 沒有建立。
-反向 WSL → Windows 沒有啟動模型。Windows Codex CLI 在零模型沙盒核對時，明確拒絕一個無法強制「只讀指定檔案」的設定；沒有改成寬鬆唯讀模式。
+反向 WSL → Windows 兩次零模型沙盒核對都沒有啟動模型。Windows Codex CLI 明確拒絕一個無法強制「只讀指定檔案」的設定；沒有改成寬鬆唯讀模式。
 所以 P1b 整體尚未通過；b3、P1c、P2、P3 未開。沒有讀財務正本或交易材料，沒有建立 bridge 或持久改動。
 若要續作，需要先提供可在 Windows 上真正強制最小讀取範圍的執行環境，或重新審閱 DESIGN 是否接受另一種受控做法。
 </textarea><div class="copy-row"><button id="copy" type="button">複製摘要</button><span id="copy-status" role="status" aria-live="polite"></span></div></div></details>
