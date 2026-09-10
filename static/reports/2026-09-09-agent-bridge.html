@@ -6,8 +6,8 @@
 <meta name="color-scheme" content="light dark">
 <meta name="report-title" content="agent-bridge｜讓審查回到原來的對話">
 <meta name="report-date" content="2026-09-09">
-<meta name="report-status" content="先停">
-<meta name="report-summary" content="用六張圖看懂：誰送審、怎麼修改、修不完何時停，以及 P1a 關閉和 P1b 兩個獨立授權包均在首次實測停止的結果。">
+<meta name="report-status" content="先停" data-r3="zero-model-call; CRLF launcher stopped before CLI">
+<meta name="report-summary" content="用六張圖看懂：誰送審、怎麼修改、修不完何時停，以及 P1a 關閉和 P1b 兩個獨立授權包均在首次實測停止的結果。" data-r3="zero-model-call; CRLF launcher stopped before CLI">
 <meta name="description" content="用流程圖看懂跨平台審查與自動停點。P1a 已關閉；P1b 兩次首次實測均因必要公開能力未實際發生而停止。">
 <title>agent-bridge｜讓審查回到原來的對話</title>
 <style>
@@ -27,7 +27,7 @@
 <p class="eyebrow">agent-bridge · 成果頁</p>
 <h1>把另一雙眼睛請來，<br>留在熟悉的對話裡。</h1>
 <p class="lead">另一個 AI 幫忙找問題，原本的芙莉蓮負責修改。<br>有進展就繼續，卡住就停下來。</p>
-<p class="status"><span class="dot" aria-hidden="true"></span>P1a 已關閉；P1b r2 首次實測已停止</p>
+<p class="status"><span class="dot" aria-hidden="true"></span>P1a 已關閉；P1b r2 + r3 首次實測已停止</p>
 <nav class="chapter-nav" aria-label="頁內導覽"><a href="#flow">怎麼送審</a><a href="#cycle">怎麼修改</a><a href="#boundaries">什麼時候停</a><a href="#cost">用了多少測試</a><a href="#gates">目前在哪</a><a href="#result">本次結果</a></nav>
 </section>
 <section id="flow">
@@ -77,7 +77,7 @@
 <p class="number">圖 04 ／ 本次用了多少測試</p><h2>兩個獨立授權包，都在第一次停下。</h2><p class="intro">P1a 的公開零模型開工核對已關閉。P1b 兩次各自新登記的測試都只用第一次；每包剩餘額度已取消，沒有挪作其他階段。</p>
 <figure class="diagram"><div class="cost-figure"><div aria-label="兩個獨立 P1b 授權包，各四次中已用一次並取消三次；P1c、P2、P3 均未開啟">
 <div class="test-group"><span>P1b 原包：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
-<div class="test-group"><span>P1b r2：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
+<div class="test-group"><span>P1b r2 + r3：1 用、3 取消</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
 <div class="test-group"><span>P1c／P2／P3：未開</span><div class="tokens" aria-hidden="true"><i></i><i></i><i></i><i></i></div></div>
 </div><div class="budget"><p><strong>2</strong> 次 AI 測試</p><p>首次約 78 秒；r2 約 36 秒</p><p>兩包各餘 <strong>3</strong> 次已取消</p><small>各包的停止規則獨立計算，沒有合併或移轉額度</small></div></div>
 <div class="extras"><p>不用 AI 的模擬等待：<strong>最多 22 分鐘</strong></p><p>人工整理與修改：<strong>還沒估計</strong></p></div>
@@ -87,7 +87,7 @@
 <section id="gates">
 <p class="number">圖 05 ／ 現在走到哪裡</p><h2>圖解與 P1a 已關閉；P1b 兩包都在首次實測停下。</h2>
 <div class="gates" aria-label="三關卡：採用、開工、驗收。圖解與 v6 採用已完成；P1a 已關閉；P1b 兩個獨立包均因公開網頁能力未實際發生而停止。"><div class="gate"><small>第一關 · 圖解已確認</small><b>採用</b><small>這是不是想要的功能？</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate current"><small>第二關 · P1b 兩包均停止</small><b>開工</b><small>公開網頁能力未實際發生</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate"><small>第三關 · 尚未到達</small><b>驗收</b><small>尚不足以支持正式 bridge</small></div></div>
-<p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料、雙向等待與一次性設定載入證據已完成。P1b 原包缺少 Write；r2 有 Write，卻使公開搜尋、抓取與指定寫入都被同一整體模式擋住，不能證明公開能力與目標規則各自成立。</p>
+<p class="note"><strong>r3 status:</strong> static preflight passed. The Windows-to-WSL launcher stopped before the Claude CLI because CRLF changed its executable path. 0 model calls, 0 model seconds, no public-network or tool operation. Per the first-failure stop rule, no reverse b1, b3, P1c, P2, or P3 ran.</p><p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料、雙向等待與一次性設定載入證據已完成。P1b 原包缺少 Write；r2 有 Write，卻使公開搜尋、抓取與指定寫入都被同一整體模式擋住，不能證明公開能力與目標規則各自成立。</p>
 <p class="acceptance">功能圖解已驗收。<br>本次實作證明缺口已如實交付，等待 Simon 決定是否另開新一輪。</p>
 </section>
 <section id="result">
@@ -99,7 +99,9 @@
 <details><summary>帶一段短摘要回對話</summary><div class="detail"><textarea id="takeaway" aria-label="可複製的報告摘要" readonly>agent-bridge 成果：功能圖解已驗收、文件審查已收斂，v6 九檔已採用；P1a 已在公開、非敏感、零模型範圍關閉。
 P1b 有兩個獨立授權包，各只跑一次模型：原包約 78 秒，r2 約 36 秒。原包缺少 Write；r2 的 Write 確實被呼叫，但它與 WebSearch、WebFetch 都被 dontAsk 整體模式拒絕，沒有公開網頁請求或轉址可以驗，也無法證明拒絕只針對指定 marker。
 依 PLAN 每包首次失敗即停止：兩包各餘 3 次均取消，P1c、P2、P3 未開。沒有讀財務正本或交易材料，沒有建立 bridge 或持久改動。
-若要續作，需 Simon 另行決定是否授權新的限定 P1b，先準備能同時允許公開網頁能力與精準拒絕 marker 寫入的可檢查設定，再重新登記額度。</textarea><div class="copy-row"><button id="copy" type="button">複製摘要</button><span id="copy-status" role="status" aria-live="polite"></span></div></div></details>
+若要續作，需 Simon 另行決定是否授權新的限定 P1b，先準備能同時允許公開網頁能力與精準拒絕 marker 寫入的可檢查設定，再重新登記額度。
+r3: static preflight passed; CRLF launcher stopped before Claude CLI. 0 model calls, 0 model seconds, no public-network or tool operation. The first-failure rule closed this package; no reverse b1, b3, P1c, P2, or P3 ran.
+</textarea><div class="copy-row"><button id="copy" type="button">複製摘要</button><span id="copy-status" role="status" aria-live="polite"></span></div></div></details>
 </section>
 <footer>留一點空白，讓重要的事看得見。<br><a href="/reports/">回到一頁報告</a></footer>
 </main>
