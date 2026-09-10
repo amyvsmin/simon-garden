@@ -87,7 +87,7 @@
 <section id="gates">
 <p class="number">圖 05 ／ 現在走到哪裡</p><h2>圖解與 P1a 已關閉；P1b 兩包都在首次實測停下。</h2>
 <div class="gates" aria-label="三關卡：採用、開工、驗收。圖解與 v6 採用已完成；P1a 已關閉；P1b 兩個獨立包均因公開網頁能力未實際發生而停止。"><div class="gate"><small>第一關 · 圖解已確認</small><b>採用</b><small>這是不是想要的功能？</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate current"><small>第二關 · P1b 兩包均停止</small><b>開工</b><small>公開網頁能力未實際發生</small></div><div class="arrow" aria-hidden="true">→</div><div class="gate"><small>第三關 · 尚未到達</small><b>驗收</b><small>尚不足以支持正式 bridge</small></div></div>
-<p class="note"><strong>r3 status:</strong> static preflight passed. The Windows-to-WSL launcher stopped before the Claude CLI because CRLF changed its executable path. 0 model calls, 0 model seconds, no public-network or tool operation. Per the first-failure stop rule, no reverse b1, b3, P1c, P2, or P3 ran.</p><p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料、雙向等待與一次性設定載入證據已完成。P1b 原包缺少 Write；r2 有 Write，卻使公開搜尋、抓取與指定寫入都被同一整體模式擋住，不能證明公開能力與目標規則各自成立。</p>
+<p class="note"><strong>r3 狀態：</strong>零模型靜態檢查通過；Windows→WSL 啟動器因 CRLF 改變執行檔路徑，在 Claude CLI 前停止。模型呼叫 0 次、模型秒數 0、公開網路與工具操作 0 次。依首次失敗即停止，不跑反向 b1、b3、P1c、P2、P3。</p><p class="note">這張功能地圖已獲 Simon 接受，文件審查已收斂。v6 九檔已採用並回讀相符；P1a 的公開假材料、雙向等待與一次性設定載入證據已完成。P1b 原包缺少 Write；r2 有 Write，卻使公開搜尋、抓取與指定寫入都被同一整體模式擋住，不能證明公開能力與目標規則各自成立。</p>
 <p class="acceptance">功能圖解已驗收。<br>本次實作證明缺口已如實交付，等待 Simon 決定是否另開新一輪。</p>
 </section>
 <section id="result">
@@ -100,7 +100,7 @@
 P1b 有兩個獨立授權包，各只跑一次模型：原包約 78 秒，r2 約 36 秒。原包缺少 Write；r2 的 Write 確實被呼叫，但它與 WebSearch、WebFetch 都被 dontAsk 整體模式拒絕，沒有公開網頁請求或轉址可以驗，也無法證明拒絕只針對指定 marker。
 依 PLAN 每包首次失敗即停止：兩包各餘 3 次均取消，P1c、P2、P3 未開。沒有讀財務正本或交易材料，沒有建立 bridge 或持久改動。
 若要續作，需 Simon 另行決定是否授權新的限定 P1b，先準備能同時允許公開網頁能力與精準拒絕 marker 寫入的可檢查設定，再重新登記額度。
-r3: static preflight passed; CRLF launcher stopped before Claude CLI. 0 model calls, 0 model seconds, no public-network or tool operation. The first-failure rule closed this package; no reverse b1, b3, P1c, P2, or P3 ran.
+r3：零模型靜態檢查通過；CRLF 啟動器在 Claude CLI 前停止。模型呼叫 0 次、模型秒數 0、公開網路與工具操作 0 次。首次失敗規則已關閉本包；未跑反向 b1、b3、P1c、P2、P3。
 </textarea><div class="copy-row"><button id="copy" type="button">複製摘要</button><span id="copy-status" role="status" aria-live="polite"></span></div></div></details>
 </section>
 <footer>留一點空白，讓重要的事看得見。<br><a href="/reports/">回到一頁報告</a></footer>
@@ -118,3 +118,4 @@ document.getElementById('copy').addEventListener('click',async()=>{const area=do
 </script>
 </body>
 </html>
+
