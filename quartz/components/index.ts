@@ -77,3 +77,5 @@ export {
   WeeklyIntelHeader,
   WeeklyIntelList,
 }
+
+export { default as ReportList } from "./ReportList"

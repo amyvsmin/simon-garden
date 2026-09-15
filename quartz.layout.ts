@@ -33,7 +33,8 @@ const isFolderIndex = (p: { fileData: { slug?: string } }) =>
   p.fileData.slug === "readings/index" ||
   p.fileData.slug === "concepts/index" ||
   p.fileData.slug === "topics/index" ||
-  p.fileData.slug === "weekly-intel/index"
+  p.fileData.slug === "weekly-intel/index" ||
+  p.fileData.slug === "reports/index"
 
 const isReadingIndex = (p: { fileData: { slug?: string } }) => p.fileData.slug === "readings/index"
 
@@ -54,6 +55,10 @@ const isDefault = (p: { fileData: { slug?: string } }) =>
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.ConditionalRender({
+      component: Component.ReportList(),
+      condition: (p) => p.fileData.slug === "reports/index",
+    }),
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
       condition: isDetailPage,
@@ -144,6 +149,10 @@ export const defaultContentPageLayout: PageLayout = {
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
+    Component.ConditionalRender({
+      component: Component.ReportList(),
+      condition: (p) => p.fileData.slug === "reports/index",
+    }),
     Component.ConditionalRender({
       component: Component.ReadingList(),
       condition: isReadingIndex,

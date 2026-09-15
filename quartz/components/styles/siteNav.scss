@@ -289,3 +289,12 @@
     }
   }
 }
+
+// Five sections remain visible with comfortable touch targets on narrow screens.
+@media (max-width: 420px) {
+  .site-nav { flex-wrap: wrap; .nav-brand { flex: 1; } .brand-text { display: inline; }
+    .nav-links { order: 4; flex-basis: 100%; justify-content: space-between;
+      .nav-link { padding: .55rem .65rem; }
+    }
+  }
+}
