@@ -23,6 +23,7 @@ AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案�
 - **跟 RAG 的關係**：RAG 是用向量檢索做按需讀取，本概念則是用結構化目錄做檢索；兩者可結合
 - **代價**：依賴索引品質，若 CLAUDE.md 沒寫好對應位置，AI 可能 fetch 不到正確檔
 - **Anthropic Skills 的三層實作（旗艦範例）**：Claude Code 的 [[skill]] 是這個心法最具代表性的官方實作，把 skill 內容分三層、按需載入。第一層 metadata（中繼資料，只有名稱和描述、約 100 tokens、啟動時全預載，用來比對「這任務跟哪個 skill 有關」）；第二層 instructions（`SKILL.md` 主體、建議 5000 tokens 內、判定相關才載）；第三層 resources（`scripts/`／`references/`／`assets/`，用到哪個檔才讀哪個）。正因為分層按需，單一 skill 能打包的知識量理論上沒有上限——把心法從抽象的「按需讀取」補上了「一個 skill 具體怎麼分層、每層多少量級」。（高見龍〈Claude Code Skills〉）
+- **根文件當路由器、必讀清單改條件式指向（OpenAI GPT-6 Astra 指引）**：讀 skill 是有成本的——每讀一段就離脈絡壓縮更近，還可能帶進與當前任務無關的指引。所以多流程的 skill 要把根文件做成最小路由器，只告訴模型「哪種情況去讀哪份附屬文件或腳本」。`AGENTS.md` 同理：「每次編輯前先讀 architecture、database、deployment 三份文件」是壞例子（改個錯字也得先讀全專案）；「服務邊界看 A、schema 改動看 B、部署看 C」才是好例子。指向文件仍有用，前提是條件式、且文件要維持更新。越強的模型越能自己判斷要讀什麼。（OpenAI 開發者部落格〈Rethinking skills and prompts for GPT-6 Astra〉）
 
 ## 應用場景
 
@@ -44,3 +45,4 @@ AI 不一次掃整個資料庫，只在需要時才讀對應資料夾或檔案�
 
 - [[2026-05-02-xinxin-obsidian-ai-second-brain]]
 - [[2026-07-01-kaochenlong-claude-code-skills]]
+- [[2026-09-16-openai-gpt-6-astra-skills-prompts]]
