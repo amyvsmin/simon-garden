@@ -18,6 +18,8 @@ created: 2026-06-01
 - **各家檔名不同、要靠捷徑橋接**：Claude Code 讀 `CLAUDE.md`、Codex 讀 `AGENTS.md`、Gemini 讀 `GEMINI.md`，而且 Codex 不會去讀 `CLAUDE.md`。直接維護三份會漂移：今天改了一份、切到另一家就「少認識你一點」。解法是真正的本體只放一份核心規則，三個檔名全做成 symlink 指向它，只更新本體、三家自動同步。
 - **記憶放本地、別開平台內建記憶**：Codex 有「啟用記憶」開關，但那份記憶存在 Codex 自己的雲端、搬到 Claude Code 就消失。把記憶系統獨立放本地檔（分 feedback／reference／每日記憶幾層），三家都讀得到，才不會被一家鎖住。
 - **資料層自動跨家、自動化層要移植但可跨**（2026-06-01 查證更正）：規則與記憶（純文字檔）能靠 symlink 直接跨家。平台原生自動化（hook、skill 觸發、MCP 設定）不會「自動」跟著走、要逐一移植；但 Codex 刻意鏡像了 Claude 的擴充模型——有近乎一對一的 hook 系統、skill 走同一套 agentskills.io 開放標準（同一份 SKILL.md 跨家通用）、MCP 可 JSON→TOML 轉。所以自動化層是「要重建設定」、不是「不可跨」。真正不可跨的只有 Claude 專屬編排引擎（superpowers、Skill tool 自動編排）。雙棲讓另一家「讀得到同一個大腦」，多數反射補設定後可重建、只有專屬編排跑不動。
+- **另一條路：單一正本＋生成式設定檔**（蛋糕 2026-09 案例）：不用 symlink 指向本體，而是一支腳本讀正本、產生每個工具（Claude Code、opencode、Antigravity）各自的設定檔，跑完自檢有無殘留舊路徑；代價是正本改了要記得重生成，好處是不依賴 symlink 在 Windows、iCloud 這類載體上的穩定度。
+- **用 repo 切層當權限**（同案例）：記憶庫依敏感度切成 core（規則與技能、零個資）、work、personal 三個 private repo，哪台機器 clone 哪層就是那台機器的權限，個資從物理上進不了公司電腦；外部模型的入口檔再聲明只授權 core。比只靠規則叫模型別讀多一道機械閘門。
 - **目的是降低 lock-in**：養 agent 的目標不是綁一家，是去哪一家都能無縫接軌；類比網路巨頭把資料鎖在自家平台讓你搬不走，把記憶留在本地就是把搬家的自由拿回來。
 
 ## 應用場景
@@ -43,3 +45,4 @@ created: 2026-06-01
 
 - [[2026-06-01-raymond-cc-vs-codex-dual-platform-agent]]
 - [[2026-05-26-heymaibao-claude-code-to-codex-30-days]]
+- [[2026-09-17-cake-tri-tool-memory-system]]

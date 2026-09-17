@@ -21,6 +21,7 @@ Andrej Karpathy 2025 提出、以自然語言跟 AI 描述需求並讓 AI 全程
 - **風險**：代碼品質、安全漏洞、難以 maintain；低門檻、但長期需要清理
 - **訓練需求描述能力**：說不清楚的人本來也不能拿到可用結果，需求描述能力變成新重要能力
 - **指揮但不執行的分界**：不必背 Git 指令的語法，但要聽得懂 AI 每次在問什麼。AI 問「要不要 commit」等於問「現在這個能跑的狀態要不要先保個險」、問「要不要開分支」等於問「要不要開一個隔離風險的空間」、問「要不要發 PR」等於問「要不要交出去給人檢查」。聽得懂這三句，回答才有依據；遇到合併衝突時人要給的也是產品取捨的決定，不是自己下去改程式。（Gary Chen 影片）
+- **做得出來之後，別人用得到才算完**：本機 `localhost` 跑得動只有自己看得到；要給別人用得走部署，而 vibe coder 不必成為部署專家，只要自己答三問、選平台、註冊帳號，推送與除錯交給接了平台 MCP 的 AI（見 [[deployment-decision-framework]]）。（Gary Chen 部署教學）
 
 ## 應用場景
 
@@ -44,3 +45,4 @@ Andrej Karpathy 2025 提出、以自然語言跟 AI 描述需求並讓 AI 全程
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-20-accuhit-claude-ai-complete-guide]]
 - [[2026-08-06-gary-chen-git-github-for-vibe-coders]]
+- [[2026-09-17-gary-chen-deploy-for-non-engineers]]

@@ -22,6 +22,7 @@ Claude Code 的事件觸發機制，在特定 session 事件（SessionStart / Pr
 - **典型用途**：補跑檢查、成本告警、自動化守門、注入情境
 - **Stop hook 的兩種模式**：command-based（跑 shell 指令拿 exit code）vs prompt-based（把對話交給 small fast model 評估、預設 Haiku、回 yes/no + 短理由）；prompt-based 的限制是評估器不能 call tool、只看 transcript 已 surfaced 的內容、所以「完成條件」要寫成 transcript 看得到證據的形式
 - **`/goal` = session-scoped 的 prompt-based Stop hook**：[[claude-code-goal-command]] 本質是把 prompt-based Stop hook 包成 session 級指令、條件只在當前 session 有效、不寫進 settings.json；真正持久化的長駐版仍是 settings 裡的 Stop hook
+- **hook 是規則升格的最後一級**：記憶檔靠讀到才生效、硬規則靠模型照做，hook 不靠模型自律、在動作前機械攔下；蛋糕把 11 支 hook 稱為與記憶層、規則層並列的「守門層」，只有同類錯誤升到硬規則仍擋不住才做成 hook（見 [[rule-escalation-ladder]]）。（蛋糕貼文）
 - **注入文字也要瘦身**：hook 若把 stdout 注入對話脈絡，輸出內容就是常駐成本的一部分。沒觸發過、功能重複或注入太長的 hook，應在 [[agent-harness-hygiene]] 中一起檢查。
 
 ## 應用場景
@@ -48,3 +49,4 @@ Claude Code 的事件觸發機制，在特定 session 事件（SessionStart / Pr
 - [[2026-05-02-haiuncle-claude-code-intro]]
 - [[2026-05-14-yaha-claude-code-goal]]
 - [[2026-06-05-dustin-claude-code-harness-cleanup]]
+- [[2026-09-17-cake-ai-clone-five-months]]

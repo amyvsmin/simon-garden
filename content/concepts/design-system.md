@@ -16,6 +16,7 @@ created: 2026-05-05
 - 把視覺決策一次到位、後續直接套用
 - 跨工具可移植（Figma、Sketch、Canva、Claude Design）
 - 對應 codebase 的 design tokens
+- 不一定要先建完規範才能用：交辦 AI 建站時，一款 Google Fonts 字型加一組強調色就是最小可用的設計系統；AI 對字型特別弱、不指定就落回訓練時看慣的那幾種，這是 AI 味的主因之一（motionsites.ai 作者影片）
 
 ## 應用場景
 
@@ -26,6 +27,7 @@ created: 2026-05-05
 
 - [[hi-fi-prototype]]：擬真原型常以設計系統為基礎
 - [[design-handoff]]：設計交棒時設計系統是主要交付物
+- [[reference-first-design-prompting]]：從參考圖現場抽出字型與色票、當場定案，是設計系統最輕量的起點
 
 ## 尚未解決的疑問
 
@@ -35,3 +37,4 @@ created: 2026-05-05
 
 - [[2026-04-29-claude-design-anthropic-tour]]
 - [[2026-06-05-aj-chatgpt-presentation-flow]]
+- [[2026-09-17-txbrraa-gpt56-sol-cinematic-website]]
