@@ -39,7 +39,7 @@ created: 2026-06-01
 
 - ~~自動化層怎麼跨家？~~（2026-06-01 已解：Codex 有對應 hook 系統 + agentskills.io skill 標準，自動化層是「移植設定的工」、不是無解。）
 - ~~記憶注入若不靠 hook，Codex 端要用什麼方式把記憶索引塞進每次對話？~~（2026-06-01 已解：Codex 的 SessionStart hook 可把純文字當開發者脈絡注入，等效 Claude 的 user-memory-inject。）
-- Claude Code 2.1.277 之後，在只有 AGENTS.md、沒有 CLAUDE.md 的 vault 根開 Claude 對話，會不會把 Codex 專用入口載進來、跟全域 CLAUDE.md 疊加後有沒有衝突？待實測（2026-09-19 記）。
+- ~~Claude Code 2.1.277 之後，在只有 AGENTS.md、沒有 CLAUDE.md 的資料夾開 Claude 對話，使用者層 CLAUDE.md 算不算「有 CLAUDE.md」？~~（2026-09-19 已由原廠 agents-md 說明文件解答：使用者層 `~/.claude/CLAUDE.md` 不算，所以只有 AGENTS.md 的資料夾會載入它；本機未實測。）
 - 真正還沒解的卡點：跨作業系統跑腳本（WSL 的 bash／python 路徑 vs Windows 的 `py`／路徑）怎麼用「一份 SKILL.md + if-then 環境分支」維護而不裂成兩份；以及 `.agents/skills` 連結在 Windows + WSL 共用實體夾下怎麼建、兩端才都認得。
 
 ## 來源（自動維護）

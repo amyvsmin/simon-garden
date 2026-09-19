@@ -10,7 +10,7 @@ concepts: [instructions-file, cross-platform-agent]
 projects: []
 impact: high
 tldr: "Claude Code 2.1.277 起，專案沒有 CLAUDE.md 時改讀 AGENTS.md，可在 /config 改成兩份一起讀；預設下只要從專案最上層到開工資料夾之間任何一層有 CLAUDE.md，就完全不讀 AGENTS.md。時間上緊接 Shopify 執行長公開抱怨只認 CLAUDE.md（因果原文未證實），Anthropic 原本的理由是模型家族不能互換。這項功能用即將推出的 mods 機制做成，原始碼已公開。"
-stage: growing
+stage: evergreen
 icon: "⚡"
 transcript_source: ""
 created: 2026-09-19
@@ -35,10 +35,10 @@ Anthropic 在美國時間 2026-09-18 推出 Claude Code 2.1.277：專案沒有 C
 
 > 針對本篇核心主張的表態；空槽待 Simon 事後填、未表態即留白，芙莉蓮不代擬。
 
-1. Claude Code 支援 AGENTS.md，是讓多工具並用的團隊不必維護兩套規則；Tobi Lütke 稱雙份說明檔是「一筆愚蠢的複雜度稅，本來就不該付」。
+1. Claude Code 改讀 AGENTS.md，讓多工具並用的團隊有機會只維護一套規則；Tobi Lütke 說只認 CLAUDE.md 會讓團隊成員拿到兩套規則，「完全沒必要」。
    - **我的表態**：（待補：同意／不同意＋為什麼）
 
-2. Anthropic 原本只讀 CLAUDE.md，理由是「不同模型家族不能互換，系統提示詞對表現影響很大」；Thariq Shihipar 也承認維護成本高、「不見得每個人都覺得值得」。
+2. Anthropic 原本只讀 CLAUDE.md，理由是「不同模型家族不能互換，系統提示詞對表現影響很大」；Claude Code 內部也替每個模型準備不同的系統提示詞。
    - **我的表態**：（待補）
 
 3. 預設模式下，從專案最上層到開工資料夾之間任何一層有 CLAUDE.md，就不讀 AGENTS.md；要兩份都吃，得自己在使用者或企業設定檔切模式。
@@ -51,12 +51,12 @@ Anthropic 在美國時間 2026-09-18 推出 Claude Code 2.1.277：專案沒有 C
 兩類分開列：
 
 **A. 芙莉蓮優化類**（可套到 Claude Code／skill／rules／CLAUDE.md／user-memory）：
-- 專案層有 CLAUDE.md 的專案（本機 `~/projects/` 下 Simon-Agent、Simon-Journal、frieren-local-vtuber、ai-agent-bootcamp）依預設模式不受影響，Claude 仍只讀 CLAUDE.md；ai-agent-bootcamp 兩份都有，同樣照預設只讀 CLAUDE.md。〔AI 推論〕
-- vault 根只有 AGENTS.md、沒有 CLAUDE.md，本機 `claude --version` 實測已是 2.1.277。所以在 vault 根開的 Claude 對話，依預設模式可能改讀那份 Codex 入口檔；原文沒說使用者層 `~/.claude/CLAUDE.md` 算不算「有 CLAUDE.md」，會不會與全域規則疊加出衝突，要實測一場才知道。現有雙入口設計要不要改，等實測結果再判。〔AI 推論〕
+- 專案層有 CLAUDE.md 的專案只讀 CLAUDE.md、不受這次更新影響。本機實查：Simon-Agent 的 CLAUDE.md 是指向 vault `CLAUDE-project.md` 的 symlink，沒有 AGENTS.md、`.claude/CLAUDE.md`、`CLAUDE.local.md`；Simon-Journal、frieren-local-vtuber 各有一份獨立的 CLAUDE.md；ai-agent-bootcamp 的 CLAUDE.md 是指向同目錄 AGENTS.md 的 symlink（一份內容、兩個檔名，正是你現有的單一正本做法；原廠說明文件在「兩份一起讀」模式下明寫，被 CLAUDE.md 匯入或連結的 AGENTS.md 不會載入第二次）。依原廠說明文件（第一手），專案樹裡的 `CLAUDE.md`、`.claude/CLAUDE.md`、`CLAUDE.local.md` 算「專案自己的」，使用者層 `~/.claude/CLAUDE.md` 不算。〔AI 推論〕
+- vault 根只有 AGENTS.md、沒有 CLAUDE.md。本機 `claude --version` 實測為 2.1.277（更新日誌頂端已有 2.1.278，這項功能自 2.1.277 起有）。依原廠說明文件，使用者層 CLAUDE.md 不算數，所以在 vault 根開的 Claude 對話會改讀那份 AGENTS.md（本機未實測）；該檔開頭寫「Codex 在本 vault 啟動時自動讀本檔」、定位是 Codex 的第二大腦，Claude 讀進去等於拿到一份寫給 Codex 的角色設定。〔AI 推論〕
 
 **B. Simon 個人動作類**（建 Notion Action 卡／動 vault／改個人工作流／看別的東西）：
-- 在 vault 根開一場 Claude Code 對話，看啟動時有沒有載入 AGENTS.md；有而且不想要，先開 /config 看「Project instructions」實際有哪些選項再決定：原文只確認可改成「兩份一起讀」，「只讀 CLAUDE.md」是 mod 說明文件列的四種模式之一，操作路徑待實測；備案是在 vault 根補一份薄 CLAUDE.md。要不要做取決於 Simon 平常會不會在 vault 根開 Claude。〔需 Simon 確認〕
-- Substack 選題卡（可建）：〈廠商格式還沒統一時，個人怎麼用單一正本自保〉。素材是 2026-06 雙棲剛啟動時 vault 根 AGENTS.md 因一次 vault 整理而漂失（見 reading 2026-06-01-raymond-cc-vs-codex-dual-platform-agent），之後改成 CORE_RULES 單一正本加兩個薄入口；對照本篇 Shopify 用自動化程式補雙檔落差、Claude Code 在 AAIF 成立 9 個月後才開始讀 AGENTS.md。截止日由 Simon 定。〔AI 推論〕
+- 若在 vault 根開 Claude 而不想載入 AGENTS.md：原廠說明文件寫明 /config 的「Project instructions」是四選一（只讀 CLAUDE.md、沒有 CLAUDE.md 才讀 AGENTS.md〔預設〕、兩份一起讀、只留組織統一派發檔），選「只讀 CLAUDE.md」即可；備案是在 vault 根補一份薄 CLAUDE.md。要不要做取決於 Simon 平常會不會在 vault 根開 Claude。〔需 Simon 確認〕
+- Substack 選題卡（可建）：〈廠商格式還沒統一時，個人怎麼用單一正本自保〉。素材是 2026-06 雙棲剛啟動時 vault 根 AGENTS.md 因一次 vault 整理而漂失（見 reading 2026-06-01-raymond-cc-vs-codex-dual-platform-agent），之後改成 CORE_RULES 單一正本加兩個薄入口；對照本篇 Shopify 用自動化程式補雙檔落差、Claude Code 在 AAIF 成立 9 個月後才開始讀 AGENTS.md（動區算法，自 2025-12 起算）。截止日由 Simon 定。〔AI 推論〕
 
 ## 原文要點
 
@@ -77,13 +77,17 @@ Anthropic 在美國時間 2026-09-18 推出 Claude Code 2.1.277：專案沒有 C
   - **Simon 回應**：（待補）
 - 原文沒回答「沒有針對 Claude 調整過的 AGENTS.md 內容，進來後表現會不會打折」。Anthropic 先前的理由（模型家族不能互換）沒有被推翻，只留下 Thariq Shihipar 一句短期用 `@AGENTS.md` 匯入的建議。
   - **Simon 回應**：（待補）
+- 原廠說明文件另有一節列出八條「載入後仍與 CLAUDE.md 不同」的限制，動區沒提。與 Simon 較相關的三條：`/memory` 與 `#` 捷徑不認得 AGENTS.md；巢狀資料夾的 AGENTS.md 只在文字 `Read` 時附上（`@` 提及的檔、IDE 開啟檔、`Read` 的圖片與 PDF 結果不附）；AGENTS.md 裡指向工作目錄外的 `@` 匯入，要先取得 CLAUDE.md 外部匯入的核准才生效，而核准對話框只為 CLAUDE.md 而開。（2026-09-19 補查、第一手）
+  - **Simon 回應**：（待補）
+- 動區沒交代「哪些檔算專案自己的 CLAUDE.md」，這是判斷會不會讀到 AGENTS.md 的關鍵。原廠 agents-md 說明文件補上：專案樹裡的 `CLAUDE.md`、`.claude/CLAUDE.md`、`CLAUDE.local.md` 算；使用者層 `~/.claude/CLAUDE.md`、組織統一派發檔、`.claude/rules`、`--add-dir` 目錄裡的 CLAUDE.md 不算。（2026-09-19 補查、第一手）
+  - **Simon 回應**：（待補）
 - 對照 vault 既有內容：[[cross-platform-agent]] 與 reading 2026-06-01-raymond-cc-vs-codex-dual-platform-agent 都寫「Claude Code 讀 CLAUDE.md、Codex 讀 AGENTS.md」，2026-09-18 起要加註「沒有 CLAUDE.md 時 Claude Code 也讀 AGENTS.md」。概念頁已在本次收錄同步更新，那篇 reading 是當時脈絡、不改。
   - **Simon 回應**：（待補）
 
 **過度吹捧／該打折**：
 - 「AGENTS.md 已有逾 6 萬個開源專案採用」是 2025 年 12 月基金會成立時公布的數字（內文自己寫「當時公布」），重點摘要與常見問題卻寫成現況，中間已隔九個月。
   - **Simon 回應**：（待補）
-- 標題的「終於」「原生支援」是編輯語氣。事實範圍很窄：預設模式下只有沒有 CLAUDE.md 的專案才會讀 AGENTS.md（另有「兩份一起讀」模式，要自己切換），且不適用 Bedrock、Vertex、Foundry。
+- 標題的「終於」「原生支援」是編輯語氣，實際影響因專案而異：預設模式下，已有 CLAUDE.md 的專案（含 Simon 本機四個）行為不變，只有沒有 CLAUDE.md 的專案才會改讀 AGENTS.md；另有「兩份一起讀」模式要自己切換，且暫不適用 Bedrock、Vertex、Foundry。
   - **Simon 回應**：（待補）
 - 「被切除腦葉」是 Tobi Lütke 的修辭、「Shopify 用自動化程式補洞」是他自述，原文沒有第二來源；「超過 273 萬次瀏覽」是宣布貼文的瀏覽數，不代表採用。
   - **Simon 回應**：（待補）
@@ -102,4 +106,19 @@ Anthropic 在美國時間 2026-09-18 推出 Claude Code 2.1.277：專案沒有 C
 ## 原始連結
 - https://www.blocktempo.com/claude-code-native-agents-md-support-mods-shopify-tobi-lutke/
 - 收進收件箱的網址（Google 分享連結）：https://share.google/kSnk7VxVRUk19jAX3
-- 來源性質：二手 — 動區編譯報導，轉述 Anthropic 更新日誌、Thariq Shihipar 與 Tobi Lütke 的推文與 GitHub 說明文件；第一手版本：未找（文中附有更新日誌、agents-md mod 說明文件與各則推文連結，本次未開啟查證）
+- 來源性質：二手 — 動區編譯報導，轉述 Anthropic 更新日誌、Thariq Shihipar 與 Tobi Lütke 的推文與 GitHub 說明文件；第一手版本：已附連結（2026-09-19 Simon 要求後查證，見下兩行）。核對結果各只涵蓋一部分：更新日誌與動區一致的是版本、預設行為、/config 位置、暫不適用三個雲端管道；agents-md 說明文件與動區一致的是四種模式、哪些檔算專案自己的 CLAUDE.md、設定位置與專案內設定檔不被讀取。說明文件沒提雲端管道，更新日誌沒提四種模式與設定位置
+- 第一手・Anthropic 更新日誌，2.1.277 第一條寫「Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under "Project instructions" in /config (not yet on Bedrock, Vertex or Foundry)」：https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+- 第一手・agents-md 內建 mod 說明文件（四種模式、哪些檔算專案自己的 CLAUDE.md、設定位置）：https://github.com/anthropics/claude-code/blob/main/mods/agents-md/README.md
+- 未查：Tobi Lütke 與 Thariq Shihipar 的推文（動區引用、本次未開啟）。
+
+## 落地動作與效益
+
+**A 類（芙莉蓮優化）**
+- 專案層有 CLAUDE.md 的專案不受影響：✅ 已查證，限於已查的來源。`~/.claude/settings.json` 沒設 agents-md 選項（`--settings`、組織統一設定、舊鍵 `projectInstructions`、/plugin 是否關掉這個內建 mod，這幾處未查）；Simon-Agent 有 CLAUDE.md（symlink）、無 AGENTS.md，四種模式裡除了「只留組織統一派發檔」都是只讀 CLAUDE.md，無須動作。
+- vault 根實測：❌ 不做。Simon 2026-09-19 表示平常全部在 Simon-Agent 做、不需實測。備註：原廠說明文件寫明，對話中途 `/cd` 進另一個專案根會重新判定，所以在 Simon-Agent 開的對話若中途 `/cd` 進 vault 根，會載入那裡的 AGENTS.md。
+- 概念頁：✅ [[instructions-file]]、[[cross-platform-agent]] 已更新，2026-09-19 補入原廠說明文件細節。
+
+**B 類（Simon 個人動作）**
+- vault 根實測：❌ 不做（原因同上）。
+- Substack 選題卡〈廠商格式還沒統一時，個人怎麼用單一正本自保〉：尚未討論，狀態待 Simon 決定。
+- 資訊：Simon 2026-09-19 問「Simon-Agent 能不能直接讀 AGENTS.md」。現況不會（有 CLAUDE.md 且沒有 AGENTS.md）。要讀的話，得在 `~/.claude/settings.json` 設 `pluginConfigs.agents-md@builtin.options.instructionFiles` 為 `claude-md-and-agents-md`（或 /config 的「Project instructions」），並在專案放 AGENTS.md；專案內 `.claude/settings.json` 不會被讀。Simon 尚未決定要不要做。
