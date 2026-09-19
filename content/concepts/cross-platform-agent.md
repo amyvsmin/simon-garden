@@ -15,7 +15,7 @@ created: 2026-06-01
 
 ## 關鍵面向
 
-- **各家檔名不同、要靠捷徑橋接**：Claude Code 讀 `CLAUDE.md`、Codex 讀 `AGENTS.md`、Gemini 讀 `GEMINI.md`，而且 Codex 不會去讀 `CLAUDE.md`。（2026-09-18 起有變：Claude Code 2.1.277 在專案沒有 CLAUDE.md 時也會讀 AGENTS.md，但預設只要從專案根目錄到工作目錄之間任何一層有 CLAUDE.md 就不讀 AGENTS.md；Codex 仍不讀 CLAUDE.md。所以「兩份都要有」的壓力變小，SSOT 仍需要。）直接維護三份會漂移：今天改了一份、切到另一家就「少認識你一點」。解法是真正的本體只放一份核心規則，三個檔名全做成 symlink 指向它，只更新本體、三家自動同步。
+- **各家檔名不同、要靠捷徑橋接**：Claude Code 讀 `CLAUDE.md`、Codex 讀 `AGENTS.md`、Gemini 讀 `GEMINI.md`，而且 Codex 不會去讀 `CLAUDE.md`。（2026-09-18 起有變：Claude Code 2.1.277 在專案沒有 CLAUDE.md 時也會讀 AGENTS.md（Bedrock、Vertex、Foundry 暫不適用），但預設模式下只要從專案根目錄到工作目錄之間任何一層有 CLAUDE.md 就不讀 AGENTS.md；Codex 仍不讀 CLAUDE.md。所以「兩份都要有」的壓力變小，SSOT 仍需要。）直接維護三份會漂移：今天改了一份、切到另一家就「少認識你一點」。解法是真正的本體只放一份核心規則，三個檔名全做成 symlink 指向它，只更新本體、三家自動同步。
 - **記憶放本地、別開平台內建記憶**：Codex 有「啟用記憶」開關，但那份記憶存在 Codex 自己的雲端、搬到 Claude Code 就消失。把記憶系統獨立放本地檔（分 feedback／reference／每日記憶幾層），三家都讀得到，才不會被一家鎖住。
 - **資料層自動跨家、自動化層要移植但可跨**（2026-06-01 查證更正）：規則與記憶（純文字檔）能靠 symlink 直接跨家。平台原生自動化（hook、skill 觸發、MCP 設定）不會「自動」跟著走、要逐一移植；但 Codex 刻意鏡像了 Claude 的擴充模型——有近乎一對一的 hook 系統、skill 走同一套 agentskills.io 開放標準（同一份 SKILL.md 跨家通用）、MCP 可 JSON→TOML 轉。所以自動化層是「要重建設定」、不是「不可跨」。真正不可跨的只有 Claude 專屬編排引擎（superpowers、Skill tool 自動編排）。雙棲讓另一家「讀得到同一個大腦」，多數反射補設定後可重建、只有專屬編排跑不動。
 - **另一條路：單一正本＋生成式設定檔**（蛋糕 2026-09 案例）：不用 symlink 指向本體，而是一支腳本讀正本、產生每個工具（Claude Code、opencode、Antigravity）各自的設定檔，跑完自檢有無殘留舊路徑；代價是正本改了要記得重生成，好處是不依賴 symlink 在 Windows、iCloud 這類載體上的穩定度。
@@ -39,7 +39,7 @@ created: 2026-06-01
 
 - ~~自動化層怎麼跨家？~~（2026-06-01 已解：Codex 有對應 hook 系統 + agentskills.io skill 標準，自動化層是「移植設定的工」、不是無解。）
 - ~~記憶注入若不靠 hook，Codex 端要用什麼方式把記憶索引塞進每次對話？~~（2026-06-01 已解：Codex 的 SessionStart hook 可把純文字當開發者脈絡注入，等效 Claude 的 user-memory-inject。）
-- ~~Claude Code 2.1.277 之後，在只有 AGENTS.md、沒有 CLAUDE.md 的資料夾開 Claude 對話，使用者層 CLAUDE.md 算不算「有 CLAUDE.md」？~~（2026-09-19 已由原廠 agents-md 說明文件解答：使用者層 `~/.claude/CLAUDE.md` 不算，所以只有 AGENTS.md 的資料夾會載入它；本機未實測。）
+- ~~Claude Code 2.1.277 之後，在只有 AGENTS.md、沒有 CLAUDE.md 的資料夾開 Claude 對話，使用者層 CLAUDE.md 算不算「有 CLAUDE.md」？~~（2026-09-19 已由原廠 agents-md 說明文件解答：使用者層 `~/.claude/CLAUDE.md` 不算，所以在支援的管道、內建 mod 啟用且採預設模式時，只有 AGENTS.md 的資料夾會載入它；本機未實測。）
 - 真正還沒解的卡點：跨作業系統跑腳本（WSL 的 bash／python 路徑 vs Windows 的 `py`／路徑）怎麼用「一份 SKILL.md + if-then 環境分支」維護而不裂成兩份；以及 `.agents/skills` 連結在 Windows + WSL 共用實體夾下怎麼建、兩端才都認得。
 
 ## 來源（自動維護）
