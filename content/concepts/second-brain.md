@@ -31,6 +31,7 @@ created: 2026-05-05
 - [[obsidian-claude-code-workflow]]：第二大腦的具體實作之一，本地化 + AI 加持
 - [[claude-md-dual-nav]]：讓 AI 能高效讀取第二大腦的指引機制
 - [[progressive-disclosure]]：解決第二大腦規模化後的 token 消耗問題
+- [[personal-knowledge-base]]：瓦基「有自己的知識庫，AI 才答得準」的心法，與本卡的 PKM 範式定位不同
 
 ## 尚未解決的疑問
 

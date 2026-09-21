@@ -1,7 +1,7 @@
 ---
 title: "個人知識庫"
 slug: personal-knowledge-base
-aliases: [個人知識庫, personal knowledge base, 做出來收進去叫出來, 知識庫心法]
+aliases: [自己的知識庫, personal knowledge base, 知識庫心法]
 category: 知識管理
 confidence: 已驗證
 created: 2026-09-13
@@ -16,15 +16,16 @@ created: 2026-09-13
 - 核心覺察是主動判斷（見 [[active-curation]]）：不被動等 AI 幫忙記，而是主動判斷哪些東西重要、該存進知識庫。
 
 ## 應用場景
-- Simon 工作場景：Obsidian vault（`1-learning/`／`2-knowledge/`）＋ Notion 生產力日記與復盤，就是已經在運作的個人知識庫；「收進去」三類（心情／學習／工作）都已存在，但「叫出來」的查詢路徑強弱不一，課程筆記目前不在查詢索引上，見 CH12 12-4 對照段。
+- Simon 工作場景：Obsidian vault（`1-learning/`／`2-knowledge/`）＋ Notion 生產力日記與復盤，就是已經在運作的個人知識庫；「收進去」三類（心情／學習／工作）都已存在，但「叫出來」的查詢路徑強弱不一，課程筆記已有補搜路徑（查詢流程的階段 3，索引沒命中才在 `1-learning/` 關鍵字補搜）、但不在索引上，見 CH12 12-4 對照段。
 - 一般場景：想讓 AI 回答更貼近自己真實情況（而不是通用建議），第一步不是換更貴的模型，而是先建立一份自己親手整理的知識庫餵給它。
 
 ## 相關概念
 - [[conversation-log-not-knowledge-management]]：對話記錄本身不算知識庫，需要額外整理。
+- [[second-brain]]：PKM 範式（CODE 流程），本卡是瓦基「有自己的知識庫 AI 才答得準」的心法，兩者定位不同、不合併。
 - [[same-skeleton-different-buttons]]：ChatGPT／Claude／Gemini 三平台建知識庫的底層骨架相同，差別只在介面。
 
 ## 尚未解決的疑問
-- 讓課程筆記進入「叫出來」的查詢路徑這件事，2026-09-13 只提出、尚未拍板（見 CH12 12-6）。
+- 課程筆記的補搜（做法 A）2026-09-13 已上線；是否升級做法 B（替課程建索引）待 2026-09-27 起的兩週測驗後由 Simon 決定（見 CH12 12-6）。
 
 ## 來源（自動維護）
 - [[1-learning/sat-cool/wagi-ai-second-brain/ch12-pace-integration/4-knowledge-base-why-and-mindset|瓦基 AI 第二大腦 CH12 12-4 為什麼要有知識庫與心態]]
