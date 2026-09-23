@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="report-title" content="web-build／web-deploy｜網站技能實作封板">
+  <meta name="report-date" content="2026-09-24">
+  <meta name="report-status" content="定案">
+  <meta name="report-summary" content="兩支網站技能完成：web-build 從前置設計做到本機驗收，web-deploy 負責核對產物與當場授權後才部署。實跑五組全過，跨平台封板審查三輪收到零必改。">
+  <title>web-build／web-deploy｜網站技能實作封板</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0a0d12;
+      --surface: #111720;
+      --surface-2: #171f2b;
+      --text: #edf2f7;
+      --muted: #9eabbc;
+      --line: #293546;
+      --accent: #6ee7c6;
+      --accent-2: #83b7ff;
+      --warn: #ffce6a;
+      --danger: #ff858f;
+      --shadow: 0 18px 55px rgba(0, 0, 0, .28);
+    }
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg: #f3f6f9;
+      --surface: #ffffff;
+      --surface-2: #edf2f7;
+      --text: #17202b;
+      --muted: #5c6877;
+      --line: #d6dee8;
+      --accent: #087f68;
+      --accent-2: #276bb0;
+      --warn: #8a5900;
+      --danger: #b62636;
+      --shadow: 0 16px 44px rgba(33, 51, 72, .12);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 0;
+      background:
+        radial-gradient(circle at 12% 0%, color-mix(in srgb, var(--accent-2) 14%, transparent), transparent 32rem),
+        radial-gradient(circle at 92% 18%, color-mix(in srgb, var(--accent) 11%, transparent), transparent 28rem),
+        var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Noto Sans TC", sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    button, textarea { font: inherit; }
+    button { cursor: pointer; }
+    .page { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 22px 0 8px;
+    }
+    .eyebrow { margin: 0; color: var(--muted); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; }
+    .theme-toggle, .copy-button {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 9px 14px;
+      color: var(--text);
+      background: var(--surface);
+    }
+    .theme-toggle:hover, .copy-button:hover { border-color: var(--accent); }
+    .hero {
+      margin: 18px 0 30px;
+      padding: clamp(24px, 5vw, 56px);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(145deg, color-mix(in srgb, var(--surface) 96%, var(--accent-2)), var(--surface));
+      box-shadow: var(--shadow);
+    }
+    .status-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 5px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      background: var(--surface-2);
+      font-size: .82rem;
+    }
+    .pill.final { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+    h1, h2, h3, p { overflow-wrap: anywhere; }
+    h1 { margin: 0; max-width: 850px; font-size: clamp(2.1rem, 7vw, 5.2rem); line-height: 1.04; letter-spacing: -.055em; }
+    .lede { max-width: 760px; margin: 24px 0 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.22rem); }
+    .hero strong { color: var(--text); }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 30px; }
+    .metric { min-width: 0; padding: 16px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface-2); }
+    .metric b { display: block; color: var(--accent); font-size: clamp(1.35rem, 3vw, 2rem); line-height: 1.1; }
+    .metric span { color: var(--muted); font-size: .82rem; }
+    main { display: grid; gap: 22px; padding-bottom: 64px; }
+    section {
+      min-width: 0;
+      padding: clamp(22px, 4vw, 38px);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--surface);
+    }
+    .section-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; margin-bottom: 24px; }
+    h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2rem); letter-spacing: -.025em; }
+    h3 { margin: 0 0 8px; font-size: 1.02rem; }
+    .source { flex: 0 0 auto; color: var(--muted); font-size: .78rem; }
+    .source b { color: var(--accent-2); font-weight: 650; }
+    .split { display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 14px; }
+    .bucket { min-width: 0; padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: var(--surface-2); }
+    .bucket.runtime { border-top: 4px solid var(--accent); }
+    .bucket.audit { border-top: 4px solid var(--accent-2); }
+    .bucket p { margin: 7px 0 0; color: var(--muted); }
+    .arrow { align-self: center; color: var(--muted); font-size: 1.5rem; }
+    .list { margin: 14px 0 0; padding-left: 20px; }
+    .list li + li { margin-top: 7px; }
+    .cost {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--warn);
+      border-radius: 0 14px 14px 0;
+      background: color-mix(in srgb, var(--warn) 8%, var(--surface-2));
+    }
+    .cost b { color: var(--warn); }
+    .test-flow { display: grid; grid-template-columns: repeat(5, 1fr); gap: 9px; }
+    .step { min-width: 0; padding: 14px 10px; text-align: center; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+    .step b { display: block; font-size: .85rem; }
+    .step small { display: block; margin-top: 6px; color: var(--muted); }
+    .step.red { border-color: color-mix(in srgb, var(--danger) 60%, var(--line)); }
+    .step.red b { color: var(--danger); }
+    .step.green { border-color: color-mix(in srgb, var(--accent) 52%, var(--line)); }
+    .step.green b { color: var(--accent); }
+    .result-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 18px; }
+    .result { min-width: 0; padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+    .result b { color: var(--accent); }
+    .result p { margin: 5px 0 0; color: var(--muted); }
+    .incident { display: grid; grid-template-columns: 84px 1fr; gap: 18px; padding: 18px 0; border-top: 1px solid var(--line); }
+    .incident:first-of-type { border-top: 0; padding-top: 0; }
+    .incident .tag { color: var(--danger); font-weight: 750; }
+    .incident p { margin: 0; }
+    .incident .detail { color: var(--muted); }
+    .restore { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; counter-reset: restore; }
+    .restore article { min-width: 0; padding: 19px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface-2); }
+    .restore article::before { counter-increment: restore; content: counter(restore); display: grid; place-items: center; width: 30px; height: 30px; margin-bottom: 13px; border-radius: 50%; color: var(--bg); background: var(--accent); font-weight: 800; }
+    .restore p { margin: 0; color: var(--muted); }
+    .decision { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: center; }
+    .decision-mark { display: grid; place-items: center; width: 58px; height: 58px; border-radius: 18px; color: var(--bg); background: var(--accent); font-size: 1.6rem; font-weight: 900; }
+    .decision p { margin: 4px 0 0; color: var(--muted); }
+    .copy-box { margin-top: 22px; }
+    .copy-box textarea { width: 100%; min-height: 150px; resize: vertical; margin: 10px 0; padding: 16px; border: 1px solid var(--line); border-radius: 14px; color: var(--text); background: var(--surface-2); line-height: 1.6; }
+    .copy-note { margin-left: 9px; color: var(--muted); font-size: .82rem; }
+    .footnote { margin: 24px 0 0; color: var(--muted); font-size: .82rem; text-align: center; }
+    code { color: var(--accent-2); font-family: ui-monospace, "Cascadia Code", monospace; font-size: .9em; overflow-wrap: anywhere; }
+    @media (max-width: 780px) {
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+      .split { grid-template-columns: 1fr; }
+      .arrow { transform: rotate(90deg); justify-self: center; }
+      .test-flow { grid-template-columns: 1fr; }
+      .result-grid, .restore { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 430px) {
+      .page { width: min(100% - 20px, 1120px); }
+      .topbar { align-items: flex-start; }
+      .hero, section { border-radius: 18px; }
+      .metrics { grid-template-columns: 1fr; }
+      .section-head { display: block; }
+      .source { margin-top: 8px; }
+      .incident { grid-template-columns: 1fr; gap: 5px; }
+      .decision { grid-template-columns: 1fr; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  
+    .flow { display: flex; flex-wrap: wrap; gap: 8px; align-items: stretch; }
+    .flow .node { flex: 1 1 130px; min-width: 0; padding: 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+    .flow .node b { display: block; font-size: .9rem; }
+    .flow .node small { display: block; margin-top: 4px; color: var(--muted); font-size: .78rem; }
+    .flow .node.build { border-top: 4px solid var(--accent); }
+    .flow .node.router { border-top: 4px solid var(--accent-2); }
+    .flow .node.deploy { border-top: 4px solid var(--warn); }
+    .flow .node.stop { border-style: dashed; }
+    .bars { display: grid; gap: 10px; margin-top: 18px; }
+    .bar { display: grid; grid-template-columns: 90px 1fr 70px; gap: 10px; align-items: center; font-size: .85rem; }
+    .bar .track { height: 14px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--line); overflow: hidden; }
+    .bar .fill { height: 100%; background: var(--accent); }
+    .bar .fill.warn { background: var(--warn); }
+    .todo { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+    .todo li { padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+    .todo li b { display: block; }
+    .todo li span { color: var(--muted); font-size: .9rem; }
+    .todo li em { font-style: normal; color: var(--accent-2); font-size: .78rem; }
+    table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+    th, td { padding: 9px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+    th { color: var(--muted); font-weight: 600; }
+    .table-wrap { max-width: 100%; }
+    @media (max-width: 430px) { .bar { grid-template-columns: 64px 1fr 54px; } th, td { padding: 7px 4px; font-size: .82rem; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <p class="eyebrow">實作封板 · 2026-09-24</p>
+      <button class="theme-toggle" type="button" id="themeToggle" aria-label="切換深淺色">☀ 切換明暗</button>
+    </header>
+
+    <div class="hero">
+      <div class="status-row">
+        <span class="pill final">● 定案</span>
+        <span class="pill">web-build</span>
+        <span class="pill">web-deploy</span>
+      </div>
+      <h1>做網站有了固定流程。<br>建到滿意，才准上線。</h1>
+      <p class="lede">以前做網站沒有固定流程：進度只留在對話裡，換對話就要重講；部署前也沒有固定一道檢查，確認內部筆記不會跟著送出去。現在拆成兩支技能：<strong>web-build</strong> 從問清楚需求做到本機驗收，<strong>web-deploy</strong> 只負責把驗收過的站送上去，送之前核對產物、再當場問你。</p>
+      <div class="metrics" aria-label="封板摘要">
+        <div class="metric"><b>11 / 11</b><span>計畫 Task 完成（T1.1～T3.3）</span></div>
+        <div class="metric"><b>5 組</b><span>實跑情境全過</span></div>
+        <div class="metric"><b>6 / 6</b><span>觸發句新對話實測</span></div>
+        <div class="metric"><b>0</b><span>最後一輪審查必改</span></div>
+      </div>
+    </div>
+
+    <main>
+      <section id="change">
+        <div class="section-head">
+          <h2>1. 改成什麼</h2>
+          <span class="source"><b>Simon</b> 拍板 design 28 條與計畫 · <b>芙莉蓮</b> 實作</span>
+        </div>
+        <div class="flow" role="img" aria-label="網站建置到部署的接力流程">
+          <div class="node build"><b>① 前置設計</b><small>web-build：建資料夾、交接紀錄、填 16 列判準表</small></div>
+          <div class="node router stop"><b>選視覺方向</b><small>web-design-router（新對話）· 停點：你選方向</small></div>
+          <div class="node build stop"><b>② 完整 design</b><small>web-build 回來統整 · 停點：你核准</small></div>
+          <div class="node build stop"><b>PLAN</b><small>停點：你核准</small></div>
+          <div class="node build stop"><b>代表畫面</b><small>先只建一個畫面 · 停點：你確認</small></div>
+          <div class="node build"><b>本機驗收</b><small>全站建完、自檢、交接紀錄記證據</small></div>
+          <div class="node deploy stop"><b>⑥ 部署</b><small>web-deploy：核對產物 · 停點：當場授權</small></div>
+        </div>
+        <div class="table-wrap" style="margin-top:20px">
+          <table>
+            <thead><tr><th>產物</th><th>做什麼</th><th>位置（vault）</th></tr></thead>
+            <tbody>
+              <tr><td>web-build</td><td>提議制：你說要做網頁或網站，只問一句「一般協助直接做，還是走建置流程？」；判不準是網頁還是工具就問一題三選項</td><td><code>0-context/skills/web-build/SKILL.md</code>（221 行）</td></tr>
+              <tr><td>web-deploy</td><td>只接受你主動叫用；上線條件核對、_internal/ 三道排除、實際部署前當場問</td><td><code>0-context/skills/web-deploy/SKILL.md</code>（136 行）</td></tr>
+              <tr><td>脈絡判準檔</td><td>16 列表：哪幾項沒問到就不准交給下一段</td><td><code>0-context/system/reference-web-context-sufficiency.md</code></td></tr>
+              <tr><td>交接契約檔</td><td>交接紀錄六段、提示詞六段、轉接表、當場問六項</td><td><code>0-context/system/reference-web-handoff-contract.md</code></td></tr>
+              <tr><td>評測案例</td><td>web-build 5 筆、web-deploy 4 筆</td><td>兩支的 <code>evals/evals.json</code></td></tr>
+              <tr><td>idea-to-design</td><td>只改一句：判不準是網頁還是工具→一題三選項（你 09-23 選的甲案）</td><td><code>0-context/skills/idea-to-design/SKILL.md</code> 第 7、177 行</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cost"><b>採用這套的代價：</b>① 一頁式小網頁選了建置流程也要走完整 design、PLAN 與視覺選向，不因為小而簡化（design 第 23、28 點）；② 每段接力要換新對話、貼交接提示詞，沒有自動返回；③ 部署前列不出「實際要送出去的檔案清單」就不部署，沒有例外通道。不想走這套時，選「一般協助直接做」即可。</div>
+      </section>
+
+      <section id="tests">
+        <div class="section-head">
+          <h2>2. 實測結果</h2>
+          <span class="source"><b>芙莉蓮</b> 派無前文子代理實跑 · <b>Simon</b> 選方向與貼 Codex 端 · <b>Windows Codex</b> 審查</span>
+        </div>
+        <div class="result-grid">
+          <article class="result"><b>前置設計兩案（T1.5）</b><p>脈絡足夠的案子 16 列缺 0、停在轉接 ①；故意抽掉兩項的案子只問那兩項、沒往下交。</p></article>
+          <article class="result"><b>視覺選向往返（T1.6）</b><p>你看示意畫面選 A 後，新對話回到 web-build 統整成十段 design；另一條「既有站加一頁」鏈沒重建也沒覆寫交接紀錄。</p></article>
+          <article class="result"><b>部署三型乾跑（T2.2）</b><p>只發布輸出目錄、整包上傳、無排除功能三種都跑；三次都停在上線條件核對，沒有一次真的部署。</p></article>
+          <article class="result"><b>Codex 端（T3.1）</b><p>兩端連結可讀；<code>wsl.exe</code> 實測路徑正確；Codex 端需要的參考畫面在登入保護後拿不到時，停下回報、沒假裝完成。</p></article>
+          <article class="result"><b>觸發句六句（T3.2）</b><p>每句開無前文新對話：該提議的只提議、該直接進的直接進、判不準的只問一題三選項。</p></article>
+          <article class="result"><b>跨平台封板審查</b><p>Windows Codex 對照整份計畫審全部實作，3 輪收到零必改（上限 10 輪）。</p></article>
+        </div>
+        <div class="bars" aria-label="審查軌跡：每輪必改數">
+          <div class="bar"><span>第 1 輪</span><div class="track"><div class="fill warn" style="width:100%"></div></div><span>2 條 · 6 分</span></div>
+          <div class="bar"><span>第 2 輪</span><div class="track"><div class="fill warn" style="width:50%"></div></div><span>1 條 · 8 分</span></div>
+          <div class="bar"><span>第 3 輪</span><div class="track"><div class="fill" style="width:2%"></div></div><span>0 條 · 9 分</span></div>
+        </div>
+      </section>
+
+      <section id="mistakes">
+        <div class="section-head">
+          <h2>3. 芙莉蓮改壞過什麼，怎麼發現</h2>
+          <span class="source"><b>實跑</b>與 <b>Windows Codex 審查</b>抓到 · <b>芙莉蓮</b>修</span>
+        </div>
+        <div class="incident">
+          <div class="tag">漏 .git/</div>
+          <p><strong>一開始只防內部筆記資料夾，沒防 Git 歷史。</strong><br><span class="detail">部署乾跑時用 rsync 列清單，發現 <code>.git/</code> 有 62 行會被送出去，而 Git 歷史裡就有交接紀錄全文。當場補進排除規則（commit <code>d83b0efc</code>）；但只改了契約檔第二道、漏了第三道，審查第 1 輪才抓到，修在 <code>ca50c29d</code>。</span></p>
+        </div>
+        <div class="incident">
+          <div class="tag">留了後門</div>
+          <p><strong>「既有站列不出送出清單，就由你決定」這個分支。</strong><br><span class="detail">審查第 1 輪指出它跟「沒核對產物就不部署」打架：等於沒核對也能上線。整段砍掉，改成用腳本的乾跑或只準備模式列清單，列不出來就不部署、也不進當場授權那一問。</span></p>
+        </div>
+        <div class="incident">
+          <div class="tag">評測寫反</div>
+          <p><strong>評測案例把「建資料夾」排在「填判準表」之後。</strong><br><span class="detail">正文與實跑都是「你一選建置流程就先建三樣，再問缺項」，評測卻寫成缺項就什麼都不建，會把正確行為判錯。審查第 2 輪抓到，修在 <code>3d557f49</code>。</span></p>
+        </div>
+        <div class="incident">
+          <div class="tag">實跑抓到</div>
+          <p><strong>同一站第二次選視覺方向，可能拿舊的選向結果直接往下走。</strong><br><span class="detail">「既有站加一頁」那條鏈實跑時發現判模式表沒要求「選向紀錄要對得到這次範圍」，補在 <code>14d20ead</code>。</span></p>
+        </div>
+        <div class="incident">
+          <div class="tag">送審前抓到</div>
+          <p><strong>第 2 輪送審提示詞寫錯受審檔的變動數量。</strong><br><span class="detail">提示詞說「只有兩個檔變了」，送前用 git 比對發現帳本也多了一行，改成三個檔再送；沒送錯的版本出去。</span></p>
+        </div>
+      </section>
+
+      <section id="restore">
+        <div class="section-head">
+          <h2>4. 還原方式</h2>
+          <span class="source"><b>芙莉蓮</b> 整理</span>
+        </div>
+        <div class="restore">
+          <article><h3>先拔連結</h3><p>刪掉 WSL <code>~/.claude/skills/web-build</code>、<code>web-deploy</code> 兩個連結與 Windows <code>.agents\skills</code> 下兩個 Junction，技能就不再出現在清單、不會被觸發；vault 正本不受影響。</p></article>
+          <article><h3>再撤 commit</h3><p>要連正本一起撤，照帳本與台帳列的 commit（<code>1cef4538</code> 到 <code>3d557f49</code>）逐筆 <code>git revert</code>；每筆都是只含本案檔案的 scoped commit。</p></article>
+          <article><h3>idea-to-design 那一句</h3><p>三選項那句由 <code>be62c593</code> 帶入，同一 commit 還改了判定檔與另一份 design 的交叉指標；只想撤那一句時手動改回，不要整筆 revert。</p></article>
+        </div>
+      </section>
+
+      <section id="decision">
+        <div class="section-head">
+          <h2>5. 我沒替你決定的事</h2>
+          <span class="source">只陳列、不擋封板</span>
+        </div>
+        <ul class="todo">
+          <li><b>三處實作時補的暫定值</b><span>① 兩支的「範圍外請求」都守窄；② web-build 的護欄寫進正文、不拆附檔、不加腳本；③ web-deploy 接沒走建置流程的網站（明講沒有上線條件可核對）與既有站沿用自己的發布方式。你當時沒反對，但沒正式拍板。</span><em>芙莉蓮提的</em></li>
+          <li><b>審查者一條措辭建議我沒採</b><span>web-deploy「這個站沒走建置流程」建議改成「目前找不到交接紀錄」。我判不採：兩處都找不到才走那段，之後的動作不因這句改變；要改也只是一句話加連動一筆評測。</span><em>芙莉蓮判的、你可推翻</em></li>
+          <li><b>收尾三問</b><span>要不要建專案記憶檔；刪不刪示意專案與示意產物（清單在交接紀錄第 5 節）；推不推送遠端。本頁產出時還在等你裁定。</span><em>計畫 T3.4 規定要當場問</em></li>
+          <li><b>選視覺方向時需要看得到畫面</b><span>router 只出文字提案，這次是臨時做了三案示意畫面；列在選測清單第 32 列，本案不改 router。</span><em>實跑觀察</em></li>
+          <li><b>視覺譜系檔有一個條目與實作不符</b><span>你說先不更新。</span><em>你講過的</em></li>
+          <li><b>兩份共用參考檔要不要建記憶連結與索引行</b><span>與記憶檔那一問可以一起裁。</span><em>芙莉蓮提的</em></li>
+          <li><b>本頁要不要進 Garden</b><span>進的話要先加進 <code>garden-reports.txt</code> 並跑同步預檢；不進就只留 vault。</span><em>部署屬你授權</em></li>
+        </ul>
+        <div class="copy-box">
+          <label for="summary"><strong>可複製封板摘要</strong></label>
+          <textarea id="summary" readonly>web-build／web-deploy 兩支網站技能已封板（2026-09-24）。web-build 管前置設計到本機驗收：選建置流程當下建網站資料夾、交接紀錄與索引檔，照 16 列判準表確認產品脈絡足夠才交給 web-design-router 選視覺方向，再回來統整 design、寫 PLAN、先只建代表畫面；web-deploy 管部署：核對上線條件、確認送出的產物不含 _internal/ 與 .git/、列不出清單就不部署、實際部署前一律當場問。實作依已 GO 計畫 T1.1～T3.4 完成；實跑 5 組（前置兩案、視覺選向往返、部署三型乾跑、Codex 端、六句觸發），F1 跨平台封板審查 3 輪通過（必改 2→1→0、評分 6→8→9）。待裁：三處暫定值、收尾三問（記憶檔、刪示意產物、推送）、本頁進不進 Garden。</textarea>
+          <button class="copy-button" type="button" id="copyButton">複製摘要</button><span class="copy-note" id="copyNote" aria-live="polite"></span>
+        </div>
+      </section>
+    </main>
+
+    <p class="footnote">權威依據：計畫 <code>9-ops/specs/2026-09-22-web-build-deploy-skills-plan.md</code>（GO 錨點 5d860dde）、帳本 <code>impl-manifest.md</code>、台帳 <code>f1-review-ledger.md</code> 與各 Task 實跑紀錄（皆在 <code>9-ops/reviews/web-build-skills/</code>）。</p>
+  </div>
+  <script>
+    const root = document.documentElement;
+    const themeToggle = document.getElementById('themeToggle');
+    const preferred = localStorage.getItem('report-theme');
+    if (preferred === 'light' || preferred === 'dark') root.dataset.theme = preferred;
+    themeToggle.addEventListener('click', () => {
+      root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('report-theme', root.dataset.theme);
+    });
+    const copyButton = document.getElementById('copyButton');
+    const summary = document.getElementById('summary');
+    const copyNote = document.getElementById('copyNote');
+    copyButton.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(summary.value);
+        copyNote.textContent = '已複製';
+      } catch (_) {
+        summary.focus();
+        summary.select();
+        copyNote.textContent = '已選取，請按 Ctrl+C';
+      }
+    });
+  </script>
+</body>
+</html>
