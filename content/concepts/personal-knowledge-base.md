@@ -1,7 +1,7 @@
 ---
-title: "個人知識庫"
+title: "自己的知識庫"
 slug: personal-knowledge-base
-aliases: [自己的知識庫, personal knowledge base, 知識庫心法]
+aliases: [personal knowledge base, 知識庫心法]
 category: 知識管理
 confidence: 已驗證
 created: 2026-09-13

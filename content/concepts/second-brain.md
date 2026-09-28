@@ -23,7 +23,7 @@ created: 2026-05-05
 
 ## 應用場景
 
-- Simon 工作場景：Notion Knowledge Wiki 三 DB（資訊收集箱／概念庫／閱讀頁）+ Obsidian vault 課程筆記，已實作完整第二大腦；CLAUDE.md 雙層導航讓 Claude Code 變成讀寫介面
+- Simon 工作場景：入口在 Notion 資訊收集箱（LINE bot 送進來），知識主體在 Obsidian vault（`2-knowledge/` 的 reading＋concept、`1-learning/` 課程筆記）；原 Notion 概念庫／閱讀頁／變更日誌三庫 2026-05 歸檔、2026-07-09 移入封存區（見 `project-knowledge-wiki-design`）；CLAUDE.md 雙層導航讓 Claude Code 變成讀寫介面
 - 一般場景：研究者、創作者、知識工作者、學生考試準備
 
 ## 相關概念
