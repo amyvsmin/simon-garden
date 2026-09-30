@@ -15,6 +15,7 @@ MAC 位址表是交換器用來決定訊框往哪個埠送的對照表，記錄�
 - **四個欄位**：VLAN ID、MAC 位址（Cisco 顯示為點分十六進位三段式）、Type（DYNAMIC／STATIC）、Ports；`show mac address-table` 輸出末尾另有條目總數。
 - **Dynamic 會老化、Static 不隨老化計時器刪除**：啟用老化時，動態條目超過老化時間未刷新就刪除；下列 Cisco Catalyst 9000 設定指南說明通常預設為 **300 秒**，設為 0 可停用老化，實機仍應查目前設定。靜態條目用 `mac address-table static <MAC> vlan <VLAN ID> interface <INT ID>`（全域設定模式）加入，須儲存組態才能在重啟後保留。
 - **靜態轉送條目與依 MAC 劃分 VLAN 是不同功能**：靜態 MAC 表指定「某 VLAN 的目的 MAC 要由哪個埠送出」。MAC-based VLAN 則在支援的機型上，依入站訊框的來源 MAC 分類到 VLAN，須另設 MAC 群組與介面的 VLAN 對應；加入靜態轉送條目不會自動啟用這項分類，也不是必然的前置步驟。
+- **靜態條目不是存取控制（Section 10）**：課程把 `mac address-table static` 稱為「基於 MAC 的 VLAN」，說設備接在指定埠才屬於指定 VLAN。但靜態條目只固定「送往這個 MAC 的單播要從哪個埠出去」，不會阻擋其他設備（不同 MAC）接進同一個 VLAN，MAC 也可以偽造；這台設備換到別的埠後，它送出的訊框會被怎麼處理依平台而異，我未查證；10-12 實驗中 PC1 換埠後 ping 不通，較合理的解釋是回程流量被導向綁定的埠（我的推論，未實測）。要限制誰能接入，應該用埠安全或 802.1X。
 - **儲存位置分工**：CAM（內容可定址記憶體）存實際的「MAC ↔ 埠」映射、負責硬體級的高速精確比對（快但容量有限）；RAM 存表的相關資訊並負責管理（新增、更新、刪除過期條目）；TCAM 是 CAM 的三態升級版，多了 x（任意值）狀態可做遮罩比對，除 MAC 表外還用於 ACL、QoS、FIB，高階 [[layer-3-switch]] 的 MAC 表就放在這裡。
 - **與 ARP 表是兩張不同的表**：MAC 位址表對應「MAC ↔ 連接埠」、在交換器上；[[arp]] 表對應「IP ↔ MAC」、在終端與路由器上。兩者的老化機制也各自獨立。
 
@@ -28,6 +29,7 @@ MAC 位址表是交換器用來決定訊框往哪個埠送的對照表，記錄�
 - [[arp]]：另一張容易混淆的表，管 IP ↔ MAC 對應，位在終端與路由器上。
 - [[data-link-layer]]：這張表所服務的 OSI 層級。
 - [[layer-3-switch]]：高階機型把 MAC 表放在 TCAM 中以加速查找。
+- [[vlan]]：MAC 表每筆條目都帶 VLAN ID；靜態條目常被誤當成依 MAC 劃分 VLAN。
 
 ## 尚未解決的疑問
 - MAC 位址表被灌爆時的行為（CAM table overflow 導致交換器泛洪）與對應防護（埠安全），留待 Section 23 Security。
@@ -37,3 +39,6 @@ MAC 位址表是交換器用來決定訊框往哪個埠送的對照表，記錄�
 - [Cisco Business：Configure MAC-Based VLAN Groups through the CLI](https://www.cisco.com/c/en/us/support/docs/smb/switches/Cisco-Business-Switching/kmgmt-2252-configure-mac-based-vlan-groups-on-a-switch-through-the-cli.html) — 2026-09-07 核對 CBS250／350 的來源 MAC 分類與獨立設定流程，不推及所有 Cisco 機型。
 - [[1-learning/udemy/ccna-all-in-one/section-09-switching-basics/3-mac-address-table|CCNA Section 9 Leaf 3 交換機的 MAC 位址表]]
 - [[1-learning/udemy/ccna-all-in-one/section-09-switching-basics/4-view-mac-address-table-and-add-static-entry-lab|CCNA Section 9 Leaf 4 LAB 查看 MAC 位址表與手動新增靜態條目]]
+- [[1-learning/udemy/ccna-all-in-one/section-10-vlan/10-vlan-id-range-types-and-configuration-methods|CCNA Section 10 Leaf 10 VLAN-ID 範圍、類型與配置方法]]
+- [[1-learning/udemy/ccna-all-in-one/section-10-vlan/11-commands-vlan-configuration|CCNA Section 10 Leaf 11 VLAN 配置命令]]
+- [[1-learning/udemy/ccna-all-in-one/section-10-vlan/12-lab-vlan-configuration-interface-and-mac-based|CCNA Section 10 Leaf 12 LAB VLAN 配置（基於接口與基於 MAC）]]

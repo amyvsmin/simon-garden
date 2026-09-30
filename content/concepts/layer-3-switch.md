@@ -16,6 +16,7 @@ created: 2026-07-11
 - **多層交換機（Multilayer）**：再往上能處理**傳輸層 L4 埠號**資訊（如依 TCP/UDP 埠號的流量控制、負載平衡）。
 - **資料中心交換機**：專為資料中心設計的高效能交換機（高頻寬/低延遲/高可靠），用於伺服器互聯、伺服器與儲存互聯。
 - **為何重要**：三層交換機是園區網路「分佈層做 VLAN 間路由」的主力設備，比路由器介面更高效。
+- **怎麼做 VLAN 間路由（Section 10）**：全域 `ip routing` 開啟三層轉發，每個 VLAN 建 [[svi]] 並設 IP 當網關；課程實驗設備預設已開，實機預設依型號與軟體而異，要先確認；`no ip routing` 後路由表清空、跨 VLAN 不通。課程稱這是目前工作中最常用的 VLAN 間路由做法，見 [[inter-vlan-routing]]。
 
 ## 應用場景
 - **Simon 工作場景**：公司核心/分佈層通常用三層交換機做 VLAN 間路由，比拿路由器逐介面路由高效；規劃 VLAN 與網段時對照「哪台做 L3 閘道」。
@@ -26,6 +27,9 @@ created: 2026-07-11
 - [[svi]]：三層交換機做 VLAN 間路由的虛擬介面
 - [[default-gateway]]：三層交換機常擔任各 VLAN 的預設閘道
 - [[mac-address]]：L2 轉送訊框的依據
+- [[inter-vlan-routing]]：三層交換機是 VLAN 間路由最常用的設備
 
 ## 來源
 - [[1-learning/udemy/ccna-all-in-one/section-07-network-devices/1-network-devices-and-topology-diagrams|CCNA Section 7 Leaf 1 網路設備與拓樸圖]]
+- [[1-learning/udemy/ccna-all-in-one/section-10-vlan/16-why-inter-vlan-routing-and-how-to-implement|CCNA Section 10 Leaf 16 為什麼需要 VLAN 間路由以及如何實現]]
+- [[1-learning/udemy/ccna-all-in-one/section-10-vlan/17-lab-inter-vlan-routing-configuration|CCNA Section 10 Leaf 17 LAB VLAN 間路由配置]]

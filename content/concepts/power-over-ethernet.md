@@ -16,6 +16,7 @@ PoE 是透過乙太網路線纜**同時提供 DC 直流電與數據傳輸**的�
 - **Class 0–8 功率分級**：PD 用 Class 表達要多少電（Class 4=30W、6=60W、8=90W…），PSE 依 Type 1–4 分配預算。
 - **設定三關鍵字**：`power inline auto`（預設、優先級低於 static）、`static`（預留指定功率、優先級最高、關鍵設備用）、`never`（禁用）。
 - **保護與檢查**：`power inline police action errdisable` 超功率就 err-disable 關埠、防單一 PD 搶光預算；`show power inline` 查供電預算/使用/剩餘。
+- **IP 電話與語音 VLAN（Section 10）**：IP 電話是常見的 PD；課程實驗用的 2960 型號不支援 PoE，電話埠燈是紅的，要外接電源才轉綠。搭配 `switchport voice vlan <ID>`，一個交換機埠就能同時接電話與串接在後面的 PC，見 [[vlan]]。
 
 ## 應用場景
 - **Simon 工作場景**：辦公室無線 AP、IP 話機、攝影機全靠接取層 PoE 交換機供電（呼應園區三層「存取層負責 PoE」）；一台 48 埠 PoE 交換機有總功率預算、插滿高功率 AP 會超支，用 `power inline auto max`/`police` 限單埠、用 `static` 保關鍵設備；採購先算「每台 PD 功率×埠數 vs 交換機 PoE 總預算」。
@@ -25,6 +26,8 @@ PoE 是透過乙太網路線纜**同時提供 DC 直流電與數據傳輸**的�
 - [[twisted-pair-cabling]]：PoE 透過雙絞線同時送電與資料
 - [[fat-ap-vs-thin-ap]]：無線 AP 是常見的 PD 受電設備
 - [[transceiver-module]]：電口模組可提供 PoE
+- [[vlan]]：IP 電話常搭配語音 VLAN 使用
 
 ## 來源
 - [[1-learning/udemy/ccna-all-in-one/section-07-network-devices/4-power-over-ethernet|CCNA Section 7 Leaf 4 PoE]]
+- [[1-learning/udemy/ccna-all-in-one/section-10-vlan/18-lab-voice-vlan-configuration|CCNA Section 10 Leaf 18 LAB Voice VLAN 配置]]
