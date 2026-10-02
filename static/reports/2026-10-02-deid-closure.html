@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>先遮再問｜實作封板成果頁（2026-10-02）</title>
+<meta name="report-title" content="先遮再問（deid）實作封板成果頁">
+<meta name="report-date" content="2026-10-02">
+<meta name="report-status" content="定案">
+<meta name="report-summary" content="去識別化單機網頁版四階段 24 項完成，全站自動驗收 89 步零失敗、Simon 手動驗收通過、跨家族程式碼審查三輪收斂，交付資料夾已放到桌面">
+<meta name="report-kind" content="closure">
+<meta name="report-source" content="9-ops/specs/2026-10-01-deid-plan.md">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--muted:#5b6672;--line:#dde3ea;
+ --ok:#2f6f4e;--ok-s:#e6f2ec;--warn:#8a5a12;--warn-s:#fdf2df;--stop:#7a3b3b;--stop-s:#fae9e9;
+ --si:#2a4d7a;--si-s:#e6eef8}
+html[data-theme="dark"]{--bg:#12161a;--card:#1a2026;--ink:#e8edf2;--muted:#9aa7b4;--line:#2b3540;
+ --ok:#6fc79b;--ok-s:#172d24;--warn:#e0b562;--warn-s:#2e2616;--stop:#e39a9a;--stop-s:#2f1d1d;
+ --si:#8ab4e8;--si-s:#16222f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+ overflow-x:hidden;word-break:break-word;overflow-wrap:anywhere}
+.wrap{max-width:920px;margin:0 auto;padding:20px 16px 72px}
+header.top{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start;justify-content:space-between}
+h1{font-size:1.5rem;margin:0 0 4px;line-height:1.4}
+.sub{color:var(--muted);font-size:.88rem;margin:0}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:8px 14px}
+button:hover{border-color:var(--ok)}
+h2{font-size:1.15rem;margin:34px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+h3{font-size:1rem;margin:18px 0 6px}
+p{margin:8px 0}
+.lede{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--ok);border-radius:12px;padding:14px 16px;margin:16px 0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:16px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+.kpi b{display:block;font-size:1.6rem;line-height:1.2;color:var(--ok)}
+.kpi span{font-size:.78rem;color:var(--muted)}
+.flow{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.step{flex:1 1 120px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:.82rem;text-align:center}
+.step.you{border-color:var(--si);background:var(--si-s);color:var(--si);font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card h4{margin:0 0 6px;font-size:.98rem}
+.card ul{margin:6px 0 0;padding-left:18px}
+.card li{margin:5px 0;font-size:.92rem}
+.tag{display:inline-block;font-size:.7rem;padding:1px 8px;border-radius:999px;margin-left:6px;white-space:nowrap;border:1px solid var(--line)}
+.t-si{background:var(--si-s);color:var(--si);border-color:transparent}
+.t-fr{background:var(--ok-s);color:var(--ok);border-color:transparent}
+.state{display:inline-block;font-size:.76rem;font-weight:700;padding:2px 10px;border-radius:999px}
+.s-ok{background:var(--ok-s);color:var(--ok)}
+.s-ask{background:var(--warn-s);color:var(--warn)}
+.s-stop{background:var(--stop-s);color:var(--stop)}
+.notdo{background:var(--stop-s);border:1px solid var(--line);border-left:4px solid var(--stop);border-radius:12px;padding:14px}
+.notdo ul{margin:6px 0 0;padding-left:18px}.notdo li{margin:6px 0;font-size:.92rem}
+.bar{display:flex;align-items:center;gap:10px;margin:6px 0;font-size:.88rem;flex-wrap:wrap}
+.bar .lb{flex:0 0 74px;color:var(--muted)}
+.bar .tr{flex:1 1 140px;height:12px;background:var(--line);border-radius:999px;overflow:hidden;min-width:110px}
+.bar .fl{height:100%;background:var(--ok)}
+.bar .vl{flex:1 1 auto;min-width:0;color:var(--muted);word-break:break-word;overflow-wrap:anywhere}
+.spark{display:flex;align-items:flex-end;gap:3px;height:70px;margin:10px 0;flex-wrap:nowrap;overflow:hidden}
+.spark i{flex:1 1 0;min-width:4px;background:var(--ok);border-radius:2px 2px 0 0;display:block}
+.spark i.zero{background:var(--si)}
+.tl{border-left:2px solid var(--line);margin:12px 0 12px 6px;padding-left:16px}
+.tl .it{margin:12px 0;position:relative}
+.tl .it::before{content:"";position:absolute;left:-22px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--ok)}
+.tl .wh{font-size:.8rem;color:var(--muted)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;white-space:pre-wrap;font-size:.85rem;margin:10px 0}
+.src{font-size:.84rem;color:var(--muted);margin-top:6px}
+.legend{font-size:.83rem;color:var(--muted);margin:10px 0}
+footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:.84rem}
+.bar span.tr,.bar span.fl{display:block}
+@media(max-width:400px){body{font-size:15px}.wrap{padding:16px 12px 60px}h1{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div>
+    <h1>先遮再問（deid）｜實作封板成果頁</h1>
+    <p class="sub">2026-10-02・<strong>全站本機驗收完成</strong>・plan <code>9-ops/specs/2026-10-01-deid-plan.md</code>・design <code>9-ops/specs/2026-09-30-deid-design.md</code>・<span class="state s-ok">定案</span></p>
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">
+    <button id="themeBtn" type="button">切換深／淺色</button>
+    <button id="copyBtn" type="button">複製摘要</button>
+  </div>
+</header>
+
+<div class="lede">
+  <p><strong>這頁不用你做決定，只是交代成果。</strong>「先遮再問」做完了：一個離線、單一 HTML 檔的工具，把要貼給 AI 的文字或 Office 檔裡的敏感值換成代號，AI 回覆貼回來再換回真名。交付資料夾在 <code>C:\Users\User\Desktop\先遮再問\</code>，裡面只有 <code>先遮再問.html</code>，用 Chrome 或 Edge 打開就能用。</p>
+  <p>計畫四個階段、24 個工作項目全部完成；你看過兩次畫面、手動驗收一次，都通過。不部署、不上網，要給別人就把資料夾交給他。</p>
+</div>
+
+<div class="kpis">
+  <div class="kpi"><b>24/24</b><span>工作項目</span></div>
+  <div class="kpi"><b>89</b><span>自動驗收步驟、0 失敗</span></div>
+  <div class="kpi"><b>160×3</b><span>引擎測試 × 三個環境</span></div>
+  <div class="kpi"><b>44</b><span>design 驗收項，逐項有證據</span></div>
+  <div class="kpi"><b>3</b><span>程式碼審查輪次</span></div>
+</div>
+
+<h2>1. 改成什麼</h2>
+<div class="flow">
+  <div class="step">貼上文字或拖入檔案<br>docx、xlsx、pptx、csv、txt、md、log</div>
+  <div class="step">按「遮起來」<br>敏感值換成一致代號</div>
+  <div class="step">出口安全檢查<br>沒過就不能複製或另存</div>
+  <div class="step you">你送出前看一眼<br>清單沒列的詞會原樣留下</div>
+  <div class="step">AI 回覆貼回還原模式<br>代號換回真名</div>
+</div>
+<div class="cards">
+  <div class="card"><h4>做出來的功能<span class="tag t-si">Simon</span></h4><ul>
+    <li>單一 HTML 檔、離線使用，字型與程式全部內嵌，不連外（2026-09-30 定）</li>
+    <li>一次放多個檔，各自一份乾淨版、共用同一份對照表；同一個值永遠換成同一個代號</li>
+    <li>還原：AI 回覆貼回來換回真名；跨次使用代號不變</li>
+    <li>手動點選補遮規則沒抓到的地方（只遮點到的那一處）</li>
+    <li>對照表存在瀏覽器、可匯出備份換電腦；同一瀏覽器只允許一個分頁使用</li>
+    <li>深色與淺色兩套配色，預設跟隨系統；強調色 Tiffany 藍 <code>#81D8D0</code></li>
+  </ul></div>
+  <div class="card"><h4>做法上的安排<span class="tag t-fr">芙莉蓮</span></h4><ul>
+    <li>程式拆成 39 個原始檔，建置時串成一個 HTML；安全政策鎖死不准載入外部資源</li>
+    <li>zip、Office、CSV 解析全部自寫，不內嵌第三方程式</li>
+    <li>每個按鈕都要登記屬於哪個動作，沒登記的一律按不下去</li>
+    <li>網站資料夾本機 Git 共 101 個 commit，不推送、不設遠端</li>
+  </ul></div>
+</div>
+
+<h2>2. 實測結果</h2>
+<div class="bar"><span class="lb">引擎測試</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="vl">160 項 × WSL、Windows Chrome、Edge 全過</span></div>
+<div class="bar"><span class="lb">畫面情境</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="vl">19 個情境、58 次執行全過</span></div>
+<div class="bar"><span class="lb">Windows 腳本</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="vl">真重新載入、雙分頁、離線字型、Edge 另存、手動遮蔽小選單全過</span></div>
+<div class="bar"><span class="lb">驗收對照表</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="vl">39 項通過、1 項依你決定不另測、2 項由你手動驗收</span></div>
+<div class="bar"><span class="lb">對外連線</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="vl">原始碼掃描零命中；你手動觀測頁面發起的請求 0 筆</span></div>
+<p class="src">最後一次全站驗收：2026-10-02 13:02～13:07，在程式碼最後版本 <code>1839dea</code> 上跑；交付檔 SHA-256 <code>f30fcdac…</code>，跟桌面那份相同。原始輸出在網站資料夾 <code>_internal/evidence/T4.3-acceptance-log.txt</code>。</p>
+
+<h3>審查走過的路</h3>
+<div class="tl">
+  <div class="it"><div class="wh">2026-09-30～10-01・design</div>13 輪審查才零必改；你核准</div>
+  <div class="it"><div class="wh">2026-10-01～10-02・計畫</div>四個階段進入前各審一次，共 20 輪；中途你拍板了按鈕預設擋下、只測 Chrome、鍵盤操作不專門測等事</div>
+  <div class="it"><div class="wh">2026-10-02・程式碼</div>不同家族的 Codex 審全部 112 個檔：必改 16 → 3 → 2；最後 2 條你決定記成已知限制</div>
+  <div class="it"><div class="wh">2026-10-02・說明文字</div>沒看過前文的子代理逐句查：必改 3 → 0</div>
+</div>
+
+<h2>3. 芙莉蓮改壞過什麼，怎麼發現</h2>
+<div class="cards">
+  <div class="card"><h4>你看畫面抓到的<span class="tag t-si">Simon</span></h4><ul>
+    <li>代表畫面字太小、淺色模式字與按鈕不清楚：改了 5 版才到你說「可以了」</li>
+    <li>深色模式按鈕邊框不清楚：改共用的配色檔</li>
+    <li>手動驗收的 Chrome 啟動命令太長，被「執行」視窗截斷、沒產生網路紀錄：改成雙擊批次檔重做</li>
+  </ul></div>
+  <div class="card"><h4>測試與截圖抓到的<span class="tag t-fr">芙莉蓮</span></h4><ul>
+    <li>處理報告印出「[object Object]」：做檔案清單時自己發現</li>
+    <li>檔案多時「遮起來」被擠出畫面、還原區多一條分隔線：截圖時發現</li>
+    <li>資料壞掉時開頁看不到提示：全站驗收用真的重新載入才抓到</li>
+    <li>深色模式拖曳框用了 Tiffany 藍（違反配色規則）：深色配色回讀抓到</li>
+  </ul></div>
+  <div class="card"><h4>程式碼審查抓到的<span class="tag t-fr">芙莉蓮</span></h4><ul>
+    <li>Office 檔內部少了某張表或投影片的連結時，會產出缺一塊的乾淨版：改成整檔拒絕</li>
+    <li>同一張網卡兩種位址寫法配到兩個代號：改成同一個；舊資料讀回時自動換新鍵</li>
+    <li>改設定後的自動重遮會蓋掉「對照表快滿了」：改成兩句一起顯示</li>
+    <li>備份裡某一項格式壞掉時，檢查程式會直接報錯中斷：改成照資料壞掉處理</li>
+    <li>測試本身的漏洞 12 條（例如自我檢查頁沒跑、窄版只測一個瀏覽器）：全部補上</li>
+  </ul></div>
+  <div class="card"><h4>說明文字查核抓到的<span class="tag t-fr">芙莉蓮</span></h4><ul>
+    <li>中欄標題「可以直接複製去用」說過頭：改成「乾淨版」</li>
+    <li>叫人按「清除對照表」降低外露風險，但敏感詞清單還留著：改成講明要按「清除全部資料」</li>
+    <li>接手提示寫「另一個分頁已關閉」，重新整理時其實沒關：改成「已不在使用」</li>
+  </ul></div>
+</div>
+
+<h2>4. 還原方式</h2>
+<div class="cards">
+  <div class="card"><h4>不要這個工具了</h4><ul>
+    <li>刪掉桌面的 <code>先遮再問</code> 資料夾</li>
+    <li>瀏覽器裡的對照表：打開網頁，在「對照表…」按「清除全部資料」；或清除瀏覽器的網站資料</li>
+    <li>代價：清掉後，之前 AI 回覆裡的代號就換不回真名</li>
+  </ul></div>
+  <div class="card"><h4>要退回某一版</h4><ul>
+    <li>原始碼與全部紀錄在 WSL 的 <code>~/projects/deid/</code>，本機 Git 有每一步的 commit</li>
+    <li>某一個修正不要：在該資料夾 revert 那個 commit，再 <code>python3 build.py</code> 重新建置、複製到桌面</li>
+    <li>代價：退回後要重跑 <code>python3 tests/acceptance.py --all</code> 確認沒壞</li>
+  </ul></div>
+</div>
+
+<h2>5. 我沒替你決定的事</h2>
+<div class="cards">
+  <div class="card"><h4>你已拍板、我照做的<span class="tag t-si">Simon</span></h4><ul>
+    <li>兩個 Excel 邊角記成已知限制、不修：被竄改成「圖表工作表」的一般工作表會被跳過；含 Excel 5 舊式對話方塊工作表的檔會被整個拒絕（原話「記成已知限制、收尾」）</li>
+    <li>鍵盤操作不做專門驗收，那個名稱寫錯的測項只改名照實寫</li>
+    <li>不部署、不產部署交接；Firefox 不測、不保證</li>
+  </ul></div>
+  <div class="card"><h4>我刻意沒動的<span class="tag t-fr">芙莉蓮</span></h4><ul>
+    <li>本頁沒加進 Garden 發布清單，比照這個案子前兩頁決策頁；要發布再跟我說</li>
+    <li>說明文字查核的 15 條措辭建議沒採納（例如編碼選錯、欄位規則前提可以多寫一句），都不影響說法正確</li>
+    <li>design 列為下一版候選的 PDF 與截圖文字辨識沒做；要做得先過第三方程式安全稽核</li>
+    <li>要怎麼給別人、給誰用，由你自己決定；頁尾已有「不要放上網站」的警語</li>
+  </ul></div>
+</div>
+
+<h2>6. 可複製摘要</h2>
+<pre id="summary">deid（先遮再問）實作封板（2026-10-02）：四階段 24 項全部完成，全站本機驗收完成。
+交付：C:\Users\User\Desktop\先遮再問\先遮再問.html（SHA-256 f30fcdac…，建置 commit 1839dea）；Chrome、Edge 可用，Firefox 不保證。
+實測：全站自動驗收 89 步 0 失敗（引擎 160 項 × 三環境、19 個畫面情境）；Simon 手動驗收第 32、33 項通過；程式碼審查（Codex，三輪）與說明文字查核（兩輪）收斂。
+已知限制（Simon 決定不修）：被竄改成圖表工作表的 Excel 表會被跳過；含對話方塊工作表的 xlsx 整檔拒絕。
+不部署、不推送；原始碼與紀錄在 ~/projects/deid/，審查紀錄 _internal/evidence/T4.3-review.md。</pre>
+
+<footer>產頁：芙莉蓮（WSL Claude），2026-10-02。依據 plan、design 與網站交接紀錄第 3、4 段，證據檔在網站資料夾 <code>_internal/evidence/</code>（T4.1～T4.4）。本頁只放在 vault、未加入 Garden 發布清單。</footer>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  var pref=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
+  root.setAttribute('data-theme',pref?'dark':'light');
+  document.getElementById('themeBtn').addEventListener('click',function(){
+    root.setAttribute('data-theme',root.getAttribute('data-theme')==='dark'?'light':'dark');
+  });
+  document.getElementById('copyBtn').addEventListener('click',function(){
+    var t=document.getElementById('summary').innerText,btn=this;
+    function done(){btn.textContent='已複製';setTimeout(function(){btn.textContent='複製摘要';},1600);}
+    function fb(){var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+      try{document.execCommand('copy');done();}catch(e){btn.textContent='請手動選取';}document.body.removeChild(ta);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,fb);}else{fb();}
+  });
+})();
+</script>
+</body>
+</html>
