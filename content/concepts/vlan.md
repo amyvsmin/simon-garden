@@ -22,6 +22,7 @@ created: 2026-09-30
 | 1002–1005 | 保留給權杖環（Token Ring）與 FDDI，不能用於乙太網 |
 | 1006–4094 | 擴展範圍，交換器要運行 VTP 第 3 版，或 VTP 處於透明（或 off）模式才能建立 |
 
+- **VLAN 怎麼同步到多台交換器**：用 [[vtp]]。v1／v2 只傳 1–1005，擴展 VLAN 只能在 transparent（或 off）模式下本機建立、不會同步；v3 才能傳 1–4094。VTP 同步的只是 VLAN 資料庫，埠的劃分仍要逐台設。
 - **埠跟 VLAN 的關係**：access 埠同一時刻只屬於一個資料 VLAN；[[trunk]] 埠承載多個 VLAN，不屬於任何單一 VLAN，所以 `show vlan` 的埠清單裡看不到它。例外是語音 VLAN：一個 access 埠可以再加一個語音 VLAN（`switchport voice vlan <ID>`），讓 IP 電話和串接在電話後面的 PC 共用一條線、流量分開。
 - **建立與分配**：`vlan 10` 建立並進入 VLAN 設定模式、`name` 命名；介面下 `switchport access vlan 10` 分配埠，VLAN 不存在時這條命令會順便建立它；`interface range` 可一次設定多個埠。
 - **刪除 VLAN 的後果**：`no vlan 10` 之後，原本在 VLAN 10 的埠不會自動回到 VLAN 1，而是變成 inactive（停用），仍記著舊的 VLAN 10；重建同編號的 VLAN 就恢復。這些埠不會出現在 `show vlan`，要用 `show interfaces status` 才看得到 inactive。
@@ -40,10 +41,10 @@ created: 2026-09-30
 - [[inter-vlan-routing]]：讓不同 VLAN 互通的做法。
 - [[svi]]：VLAN 的三層介面，可設 IP 當網關或管理位址。
 - [[dtp]]：協商交換器之間的埠要當 access 還是 trunk。
+- [[vtp]]：把 VLAN 的建立、修改、刪除同步到同網域的其他交換器。
 
 ## 尚未解決的疑問
 - 真正依來源 MAC 分類的 MAC VLAN（VMPS，或部分機型的 MAC VLAN 群組）課程沒教，實機支援度未查。
-- VTP 與擴展 VLAN 的細節留到 Section 11。
 
 ## 來源（自動維護）
 - [[1-learning/udemy/ccna-all-in-one/section-10-vlan/2-vlan-background-and-what-it-solves|CCNA Section 10 Leaf 2 VLAN 的背景與解決的問題]]
@@ -52,3 +53,5 @@ created: 2026-09-30
 - [[1-learning/udemy/ccna-all-in-one/section-10-vlan/11-commands-vlan-configuration|CCNA Section 10 Leaf 11 VLAN 配置命令]]
 - [[1-learning/udemy/ccna-all-in-one/section-10-vlan/12-lab-vlan-configuration-interface-and-mac-based|CCNA Section 10 Leaf 12 LAB VLAN 配置（基於接口與基於 MAC）]]
 - [[1-learning/udemy/ccna-all-in-one/section-10-vlan/18-lab-voice-vlan-configuration|CCNA Section 10 Leaf 18 LAB Voice VLAN 配置]]
+- [[1-learning/udemy/ccna-all-in-one/section-11-vtp/3-vtp-roles-and-v1-v2-configuration|CCNA Section 11 Leaf 3 VTP 角色與 v1、v2 配置]]
+- [[1-learning/udemy/ccna-all-in-one/section-11-vtp/8-lab-vtp-v3-configuration|CCNA Section 11 Leaf 8 LAB VTPv3 配置]]

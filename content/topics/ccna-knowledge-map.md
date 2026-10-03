@@ -5,14 +5,14 @@ topic_kind: synthesis
 status: living
 aliases: [CCNA 知識地圖, CCNA 地圖, CCNA map]
 created: 2026-09-30
-last_updated: 2026-09-30
+last_updated: 2026-10-03
 tags:
   - ccna
   - networking
   - exam-map
 ---
 
-CCNA 課程上到第 10 章，來源是這門課的概念卡已經有 82 張（另有 8 張來自其他課程、也屬於考綱範圍），但它們在概念索引裡是照字母排的，要複習時看不出「這張卡屬於考試的哪一塊、哪一塊還是空的」。這頁把它們重新掛回 Cisco 官方的 CCNA 200-301 v1.1 考綱：六大模組當骨架，每個概念只連出去、不重抄內容，細節都在各自的概念頁。
+CCNA 課程上到第 11 章，來源是這門課的概念卡已經有 83 張（另有 8 張來自其他課程、也屬於考綱範圍），但它們在概念索引裡是照字母排的，要複習時看不出「這張卡屬於考試的哪一塊、哪一塊還是空的」。這頁把它們重新掛回 Cisco 官方的 CCNA 200-301 v1.1 考綱：六大模組當骨架，每個概念只連出去、不重抄內容，細節都在各自的概念頁。
 
 **怎麼用**：刷題期（2026-12-28 起）當複習清單，一區一區過；想做費曼回講時，從這裡挑一張卡當題目；看到「待學」就知道那一塊課程還沒上到。
 
@@ -25,7 +25,7 @@ CCNA 課程上到第 10 章，來源是這門課的概念卡已經有 82 張（�
 | 考綱模組 | 權重 | 對應課程 Section | 目前狀態 |
 |---|---|---|---|
 | 1.0 Network Fundamentals（網路基礎） | 20% | S2–S7 | 已學完，卡片最多 |
-| 2.0 Network Access（網路存取） | 20% | S9–S14 | S9、S10 已學；VTP、STP、EtherChannel 待學 |
+| 2.0 Network Access（網路存取） | 20% | S9–S14 | S9–S11 已學；STP、EtherChannel 待學 |
 | 3.0 IP Connectivity（IP 連通） | 25% | S15–S19 | 待學（權重最高） |
 | 4.0 IP Services（IP 服務） | 10% | S21 | 只有 DHCP、DNS 等零星卡片 |
 | 5.0 Security Fundamentals（安全基礎） | 15% | S20、S23 | 零星卡片，ACL 與二層安全待學 |
@@ -61,6 +61,7 @@ CCNA 課程上到第 10 章，來源是這門課的概念卡已經有 82 張（�
 
 - **2.1 VLAN**（含語音 VLAN、預設 VLAN、VLAN 間連通）：[[vlan]]、[[inter-vlan-routing]]、[[svi]]
 - **2.2 交換器間連接**（trunk、802.1Q、native VLAN）：[[trunk]]、[[ieee-802-1q]]、[[native-vlan]]、[[dtp]]
+- **VTP（考綱 v1.1 未列，課程 S11）**：[[vtp]]（VLAN 同步、VTP 修剪；Cisco 官方 v1.1 考試主題 PDF 沒有列出 VTP，2026-10-03 查證，複習時權重放低）
 - **2.3 二層探索協議**（CDP、LLDP）：待學（S10 只順帶提到 CDP 會回報雙工與 native VLAN 不匹配）
 - **2.4 EtherChannel（LACP）**：待學（S13）
 - **2.5 Rapid PVST+ 生成樹**：待學（S12；[[duplex-and-speed]] 已記下雙工與 STP 鏈路類型的關係）
