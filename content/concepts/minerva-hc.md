@@ -1,7 +1,7 @@
 ---
 title: "密涅瓦思考習慣（HC）框架"
 slug: minerva-hc
-aliases: [密涅瓦思考習慣, 思考習慣, HC, Habits of Mind, 76 個思考習慣, 密涅瓦 HC, habits of mind and foundational concepts]
+aliases: [密涅瓦思考習慣, 思考習慣, HC, Habits of Mind, 76 個思考習慣, 密涅瓦 HC, habits of mind and foundational concepts, #constraint]
 category: 知識管理
 confidence: 已驗證
 created: 2026-07-03
@@ -11,6 +11,8 @@ created: 2026-07-03
 
 密涅瓦大學把人類最有用的底層思維，拆成 76 個可訓練、可測量的小單位，每一個都有清楚的定義、操作步驟和應用場景，像「思考的武功招式」一招一招練。李佳達《AI 超級大腦》用這套 HC（Habits of Mind）當骨架，教人先把思考習慣裝進 AI、再帶真實問題共學。
 
+<p align="center"><img src="assets/covers/minerva-hc-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **四大類**：批判思考（29 個）、創意思考（17 個）、溝通思考（10 個）、互動思考（20 個）。層級是「大類 → 子類別 → 單一 HC」，例如「批判思考 → 分析問題 →『問對問題』」。
@@ -19,6 +21,7 @@ created: 2026-07-03
 - **決策應用（CH5）**：《AI 超級大腦》CH5 十大案例把 HC 用在「AI 時代高風險商業決策」——每案配四個 HC 組成「一案四招鏈」、用五個卡關點導航，多數案例的病灶是「還沒界定問題就跳去算數字」（順序倒了）。CH5 用到約 37 個 HC（問對問題／變數控制／效用理論／決策樹／差距分析／估計／目的／受眾／論點陳述／偏誤檢驗／相關性／限制條件／最佳化／情境脈絡／媒介選擇／賽局理論／比較組／設計思考／網絡分析／證據基礎／演繹推理／當責／拆解問題／邏輯謬誤／建立假說／模型建構等），其中三個決策內核另抽卡（[[sunk-cost-fallacy]]／[[decision-metrics]]／[[option-value]]）、其餘掛清單不各開卡。
 - **對人跟 AI 都適用**：同一套思考習慣既能練自己、也能裝進 AI 讓它照著想（見 [[metacognition]]、[[tool-agnostic-thinking]]）。
 - **完整清單已存庫**：76 個 HC 的操作型定義、應用場景、檢查清單完整收在 [[1-learning/ai-super-brain/minerva-76-hc-catalog|76 個世界名校的思考習慣（完整清單）]]；要設計 HC 型 skill、查某一招怎麼用、或看檢查清單長怎樣時，直接翻這份。
+- **單招實例：#constraint**：先挑戰「這真的是限制嗎」，換個角度、借別人的力量就能繞過的不算限制；確定是真限制後，從它出發建造。李海碩把它接到貝佐斯「什麼不會變」，用來推出 AI 時代該學什麼。他也描述 Minerva 的評分：3 分是完整答對、4 分是還能講出馬上可用的應用、5 分是讓全班知識往前推一步的出乎意料應用。（李海碩於張修修節目訪談，2026-10-02 上架）
 
 ## 應用場景
 
@@ -42,3 +45,4 @@ created: 2026-07-03
 - [[2026-07-03-ai-super-brain-ch0]]
 - [[2026-07-06-ai-super-brain-ch4]]
 - [[2026-07-06-ai-super-brain-ch5]]
+- [[2026-10-03-haishuo-ai-era-good-enough]]（李海碩於張修修節目長訪談、第一手）

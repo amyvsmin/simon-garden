@@ -1,7 +1,7 @@
 ---
 title: "提示注入（Prompt Injection）"
 slug: prompt-injection
-aliases: [提示注入, prompt injection, prompt-injection, 間接提示注入, indirect prompt injection, 隱形指令注入, 提示詞注入]
+aliases: [提示注入, prompt injection, prompt-injection, 間接提示注入, indirect prompt injection, 隱形指令注入, 提示詞注入, 貼上內容標籤]
 category: 資安・軟體開發安全
 confidence: 已驗證
 created: 2026-06-13
@@ -17,6 +17,7 @@ created: 2026-06-13
 - **隱形手法**：注入指令常藏在人看不到、機器讀得到的地方。實例：Word 檔裡 1pt 的白底白字、行距壓到接近 0；或用「零寬度字元」（zero-width Unicode）把整段攻擊指令塞進視覺上一片空白的位置。肉眼審核因此擋不住。
 - **危害是「借手」不是「破解」**：注入不破解任何密碼或漏洞，而是借 AI 的手、用使用者的身份去做事——讀檔、跑 curl 外傳資料、刪改檔案。所以它能繞過「程式有沒有漏洞」這層思維。
 - **跟傳統注入同源**：本質跟 [[sql-injection]]、[[cross-site-scripting]] 一樣是 [[injection]] 家族——都是「把指令混進資料欄位、讓系統照著跑」。差別是這次被騙的執行者是 LLM。
+- **自己貼進對話框的文字是模型最難分的情境**：原文引述 Anthropic 說明，Opus 5.5 忽略網頁與工具結果中隱藏指令的能力是歷代 Opus 最好，但使用者自己貼進來的文字跟使用者指令在同一則訊息裡，模型未必分得清哪句是真指令。緩解做法是用標籤（例如 `<貼上內容>`）把外來文字包起來，並聲明除非使用者另外要求、標籤內的指令一律不執行；這是降低風險的手段、不是保證，原文沒有給測試數據。（數位時代整理 Ruben Hassid 轉述 Anthropic 指南）
 
 ## 應用場景
 
@@ -35,3 +36,4 @@ created: 2026-06-13
 
 ## 來源（自動維護）
 - [[2026-06-13-pansci-claude-skill-security]]
+- [[2026-10-03-claude-opus-5-5-prompting-tips]]

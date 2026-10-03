@@ -1,7 +1,7 @@
 ---
 title: "說服三支柱（Ethos／Pathos／Logos）"
 slug: persuasion-pillars
-aliases: [說服三支柱, 修辭三支柱, ethos pathos logos, ethos, pathos, logos, 亞里斯多德修辭學, persuasion pillars, persuasion-pillars, 讓對方在乎, 讓對方信, 讓對方覺得合理, rhetoric triangle]
+aliases: [說服三支柱, 修辭三支柱, ethos pathos logos, ethos, pathos, logos, 亞里斯多德修辭學, persuasion pillars, persuasion-pillars, 讓對方在乎, 讓對方信, 讓對方覺得合理, rhetoric triangle, 人味金字塔]
 category: 寫作・學習・職涯
 confidence: 已驗證
 created: 2026-07-06
@@ -11,6 +11,8 @@ created: 2026-07-06
 
 亞里斯多德《修辭學》提出的說服三支柱——ethos（讓對方信／信譽背書）、pathos（讓對方在乎／情感共鳴）、logos（讓對方覺得合理／邏輯論述），缺一不可。多數內容只有 logos，所以觀眾「覺得有道理但不行動」。
 
+<p align="center"><img src="assets/covers/persuasion-pillars-cover.png" alt="封面圖" width="400"></p>
+
 ## 關鍵面向
 
 - **三支柱缺一不可**：只有 logos（數據、邏輯）讓人點頭卻不動；補上 pathos（為什麼該在乎）跟 ethos（憑什麼信你）才驅動行動。Alex Hormozi 換成三支柱框架後流量少 7% 但行動人數多 5 倍。
@@ -18,6 +20,7 @@ created: 2026-07-06
 - **ethos 用具體可查的憑證**：「我分析了數千通銷售錄音、訓練了 50 家公司」比「我是專家」有力。
 - **用「不行動的代價」收尾**：說服不是讓人同意你、是讓人覺得「不行動才有代價」；多數內容只說「做了會怎樣」、沒說「不做會失去什麼」。Hormozi 四段結構＝恐懼開場（pathos）→問題診斷＋信譽建立（ethos）→簡單解法（logos）→不行動的代價（回 pathos）。
 - **跟 [[curse-of-knowledge]] 相鄰**：三支柱管「有沒有讓人在乎／信」、術語翻譯管「聽不聽得懂」，一起才讓非專家真的被說服。
+- **成立有先後，AI 時代可信度更重**：李海碩強調三者要依序建立：先讓人信你（Ethos），才輪得到打動情感與講道理（談教育的校長講減肥就沒說服力）；AI 讓產出情感與邏輯內容太容易，最後決勝在「你願意信誰」。主持人張修修另外提出「人味金字塔」這個框架，分三層：值得被人傳說的出格之舉、讓人感同身受的挫折與脆弱、言行一致的可信任，都要長期累積。（李海碩於張修修節目訪談，2026-10-02 上架）
 
 ## 應用場景
 
@@ -38,3 +41,4 @@ created: 2026-07-06
 ## 來源（自動維護）
 
 - [[2026-07-06-ai-super-brain-ch4]]
+- [[2026-10-03-haishuo-ai-era-good-enough]]（李海碩於張修修節目長訪談、第一手）
