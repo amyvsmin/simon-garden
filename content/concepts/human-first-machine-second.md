@@ -1,7 +1,7 @@
 ---
 title: "先人後機（Human First, Machine Second）"
 slug: human-first-machine-second
-aliases: [先人後機, Human First Machine Second, human first, 先人後機心法, 海碩四步學習法, AI 輔助學習四步法]
+aliases: [先人後機, Human First Machine Second, human first, 先人後機心法]
 category: 知識管理
 confidence: 已驗證
 created: 2026-07-19
