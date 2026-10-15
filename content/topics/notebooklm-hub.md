@@ -5,7 +5,7 @@ type: topic
 topic_kind: entity
 entity_type: product
 status: living
-aliases: [NotebookLM 彙整, NotebookLM hub, Gemini Notebook, Gemini Notebook 彙整]
+aliases: [NotebookLM 彙整, NotebookLM hub, Gemini Notebook 彙整]
 created: 2026-06-20
 last_updated: 2026-07-22
 tags:
