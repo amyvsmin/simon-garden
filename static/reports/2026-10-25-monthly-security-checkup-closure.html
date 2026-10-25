@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="report-title" content="每月資安體檢｜實作封板"><meta name="report-date" content="2026-10-25"><meta name="report-status" content="定案"><meta name="report-summary" content="每月 5 日 09:00 自動體檢四個服務並寄報告信；10 月正式報告已由排程跑出並寄達，兩個排程由 Simon 自行啟用中。"><meta name="report-format" content="2"><title>每月資安體檢｜實作封板</title>
+<style>
+:root{color-scheme:light;--bg:#f5f2e9;--paper:#fffdf7;--ink:#25352e;--muted:#57685f;--line:#bac6b9;--accent:#286248;--soft:#e4eee3;--warn:#83501b;--focus:#9d461b}
+[data-theme=dark]{color-scheme:dark;--bg:#18231f;--paper:#202f28;--ink:#f0efe6;--muted:#bfcec1;--line:#617668;--accent:#acd8b4;--soft:#31483a;--warn:#f7ce92;--focus:#ffbe89}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:32px 24px 70px}h1{font-size:clamp(1.8rem,5vw,2.9rem);line-height:1.3;margin:.4em 0}h2{font-size:1.35rem;line-height:1.5}h3{font-size:1.1rem}p{margin:.5em 0 1em}button,input,textarea{font:inherit}button{padding:10px 16px;background:var(--accent);color:var(--bg);border:2px solid var(--accent);border-radius:7px;cursor:pointer}button.secondary{background:transparent;color:var(--ink);border-color:var(--line)}button:disabled{opacity:.55;cursor:not-allowed}:focus-visible{outline:3px solid var(--focus);outline-offset:4px}a{color:var(--accent)}header,.section,fieldset,.summary{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:24px;margin:20px 0}fieldset{min-width:0}legend{font-weight:700;padding:0 6px}label{display:block}input[type=radio]{width:20px;height:20px;margin:4px 10px 0 0;flex-shrink:0;accent-color:var(--accent)}.choice{display:flex;align-items:flex-start;padding:12px;margin:10px 0;border:1px solid var(--line);border-radius:8px}.choice:has(input:checked){background:var(--soft);border-color:var(--accent)}.choice span{min-width:0}.hint,.source{color:var(--muted);font-size:.9rem}.cost{display:block;color:var(--muted);font-size:.9rem}textarea{width:100%;min-height:90px;margin:6px 0 12px;padding:12px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--ink);resize:vertical}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.badge{display:inline-block;background:var(--soft);padding:3px 10px;border-radius:30px;font-size:.9rem}.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;list-style:none;padding:0}.flow li{border-top:4px solid var(--accent);padding:12px;background:var(--soft)}.flow b{display:block}.warning{color:var(--warn);font-weight:650}#preview{min-height:340px;white-space:pre-wrap}#storageStatus,#copyStatus,#gateReason{min-height:1.75em}header,.section,.summary,fieldset,li,.source{overflow-wrap:anywhere}ul{padding-left:24px}[hidden]{display:none!important}@media(max-width:540px){main{padding:16px 12px 45px}header,.section,.summary,fieldset{padding:17px}.flow{grid-template-columns:1fr}button{width:100%}.toolbar{gap:10px}}
+</style>
+</head><body><main><button type="button" id="theme" class="secondary">切換深色</button><p id="fatal" class="warning" role="alert" hidden></p><header><span class="badge">成果展示 · 不承載決策</span><h1 id="title"></h1><p id="intro"></p><p id="identity" class="source"></p></header><div id="content"></div><section class="summary"><h2>成果摘要</h2><label for="preview">可複製的全文（唯讀）</label><textarea id="preview" readonly></textarea><button type="button" id="copy">複製成果摘要</button><p id="copyStatus" role="status"></p><p class="warning">成果展示，不承載採用或 GO，也不新增提交、部署或其他操作授權。</p></section><footer id="provenance" class="source"></footer></main>
+<!-- 作者須同步編輯 head 與下方唯一報告資料；JSON 字串中的 script 結束標籤須跳脫斜線。 -->
+<script type="application/json" id="report-data">
+{
+  "id": "monthly-security-checkup-closure",
+  "title": "每月資安體檢｜實作封板",
+  "date": "2026-10-25",
+  "status": "定案",
+  "summary": "每月 5 日 09:00 自動體檢四個服務並寄報告信；10 月正式報告已由排程跑出並寄達，兩個排程由 Simon 自行啟用中。",
+  "type": "成果",
+  "purpose": "成果",
+  "gate": "實作封板（plan 第 9 版 Task 3.1）",
+  "revision": 2,
+  "sourceVersion": "close-out-2026-10（結案提交 a0b2027e；成果提交 A 9e3245dd）",
+  "source": {
+    "path": "9-ops/reviews/monthly-security-checkup/close-out-2026-10.md",
+    "sha256": "7b13ea8cee68314857a2e85841bdca2af3f36cba76db477aeba4d853376c2d9a"
+  },
+  "validationRecord": "9-ops/reviews/monthly-security-checkup/page-validation.md",
+  "sections": [
+    {
+      "title": "改成什麼",
+      "source": "芙莉蓮：依結案紀錄、實作帳本與證據檔整理",
+      "text": "多了一套每月自動跑的資安體檢，對象是兩個 LINE bot、garden 與 cert-quiz 四個服務，全程唯讀。流程分兩層：先由固定程式收集事實（版本、相依套件、部署狀態、存取面），再交給權限受限的 AI 寫報告；報告要先通過機械檢查才算數，最後寄信給你。",
+      "items": [
+        "排程：每月 5 日 09:00 正式跑；每日 12:00 補跑，只有當月還沒成功才真的做，每月最多嘗試 3 次。",
+        "AI 只能在家目錄底下的專用工作區寫報告，讀不到金鑰與 .env，也寫不進 vault 或程式 repo；檢查通過才把報告搬回狀態目錄。",
+        "失敗時寄「[失敗]」通知信，每月最多 3 封；逾時時只有確認程序全部清空才說已清空，否則提醒你先人工檢查。"
+      ]
+    },
+    {
+      "title": "實測結果",
+      "source": "芙莉蓮：依結案紀錄、實作帳本與證據檔整理；排程啟用與手動執行是 Simon 本人的操作",
+      "text": "測試、探針、演練與真排程都跑過。2026-10-25 13:08 你手動觸發排程，13:13 結束：報告檢查合格、搬回核對相符、正式報告信「每月資安體檢 2026-10」寄達。",
+      "items": [
+        "自動測試 202 項全過（Windows Codex 審查者另跑一次也是 202 項全過）。",
+        "權限探針在正式位置跑：讀密鑰、寫 vault、寫 repo、執行指令、改受保護檔都被擋下，受保護檔前後雜湊相同。",
+        "演練兩次，第二次通過；建排程時兩個工作都停用，第二次執行判定設定相符。",
+        "審查：實作案 10 輪用完，封板審查另案 4 輪收斂，第 4 輪 9／10、零必改。",
+        "限制：探針第 9、10 項的拒絕來自工具「未讀先寫」前提與受限邊界，不是權限設定檔的訊息，已照實記在證據檔。"
+      ]
+    },
+    {
+      "title": "芙莉蓮改壞過什麼與怎麼發現",
+      "source": "芙莉蓮：依結案紀錄、實作帳本與證據檔整理",
+      "text": "過程中有幾次是設計或程式在實機上不成立，都是實跑或審查抓到、修好再驗。",
+      "items": [
+        "第一次探針發現 AI 權限的「Write 規則」根本不生效、.env 讀得到：改用 Edit 規則加絕對路徑禁讀，重跑探針通過。",
+        "第一次演練發現 AI 寫不進 .claude 底下：經你拍板改成工作區寫完再搬回（design revision 4）。",
+        "正式位置探針被 App 的套件虛擬化把 AppData 導走：經你拍板工作區改到家目錄（design revision 5），並加跨執行環境交叉檢查。",
+        "第一次正式演練的報告沒逐筆列存取面路徑：提示詞補一張存取面結果表後重跑。",
+        "封板審查抓到：探針證據寫得太滿、單筆網址壞掉會拖累整組、npm audit 缺欄被當零漏洞、排程比對漏查兩個啟動條件、逾時通知把「沒確認清空」說成「已清空」。全部改好並補測試，其中幾項用「故意改壞確認測試會紅」驗過。",
+        "我自己寫錯一個整合測試的預期（以為正式與演練工作區會並存），程式是對的，改測試。"
+      ]
+    },
+    {
+      "title": "還原方式",
+      "source": "芙莉蓮：依結案紀錄、實作帳本與證據檔整理",
+      "text": "要暫停體檢，停用兩個排程即可，不必動程式：在 PowerShell 執行 Disable-ScheduledTask -TaskPath '\\Frieren\\' -TaskName 'Security-Checkup'，以及同樣指令把名稱換成 Security-Checkup-Retry。要整個撤掉，再以 git revert 依序還原成果提交 9e3245dd、99046ce4、081fefaf、07fa2308、0fc05542 並刪除兩個工作；還原只動本案這幾筆提交，不影響其他對話之後的提交。",
+      "items": []
+    },
+    {
+      "title": "我沒替你決定的事",
+      "source": "芙莉蓮：依結案紀錄、實作帳本與證據檔整理",
+      "text": "下面這些我刻意沒動，攤給你看，不等回覆。",
+      "items": [
+        "10 月報告列出的需處理與待查項目要不要處理、先處理哪些（Simon 已決定另開對話處理；具體項目不放在本頁）。",
+        "兩個排程要不要一直開著：目前是你 13:05、13:06 自己啟用的，計畫原本寫交回時仍停用。",
+        "本頁已依 Simon 2026-10-25 決定列入 Garden 發布清單；要撤下時在清單該檔名前加 #。"
+      ]
+    }
+  ],
+  "questions": []
+}
+</script>
+<script>
+(() => {
+'use strict';
+const $=id=>document.getElementById(id),el=(tag,text,cls)=>{const n=document.createElement(tag);n.textContent=text;if(cls)n.className=cls;return n;};
+let d;
+try{
+ const blocks=[...document.querySelectorAll('script[type="application/json"]')];if(blocks.length!==1)throw Error('報告資料必須恰有一份。');d=JSON.parse(blocks[0].textContent);
+ if(!/^[a-z0-9][a-z0-9-]*$/.test(d.id)||!Number.isInteger(d.revision)||d.revision<1||!/^\d{4}-\d{2}-\d{2}$/.test(d.date)||new Date(d.date+'T00:00:00Z').toISOString().slice(0,10)!==d.date)throw Error('識別、版號或日期不合法。');
+ if(d.type!=='成果'||d.purpose!=='成果'||!['定案','先停'].includes(d.status)||!Array.isArray(d.questions)||d.questions.length)throw Error('成果頁用途或題目不合法。');
+ if(!d.source||typeof d.source.path!=='string'||!d.source.path.trim()||d.source.path.startsWith('/')||d.source.path.includes('\\')||d.source.path.split('/').includes('..')||!/^[a-f0-9]{64}$/.test(d.source.sha256))throw Error('來源路徑或雜湊不合法。');
+ for(const k of ['title','summary','gate','sourceVersion','validationRecord'])if(typeof d[k]!=='string'||!d[k].trim())throw Error('缺少 '+k+'。');
+ for(const k of ['title','date','status','summary']){const m=[...document.querySelectorAll('meta[name="report-'+k+'"]')];if(m.length!==1||m[0].parentElement!==document.head||m[0].content!==d[k])throw Error('meta 與資料不符：'+k);}
+ if(document.querySelectorAll('meta[name="report-format"]').length!==1||document.querySelector('head meta[name="report-format"]')?.content!=='2')throw Error('需要 report-format=2。');
+ const required=['改成什麼','實測結果','芙莉蓮改壞過什麼與怎麼發現','還原方式','我沒替你決定的事'];
+ if(!Array.isArray(d.sections)||required.some(t=>!d.sections.some(s=>s.title===t&&typeof s.text==='string'&&s.text.trim())))throw Error('成果五塊不完整。');
+}catch(e){$('fatal').hidden=false;$('fatal').textContent='頁面資料有誤，請勿視為有效成果：'+e.message;$('copy').disabled=true;return;}
+const quote=t=>String(t).split(/\r\n|\r|\n/).map(line=>'> '+line).join('\n');
+$('title').textContent=d.title;$('intro').textContent=d.summary;$('identity').textContent=d.id+'｜頁面修訂版 '+d.revision+'｜來源版本 '+d.sourceVersion+'｜'+d.date;
+const lines=['【'+d.title+'｜成果摘要】','報告識別：'+d.id,'頁面用途：成果','關卡：'+d.gate,'頁面修訂版：'+d.revision+'｜來源版本：'+d.sourceVersion,'來源：'+d.source.path,'來源 SHA-256：'+d.source.sha256];
+for(const s of d.sections){const section=el('section','','section');section.append(el('h2',s.title),el('p',s.source,'source'),el('p',s.text));lines.push('',s.title+'：',quote(s.text));if(s.items){const ul=el('ul','');for(const t of s.items){ul.append(el('li',t));lines.push(quote(t));}section.append(ul);}$('content').append(section);}
+lines.push('','回覆範圍：成果展示，不承載採用或 GO，也不新增提交、部署或其他操作授權。');$('preview').value=lines.join('\n');
+$('provenance').textContent='來源：'+d.source.path+'｜SHA-256 '+d.source.sha256+'｜驗證紀錄：'+d.validationRecord+'。本頁不收集或保存作答。';
+$('theme').addEventListener('click',()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';$('theme').textContent=dark?'切換淺色':'切換深色';});
+$('copy').addEventListener('click',async()=>{try{if(!navigator.clipboard?.writeText)throw Error('瀏覽器不提供自動複製');await navigator.clipboard.writeText($('preview').value);$('copyStatus').textContent='成果摘要已複製，請自行貼回對話。';}catch(e){$('preview').focus();$('preview').select();$('copyStatus').textContent='自動複製不可用（'+e.message+'）。已選取全文，請按 Ctrl+C（Mac：⌘C）或長按選取複製。';}});
+})();
+</script></body></html>
