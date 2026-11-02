@@ -8,7 +8,7 @@ created: 2026-05-09
 ---
 
 ## 定義
-找出哪些系統／應用尚未套用安全修補、決定何時／如何更新、追蹤完成率的流程；是漏洞管理（vulnerability management）的執行端、ISO 27001 A.12.6.1 直接對應、Course 5 Vulnerabilities 主場。
+找出哪些系統／應用尚未套用安全修補、決定何時／如何更新、追蹤完成率的流程；是漏洞管理（vulnerability management）的執行端、ISO 27001 A.12.6.1（2022 版 A.8.8）直接對應、Course 5 Vulnerabilities 主場。
 
 ## 關鍵面向
 - **典型流程**：

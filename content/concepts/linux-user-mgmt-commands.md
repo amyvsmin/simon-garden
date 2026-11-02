@@ -9,7 +9,7 @@ created: 2026-05-10
 
 ## 定義
 
-完整 user lifecycle 的命令工具集——sudo 提權 / useradd 建 / passwd 設密 / usermod 改 / userdel 刪 / groupadd / groupdel。對應 ISO 27001 A.9.2.x（user lifecycle）的全部要求。
+完整 user lifecycle 的命令工具集——sudo 提權 / useradd 建 / passwd 設密 / usermod 改 / userdel 刪 / groupadd / groupdel。對應 ISO 27001 A.9.2.x（2022 版 A.5.16～A.5.18 與 A.8.2；user lifecycle）的全部要求。
 
 ## 完整 user lifecycle SOP
 
@@ -66,7 +66,7 @@ sudo groupdel simon                          # 清 useradd 自動建的同名 gr
 
 - **Simon 工作場景**：
   - 新人入職、季度離職、外包合約到期帳號全靠這套
-  - ISO 27001 A.9.2.1 / A.9.2.5 / A.9.2.6 落實
+  - ISO 27001 A.9.2.1 / A.9.2.5 / A.9.2.6 落實（2022 版 A.5.16、A.5.18）
   - 公司 audit 季度 `getent passwd | grep -v "^_"` 列所有 user
 - **IR**：被入侵後馬上看 sudo log、看攻擊者借誰的權限
 

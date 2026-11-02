@@ -60,7 +60,7 @@ sudo groupdel simon                      # 清 useradd 自動建的同名 group
 
 ## 應用場景
 
-- **Simon 工作場景**：公司 ISO 27001 A.9.2.6（access right removal）對應；HR 通知離職→IT 標準 SOP 跑這套
+- **Simon 工作場景**：公司 ISO 27001 A.9.2.6（2022 版 A.5.18；access right removal）對應；HR 通知離職→IT 標準 SOP 跑這套
 - **資安實務**：跟密碼過期（`chage`）配合用、構成完整 user lifecycle
 
 ## 相關概念

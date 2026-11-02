@@ -20,7 +20,7 @@ Linux 系統的最高權限帳號、UID 0、可建／改／刪任何檔、跑任
 
 ## 應用場景
 
-- **Simon 工作場景**：公司 Linux server 一律 disable root SSH、日常用普通帳號 + sudo；ISO 27001 A.9.2.3（特權存取管理）對應 root 使用控管
+- **Simon 工作場景**：公司 Linux server 一律 disable root SSH、日常用普通帳號 + sudo；ISO 27001 A.9.2.3（2022 版 A.8.2；特權存取管理）對應 root 使用控管
 - **災難避免**：以普通 user 登入、需要 root 權限再 sudo
 
 ## 相關概念

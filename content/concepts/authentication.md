@@ -20,7 +20,7 @@ created: 2026-05-10
 
 ## 應用場景
 
-- **Simon 工作場景**：公司 Linux server SSH key + sudo 密碼雙重驗證、ISO 27001 A.9.2.4（管理 secret authentication）控制項落實、Omnissa Workspace ONE MDM 對筆電的身份驗證
+- **Simon 工作場景**：公司 Linux server SSH key + sudo 密碼雙重驗證、ISO 27001 A.9.2.4（2022 版 A.5.17；管理 secret authentication）控制項落實、Omnissa Workspace ONE MDM 對筆電的身份驗證
 - **一般場景**：登入流程、API key 驗證、Federation（SAML / OIDC）
 
 ## 相關概念

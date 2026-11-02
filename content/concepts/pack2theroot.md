@@ -20,7 +20,7 @@ PackageKit 套件管理服務的本機權限提升漏洞，CVE-2026-41651、CVSS
 
 ## 應用場景
 
-- Simon 工作場景：ISO 27001 A.12.6.1 技術性弱點管理案例；Google Cyber Course 3 權限提升真實案例；CISSP Domain 3/7 記憶錨點
+- Simon 工作場景：ISO 27001 A.12.6.1（2022 版 A.8.8）技術性弱點管理案例；Google Cyber Course 3 權限提升真實案例；CISSP Domain 3/7 記憶錨點
 - 一般場景：Linux 主機修補、稽核、漏洞管理
 
 ## 相關概念

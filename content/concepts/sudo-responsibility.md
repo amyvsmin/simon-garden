@@ -63,7 +63,7 @@ sudo grep "COMMAND" /var/log/auth.log | tail -20
 
 ## 應用場景
 
-- **Simon 工作場景**：公司 Linux server 一律 disable root SSH（`PermitRootLogin no`）、所有 admin 動作走 sudo；ISO 27001 A.9.2.3（特權存取管理）對應 sudoers 設計
+- **Simon 工作場景**：公司 Linux server 一律 disable root SSH（`PermitRootLogin no`）、所有 admin 動作走 sudo；ISO 27001 A.9.2.3（2022 版 A.8.2；特權存取管理）對應 sudoers 設計
 - **IR**：被入侵後馬上看 sudo log、追攻擊者借誰的權限做什麼
 
 ## 相關概念
