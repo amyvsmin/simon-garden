@@ -51,7 +51,7 @@ ls -la /tmp | awk '{print $3, $9}'
 
 ## 應用場景
 
-- **Simon 工作場景**：公司 ISO 27001 A.12.6.1（漏洞管理）+ A.16.1.5（IR）對應 /tmp 監控；Linux server hardening checklist 必含 `/tmp noexec`
+- **Simon 工作場景**：公司 ISO 27001 漏洞管理（2013 版 A.12.6.1、2022 版 A.8.8）＋事件回應（2013 版 A.16.1.5、2022 版 A.5.26）對應 /tmp 監控；Linux server hardening checklist 必含 `/tmp noexec`
 - **CC / SSCP 考點**：常考 /tmp 為何 world-writable + sticky bit 的設計理由
 
 ## 相關概念

@@ -17,7 +17,7 @@ created: 2026-05-25
 - **事件從哪裡開始**：什麼算事件、要不要升級，見 [[security-incident]]、[[incident-classification]]、[[incident-escalation]]
 
 ## 應用場景
-- **Simon 工作場景**：ISO 27001 A.16 資安事件管理的核心；月度資安 KPI 簡報需回報事件統計；公司 IR 計畫文件維護；Veeam 備份是復原的關鍵工具；自製的 incident-response skill 六階段可對齊 [[incident-response-lifecycle]] 校準
+- **Simon 工作場景**：ISO 27001 資安事件管理的核心（2013 版 A.16；2022 版拆成 A.5.24～A.5.27 與 A.6.8）；月度資安 KPI 簡報需回報事件統計；公司 IR 計畫文件維護；Veeam 備份是復原的關鍵工具；自製的 incident-response skill 六階段可對齊 [[incident-response-lifecycle]] 校準
 - **一般場景**：SOC 團隊日常、勒索軟體事件處理、GDPR 72 小時通報義務、資安保險理賠需要 IR 紀錄
 
 ## 相關概念

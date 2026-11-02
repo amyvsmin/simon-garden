@@ -41,7 +41,7 @@ sudo find / -mmin -30 -type f
 
 ## 應用場景
 
-- **Simon 工作場景**：公司若疑似入侵、馬上跑 `find / -mtime -1` + `grep` 找新植入；ISO 27001 A.16.1.5（資安事件回應）對應 IR 流程
+- **Simon 工作場景**：公司若疑似入侵、馬上跑 `find / -mtime -1` + `grep` 找新植入；ISO 27001 資安事件回應（2013 版 A.16.1.5、2022 版 A.5.26）對應 IR 流程
 - **forensics 必修**：取 image 後在分析機跑、不在 production 跑
 
 ## 相關概念
