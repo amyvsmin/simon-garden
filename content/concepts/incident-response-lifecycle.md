@@ -8,14 +8,14 @@ created: 2026-06-05
 ---
 
 ## 定義
-NIST 專為事件應變展開的四階段框架，是 [[nist-csf]] 在事件應變這塊的細化版。四階段為：準備（Preparation）→ 偵測與分析（Detection and Analysis）→ 遏制、根除與復原（Containment, Eradication, and Recovery）→ 事後活動（Post-incident activity）。它不是線性流程，而是循環——調查過程冒出新發現時，階段之間會重疊、往回走。是 Course 6「Sound the Alarm」的組織骨架。
+NIST SP 800-61 Rev. 2（2012）定義的事件應變四階段框架，課程把它對照到 [[nist-csf]] 的 detect／respond／recover 來教。四階段為：準備（Preparation）→ 偵測與分析（Detection and Analysis）→ 遏制、根除與復原（Containment, Eradication, and Recovery）→ 事後活動（Post-incident activity）。它不是線性流程，而是循環——調查過程冒出新發現時，階段之間會重疊、往回走。是 Course 6「Sound the Alarm」的組織骨架。
 
 ## 關鍵面向
-- **準備（Preparation）**：IR 計畫文件化、CSIRT 組隊、工具與日誌備齊、定期演練
-- **偵測與分析（Detection and Analysis）**：靠偵測工具與 log 找出事件、判嚴重度、釐清五個 W
-- **遏制、根除與復原（Containment, Eradication, and Recovery）**：隔離、清除、修補、從乾淨備份還原
-- **事後活動（Post-incident activity）**：覆盤、final report、把新 IOC 回饋偵測
-- **循環非線性**：步驟會重疊、可回頭，跟 [[incident-response]] 的 NIST SP 800-61 四階段一致
+- **準備（Preparation）**：IR 計畫文件化、CSIRT 組隊、工具、runbook 與日誌備齊、定期演練
+- **偵測與分析（Detection and Analysis）**：靠 [[log]] 分析、[[anomaly-detection]] 告警與 IOC（入侵指標）比對找出事件，判嚴重度（severity）、釐清五個 W
+- **遏制、根除與復原（Containment, Eradication, and Recovery）**：遏制分短期（先隔離受影響系統止血）與長期（修補漏洞後再重新上線）；根除是清除惡意程式、修補漏洞；復原是從乾淨備份還原並驗證系統完整性
+- **事後活動（Post-incident activity）**：Lessons Learned 覆盤、final report、更新 IR 計畫、把新 IOC 回饋偵測系統
+- **循環非線性**：步驟會重疊、可回頭；這是 NIST SP 800-61 Rev. 2（2012）的四階段，2025-04 的 Rev. 3 已取代 Rev. 2，改以 [[nist-csf]] 2.0 為框架談事件回應；是否完全取代四階段圖待驗證（見 [[incident-response]] 的框架版本說明）
 - **資安署在地操作化版本**：準備 → 偵測與應變處理 → 通報與外部溝通 → 復原與持續改善；這是強調治理與溝通的互補變體，不取代 NIST 骨架
 
 ## 應用場景
@@ -23,7 +23,9 @@ NIST 專為事件應變展開的四階段框架，是 [[nist-csf]] 在事件應�
 - **一般場景**：SOC 日常事件處理、勒索軟體應變、SSCP／CISSP 必考骨架
 
 ## 相關概念
-- [[incident-response]]：本生命週期是它的結構化展開（NIST SP 800-61 四階段）
+- [[incident-response]]：母卡（定義、重要性、導覽）；本卡是它的結構化展開，四階段細節統一放在這裡
+- [[log]]、[[anomaly-detection]]：偵測與分析階段的資料來源與機制
+- [[patch-management]]：根除階段常需要緊急修補
 - [[nist-csf]]：上層風險管理框架，IR 生命週期聚焦其 detect／respond／recover
 - [[csirt]]：執行此生命週期的團隊
 

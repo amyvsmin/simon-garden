@@ -25,7 +25,7 @@ created: 2026-06-23
 - [[triage]]：升級前的分流動作，決定輕重緩急
 - [[escalation-policy]]：規範「升給誰、怎麼升」的文件
 - [[incident-criticality]]：判斷該不該升、多急的依據
-- [[security-incident]]：升級處理的對象（造成或可能造成外洩的事件）
+- [[security-incident]]：升級處理的對象（已經或即將危害 CIA、或違反政策的事件，不限已外洩）
 - [[incident-response]]：事件升級是 IR 流程的一環
 
 ## 來源

@@ -29,7 +29,7 @@ created: 2026-07-02
 
 - [[cvss]]：KEV 的實證權重可以蓋過 CVSS 的理論分數
 - [[epss]]：EPSS 預測會不會被打、KEV 證實已經被打
-- [[vulnerability-prioritization]]：KEV 是漏斗式篩選的最後一層強制過濾
+- [[vulnerability-prioritization]]：講者的漏斗案例把 KEV 放最後一層；要做到「無論 CVSS／EPSS 分數都強制優先」，KEV 必須獨立置頂、不能接在前兩層分數篩選之後
 - [[supply-chain-risk]]：華碩回溯補登記案例即供應鏈攻擊的歷史漏洞
 
 ## 尚未解決的疑問

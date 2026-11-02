@@ -13,7 +13,7 @@ for 迴圈是 [[iterative-statement]] 的一種，對「指定的序列」重複
 
 ## 關鍵面向
 
-- **結構**：`for i in 序列:` 接縮排 body；[[loop-variable]] 緊接 `for`（常叫 `i`、只在迴圈內用）
+- **結構**：`for i in 序列:` 接縮排 body；[[loop-variable]] 緊接 `for`（常叫 `i`；習慣上只在迴圈內用，但迴圈結束後變數仍存在，見 [[loop-variable]]）
 - **`in` 運算子的兩種用途**：for 裡接「要走訪的序列」；條件式裡判斷「物件是否屬於某序列」（如 `if "elarson" in [...]`）
 - **可走訪對象**：list、字串（逐字元），以及 [[range-function]] 產生的數字序列
 - **流程控制**：body 內可用 `break`（跳出）、`continue`（跳過本次迭代）

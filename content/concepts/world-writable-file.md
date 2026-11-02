@@ -60,8 +60,10 @@ find /var/www -perm -o+w -type f -exec chmod o-w {} \;
 ```bash
 chmod -R 777 /var/www              # 整個 web root 開放
 chmod 777 /etc/sudoers             # sudoers 變 world-writable = 提權門票
-chmod 777 /home                    # 任何 user 可改任何 user 的檔
+chmod 777 /home                    # /home 目錄本身變 world-writable（見下）
 ```
+
+`chmod 777 /home` 沒有 `-R`，只改 `/home` 這個目錄本身。依 [[file-permissions]]，目錄的 w 是「增刪目錄項目」：任何使用者都能在 `/home` 底下新增、改名、刪除項目（例如把別人的家目錄改名、再建一個同名目錄頂替），但不會因此取得改寫別人家目錄內檔案的權限，那要看各家目錄與檔案自己的權限。加了 `-R` 才會把所有後代一起放寬，那才是「任何人可改任何人的檔」。（改名頂替的例子依 Linux 目錄權限規則推得，本次無 Linux 環境、未實測。）
 
 **鐵律**：聽到「chmod 777」立刻警覺、99% 是設計錯誤。
 
@@ -74,7 +76,7 @@ chmod 777 /home                    # 任何 user 可改任何 user 的檔
 
 - [[file-permissions]]：world-writable 是其常見錯誤
 - [[linux-permission-commands]]：chmod 是修復工具
-- [[tmp-attack-surface]]：唯一合法 world-writable 案例
+- [[tmp-attack-surface]]：最常見的合法 world-writable 案例（另有 `/var/tmp`、mail spool、部分服務的 lock 目錄，見「例外」段）
 - [[principle-of-least-privilege]]：world-writable 是違反此原則的典型
 
 ## 來源

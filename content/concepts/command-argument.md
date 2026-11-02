@@ -9,7 +9,7 @@ created: 2026-05-10
 
 ## 定義
 
-命令所需的具體資訊、補在命令後面、缺了命令不完整。例：`echo "Hello"` 中的 `"Hello"` 是 echo 的 argument。一個命令可接 0~多個 argument。跟 [[command-options]]（修改命令行為的 flag）成對。
+補在命令後面、告訴命令要操作什麼對象的具體資訊。有些命令少了必要的 argument 就無法完成（如 `mkdir` 沒給目錄名會報錯），有些命令不接也能跑（如 `ls` 預設列出目前目錄）。例：`echo "Hello"` 中的 `"Hello"` 是 echo 的 argument。一個命令可接 0~多個 argument。跟 [[command-options]]（修改命令行為的 flag）成對。
 
 ## 關鍵面向
 
@@ -21,7 +21,7 @@ created: 2026-05-10
 ## 應用場景
 
 - **Simon 工作場景**：寫 shell script 時、`$1`、`$2` 等 positional parameter 取用 argument；命令行內互動時為大宗
-- **資安 IR**：`grep PATTERN FILE` 兩個 argument 缺一不可
+- **資安 IR**：`grep PATTERN FILE` 的 PATTERN 必填；FILE 可省略，省略時 grep 改讀標準輸入（如 `cat auth.log | grep Failed`）
 
 ## 相關概念
 

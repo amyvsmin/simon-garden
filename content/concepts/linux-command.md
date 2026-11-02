@@ -13,7 +13,7 @@ created: 2026-05-10
 
 ## 關鍵面向
 
-- **三段結構**：command + options + arguments（缺一不可、order 通常固定）
+- **三段結構是概念圖、不是每次都要寫滿**：只有 command 必填；options 與 arguments 是否必要看各命令與用法，例如 `ls` 可以什麼都不接、`mkdir` 一定要接目錄名、`grep` 要接 PATTERN。順序通常是 options 在前、arguments 在後，但不少命令也接受混排
 - **case sensitive**：`LS` 跟 `ls` 不同
 - **可組合**：用 [[stdin-stdout-stderr]] 跟 pipe 把多命令串起來
 - **找命令**：[[linux-help-commands]] 的 man / whatis / apropos 三件套
